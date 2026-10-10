@@ -1,4 +1,620 @@
 {
+  "biochemistry/topic01/bbq-MATCH-biochemical_functional_groups-questions.txt": {
+    "output_fingerprint": "f4b1dd8d264e25c6219c209b2e265fbdef1c7650ea1cf59b15210c97f2d1cd7d",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "1f9dc301111a6f97f4fe00606949528e2bb13187d9cf11be0ef47352a18668bc",
+    "source_id": "33840e6a8a715ce3680104b5cc5f0215cf267a90:matching_sets/biochemical_functional_groups.yml",
+    "source_path": "problems/matching_sets/biochemistry/biochemical_functional_groups.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic01/bbq-MATCH-macromolecules-biol301-questions.txt": {
+    "output_fingerprint": "e7a2758aaebf758f4686720f3deab6e35861a81f8d0433d665c253f164bcd59d",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "0a2de0e4a446d907cb4a290a73f9ad26f04c2f7eb0b00fbc04c96794493c2ec6",
+    "source_id": "f959ca3da7ae33b00a94918f345253a979bede3b:matching_sets/macromolecules-biol301.yml",
+    "source_path": "problems/matching_sets/biochemistry/macromolecules-biol301.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic01/bbq-MATCH-macromolecules-questions.txt": {
+    "output_fingerprint": "c141e8c8ce65e970456ce8939bc4102c55959ea1c0faa5a56be58bf8705168cf",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "1b9f925ee20413dca16ff35208b667692fe4d38362f2b868492fb43be055cc5b",
+    "source_id": "183ee943865b153c3456c7817373cf33f01cba58:matching_sets/macromolecules.yml",
+    "source_path": "problems/matching_sets/biochemistry/macromolecules.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic01/bbq-WOMC-biochemical_functional_groups-questions.txt": {
+    "output_fingerprint": "f0dbd793751b77775e518cfa0e5a943743ea977eab925ee1f3f07366763c39e5",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "1f9dc301111a6f97f4fe00606949528e2bb13187d9cf11be0ef47352a18668bc",
+    "source_id": "33840e6a8a715ce3680104b5cc5f0215cf267a90:matching_sets/biochemical_functional_groups.yml",
+    "source_path": "problems/matching_sets/biochemistry/biochemical_functional_groups.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic01/bbq-WOMC-macromolecules-biol301-questions.txt": {
+    "output_fingerprint": "ca73df2d039b7881309ca60452eb7d22a305513720953724ea0942affe9cc221",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "0a2de0e4a446d907cb4a290a73f9ad26f04c2f7eb0b00fbc04c96794493c2ec6",
+    "source_id": "f959ca3da7ae33b00a94918f345253a979bede3b:matching_sets/macromolecules-biol301.yml",
+    "source_path": "problems/matching_sets/biochemistry/macromolecules-biol301.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic01/bbq-WOMC-macromolecules-questions.txt": {
+    "output_fingerprint": "de90bcf62e3998c1bcc38b53f80a72463735cb51e120071be399377f567bf76e",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "1b9f925ee20413dca16ff35208b667692fe4d38362f2b868492fb43be055cc5b",
+    "source_id": "183ee943865b153c3456c7817373cf33f01cba58:matching_sets/macromolecules.yml",
+    "source_path": "problems/matching_sets/biochemistry/macromolecules.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic04/bbq-MATCH-levels_of_protein_structure-questions.txt": {
+    "output_fingerprint": "f9e555713cfc557bf0c2c2cbbee93ae9a466b3867b5bb63416065139eaf89176",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "be3e986449827a5686369f292f573250a2b0b1da12704590d17abeb778e37504",
+    "source_id": "45bc6f30ae60497306a94e435a96264422cd85ae:matching_sets/levels_of_protein_structure.yml",
+    "source_path": "problems/matching_sets/biochemistry/levels_of_protein_structure.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic04/bbq-WOMC-levels_of_protein_structure-questions.txt": {
+    "output_fingerprint": "c45bbd73e911d516fbaea561950e4e0fc4e038bedec0ebaa0fb28710d2b4420a",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "be3e986449827a5686369f292f573250a2b0b1da12704590d17abeb778e37504",
+    "source_id": "45bc6f30ae60497306a94e435a96264422cd85ae:matching_sets/levels_of_protein_structure.yml",
+    "source_path": "problems/matching_sets/biochemistry/levels_of_protein_structure.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic05/bbq-MATCH-cell_disruption-questions.txt": {
+    "output_fingerprint": "4160f40cceb7111c15841157901abb5409e347eedaf897a367406877cc9dc1dd",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "6c58239a3a95d00a36c35616d07e7d80647b9968ec4418b6ff0c7bc4a6c15b2d",
+    "source_id": "964b2003d2e1ad894cafc46fd40efc2c020aafc5:matching_sets/cell_disruption.yml",
+    "source_path": "problems/matching_sets/laboratory/cell_disruption.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic05/bbq-MATCH-column_chromatography-questions.txt": {
+    "output_fingerprint": "846c566f3e2614ebe4d2e5613599299648b77a828092d8599e449b25eae01dfe",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "f79b481ce23d6b9ee48f72e725dee0c8f5cdc2f077efbc7ea94d104ae0c7455f",
+    "source_id": "192c3df39acae5f10cb249494606c5db99191884:matching_sets/chromatography.yml",
+    "source_path": "problems/matching_sets/laboratory/column_chromatography.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic05/bbq-WOMC-cell_disruption-questions.txt": {
+    "output_fingerprint": "dbdf7ac085f02d2121c7f62386934bb0d58527bd171bc6b6a345174108c5a686",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "6c58239a3a95d00a36c35616d07e7d80647b9968ec4418b6ff0c7bc4a6c15b2d",
+    "source_id": "964b2003d2e1ad894cafc46fd40efc2c020aafc5:matching_sets/cell_disruption.yml",
+    "source_path": "problems/matching_sets/laboratory/cell_disruption.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic05/bbq-WOMC-column_chromatography-questions.txt": {
+    "output_fingerprint": "63219060c1b90ed9734c4db20a3b102b98123ed1972ce422dc77947270c32264",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "f79b481ce23d6b9ee48f72e725dee0c8f5cdc2f077efbc7ea94d104ae0c7455f",
+    "source_id": "192c3df39acae5f10cb249494606c5db99191884:matching_sets/chromatography.yml",
+    "source_path": "problems/matching_sets/laboratory/column_chromatography.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic06/bbq-TFMS-chemical_reactions-questions.txt": {
+    "output_fingerprint": "919204b7610b461587eccc1e7afb9a2abd2f8b1dc618f560ecc3508eab3e1726",
+    "source_commit": "98dba9da687edf8b3c6656fbf7dc8fed7fd97b68",
+    "source_fingerprint": "b00ca6ecea6f83d557e1e2a810e2f2990db81dfffa81d99bacecdfac99d56a8a",
+    "source_id": "3ef3230b6114d8008d68ffb6b02c256ac6b1b794:multiple_choice_statements/chemical_reactions.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/chemical_reactions.yml",
+    "source_updated": "2026-03-05"
+  },
+  "biochemistry/topic06/bbq-TFMS-enzyme_cofactors-questions.txt": {
+    "output_fingerprint": "be425d9f75ac60771ee54defe2ac09a2cd8ef6b17be1e969c55b12a02946f19f",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "1a7a5fd7b444b28fa59737fd406d10a1ba7bfb12602929a803398ec69ca2d0ce",
+    "source_id": "b1a0f1812cea587a8c3926c6c1e5f35e11a99447:multiple_choice_statements/enzyme_cofactors.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/enzyme_cofactors.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic06/bbq-TFMS-enzyme_equilibrium-questions.txt": {
+    "output_fingerprint": "e9399fcb35fd012723c4c145402a3b8aaa48f83d223500289385c85bc958f57f",
+    "source_commit": "c188d417f2de5dfe6cbb9f0664cf73bd5d85382c",
+    "source_fingerprint": "b242cf08d2ffb9d68d02031c7ae137cc0e48b1c74460fd98061eab9dc7bb88b5",
+    "source_id": "99e3d9a872ee33981a7e62cf90a29c81b56ddd0f:multiple_choice_statements/enzyme_kinetics.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/enzyme_equilibrium.yml",
+    "source_updated": "2026-03-14"
+  },
+  "biochemistry/topic06/bbq-TFMS-gibbs_free_energy_equation-questions.txt": {
+    "output_fingerprint": "361600ca73f3b428e56367df3862fc3c03679fe90e8c3832ba5a1f303f241fca",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "0b2456822f52f34e874f44b6c1d77e6b3efceedbd64662cd390b6a2138b9bc35",
+    "source_id": "8c815220d4bacf8a5cb234f359563bef1b3ab0af:multiple_choice_statements/free_energy_equation.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/gibbs_free_energy_equation.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic06/bbq-TFMS-potential_v_kinetic_energy-questions.txt": {
+    "output_fingerprint": "23249fb2e0f5dbe2bdfb8a09e43872f6c7d7dc5b9d6cec8785455256cb9265fc",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "342cd2756c6a04080106a95dcb7d4c6acf689e392c585755ed347691f8a15863",
+    "source_id": "b5b55a866fcfdcabcd84010d914b392ddcb77b7c:multiple_choice_statements/potential_v_kinetic_energy.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/potential_v_kinetic_energy.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic06/bbq-TFMS-thermodynamics-questions.txt": {
+    "output_fingerprint": "022a272009480713a87ad9bd8dd8058c07794eab37a23b7fff2c951cbd108bdb",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "33989851eb14629e5b9061f99e5e85a9436d4e347fbf19d1e9d0012d4390fae4",
+    "source_id": "c2e5c4ce59376fd7925588f3a9b9c8ff2c933726:multiple_choice_statements/thermodynamics.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/thermodynamics.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic06/bbq-TFMS-which_enzyme-questions.txt": {
+    "output_fingerprint": "540479bdd5395bbbd64e6dfb9be21f4782ec176187683f494a15ae2c525ad44e",
+    "source_commit": "2be140127c1c7a6befc6c72c48f9f9b98c3686cb",
+    "source_fingerprint": "826e5877dfd07a249a04d8ca4a428ab2fb5ee1b02f9748ee24a5a492616d3da1",
+    "source_id": "f5fae70b9e601efae8ffd05cb484155fdcf7222b:multiple_choice_statements/which_enzyme.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/which_enzyme.yml",
+    "source_updated": "2026-03-05"
+  },
+  "biochemistry/topic07/bbq-TFMS-m-m_kinetics-questions.txt": {
+    "output_fingerprint": "0e66244b9bbb13f23372a5214af06f682a931444e04e584d4f244bcffc2bff93",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "d0e70d91a18ef35c64d0b5fb26de43bab4cacd2fa6f19b7cc5ea894213fc8a35",
+    "source_id": "3ef3230b6114d8008d68ffb6b02c256ac6b1b794:multiple_choice_statements/m-m_kinetics.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/m-m_kinetics.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic08/bbq-TFMS-catalytic_strategies-questions.txt": {
+    "output_fingerprint": "f77956cb49c3c47a3eeaf04209c5fd754d4737de60ef48c31dcdb2e13c62fcd3",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "b51c300b2b7af7bfcf1944e7d2b2c2c858b92e83cd975fd25a4240aeb38c9144",
+    "source_id": "8b0217963a2f76d926a97e0b2470160747fff0ca:multiple_choice_statements/catalytic_strategies.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/catalytic_strategies.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic08/bbq-TFMS-chymotrypsin-questions.txt": {
+    "output_fingerprint": "ad6fc979b807036fdc790fb8857f70ba0cc464e8c06f2c1dd243c76f46bf400c",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "6d9c20bafb10190ed8e345e9145bdfb26a545f6d58fde8e263fad02fbdb82efe",
+    "source_id": "96dcbff119013bed133a2c4643d51c6065b76e2e:multiple_choice_statements/TEMPLATE.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/chymotrypsin.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic08/bbq-TFMS-enzyme_inhibitors-questions.txt": {
+    "output_fingerprint": "9c926e6c67d22834bc327694e1a1c448b70f808c19ad3bcb76ebcdfcf16c0ef9",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "f8533b64f9039f108cde1ed773a5ee17ba9e20b032601c009f401cbbd9457d35",
+    "source_id": "233beb1083b0f21cd2917165c2949e886f78d3b5:multiple_choice_statements/enzyme_inhibitors.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/enzyme_inhibitors.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic10/bbq-MATCH-polysaccharides-questions.txt": {
+    "output_fingerprint": "c85b79d7554dea0573695510d5cc702667266022603cc7a3296ae1bfba7f3541",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "aee51eb43cd78bac86de8dacda868e55a8a8025b014993f5c783249552488106",
+    "source_id": "592f9decf5c7086a120a8d97c1837892738fdad9:matching_sets/polysaccharides.yml",
+    "source_path": "problems/matching_sets/biochemistry/polysaccharides.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic10/bbq-WOMC-polysaccharides-questions.txt": {
+    "output_fingerprint": "ee5e05b987a884a17d9dd8f2a414011d430d01bfbbbb5442318bd33f1f5db8d0",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "aee51eb43cd78bac86de8dacda868e55a8a8025b014993f5c783249552488106",
+    "source_id": "592f9decf5c7086a120a8d97c1837892738fdad9:matching_sets/polysaccharides.yml",
+    "source_path": "problems/matching_sets/biochemistry/polysaccharides.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic11/bbq-TFMS-dna_structure-biol_351-questions.txt": {
+    "output_fingerprint": "48fa33b4f986d097301dac859366e7ae7ed9c008ee80e9ab991f1d7e261ecf68",
+    "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
+    "source_fingerprint": "4f5812c84e0860dadc007071e65fdacfe7cc5f0b6ae496f13ac0c96307729a68",
+    "source_id": "fbeffe6d545441f82f4ff58474a22f7e6bb03b6e:multiple_choice_statements/dna_structure.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/dna_structure-biol_351.yml",
+    "source_updated": "2026-01-23"
+  },
+  "biochemistry/topic11/bbq-TFMS-dna_structure-questions.txt": {
+    "output_fingerprint": "26b5de30e28aa06ee9ad31ea7d38c6e87a38da9211f19bd212be826d49ed3764",
+    "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
+    "source_fingerprint": "493b898eabdba0ba1e4878028c73e810e50b2718b1a00c0d727701c009c58085",
+    "source_id": "fbeffe6d545441f82f4ff58474a22f7e6bb03b6e:multiple_choice_statements/dna_structure.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/dna_structure.yml",
+    "source_updated": "2026-01-23"
+  },
+  "biochemistry/topic11/bbq-TFMS-franklin_diffraction-questions.txt": {
+    "output_fingerprint": "6eca222c262ccb7245671d195216fdc54d425f219e7b03df327a4356c41189af",
+    "source_commit": "3dbf5745973d46b40629c35bd69f0587bddb45f6",
+    "source_fingerprint": "2268c0dba9ef564804c55918f8f82622ecee3c3c1ca7ad29b35ac0d5bf74da0f",
+    "source_id": "fbeffe6d545441f82f4ff58474a22f7e6bb03b6e:multiple_choice_statements/franklin_diffraction.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/franklin_diffraction.yml",
+    "source_updated": "2026-09-23"
+  },
+  "biochemistry/topic11/bbq-TFMS-g-u_wobble-questions.txt": {
+    "output_fingerprint": "73e758c3c5f2e4599a78e7301d593bffc932d0e4a955ccdbcf7f7876ce9fddfe",
+    "source_commit": "3dbf5745973d46b40629c35bd69f0587bddb45f6",
+    "source_fingerprint": "70bf21c5d665fa27b560230664e9c679940f391ac5876639931ace28cb1266c2",
+    "source_id": "7c9511707e65b8e18e0cb381de56cf82863ac42e:multiple_choice_statements/g-u_wobble.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/g-u_wobble.yml",
+    "source_updated": "2026-09-23"
+  },
+  "biochemistry/topic11/bbq-TFMS-melting_Tm_type_1-questions.txt": {
+    "output_fingerprint": "be5e391b3ba302ed61b286bec1852c4b2f757f3cf5bb7cf5607e2ba7be7ce5ba",
+    "source_commit": "c6d43baa448e66e3d04bd4aea7bf7b97081b3e1f",
+    "source_fingerprint": "bff062d9f535dbd6a30d62e5b6f2332526ef1c4005d5bb57eaecb95490f16626",
+    "source_id": "9c93364910e7de4d382e266b5d5dfd6f373e3709:multiple_choice_statements/melting_Tm.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/melting_Tm_type_1.yml",
+    "source_updated": "2026-04-23"
+  },
+  "biochemistry/topic11/bbq-TFMS-melting_Tm_type_2a-questions.txt": {
+    "output_fingerprint": "1e18c0e3e9e2d24383ca9c393198ac7ec1bc3c3e8e26271e3270426be3d18802",
+    "source_commit": "c6d43baa448e66e3d04bd4aea7bf7b97081b3e1f",
+    "source_fingerprint": "233773de2ca5b445c0eabb05541068a8f37a193c46e9f40d70b42cfb95b5712d",
+    "source_id": "9c93364910e7de4d382e266b5d5dfd6f373e3709:multiple_choice_statements/melting_Tm_type_2a.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/melting_Tm_type_2a.yml",
+    "source_updated": "2026-04-23"
+  },
+  "biochemistry/topic11/bbq-TFMS-melting_Tm_type_2b-questions.txt": {
+    "output_fingerprint": "20037edd1d13b4d13cd1a9058cebffd1e7eb633d366b9bf7e0885984ebe7b477",
+    "source_commit": "c6d43baa448e66e3d04bd4aea7bf7b97081b3e1f",
+    "source_fingerprint": "244067f12cd5df96ad8987d708a61e4a6da771eb462f9de691978b79155f64ea",
+    "source_id": "9c93364910e7de4d382e266b5d5dfd6f373e3709:multiple_choice_statements/melting_Tm_type_2b.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/melting_Tm_type_2b.yml",
+    "source_updated": "2026-04-23"
+  },
+  "biochemistry/topic11/bbq-TFMS-nucleotide_components-questions.txt": {
+    "output_fingerprint": "aa6a06f97fa040b522e089cd46cfc1919c37e19b182559ee94ba71ec34f94949",
+    "source_commit": "3dbf5745973d46b40629c35bd69f0587bddb45f6",
+    "source_fingerprint": "790f345e9c258d22a7caed25a8e99cf456da41a43b8330f928222fa34dbdbbaa",
+    "source_id": "32404819ca3d428f7d266605e1f82b309b4ff75d:multiple_choice_statements/nucleotide_components.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/nucleotide_components.yml",
+    "source_updated": "2026-09-23"
+  },
+  "biochemistry/topic11/bbq-TFMS-rna_v_dna-biol_301-questions.txt": {
+    "output_fingerprint": "cb21e02480e1f570fc211a890d46d2ba38412ee2f20eca2b46d789880ee10c47",
+    "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
+    "source_fingerprint": "679a7f4cb21e7763ea48f99cb95b20fbac65a9bb993ddbd3382e458d0b7ca402",
+    "source_id": "fbeffe6d545441f82f4ff58474a22f7e6bb03b6e:multiple_choice_statements/rna_v_dna.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/rna_v_dna-biol_301.yml",
+    "source_updated": "2026-01-23"
+  },
+  "biochemistry/topic11/bbq-TFMS-rna_v_dna-questions.txt": {
+    "output_fingerprint": "433d4b2c24a161404eabeff3b99a9fef4521c521464102343ce53d080ec0af0e",
+    "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
+    "source_fingerprint": "5d797d95f18ca050bcedec20417575d00017b7037b19320872b8563b8f970504",
+    "source_id": "fbeffe6d545441f82f4ff58474a22f7e6bb03b6e:multiple_choice_statements/rna_v_dna.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/rna_v_dna.yml",
+    "source_updated": "2026-01-23"
+  },
+  "biochemistry/topic13/bbq-TFMS-fluid_mosaic_model-questions.txt": {
+    "output_fingerprint": "276bb90c546ebbb56eb5461bdb42fc9b743af6296719cf24ca3a959e31a00165",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "738328613812be80c881e3a47cbfebd9f3ec752445a584c01739045de857e355",
+    "source_id": "4b693767528a855b13e0463f3b903728a61bb087:multiple_choice_statements/fluid_mosaic_model.yml",
+    "source_path": "problems/multiple_choice_statements/cell_biology/fluid_mosaic_model.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic13/bbq-TFMS-membrane_diffusion-questions.txt": {
+    "output_fingerprint": "43cd78ca4d555a1749d2d8804495ab7a2b7dedab99e59a340825ca2f78bd9ab9",
+    "source_commit": "1c1d6e7ec6739470031e1f7fabde529685a43e80",
+    "source_fingerprint": "0c6a85969841da4625d7e46d167411af95728dc7455e1b7dda61f7deda61f8f4",
+    "source_id": "f82d122ec6b6186817eca315791527635b204c48:multiple_choice_statements/membrane_diffusion.yml",
+    "source_path": "problems/multiple_choice_statements/cell_biology/membrane_diffusion.yml",
+    "source_updated": "2026-07-12"
+  },
+  "biochemistry/topic13/bbq-TFMS-membrane_protein_functions-questions.txt": {
+    "output_fingerprint": "a5ca1ad8e9852cd9613c4e2cab82d8120fe3015102f7dfe66a96eeb6fcbfa62f",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "fc5491bc8c5c261a0deb4fe4682d923b2d9a10fd8d3db9a3a325dba54096d221",
+    "source_id": "4b693767528a855b13e0463f3b903728a61bb087:multiple_choice_statements/membrane_protein_functions.yml",
+    "source_path": "problems/multiple_choice_statements/cell_biology/membrane_protein_functions.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic14/bbq-TFMS-senses_chemosensation_smell_taste-questions.txt": {
+    "output_fingerprint": "8040fa7ce46f720b0bff8c4dcd17025e94b0f5e04ce9b72c2f7f7ce7bf0612b0",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "f18a2af3a98bdc7987418c4ed015f8e8056070068ed0c0c586c2a82737fd5be9",
+    "source_id": "95873ca5481bb735dbca062c8e9975944b3a2c5e:problems/multiple_choice_statements/senses_chemosensation_smell_taste.yml",
+    "source_path": "problems/multiple_choice_statements/cell_biology/senses_chemosensation_smell_taste.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic14/bbq-TFMS-senses_smell_vs_taste-questions.txt": {
+    "output_fingerprint": "cd1d8901466bea6f936111c38d7f7233d35ac40b69b4635a9ac1118f82a285a5",
+    "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
+    "source_fingerprint": "cbc680944321af4bd871236de6fae3a271d0e0666c3b1d965096b21c4f8f4bc6",
+    "source_id": "95873ca5481bb735dbca062c8e9975944b3a2c5e:problems/multiple_choice_statements/senses_smell_vs_taste.yml",
+    "source_path": "problems/multiple_choice_statements/cell_biology/senses_smell_vs_taste.yml",
+    "source_updated": "2026-01-23"
+  },
+  "biochemistry/topic14/bbq-TFMS-senses_vision_hearing-questions.txt": {
+    "output_fingerprint": "84401f38d26704429da9fb5e387981b828b75b861312a93277994fda8c27913a",
+    "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
+    "source_fingerprint": "096cf3042b885855d4e3bbb98b051df593bc71ffe498b855eb3fbd5d18686a9e",
+    "source_id": "95873ca5481bb735dbca062c8e9975944b3a2c5e:problems/multiple_choice_statements/senses_vision_hearing.yml",
+    "source_path": "problems/multiple_choice_statements/cell_biology/senses_vision_hearing.yml",
+    "source_updated": "2026-01-23"
+  },
+  "biochemistry/topic16/bbq-MATCH-respiration-questions.txt": {
+    "output_fingerprint": "0d09a06da850919e3df6b9fa2686ea45c30b8f463636bafb67e7701b11e8c478",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "4460c6a3e5bff29746004d4b2d78b3f4df22ae6ad26cfd250ca7ae1f509728d3",
+    "source_id": "6ee8c1948f709864e52f18dd9619f7fe6d7217c7:matching_sets/respiration.yml",
+    "source_path": "problems/matching_sets/biochemistry/respiration.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biochemistry/topic16/bbq-WOMC-respiration-questions.txt": {
+    "output_fingerprint": "4f94c44bf5d372a5f245368c27064246c52cb5f6a699da9403ba0f7fa87b7270",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "4460c6a3e5bff29746004d4b2d78b3f4df22ae6ad26cfd250ca7ae1f509728d3",
+    "source_id": "6ee8c1948f709864e52f18dd9619f7fe6d7217c7:matching_sets/respiration.yml",
+    "source_path": "problems/matching_sets/biochemistry/respiration.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biostatistics/topic02/bbq-MATCH-measures_of_center-questions.txt": {
+    "output_fingerprint": "e2afd54597205f6a8d00b9e9d3f560b3ac4f56b442c4db1e05fe69b794f1de9b",
+    "source_commit": "1c1d6e7ec6739470031e1f7fabde529685a43e80",
+    "source_fingerprint": "a22233ff2f0259396ff6ffb9b6f66bdd95a0521d0eea407cbeb562291ba1a615",
+    "source_id": "1237a50bf5089c1cbcc60d50445f282097a35b16:matching_sets/measures_of_center.yml",
+    "source_path": "problems/matching_sets/biostatistics/measures_of_center.yml",
+    "source_updated": "2026-07-12"
+  },
+  "biostatistics/topic02/bbq-WOMC-measures_of_center-questions.txt": {
+    "output_fingerprint": "93ace68985fbff29bcbbbc433f81a62783d5787a40c73499f1e86002f2135ec2",
+    "source_commit": "1c1d6e7ec6739470031e1f7fabde529685a43e80",
+    "source_fingerprint": "a22233ff2f0259396ff6ffb9b6f66bdd95a0521d0eea407cbeb562291ba1a615",
+    "source_id": "1237a50bf5089c1cbcc60d50445f282097a35b16:matching_sets/measures_of_center.yml",
+    "source_path": "problems/matching_sets/biostatistics/measures_of_center.yml",
+    "source_updated": "2026-07-12"
+  },
+  "biostatistics/topic03/bbq-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices-questions.txt": {
+    "output_fingerprint": "7550917d27716eb28326ee3a3759ffb60a85e5c7a793a8365794ca86d43e05a2",
+    "source_commit": "0d9c79db174d48ee2a77f25e465c84f2c8ac3335",
+    "source_fingerprint": "db7db970a07c14cd286bbc405b2d058476459f354bae39be0aa1b060bef01946",
+    "source_id": "a1562c122feea0a36d98de3b0a849eb1c34f2c8e:problems/biostatistics-problems/boxplot_from_cdf.py",
+    "source_path": "problems/biostatistics-problems/boxplot_from_cdf.py",
+    "source_updated": "2026-09-28"
+  },
+  "biostatistics/topic03/bbq-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices-questions.txt": {
+    "output_fingerprint": "56b8809612ef76256f219d70c4e393d5d268ab9f0d5c19c306f54cbd9f3f4138",
+    "source_commit": "0d9c79db174d48ee2a77f25e465c84f2c8ac3335",
+    "source_fingerprint": "3a9aabb206377755c5c326dca38595b36e9ced2f6abe0c274ee1caafa92d3e9c",
+    "source_id": "a1562c122feea0a36d98de3b0a849eb1c34f2c8e:problems/biostatistics-problems/boxplot_from_sorted_data.py",
+    "source_path": "problems/biostatistics-problems/boxplot_from_sorted_data.py",
+    "source_updated": "2026-09-28"
+  },
+  "biostatistics/topic03/bbq-boxplot_from_summary-MC-boxplot_from_summary-5_choices-questions.txt": {
+    "output_fingerprint": "cd02fa890cc9081767826a345433140c462fdaccd19d82de11545f49a7956b23",
+    "source_commit": "0d9c79db174d48ee2a77f25e465c84f2c8ac3335",
+    "source_fingerprint": "9b35019589ee05d953c209b74500dbfa6164385e09d92d6777b3006ae7a38235",
+    "source_id": "a1562c122feea0a36d98de3b0a849eb1c34f2c8e:problems/biostatistics-problems/boxplot_from_summary.py",
+    "source_path": "problems/biostatistics-problems/boxplot_from_summary.py",
+    "source_updated": "2026-09-28"
+  },
+  "biostatistics/topic03/bbq-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices-questions.txt": {
+    "output_fingerprint": "4bdd6605b9b70766364f8bbae91deb9cb598740609b00616c9b91a2d880b328d",
+    "source_commit": "0d9c79db174d48ee2a77f25e465c84f2c8ac3335",
+    "source_fingerprint": "d3a37a955cb0427fb7d9f8adf4ee5632044bccd66a250a564392f22a17d18644",
+    "source_id": "a1562c122feea0a36d98de3b0a849eb1c34f2c8e:problems/biostatistics-problems/boxplot_from_unsorted_even.py",
+    "source_path": "problems/biostatistics-problems/boxplot_from_unsorted_even.py",
+    "source_updated": "2026-09-28"
+  },
+  "biostatistics/topic05/bbq-z_score_google_sheet-questions.txt": {
+    "output_fingerprint": "8bc8770e56e94e2937c248b2e9fbe696eea796759e563d6e0ac5a91c9cdd73c6",
+    "source_commit": "42a7ea1c8318033c2e9445c66ae046ede2d43aea",
+    "source_fingerprint": "f9bf081e1be65d5a14d3b1908911585f3a4bf9266a654cf6a660b5b45d0a2972",
+    "source_id": "d7cf1aea49fef38ef632289b4517eb2ef1d36d9f:biostatistics-problems/z_score_google_sheet.py",
+    "source_path": "problems/biostatistics-problems/z_score_google_sheet.py",
+    "source_updated": "2026-04-27"
+  },
+  "biostatistics/topic05/bbq-z_score_table_interp-questions.txt": {
+    "output_fingerprint": "9abf7880b6c92296e34ee9d9111b1da4c948be5ca099cf2cc2fe6f4038d1ed65",
+    "source_commit": "2106507525c43882da63f0471d05f3f03872d4fc",
+    "source_fingerprint": "30097f761b9eee1711245ee15e465d7184ba621d1868eafbc7d2f8049457d510",
+    "source_id": "b8f12aee5cb1e80d5a38738bcac3cff67e39c00d:biostatistics-problems/z-scores.py",
+    "source_path": "problems/biostatistics-problems/z_score_table_interp.py",
+    "source_updated": "2026-08-25"
+  },
+  "biostatistics/topic06/bbq-MATCH-hypothesis_testing_terms-questions.txt": {
+    "output_fingerprint": "e583d9ed28bf433282377b3390e98f805959a1f96c07cb056ed78d334beb88dc",
+    "source_commit": "8d51f431733699f632b9982f80b284e08261774e",
+    "source_fingerprint": "ffc57f05aaff20f3ac2fc53a8ab8341df2e115bdd229a0b1dbf2aa3aa1706d9b",
+    "source_id": "a5aa0482469e3c335ac5973785ce28eddfd6bc6a:matching_sets/statistical_test_terms.yml",
+    "source_path": "problems/matching_sets/biostatistics/hypothesis_testing_terms.yml",
+    "source_updated": "2026-10-07"
+  },
+  "biostatistics/topic06/bbq-MATCH-selecting_statistical_tests-questions.txt": {
+    "output_fingerprint": "6b598b19de0d7493dacb63dc19e73066e8ca2a0b8e862309237fad1a1469b711",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "08142f5c851a779b046b8e125360178e77f32678457661b40ecae67d92ee95e1",
+    "source_id": "c916e9022cb68a2ebaf8d8d2ec5a4f922101c8d5:matching_sets/hypothesis_testing.yml",
+    "source_path": "problems/matching_sets/biostatistics/selecting_statistical_tests.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biostatistics/topic06/bbq-TFMS-hypothesis_testing_decisions-questions.txt": {
+    "output_fingerprint": "20448e7624a87f00947112e4f39c1adfef8dcadef32630ea7c586e7936a96b4e",
+    "source_commit": "8d51f431733699f632b9982f80b284e08261774e",
+    "source_fingerprint": "9c04b977047cfe09d5a9c77f38f7c5639d5cb07ff2202ea66fa5d5e465381017",
+    "source_id": "9101fa22694c9cb90b3489091fc2eb6ef325accb:multiple_choice_statements/statistical_tests.yml",
+    "source_path": "problems/multiple_choice_statements/biostatistics/hypothesis_testing_decisions.yml",
+    "source_updated": "2026-10-07"
+  },
+  "biostatistics/topic06/bbq-WOMC-hypothesis_testing_terms-questions.txt": {
+    "output_fingerprint": "850956c4968959aa9119122b567f2728749dcdc44127643a4a31de446df17224",
+    "source_commit": "8d51f431733699f632b9982f80b284e08261774e",
+    "source_fingerprint": "ffc57f05aaff20f3ac2fc53a8ab8341df2e115bdd229a0b1dbf2aa3aa1706d9b",
+    "source_id": "a5aa0482469e3c335ac5973785ce28eddfd6bc6a:matching_sets/statistical_test_terms.yml",
+    "source_path": "problems/matching_sets/biostatistics/hypothesis_testing_terms.yml",
+    "source_updated": "2026-10-07"
+  },
+  "biostatistics/topic06/bbq-WOMC-selecting_statistical_tests-questions.txt": {
+    "output_fingerprint": "15433402943481154b84d0a178b60331105f8363a3026a5693a4421df6cefeee",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "08142f5c851a779b046b8e125360178e77f32678457661b40ecae67d92ee95e1",
+    "source_id": "c916e9022cb68a2ebaf8d8d2ec5a4f922101c8d5:matching_sets/hypothesis_testing.yml",
+    "source_path": "problems/matching_sets/biostatistics/selecting_statistical_tests.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biostatistics/topic06/bbq-hypothesis_statement_errors-hypotheses_partner-questions.txt": {
+    "output_fingerprint": "b7f0178f043bfa438e724716e39173f94e99eb4fa5fad01c41c07be64de02c5f",
+    "source_commit": "63e2c8bb39634be0adb3b85d166f97d88d5c4b2e",
+    "source_fingerprint": "1582d6b842436cbae861b5848ffa7cde6849aaf2cd33506f62576642798478cb",
+    "source_id": "566b69080e0aee48e64db813efd8b176b4541653:biostatistics-problems/hypothesis_lab_partner.py",
+    "source_path": "problems/biostatistics-problems/hypothesis_statement_errors.py",
+    "source_updated": "2026-01-10"
+  },
+  "biostatistics/topic06/bbq-null_and_alternative_hypotheses-pair-questions.txt": {
+    "output_fingerprint": "4c799bf1e21fdf2b6254ffae64ae977d108bc060a7ab2a395021388a661b8ac6",
+    "source_commit": "3ae8744372255edb25e2379549553d3b649ead68",
+    "source_fingerprint": "edc9a47abace7ba29cbb1881b522b880a4a0bf11b640a0361a35b40820187847",
+    "source_id": "566b69080e0aee48e64db813efd8b176b4541653:biostatistics-problems/hypothesis_statements.py",
+    "source_path": "problems/biostatistics-problems/null_and_alternative_hypotheses.py",
+    "source_updated": "2026-07-12"
+  },
+  "biostatistics/topic07/bbq-babies_one_sample_t_test-tails1-questions.txt": {
+    "output_fingerprint": "f69716fbdbc8c2c842acb2236c24595418fa5f24e9ffc68b688be85703d406e8",
+    "source_commit": "0c8ff60b596cb9b11f1a3edc6adc35fd11e4ef22",
+    "source_fingerprint": "6b81f3303f982797c8c6239ac90b4b510b22416dc530bdae391b63cc4b8ce225",
+    "source_id": "0c8ff60b596cb9b11f1a3edc6adc35fd11e4ef22:problems/biostatistics-problems/babies_one_sample_t_test.py",
+    "source_path": "problems/biostatistics-problems/babies_one_sample_t_test.py",
+    "source_updated": "2026-10-01"
+  },
+  "biostatistics/topic07/bbq-babies_one_sample_z_test-ztest-questions.txt": {
+    "output_fingerprint": "7226b9a6f3e01678779a484895d08244423cada9459048e8ba4dee772d321087",
+    "source_commit": "01c4110c0d31ec2f7df7ddfa78e43e566633f182",
+    "source_fingerprint": "92728ca7695729edda3bef91db9c5725b0fb608b167ebde6a9b91767796a8cae",
+    "source_id": "450cfb15cfb8ca1f37673129e9182b562d3ff0c9:TEMPLATE.py",
+    "source_path": "problems/biostatistics-problems/babies_one_sample_z_test.py",
+    "source_updated": "2026-10-01"
+  },
+  "biostatistics/topic07/bbq-babies_two_sample_t_test-tails1-questions.txt": {
+    "output_fingerprint": "d52271e144e08b71525b3227d8897be2d222e823131723eb33aa20c8960a4edf",
+    "source_commit": "01c4110c0d31ec2f7df7ddfa78e43e566633f182",
+    "source_fingerprint": "9af7f8444dedd5d31d95105b2ebbefd69de1c28f48a4b147a690753c06f3fdfb",
+    "source_id": "450cfb15cfb8ca1f37673129e9182b562d3ff0c9:TEMPLATE.py",
+    "source_path": "problems/biostatistics-problems/babies_two_sample_t_test.py",
+    "source_updated": "2026-10-01"
+  },
+  "biostatistics/topic07/bbq-busse_woods_anova-anova-5year-questions.txt": {
+    "output_fingerprint": "c47dbb2991eb36a3be86822ecfabf093c2531f2ab893394f2faa01d605124190",
+    "source_commit": "63e2c8bb39634be0adb3b85d166f97d88d5c4b2e",
+    "source_fingerprint": "7085f5b77c710d52b24af816056681f0b5ac467503c1e83ccbcd3152d15b1f94",
+    "source_id": "d484513fdb0628351b49a0671a882782f984a2e9:biostatistics-problems/busse_woods_anova.py",
+    "source_path": "problems/biostatistics-problems/busse_woods_anova.py",
+    "source_updated": "2026-01-10"
+  },
+  "biostatistics/topic07/bbq-busse_woods_one_sample_tests-ztest-questions.txt": {
+    "output_fingerprint": "2852c7691bae4b05e78f62b1732136f0fd45e48981722f9b86f2242097fe369e",
+    "source_commit": "63e2c8bb39634be0adb3b85d166f97d88d5c4b2e",
+    "source_fingerprint": "e1caf1f1fa772d0f5a00b2471f24fec168b23402adeab5e3aa361c9784d1b06f",
+    "source_id": "654cc1465be6236d6dadfddcef3becf7b13fb1d2:biostatistics-problems/busse_woods_one_sample_tests.py",
+    "source_path": "problems/biostatistics-problems/busse_woods_one_sample_tests.py",
+    "source_updated": "2026-01-10"
+  },
+  "biostatistics/topic07/bbq-busse_woods_two_sample_f_test-tails1-questions.txt": {
+    "output_fingerprint": "c4f3b3380bdc24e3568cd55914b3da695b0bdbaf8b3647fc57ef45ec7e0fb1b4",
+    "source_commit": "63e2c8bb39634be0adb3b85d166f97d88d5c4b2e",
+    "source_fingerprint": "69b5faf621302930fe5d174a3c596a131e158290c7911f1439f7511e1f998cff",
+    "source_id": "654cc1465be6236d6dadfddcef3becf7b13fb1d2:biostatistics-problems/busse_woods_two_sample_t_test.py",
+    "source_path": "problems/biostatistics-problems/busse_woods_two_sample_f_test.py",
+    "source_updated": "2026-01-10"
+  },
+  "biostatistics/topic07/bbq-busse_woods_two_sample_t_test-tails1-questions.txt": {
+    "output_fingerprint": "67b57f4a41dbab509f8672a46006104066d77c0b2d77c236968b4af1c610986f",
+    "source_commit": "63e2c8bb39634be0adb3b85d166f97d88d5c4b2e",
+    "source_fingerprint": "d396a56cc1fade78414d2d50bd39421a3577dfdcb3dc5cffb57def995382eb3e",
+    "source_id": "654cc1465be6236d6dadfddcef3becf7b13fb1d2:biostatistics-problems/busse_woods_two_sample_t_test.py",
+    "source_path": "problems/biostatistics-problems/busse_woods_two_sample_t_test.py",
+    "source_updated": "2026-01-10"
+  },
+  "biostatistics/topic08/bbq-MATCH-chi-square_terms-questions.txt": {
+    "output_fingerprint": "5290469cdfd79e8f8ddb781b28814062c962601fedc54a76bbf7eadb1dce09ab",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "d3548203f549048ca0797c929c2ef88d1388d15afbb62cd9673953dd7d3cc0ac",
+    "source_id": "7e3dd9473043bad9e6d8d2a1fd83c165525a153d:matching_sets/chi-square_terms.yml",
+    "source_path": "problems/matching_sets/biostatistics/chi-square_terms.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biostatistics/topic08/bbq-TFMS-chi-square-questions.txt": {
+    "output_fingerprint": "51a30625b093c360aab3748a4cd62c4c643b3f68b2f40d88034a1e79a53e2883",
+    "source_commit": "98dba9da687edf8b3c6656fbf7dc8fed7fd97b68",
+    "source_fingerprint": "66684a3c838d5b6b09cf213476ae681298048752a338605930185cf8dc3f8318",
+    "source_id": "7800c46763679e90860aa9e93469646262e9c69f:multiple_choice_statements/chi-square.yml",
+    "source_path": "problems/multiple_choice_statements/biostatistics/chi-square.yml",
+    "source_updated": "2026-03-05"
+  },
+  "biostatistics/topic08/bbq-WOMC-chi-square_terms-questions.txt": {
+    "output_fingerprint": "e717686cbcffbfbec8919f3072346f26fe48abc466d8cde110ca157d0afefd6c",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "d3548203f549048ca0797c929c2ef88d1388d15afbb62cd9673953dd7d3cc0ac",
+    "source_id": "7e3dd9473043bad9e6d8d2a1fd83c165525a153d:matching_sets/chi-square_terms.yml",
+    "source_path": "problems/matching_sets/biostatistics/chi-square_terms.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biostatistics/topic08/bbq-chi_square_hypotheses-pair-questions.txt": {
+    "output_fingerprint": "d0a69c2abfc8e69af387c55d4923be99c2f4c113f645c7c53cd9ef046467a946",
+    "source_commit": "63e2c8bb39634be0adb3b85d166f97d88d5c4b2e",
+    "source_fingerprint": "da40626f9513e7a53abf328ee0540847e0b176f44bf07479740e3c3677caf08d",
+    "source_id": "566b69080e0aee48e64db813efd8b176b4541653:inheritance-problems/chi_square/chi_square_hypotheses.py",
+    "source_path": "problems/inheritance-problems/chi_square/chi_square_hypotheses.py",
+    "source_updated": "2026-01-10"
+  },
+  "biotechnology/topic01/bbq-TFMS-fermentation-questions.txt": {
+    "output_fingerprint": "4ea992c7330ff58a36e541363026c4c501a30bde14b7a938a10395ae76e37196",
+    "source_commit": "cd7ae3b6237a9aa940d0a575bc2f49dd1751e2e4",
+    "source_fingerprint": "e1630d409f0f7ad28f6ee572d8858b1864294f4bd1e0fea0fbcee8d9c18d9367",
+    "source_id": "cd7ae3b6237a9aa940d0a575bc2f49dd1751e2e4:problems/multiple_choice_statements/biotechnology/fermentation.yml",
+    "source_path": "problems/multiple_choice_statements/biotechnology/fermentation.yml",
+    "source_updated": "2026-09-25"
+  },
+  "biotechnology/topic01/bbq-TFMS-mRNA_processing-questions.txt": {
+    "output_fingerprint": "b5397d4da91abcdba0c4c1c7867483e2f8b06b2aad41b26b9747d0144ed92225",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "32cae2798a91798c0eed43cca466a22bc007d5e2687e8e6103fcdd650a867b4e",
+    "source_id": "74f51813be1bfc18ecb8430cda7a51fd221dcc7e:multiple_choice_statements/mRNA_processing.yml",
+    "source_path": "problems/multiple_choice_statements/molecular_biology/mRNA_processing.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biotechnology/topic02/bbq-MATCH-cell_disruption-questions.txt": {
+    "output_fingerprint": "c1ef7ec1ed11c53fa1ad4b20220ef9f097a3617ed83c8892c408d17de94f92ed",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "6c58239a3a95d00a36c35616d07e7d80647b9968ec4418b6ff0c7bc4a6c15b2d",
+    "source_id": "964b2003d2e1ad894cafc46fd40efc2c020aafc5:matching_sets/cell_disruption.yml",
+    "source_path": "problems/matching_sets/laboratory/cell_disruption.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biotechnology/topic02/bbq-WOMC-cell_disruption-questions.txt": {
+    "output_fingerprint": "25d86fc0adca009fd9395d2920e2638d4e815e3b4990a7a7b10d6093e0a2de1f",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "6c58239a3a95d00a36c35616d07e7d80647b9968ec4418b6ff0c7bc4a6c15b2d",
+    "source_id": "964b2003d2e1ad894cafc46fd40efc2c020aafc5:matching_sets/cell_disruption.yml",
+    "source_path": "problems/matching_sets/laboratory/cell_disruption.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biotechnology/topic03/bbq-TFMS-protein_stability-questions.txt": {
+    "output_fingerprint": "34ac14ccc09bb48cfb7ed44c80428c0bfc1cb1e666a6f5fd2acabfe9f4e17b0f",
+    "source_commit": "cd7ae3b6237a9aa940d0a575bc2f49dd1751e2e4",
+    "source_fingerprint": "e975a911f97a016813a64e8f6b81adb1c7ef09eb9a20777dbce2f82955d3c657",
+    "source_id": "cd7ae3b6237a9aa940d0a575bc2f49dd1751e2e4:problems/multiple_choice_statements/biotechnology/protein_stability.yml",
+    "source_path": "problems/multiple_choice_statements/biotechnology/protein_stability.yml",
+    "source_updated": "2026-09-25"
+  },
+  "biotechnology/topic04/bbq-TFMS-nobel_prizes-questions.txt": {
+    "output_fingerprint": "bdf132b377a1c5f5b1d9d28305d31dadd1f61b68b3204d73879a69c768972a8a",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "33024f618f6726a891a23b12af03a2bd13ef03034c708ef98af1c27be93e4588",
+    "source_id": "c6f63be74c6c3190d43f680021d6bb152b528a15:multiple_choice_statements/nobel_prizes.yml",
+    "source_path": "problems/multiple_choice_statements/biotechnology/nobel_prizes.yml",
+    "source_updated": "2026-10-06"
+  },
+  "biotechnology/topic04/bbq-TFMS-xna_and_xdna-questions.txt": {
+    "output_fingerprint": "a4fd23ea807adff00b317780db8514889f97d1301b246f523ed2b71c58d09409",
+    "source_commit": "2be140127c1c7a6befc6c72c48f9f9b98c3686cb",
+    "source_fingerprint": "faa867069ed637ff5d2e00ecff7af7611fc3bd41c48ac78418ae462f8237b310",
+    "source_id": "0ad588726728addf2e0212420fb8bb1100547dae:multiple_choice_statements/xna_and_xdna.yml",
+    "source_path": "problems/multiple_choice_statements/biotechnology/xna_and_xdna.yml",
+    "source_updated": "2026-03-05"
+  },
+  "biotechnology/topic06/bbq-TFMS-inventions_v_discoveries-questions.txt": {
+    "output_fingerprint": "aa3296066d91a8c6c844212bac1ea06be4c98e5dfd59b0f9850a84e6a0260112",
+    "source_commit": "cd7ae3b6237a9aa940d0a575bc2f49dd1751e2e4",
+    "source_fingerprint": "5469a9034ef8f075da3199d6d7ad803d1601dbf235d03c82a90d3d79ffbfcfc3",
+    "source_id": "cd7ae3b6237a9aa940d0a575bc2f49dd1751e2e4:problems/multiple_choice_statements/biotechnology/inventions_v_discoveries.yml",
+    "source_path": "problems/multiple_choice_statements/biotechnology/inventions_v_discoveries.yml",
+    "source_updated": "2026-09-25"
+  },
   "genetics/topic01/bbq-MATCH-genetic_disorders-questions.txt": {
     "output_fingerprint": "2e57ed739503ea2301697d45a7a7799469807226d9b3ea21e1f9556bdd1302e1",
     "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
@@ -1086,5 +1702,309 @@
     "source_id": "26236438dbbc3c37b779b64eb552a9ae5414424d:inheritance-problems/gene_tree_matches.py",
     "source_path": "problems/inheritance-problems/phylogenetic_trees/gene_tree_matches_plus.py",
     "source_updated": "2026-07-12"
+  },
+  "molecular_biology/topic02/bbq-TFMS-dna_structure-questions.txt": {
+    "output_fingerprint": "2157dbc2047dc34a6c4db89118edec48298200fffbc3de100f2aea78b3912f12",
+    "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
+    "source_fingerprint": "493b898eabdba0ba1e4878028c73e810e50b2718b1a00c0d727701c009c58085",
+    "source_id": "fbeffe6d545441f82f4ff58474a22f7e6bb03b6e:multiple_choice_statements/dna_structure.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/dna_structure.yml",
+    "source_updated": "2026-01-23"
+  },
+  "molecular_biology/topic02/bbq-TFMS-melting_Tm_type_1-questions.txt": {
+    "output_fingerprint": "a3284fa7ca30f3651026c9ed2f7eae46e6757164b3f55380c59f7ccbee272a2f",
+    "source_commit": "c6d43baa448e66e3d04bd4aea7bf7b97081b3e1f",
+    "source_fingerprint": "bff062d9f535dbd6a30d62e5b6f2332526ef1c4005d5bb57eaecb95490f16626",
+    "source_id": "9c93364910e7de4d382e266b5d5dfd6f373e3709:multiple_choice_statements/melting_Tm.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/melting_Tm_type_1.yml",
+    "source_updated": "2026-04-23"
+  },
+  "molecular_biology/topic02/bbq-TFMS-melting_Tm_type_2a-questions.txt": {
+    "output_fingerprint": "795626b6768481aed41528a02dbd2f6256ff3c4e833ffcdfa2795f83941d33d0",
+    "source_commit": "c6d43baa448e66e3d04bd4aea7bf7b97081b3e1f",
+    "source_fingerprint": "233773de2ca5b445c0eabb05541068a8f37a193c46e9f40d70b42cfb95b5712d",
+    "source_id": "9c93364910e7de4d382e266b5d5dfd6f373e3709:multiple_choice_statements/melting_Tm_type_2a.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/melting_Tm_type_2a.yml",
+    "source_updated": "2026-04-23"
+  },
+  "molecular_biology/topic02/bbq-TFMS-melting_Tm_type_2b-questions.txt": {
+    "output_fingerprint": "e8740529fefb89a1d64f91c145b99050afde39ef7578883e66485b91eab808ad",
+    "source_commit": "c6d43baa448e66e3d04bd4aea7bf7b97081b3e1f",
+    "source_fingerprint": "244067f12cd5df96ad8987d708a61e4a6da771eb462f9de691978b79155f64ea",
+    "source_id": "9c93364910e7de4d382e266b5d5dfd6f373e3709:multiple_choice_statements/melting_Tm_type_2b.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/melting_Tm_type_2b.yml",
+    "source_updated": "2026-04-23"
+  },
+  "molecular_biology/topic02/bbq-TFMS-nucleotide_components-questions.txt": {
+    "output_fingerprint": "fb0c200796ed04d46542b2a5947d75b109814bd49efb7294ee8ad4a98d317507",
+    "source_commit": "3dbf5745973d46b40629c35bd69f0587bddb45f6",
+    "source_fingerprint": "790f345e9c258d22a7caed25a8e99cf456da41a43b8330f928222fa34dbdbbaa",
+    "source_id": "32404819ca3d428f7d266605e1f82b309b4ff75d:multiple_choice_statements/nucleotide_components.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/nucleotide_components.yml",
+    "source_updated": "2026-09-23"
+  },
+  "molecular_biology/topic02/bbq-TFMS-rna_v_dna-biol_301-questions.txt": {
+    "output_fingerprint": "f7612c965d30e191334c6e1395661a1049a525277e48c7d961d0a63ef1dae846",
+    "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
+    "source_fingerprint": "679a7f4cb21e7763ea48f99cb95b20fbac65a9bb993ddbd3382e458d0b7ca402",
+    "source_id": "fbeffe6d545441f82f4ff58474a22f7e6bb03b6e:multiple_choice_statements/rna_v_dna.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/rna_v_dna-biol_301.yml",
+    "source_updated": "2026-01-23"
+  },
+  "molecular_biology/topic02/bbq-TFMS-rna_v_dna-questions.txt": {
+    "output_fingerprint": "01356a765ca7473ae3a5e8368574b48cb1b7549c913eda8f3d2b969e7e4961d6",
+    "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
+    "source_fingerprint": "5d797d95f18ca050bcedec20417575d00017b7037b19320872b8563b8f970504",
+    "source_id": "fbeffe6d545441f82f4ff58474a22f7e6bb03b6e:multiple_choice_statements/rna_v_dna.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/rna_v_dna.yml",
+    "source_updated": "2026-01-23"
+  },
+  "molecular_biology/topic05/bbq-TFMS-long_run_pcr-questions.txt": {
+    "output_fingerprint": "1c36f99fa8d476e8fba1e35aca24e1eb17caf3b19daa09f4db148e6640f77fc5",
+    "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
+    "source_fingerprint": "737af01bc88020b049d242d0afb23fef123357767f3005a0a3c17d54558bfdba",
+    "source_id": "2b842d6361c9059aff7e22ab265c09d7d1fe31ff:multiple_choice_statements/long_run_pcr.yml",
+    "source_path": "problems/multiple_choice_statements/molecular_biology/long_run_pcr.yml",
+    "source_updated": "2026-01-23"
+  },
+  "molecular_biology/topic05/bbq-TFMS-pcr_components-questions.txt": {
+    "output_fingerprint": "ff6dc974e4403b37cea5c0ad9455d8b9699fdab7bb2979aa6be26745e5b755f8",
+    "source_commit": "b661440d82a389dc8c126a24e3adf0cc7435be5e",
+    "source_fingerprint": "a669622667f3791ed94761c93f43106c888b4e2edcc84950da791e6cda2123c2",
+    "source_id": "555089bfb55d6917f955a22f9a6a6a2b4de9e99d:multiple_choice_statements/pcr_components.yml",
+    "source_path": "problems/multiple_choice_statements/molecular_biology/pcr_components.yml",
+    "source_updated": "2026-08-19"
+  },
+  "molecular_biology/topic05/bbq-TFMS-pcr_primers-questions.txt": {
+    "output_fingerprint": "92bb518a1b00d678e8babf87dee6bc0e5e0f89c654d8fa256e74b579a1e7c49a",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "dc4f95fbd38f85454e425054b3b613ca14d964a2c1f2b6b2ebe752025cbc5a87",
+    "source_id": "555089bfb55d6917f955a22f9a6a6a2b4de9e99d:multiple_choice_statements/pcr_primers.yml",
+    "source_path": "problems/multiple_choice_statements/molecular_biology/pcr_primers.yml",
+    "source_updated": "2026-10-06"
+  },
+  "molecular_biology/topic05/bbq-TFMS-pcr_step_order-questions.txt": {
+    "output_fingerprint": "665a6f8375b48aeb25f4922cad29929537464f88a615db8a8e8aa0155685391a",
+    "source_commit": "b661440d82a389dc8c126a24e3adf0cc7435be5e",
+    "source_fingerprint": "b939d8c4351b5e830d44da7f78c6c49689ce2e4603c6f816f45034847aa1a8cf",
+    "source_id": "555089bfb55d6917f955a22f9a6a6a2b4de9e99d:multiple_choice_statements/pcr_step_order.yml",
+    "source_path": "problems/multiple_choice_statements/molecular_biology/pcr_step_order.yml",
+    "source_updated": "2026-08-19"
+  },
+  "molecular_biology/topic06/bbq-MATCH-dna_replication_enzymes-biol_301-questions.txt": {
+    "output_fingerprint": "2d8f8008b7ab766348e621d5fbd0be5bc28682610dea6826ac0f808e3ed0929e",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "08175d0134f7fb905e1b76afd63d81198e971066b6a3527f723cf69d189367ee",
+    "source_id": "d916c873308f5ffd4794ce558c742928fe1fde64:matching_sets/dna_replication_enzymes.yml",
+    "source_path": "problems/matching_sets/molecular_biology/dna_replication_enzymes-biol_301.yml",
+    "source_updated": "2026-10-06"
+  },
+  "molecular_biology/topic06/bbq-MATCH-dna_replication_enzymes-questions.txt": {
+    "output_fingerprint": "f3c59b297cc6b7e7ea27f3a8d0f8b33960415e1b7a1d5880d2e4d4b4a406e409",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "6c9f905dc97d516adf2deb74128c3123066895d5bc288a21ed578e8662be154e",
+    "source_id": "d916c873308f5ffd4794ce558c742928fe1fde64:matching_sets/dna_replication_enzymes.yml",
+    "source_path": "problems/matching_sets/molecular_biology/dna_replication_enzymes.yml",
+    "source_updated": "2026-10-06"
+  },
+  "molecular_biology/topic06/bbq-TFMS-dna_replication-biol_301-questions.txt": {
+    "output_fingerprint": "aa3efc52991632694528983b2553c63f9655338f1265cac39d8348f71893d23d",
+    "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
+    "source_fingerprint": "8439ac88766f34c6a39ef21aa7f7613b6d0584fb2c9c24f2a6bbb4056b49ebd1",
+    "source_id": "2b71d56e79175442e7111027f6255f592310e78d:multiple_choice_statements/dna_replication.yml",
+    "source_path": "problems/multiple_choice_statements/molecular_biology/dna_replication-biol_301.yml",
+    "source_updated": "2026-01-23"
+  },
+  "molecular_biology/topic06/bbq-TFMS-dna_replication-questions.txt": {
+    "output_fingerprint": "40222fc575c2ef3b03ac059ed60ad6cc3b1eac4e98b10e381902fca563b67d01",
+    "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
+    "source_fingerprint": "ef61faa2acc806188dacaeac4141a49e1ca414b7b98d9f1e317ea9577988e409",
+    "source_id": "2b71d56e79175442e7111027f6255f592310e78d:multiple_choice_statements/dna_replication.yml",
+    "source_path": "problems/multiple_choice_statements/molecular_biology/dna_replication.yml",
+    "source_updated": "2026-01-23"
+  },
+  "molecular_biology/topic06/bbq-TFMS-leading_v_lagging_strand-questions.txt": {
+    "output_fingerprint": "43dbe92c4054cd66ff305bfebddea1bef98b172b99650cb1e9c100bb2ddb2dc1",
+    "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
+    "source_fingerprint": "49e21382449f3f5c6ecc30e18cffb245a35ded6b57f753a707c13cbdd7be58a5",
+    "source_id": "1f0d3637bdc8d7eff9b795025142e323a3c9d9ce:multiple_choice_statements/leading_v_lagging_strand.yml",
+    "source_path": "problems/multiple_choice_statements/molecular_biology/leading_v_lagging_strand.yml",
+    "source_updated": "2026-01-23"
+  },
+  "molecular_biology/topic06/bbq-TFMS-proofreading-questions.txt": {
+    "output_fingerprint": "871a3700271bcf9f810281fa81a663ee7b960389e652fbfdcb16aa05aaf669ef",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "b31da991cd07fd77b26bd01743c845fcdfb251b248accd1667d027c747ddea83",
+    "source_id": "2ffcd19828acee849be1e95af74ae0a3902d8bd5:multiple_choice_statements/proofreading.yml",
+    "source_path": "problems/multiple_choice_statements/molecular_biology/proofreading.yml",
+    "source_updated": "2026-10-06"
+  },
+  "molecular_biology/topic06/bbq-WOMC-dna_replication_enzymes-biol_301-questions.txt": {
+    "output_fingerprint": "f3ffefa3795cc4233965396728d175683101897087ffb50529e556836109a6c8",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "08175d0134f7fb905e1b76afd63d81198e971066b6a3527f723cf69d189367ee",
+    "source_id": "d916c873308f5ffd4794ce558c742928fe1fde64:matching_sets/dna_replication_enzymes.yml",
+    "source_path": "problems/matching_sets/molecular_biology/dna_replication_enzymes-biol_301.yml",
+    "source_updated": "2026-10-06"
+  },
+  "molecular_biology/topic06/bbq-WOMC-dna_replication_enzymes-questions.txt": {
+    "output_fingerprint": "0af2d16bc492c8c46123b151bcc9b66d1ae8e914d923c81dcbca0762e75755cf",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "6c9f905dc97d516adf2deb74128c3123066895d5bc288a21ed578e8662be154e",
+    "source_id": "d916c873308f5ffd4794ce558c742928fe1fde64:matching_sets/dna_replication_enzymes.yml",
+    "source_path": "problems/matching_sets/molecular_biology/dna_replication_enzymes.yml",
+    "source_updated": "2026-10-06"
+  },
+  "molecular_biology/topic08/bbq-TFMS-intron_splicing-questions.txt": {
+    "output_fingerprint": "ff2a71d3785ba13c3a3cc750d9a9c787f5139027e644f0d305afdbc2169ac712",
+    "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
+    "source_fingerprint": "aea78426ec299791e58208b05c7be79d0f4bfc6aebc23034152854744d7d23b3",
+    "source_id": "f564a7c5a58ff28e7b5ca493c55ab9ba5e423f79:multiple_choice_statements/intron_splicing.yml",
+    "source_path": "problems/multiple_choice_statements/molecular_biology/intron_splicing.yml",
+    "source_updated": "2026-01-23"
+  },
+  "molecular_biology/topic08/bbq-TFMS-mRNA_processing-questions.txt": {
+    "output_fingerprint": "c25de7a7c12fb523753cbc822d2a981533a6ff1a3ea119a57dc4f2b4e63f080e",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "32cae2798a91798c0eed43cca466a22bc007d5e2687e8e6103fcdd650a867b4e",
+    "source_id": "74f51813be1bfc18ecb8430cda7a51fd221dcc7e:multiple_choice_statements/mRNA_processing.yml",
+    "source_path": "problems/multiple_choice_statements/molecular_biology/mRNA_processing.yml",
+    "source_updated": "2026-10-06"
+  },
+  "molecular_biology/topic09/bbq-MATCH-central_dogma_terms-questions.txt": {
+    "output_fingerprint": "247e59fd1edbb86914b0e9d427c669e2c6a1ab14eea7ccc57b84739ae0560e78",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "43b78ada2b5fce39a2c3ef744bc095ff2fc61093d7143930f14804dfc062419a",
+    "source_id": "9c7665ccc19d446f30532985ab448a6cd491ceb2:matching_sets/central_dogma_terms.yml",
+    "source_path": "problems/matching_sets/molecular_biology/central_dogma_terms.yml",
+    "source_updated": "2026-10-06"
+  },
+  "molecular_biology/topic09/bbq-TFMS-g-u_wobble-questions.txt": {
+    "output_fingerprint": "fb5fdf18be74245395b362316a477552418aa5afe51aa169e4ef0de5335fd4c2",
+    "source_commit": "3dbf5745973d46b40629c35bd69f0587bddb45f6",
+    "source_fingerprint": "70bf21c5d665fa27b560230664e9c679940f391ac5876639931ace28cb1266c2",
+    "source_id": "7c9511707e65b8e18e0cb381de56cf82863ac42e:multiple_choice_statements/g-u_wobble.yml",
+    "source_path": "problems/multiple_choice_statements/biochemistry/g-u_wobble.yml",
+    "source_updated": "2026-09-23"
+  },
+  "molecular_biology/topic09/bbq-TFMS-translation_accuracy-questions.txt": {
+    "output_fingerprint": "46556116c78e49dfc783aff3e5534cee2268447140a644d39bfda82793894a84",
+    "source_commit": "b661440d82a389dc8c126a24e3adf0cc7435be5e",
+    "source_fingerprint": "4b2f8d5661e72ea39a4577efcc63f1afbb22371f297fc13a1453f0079c6f6c8a",
+    "source_id": "67fd1075044d1a166d4af0b72da35f6d10975f8d:multiple_choice_statements/translation_accuracy.yml",
+    "source_path": "problems/multiple_choice_statements/molecular_biology/translation_accuracy.yml",
+    "source_updated": "2026-08-19"
+  },
+  "molecular_biology/topic09/bbq-WOMC-central_dogma_terms-questions.txt": {
+    "output_fingerprint": "c3d89d111d6c592bac9fab888176eeef6c258ad5e1d0d45a5e6ddfc78e849f41",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "43b78ada2b5fce39a2c3ef744bc095ff2fc61093d7143930f14804dfc062419a",
+    "source_id": "9c7665ccc19d446f30532985ab448a6cd491ceb2:matching_sets/central_dogma_terms.yml",
+    "source_path": "problems/matching_sets/molecular_biology/central_dogma_terms.yml",
+    "source_updated": "2026-10-06"
+  },
+  "other/topic01/bbq-MATCH-cell_receptors-questions.txt": {
+    "output_fingerprint": "c476d8caf4a9dd0d7c47298a04b0ae094933ff352793acf0e9a1b729308885a1",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "6dd4d0643218a056aaa9f64f59f19a261dfdd2025d0feba03d6895b04c3c67a6",
+    "source_id": "bbc4cdab476f087aa9a15aa6426a1415e54ffca7:matching_sets/cell_receptors.yml",
+    "source_path": "problems/matching_sets/cell_biology/cell_receptors.yml",
+    "source_updated": "2026-10-06"
+  },
+  "other/topic01/bbq-MATCH-trophic_organisms-questions.txt": {
+    "output_fingerprint": "c1eece37430d3ac9178f8e7fc52c8f5d2ff68c71f404a7616b2219bf79fa2f98",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "e5859cfebf5c77feed8711f5a14301b0316b2864f5276e566a3e683f02c7ff83",
+    "source_id": "4b693767528a855b13e0463f3b903728a61bb087:matching_sets/trophic_organisms.yml",
+    "source_path": "problems/matching_sets/cell_biology/trophic_organisms.yml",
+    "source_updated": "2026-10-06"
+  },
+  "other/topic01/bbq-TFMS-cell_theory-questions.txt": {
+    "output_fingerprint": "37f33a9e3c4bcc563cc39b9868047ca9588a3a955db3921d1ff64b1d337798e5",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "fad4742f2565d31390b6bf759e25c67c5cb567e1476880becce969966781dffc",
+    "source_id": "dc972975f6909cef088f82788923b5d4235c5ddf:multiple_choice_statements/cell_theory.yml",
+    "source_path": "problems/multiple_choice_statements/cell_biology/cell_theory.yml",
+    "source_updated": "2026-10-06"
+  },
+  "other/topic01/bbq-TFMS-fluid_mosaic_model-questions.txt": {
+    "output_fingerprint": "cb0980e5f251afab40f0ab8f7b206a19025a51e9013cf3f16eaccf44a465ed42",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "738328613812be80c881e3a47cbfebd9f3ec752445a584c01739045de857e355",
+    "source_id": "4b693767528a855b13e0463f3b903728a61bb087:multiple_choice_statements/fluid_mosaic_model.yml",
+    "source_path": "problems/multiple_choice_statements/cell_biology/fluid_mosaic_model.yml",
+    "source_updated": "2026-10-06"
+  },
+  "other/topic01/bbq-TFMS-membrane_diffusion-questions.txt": {
+    "output_fingerprint": "4051d9dae440940d7b049ab3a3ea1db61de1f37a5b929d4b6c526421d1e2a2a7",
+    "source_commit": "1c1d6e7ec6739470031e1f7fabde529685a43e80",
+    "source_fingerprint": "0c6a85969841da4625d7e46d167411af95728dc7455e1b7dda61f7deda61f8f4",
+    "source_id": "f82d122ec6b6186817eca315791527635b204c48:multiple_choice_statements/membrane_diffusion.yml",
+    "source_path": "problems/multiple_choice_statements/cell_biology/membrane_diffusion.yml",
+    "source_updated": "2026-07-12"
+  },
+  "other/topic01/bbq-TFMS-membrane_protein_functions-questions.txt": {
+    "output_fingerprint": "9dfd8c3537950dd54fa2532aecb6c926c6a972d5d9f07577732565d441e54775",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "fc5491bc8c5c261a0deb4fe4682d923b2d9a10fd8d3db9a3a325dba54096d221",
+    "source_id": "4b693767528a855b13e0463f3b903728a61bb087:multiple_choice_statements/membrane_protein_functions.yml",
+    "source_path": "problems/multiple_choice_statements/cell_biology/membrane_protein_functions.yml",
+    "source_updated": "2026-10-06"
+  },
+  "other/topic01/bbq-TFMS-mitosis_and_meiosis-questions.txt": {
+    "output_fingerprint": "7efea132571db6e65d0626b24f9434abc4543036ad6d9ddb725c4ac1f8941831",
+    "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
+    "source_fingerprint": "2a12ad5014e295024aef176b3e3b0b5cf4eec97c86c0534a775d640acf9fbc54",
+    "source_id": "8edd6dd8f2ccdc87e2613e08a82c0c44550d96ad:multiple_choice_statements/mitosis_and_meiosis.yml",
+    "source_path": "problems/multiple_choice_statements/cell_biology/mitosis_and_meiosis.yml",
+    "source_updated": "2026-01-23"
+  },
+  "other/topic01/bbq-TFMS-secondary_messenger-questions.txt": {
+    "output_fingerprint": "726e0249e83c8d4958ec5fc04a3d690fe54b265835280e23f232a118c60375cd",
+    "source_commit": "b661440d82a389dc8c126a24e3adf0cc7435be5e",
+    "source_fingerprint": "7455a4f46c711f3e6a1f1d9bfaa02c61cf33bbf3b6f91a2dc5aac89e0e1df844",
+    "source_id": "f5fae70b9e601efae8ffd05cb484155fdcf7222b:multiple_choice_statements/secondary_messenger.yml",
+    "source_path": "problems/multiple_choice_statements/cell_biology/secondary_messenger.yml",
+    "source_updated": "2026-08-19"
+  },
+  "other/topic01/bbq-TFMS-senses_chemosensation_smell_taste-questions.txt": {
+    "output_fingerprint": "b778db12d3c290945ccf609cf12d4dd7a2454d75eba063effc74331a5b9a8d0e",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "f18a2af3a98bdc7987418c4ed015f8e8056070068ed0c0c586c2a82737fd5be9",
+    "source_id": "95873ca5481bb735dbca062c8e9975944b3a2c5e:problems/multiple_choice_statements/senses_chemosensation_smell_taste.yml",
+    "source_path": "problems/multiple_choice_statements/cell_biology/senses_chemosensation_smell_taste.yml",
+    "source_updated": "2026-10-06"
+  },
+  "other/topic01/bbq-TFMS-senses_smell_vs_taste-questions.txt": {
+    "output_fingerprint": "2cbef9baebec4cce4a53172254e0716a35675de9506fe451fc5c7e8df9ac08f9",
+    "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
+    "source_fingerprint": "cbc680944321af4bd871236de6fae3a271d0e0666c3b1d965096b21c4f8f4bc6",
+    "source_id": "95873ca5481bb735dbca062c8e9975944b3a2c5e:problems/multiple_choice_statements/senses_smell_vs_taste.yml",
+    "source_path": "problems/multiple_choice_statements/cell_biology/senses_smell_vs_taste.yml",
+    "source_updated": "2026-01-23"
+  },
+  "other/topic01/bbq-TFMS-senses_vision_hearing-questions.txt": {
+    "output_fingerprint": "509f3a402d7743d7ac1c6710ddef6a0f6dd77d3bcc0013f3d9d446450d6d9a95",
+    "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
+    "source_fingerprint": "096cf3042b885855d4e3bbb98b051df593bc71ffe498b855eb3fbd5d18686a9e",
+    "source_id": "95873ca5481bb735dbca062c8e9975944b3a2c5e:problems/multiple_choice_statements/senses_vision_hearing.yml",
+    "source_path": "problems/multiple_choice_statements/cell_biology/senses_vision_hearing.yml",
+    "source_updated": "2026-01-23"
+  },
+  "other/topic01/bbq-WOMC-cell_receptors-questions.txt": {
+    "output_fingerprint": "fc6fb90e742ba301ec0d730b50e38fe1bd66df81f3cf31132772cc5a9b95b650",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "6dd4d0643218a056aaa9f64f59f19a261dfdd2025d0feba03d6895b04c3c67a6",
+    "source_id": "bbc4cdab476f087aa9a15aa6426a1415e54ffca7:matching_sets/cell_receptors.yml",
+    "source_path": "problems/matching_sets/cell_biology/cell_receptors.yml",
+    "source_updated": "2026-10-06"
+  },
+  "other/topic01/bbq-WOMC-trophic_organisms-questions.txt": {
+    "output_fingerprint": "d101f6540c7397464161b1ab8610fac1357dd97b0c0f9cbef282d0bc6d2a7231",
+    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
+    "source_fingerprint": "e5859cfebf5c77feed8711f5a14301b0316b2864f5276e566a3e683f02c7ff83",
+    "source_id": "4b693767528a855b13e0463f3b903728a61bb087:matching_sets/trophic_organisms.yml",
+    "source_path": "problems/matching_sets/cell_biology/trophic_organisms.yml",
+    "source_updated": "2026-10-06"
   }
 }

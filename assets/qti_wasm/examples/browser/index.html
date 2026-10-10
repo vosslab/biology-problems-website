@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>QTI browser conversion</title>
+    <style>
+      body { font-family: system-ui, sans-serif; max-width: 48rem; margin: 2rem auto; padding: 0 1rem; }
+      label { display: block; margin: 1rem 0; }
+      select, input, button { font: inherit; }
+      pre { white-space: pre-wrap; overflow-wrap: anywhere; padding: 1rem; background: #eee; }
+      li { margin: .5rem 0; }
+      #companion-names input { display: block; width: 100%; box-sizing: border-box; }
+    </style>
+    <script type="importmap">{"imports":{"fflate":"./vendor/fflate.js"}}</script>
+    <script type="module" src="./main.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Convert a question file</h1>
+      <p>Conversion runs locally in a browser worker. Select a question file and any companion media.</p>
+      <form id="conversion">
+        <label>Question file <input id="input-file" type="file" required></label>
+        <label>Companion files <input id="companion-files" type="file" multiple></label>
+        <p id="companion-help">Set each companion's relative name to match the question file, such as
+          media/pixel.png. Files with the same basename can use different folders.</p>
+        <ol id="companion-names" aria-label="Companion relative names"></ol>
+        <label>Input format <select id="input-format" required></select></label>
+        <label>Output format <select id="output-format" required></select></label>
+        <button id="convert" type="submit" disabled>Convert</button>
+      </form>
+      <p id="status" role="status">Starting worker...</p>
+      <pre id="diagnostics" aria-label="Diagnostics"></pre>
+      <p>Results with companion files download together as a ZIP that preserves their folders.</p>
+      <ul id="downloads" aria-label="Downloads"></ul>
+    </main>
+  </body>
+</html>

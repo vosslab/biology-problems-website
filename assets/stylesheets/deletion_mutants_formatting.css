@@ -1,54 +1,55 @@
+/* Website styles exclude self-test content. */
 /* Deletion mutants-specific styles (shared styles in daily_puzzle.css) */
 
 /* Custom variables */
-#dm-root {
+@scope (:root) to (.selftest-reroll-content) {#dm-root{
 	--dm-surface: var(--md-default-bg-color);
 	--dm-border: rgba(127, 127, 127, 0.25);
 	--dm-border-strong: rgba(127, 127, 127, 0.45);
-}
+}}
 
-body[data-md-color-scheme="default"] #dm-root {
+@scope (:root) to (.selftest-reroll-content) {body[data-md-color-scheme="default"] #dm-root{
 	--dm-empty-cell-bg: #f2f2f2;
 	--dm-empty-board-bg: #f2f2f2;
-}
+}}
 
-body[data-md-color-scheme="slate"] #dm-root {
+@scope (:root) to (.selftest-reroll-content) {body[data-md-color-scheme="slate"] #dm-root{
 	--dm-empty-cell-bg: #3b3f46;
 	--dm-empty-board-bg: #2b2f35;
-}
+}}
 
 /* Evidence block layout */
-#dm-root #problem {
+@scope (:root) to (.selftest-reroll-content) {#dm-root #problem{
 	display: grid;
 	grid-template-columns: 1fr;
 	gap: 1rem;
-}
+}}
 
 @media (min-width: 900px) {
-	#dm-root #problem {
+	@scope (:root) to (.selftest-reroll-content) {#dm-root #problem{
 		grid-template-columns: 3fr 2fr;
 		align-items: start;
-	}
+	}}
 
-	#dm-root #problem-summary {
+	@scope (:root) to (.selftest-reroll-content) {#dm-root #problem-summary{
 		grid-column: 1 / -1;
-	}
+	}}
 
-	#dm-root #hint-area {
+	@scope (:root) to (.selftest-reroll-content) {#dm-root #hint-area{
 		grid-column: 1 / -1;
-	}
+	}}
 
-	#dm-root #deletion-table {
+	@scope (:root) to (.selftest-reroll-content) {#dm-root #deletion-table{
 		grid-column: 1;
-	}
+	}}
 
-	#dm-root #deletion-list {
+	@scope (:root) to (.selftest-reroll-content) {#dm-root #deletion-list{
 		grid-column: 2;
-	}
+	}}
 }
 
 /* Deletion table */
-#dm-root .dm-table {
+@scope (:root) to (.selftest-reroll-content) {#dm-root .dm-table{
 	width: 100%;
 	border-collapse: separate;
 	border-spacing: 0;
@@ -58,18 +59,18 @@ body[data-md-color-scheme="slate"] #dm-root {
 	margin: 10px 0 8px;
 	table-layout: fixed;
 	background: var(--dm-surface);
-}
+}}
 
-#dm-root #deletion-table {
+@scope (:root) to (.selftest-reroll-content) {#dm-root #deletion-table{
 	overflow-x: auto;
-}
+}}
 
-#dm-root #deletion-table .dm-table {
+@scope (:root) to (.selftest-reroll-content) {#dm-root #deletion-table .dm-table{
 	margin-left: auto;
 	margin-right: auto;
-}
+}}
 
-#dm-root .dm-table th {
+@scope (:root) to (.selftest-reroll-content) {#dm-root .dm-table th{
 	border-right: 1px solid var(--dm-border);
 	border-bottom: 1px solid var(--dm-border);
 	padding: 8px 6px 10px;
@@ -79,88 +80,88 @@ body[data-md-color-scheme="slate"] #dm-root {
 	color: var(--md-default-fg-color);
 	background: color-mix(in srgb, var(--md-default-bg-color) 88%, var(--md-default-fg-color));
 	white-space: nowrap;
-}
+}}
 
 /* 1) Default to light palette for each row/item */
-.dm-del-scheme {
+@scope (:root) to (.selftest-reroll-content) {.dm-del-scheme{
 	--dm-fill: var(--dm-fill-light);
 	--dm-label: var(--dm-label-light);
-}
+}}
 
 /* 2) Switch to dark palette when Material is in slate mode */
-[data-md-color-scheme="slate"] .dm-del-scheme {
+@scope (:root) to (.selftest-reroll-content) {[data-md-color-scheme="slate"] .dm-del-scheme{
 	--dm-fill: var(--dm-fill-dark);
 	--dm-label: var(--dm-label-dark);
-}
+}}
 
-#dm-root .dm-del-label {
+@scope (:root) to (.selftest-reroll-content) {#dm-root .dm-del-label{
 	color: var(--dm-label);
 	font-weight: bold;
-}
+}}
 
-#dm-root .dm-del-name {
+@scope (:root) to (.selftest-reroll-content) {#dm-root .dm-del-name{
 	color: var(--dm-label);
 	font-weight: bold;
-}
+}}
 
-#dm-root .dm-table td.dm-cell {
+@scope (:root) to (.selftest-reroll-content) {#dm-root .dm-table td.dm-cell{
 	border-right: 1px solid var(--dm-border);
 	border-bottom: 1px solid var(--dm-border);
 	height: 30px;
 	background-color: var(--dm-empty-cell-bg);
 	padding: 0;
 	position: relative;
-}
+}}
 
 /* 3) Use the selected variables everywhere */
-#dm-root .dm-table td.dm-cell.dm-filled {
+@scope (:root) to (.selftest-reroll-content) {#dm-root .dm-table td.dm-cell.dm-filled{
 	background: linear-gradient(to bottom, rgba(255,255,255,0.10), rgba(0,0,0,0.10)), var(--dm-fill);
 	border-top-color: var(--dm-border);
 	border-bottom-color: var(--dm-border);
-}
+}}
 
-#dm-root .dm-table td.dm-cell.dm-filled:not(.dm-run-start) {
+@scope (:root) to (.selftest-reroll-content) {#dm-root .dm-table td.dm-cell.dm-filled:not(.dm-run-start){
 	border-left-color: transparent;
-}
+}}
 
-#dm-root .dm-table td.dm-cell.dm-filled:not(.dm-run-end) {
+@scope (:root) to (.selftest-reroll-content) {#dm-root .dm-table td.dm-cell.dm-filled:not(.dm-run-end){
 	border-right-color: transparent;
-}
+}}
 
-#dm-root .dm-table td.dm-cell.dm-run-start {
+@scope (:root) to (.selftest-reroll-content) {#dm-root .dm-table td.dm-cell.dm-run-start{
 	border-top-left-radius: 0.5rem;
 	border-bottom-left-radius: 0.5rem;
 	border-left: 1px solid var(--dm-border-strong);
-}
+}}
 
-#dm-root .dm-table td.dm-cell.dm-run-end {
+@scope (:root) to (.selftest-reroll-content) {#dm-root .dm-table td.dm-cell.dm-run-end{
 	border-top-right-radius: 0.5rem;
 	border-bottom-right-radius: 0.5rem;
 	border-right: 1px solid var(--dm-border-strong);
-}
+}}
 
-#dm-root .dm-table th:first-child {
+@scope (:root) to (.selftest-reroll-content) {#dm-root .dm-table th:first-child{
 	width: 6.5rem;
-}
+}}
 
-#dm-root #deletion-list {
+@scope (:root) to (.selftest-reroll-content) {#dm-root #deletion-list{
 	margin: 8px 0 10px;
-}
+}}
 
-#dm-root .dm-deletion-list {
+@scope (:root) to (.selftest-reroll-content) {#dm-root .dm-deletion-list{
 	list-style: none;
 	padding-left: 0;
 	margin: 0;
-}
+}}
 
-#dm-root .dm-deletion-list li {
+@scope (:root) to (.selftest-reroll-content) {#dm-root .dm-deletion-list li{
 	display: flex;
 	gap: 0.6rem;
 	align-items: baseline;
 	margin: 0.35rem 0;
-}
+}}
 
-#dm-root .dm-deletion-list li::before {
+@scope (:root) to (.selftest-reroll-content) {#dm-root .dm-deletion-list li::before{
 	content: "";
 	width: 0.9rem;
 	height: 0.9rem;
@@ -169,14 +170,14 @@ body[data-md-color-scheme="slate"] #dm-root {
 	flex: 0 0 auto;
 	margin-top: 0.15rem;
 	border: 1px solid var(--dm-border);
-}
+}}
 
-#dm-root .dm-del-name {
+@scope (:root) to (.selftest-reroll-content) {#dm-root .dm-del-name{
 	white-space: nowrap;
 	flex: 0 0 auto;
-}
+}}
 
-#dm-root .dm-deletion-list li span:last-child {
+@scope (:root) to (.selftest-reroll-content) {#dm-root .dm-deletion-list li span:last-child{
 	flex: 1 1 auto;
 	min-width: 0;
-}
+}}

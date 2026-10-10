@@ -1,54 +1,43 @@
+/* Website styles exclude self-test content. */
 /* ================================================
    Shared styling for all four daily puzzles
    (Peptidyle, Deletion Mutants, Mutant Screen, Biomacromolecules)
    ================================================ */
 
 /* Shared root container */
-#pw-root, #dm-root, #ms-root, #bm-root {
+@scope (:root) to (.selftest-reroll-content) {#pw-root,#dm-root,#ms-root,#bm-root{
 	max-width: 900px;
 	margin: 0 auto;
 	padding: 8px 0 0;
 	font-family: inherit;
 	box-sizing: border-box;
 	color: var(--md-default-fg-color);
-}
+}}
 
 /* Shared stats font-size */
-#pw-root #stats,
-#dm-root #stats,
-#ms-root #stats,
-#bm-root #stats {
+@scope (:root) to (.selftest-reroll-content) {#pw-root #stats,#dm-root #stats,#ms-root #stats,#bm-root #stats{
 	font-size: 0.9rem;
-}
+}}
 
 /* Shared message styling */
-#pw-root #message,
-#dm-root #message,
-#ms-root #message,
-#bm-root #message {
+@scope (:root) to (.selftest-reroll-content) {#pw-root #message,#dm-root #message,#ms-root #message,#bm-root #message{
 	min-height: 0;
 	margin-bottom: 8px;
 	text-align: center;
 	font-size: 0.95rem;
-}
+}}
 
 /* Shared toast container */
-#pw-root #toast-container,
-#dm-root #toast-container,
-#ms-root #toast-container,
-#bm-root #toast-container {
+@scope (:root) to (.selftest-reroll-content) {#pw-root #toast-container,#dm-root #toast-container,#ms-root #toast-container,#bm-root #toast-container{
 	position: fixed;
 	top: 12px;
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: 1000;
 	pointer-events: none;
-}
+}}
 
-#pw-root .toast,
-#dm-root .toast,
-#ms-root .toast,
-#bm-root .toast {
+@scope (:root) to (.selftest-reroll-content) {#pw-root .toast,#dm-root .toast,#ms-root .toast,#bm-root .toast{
 	background: rgba(0, 0, 0, 0.85);
 	color: #ffffff;
 	padding: 8px 14px;
@@ -57,89 +46,72 @@
 	font-size: 0.9rem;
 	opacity: 0;
 	transition: opacity 0.15s ease;
-}
+}}
 
-#pw-root .toast.show,
-#dm-root .toast.show,
-#ms-root .toast.show,
-#bm-root .toast.show {
+@scope (:root) to (.selftest-reroll-content) {#pw-root .toast.show,#dm-root .toast.show,#ms-root .toast.show,#bm-root .toast.show{
 	opacity: 1;
-}
+}}
 
 /* Shared instructions styling */
-#pw-root #instructions,
-#dm-root #instructions,
-#ms-root #instructions,
-#bm-root #instructions {
+@scope (:root) to (.selftest-reroll-content) {#pw-root #instructions,#dm-root #instructions,#ms-root #instructions,#bm-root #instructions{
 	max-width: 800px;
 	margin: 24px auto 0;
 	font-size: 0.95rem;
 	text-align: left;
-}
+}}
 
-#pw-root #instructions summary,
-#dm-root #instructions summary,
-#ms-root #instructions summary,
-#bm-root #instructions summary {
+@scope (:root) to (.selftest-reroll-content) {#pw-root #instructions summary,#dm-root #instructions summary,#ms-root #instructions summary,#bm-root #instructions summary{
 	cursor: pointer;
 	margin-bottom: 8px;
-}
+}}
 
 /* Shared canvas display (peptidyle + biomacromolecule) */
-#pw-root #peptide,
-#bm-root #molecule-display {
+@scope (:root) to (.selftest-reroll-content) {#pw-root #peptide,#bm-root #molecule-display{
 	margin-bottom: 12px;
 	text-align: center;
-}
+}}
 
-#pw-root #peptide canvas,
-#bm-root #molecule-display canvas {
+@scope (:root) to (.selftest-reroll-content) {#pw-root #peptide canvas,#bm-root #molecule-display canvas{
 	border: 1px solid rgba(127, 127, 127, 0.25);
 	display: block;
 	margin: 0 auto;
 	max-width: 800px;
 	width: 100%;
 	height: auto;
-}
+}}
 
-body[data-md-color-scheme="slate"] #pw-root #peptide canvas,
-body[data-md-color-scheme="slate"] #bm-root #molecule-display canvas {
+@scope (:root) to (.selftest-reroll-content) {body[data-md-color-scheme="slate"] #pw-root #peptide canvas,body[data-md-color-scheme="slate"] #bm-root #molecule-display canvas{
 	background-color: #333333;
-}
+}}
 
 /* Hidden guess form (peptidyle) */
-#pw-root #guess-form {
+@scope (:root) to (.selftest-reroll-content) {#pw-root #guess-form{
 	display: none;
-}
+}}
 
 /* Shared keyboard theming variables */
-:root {
+:root{
 	--kb-key-bg: rgba(127,127,127,0.12);
 	--kb-key-fg: rgba(0,0,0,0.88);
 	--kb-disabled-bg: rgba(220, 80, 80, 0.25);
 	--kb-disabled-fg: rgba(0,0,0,0.88);
 }
 
-body[data-md-color-scheme="slate"] {
+@scope (:root) to (.selftest-reroll-content) {body[data-md-color-scheme="slate"]{
 	--kb-key-bg: rgba(127,127,127,0.18);
 	--kb-key-fg: rgba(255,255,255,0.92);
 	--kb-disabled-bg: rgba(200, 45, 45, 0.70);
 	--kb-disabled-fg: rgba(255,255,255,0.92);
-}
+}}
 
 /* Hard override: ensure slate palette reaches the puzzle roots */
-body[data-md-color-scheme="slate"] #dm-root,
-body[data-md-color-scheme="slate"] #pw-root,
-body[data-md-color-scheme="slate"] #ms-root,
-body[data-md-color-scheme="slate"] #bm-root {
+@scope (:root) to (.selftest-reroll-content) {body[data-md-color-scheme="slate"] #dm-root,body[data-md-color-scheme="slate"] #pw-root,body[data-md-color-scheme="slate"] #ms-root,body[data-md-color-scheme="slate"] #bm-root{
 	--kb-key-fg: rgba(255,255,255,0.92);
 	--kb-disabled-fg: rgba(255,255,255,0.92);
-}
+}}
 
 /* On-screen keyboard (shared layout + visuals) */
-#pw-root #keyboard,
-#dm-root #keyboard,
-#ms-root #keyboard {
+@scope (:root) to (.selftest-reroll-content) {#pw-root #keyboard,#dm-root #keyboard,#ms-root #keyboard{
 	margin-top: 12px;
 	user-select: none;
 	text-align: center;
@@ -147,19 +119,15 @@ body[data-md-color-scheme="slate"] #bm-root {
 	border: 1px solid rgba(127,127,127,0.25);
 	border-radius: 0.6rem;
 	padding: 10px 8px;
-}
+}}
 
-#pw-root .kb-row,
-#dm-root .kb-row,
-#ms-root .kb-row {
+@scope (:root) to (.selftest-reroll-content) {#pw-root .kb-row,#dm-root .kb-row,#ms-root .kb-row{
 	display: flex;
 	justify-content: center;
 	margin-bottom: 4px;
-}
+}}
 
-#pw-root .kb-key,
-#dm-root .kb-key,
-#ms-root .kb-key {
+@scope (:root) to (.selftest-reroll-content) {#pw-root .kb-key,#dm-root .kb-key,#ms-root .kb-key{
 	min-width: 2.4em;
 	padding: 8px 6px;
 	margin: 0 2px;
@@ -172,84 +140,56 @@ body[data-md-color-scheme="slate"] #bm-root {
 	color: var(--kb-key-fg);
 	font-size: 0.9rem;
 	box-sizing: border-box;
-}
+}}
 
-#pw-root .kb-key.wide,
-#dm-root .kb-key.wide,
-#ms-root .kb-key.wide {
+@scope (:root) to (.selftest-reroll-content) {#pw-root .kb-key.wide,#dm-root .kb-key.wide,#ms-root .kb-key.wide{
 	min-width: 3.4em;
-}
+}}
 
-#pw-root .kb-key.correct,
-#dm-root .kb-key.correct,
-#ms-root .kb-key.correct {
+@scope (:root) to (.selftest-reroll-content) {#pw-root .kb-key.correct,#dm-root .kb-key.correct,#ms-root .kb-key.correct{
 	background: #6aaa64;
 	border-color: #6aaa64;
 	color: #ffffff;
-}
+}}
 
-#pw-root .kb-key.present,
-#dm-root .kb-key.present,
-#ms-root .kb-key.present {
+@scope (:root) to (.selftest-reroll-content) {#pw-root .kb-key.present,#dm-root .kb-key.present,#ms-root .kb-key.present{
 	background: #c9b458;
 	border-color: #c9b458;
 	color: #ffffff;
-}
+}}
 
-#pw-root .kb-key.absent,
-#dm-root .kb-key.absent,
-#ms-root .kb-key.absent {
+@scope (:root) to (.selftest-reroll-content) {#pw-root .kb-key.absent,#dm-root .kb-key.absent,#ms-root .kb-key.absent{
 	background: #787c7e;
 	border-color: #787c7e;
 	color: #ffffff;
-}
+}}
 
-#pw-root .kb-key.disabled,
-#dm-root .kb-key.disabled,
-#ms-root .kb-key.disabled,
-#pw-root .kb-key:disabled,
-#dm-root .kb-key:disabled,
-#ms-root .kb-key:disabled {
+@scope (:root) to (.selftest-reroll-content) {#pw-root .kb-key.disabled,#dm-root .kb-key.disabled,#ms-root .kb-key.disabled,#pw-root .kb-key:disabled,#dm-root .kb-key:disabled,#ms-root .kb-key:disabled{
 	background: var(--kb-disabled-bg);
 	color: var(--kb-disabled-fg);
 	opacity: 1;
 	-webkit-text-fill-color: var(--kb-disabled-fg);
 	cursor: not-allowed;
-}
+}}
 
-body[data-md-color-scheme="slate"] #pw-root .kb-key.disabled,
-body[data-md-color-scheme="slate"] #dm-root .kb-key.disabled,
-body[data-md-color-scheme="slate"] #ms-root .kb-key.disabled,
-body[data-md-color-scheme="slate"] #pw-root .kb-key:disabled,
-body[data-md-color-scheme="slate"] #dm-root .kb-key:disabled,
-body[data-md-color-scheme="slate"] #ms-root .kb-key:disabled {
+@scope (:root) to (.selftest-reroll-content) {body[data-md-color-scheme="slate"] #pw-root .kb-key.disabled,body[data-md-color-scheme="slate"] #dm-root .kb-key.disabled,body[data-md-color-scheme="slate"] #ms-root .kb-key.disabled,body[data-md-color-scheme="slate"] #pw-root .kb-key:disabled,body[data-md-color-scheme="slate"] #dm-root .kb-key:disabled,body[data-md-color-scheme="slate"] #ms-root .kb-key:disabled{
 	background: linear-gradient(to bottom, rgba(255,255,255,0.08), rgba(0,0,0,0.08)), var(--kb-disabled-bg);
-}
+}}
 
 /* Ensure the glyph color actually updates (Safari can ignore color without this) */
-body[data-md-color-scheme="slate"] #dm-root button.kb-key,
-body[data-md-color-scheme="slate"] #pw-root button.kb-key,
-body[data-md-color-scheme="slate"] #ms-root button.kb-key {
+@scope (:root) to (.selftest-reroll-content) {body[data-md-color-scheme="slate"] #dm-root button.kb-key,body[data-md-color-scheme="slate"] #pw-root button.kb-key,body[data-md-color-scheme="slate"] #ms-root button.kb-key{
 	color: var(--kb-key-fg);
 	-webkit-text-fill-color: var(--kb-key-fg);
-}
+}}
 
-body[data-md-color-scheme="slate"] #dm-root button.kb-key:disabled,
-body[data-md-color-scheme="slate"] #pw-root button.kb-key:disabled,
-body[data-md-color-scheme="slate"] #ms-root button.kb-key:disabled,
-body[data-md-color-scheme="slate"] #dm-root button.kb-key.disabled,
-body[data-md-color-scheme="slate"] #pw-root button.kb-key.disabled,
-body[data-md-color-scheme="slate"] #ms-root button.kb-key.disabled {
+@scope (:root) to (.selftest-reroll-content) {body[data-md-color-scheme="slate"] #dm-root button.kb-key:disabled,body[data-md-color-scheme="slate"] #pw-root button.kb-key:disabled,body[data-md-color-scheme="slate"] #ms-root button.kb-key:disabled,body[data-md-color-scheme="slate"] #dm-root button.kb-key.disabled,body[data-md-color-scheme="slate"] #pw-root button.kb-key.disabled,body[data-md-color-scheme="slate"] #ms-root button.kb-key.disabled{
 	color: var(--kb-disabled-fg);
 	-webkit-text-fill-color: var(--kb-disabled-fg);
 	opacity: 1;
-}
+}}
 
 /* Shared help + hint control bar */
-#pw-root #hint-area,
-#dm-root #hint-area,
-#ms-root #hint-area,
-#bm-root #hint-area {
+@scope (:root) to (.selftest-reroll-content) {#pw-root #hint-area,#dm-root #hint-area,#ms-root #hint-area,#bm-root #hint-area{
 	margin: 8px 0 10px;
 	display: flex;
 	gap: 10px;
@@ -260,22 +200,16 @@ body[data-md-color-scheme="slate"] #ms-root button.kb-key.disabled {
 	padding: 6px 8px;
 	background: var(--md-default-bg-color);
 	border: 1px solid rgba(127,127,127,0.25);
-}
+}}
 
-#pw-root #controls-left,
-#dm-root #controls-left,
-#ms-root #controls-left,
-#bm-root #controls-left {
+@scope (:root) to (.selftest-reroll-content) {#pw-root #controls-left,#dm-root #controls-left,#ms-root #controls-left,#bm-root #controls-left{
 	display: flex;
 	gap: 8px;
 	align-items: center;
 	flex-wrap: wrap;
-}
+}}
 
-#pw-root #help-button,
-#dm-root #help-button,
-#ms-root #help-button,
-#bm-root #help-button {
+@scope (:root) to (.selftest-reroll-content) {#pw-root #help-button,#dm-root #help-button,#ms-root #help-button,#bm-root #help-button{
 	padding: 4px 10px;
 	font-size: 0.9rem;
 	cursor: pointer;
@@ -283,12 +217,9 @@ body[data-md-color-scheme="slate"] #ms-root button.kb-key.disabled {
 	border: 1px solid rgba(127,127,127,0.45);
 	background: var(--md-default-bg-color);
 	color: var(--md-default-fg-color);
-}
+}}
 
-#pw-root #hint-button,
-#dm-root #hint-button,
-#ms-root #hint-button,
-#bm-root #hint-button {
+@scope (:root) to (.selftest-reroll-content) {#pw-root #hint-button,#dm-root #hint-button,#ms-root #hint-button,#bm-root #hint-button{
 	display: inline-block;
 	padding: 6px 10px;
 	font-size: 0.88rem;
@@ -298,70 +229,54 @@ body[data-md-color-scheme="slate"] #ms-root button.kb-key.disabled {
 	border: 1px solid rgba(127,127,127,0.45);
 	background: var(--md-primary-fg-color);
 	color: #ffffff;
-}
+}}
 
-#pw-root #hint-status,
-#dm-root #hint-status,
-#ms-root #hint-status,
-#bm-root #hint-status {
+@scope (:root) to (.selftest-reroll-content) {#pw-root #hint-status,#dm-root #hint-status,#ms-root #hint-status,#bm-root #hint-status{
 	margin-top: 0;
 	font-size: 0.9rem;
 	opacity: 0.9;
 	flex: 1;
 	text-align: right;
 	min-width: 220px;
-}
+}}
 
 @media (max-width: 600px) {
-	#pw-root #hint-status,
-	#dm-root #hint-status,
-	#ms-root #hint-status,
-	#bm-root #hint-status {
+	@scope (:root) to (.selftest-reroll-content) {#pw-root #hint-status,#dm-root #hint-status,#ms-root #hint-status,#bm-root #hint-status{
 		text-align: left;
 		min-width: 0;
 		flex-basis: 100%;
-	}
+	}}
 }
 
 /* Shared Wordle-style board */
-body[data-md-color-scheme="default"] #pw-root,
-body[data-md-color-scheme="default"] #dm-root,
-body[data-md-color-scheme="default"] #ms-root {
+@scope (:root) to (.selftest-reroll-content) {body[data-md-color-scheme="default"] #pw-root,body[data-md-color-scheme="default"] #dm-root,body[data-md-color-scheme="default"] #ms-root{
 	--dp-cell-empty-bg: #f2f2f2;
 	--dp-cell-border: #d3d6da;
 	--dp-cell-pending-border: #878a8c;
-}
+}}
 
-body[data-md-color-scheme="slate"] #pw-root,
-body[data-md-color-scheme="slate"] #dm-root,
-body[data-md-color-scheme="slate"] #ms-root {
+@scope (:root) to (.selftest-reroll-content) {body[data-md-color-scheme="slate"] #pw-root,body[data-md-color-scheme="slate"] #dm-root,body[data-md-color-scheme="slate"] #ms-root{
 	--dp-cell-empty-bg: #3b3f46;
 	--dp-cell-border: rgba(255,255,255,0.18);
 	--dp-cell-pending-border: rgba(255,255,255,0.35);
-}
+}}
 
-#pw-root #board,
-#dm-root #board,
-#ms-root #board {
+@scope (:root) to (.selftest-reroll-content) {#pw-root #board,#dm-root #board,#ms-root #board{
 	margin: 6px auto 6px;
 	text-align: center;
 	background: var(--md-default-bg-color);
 	border: 1px solid rgba(127,127,127,0.25);
 	border-radius: 0.6rem;
 	padding: 10px 8px;
-}
+}}
 
-#pw-root .row,
-#dm-root .row,
-#ms-root .row {
+@scope (:root) to (.selftest-reroll-content) {#pw-root .row,#dm-root .row,#ms-root .row{
 	display: flex;
 	justify-content: center;
 	margin-bottom: 4px;
-}
+}}
 
-#pw-root .cell,
-#dm-root .cell,
-#ms-root .cell {
+@scope (:root) to (.selftest-reroll-content) {#pw-root .cell,#dm-root .cell,#ms-root .cell{
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -377,91 +292,73 @@ body[data-md-color-scheme="slate"] #ms-root {
 	box-sizing: border-box;
 	background: var(--dp-cell-empty-bg);
 	color: var(--md-default-fg-color);
-}
+}}
 
-#pw-root .cell.empty,
-#dm-root .cell.empty,
-#ms-root .cell.empty {
+@scope (:root) to (.selftest-reroll-content) {#pw-root .cell.empty,#dm-root .cell.empty,#ms-root .cell.empty{
 	background: var(--dp-cell-empty-bg);
 	border-color: var(--dp-cell-border);
-}
+}}
 
-#pw-root .cell.pending,
-#dm-root .cell.pending,
-#ms-root .cell.pending {
+@scope (:root) to (.selftest-reroll-content) {#pw-root .cell.pending,#dm-root .cell.pending,#ms-root .cell.pending{
 	border-color: var(--dp-cell-pending-border);
-}
+}}
 
-#pw-root .cell.correct,
-#dm-root .cell.correct,
-#ms-root .cell.correct {
+@scope (:root) to (.selftest-reroll-content) {#pw-root .cell.correct,#dm-root .cell.correct,#ms-root .cell.correct{
 	background: #6aaa64;
 	color: #ffffff;
 	border-color: #6aaa64;
-}
+}}
 
-#pw-root .cell.present,
-#dm-root .cell.present,
-#ms-root .cell.present {
+@scope (:root) to (.selftest-reroll-content) {#pw-root .cell.present,#dm-root .cell.present,#ms-root .cell.present{
 	background: #c9b458;
 	color: #ffffff;
 	border-color: #c9b458;
-}
+}}
 
-#pw-root .cell.absent,
-#dm-root .cell.absent,
-#ms-root .cell.absent {
+@scope (:root) to (.selftest-reroll-content) {#pw-root .cell.absent,#dm-root .cell.absent,#ms-root .cell.absent{
 	background: #787c7e;
 	color: #ffffff;
 	border-color: #787c7e;
-}
+}}
 
-.dp-penalty-row .cell.empty {
+@scope (:root) to (.selftest-reroll-content) {.dp-penalty-row .cell.empty{
 	opacity: 0.85;
-}
+}}
 
 /* Accessibility */
-#pw-root button:focus-visible,
-#dm-root button:focus-visible,
-#ms-root button:focus-visible,
-#bm-root button:focus-visible,
-#pw-root .kb-key:focus-visible,
-#dm-root .kb-key:focus-visible,
-#ms-root .kb-key:focus-visible {
+@scope (:root) to (.selftest-reroll-content) {#pw-root button:focus-visible,#dm-root button:focus-visible,#ms-root button:focus-visible,#bm-root button:focus-visible,#pw-root .kb-key:focus-visible,#dm-root .kb-key:focus-visible,#ms-root .kb-key:focus-visible{
 	outline: 3px solid var(--md-accent-fg-color);
 	outline-offset: 2px;
-}
+}}
 
 /* Final authority: ensure key labels are readable in slate mode in all browsers */
-body[data-md-color-scheme="slate"] .md-typeset #pw-root .kb-key,
-body[data-md-color-scheme="slate"] .md-typeset #dm-root .kb-key,
-body[data-md-color-scheme="slate"] .md-typeset #ms-root .kb-key {
+@scope (:root) to (.selftest-reroll-content) {body[data-md-color-scheme="slate"] .md-typeset #pw-root .kb-key,body[data-md-color-scheme="slate"] .md-typeset #dm-root .kb-key,body[data-md-color-scheme="slate"] .md-typeset #ms-root .kb-key{
 	color: rgba(255,255,255,0.92);
-}
+}}
 
 /* Intro paragraph inside the puzzle root, below the stats card */
-.dp-intro {
+@scope (:root) to (.selftest-reroll-content) {.dp-intro{
 	font-size: 0.85rem;
 	line-height: 1.5;
 	margin: 0 0 8px;
 	opacity: 0.85;
-}
+}}
 
-.dp-next-reset{
+@scope (:root) to (.selftest-reroll-content) {.dp-next-reset{
 	margin-top: 1rem;
 	text-align: center;
 	font-size: 0.85rem;
 	opacity: 0.75;
-}
+}}
 
-body[data-md-color-scheme="slate"] .dp-next-reset{
+@scope (:root) to (.selftest-reroll-content) {body[data-md-color-scheme="slate"] .dp-next-reset{
 	opacity: 0.80;
-}
+}}
 
 /* ================================================
    Stats card (replaces old pill layout)
    ================================================ */
-.dp-stats-card {
+@scope (:root) to (.selftest-reroll-content) {.dp-stats-card{
 	display: flex;
 	justify-content: space-between;
 	gap: 0;
@@ -473,9 +370,9 @@ body[data-md-color-scheme="slate"] .dp-next-reset{
 	background: var(--md-default-bg-color);
 	background: color-mix(in srgb, var(--md-primary-fg-color) 10%, var(--md-default-bg-color));
 	color: var(--md-default-fg-color);
-}
+}}
 
-.dp-stat-item {
+@scope (:root) to (.selftest-reroll-content) {.dp-stat-item{
 	display: flex;
 	flex-direction: row;
 	align-items: baseline;
@@ -484,33 +381,33 @@ body[data-md-color-scheme="slate"] .dp-next-reset{
 	flex: 1;
 	justify-content: center;
 	padding: 2px 6px;
-}
+}}
 
-.dp-stat-value {
+@scope (:root) to (.selftest-reroll-content) {.dp-stat-value{
 	font-size: 1.1rem;
 	font-weight: 700;
 	line-height: 1.2;
 	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
 	color: var(--md-default-fg-color);
-}
+}}
 
-.dp-stat-label {
+@scope (:root) to (.selftest-reroll-content) {.dp-stat-label{
 	font-size: 0.7rem;
 	text-transform: uppercase;
 	letter-spacing: 0.04em;
 	opacity: 0.7;
 	margin-top: 0;
-}
+}}
 
-.dp-streak-active .dp-stat-value::before {
-	content: "\1F525 ";
+@scope (:root) to (.selftest-reroll-content) {.dp-streak-active .dp-stat-value::before{
+	content: "🔥";
 	font-size: 1rem;
-}
+}}
 
 /* ================================================
    Game-end modal overlay
    ================================================ */
-.dp-modal-overlay {
+@scope (:root) to (.selftest-reroll-content) {.dp-modal-overlay{
 	position: fixed;
 	inset: 0;
 	z-index: 10000;
@@ -519,19 +416,18 @@ body[data-md-color-scheme="slate"] .dp-next-reset{
 	justify-content: center;
 	background: rgba(0,0,0,0.5);
 	animation: dp-fade-in 0.25s ease-out;
-}
+}}
 
-.dp-modal-overlay.dp-no-animate,
-.dp-modal-overlay.dp-no-animate .dp-modal {
+@scope (:root) to (.selftest-reroll-content) {.dp-modal-overlay.dp-no-animate,.dp-modal-overlay.dp-no-animate .dp-modal{
 	animation: none;
-}
+}}
 
 @keyframes dp-fade-in {
 	from { opacity: 0; }
 	to   { opacity: 1; }
 }
 
-.dp-modal {
+@scope (:root) to (.selftest-reroll-content) {.dp-modal{
 	position: relative;
 	width: 92%;
 	max-width: 360px;
@@ -543,18 +439,18 @@ body[data-md-color-scheme="slate"] .dp-next-reset{
 	padding: 24px 20px 18px;
 	box-shadow: 0 8px 32px rgba(0,0,0,0.25);
 	animation: dp-slide-up 0.3s ease-out;
-}
+}}
 
 @keyframes dp-slide-up {
 	from { transform: translateY(30px); opacity: 0; }
 	to   { transform: translateY(0);    opacity: 1; }
 }
 
-body[data-md-color-scheme="slate"] .dp-modal {
+@scope (:root) to (.selftest-reroll-content) {body[data-md-color-scheme="slate"] .dp-modal{
 	box-shadow: 0 8px 32px rgba(0,0,0,0.5);
-}
+}}
 
-.dp-modal-close {
+@scope (:root) to (.selftest-reroll-content) {.dp-modal-close{
 	position: absolute;
 	top: 8px;
 	right: 12px;
@@ -566,77 +462,77 @@ body[data-md-color-scheme="slate"] .dp-modal {
 	opacity: 0.6;
 	line-height: 1;
 	padding: 4px;
-}
+}}
 
-.dp-modal-close:hover {
+@scope (:root) to (.selftest-reroll-content) {.dp-modal-close:hover{
 	opacity: 1;
-}
+}}
 
-.dp-modal-title {
+@scope (:root) to (.selftest-reroll-content) {.dp-modal-title{
 	text-align: center;
 	font-size: 1.3rem;
 	font-weight: 700;
 	margin-bottom: 4px;
-}
+}}
 
-.dp-modal-subtitle {
+@scope (:root) to (.selftest-reroll-content) {.dp-modal-subtitle{
 	text-align: center;
 	font-size: 0.85rem;
 	opacity: 0.7;
 	margin-bottom: 14px;
-}
+}}
 
-.dp-modal-section-title {
+@scope (:root) to (.selftest-reroll-content) {.dp-modal-section-title{
 	text-align: center;
 	font-size: 0.8rem;
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
 	opacity: 0.6;
 	margin: 14px 0 8px;
-}
+}}
 
 /* Stats card inside modal - tighter spacing */
-.dp-modal .dp-stats-card {
+@scope (:root) to (.selftest-reroll-content) {.dp-modal .dp-stats-card{
 	margin: 0 0 4px;
 	padding: 8px 8px;
 	border: none;
 	background: transparent;
-}
+}}
 
-.dp-modal .dp-stat-value {
+@scope (:root) to (.selftest-reroll-content) {.dp-modal .dp-stat-value{
 	font-size: 1.3rem;
-}
+}}
 
 /* ================================================
    Guess distribution chart
    ================================================ */
-.dp-guess-dist {
+@scope (:root) to (.selftest-reroll-content) {.dp-guess-dist{
 	display: flex;
 	flex-direction: column;
 	gap: 4px;
 	padding: 0 4px;
-}
+}}
 
-.dp-dist-row {
+@scope (:root) to (.selftest-reroll-content) {.dp-dist-row{
 	display: flex;
 	align-items: center;
 	gap: 6px;
-}
+}}
 
-.dp-dist-label {
+@scope (:root) to (.selftest-reroll-content) {.dp-dist-label{
 	font-size: 0.85rem;
 	font-weight: 700;
 	width: 1.2em;
 	text-align: right;
 	flex-shrink: 0;
-}
+}}
 
-.dp-dist-bar-bg {
+@scope (:root) to (.selftest-reroll-content) {.dp-dist-bar-bg{
 	flex: 1;
 	min-height: 22px;
-}
+}}
 
-.dp-dist-bar {
+@scope (:root) to (.selftest-reroll-content) {.dp-dist-bar{
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
@@ -649,26 +545,26 @@ body[data-md-color-scheme="slate"] .dp-modal {
 	font-weight: 700;
 	min-width: 22px;
 	box-sizing: border-box;
-}
+}}
 
-.dp-dist-bar.dp-dist-current {
+@scope (:root) to (.selftest-reroll-content) {.dp-dist-bar.dp-dist-current{
 	background: #6aaa64;
-}
+}}
 
-.dp-dist-count {
+@scope (:root) to (.selftest-reroll-content) {.dp-dist-count{
 	font-size: 0.8rem;
-}
+}}
 
 /* Modal timer */
-.dp-modal-timer {
+@scope (:root) to (.selftest-reroll-content) {.dp-modal-timer{
 	text-align: center;
 	font-size: 0.82rem;
 	opacity: 0.65;
 	margin: 14px 0 8px;
-}
+}}
 
 /* Modal close button */
-.dp-modal-btn-close {
+@scope (:root) to (.selftest-reroll-content) {.dp-modal-btn-close{
 	display: block;
 	width: 100%;
 	padding: 10px;
@@ -680,18 +576,17 @@ body[data-md-color-scheme="slate"] .dp-modal {
 	border-radius: 8px;
 	background: var(--md-primary-fg-color, #4051b5);
 	color: #fff;
-}
+}}
 
-.dp-modal-btn-close:hover {
+@scope (:root) to (.selftest-reroll-content) {.dp-modal-btn-close:hover{
 	opacity: 0.9;
-}
+}}
 
 /* ================================================
    Reduced motion
    ================================================ */
 @media (prefers-reduced-motion: reduce) {
-	.dp-modal-overlay,
-	.dp-modal {
+	@scope (:root) to (.selftest-reroll-content) {.dp-modal-overlay,.dp-modal{
 		animation: none;
-	}
+	}}
 }

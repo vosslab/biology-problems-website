@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@rdkit/rdkit": "2026.9.1",
+    "modern-screenshot": "4.7.0"
+  },
+  "rdkitLicense": "https://raw.githubusercontent.com/rdkit/rdkit/fece8caa860bdf6c9c82bdb9253f22a0cf87150c/license.txt",
+  "files": {
+    "modern_screenshot.mjs": "d6ce0ad42851eb3c6a56b89ab15839f5eaee512df6b27845c42e58d3605dd945",
+    "modern_screenshot_license.txt": "1daae2db27daba18a7e21bb56e12e19b8de6c1197658921f09bbe550f7106579",
+    "rdkit.js": "ea427db9cc39be245065603de0df10c3053cb49af3b63fdf6bc2bf73d6fc17da",
+    "rdkit.wasm": "594ceaed387adc70ea13bfbb2e8eace916f6c782254ed5a6f0f0a0a7a4fe4061",
+    "rdkit_license.txt": "daeb8d194502cbcf34c05c39541a0d02be65bc9bada5b891c1974cd24e9fca30"
+  }
+}

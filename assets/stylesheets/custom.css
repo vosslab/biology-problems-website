@@ -1,3 +1,4 @@
+/* Website styles exclude self-test content. */
 @font-face {
   font-family: "Atkinson Hyperlegible Next";
   src: url("../fonts/atkinson_hyperlegible_next/AtkinsonHyperlegibleNext-Variable.woff2") format("woff2");
@@ -14,47 +15,32 @@
   font-display: swap;
 }
 
-:root {
+:root{
   --md-text-font: "Atkinson Hyperlegible Next";
 }
 
-/* Important overrides legacy inline Arial without changing intentional monospace text. */
-.qti-selftest [style*="font-family" i][style*="Arial" i] {
-  font-family: inherit !important;
-}
-
-/* Material's article-table gutters do not belong inside an answer label. */
-.qti-selftest ul[id^="choices_"] > li > label .md-typeset__scrollwrap {
-  margin: 0;
-}
-
-.qti-selftest ul[id^="choices_"] > li > label .md-typeset__table {
-  display: block;
-  padding: 0;
-}
-
 @font-face {
-  font-family: 'Font Awesome 6 Free';
-  src: url('/assets/fonts/fa-solid-900.woff2') format('woff2');
+  font-family: "Font Awesome 6 Free";
+  src: url("/assets/fonts/fa-solid-900.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Font Awesome 6 Free';
-  src: url('/assets/fonts/fa-regular-400.woff2') format('woff2');
+  font-family: "Font Awesome 6 Free";
+  src: url("/assets/fonts/fa-regular-400.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Font Awesome 6 Brands';
-  src: url('/assets/fonts/fa-brands-400.woff2') format('woff2');
+  font-family: "Font Awesome 6 Brands";
+  src: url("/assets/fonts/fa-brands-400.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
-.fa {
+@scope (:root) to (.selftest-reroll-content) {.fa{
   display: inline-block;
   margin-right: 2px;
   font: normal normal 900 14px/1 "Font Awesome 6 Free";
@@ -62,10 +48,10 @@
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+}}
 
-.fa-brands {
-  font-family: 'Font Awesome 6 Brands';
+@scope (:root) to (.selftest-reroll-content) {.fa-brands{
+  font-family: "Font Awesome 6 Brands";
   font-style: normal;
   font-weight: 400;
   font-size: inherit;
@@ -73,33 +59,33 @@
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+}}
 
-.fa-download:before { content: "\f019"; }
-.fa-eye:before { content: "\f06e"; }
-.fa-home:before { content: "\f015"; }
-.fa-flask:before { content: "\f0c3"; }
-.fa-dna:before { content: "\f471"; }
-.fa-book-open:before { content: "\f518"; }
-.fa-user-tie:before { content: "\f508"; }
-.fa-chalkboard:before { content: "\f51b"; }
-.fa-water:before { content: "\f773"; }
-.fa-file-contract:before { content: "\f56c"; }
-.fa-puzzle-piece:before { content: "\f12e"; }
-.fa-dice-five:before { content: "\f523"; }
-.fa-fly:before { content: "\f188"; }
-.fa-chart-bar:before { content: "\f080"; }
-.fa-chart-line:before { content: "\f201"; }
-.fa-dice:before { content: "\f522"; }
-.fa-sitemap:before { content: "\f0e8"; }
-.fa-code:before { content: "\f121"; }
-.fa-external-link-alt:before { content: "\f35d"; }
-.fa-creative-commons:before { content: "\f25e"; }
-.fa-creative-commons-by:before { content: "\f4e7"; }
-.fa-creative-commons-sa:before { content: "\f4ef"; }
+@scope (:root) to (.selftest-reroll-content) {.fa-download:before{ content: ""; }}
+@scope (:root) to (.selftest-reroll-content) {.fa-eye:before{ content: ""; }}
+@scope (:root) to (.selftest-reroll-content) {.fa-home:before{ content: ""; }}
+@scope (:root) to (.selftest-reroll-content) {.fa-flask:before{ content: ""; }}
+@scope (:root) to (.selftest-reroll-content) {.fa-dna:before{ content: ""; }}
+@scope (:root) to (.selftest-reroll-content) {.fa-book-open:before{ content: ""; }}
+@scope (:root) to (.selftest-reroll-content) {.fa-user-tie:before{ content: ""; }}
+@scope (:root) to (.selftest-reroll-content) {.fa-chalkboard:before{ content: ""; }}
+@scope (:root) to (.selftest-reroll-content) {.fa-water:before{ content: ""; }}
+@scope (:root) to (.selftest-reroll-content) {.fa-file-contract:before{ content: ""; }}
+@scope (:root) to (.selftest-reroll-content) {.fa-puzzle-piece:before{ content: ""; }}
+@scope (:root) to (.selftest-reroll-content) {.fa-dice-five:before{ content: ""; }}
+@scope (:root) to (.selftest-reroll-content) {.fa-fly:before{ content: ""; }}
+@scope (:root) to (.selftest-reroll-content) {.fa-chart-bar:before{ content: ""; }}
+@scope (:root) to (.selftest-reroll-content) {.fa-chart-line:before{ content: ""; }}
+@scope (:root) to (.selftest-reroll-content) {.fa-dice:before{ content: ""; }}
+@scope (:root) to (.selftest-reroll-content) {.fa-sitemap:before{ content: ""; }}
+@scope (:root) to (.selftest-reroll-content) {.fa-code:before{ content: ""; }}
+@scope (:root) to (.selftest-reroll-content) {.fa-external-link-alt:before{ content: ""; }}
+@scope (:root) to (.selftest-reroll-content) {.fa-creative-commons:before{ content: ""; }}
+@scope (:root) to (.selftest-reroll-content) {.fa-creative-commons-by:before{ content: ""; }}
+@scope (:root) to (.selftest-reroll-content) {.fa-creative-commons-sa:before{ content: ""; }}
 
 /* Question formats: compact text badges shared by topic headings and the catalog. */
-.question-type-badges {
+@scope (:root) to (.selftest-reroll-content) {.question-type-badges{
   --question-type-border: rgba(0, 0, 0, 0.12);
   display: inline-flex;
   align-items: center;
@@ -108,23 +94,23 @@
   font-size: 0.7rem;
   font-weight: 700;
   line-height: 1.4;
-}
+}}
 
-.question-index-entry {
+@scope (:root) to (.selftest-reroll-content) {.question-index-entry{
   display: flex;
   align-items: flex-start;
   gap: 7px;
-}
+}}
 
-.question-index-entry a {
+@scope (:root) to (.selftest-reroll-content) {.question-index-entry a{
   min-width: 0;
-}
+}}
 
-.button-container > .question-type-badges {
+@scope (:root) to (.selftest-reroll-content) {.button-container > .question-type-badges{
   align-self: center;
-}
+}}
 
-.md-typeset abbr.question-type {
+@scope (:root) to (.selftest-reroll-content) {.md-typeset abbr.question-type{
   display: inline-block;
   box-sizing: border-box;
   padding: 2px 7px;
@@ -134,45 +120,44 @@
   border-radius: 2px;
   text-decoration: none;
   cursor: default;
-}
+}}
 
 /* CAM16 wheel: 9 hues, 22.5 + 40*n degrees; xdark text and xlight fill. */
-.question-type-mc { color: #781719; background-color: #ffe3e0; }
-.question-type-womc { color: #4c2391; background-color: #efe5ff; }
-.question-type-tfms { color: #6d185b; background-color: #ffe0f2; }
-.question-type-ma { color: #0d500b; background-color: #d9f4cf; }
-.question-type-fib { color: #004d43; background-color: #caf5eb; }
-.question-type-multi-fib { color: #00495b; background-color: #cef1ff; }
-.question-type-num { color: #4a4200; background-color: #f5ecb8; }
-.question-type-matching { color: #613500; background-color: #ffe5cf; }
-.question-type-ord { color: #004182; background-color: #e1ebff; }
+@scope (:root) to (.selftest-reroll-content) {.question-type-mc{ color: #781719; background-color: #ffe3e0; }}
+@scope (:root) to (.selftest-reroll-content) {.question-type-womc{ color: #4c2391; background-color: #efe5ff; }}
+@scope (:root) to (.selftest-reroll-content) {.question-type-tfms{ color: #6d185b; background-color: #ffe0f2; }}
+@scope (:root) to (.selftest-reroll-content) {.question-type-ma{ color: #0d500b; background-color: #d9f4cf; }}
+@scope (:root) to (.selftest-reroll-content) {.question-type-fib{ color: #004d43; background-color: #caf5eb; }}
+@scope (:root) to (.selftest-reroll-content) {.question-type-multi-fib{ color: #00495b; background-color: #cef1ff; }}
+@scope (:root) to (.selftest-reroll-content) {.question-type-num{ color: #4a4200; background-color: #f5ecb8; }}
+@scope (:root) to (.selftest-reroll-content) {.question-type-matching{ color: #613500; background-color: #ffe5cf; }}
+@scope (:root) to (.selftest-reroll-content) {.question-type-ord{ color: #004182; background-color: #e1ebff; }}
 
-[data-md-color-scheme="slate"] .question-type-badges {
+@scope (:root) to (.selftest-reroll-content) {[data-md-color-scheme="slate"] .question-type-badges{
   --question-type-border: rgba(255, 255, 255, 0.2);
-}
+}}
 
 /* The same hues use light text and xdark fill in the dark theme. */
-[data-md-color-scheme="slate"] .question-type-mc { color: #ffc4bf; background-color: #781719; }
-[data-md-color-scheme="slate"] .question-type-womc { color: #ddcbff; background-color: #4c2391; }
-[data-md-color-scheme="slate"] .question-type-tfms { color: #ffbee8; background-color: #6d185b; }
-[data-md-color-scheme="slate"] .question-type-ma { color: #b0e6a2; background-color: #0d500b; }
-[data-md-color-scheme="slate"] .question-type-fib { color: #89ead7; background-color: #004d43; }
-[data-md-color-scheme="slate"] .question-type-multi-fib { color: #92e3ff; background-color: #00495b; }
-[data-md-color-scheme="slate"] .question-type-num { color: #e6d776; background-color: #4a4200; }
-[data-md-color-scheme="slate"] .question-type-matching { color: #ffc997; background-color: #613500; }
-[data-md-color-scheme="slate"] .question-type-ord { color: #c0d6ff; background-color: #004182; }
+@scope (:root) to (.selftest-reroll-content) {[data-md-color-scheme="slate"] .question-type-mc{ color: #ffc4bf; background-color: #781719; }}
+@scope (:root) to (.selftest-reroll-content) {[data-md-color-scheme="slate"] .question-type-womc{ color: #ddcbff; background-color: #4c2391; }}
+@scope (:root) to (.selftest-reroll-content) {[data-md-color-scheme="slate"] .question-type-tfms{ color: #ffbee8; background-color: #6d185b; }}
+@scope (:root) to (.selftest-reroll-content) {[data-md-color-scheme="slate"] .question-type-ma{ color: #b0e6a2; background-color: #0d500b; }}
+@scope (:root) to (.selftest-reroll-content) {[data-md-color-scheme="slate"] .question-type-fib{ color: #89ead7; background-color: #004d43; }}
+@scope (:root) to (.selftest-reroll-content) {[data-md-color-scheme="slate"] .question-type-multi-fib{ color: #92e3ff; background-color: #00495b; }}
+@scope (:root) to (.selftest-reroll-content) {[data-md-color-scheme="slate"] .question-type-num{ color: #e6d776; background-color: #4a4200; }}
+@scope (:root) to (.selftest-reroll-content) {[data-md-color-scheme="slate"] .question-type-matching{ color: #ffc997; background-color: #613500; }}
+@scope (:root) to (.selftest-reroll-content) {[data-md-color-scheme="slate"] .question-type-ord{ color: #c0d6ff; background-color: #004182; }}
 
 /* Flexbox layout for button container */
-.button-container {
+@scope (:root) to (.selftest-reroll-content) {.button-container{
   display: flex;
   gap: 7px;
   flex-wrap: wrap;
   margin: 5px 0;
-}
+}}
 
 /* General button style extension */
-.md-button.custom-button,
-a.md-button.custom-button {
+@scope (:root) to (.selftest-reroll-content) {.md-button.custom-button,a.md-button.custom-button{
   display: flex;
   gap: 7px;
   padding: 2px 5px;
@@ -181,167 +166,159 @@ a.md-button.custom-button {
   align-items: center;
   border-radius: 5px;
   text-decoration: none;  /* Remove underline from <a> */
-}
+}}
 
 /* Hover and active styles */
-.md-button.custom-button:hover,
-a.md-button.custom-button:hover {
+@scope (:root) to (.selftest-reroll-content) {.md-button.custom-button:hover,a.md-button.custom-button:hover{
   opacity: 0.9;
-}
+}}
 
-.md-button.custom-button:active,
-a.md-button.custom-button:active {
+@scope (:root) to (.selftest-reroll-content) {.md-button.custom-button:active,a.md-button.custom-button:active{
   transform: scale(0.94);
   transition: transform 0.1s ease;
-}
+}}
 
 /* Specific variations using hue rotation */
-.bb_text {
+@scope (:root) to (.selftest-reroll-content) {.bb_text{
   filter: hue-rotate(60deg);
-}
+}}
 
-.bb_qti {
+@scope (:root) to (.selftest-reroll-content) {.bb_qti{
   filter: hue-rotate(0deg);
-}
+}}
 
-.canvas_qti {
+@scope (:root) to (.selftest-reroll-content) {.canvas_qti{
   filter: hue-rotate(-30deg);
-}
+}}
 
-.human_read {
+@scope (:root) to (.selftest-reroll-content) {.human_read{
   filter: hue-rotate(-60deg);
-}
+}}
 
-.webwork_pgml {
+@scope (:root) to (.selftest-reroll-content) {.webwork_pgml{
   filter: hue-rotate(120deg);
-}
+}}
 
-.md-sidebar--secondary {
+@scope (:root) to (.selftest-reroll-content) {.md-sidebar--secondary{
   display: none !important;
-}
+}}
 
 /* Allow inline image width styles */
-img[style] {
+@scope (:root) to (.selftest-reroll-content) {img[style]{
   max-width: none !important;
   height: auto !important;
-}
+}}
 
 /* For spacing between images that are side by side */
-.img-right-pad {
+@scope (:root) to (.selftest-reroll-content) {.img-right-pad{
   margin-right: 3%;
-}
+}}
 
 /* ---------- Landing page alignment and spacing polish ---------- */
 
 /* Scale all content text down ~20%; nav sidebar is unaffected */
-.md-content .md-typeset {
+@scope (:root) to (.selftest-reroll-content) {.md-content .md-typeset{
   font-size: 0.8rem;
-}
+}}
 
 /* Keep body text consistent (scaled ~20% from original) */
-.md-content p,
-.md-content li {
+@scope (:root) to (.selftest-reroll-content) {.md-content p,.md-content li{
   font-size: 0.8rem;
   line-height: 1.6;
-}
+}}
 
 /* Headings: keep space before, reduce space after */
-.md-content h2,
-.md-content h3,
-.md-content h4 {
+@scope (:root) to (.selftest-reroll-content) {.md-content h2,.md-content h3,.md-content h4{
   margin-top: 2rem;      /* keeps clear section separation */
   margin-bottom: 0.2rem; /* reduces the gap below headings */
-}
+}}
 
-.md-content h2 {
+@scope (:root) to (.selftest-reroll-content) {.md-content h2{
   font-size: 1.28rem;
-}
+}}
 
-.md-content h3 {
+@scope (:root) to (.selftest-reroll-content) {.md-content h3{
   font-size: 1.0rem;
-}
+}}
 
-.md-content h4 {
+@scope (:root) to (.selftest-reroll-content) {.md-content h4{
   font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: normal;
-}
+}}
 
 /* Pull the first paragraph under a heading closer */
-.md-content h1 + p,
-.md-content h2 + p,
-.md-content h3 + p,
-.md-content h4 + p {
+@scope (:root) to (.selftest-reroll-content) {.md-content h1 + p,.md-content h2 + p,.md-content h3 + p,.md-content h4 + p{
   margin-top: 0.1rem;
-}
+}}
 
 /* Reduce extra paragraph spacing inside list items */
-.md-content li > p {
+@scope (:root) to (.selftest-reroll-content) {.md-content li > p{
   margin-top: 0.2rem;
   margin-bottom: 0.2rem;
-}
+}}
 
 /* Remove the "jerky" left margin from bullet lists */
-.md-content ul {
+@scope (:root) to (.selftest-reroll-content) {.md-content ul{
   margin-left: 0;
   padding-left: 0.1rem; /* small, consistent bullet indent */
-}
+}}
 
 /* Keep inline link labels from looking like a different font system */
-.md-content a {
+@scope (:root) to (.selftest-reroll-content) {.md-content a{
   font-weight: 600;
-}
+}}
 
-.md-content h4 strong {
+@scope (:root) to (.selftest-reroll-content) {.md-content h4 strong{
   font-weight: 600;
-}
+}}
 
 /* ---------- One-line bullets, but with stronger labels ---------- */
 
 /* Normal bullet indent and consistent spacing */
-.md-content ul {
+@scope (:root) to (.selftest-reroll-content) {.md-content ul{
   margin-top: 0.6rem;
   margin-bottom: 0.9rem;
   padding-left: 1.1rem;
-}
+}}
 
-.md-content li + li {
+@scope (:root) to (.selftest-reroll-content) {.md-content li + li{
   margin-top: 0.45rem;
-}
+}}
 
 /* Make the bold link label larger, without changing the rest */
-.md-content li > strong > a {
+@scope (:root) to (.selftest-reroll-content) {.md-content li > strong > a{
   font-size: 0.92rem;
   font-weight: 700;
-}
+}}
 
 /* Keep the description on the same line and readable */
-.md-content li {
+@scope (:root) to (.selftest-reroll-content) {.md-content li{
   line-height: 1.7;
-}
+}}
 
 /* Subtle visual structure for major lists (adds color without emojis) */
-.md-content h2 + p + ul {
+@scope (:root) to (.selftest-reroll-content) {.md-content h2 + p + ul{
   border-left: 3px solid var(--md-primary-fg-color);
   padding-left: 1rem;
   margin-left: 0;
-}
+}}
 
 /* LibreTexts chapter link used in subject index topic lists.
  * Renders as: [small logo] Chapter X.Y  -- logo gives brand cue,
  * text tells the user what the link goes to, color reinforces that
  * it's an external reference. Scoped under .md-typeset so it wins
  * over Material's default img rule on specificity. */
-.md-typeset img.lt-icon {
+@scope (:root) to (.selftest-reroll-content) {.md-typeset img.lt-icon{
   height: 1em;
   max-height: 1.2em;
   width: auto;
   vertical-align: -0.15em;
   opacity: 0.9;
   margin-right: 0.2em;
-}
+}}
 
-.md-typeset a.lt-link {
+@scope (:root) to (.selftest-reroll-content) {.md-typeset a.lt-link{
   /* LibreTexts brand blue keeps this visually distinct from internal
    * topic links without being loud. */
   color: #127bc4;
@@ -351,23 +328,23 @@ img[style] {
   margin-left: 0.25em;
   padding: 0 0.25em;
   border-radius: 0.25em;
-}
+}}
 
-.md-typeset a.lt-link:hover {
+@scope (:root) to (.selftest-reroll-content) {.md-typeset a.lt-link:hover{
   text-decoration: underline;
   background: rgba(18, 123, 196, 0.08);
-}
+}}
 
-.md-typeset a.lt-link:hover img.lt-icon {
+@scope (:root) to (.selftest-reroll-content) {.md-typeset a.lt-link:hover img.lt-icon{
   opacity: 1;
-}
+}}
 
-.md-typeset a.lt-link .lt-label {
+@scope (:root) to (.selftest-reroll-content) {.md-typeset a.lt-link .lt-label{
   vertical-align: baseline;
-}
+}}
 
 /* Inline chip that shows per-topic question count next to each title. */
-.topic-count {
+@scope (:root) to (.selftest-reroll-content) {.topic-count{
   display: inline-block;
   font-size: 0.8em;
   padding: 0 0.4em;
@@ -375,12 +352,12 @@ img[style] {
   border-radius: 0.5em;
   background: var(--md-default-fg-color--lightest, #f0f0f0);
   color: var(--md-default-fg-color--light, #555);
-}
+}}
 
 /* Daily puzzle shared UI is in assets/stylesheets/daily_puzzle.css */
 
 /* Daily streak badge shown after h1 on every page. */
-.streak-badge {
+@scope (:root) to (.selftest-reroll-content) {.streak-badge{
   border: 1px solid #e07800;
   border-radius: 0.35rem;
   padding: 0.5rem 0.75rem;
@@ -388,39 +365,129 @@ img[style] {
   background: #fff8f0;
   color: #c05000;
   font-size: 0.95em;
-}
+}}
 
-.streak-at-risk {
+@scope (:root) to (.selftest-reroll-content) {.streak-at-risk{
   color: #cc0000;
-}
+}}
 
-body[data-md-color-scheme="slate"] .streak-badge {
+@scope (:root) to (.selftest-reroll-content) {body[data-md-color-scheme="slate"] .streak-badge{
   background: #3a2200;
   color: #ffaa55;
   border-color: #995500;
-}
+}}
 
-body[data-md-color-scheme="slate"] .streak-at-risk {
+@scope (:root) to (.selftest-reroll-content) {body[data-md-color-scheme="slate"] .streak-at-risk{
   color: #ff8888;
-}
+}}
 
 /* Self-test completion progress. */
-.selftest-progress-panel,
-.selftest-storage-warning,
-.selftest-dashboard-summary,
-.selftest-dashboard-subject {
+@scope (:root) to (.selftest-reroll-content) {.selftest-progress-panel,.selftest-storage-warning,.selftest-dashboard-summary,.selftest-dashboard-subject{
   border: 1px solid var(--md-default-fg-color--lightest, #dddddd);
   border-radius: 0.35rem;
   padding: 0.75rem;
   margin: 0.75rem 0 1rem;
   background: var(--md-code-bg-color, #f7f7f7);
-}
+}}
 
-.selftest-storage-warning {
+@scope (:root) to (.selftest-reroll-content) {.selftest-storage-warning{
   border-color: var(--md-warning-fg-color, #b37100);
-}
+}}
 
-.selftest-status {
+@scope (:root) to (.selftest-reroll-content) {.selftest-question-header{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0.6rem 0;
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.selftest-question-placeholder{
+  border: 1px solid var(--md-default-fg-color--lightest, #dddddd);
+  border-radius: 0.35rem;
+  padding: 0.75rem;
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.selftest-question-title{
+  flex-basis: 100%;
+  order: -1;
+  font-weight: 700;
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.selftest-question-controls{
+  display: flex;
+  align-items: center;
+  flex: 1 1 16rem;
+  flex-wrap: wrap;
+  gap: 8px;
+  min-width: 0;
+}}
+
+/* These controls belong to the website, outside the generated question body. */
+@scope (:root) to (.selftest-reroll-content) {.selftest-reroll-button{
+  flex: 0 1 auto;
+  min-height: 28px;
+  padding: 3px 10px;
+  border: 1px solid #008852;
+  border-radius: 0.25rem;
+  background: #008852;
+  color: #ffffff;
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.selftest-reroll-button:hover:not(:disabled){
+  filter: brightness(0.9);
+}}
+
+/* A loaded question offers the next question with a deeper green and an outline. */
+@scope (:root) to (.selftest-reroll-content) {.selftest-question-header:not(.selftest-question-placeholder) .selftest-reroll-button{
+  background: #006f50;
+  border: 2px solid #004b35;
+  padding: 2px 9px;
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.selftest-reroll-button:focus-visible{
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 3px;
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.selftest-reroll-button:disabled{
+  cursor: wait;
+  opacity: 0.55;
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.selftest-question-header .selftest-status{
+  margin: 0;
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.selftest-question-hint,.selftest-question-status{
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color);
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.selftest-question-hint{
+  flex: 1 1 12rem;
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.selftest-question-status:empty{
+  display: none;
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.qti-selftest[data-bbq]{
+  scroll-margin-top: 5rem;
+  overflow-x: auto;
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.qti-selftest[data-bbq]:focus-visible{
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 4px;
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.selftest-status{
   display: inline-block;
   font-size: 0.78rem;
   line-height: 1.2;
@@ -429,15 +496,14 @@ body[data-md-color-scheme="slate"] .streak-at-risk {
   border-radius: 999px;
   border: 1px solid var(--md-default-fg-color--lightest, #dddddd);
   color: var(--md-default-fg-color--light, #555555);
-}
+}}
 
-.selftest-status-complete,
-.selftest-topic-complete {
+@scope (:root) to (.selftest-reroll-content) {.selftest-status-complete,.selftest-topic-complete{
   color: var(--qti-success-fg, #008000);
   font-weight: 700;
-}
+}}
 
-.selftest-progress-toast {
+@scope (:root) to (.selftest-reroll-content) {.selftest-progress-toast{
   position: fixed;
   right: 1rem;
   bottom: 1rem;
@@ -447,21 +513,21 @@ body[data-md-color-scheme="slate"] .streak-at-risk {
   background: var(--md-primary-fg-color, #2e7d32);
   color: var(--md-primary-bg-color, #ffffff);
   box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.22);
-}
+}}
 
-.selftest-dashboard-subject h2 {
+@scope (:root) to (.selftest-reroll-content) {.selftest-dashboard-subject h2{
   margin-top: 0;
   text-transform: capitalize;
-}
+}}
 
-.selftest-dashboard-subject ul {
+@scope (:root) to (.selftest-reroll-content) {.selftest-dashboard-subject ul{
   margin-bottom: 0;
-}
+}}
 
 /* ---------- Self-test star reward ---------- */
 
 /* Star icon on the Completed badge. */
-.selftest-star {
+@scope (:root) to (.selftest-reroll-content) {.selftest-star{
   display: inline-block;
   margin-left: 0.3em;
   color: #f5a623;
@@ -469,10 +535,10 @@ body[data-md-color-scheme="slate"] .streak-at-risk {
   font-size: 1em;
   line-height: 1;
   /* Screen-reader text is provided via aria-label on the parent badge. */
-}
+}}
 
 /* Visually-hidden helper: readable by assistive tech, invisible on screen. */
-.selftest-sr-only {
+@scope (:root) to (.selftest-reroll-content) {.selftest-sr-only{
   position: absolute;
   width: 1px;
   height: 1px;
@@ -482,39 +548,39 @@ body[data-md-color-scheme="slate"] .streak-at-risk {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
-}
+}}
 
 /* Stars counter in the dashboard summary. */
-.selftest-dashboard-stars {
+@scope (:root) to (.selftest-reroll-content) {.selftest-dashboard-stars{
   display: inline-block;
   margin-left: 0.75em;
   color: #f5a623;
   font-weight: 700;
-}
+}}
 
 /* Container for the transient star-burst pop near a question. */
-.selftest-star-pop {
+@scope (:root) to (.selftest-reroll-content) {.selftest-star-pop{
   position: absolute;
   pointer-events: none;
   z-index: 100;
   /* Centered on the trigger point by JS (top/left set inline). */
-}
+}}
 
 /* Each flying star glyph. */
-.selftest-star-pop-glyph {
+@scope (:root) to (.selftest-reroll-content) {.selftest-star-pop-glyph{
   position: absolute;
   font-size: 1.4rem;
   color: #f5a623;
   opacity: 1;
   transform: translate(-50%, -50%) scale(0.2);
   /* Default: no animation (prefers-reduced-motion or JS fallback). */
-}
+}}
 
 /* Animate only when the user has not requested reduced motion. */
 @media (prefers-reduced-motion: no-preference) {
-  .selftest-star-pop-glyph {
+  @scope (:root) to (.selftest-reroll-content) {.selftest-star-pop-glyph{
     animation: selftest-star-fly 0.8s ease-out forwards;
-  }
+  }}
 
   @keyframes selftest-star-fly {
     0% {

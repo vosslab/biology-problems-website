@@ -2312,7 +2312,7 @@
       "name": "Gene Interaction Types from Dihybrid Cross Ratios (4 Choices)",
       "subject": "Genetics",
       "topic": "Gene Interactions",
-      "updated": "2026-10-01",
+      "updated": null,
       "url": "genetics/topic05/#dihybrid_cross_epistatic_gene_interactions-4_choices-button-container"
     },
     {
@@ -2807,7 +2807,7 @@
       "name": "Gene Order and Map Distances from Three-Point Test Crosses",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": "2026-01-11",
+      "updated": null,
       "url": "genetics/topic08/#three-point_test_cross-distances_plus-button-container"
     },
     {
@@ -5612,13 +5612,6 @@
       "subject": "Genetics",
       "topic": "Gene Interactions",
       "url": "genetics/topic05/#lethal_allele_survival-button-container"
-    },
-    {
-      "date": "2026-10-01",
-      "name": "Gene Interaction Types from Dihybrid Cross Ratios (4 Choices)",
-      "subject": "Genetics",
-      "topic": "Gene Interactions",
-      "url": "genetics/topic05/#dihybrid_cross_epistatic_gene_interactions-4_choices-button-container"
     },
     {
       "date": "2026-09-30",

@@ -1,5 +1,6 @@
+/* Website styles exclude self-test content. */
 /* Scoped overrides for the Material light/dark palettes and column dropdowns. */
-.question-finder {
+@scope (:root) to (.selftest-reroll-content) {.question-finder{
   --dt-html_background: var(--md-default-bg-color);
   --dt-order-arrow_color: var(--md-default-fg-color);
   --dt-order-arrow_color-current: var(--md-default-fg-color);
@@ -12,46 +13,45 @@
   --dtcc-dropdown-button_hover-background: var(--md-accent-fg-color--transparent);
   --dtcc-dropdown_width: 18rem;
   --dtcc-list-buttons_background: transparent;
-}
-.question-finder [hidden] { display: none !important; }
-.question-finder .finder-toolbar { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
-.question-finder .finder-toolbar label { font-weight: 700; }
-.question-finder #finder-search { flex: 1 1 16rem; min-width: 0; }
-.question-finder input, .question-finder select {
+}}
+@scope (:root) to (.selftest-reroll-content) {.question-finder [hidden]{ display: none !important; }}
+@scope (:root) to (.selftest-reroll-content) {.question-finder .finder-toolbar{ display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }}
+@scope (:root) to (.selftest-reroll-content) {.question-finder .finder-toolbar label{ font-weight: 700; }}
+@scope (:root) to (.selftest-reroll-content) {.question-finder #finder-search{ flex: 1 1 16rem; min-width: 0; }}
+@scope (:root) to (.selftest-reroll-content) {.question-finder input,.question-finder select{
   color: var(--md-default-fg-color);
   background: var(--md-default-bg-color);
   border: 1px solid var(--md-default-fg-color--light);
   border-radius: .2rem;
   padding: .35rem;
-}
-.question-finder button { cursor: pointer; }
-.question-finder #finder-clear, .question-finder #finder-retry,
-.question-finder #finder-filters button {
+}}
+@scope (:root) to (.selftest-reroll-content) {.question-finder button{ cursor: pointer; }}
+@scope (:root) to (.selftest-reroll-content) {.question-finder #finder-clear,.question-finder #finder-retry,.question-finder #finder-filters button{
   padding: .35rem .6rem;
   border: 1px solid var(--md-default-fg-color--light);
   border-radius: .2rem;
   color: var(--md-default-fg-color);
   background: var(--md-default-bg-color);
-}
-.question-finder #finder-filters { display: flex; flex-wrap: wrap; gap: .35rem; margin-bottom: .6rem; }
-.question-finder .finder-help { font-size: .75rem; color: var(--md-default-fg-color--light); }
-.question-finder .finder-scroll { overflow-x: auto; }
-.question-finder #finder-table { width: 100%; min-width: 36rem; font-size: .75rem; }
-.question-finder #finder-table th { color: var(--md-default-fg-color); background: var(--md-default-bg-color); }
-.question-finder #finder-table caption { text-align: left; padding: .35rem 0; }
-.question-finder .dt-container { color: var(--md-default-fg-color); }
-.question-finder .dtcc-dropdown {
+}}
+@scope (:root) to (.selftest-reroll-content) {.question-finder #finder-filters{ display: flex; flex-wrap: wrap; gap: .35rem; margin-bottom: .6rem; }}
+@scope (:root) to (.selftest-reroll-content) {.question-finder .finder-help{ font-size: .75rem; color: var(--md-default-fg-color--light); }}
+@scope (:root) to (.selftest-reroll-content) {.question-finder .finder-scroll{ overflow-x: auto; }}
+@scope (:root) to (.selftest-reroll-content) {.question-finder #finder-table{ width: 100%; min-width: 36rem; font-size: .75rem; }}
+@scope (:root) to (.selftest-reroll-content) {.question-finder #finder-table th{ color: var(--md-default-fg-color); background: var(--md-default-bg-color); }}
+@scope (:root) to (.selftest-reroll-content) {.question-finder #finder-table caption{ text-align: left; padding: .35rem 0; }}
+@scope (:root) to (.selftest-reroll-content) {.question-finder .dt-container{ color: var(--md-default-fg-color); }}
+@scope (:root) to (.selftest-reroll-content) {.question-finder .dtcc-dropdown{
   color: var(--md-default-fg-color);
   background: var(--md-default-bg-color);
   border-color: var(--md-default-fg-color--light);
   max-width: min(22rem, 85vw);
-}
-.question-finder .dtcc-dropdown-liner { background: var(--md-default-bg-color); }
-.question-finder .dtcc-list-buttons { max-height: 15rem; overflow-y: auto; }
-.question-finder .dtcc-list-buttons button { white-space: normal; text-align: left; }
-.question-finder .dtcc-dropdown .dtcc-button-text { white-space: normal; overflow: visible; }
-.question-finder .dtcc-button_active { background: var(--md-accent-fg-color--transparent); }
-.question-finder :is(button, input, select, .finder-scroll):focus-visible {
+}}
+@scope (:root) to (.selftest-reroll-content) {.question-finder .dtcc-dropdown-liner{ background: var(--md-default-bg-color); }}
+@scope (:root) to (.selftest-reroll-content) {.question-finder .dtcc-list-buttons{ max-height: 15rem; overflow-y: auto; }}
+@scope (:root) to (.selftest-reroll-content) {.question-finder .dtcc-list-buttons button{ white-space: normal; text-align: left; }}
+@scope (:root) to (.selftest-reroll-content) {.question-finder .dtcc-dropdown .dtcc-button-text{ white-space: normal; overflow: visible; }}
+@scope (:root) to (.selftest-reroll-content) {.question-finder .dtcc-button_active{ background: var(--md-accent-fg-color--transparent); }}
+@scope (:root) to (.selftest-reroll-content) {.question-finder :is(button, input, select, .finder-scroll):focus-visible{
   outline: 2px solid var(--md-accent-fg-color);
   outline-offset: 2px;
-}
+}}

@@ -1,10 +1,11 @@
+/* Website styles exclude self-test content. */
 /* Peptidyle-specific styles (shared styles in daily_puzzle.css) */
 
 /* Custom border variable */
-#pw-root {
+@scope (:root) to (.selftest-reroll-content) {#pw-root{
 	--pw-border: rgba(127, 127, 127, 0.25);
-}
+}}
 
-#pw-root #guess {
+@scope (:root) to (.selftest-reroll-content) {#pw-root #guess{
 	text-transform: uppercase;
-}
+}}

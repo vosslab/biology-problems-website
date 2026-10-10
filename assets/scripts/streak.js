@@ -1,6 +1,6 @@
 "use strict";
 
-// Daily streak tracker. Purely additive -- no changes to selftest_progress.js.
+// Daily streak tracker. Consumes the shared question grading event.
 // Stores state in localStorage under STORAGE_KEY, separate from selftest progress.
 // Shows a badge after the h1 on every page and a panel on the progress dashboard.
 // A streak increments once per calendar day on the first fully correct answer.
@@ -80,26 +80,7 @@
 		return { action: data.currentStreak === 1 ? "started" : "extended", data: data };
 	}
 
-	//============================================
-	// Same verdict logic as quiz_flow.js and selftest_progress.js.
-	function isFullyCorrect(text) {
-		if (text === "CORRECT") {
-			return true;
-		}
-		var scoreMatch = text.match(/^Total Score: (\d+) out of (\d+)$/);
-		if (scoreMatch && scoreMatch[1] === scoreMatch[2]) {
-			return true;
-		}
-		var posMatch = text.match(/^Correct positions: (\d+) of (\d+)$/);
-		if (posMatch && posMatch[1] === posMatch[2]) {
-			return true;
-		}
-		var fibMatch = text.match(/^Correct: (\d+) of (\d+)$/);
-		if (fibMatch && fibMatch[1] === fibMatch[2]) {
-			return true;
-		}
-		return false;
-	}
+
 
 	//============================================
 	function showStreakToast(data) {
@@ -225,31 +206,15 @@
 	}
 
 	//============================================
-	function watchResultDivs() {
-		var resultDivs = document.querySelectorAll("[id^='result_']");
-		resultDivs.forEach(function (resultDiv) {
-			// fired prevents double-counting if the result div mutates twice.
-			var fired = false;
-			var observer = new MutationObserver(function () {
-				if (fired) {
-					return;
-				}
-				var text = (resultDiv.textContent || "").trim();
-				if (!isFullyCorrect(text)) {
-					return;
-				}
-				fired = true;
-				observer.disconnect();
-				var result = recordCorrectAnswer();
-				if (result.action === "extended" || result.action === "started") {
-					showStreakToast(result.data);
-				}
-				// Refresh the badge immediately after recording.
-				renderStreakBadge();
-				renderStreakDashboardPanel();
-			});
-			observer.observe(resultDiv, { childList: true, characterData: true, subtree: true });
-		});
+	function onGraded(event) {
+		if (event.detail.verdict !== "full-correct") { return; }
+		if (document.querySelector('[data-selftest-personalization="off"]')) { return; }
+		var result = recordCorrectAnswer();
+		if (result.action === "extended" || result.action === "started") {
+			showStreakToast(result.data);
+		}
+		renderStreakBadge();
+		renderStreakDashboardPanel();
 	}
 
 	//============================================
@@ -260,10 +225,11 @@
 		}
 		renderStreakBadge();
 		renderStreakDashboardPanel();
-		watchResultDivs();
 	}
 
 	//============================================
+	document.addEventListener("selftest:graded", onGraded);
+	if (window.document$) { window.document$.subscribe(init); }
 	if (document.readyState === "loading") {
 		document.addEventListener("DOMContentLoaded", init);
 	} else {
