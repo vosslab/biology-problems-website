@@ -18,9 +18,13 @@ origin belongs there too. Rules: [REPO_STYLE.md](REPO_STYLE.md).
   by filename, not by the CRC of a randomly generated question.
 - Fix the design, not the symptom. Prefer durable fixes over quick patches
   when the durable fix is justified.
+- For small banks, show question 1, then 2, then 3. Random selection is not
+  needed when the site tracks what it has already shown.
 
 ## Review expectations
 
+- Keep button spacing compact: enough separation to prevent touching, with only a little
+  padding. Too much space is worse than too little.
 - Feature Biochemistry and Genetics as complete courses developed with grant support. Use
   subjects for course areas and topics for chapters; label the other collections Additional
   Subjects. Make the homepage eye-catching while using space efficiently.

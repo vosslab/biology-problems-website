@@ -1,4 +1,46 @@
 # Changelog
+## 2026-10-10
+
+### Behavior or Interface Changes
+
+- Tighten the practice toolbar to 8px gaps so its button, completion badge, and hint read
+  as one compact group. Preserve existing button padding, heights, colors, and QPM controls.
+- Make **Show another question** advance through a bank's source records in
+  order, returning to the first record after the last, rather than randomly
+  selecting a replacement. Each page visit begins with the first record. QPM
+  retains its existing MATCH and ORDER response shuffles. A failed load keeps
+  the same position for Retry; a one-question bank restarts with fresh controls.
+
+### Additions and New Features
+
+- Add durable Playwright screenshot evidence for the complete Python QPM and
+  BPW self-test set: all ten saved fixtures in light and dark modes, the loaded
+  site context, MATCH feedback, mobile table scrolling, an RDKit structure, and
+  a short one-play MATCH interaction GIF. Preserve the user-supplied unstyled
+  MATCH image as a hash-recorded before-fix reference. Document provenance,
+  rerun commands, and source-owned contrast limits in
+  [SELFTEST_SCREENSHOTS.md](SELFTEST_SCREENSHOTS.md).
+
+### Fixes and Maintenance
+
+- Make the self-test screenshot capture script executable to match its Node shebang and
+  the existing screenshot runner convention.
+
+### Developer Tests and Notes
+
+- Verify sequential selection, wraparound, single-question restart, and failed-load
+  recovery through the real MkDocs browser lane (seven tests pass). All three Node
+  self-test checks pass. An independent Chromium walk visits all 50 questions in the
+  shipped genetics MATCH bank in source order, then wraps to question 1 without errors.
+  A separate browser assessment confirms MATCH/ORDER shuffling, grading, and Reset
+  after replacement in light and dark modes, with no page errors.
+  Remove the screenshot runner's obsolete random-number override; question selection
+  now follows the normal website sequence.
+- Refresh the README screenshots through a local MkDocs server. The HLA capture
+  waits for a real WebAssembly-rendered question and installed QPM stylesheet,
+  settles the navigation transition before capture, and rejects page or request
+  errors.
+
 ## 2026-10-09
 
 ### Additions and New Features
@@ -43,6 +85,28 @@
 
 ### Fixes and Maintenance
 
+- Replace Playwright's default static-server startup with the standard-library
+  `tests/playwright/helper_serve_site.py` server and listen queue 128. Controlled three-by-32
+  request probes reproduce backlog 5 dropping 75/96 requests; backlog 128 serves 96/96 with
+  identical bytes and zero errors. The configured four-worker suite passes 94 cases in 11.9s,
+  with zero retries and unchanged assertions. Actual-MkDocs acceptance separately passes
+  94 cases in 29.2s; earlier MkDocs failures remain unexplained.
+
+- Preserve parsed-head self-test scripts/styles during mounting and execute scripts through the
+  existing re-execution path. Add the compact Practice question placeholder and Show practice
+  question, Loading question..., Show another question, and Retry states with their hint.
+  Keep first automatic loading and filename-based v2 achievements in the website controller.
+- Split grouped stylesheet selectors at top level before isolation so global root selectors retain
+  Material theme variables, including `--md-hue` in slate mode. Keep other branches scoped through
+  the existing isolation boundary. Refresh all 18 vendored QPM files from the local built package;
+  their hashes match. Six light/dark checks at 360, 390, and 1280px show readable body text, no
+  overflow, and no script errors. Final suite lane passes: 3263 Python checks, three Node checks,
+  and 94 post-correction actual-MkDocs Playwright cases with one worker in 29.2s. Minimal local
+  horizontal scrolling restores narrow FIB table access; 16 targeted probes and independent
+  mobile specification/quality and final composition reviews pass. Earlier asset/readiness
+  failures remain unexplained; clean-server acceptance makes no concurrency-fix claim.
+  Record isolated evidence, decision propagation, initial failures, and source-owned limits in
+  [bpw_python_parity_ledger.md](active_plans/active/bpw_python_parity_ledger.md).
 - Complete six independent KISS audit passes. Remove the obsolete standalone-HTML
   Playwright survey tools and `test:survey` entrypoint, fix retired-mode usage text,
   and correct the updater command example and a function separator. Keep the shared
@@ -129,6 +193,8 @@
 
 ### Developer Tests and Notes
 
+- Documentation closeout check: `source source_me.sh && python3 -m pytest tests/test_markdown_links.py -q`
+  passes all 155 checks in 0.11s. This focused result does not establish final parity acceptance.
 - Retain one real-WASM clearing/progress journey alongside the four lifecycle browser tests:
   incorrect and correct feedback clear, while completion survives clearing, reroll, and reload.
   Keep CSS comparisons and layout diagnostics as temporary implementation validation, not

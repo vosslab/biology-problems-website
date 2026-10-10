@@ -8,6 +8,21 @@ import tinycss2
 
 
 #============================================
+def _selector_groups(prelude: list) -> list[str]:
+	"""Split selector lists at top-level commas, preserving function arguments."""
+	groups = []
+	tokens = []
+	for token in prelude:
+		if token.type == "literal" and token.value == ",":
+			groups.append(tinycss2.serialize(tokens).strip())
+			tokens = []
+		else:
+			tokens.append(token)
+	groups.append(tinycss2.serialize(tokens).strip())
+	return groups
+
+
+#============================================
 def scope_styles(css: str) -> str:
 	"""Exclude question content while preserving document-root and asset rules.
 
@@ -21,12 +36,16 @@ def scope_styles(css: str) -> str:
 	parts = []
 	for rule in tinycss2.parse_stylesheet(css, skip_whitespace=False, skip_comments=False):
 		if rule.type == "qualified-rule":
-			selector = tinycss2.serialize(rule.prelude).strip()
-			text = rule.serialize()
-			# Scoping implicitly prefixes selectors; keep root-only rules global.
-			if selector not in ("html", ":root"):
-				text = "@scope (:root) to (.selftest-reroll-content) {" + text + "}"
-			parts.append(text)
+			selectors = _selector_groups(rule.prelude)
+			root_selectors = [selector for selector in selectors if selector in ("html", ":root")]
+			scoped_selectors = [selector for selector in selectors if selector not in ("html", ":root")]
+			declarations = "{" + tinycss2.serialize(rule.content) + "}"
+			# Material groups :root with theme selectors; preserve each root branch.
+			if root_selectors:
+				parts.append(",".join(root_selectors) + declarations)
+			if scoped_selectors:
+				text = ",".join(scoped_selectors) + declarations
+				parts.append("@scope (:root) to (.selftest-reroll-content) {" + text + "}")
 		elif rule.type == "at-rule" and rule.lower_at_keyword in (
 			"media", "supports", "container", "layer",
 		) and rule.content is not None:

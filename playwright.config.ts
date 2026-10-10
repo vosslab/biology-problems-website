@@ -12,8 +12,8 @@
 //
 // Server model: the webServer block below owns one managed server for every
 // worker. Its command BUILDS the MkDocs site (mkdocs build, output under the
-// default site/ directory) then SERVES site/ over HTTP via Python's
-// http.server, so a passing test reflects the shipped static build a reader
+// default site/ directory) then SERVES site/ over HTTP via the repo's Python
+// static-server entrypoint, so a passing test reflects the shipped static build a reader
 // receives (PLAYWRIGHT_TEST_STYLE.md load model: build first, then serve the
 // build).
 //
@@ -119,7 +119,7 @@ export default defineConfig({
   // server running across reruns (off under CI). The build step makes a bare
   // `npx playwright test` self-sufficient without a prior manual build.
   webServer: {
-    command: `mkdocs build && python3 -m http.server ${PORT} --bind 127.0.0.1 --directory site`,
+    command: `mkdocs build && python3 tests/playwright/helper_serve_site.py --port ${PORT}`,
     url: BASE_URL,
     reuseExistingServer: !CI,
     timeout: 180_000,

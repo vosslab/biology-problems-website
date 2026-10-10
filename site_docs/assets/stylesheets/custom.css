@@ -409,22 +409,57 @@ body[data-md-color-scheme="slate"] .streak-at-risk {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 8px;
   margin: 0.6rem 0;
 }
 
-/* Bootstrap empty containers; the converter's shared button rules take precedence. */
-:where(.selftest-question-header .qti-btn) {
-  padding: 7px 20px;
-  border: 1px solid var(--qti-btn-reset-border, var(--md-default-fg-color--light));
-  border-radius: 4px;
-  background: var(--qti-btn-reset-bg, transparent);
-  color: var(--qti-btn-reset-fg, var(--md-default-fg-color));
+.selftest-question-placeholder {
+  border: 1px solid var(--md-default-fg-color--lightest, #dddddd);
+  border-radius: 0.35rem;
+  padding: 0.75rem;
+}
+
+.selftest-question-title {
+  flex-basis: 100%;
+  order: -1;
+  font-weight: 700;
+}
+
+.selftest-question-controls {
+  display: flex;
+  align-items: center;
+  flex: 1 1 16rem;
+  flex-wrap: wrap;
+  gap: 8px;
+  min-width: 0;
+}
+
+/* These controls belong to the website, outside the generated question body. */
+.selftest-reroll-button {
+  flex: 0 1 auto;
+  min-height: 2.2rem;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid var(--md-primary-fg-color);
+  border-radius: 0.25rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font: inherit;
+  font-size: 0.78rem;
   font-weight: 600;
+  line-height: 1.3;
   cursor: pointer;
 }
 
-.selftest-question-header .qti-btn:disabled {
+.selftest-reroll-button:hover:not(:disabled) {
+  background: var(--md-default-fg-color--lightest, #dddddd);
+}
+
+.selftest-reroll-button:focus-visible {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 3px;
+}
+
+.selftest-reroll-button:disabled {
   cursor: wait;
   opacity: 0.55;
 }
@@ -433,13 +468,23 @@ body[data-md-color-scheme="slate"] .streak-at-risk {
   margin: 0;
 }
 
+.selftest-question-hint,
 .selftest-question-status {
   font-size: 0.75rem;
-  color: var(--md-default-fg-color--light);
+  color: var(--md-default-fg-color);
+}
+
+.selftest-question-hint {
+  flex: 1 1 12rem;
+}
+
+.selftest-question-status:empty {
+  display: none;
 }
 
 .qti-selftest[data-bbq] {
   scroll-margin-top: 5rem;
+  overflow-x: auto;
 }
 
 .qti-selftest[data-bbq]:focus-visible {

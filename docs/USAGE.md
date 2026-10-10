@@ -237,14 +237,16 @@ while the page supplies the searchable problem information.
 Self-test pages are short, fresh practice sessions. Each page visit generates
 the first question from its bank with the vendored WebAssembly converter, even
 when that browser has already completed the same problem set. Other empty question
-containers offer **Start question**. A fully correct answer starts loading the
-next question immediately, keeps feedback visible for about half a second, and
-then moves to the ready question. Earlier questions remain available for review;
-the last question stays in place.
+containers offer **Show practice question**. Each bank advances through its
+source records in order and returns to the first record after the last.
+A fully correct answer starts loading the next question immediately, keeps
+feedback visible for about half a second, and then moves to the ready question.
+Earlier questions remain available for review; the last question stays in place.
 
-**New version** appears beside the question's completion badge. It replaces only
-that question's active version, answers, and feedback. It does not replace other
-questions or retain an attempt history.
+**Show another question** appears beside the question's completion badge. It
+replaces only that question's active version, answers, and feedback with the next
+record from the same bank. It does not replace other questions or retain an
+attempt history.
 If loading fails, the header offers **Retry** to try generating the question again.
 
 The [Self-test Progress](../site_docs/progress/index.md) dashboard tracks which
@@ -318,7 +320,9 @@ Capture the stable README views with the permanent Playwright script:
 ```
 
 The script starts `mkdocs serve` on port 8765, waits until the site responds,
-captures the managed views, and stops the server. To use another port:
+captures the managed views, loads the HLA self-test through its WebAssembly
+renderer, and stops the server. It rejects page and request errors. To use
+another port:
 
 ```bash
 DOCS_SCREENSHOT_PORT=8877 ./tests/playwright/capture_docs_screenshots.mjs
@@ -331,4 +335,5 @@ npm run docs:screenshots
 ```
 
 The script writes reproducible 1440x900 PNGs under
-[docs/screenshots/](screenshots/).
+[docs/screenshots/](screenshots/). See [SELFTEST_SCREENSHOTS.md](SELFTEST_SCREENSHOTS.md)
+for the current self-test evidence and its matching Python-reference capture command.

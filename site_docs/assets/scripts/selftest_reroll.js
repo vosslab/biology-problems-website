@@ -55,20 +55,16 @@
 	async function questionDocument(state) {
 		var url = sameOrigin(new URL(state.host.dataset.bbq, window.location.href));
 		var loaded = await Promise.all([engine(), bankData(url)]);
-		for (var attempt = 0; attempt < 32; attempt += 1) {
-			var seed = crypto.getRandomValues(new Uint32Array(1))[0];
-			var result = loaded[0].convert({
-				inputFormat: "bbq_text_upload", outputFormat: "html_selftest",
-				input: loaded[1], shuffleSeed: seed,
-			});
-			if (result.status !== "success") { throw new Error(result.error.message); }
-			if (!result.artifact || result.artifact.kind !== "file") { throw new Error("No self-test was generated."); }
-			var doc = new DOMParser().parseFromString(new TextDecoder().decode(result.artifact.primary.bytes), "text/html");
-			var item = doc.querySelector("[id^='question_html_']");
-			if (!item) { throw new Error("Generated self-test has no question."); }
-			if (item.id !== "question_html_" + state.crc) { return doc; }
-		}
-		throw new Error("Could not find a different version. This bank may have only one question.");
+		// QPM selects this position modulo the bank size and also shuffles MATCH/ORDER choices.
+		var result = loaded[0].convert({
+			inputFormat: "bbq_text_upload", outputFormat: "html_selftest",
+			input: loaded[1], shuffleSeed: state.nextQuestion,
+		});
+		if (result.status !== "success") { throw new Error(result.error.message); }
+		if (!result.artifact || result.artifact.kind !== "file") { throw new Error("No self-test was generated."); }
+		var doc = new DOMParser().parseFromString(new TextDecoder().decode(result.artifact.primary.bytes), "text/html");
+		if (!doc.querySelector("[id^='question_html_']")) { throw new Error("Generated self-test has no question."); }
+		return doc;
 	}
 
 	// Map a question's result element to a completion verdict. The literal
@@ -131,8 +127,9 @@
 		state.cleanup();
 		state.ready = false;
 		var fragment = document.createDocumentFragment();
-		next.querySelectorAll("head style").forEach(function (style) {
-			fragment.appendChild(style.cloneNode(true));
+		// DOMParser places QPM's leading theme-installing script in the head.
+		next.querySelectorAll("head style, head script").forEach(function (node) {
+			fragment.appendChild(node.cloneNode(true));
 		});
 		Array.from(next.body.childNodes).forEach(function (node) {
 			fragment.appendChild(node.cloneNode(true));
@@ -177,6 +174,7 @@
 		state.button.disabled = true;
 		state.body.inert = true;
 		state.body.setAttribute("aria-busy", "true");
+		state.button.textContent = "Loading question...";
 		state.status.textContent = "Loading question...";
 		state.pending = (async function () {
 			try {
@@ -184,7 +182,11 @@
 				if (!current(state, version)) { return false; }
 				await mount(state, next, version);
 				if (!current(state, version)) { return false; }
-				state.button.textContent = "New version";
+				state.nextQuestion += 1;
+				state.title.remove();
+				state.header.classList.remove("selftest-question-placeholder");
+				state.hint.textContent = "Replaces this question with another from the same set.";
+				state.button.textContent = "Show another question";
 				state.status.textContent = "Question ready.";
 				return true;
 			} catch (error) {
@@ -271,21 +273,31 @@
 
 	function prepare(host) {
 		var header = document.createElement("div");
-		header.className = "selftest-question-header";
+		header.className = "selftest-question-header selftest-question-placeholder";
+		var title = document.createElement("div");
+		title.className = "selftest-question-title";
+		title.textContent = "Practice question";
+		var controls = document.createElement("div");
+		controls.className = "selftest-question-controls";
 		var button = document.createElement("button");
 		button.type = "button";
-		button.className = "qti-btn qti-btn-reset selftest-reroll-button";
-		button.textContent = "Start question";
+		button.className = "selftest-reroll-button";
+		button.textContent = "Show practice question";
+		var hint = document.createElement("span");
+		hint.className = "selftest-question-hint";
+		hint.textContent = "Your question will appear here.";
 		var status = document.createElement("span");
 		status.className = "selftest-question-status";
 		status.setAttribute("role", "status");
 		status.setAttribute("aria-live", "polite");
-		header.append(button, status);
+		controls.append(button, hint);
+		header.append(title, controls, status);
 		host.prepend(header);
 		host.tabIndex = -1;
 		var state = {
 			host: host, body: host.querySelector(".selftest-reroll-content"),
-			button: button, status: status, crc: null, version: 0, ready: false,
+			header: header, title: title, button: button, hint: hint, status: status,
+			crc: null, version: 0, nextQuestion: 0, ready: false,
 			pending: null, advanced: false, cleanup: function () {}
 		};
 		button.addEventListener("click", function () {

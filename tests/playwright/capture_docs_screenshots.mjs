@@ -72,19 +72,32 @@ try {
 	browser = await chromium.launch();
 	const page = await browser.newPage({ viewport: VIEWPORT, colorScheme: 'light' });
 	const pageErrors = [];
+	const requestFailures = [];
 	page.on('pageerror', (error) => pageErrors.push(error));
+	page.on('requestfailed', (request) => requestFailures.push(
+		`${request.method()} ${request.url()}: ${request.failure()?.errorText ?? 'unknown failure'}`,
+	));
 
 	await capture(page, '/', 'website_home');
 	await capture(page, '/daily_puzzles/', 'daily_puzzles');
 	await capture(page, '/genetics/topic03/', 'hla_problem_sets', async (topicPage) => {
-		const heading = topicPage.getByRole('heading', {
-			name: /Offspring HLA Genotypes \(2 Markers, Color\)/,
-		});
-		await heading.evaluate((element) => window.scrollTo(0, element.offsetTop - 90));
+		const selftest = topicPage.locator(
+			'.qti-selftest[data-bbq="bbq-hla_genotype-3_markers-color-questions.txt"]',
+		);
+		const heading = selftest.locator('xpath=preceding-sibling::h2[1]');
+		await topicPage.emulateMedia({ reducedMotion: 'reduce' });
+		await selftest.getByRole('button', { name: 'Show practice question' }).click();
+		await selftest.locator('.qti-selftest-item').waitFor({ state: 'visible' });
+		await topicPage.locator('#qti-selftest-theme').waitFor({ state: 'attached' });
+		await heading.evaluate((element) => window.scrollTo(0, element.offsetTop - 80));
+		await topicPage.waitForTimeout(500);
 	});
 
 	if (pageErrors.length > 0) {
 		throw new AggregateError(pageErrors, 'Website pages raised JavaScript errors during capture');
+	}
+	if (requestFailures.length > 0) {
+		throw new Error(`Website requests failed during capture:\n${requestFailures.join('\n')}`);
 	}
 } finally {
 	await browser?.close();

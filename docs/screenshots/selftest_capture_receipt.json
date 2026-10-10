@@ -1,0 +1,873 @@
+{
+  "captured_at": "2026-10-10T05:23:29.738Z",
+  "browser": "Playwright Chromium",
+  "bpw_url": "http://127.0.0.1:8123",
+  "python_gallery_url": "http://127.0.0.1:8124",
+  "fixture_manifest": "../qti-package-maker-rs/tests/fixtures/python_selftest/manifest.json",
+  "fixture_python_commit": "f7a06b55e293490acdb129b74598ea7a00186940",
+  "case_count": 10,
+  "png_count": 45,
+  "gif_count": 1,
+  "controls_exercised": [
+    "Show practice question",
+    "Show another question",
+    "MATCH choice assignment",
+    "Check Answer",
+    "feedback",
+    "mobile horizontal scrolling"
+  ],
+  "known_source_quirks": [
+    "Frozen Python references retain authored inline colors and their original external RDKit dependency.",
+    "The capture-only Python wrapper is visible in every frozen-reference image and does not alter the saved fragment."
+  ],
+  "reduced_motion_result": "MATCH assignment and feedback remained visible with reduced motion.",
+  "captures": [
+    {
+      "slug": "selftest_bpw_mc_light",
+      "file": "docs/screenshots/selftest_bpw_mc_light.png",
+      "backend": "bpw_actual_wasm",
+      "case": "mc",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "mc.txt",
+      "bank": "biochemistry/topic02/bbq-Henderson-Hasselbalch-pH_mc-questions.txt",
+      "controls": "BPW lifecycle header and real Wasm question controls",
+      "width": 930,
+      "height": 395,
+      "bytes": 39353,
+      "sha256": "02ae9ebb2ed0d9b9a418628a3d51e9a0e4e0b6f059d9f6a8eea8628f4541ef9a"
+    },
+    {
+      "slug": "selftest_python_mc_light",
+      "file": "docs/screenshots/selftest_python_mc_light.png",
+      "backend": "frozen_python_host_wrapper",
+      "case": "mc",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "mc.txt",
+      "output": "mc.html",
+      "bank": "biochemistry/topic02/bbq-Henderson-Hasselbalch-pH_mc-questions.txt",
+      "controls": "rendered frozen Python question controls",
+      "width": 930,
+      "height": 414,
+      "bytes": 42828,
+      "sha256": "fa38b3b8ca95697de67ddec516917cd1daa50bd2494e5956a6f1329e8b028db0"
+    },
+    {
+      "slug": "selftest_bpw_mc_dark",
+      "file": "docs/screenshots/selftest_bpw_mc_dark.png",
+      "backend": "bpw_actual_wasm",
+      "case": "mc",
+      "theme": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "mc.txt",
+      "bank": "biochemistry/topic02/bbq-Henderson-Hasselbalch-pH_mc-questions.txt",
+      "controls": "BPW lifecycle header and real Wasm question controls",
+      "width": 930,
+      "height": 395,
+      "bytes": 47507,
+      "sha256": "b3cd23bd865e92991e70888016937bb049c1c470a10412b28cea28e5ff340e83"
+    },
+    {
+      "slug": "selftest_python_mc_dark",
+      "file": "docs/screenshots/selftest_python_mc_dark.png",
+      "backend": "frozen_python_host_wrapper",
+      "case": "mc",
+      "theme": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "mc.txt",
+      "output": "mc.html",
+      "bank": "biochemistry/topic02/bbq-Henderson-Hasselbalch-pH_mc-questions.txt",
+      "controls": "rendered frozen Python question controls",
+      "width": 930,
+      "height": 414,
+      "bytes": 49771,
+      "sha256": "51f0a883575fb2dee1dca7bac8632b9fdc5cd40af07230adbb8c3ff676464c4a"
+    },
+    {
+      "slug": "selftest_bpw_ma_light",
+      "file": "docs/screenshots/selftest_bpw_ma_light.png",
+      "backend": "bpw_actual_wasm",
+      "case": "ma",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "ma.txt",
+      "bank": "biochemistry/topic04/bbq-alpha_helix_h-bonds-MA-questions.txt",
+      "controls": "BPW lifecycle header and real Wasm question controls",
+      "width": 930,
+      "height": 469,
+      "bytes": 48679,
+      "sha256": "e58990476b186c92da8ff04121eee5d76f0ad3dcd1b285532247a2a8680c21e7"
+    },
+    {
+      "slug": "selftest_python_ma_light",
+      "file": "docs/screenshots/selftest_python_ma_light.png",
+      "backend": "frozen_python_host_wrapper",
+      "case": "ma",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "ma.txt",
+      "output": "ma.html",
+      "bank": "biochemistry/topic04/bbq-alpha_helix_h-bonds-MA-questions.txt",
+      "controls": "rendered frozen Python question controls",
+      "width": 930,
+      "height": 484,
+      "bytes": 52460,
+      "sha256": "229cbe6312a336ce171f2a409998bd6c7a9a43e35f850202c4c915a88fdfe7fa"
+    },
+    {
+      "slug": "selftest_bpw_ma_dark",
+      "file": "docs/screenshots/selftest_bpw_ma_dark.png",
+      "backend": "bpw_actual_wasm",
+      "case": "ma",
+      "theme": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "ma.txt",
+      "bank": "biochemistry/topic04/bbq-alpha_helix_h-bonds-MA-questions.txt",
+      "controls": "BPW lifecycle header and real Wasm question controls",
+      "width": 930,
+      "height": 469,
+      "bytes": 59972,
+      "sha256": "a4278d74b57a8cceb4e588236d9afd37b5af7345ea9763b8f2555bc074790544"
+    },
+    {
+      "slug": "selftest_python_ma_dark",
+      "file": "docs/screenshots/selftest_python_ma_dark.png",
+      "backend": "frozen_python_host_wrapper",
+      "case": "ma",
+      "theme": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "ma.txt",
+      "output": "ma.html",
+      "bank": "biochemistry/topic04/bbq-alpha_helix_h-bonds-MA-questions.txt",
+      "controls": "rendered frozen Python question controls",
+      "width": 930,
+      "height": 484,
+      "bytes": 62454,
+      "sha256": "21dcec7d3e6c2d8842606971491c4f9baceedca2f6c22a64446607f4d1466be3"
+    },
+    {
+      "slug": "selftest_bpw_match_light",
+      "file": "docs/screenshots/selftest_bpw_match_light.png",
+      "backend": "bpw_actual_wasm",
+      "case": "match",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "match.txt",
+      "bank": "genetics/topic05/bbq-MATCH-degrees_of_dominance-questions.txt",
+      "controls": "BPW lifecycle header and real Wasm question controls",
+      "width": 930,
+      "height": 621,
+      "bytes": 74249,
+      "sha256": "9e549749aaf1017446222c45cd150274c7e2d7d2ccf7c1906cd9f996d30b8537"
+    },
+    {
+      "slug": "selftest_python_match_light",
+      "file": "docs/screenshots/selftest_python_match_light.png",
+      "backend": "frozen_python_host_wrapper",
+      "case": "match",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "match.txt",
+      "output": "match.html",
+      "bank": "genetics/topic05/bbq-MATCH-degrees_of_dominance-questions.txt",
+      "controls": "rendered frozen Python question controls",
+      "width": 930,
+      "height": 626,
+      "bytes": 78907,
+      "sha256": "d2fae3896ca3f4ff7181c0f58a384a873118c884f3e64e7b48a4b6de601314a1"
+    },
+    {
+      "slug": "selftest_bpw_match_dark",
+      "file": "docs/screenshots/selftest_bpw_match_dark.png",
+      "backend": "bpw_actual_wasm",
+      "case": "match",
+      "theme": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "match.txt",
+      "bank": "genetics/topic05/bbq-MATCH-degrees_of_dominance-questions.txt",
+      "controls": "BPW lifecycle header and real Wasm question controls",
+      "width": 930,
+      "height": 621,
+      "bytes": 82326,
+      "sha256": "233b3fb596c1194608cf5ab432db4152e773982f0cd0d9242da016c2c5fc11e7"
+    },
+    {
+      "slug": "selftest_python_match_dark",
+      "file": "docs/screenshots/selftest_python_match_dark.png",
+      "backend": "frozen_python_host_wrapper",
+      "case": "match",
+      "theme": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "match.txt",
+      "output": "match.html",
+      "bank": "genetics/topic05/bbq-MATCH-degrees_of_dominance-questions.txt",
+      "controls": "rendered frozen Python question controls",
+      "width": 930,
+      "height": 626,
+      "bytes": 85568,
+      "sha256": "d29c27cd447e5c60b7cb9142c4f882197e86bdbeb09b085128a151b3fb352ee4"
+    },
+    {
+      "slug": "selftest_bpw_num_light",
+      "file": "docs/screenshots/selftest_bpw_num_light.png",
+      "backend": "bpw_actual_wasm",
+      "case": "num",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "num.txt",
+      "bank": "biochemistry/topic02/bbq-Henderson-Hasselbalch-pH_num-questions.txt",
+      "controls": "BPW lifecycle header and real Wasm question controls",
+      "width": 930,
+      "height": 320,
+      "bytes": 37800,
+      "sha256": "04563423c2cf10c019fb8cb339b00b58f756fdfbdeee103e27667e258a9b4510"
+    },
+    {
+      "slug": "selftest_python_num_light",
+      "file": "docs/screenshots/selftest_python_num_light.png",
+      "backend": "frozen_python_host_wrapper",
+      "case": "num",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "num.txt",
+      "output": "num.html",
+      "bank": "biochemistry/topic02/bbq-Henderson-Hasselbalch-pH_num-questions.txt",
+      "controls": "rendered frozen Python question controls",
+      "width": 930,
+      "height": 337,
+      "bytes": 41245,
+      "sha256": "964f79b1526838270a325d051ce36f547c4dda8b75942b5d13d7c4ffa5dbcfb8"
+    },
+    {
+      "slug": "selftest_bpw_num_dark",
+      "file": "docs/screenshots/selftest_bpw_num_dark.png",
+      "backend": "bpw_actual_wasm",
+      "case": "num",
+      "theme": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "num.txt",
+      "bank": "biochemistry/topic02/bbq-Henderson-Hasselbalch-pH_num-questions.txt",
+      "controls": "BPW lifecycle header and real Wasm question controls",
+      "width": 930,
+      "height": 320,
+      "bytes": 45533,
+      "sha256": "74bc9872eb417d1c9443ce4bd0b79b5efc1bd93606b02bdeae22b39ecf341e0b"
+    },
+    {
+      "slug": "selftest_python_num_dark",
+      "file": "docs/screenshots/selftest_python_num_dark.png",
+      "backend": "frozen_python_host_wrapper",
+      "case": "num",
+      "theme": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "num.txt",
+      "output": "num.html",
+      "bank": "biochemistry/topic02/bbq-Henderson-Hasselbalch-pH_num-questions.txt",
+      "controls": "rendered frozen Python question controls",
+      "width": 930,
+      "height": 337,
+      "bytes": 48151,
+      "sha256": "122b305c2b391b844756a6cc6ab8f75674d02c792228d51a94cee65514ccacc4"
+    },
+    {
+      "slug": "selftest_bpw_fib_light",
+      "file": "docs/screenshots/selftest_bpw_fib_light.png",
+      "backend": "bpw_actual_wasm",
+      "case": "fib",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "fib.txt",
+      "bank": "biochemistry/topic11/bbq-rna_transcribe-FIB-prime-len_9-questions.txt",
+      "controls": "BPW lifecycle header and real Wasm question controls",
+      "width": 930,
+      "height": 287,
+      "bytes": 34487,
+      "sha256": "29afeb9903f1e70d5f227b9c8d0395b13b16918db6ca2ffe73030ac862ddf004"
+    },
+    {
+      "slug": "selftest_python_fib_light",
+      "file": "docs/screenshots/selftest_python_fib_light.png",
+      "backend": "frozen_python_host_wrapper",
+      "case": "fib",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "fib.txt",
+      "output": "fib.html",
+      "bank": "biochemistry/topic11/bbq-rna_transcribe-FIB-prime-len_9-questions.txt",
+      "controls": "rendered frozen Python question controls",
+      "width": 930,
+      "height": 306,
+      "bytes": 37962,
+      "sha256": "9747e0040e131ec7770e985316dedf4617881b143fa8943620974f6db0a1e103"
+    },
+    {
+      "slug": "selftest_bpw_fib_dark",
+      "file": "docs/screenshots/selftest_bpw_fib_dark.png",
+      "backend": "bpw_actual_wasm",
+      "case": "fib",
+      "theme": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "fib.txt",
+      "bank": "biochemistry/topic11/bbq-rna_transcribe-FIB-prime-len_9-questions.txt",
+      "controls": "BPW lifecycle header and real Wasm question controls",
+      "width": 930,
+      "height": 287,
+      "bytes": 41304,
+      "sha256": "71e6adaeed980ab6e6944c784402c35ff5e2de4bc2e1334e116e64c3b5d9f48d"
+    },
+    {
+      "slug": "selftest_python_fib_dark",
+      "file": "docs/screenshots/selftest_python_fib_dark.png",
+      "backend": "frozen_python_host_wrapper",
+      "case": "fib",
+      "theme": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "fib.txt",
+      "output": "fib.html",
+      "bank": "biochemistry/topic11/bbq-rna_transcribe-FIB-prime-len_9-questions.txt",
+      "controls": "rendered frozen Python question controls",
+      "width": 930,
+      "height": 306,
+      "bytes": 43775,
+      "sha256": "84452949842f5de00eee79db113efe86df1dfdfba543ee402cd61318d6d79af2"
+    },
+    {
+      "slug": "selftest_bpw_multi_fib_light",
+      "file": "docs/screenshots/selftest_bpw_multi_fib_light.png",
+      "backend": "bpw_actual_wasm",
+      "case": "multi_fib",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "multi_fib.txt",
+      "bank": "genetics/topic08/bbq-three-point_test_cross-distances_plus-questions.txt",
+      "controls": "BPW lifecycle header and real Wasm question controls",
+      "width": 930,
+      "height": 1528,
+      "bytes": 193672,
+      "sha256": "b3d75027956f501fa9714d3eacc94a2f70c3b3d1debbc5b9b92f5633973cae1b"
+    },
+    {
+      "slug": "selftest_python_multi_fib_light",
+      "file": "docs/screenshots/selftest_python_multi_fib_light.png",
+      "backend": "frozen_python_host_wrapper",
+      "case": "multi_fib",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "multi_fib.txt",
+      "output": "multi_fib.html",
+      "bank": "genetics/topic08/bbq-three-point_test_cross-distances_plus-questions.txt",
+      "controls": "rendered frozen Python question controls",
+      "width": 930,
+      "height": 1566,
+      "bytes": 203111,
+      "sha256": "bbaa8fb605de1cd32ddba861f449feb68d48a07e8cd35e55d6a27419097d40f7"
+    },
+    {
+      "slug": "selftest_bpw_multi_fib_dark",
+      "file": "docs/screenshots/selftest_bpw_multi_fib_dark.png",
+      "backend": "bpw_actual_wasm",
+      "case": "multi_fib",
+      "theme": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "multi_fib.txt",
+      "bank": "genetics/topic08/bbq-three-point_test_cross-distances_plus-questions.txt",
+      "controls": "BPW lifecycle header and real Wasm question controls",
+      "width": 930,
+      "height": 1528,
+      "bytes": 234307,
+      "sha256": "e27fe04b5dcf50143d9074b6e0d4f317265c50433bf9380ebd8129748a28ec1d"
+    },
+    {
+      "slug": "selftest_python_multi_fib_dark",
+      "file": "docs/screenshots/selftest_python_multi_fib_dark.png",
+      "backend": "frozen_python_host_wrapper",
+      "case": "multi_fib",
+      "theme": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "multi_fib.txt",
+      "output": "multi_fib.html",
+      "bank": "genetics/topic08/bbq-three-point_test_cross-distances_plus-questions.txt",
+      "controls": "rendered frozen Python question controls",
+      "width": 930,
+      "height": 1566,
+      "bytes": 239562,
+      "sha256": "c34c22053630a66b7b021411e63d77eb48ab77e1b6bb5f865833514fae0f7316"
+    },
+    {
+      "slug": "selftest_bpw_order_light",
+      "file": "docs/screenshots/selftest_bpw_order_light.png",
+      "backend": "bpw_actual_wasm",
+      "case": "order",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "order.txt",
+      "bank": "biotechnology/topic01/bbq-model_organism_complexity_order-ORD-4_choices-questions.txt",
+      "controls": "BPW lifecycle header and real Wasm question controls",
+      "width": 930,
+      "height": 466,
+      "bytes": 53607,
+      "sha256": "fcdfc25f9015e88d9f1d5988672d8800a09937f0cb2a81949d43f8a581899d01"
+    },
+    {
+      "slug": "selftest_python_order_light",
+      "file": "docs/screenshots/selftest_python_order_light.png",
+      "backend": "frozen_python_host_wrapper",
+      "case": "order",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "order.txt",
+      "output": "order.html",
+      "bank": "biotechnology/topic01/bbq-model_organism_complexity_order-ORD-4_choices-questions.txt",
+      "controls": "rendered frozen Python question controls",
+      "width": 930,
+      "height": 478,
+      "bytes": 58018,
+      "sha256": "5e159d364e4a350a7a9ebb13af608bb2924eb2ef4b716e19a3475efae8d1ec19"
+    },
+    {
+      "slug": "selftest_bpw_order_dark",
+      "file": "docs/screenshots/selftest_bpw_order_dark.png",
+      "backend": "bpw_actual_wasm",
+      "case": "order",
+      "theme": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "order.txt",
+      "bank": "biotechnology/topic01/bbq-model_organism_complexity_order-ORD-4_choices-questions.txt",
+      "controls": "BPW lifecycle header and real Wasm question controls",
+      "width": 930,
+      "height": 466,
+      "bytes": 58440,
+      "sha256": "9fa111c0afd620eb283fac59cf933d9eeff8ddd2e4ab1d5ce593fe1a0c61c5dc"
+    },
+    {
+      "slug": "selftest_python_order_dark",
+      "file": "docs/screenshots/selftest_python_order_dark.png",
+      "backend": "frozen_python_host_wrapper",
+      "case": "order",
+      "theme": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "order.txt",
+      "output": "order.html",
+      "bank": "biotechnology/topic01/bbq-model_organism_complexity_order-ORD-4_choices-questions.txt",
+      "controls": "rendered frozen Python question controls",
+      "width": 930,
+      "height": 478,
+      "bytes": 62382,
+      "sha256": "1b5bc6c54c506555ef655b3167db517aa43f036c5a04503c1b77bf43ea4d68df"
+    },
+    {
+      "slug": "selftest_bpw_match_tables_light",
+      "file": "docs/screenshots/selftest_bpw_match_tables_light.png",
+      "backend": "bpw_actual_wasm",
+      "case": "match_tables",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "match_tables.txt",
+      "bank": "biochemistry/topic03/bbq-MATCH-amino_acids_properties-long_tables-questions.txt",
+      "controls": "BPW lifecycle header and real Wasm question controls",
+      "width": 930,
+      "height": 774,
+      "bytes": 92171,
+      "sha256": "bd4c2baa7e0b212821640bffeda20b6fcfe0cf833c8d6be66624f23eba5740b3"
+    },
+    {
+      "slug": "selftest_python_match_tables_light",
+      "file": "docs/screenshots/selftest_python_match_tables_light.png",
+      "backend": "frozen_python_host_wrapper",
+      "case": "match_tables",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "match_tables.txt",
+      "output": "match_tables.html",
+      "bank": "biochemistry/topic03/bbq-MATCH-amino_acids_properties-long_tables-questions.txt",
+      "controls": "rendered frozen Python question controls",
+      "width": 930,
+      "height": 810,
+      "bytes": 107096,
+      "sha256": "ddd0500ab8f3d308f2cd97b00d16d61bcfcbd319d4668501a8281b7ad6b2e06b"
+    },
+    {
+      "slug": "selftest_bpw_match_tables_dark",
+      "file": "docs/screenshots/selftest_bpw_match_tables_dark.png",
+      "backend": "bpw_actual_wasm",
+      "case": "match_tables",
+      "theme": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "match_tables.txt",
+      "bank": "biochemistry/topic03/bbq-MATCH-amino_acids_properties-long_tables-questions.txt",
+      "controls": "BPW lifecycle header and real Wasm question controls",
+      "width": 930,
+      "height": 774,
+      "bytes": 99663,
+      "sha256": "c6da4c59899017a160d16557c76c20ba64bcc609cb674c563a262f8cf8043937"
+    },
+    {
+      "slug": "selftest_python_match_tables_dark",
+      "file": "docs/screenshots/selftest_python_match_tables_dark.png",
+      "backend": "frozen_python_host_wrapper",
+      "case": "match_tables",
+      "theme": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "match_tables.txt",
+      "output": "match_tables.html",
+      "bank": "biochemistry/topic03/bbq-MATCH-amino_acids_properties-long_tables-questions.txt",
+      "controls": "rendered frozen Python question controls",
+      "width": 930,
+      "height": 810,
+      "bytes": 113960,
+      "sha256": "8db9f5ecc95ef1029d1c534d384684f2f976472c30aa933cc9e88ba03bcf6101"
+    },
+    {
+      "slug": "selftest_bpw_mc_rdkit_light",
+      "file": "docs/screenshots/selftest_bpw_mc_rdkit_light.png",
+      "backend": "bpw_actual_wasm",
+      "case": "mc_rdkit",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "mc_rdkit.txt",
+      "bank": "biochemistry/topic03/bbq-which_amino_acid-MC-7_choices-questions.txt",
+      "controls": "BPW lifecycle header and real Wasm question controls",
+      "width": 930,
+      "height": 679,
+      "bytes": 41211,
+      "sha256": "21994a79bfe8c95a479135167090a21ece38fa693b6f22eb6e2a5f5b11e6350f"
+    },
+    {
+      "slug": "selftest_python_mc_rdkit_light",
+      "file": "docs/screenshots/selftest_python_mc_rdkit_light.png",
+      "backend": "frozen_python_host_wrapper",
+      "case": "mc_rdkit",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "mc_rdkit.txt",
+      "output": "mc_rdkit.html",
+      "bank": "biochemistry/topic03/bbq-which_amino_acid-MC-7_choices-questions.txt",
+      "controls": "rendered frozen Python question controls",
+      "width": 930,
+      "height": 715,
+      "bytes": 44999,
+      "sha256": "1d7aafa203713039a9216fe90461b1243da8365988716ce7da344565713da523"
+    },
+    {
+      "slug": "selftest_bpw_mc_rdkit_dark",
+      "file": "docs/screenshots/selftest_bpw_mc_rdkit_dark.png",
+      "backend": "bpw_actual_wasm",
+      "case": "mc_rdkit",
+      "theme": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "mc_rdkit.txt",
+      "bank": "biochemistry/topic03/bbq-which_amino_acid-MC-7_choices-questions.txt",
+      "controls": "BPW lifecycle header and real Wasm question controls",
+      "width": 930,
+      "height": 679,
+      "bytes": 47454,
+      "sha256": "68f863ca51dc5724afac1e93637e55f4abc38f1ff5d12f0723432bc39c1b67d7"
+    },
+    {
+      "slug": "selftest_python_mc_rdkit_dark",
+      "file": "docs/screenshots/selftest_python_mc_rdkit_dark.png",
+      "backend": "frozen_python_host_wrapper",
+      "case": "mc_rdkit",
+      "theme": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "mc_rdkit.txt",
+      "output": "mc_rdkit.html",
+      "bank": "biochemistry/topic03/bbq-which_amino_acid-MC-7_choices-questions.txt",
+      "controls": "rendered frozen Python question controls",
+      "width": 930,
+      "height": 715,
+      "bytes": 50304,
+      "sha256": "aeab8e1dcd45a65bc23c79632e8f0548d75b6383d211dc5e00a225fa9c496288"
+    },
+    {
+      "slug": "selftest_bpw_match_rdkit_light",
+      "file": "docs/screenshots/selftest_bpw_match_rdkit_light.png",
+      "backend": "bpw_actual_wasm",
+      "case": "match_rdkit",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "match_rdkit.txt",
+      "bank": "biochemistry/topic03/bbq-match_amino_acid_structures-4_choices-questions.txt",
+      "controls": "BPW lifecycle header and real Wasm question controls",
+      "width": 906,
+      "height": 1920,
+      "bytes": 213337,
+      "sha256": "babb66fd4c5fbfbe15e894baf1714dd29be8fd558458d49a11060317f14179c8"
+    },
+    {
+      "slug": "selftest_python_match_rdkit_light",
+      "file": "docs/screenshots/selftest_python_match_rdkit_light.png",
+      "backend": "frozen_python_host_wrapper",
+      "case": "match_rdkit",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "match_rdkit.txt",
+      "output": "match_rdkit.html",
+      "bank": "biochemistry/topic03/bbq-match_amino_acid_structures-4_choices-questions.txt",
+      "controls": "rendered frozen Python question controls",
+      "width": 895,
+      "height": 1920,
+      "bytes": 227162,
+      "sha256": "caa65d580c1a5b12b389dec0c9a1c5b147fdf21a72be9919803550e97d5379d1"
+    },
+    {
+      "slug": "selftest_bpw_match_rdkit_dark",
+      "file": "docs/screenshots/selftest_bpw_match_rdkit_dark.png",
+      "backend": "bpw_actual_wasm",
+      "case": "match_rdkit",
+      "theme": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "match_rdkit.txt",
+      "bank": "biochemistry/topic03/bbq-match_amino_acid_structures-4_choices-questions.txt",
+      "controls": "BPW lifecycle header and real Wasm question controls",
+      "width": 906,
+      "height": 1920,
+      "bytes": 231929,
+      "sha256": "400d0aeac8508f696203861b07e39378e3e1f7a081e02f2fd6fbff6aa695eb63"
+    },
+    {
+      "slug": "selftest_python_match_rdkit_dark",
+      "file": "docs/screenshots/selftest_python_match_rdkit_dark.png",
+      "backend": "frozen_python_host_wrapper",
+      "case": "match_rdkit",
+      "theme": "dark",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "match_rdkit.txt",
+      "output": "match_rdkit.html",
+      "bank": "biochemistry/topic03/bbq-match_amino_acid_structures-4_choices-questions.txt",
+      "controls": "rendered frozen Python question controls",
+      "width": 895,
+      "height": 1920,
+      "bytes": 248746,
+      "sha256": "cdf8a3d924b507dc1ccc9bf72a62c020776d60b308d1bea8f33850d36e40bf03"
+    },
+    {
+      "slug": "selftest_bpw_site_context_loaded",
+      "file": "docs/screenshots/selftest_bpw_site_context_loaded.png",
+      "backend": "bpw_actual_site_context",
+      "case": "match",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "controls": "site navigation and an automatically loaded practice question",
+      "width": 1280,
+      "height": 800,
+      "bytes": 138843,
+      "sha256": "f30392cb7008ae094b155f7880c915d37cd6aef82a1b2f4a3998507eeafcc0ca"
+    },
+    {
+      "slug": "selftest_bpw_match_feedback_light",
+      "file": "docs/screenshots/selftest_bpw_match_feedback_light.png",
+      "backend": "bpw_actual_wasm",
+      "case": "match",
+      "theme": "light",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "input": "match.txt",
+      "bank": "genetics/topic05/bbq-MATCH-degrees_of_dominance-questions.txt",
+      "controls": "MATCH assignment then Check Answer with feedback",
+      "width": 930,
+      "height": 621,
+      "bytes": 80652,
+      "sha256": "9b4c2e4694bf1728bdacd96bb7d9117bdf14e3968243ffe133276001fbdb73ed"
+    },
+    {
+      "slug": "selftest_bpw_mobile_fib_initial_dark",
+      "file": "docs/screenshots/selftest_bpw_mobile_fib_initial_dark.png",
+      "backend": "bpw_actual_wasm",
+      "case": "fib",
+      "theme": "dark",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "input": "fib.txt",
+      "bank": "biochemistry/topic11/bbq-rna_transcribe-FIB-prime-len_9-questions.txt",
+      "controls": "mobile FIB at the initial table position",
+      "width": 328,
+      "height": 614,
+      "bytes": 42492,
+      "sha256": "403b050e80bf6c387c748934bea4b190c05a5d7ba715280631067126506bf20a"
+    },
+    {
+      "slug": "selftest_bpw_mobile_fib_scrolled_dark",
+      "file": "docs/screenshots/selftest_bpw_mobile_fib_scrolled_dark.png",
+      "backend": "bpw_actual_wasm",
+      "case": "fib",
+      "theme": "dark",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "input": "fib.txt",
+      "bank": "biochemistry/topic11/bbq-rna_transcribe-FIB-prime-len_9-questions.txt",
+      "controls": "mobile FIB final table cell after horizontal scroll",
+      "width": 328,
+      "height": 614,
+      "bytes": 15462,
+      "sha256": "a951e9d1c3444f5d0cb061c61e2ced432a47bc274eade9c04da921636242d92d"
+    },
+    {
+      "slug": "selftest_bpw_mobile_match_rdkit_light",
+      "file": "docs/screenshots/selftest_bpw_mobile_match_rdkit_light.png",
+      "backend": "bpw_actual_wasm",
+      "case": "match_rdkit",
+      "theme": "light",
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "input": "match_rdkit.txt",
+      "bank": "biochemistry/topic03/bbq-match_amino_acid_structures-4_choices-questions.txt",
+      "controls": "mobile RDKit MATCH with painted canvases",
+      "width": 360,
+      "height": 800,
+      "bytes": 52380,
+      "sha256": "0495e75986b1bce62703c472ecbfe65576c8727e4f23df4fcf7ec5e5996fe0dd"
+    },
+    {
+      "slug": "selftest_match_assignment_demo",
+      "file": "docs/screenshots/selftest_match_assignment_demo.gif",
+      "backend": "bpw_actual_wasm_video",
+      "case": "match",
+      "theme": "light",
+      "viewport": {
+        "width": 1000,
+        "height": 760
+      },
+      "controls": "MATCH click assignment, Check Answer, feedback",
+      "width": 1000,
+      "height": 760,
+      "bytes": 312193,
+      "sha256": "211c577c24fc2bca3183719fee83cfda261825e20b50b975a9a17e497179204b",
+      "duration_seconds": 2.66,
+      "fps": 12,
+      "loops": 1
+    }
+  ]
+}

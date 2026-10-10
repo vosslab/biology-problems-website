@@ -12,8 +12,8 @@ Canvas, ADAPT, and other teaching workflows.
 ## See what is inside
 
 <!-- screenshots:begin (managed by screenshot-docs) -->
-![Biology Problems homepage showing daily puzzles and subject collections](docs/screenshots/website_home.png)
-![Genetics problem sets with HLA variants and LMS download options](docs/screenshots/hla_problem_sets.png)
+![Biology Problems homepage showing Question Finder and subject collections](docs/screenshots/website_home.png)
+![Loaded three-marker HLA question with download controls and the next practice placeholder](docs/screenshots/hla_problem_sets.png)
 ![Daily biology puzzle collection with four playable challenges](docs/screenshots/daily_puzzles.png)
 <!-- screenshots:end -->
 

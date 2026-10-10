@@ -66,10 +66,11 @@ advancement need the same lifecycle. Separate static-page and reroll paths made
 that behavior diverge as questions became dynamic.
 
 **Consequence.** The first question generates on each page visit; later
-containers generate on request or after a fully correct answer. A 500 ms
-feedback pause runs while the next question loads. The active question alone is
-replaced by **New version**, while earlier work remains available during the
-visit.
+containers generate on request or after a fully correct answer. Each successful
+load advances through its bank's source records and returns to the first record
+after the last. A 500 ms feedback pause runs while the next question loads. The
+active question alone is replaced by **Show another question**, while earlier
+work remains available during the visit.
 
 **Owner.** [../site_docs/assets/scripts/selftest_reroll.js](../site_docs/assets/scripts/selftest_reroll.js)
 and [../bioproblems_site/topic_page.py](../bioproblems_site/topic_page.py)
