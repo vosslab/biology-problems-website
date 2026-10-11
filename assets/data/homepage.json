@@ -2312,7 +2312,7 @@
       "name": "Gene Interaction Types from Dihybrid Cross Ratios (4 Choices)",
       "subject": "Genetics",
       "topic": "Gene Interactions",
-      "updated": null,
+      "updated": "2026-10-01",
       "url": "genetics/topic05/#dihybrid_cross_epistatic_gene_interactions-4_choices-button-container"
     },
     {
@@ -2532,7 +2532,7 @@
       "name": "Combined Autosomal Dominant and X-Linked Recessive Inheritance (Varied Outcomes)",
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
-      "updated": "2026-01-19",
+      "updated": "2026-10-11",
       "url": "genetics/topic06/#dominant_and_X-linked_recessive_variations-button-container"
     },
     {
@@ -2631,7 +2631,7 @@
       "name": "X-Linked Eye Color Inheritance",
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
-      "updated": "2026-01-10",
+      "updated": "2026-10-11",
       "url": "genetics/topic06/#x_linked_reciprocal_cross-button-container"
     },
     {
@@ -2642,7 +2642,7 @@
       "name": "X-Linked Coat Color Probability",
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
-      "updated": "2026-01-10",
+      "updated": "2026-10-11",
       "url": "genetics/topic06/#x_linked_tortoiseshell-button-container"
     },
     {
@@ -2807,7 +2807,7 @@
       "name": "Gene Order and Map Distances from Three-Point Test Crosses",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-01-11",
       "url": "genetics/topic08/#three-point_test_cross-distances_plus-button-container"
     },
     {
@@ -5516,6 +5516,27 @@
   },
   "updated": [
     {
+      "date": "2026-10-11",
+      "name": "X-Linked Eye Color Inheritance",
+      "subject": "Genetics",
+      "topic": "Chromosomal Inheritance",
+      "url": "genetics/topic06/#x_linked_reciprocal_cross-button-container"
+    },
+    {
+      "date": "2026-10-11",
+      "name": "X-Linked Coat Color Probability",
+      "subject": "Genetics",
+      "topic": "Chromosomal Inheritance",
+      "url": "genetics/topic06/#x_linked_tortoiseshell-button-container"
+    },
+    {
+      "date": "2026-10-11",
+      "name": "Combined Autosomal Dominant and X-Linked Recessive Inheritance (Varied Outcomes)",
+      "subject": "Genetics",
+      "topic": "Chromosomal Inheritance",
+      "url": "genetics/topic06/#dominant_and_X-linked_recessive_variations-button-container"
+    },
+    {
       "date": "2026-10-06",
       "name": "Sex Determination Systems from Descriptions",
       "subject": "Genetics",
@@ -5612,6 +5633,13 @@
       "subject": "Genetics",
       "topic": "Gene Interactions",
       "url": "genetics/topic05/#lethal_allele_survival-button-container"
+    },
+    {
+      "date": "2026-10-01",
+      "name": "Gene Interaction Types from Dihybrid Cross Ratios (4 Choices)",
+      "subject": "Genetics",
+      "topic": "Gene Interactions",
+      "url": "genetics/topic05/#dihybrid_cross_epistatic_gene_interactions-4_choices-button-container"
     },
     {
       "date": "2026-09-30",
@@ -5831,13 +5859,6 @@
       "url": "genetics/topic02/#palindrome_sequence_match-button-container"
     },
     {
-      "date": "2026-01-19",
-      "name": "Combined Autosomal Dominant and X-Linked Recessive Inheritance (Varied Outcomes)",
-      "subject": "Genetics",
-      "topic": "Chromosomal Inheritance",
-      "url": "genetics/topic06/#dominant_and_X-linked_recessive_variations-button-container"
-    },
-    {
       "date": "2026-01-17",
       "name": "Hardy-Weinberg Allele and Genotype Frequencies from Population Data",
       "subject": "Genetics",
@@ -5864,20 +5885,6 @@
       "subject": "Genetics",
       "topic": "Gene Mapping",
       "url": "genetics/topic08/#two-point_test_cross-cis-trans-MC-with_hint-button-container"
-    },
-    {
-      "date": "2026-01-10",
-      "name": "X-Linked Eye Color Inheritance",
-      "subject": "Genetics",
-      "topic": "Chromosomal Inheritance",
-      "url": "genetics/topic06/#x_linked_reciprocal_cross-button-container"
-    },
-    {
-      "date": "2026-01-10",
-      "name": "X-Linked Coat Color Probability",
-      "subject": "Genetics",
-      "topic": "Chromosomal Inheritance",
-      "url": "genetics/topic06/#x_linked_tortoiseshell-button-container"
     },
     {
       "date": "2026-01-10",
