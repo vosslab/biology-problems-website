@@ -1,4 +1,26 @@
 # Changelog
+## 2026-10-11
+
+### Behavior or Interface Changes
+
+- Rename the website's vendored QPM asset directory to `site_docs/assets/qpm_wasm/`
+  and its refresh helper to `devel/vendor_qpm_wasm.py`. Update browser consumers,
+  browser-test routes, and maintenance documentation. Preserve upstream runtime
+  filenames and source provenance.
+
+### Removals and Deprecations
+
+- Remove unused browser and Node demos from the vendored QPM package and exclude
+  `examples/` during future refreshes. Keep the runtime, license, and hashes for
+  the files the website actually ships.
+
+### Developer Tests and Notes
+
+- Verify unchanged runtime hashes and demo exclusion with two temporary checks,
+  then remove those checks. Focused Python validation passes 1,623 checks;
+  all three Node checks and nine download/practice browser tests pass against
+  the rebuilt MkDocs site. Chromium requires execution outside the macOS sandbox.
+
 ## 2026-10-10
 
 ### Behavior or Interface Changes

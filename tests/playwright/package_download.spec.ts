@@ -90,7 +90,7 @@ test("real downloads preserve source identity, grading and scientific media", as
   const dependencies: string[] = [];
   const errors: string[] = [];
   page.on("request", request => {
-    if (/\/(qti_wasm|package_render)\//.test(request.url())) { dependencies.push(request.url()); }
+    if (/\/(qpm_wasm|package_render)\//.test(request.url())) { dependencies.push(request.url()); }
   });
   page.on("pageerror", error => errors.push(error.message));
   const row = await host(page);
@@ -103,7 +103,7 @@ test("real downloads preserve source identity, grading and scientific media", as
   await expect(row.getByRole("status")).toHaveText("Download ready.");
   const inspected = await inspect(blackboard);
   const canonical = await page.evaluate(async ({ bytes, source }) => {
-    const api = await import("/assets/qti_wasm/src/index.js");
+    const api = await import("/assets/qpm_wasm/src/index.js");
     const checked = api.checkPackage({ kind: "zip", bytes: new Uint8Array(bytes) });
     const ids = source.split("\n").map(item => {
       const original = api.convert({ inputFormat: "bbq_text_upload", outputFormat: "html_selftest",
@@ -146,7 +146,7 @@ test("real downloads preserve source identity, grading and scientific media", as
   expect(canvas.suggestedFilename()).toBe("canvas.zip");
   const direct = await inspect(canvas);
   const canvasChecked = await page.evaluate(async bytes => {
-    const api = await import("/assets/qti_wasm/src/index.js");
+    const api = await import("/assets/qpm_wasm/src/index.js");
     return api.checkPackage({ kind: "zip", bytes: new Uint8Array(bytes) });
   }, direct.bytes);
   expect(canvasChecked.status).toBe("success");

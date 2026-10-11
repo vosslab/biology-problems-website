@@ -59,7 +59,7 @@ maintenance and test orchestration; `tools/` remains standalone.
 | --- | --- | --- |
 | [devel/site_maint.py](../devel/site_maint.py) | Topics CSV, question counts, two data builds, and generated reset | `python3 devel/site_maint.py COMMAND` |
 | [devel/run_playwright_tests.sh](../devel/run_playwright_tests.sh) | Playwright preflight and runner wrapper | `bash devel/run_playwright_tests.sh` |
-| [devel/vendor_qti_wasm.py](../devel/vendor_qti_wasm.py) | Build and refresh the QPM browser package | `source source_me.sh && python3 devel/vendor_qti_wasm.py` |
+| [devel/vendor_qpm_wasm.py](../devel/vendor_qpm_wasm.py) | Build and refresh the QPM browser package | `source source_me.sh && python3 devel/vendor_qpm_wasm.py` |
 | [devel/setup_playwright.sh](../devel/setup_playwright.sh) | Install or verify Playwright tooling | `bash devel/setup_playwright.sh` |
 
 ### `devel/` propagated

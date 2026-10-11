@@ -41,12 +41,13 @@ QPM is a stable vendored dependency. Refresh deliberately when adopting an upstr
 Clone QPM beside BPW or set `QPM_ROOT` to another checkout; relative paths resolve
 from the BPW root. Ordinary site builds require neither QPM source nor Rust/Cargo.
 
-The sibling `@vosslab/qti-wasm` package is private. This website consumes its complete built
-`dist` as a vendored artifact dependency. After updating the QPM checkout's Rust or
+The sibling `@vosslab/qti-wasm` package is private. This website vendors its built
+distribution under `site_docs/assets/qpm_wasm/`, excluding the unused `examples/` demos.
+The upstream runtime filenames remain unchanged. After updating the QPM checkout's Rust or
 TypeScript sources, compile and refresh BPW with one command from the BPW root:
 
 ```bash
-source source_me.sh && python3 devel/vendor_qti_wasm.py
+source source_me.sh && python3 devel/vendor_qpm_wasm.py
 ```
 
 The helper runs `npm ci` and QPM's canonical `npm run build`. That build invokes

@@ -13,7 +13,7 @@ import subprocess
 
 #============================================
 def vendor_wasm(repo: pathlib.Path, source_repo: pathlib.Path) -> None:
-	"""Copy the complete built browser package and record consumed-file hashes.
+	"""Copy the built browser package without demos and record consumed-file hashes.
 
 	Args:
 		repo: BPW repository root.
@@ -22,10 +22,11 @@ def vendor_wasm(repo: pathlib.Path, source_repo: pathlib.Path) -> None:
 	dist = source_repo / "packages" / "qti-wasm" / "dist"
 	if not (dist / "generated" / "qti_wasm_bg.wasm").is_file():
 		raise FileNotFoundError(f"Build the WASM package first: {dist}")
-	destination = repo / "site_docs" / "assets" / "qti_wasm"
+	# ASVS 5.3.2: the destination is a fixed path under the website repository.
+	destination = repo / "site_docs" / "assets" / "qpm_wasm"
 	if destination.exists():
 		shutil.rmtree(destination)
-	shutil.copytree(dist, destination)
+	shutil.copytree(dist, destination, ignore=shutil.ignore_patterns("examples"))
 	# Hash the consumed bytes; the checkout revision does not certify a local build.
 	hashes = {}
 	for artifact in sorted(destination.rglob("*")):
@@ -42,7 +43,7 @@ def vendor_wasm(repo: pathlib.Path, source_repo: pathlib.Path) -> None:
 		"sha256": hashes,
 	}
 	(destination / "source.json").write_text(json.dumps(provenance, indent=2) + "\n")
-	print(f"Vendored QTI WASM from {dist}; source revision unknown")
+	print(f"Vendored QPM WASM from {dist}; source revision unknown")
 
 
 #============================================
@@ -54,7 +55,7 @@ def main() -> None:
 	configured = os.environ.get("QPM_ROOT", "").strip() or "../qti-package-maker-rs"
 	source_repo = (repo / pathlib.Path(configured).expanduser()).resolve()
 	package = source_repo / "packages" / "qti-wasm"
-	print(f"Building QTI WASM from {package}", flush=True)
+	print(f"Building QPM WASM from {package}", flush=True)
 	# ASVS 1.2.5: fixed argument lists, without shell interpolation.
 	# check=True stops before vendoring if dependency installation or compilation fails.
 	subprocess.run(["npm", "ci"], cwd=package, check=True)

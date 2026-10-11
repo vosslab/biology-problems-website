@@ -49,7 +49,7 @@ test("real WASM installs question styles and loads another question on request",
   const wasmRequests: string[] = [];
   page.on("pageerror", (error) => errors.push(error.message));
   page.on("request", (request) => {
-    if (request.url().includes("/qti_wasm/")) {
+    if (request.url().includes("/qpm_wasm/")) {
       wasmRequests.push(request.url());
     }
   });
@@ -163,7 +163,7 @@ test("wide scientific tables scroll locally on mobile without losing answer cont
 // artifact includes a valid generated checkAnswer_* function so readiness proves
 // scripts finished installing, not merely that markup arrived.
 async function lifecycleFixture(page: Page): Promise<Locator> {
-  await page.route("**/qti_wasm/src/index.js", async (route) => {
+  await page.route("**/qpm_wasm/src/index.js", async (route) => {
     await route.fulfill({ contentType: "text/javascript", body: `
       let version = 0;
       export async function initialize() {}
@@ -199,7 +199,7 @@ async function lifecycleFixture(page: Page): Promise<Locator> {
 }
 
 async function dependencyFixture(page: Page): Promise<Locator> {
-  await page.route("**/qti_wasm/src/index.js", async (route) => {
+  await page.route("**/qpm_wasm/src/index.js", async (route) => {
     await route.fulfill({ contentType: "text/javascript", body: `
       export async function initialize() {}
       export function convert(request) {

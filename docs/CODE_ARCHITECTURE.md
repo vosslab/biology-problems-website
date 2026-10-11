@@ -18,8 +18,9 @@ CLI exposes one dependency-aware content build workflow.
   direct text-file writing for generated site files.
 - [bioproblems_site/git_paths.py](../bioproblems_site/git_paths.py): repository
   discovery and relative display paths.
-- [devel/vendor_qti_wasm.py](../devel/vendor_qti_wasm.py): builds QPM's browser package,
-  copies the complete distribution, and records consumed-file hashes.
+- [devel/vendor_qpm_wasm.py](../devel/vendor_qpm_wasm.py): builds QPM's browser package,
+  copies its distribution without demos into `site_docs/assets/qpm_wasm/`, and records
+  consumed-file hashes.
 - [bioproblems_site/mkdocs_styles.py](../bioproblems_site/mkdocs_styles.py): MkDocs
   post-build hook using `tinycss2` to scope copied website styles outside mounted
   QPM content. Root-only rules and asset declarations remain global; see
