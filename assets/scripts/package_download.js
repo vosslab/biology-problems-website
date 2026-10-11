@@ -24,8 +24,8 @@
 	function engine() {
 		if (!enginePromise) {
 			enginePromise = (async function () {
-				const api = await import(new URL("qti_wasm/src/index.js", assetBase).href);
-				await api.initialize(await bytes(new URL("qti_wasm/generated/qti_wasm_bg.wasm", assetBase)));
+				const api = await import(new URL("qpm_wasm/src/index.js", assetBase).href);
+				await api.initialize(await bytes(new URL("qpm_wasm/generated/qti_wasm_bg.wasm", assetBase)));
 				return api;
 			}()).catch(function (error) { enginePromise = undefined; throw error; });
 		}
