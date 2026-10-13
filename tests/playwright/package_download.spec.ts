@@ -21,10 +21,10 @@ async function host(page: Page) {
     "MC\t<p>Identify methane.</p>One carbon and four hydrogens.\tEthanol\tIncorrect\tMethane\tCorrect" }));
   await page.route("**/package_fixture/", route => route.fulfill({ contentType: "text/html", body: `
     <div class="button-container">
-      <button class="qti-package-download" data-bbq="questions.txt" data-format="blackboard_export_zip" data-filename="blackboard.zip">Blackboard</button>
-      <button class="qti-package-download" data-bbq="questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas.zip">Canvas</button>
-      <button class="qti-package-download" data-bbq="plain.txt" data-format="human_readable" data-filename="questions.html">HTML</button>
-      <span class="qti-package-status" role="status"></span><progress class="qti-package-progress" hidden></progress>
+      <button class="qpm-package-download" data-bbq="questions.txt" data-format="blackboard_export_zip" data-filename="blackboard.zip">Blackboard</button>
+      <button class="qpm-package-download" data-bbq="questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas.zip">Canvas</button>
+      <button class="qpm-package-download" data-bbq="plain.txt" data-format="human_readable" data-filename="questions.html">HTML</button>
+      <span class="qpm-package-status" role="status"></span><progress class="qpm-package-progress" hidden></progress>
     </div><script src="/assets/scripts/package_download.js"></script>` }));
   await page.goto("/package_fixture/");
   return page.locator(".button-container");

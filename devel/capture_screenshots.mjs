@@ -88,7 +88,7 @@ async function waitForQuestion(host) {
 }
 
 async function verifyRenderedQuestion(page, host, caseData, errors) {
-	assert(await page.locator('#qti-selftest-theme').count() === 1,
+	assert(await page.locator('#qpm-selftest-theme').count() === 1,
 		`${caseData.name}: self-test stylesheet was not installed exactly once`);
 	const controls = host.locator('button, input, select, textarea');
 	assert(await controls.count() > 0, `${caseData.name}: no question controls rendered`);
@@ -138,10 +138,10 @@ async function captureReadme(browser) {
 	]) {
 		await page.goto(`${BPW_URL}${route}`, { waitUntil: 'networkidle' });
 		if (slug === 'hla_problem_sets') {
-			const host = page.locator('.qti-selftest[data-bbq="bbq-hla_genotype-3_markers-color-questions.txt"]');
+			const host = page.locator('.qpm-selftest[data-bbq="bbq-hla_genotype-3_markers-color-questions.txt"]');
 			await host.getByRole('button', { name: 'Show practice question', exact: true }).click();
-			await host.locator('.qti-selftest-item').waitFor({ state: 'visible' });
-			await page.locator('#qti-selftest-theme').waitFor({ state: 'attached' });
+			await host.locator('.qpm-selftest-item').waitFor({ state: 'visible' });
+			await page.locator('#qpm-selftest-theme').waitFor({ state: 'attached' });
 			await host.locator('xpath=preceding-sibling::h2[1]').evaluate((element) => window.scrollTo(0, element.offsetTop - 80));
 			await page.waitForTimeout(500);
 		}
@@ -172,9 +172,9 @@ async function captureFrozen(browser, caseData, theme, hostMetrics) {
 		contentType: 'text/html', body: wrapperDocument(caseData, theme, hostMetrics),
 	}));
 	await page.goto(`${BPW_URL}/__capture/python/${caseData.name}?theme=${theme}`, { waitUntil: 'networkidle' });
-	const host = page.locator('.reference-stage .qti-selftest');
+	const host = page.locator('.reference-stage .qpm-selftest');
 	await host.waitFor({ state: 'visible' });
-	await page.locator('#qti-selftest-theme').waitFor({ state: 'attached' });
+	await page.locator('#qpm-selftest-theme').waitFor({ state: 'attached' });
 	await verifyRenderedQuestion(page, host, caseData, errors);
 	await page.evaluate(() => document.fonts.ready);
 	assert(await page.evaluate((font) => document.fonts.check(font), `${hostMetrics.fontSize} ${hostMetrics.fontFamily}`),
@@ -210,11 +210,11 @@ async function captureBpw(browser, caseData, theme) {
 	// neither necessary nor reliable for this locally served application.
 	await page.goto(`${BPW_URL}${pageForBank(caseData.bank)}`, { waitUntil: 'domcontentloaded' });
 	await switchSiteTheme(page, theme);
-	const host = page.locator(`.qti-selftest[data-bbq="${basenameForBank(caseData.bank)}"]`);
+	const host = page.locator(`.qpm-selftest[data-bbq="${basenameForBank(caseData.bank)}"]`);
 	const start = host.getByRole('button', { name: 'Show practice question', exact: true });
 	if (await start.isVisible().catch(() => false)) await start.click();
 	await waitForQuestion(host);
-	await page.locator('#qti-selftest-theme').waitFor({ state: 'attached' });
+	await page.locator('#qpm-selftest-theme').waitFor({ state: 'attached' });
 	await verifyRenderedQuestion(page, host, caseData, errors);
 	const hostMetrics = await host.evaluate((element) => {
 		const style = getComputedStyle(element);
@@ -228,9 +228,9 @@ async function captureBpw(browser, caseData, theme) {
 		return {
 			width: Math.round(box.width), fontFamily: style.fontFamily, fontSize: style.fontSize,
 			lineHeight: style.lineHeight, color: style.color, background: bodyStyle.backgroundColor,
-			surface: style.backgroundColor, border: style.getPropertyValue('--qti-border').trim() || style.color,
-			accent: style.getPropertyValue('--qti-btn-bg').trim() || style.color,
-			noteBackground: style.getPropertyValue('--qti-slot-bg').trim() || style.backgroundColor,
+			surface: style.backgroundColor, border: style.getPropertyValue('--qpm-border').trim() || style.color,
+			accent: style.getPropertyValue('--qpm-btn-bg').trim() || style.color,
+			noteBackground: style.getPropertyValue('--qpm-slot-bg').trim() || style.backgroundColor,
 			variables,
 		};
 	});
@@ -245,11 +245,11 @@ async function captureBpw(browser, caseData, theme) {
 }
 
 async function chooseOneAndGrade(host) {
-	const slots = host.locator('.qti-match-slot');
+	const slots = host.locator('.qpm-match-slot');
 	const slot = slots.first();
 	const correctValue = await slot.getAttribute('data-correct');
 	assert(correctValue, 'MATCH first slot did not identify its correct choice');
-	const choice = host.locator(`.qti-match-choice[data-value="${correctValue}"]`);
+	const choice = host.locator(`.qpm-match-choice[data-value="${correctValue}"]`);
 	await choice.click();
 	await slot.click();
 	await host.getByRole('button', { name: 'Check Answer', exact: true }).click();
@@ -276,7 +276,7 @@ async function captureFeatureEvidence(browser) {
 		const context = await browser.newContext({ viewport: DESKTOP, colorScheme: 'light' });
 		const page = await context.newPage();
 		await page.goto(`${BPW_URL}${pageForBank(match.bank)}`, { waitUntil: 'domcontentloaded' });
-		const hosts = page.locator('.qti-selftest');
+		const hosts = page.locator('.qpm-selftest');
 		assert(await hosts.count() > 1, 'site context page did not provide a second untouched self-test host');
 		const host = hosts.nth(1);
 		await host.getByText('Practice question', { exact: true }).waitFor();
@@ -298,7 +298,7 @@ async function captureFeatureEvidence(browser) {
 			contentType: 'text/plain; charset=utf-8', body: `${exactRecord}\n`,
 		}));
 		await page.goto(`${BPW_URL}${pageForBank(match.bank)}`, { waitUntil: 'domcontentloaded' });
-		const host = page.locator(`.qti-selftest[data-bbq="${basenameForBank(match.bank)}"]`);
+		const host = page.locator(`.qpm-selftest[data-bbq="${basenameForBank(match.bank)}"]`);
 		const start = host.getByRole('button', { name: 'Show practice question', exact: true });
 		if (await start.isVisible().catch(() => false)) await start.click();
 		await waitForQuestion(host);
@@ -325,7 +325,7 @@ async function captureFeatureEvidence(browser) {
 		}));
 		await page.goto(`${BPW_URL}${pageForBank(caseData.bank)}`, { waitUntil: 'domcontentloaded' });
 		await switchSiteTheme(page, theme);
-		const host = page.locator(`.qti-selftest[data-bbq="${basenameForBank(caseData.bank)}"]`);
+		const host = page.locator(`.qpm-selftest[data-bbq="${basenameForBank(caseData.bank)}"]`);
 		const start = host.getByRole('button', { name: 'Show practice question', exact: true });
 		if (await start.isVisible().catch(() => false)) await start.click();
 		await waitForQuestion(host);
@@ -371,7 +371,7 @@ async function captureMatchGif(browser) {
 		contentType: 'text/plain; charset=utf-8', body: `${exactRecord}\n`,
 	}));
 	await page.goto(`${BPW_URL}${pageForBank(match.bank)}`, { waitUntil: 'domcontentloaded' });
-	const host = page.locator(`.qti-selftest[data-bbq="${basenameForBank(match.bank)}"]`);
+	const host = page.locator(`.qpm-selftest[data-bbq="${basenameForBank(match.bank)}"]`);
 	const start = host.getByRole('button', { name: 'Show practice question', exact: true });
 	if (await start.isVisible().catch(() => false)) await start.click();
 	await waitForQuestion(host);
@@ -380,10 +380,10 @@ async function captureMatchGif(browser) {
 	});
 	await page.waitForTimeout(350);
 	const readyAtSeconds = (Date.now() - recordStartedAt) / 1000;
-	const gifSlot = host.locator('.qti-match-slot').first();
+	const gifSlot = host.locator('.qpm-match-slot').first();
 	const gifCorrectValue = await gifSlot.getAttribute('data-correct');
 	assert(gifCorrectValue, 'MATCH GIF slot did not identify its correct choice');
-	await host.locator(`.qti-match-choice[data-value="${gifCorrectValue}"]`).click();
+	await host.locator(`.qpm-match-choice[data-value="${gifCorrectValue}"]`).click();
 	await page.waitForTimeout(450);
 	await gifSlot.click();
 	await page.waitForTimeout(450);
@@ -414,7 +414,7 @@ async function captureMatchGif(browser) {
 		contentType: 'text/plain; charset=utf-8', body: `${exactRecord}\n`,
 	}));
 	await reducedPage.goto(`${BPW_URL}${pageForBank(match.bank)}`, { waitUntil: 'domcontentloaded' });
-	const reducedHost = reducedPage.locator(`.qti-selftest[data-bbq="${basenameForBank(match.bank)}"]`);
+	const reducedHost = reducedPage.locator(`.qpm-selftest[data-bbq="${basenameForBank(match.bank)}"]`);
 	const reducedStart = reducedHost.getByRole('button', { name: 'Show practice question', exact: true });
 	if (await reducedStart.isVisible().catch(() => false)) await reducedStart.click();
 	await waitForQuestion(reducedHost);

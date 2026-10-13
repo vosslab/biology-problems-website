@@ -54,7 +54,7 @@ this is CSS agreement, not a claim of whole-file byte equality.
 
 ### MATCH choice colors
 
-- Observed: generated answer buttons carry `qti-choice-1` through `qti-choice-5`, and the
+- Observed: generated answer buttons carry `qpm-choice-1` through `qpm-choice-5`, and the
   stylesheet declares corresponding foreground/background variables. The emitted CSS lacks
   rules that apply those variables to those classes. Raw standalone choices consequently
   render with browser-default button colors rather than the saved colored choices.
@@ -63,7 +63,7 @@ this is CSS agreement, not a claim of whole-file byte equality.
 
 ### Compact choices and paragraphs
 
-- Observed: the saved MA fragment uses `qti-auto-grid` for short choices; current Rust output
+- Observed: the saved MA fragment uses `qpm-auto-grid` for short choices; current Rust output
   emits an ordinary vertical choice list and lacks that grid's rules. The difference is visible
   in standalone pages, without host styles.
 - Observed: saved question text combines adjacent paragraphs with line breaks. Rust preserves
@@ -92,9 +92,9 @@ CLI build produced a subsequently remembered working version.
 Rust implementation:
 
 ```text
-crates/qti-engines/src/html_selftest/mod.rs
-crates/qti-engines/src/html_selftest/assets/base_styles.css
-crates/qti-engines/src/html_selftest/assets/control_styles.css
+crates/qpm-engines/src/html_selftest/mod.rs
+crates/qpm-engines/src/html_selftest/assets/base_styles.css
+crates/qpm-engines/src/html_selftest/assets/control_styles.css
 ```
 
 Comparison implementation in the Python QPM repository:

@@ -201,7 +201,7 @@ def _write_index(tmp_path: object, lines: object) -> object:
 def _selftest_container(core: str) -> str:
 	"""Return the generated topic-page shell for one BBQ source."""
 	return (
-		f'<div class="qti-selftest" data-bbq="bbq-{core}-questions.txt">\n'
+		f'<div class="qpm-selftest" data-bbq="bbq-{core}-questions.txt">\n'
 		'  <div class="selftest-reroll-content"></div>\n'
 		'</div>\n'
 	)
@@ -211,10 +211,10 @@ def test_strip_orphan_selftests_removes_only_orphan_container(tmp_path: object) 
 	lines = [
 		"# Topic title\n",
 		"\n",
-		'<div class="qti-selftest" data-bbq="bbq-alpha-questions.txt">\n',
+		'<div class="qpm-selftest" data-bbq="bbq-alpha-questions.txt">\n',
 		'  <div class="selftest-reroll-content"></div>\n',
 		"</div>\n",
-		'<div class="qti-selftest" data-bbq="bbq-ghost-questions.txt">\n',
+		'<div class="qpm-selftest" data-bbq="bbq-ghost-questions.txt">\n',
 		'  <div class="selftest-reroll-content"></div>\n',
 		"</div>\n",
 		"Some prose stays here.\n",
@@ -232,7 +232,7 @@ def test_strip_orphan_selftests_removes_only_orphan_container(tmp_path: object) 
 
 def test_strip_orphan_selftests_dry_run_no_write(tmp_path: object) -> object:
 	lines = [
-		'<div class="qti-selftest" data-bbq="bbq-ghost-questions.txt">\n',
+		'<div class="qpm-selftest" data-bbq="bbq-ghost-questions.txt">\n',
 		'  <div class="selftest-reroll-content"></div>\n',
 		"</div>\n",
 	]

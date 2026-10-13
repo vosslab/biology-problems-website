@@ -50,7 +50,7 @@ RETIRED_DOWNLOAD_ARTIFACTS = (
 	("blackboard_qti_v2_1", "zip"),
 )
 
-# Topic pages declare each dynamic self-test with a qti-selftest container.
+# Topic pages declare each dynamic self-test with a qpm-selftest container.
 # Scan balanced div tags so pruning removes the complete generated container.
 DIV_TAG_RE = re.compile(r"<(?P<closing>/)?div\b(?P<attributes>(?:[^>\"']|\"[^\"]*\"|'[^']*')*)>", re.IGNORECASE)
 CLASS_ATTRIBUTE_RE = re.compile(r"\bclass\s*=\s*([\"'])(.*?)\1", re.IGNORECASE)
@@ -338,7 +338,7 @@ def quarantine_dest(src_path: str, repo_root: str = None) -> str:
 def strip_orphan_selftests(index_md_path: str, live_cores: set, dry_run: bool) -> int:
 	"""Strip orphan self-test containers from a topic index.md.
 
-	Removes only a qti-selftest container whose data-bbq core is not live.
+	Removes only a qpm-selftest container whose data-bbq core is not live.
 	Other containers, headings, blank lines, and prose remain untouched.
 
 	Args:
@@ -362,7 +362,7 @@ def strip_orphan_selftests(index_md_path: str, live_cores: set, dry_run: bool) -
 			continue
 		attributes = match.group("attributes")
 		class_match = CLASS_ATTRIBUTE_RE.search(attributes)
-		if class_match is None or "qti-selftest" not in class_match.group(2).split():
+		if class_match is None or "qpm-selftest" not in class_match.group(2).split():
 			continue
 		bbq_match = BBQ_ATTRIBUTE_RE.search(attributes)
 		if bbq_match is None:
@@ -372,7 +372,7 @@ def strip_orphan_selftests(index_md_path: str, live_cores: set, dry_run: bool) -
 			continue
 		container_end = _closing_div_end(index_text, match.end())
 		if container_end is None:
-			raise ValueError(f"Unclosed qti-selftest container in {index_md_path}")
+			raise ValueError(f"Unclosed qpm-selftest container in {index_md_path}")
 		kept_parts.append(index_text[last_end:match.start()])
 		last_end = container_end
 		removed_count += 1

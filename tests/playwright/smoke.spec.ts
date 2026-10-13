@@ -143,7 +143,7 @@ test("site uses the self-hosted Atkinson text font", async ({ page }) => {
 	);
 	await page.goto("/biostatistics/topic05/", { waitUntil: "load" });
 	const tableQuestion = page.locator(
-		'.qti-selftest[data-bbq="bbq-z_score_table_interp-questions.txt"]',
+		'.qpm-selftest[data-bbq="bbq-z_score_table_interp-questions.txt"]',
 	);
 	await tableQuestion.getByRole("button", { name: "Show practice question", exact: true }).click();
 	await expect(tableQuestion.locator(".selftest-question-status")).toHaveText("Question ready.");

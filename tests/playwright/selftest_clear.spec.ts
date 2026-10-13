@@ -5,7 +5,7 @@ import { expect, test } from "@playwright/test";
 
 test("Clear Selection clears answers and feedback while retaining completion", async ({ page }) => {
   await page.goto("/biochemistry/topic04/");
-  const host = page.locator('.qti-selftest[data-bbq="bbq-alpha_helix_h-bonds-MA-questions.txt"]');
+  const host = page.locator('.qpm-selftest[data-bbq="bbq-alpha_helix_h-bonds-MA-questions.txt"]');
   await host.getByRole("button", { name: "Show practice question", exact: true }).click();
   await expect(host.locator(".selftest-question-status")).toHaveText("Question ready.");
   const badge = host.locator(".selftest-status");

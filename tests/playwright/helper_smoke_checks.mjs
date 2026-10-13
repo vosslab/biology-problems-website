@@ -20,13 +20,13 @@
 //     .md-header, article.md-typeset / .md-content, .md-footer,
 //     .md-nav--primary, .md-search input.md-search__input.
 //   Self-test container and machinery (site fragments + hook scripts):
-//     .qti-selftest ....................... site_docs/assets/scripts/selftest_reroll.js
+//     .qpm-selftest ....................... site_docs/assets/scripts/selftest_reroll.js
 //     .selftest-question-status ........... site_docs/assets/scripts/selftest_reroll.js
 //     [id^='question_html_'] ............... dynamically mounted question body
 //     radio/checkbox answer inputs ......... generated WASM self-test markup
 //     text/number inputs .................... generated WASM self-test markup
-//     matching controls ..................... .qti-match-choice, .qti-match-slot
-//     ordering controls ..................... .qti-order-row, .qti-order-move
+//     matching controls ..................... .qpm-match-choice, .qpm-match-slot
+//     ordering controls ..................... .qpm-order-row, .qpm-order-move
 //     Check-answer button ("Check Answer") . site_docs/biochemistry/topic03/downloads/selftest-alpha_amino_acid_identification.html:24
 //                                            site_docs/biochemistry/topic03/downloads/selftest-MATCH-amino_acids_properties.html:63
 //     [id^='result_'] result target ........ generated WASM self-test markup
@@ -34,7 +34,7 @@
 //     no-answer prompt strings ............. site_docs/assets/scripts/selftest_reroll.js
 //     verdict result text (e.g. "CORRECT") . site_docs/assets/scripts/selftest_reroll.js
 //                                            site_docs/biochemistry/topic03/downloads/selftest-MATCH-amino_acids_properties.html:147 ("Total Score:")
-//     .qti-feedback-success/-error ......... generated self-test question
+//     .qpm-feedback-success/-error ......... generated self-test question
 //
 // Design note (deviation from the plan's literal rule-2 wording): the plan text
 // names "radio/checkbox input" as the required answer control, but the real
@@ -143,13 +143,13 @@ async function requireHeadingVisible(page, route) {
 //============================================
 // Drive the first self-test on the page without inspecting question or answer
 // content. Follows the four-rule decision tree:
-//   (1) no .qti-selftest         -> pass (return { present: false }).
+//   (1) no .qpm-selftest         -> pass (return { present: false }).
 //   (2) present but broken       -> throw (missing required machinery).
 //   (3) drivable and reacts      -> pass (return { present: true, driven: true }).
 //   (4) present but no reaction  -> throw (a valid Check click did nothing).
 // Returns { present, driven } on pass so the caller can count self-test pages.
 export async function driveSelfTestIfPresent(page, route) {
-	const selfTests = page.locator(".qti-selftest");
+	const selfTests = page.locator(".qpm-selftest");
 	const selfTestCount = await selfTests.count();
 	// Rule 1: nothing to drive on this page.
 	if (selfTestCount === 0) {
@@ -258,7 +258,7 @@ async function countAnswerControls(container) {
 		return inputCount;
 	}
 	const interactiveCount = await container.locator(
-		".qti-match-choice, .qti-match-slot, .qti-order-row, .qti-order-move"
+		".qpm-match-choice, .qpm-match-slot, .qpm-order-row, .qpm-order-move"
 	).count();
 	return interactiveCount;
 }
@@ -281,8 +281,8 @@ async function provideFirstAnswer(container) {
 		return;
 	}
 	// Matching uses selection followed by a target click.
-	const matchChoices = container.locator(".qti-match-choice");
-	const matchSlots = container.locator(".qti-match-slot");
+	const matchChoices = container.locator(".qpm-match-choice");
+	const matchSlots = container.locator(".qpm-match-slot");
 	if ((await matchChoices.count()) > 0 && (await matchSlots.count()) > 0) {
 		await matchChoices.first().click();
 		await matchSlots.first().click();
@@ -290,7 +290,7 @@ async function provideFirstAnswer(container) {
 	}
 	// Ordering questions expose move buttons; activate one through the keyboard
 	// before grading so the smoke test exercises the rendered control surface.
-	const orderMove = container.locator(".qti-order-move:not(:disabled)").first();
+	const orderMove = container.locator(".qpm-order-move:not(:disabled)").first();
 	if (await orderMove.count() > 0) {
 		await orderMove.focus();
 		await orderMove.press("Enter");
@@ -300,7 +300,7 @@ async function provideFirstAnswer(container) {
 //============================================
 // Poll for an observable, verdict-agnostic reaction after the Check click:
 // the result element gains non-empty verdict text (different from its initial
-// text and not a no-answer prompt), or a qti-feedback class appears in the
+// text and not a no-answer prompt), or a qpm-feedback class appears in the
 // self-test container. Throws a route-named error if nothing reacts in time.
 async function waitForSelfTestReaction(page, resultId, initialText, route) {
 	try {
@@ -313,9 +313,9 @@ async function waitForSelfTestReaction(page, resultId, initialText, route) {
 				const text = (resultElement.textContent || "").trim();
 				const isNoAnswer = args.noAnswer.indexOf(text) !== -1;
 				const verdictChanged = text.length > 0 && text !== args.initial && !isNoAnswer;
-				const selfTest = resultElement.closest(".qti-selftest");
+				const selfTest = resultElement.closest(".qpm-selftest");
 				const feedback = selfTest
-					? selfTest.querySelector(".qti-feedback-success, .qti-feedback-error")
+					? selfTest.querySelector(".qpm-feedback-success, .qpm-feedback-error")
 					: null;
 				return verdictChanged || feedback !== null;
 			},
@@ -327,7 +327,7 @@ async function waitForSelfTestReaction(page, resultId, initialText, route) {
 			`Self-test check failed on ${route}: a self-test is present and was given ` +
 			`a valid answer and a Check click, but its result element ` +
 			`([id="${resultId}"]) did not react (no verdict text change and no ` +
-			`qti-feedback class). A present-but-inoperable self-test is a regression.`
+			`qpm-feedback class). A present-but-inoperable self-test is a regression.`
 		);
 	}
 }

@@ -107,7 +107,7 @@ def find_blacklisted_item_type(bbq_file_name: str, format_key: str) -> str | Non
 def supports_blackboard_export(bbq_file_name: str) -> bool:
 	"""Return whether every question has a Blackboard Ultra export writer.
 
-	qti-package-maker's Blackboard pool-export engine has no ORDER writer.
+	QPM's Blackboard pool-export engine has no ORDER writer.
 	Do not expose an empty pool ZIP when a source contains that item type.
 	"""
 	return find_blacklisted_item_type(bbq_file_name, "bb_export") is None
@@ -192,7 +192,7 @@ def generate_download_button_row(
 			if format_key == "bb_export":
 				accessibility_name = "Blackboard Ultra pool-export ZIP"
 			html_output += (
-				f'<button type="button" class="md-button custom-button {format_key} qti-package-download" '
+				f'<button type="button" class="md-button custom-button {format_key} qpm-package-download" '
 				f'data-bbq="{bank_name}" data-format="{prefix}" data-filename="{filename}" '
 				f'aria-label="Generate {accessibility_name}">{label}</button>\n'
 			)
@@ -209,9 +209,9 @@ def generate_download_button_row(
 			f'download aria-label="Download {label}">{label}</a>\n'
 		)
 	if browser_controls:
-		html_output += '<span class="qti-package-status" role="status" aria-live="polite"></span>\n'
+		html_output += '<span class="qpm-package-status" role="status" aria-live="polite"></span>\n'
 		html_output += (
-			'<progress class="qti-package-progress" max="1" value="0" hidden '
+			'<progress class="qpm-package-progress" max="1" value="0" hidden '
 			'aria-label="Package generation progress"></progress>\n'
 		)
 	html_output += "</div>"
@@ -432,7 +432,7 @@ def update_index_md(
 			bank_name = os.path.basename(bbq_file)
 			bank_url = html.escape(bank_name, quote=True)
 			index_md.write(
-				f'<div class="qti-selftest" data-bbq="{bank_url}">\n'
+				f'<div class="qpm-selftest" data-bbq="{bank_url}">\n'
 			)
 			index_md.write('  <div class="selftest-reroll-content"></div>\n')
 			index_md.write("</div>\n\n\n")

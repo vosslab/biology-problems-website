@@ -27,7 +27,7 @@
 		if (!enginePromise) {
 			enginePromise = (async function () {
 				var api = await import(new URL("qpm_wasm/src/index.js", assetBase).href);
-				await api.initialize(await bytes(new URL("qpm_wasm/generated/qti_wasm_bg.wasm", assetBase)));
+				await api.initialize(await bytes(new URL("qpm_wasm/generated/qpm_wasm_bg.wasm", assetBase)));
 				return api;
 			}()).catch(function (error) { enginePromise = null; throw error; });
 		}
@@ -309,7 +309,7 @@
 	}
 
 	function initPage() {
-		var hosts = Array.from(document.querySelectorAll(".qti-selftest[data-bbq]"));
+		var hosts = Array.from(document.querySelectorAll(".qpm-selftest[data-bbq]"));
 		if (hosts.length === states.size && hosts.every(function (host) { return states.has(host); })) {
 			return;
 		}

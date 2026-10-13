@@ -42,7 +42,7 @@ def _declare(site: dict, topic: str, names: list[str]) -> Path:
 	"""Declare banks in a rendered page without creating their data."""
 	folder = Path(site["site_docs_dir"]) / "biology" / topic
 	(folder / "index.md").write_text("".join(
-		f'<div data-bbq="{name}" class="qti-selftest">\n'
+		f'<div data-bbq="{name}" class="qpm-selftest">\n'
 		'  <div class="selftest-reroll-content"></div>\n</div>\n'
 		for name in names
 	))
@@ -113,7 +113,7 @@ def test_manifest_rejects_nonlocal_declaration(tmp_path: Path, name: str) -> Non
 def test_manifest_requires_bank_attribute(tmp_path: Path) -> None:
 	site = _site(tmp_path)
 	folder = Path(site["site_docs_dir"]) / "biology/topic01"
-	(folder / "index.md").write_text('<div class="qti-selftest"></div>')
+	(folder / "index.md").write_text('<div class="qpm-selftest"></div>')
 	with pytest.raises(ValueError, match="missing data-bbq"):
 		selftest_manifest.build_manifest(**site)
 

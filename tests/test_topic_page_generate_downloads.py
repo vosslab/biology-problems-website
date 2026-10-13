@@ -27,7 +27,7 @@ def test_browser_controls_preserve_export_files(
 		str(bbq_file), list(topic_page.DOWNLOAD_FORMAT_KEYS), verbose=False, stats={},
 	)
 	soup = BeautifulSoup(row, "html.parser")
-	buttons = soup.select("button.qti-package-download")
+	buttons = soup.select("button.qpm-package-download")
 	assert [button["data-format"] for button in buttons] == [
 		"blackboard_export_zip", "canvas_qti_v1_2", "human_readable",
 	]
@@ -36,8 +36,8 @@ def test_browser_controls_preserve_export_files(
 	]
 	assert all(button["data-bbq"] == bbq_file.name for button in buttons)
 	assert soup.select_one("a.bb_text")["href"] == bbq_file.name
-	assert soup.select_one(".qti-package-status")["role"] == "status"
-	assert soup.select_one("progress.qti-package-progress").has_attr("hidden")
+	assert soup.select_one(".qpm-package-status")["role"] == "status"
+	assert soup.select_one("progress.qpm-package-progress").has_attr("hidden")
 	assert list(downloads.iterdir()) == [old_export]
 	assert old_export.read_bytes() == b"existing package"
 	assert old_export.stat().st_mtime_ns == before.st_mtime_ns
@@ -96,7 +96,7 @@ def test_order_question_omits_unsupported_packages(
 		str(bbq_file), list(topic_page.DOWNLOAD_FORMAT_KEYS), verbose=False, stats={},
 	)
 	soup = BeautifulSoup(row, "html.parser")
-	assert [b["data-format"] for b in soup.select("button.qti-package-download")] == [
+	assert [b["data-format"] for b in soup.select("button.qpm-package-download")] == [
 		"human_readable",
 	]
 	assert soup.select_one("a.bb_text")["href"] == bbq_file.name
@@ -132,7 +132,7 @@ def test_topic_page_uses_empty_dynamic_selftest_container(
 
 	page = (topic_dir / "index.md").read_text()
 	soup = BeautifulSoup(page, "html.parser")
-	container = soup.select_one("div.qti-selftest")
+	container = soup.select_one("div.qpm-selftest")
 	assert container is not None
 	assert container["data-bbq"] == "bbq-cells-questions.txt"
 	assert not (topic_dir / "downloads").exists()

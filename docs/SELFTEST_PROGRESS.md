@@ -55,7 +55,7 @@ existing rules.
 The unified `build_site.py` workflow writes
 [selftest_question_manifest.json](../site_docs/assets/data/selftest_question_manifest.json)
 through the pipeline. The build reads topic pages reachable from the
-[mkdocs.yml](../mkdocs.yml) nav, finds their `.qti-selftest` containers, follows
+[mkdocs.yml](../mkdocs.yml) nav, finds their `.qpm-selftest` containers, follows
 each `data-bbq` basename to a nonempty bank in the topic directory, and records
 the stable problem-set identity and topic metadata. Undeclared banks are excluded.
 The manifest remains version 2 with source `reachable-topic-pages`; rows sort by
@@ -80,7 +80,7 @@ Each manifest row has these fields:
 ## Adding a new self-test question
 
 1. Add the BBQ bank through the configured task workflow.
-2. Let the topic-page build create its `.qti-selftest` container with `data-bbq`.
+2. Let the topic-page build create its `.qpm-selftest` container with `data-bbq`.
 3. Regenerate: `source source_me.sh && ./build_site.py`.
 4. Confirm the BBQ filename appears as `questionId` in the manifest JSON.
 

@@ -1,7 +1,7 @@
 # BBQ task configuration for path aliases and script aliases.
 paths:
   bp_root: "~/nsh/PROBLEMS/biology-problems/problems"
-  qti_package_maker: "~/nsh/PROBLEMS/qti_package_maker"
+  qti_package_maker: "~/nsh/PROBLEMS/qti-package-maker"
   bp_match: "{bp_root}/matching_sets"
   bp_mcs: "{bp_root}/multiple_choice_statements"
 

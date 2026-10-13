@@ -38,17 +38,19 @@ Run [devel/capture_screenshots.sh](../devel/capture_screenshots.sh) to refresh t
 ## Refresh QPM dependencies
 
 QPM is a stable vendored dependency. Refresh deliberately when adopting an upstream fix.
-Clone QPM beside BPW or set `QPM_ROOT` to another checkout; relative paths resolve
+Clone QPM beside BPW or pass `--qpm-root` with another checkout; relative paths resolve
 from the BPW root. Ordinary site builds require neither QPM source nor Rust/Cargo.
 
-The sibling `@vosslab/qti-wasm` package is private. This website vendors its built
+The sibling `@vosslab/qpm-wasm` package is private. This website vendors its built
 distribution under `site_docs/assets/qpm_wasm/`, excluding the unused `examples/` demos.
-The upstream runtime filenames remain unchanged. After updating the QPM checkout's Rust or
-TypeScript sources, compile and refresh BPW with one command from the BPW root:
+The upstream runtime filenames use the `qpm_wasm` namespace. After updating the QPM checkout's
+Rust or TypeScript sources, compile and refresh BPW with one command from the BPW root:
 
 ```bash
 source source_me.sh && python3 devel/vendor_qpm_wasm.py
 ```
+
+Pass `--qpm-root /path/to/qti-package-maker-rs` when the Rust checkout is elsewhere.
 
 The helper runs `npm ci` and QPM's canonical `npm run build`. That build invokes
 wasm-pack for the release web target and compiles TypeScript. Only after it succeeds

@@ -73,7 +73,7 @@ def _extract_selftest_sources(page_text: str) -> list:
 		if class_match is None:
 			continue
 		classes = class_match.group(2).split()
-		if "qti-selftest" not in classes:
+		if "qpm-selftest" not in classes:
 			continue
 		bbq_match = BBQ_ATTRIBUTE_RE.search(attributes)
 		if bbq_match is None:

@@ -9,13 +9,13 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 <div id="MATCH-population_genetics_terms-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-population_genetics_terms-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-population_genetics_terms-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-population_genetics_terms.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
-<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-population_genetics_terms-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-population_genetics_terms.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-population_genetics_terms-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-population_genetics_terms.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-MATCH-population_genetics_terms-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-population_genetics_terms.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-MATCH-population_genetics_terms-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-population_genetics_terms.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-MATCH-population_genetics_terms-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-population_genetics_terms.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/population_genetics_terms-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
-<span class="qti-package-status" role="status" aria-live="polite"></span>
-<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-population_genetics_terms-questions.txt">
+<span class="qpm-package-status" role="status" aria-live="polite"></span>
+<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
+</div><div class="qpm-selftest" data-bbq="bbq-MATCH-population_genetics_terms-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -25,13 +25,13 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 <div id="TFMS-h-w_non-evolve_criteria-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-h-w_non-evolve_criteria-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-h-w_non-evolve_criteria-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-h-w_non-evolve_criteria.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
-<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-h-w_non-evolve_criteria-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-h-w_non-evolve_criteria.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-h-w_non-evolve_criteria-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-h-w_non-evolve_criteria.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-TFMS-h-w_non-evolve_criteria-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-h-w_non-evolve_criteria.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-TFMS-h-w_non-evolve_criteria-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-h-w_non-evolve_criteria.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-TFMS-h-w_non-evolve_criteria-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-h-w_non-evolve_criteria.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/h-w_non-evolve_criteria.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
-<span class="qti-package-status" role="status" aria-live="polite"></span>
-<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-h-w_non-evolve_criteria-questions.txt">
+<span class="qpm-package-status" role="status" aria-live="polite"></span>
+<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
+</div><div class="qpm-selftest" data-bbq="bbq-TFMS-h-w_non-evolve_criteria-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -41,13 +41,13 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 <div id="WOMC-population_genetics_terms-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-population_genetics_terms-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-population_genetics_terms-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-population_genetics_terms.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
-<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-population_genetics_terms-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-population_genetics_terms.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-population_genetics_terms-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-population_genetics_terms.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-WOMC-population_genetics_terms-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-population_genetics_terms.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-WOMC-population_genetics_terms-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-population_genetics_terms.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-WOMC-population_genetics_terms-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-population_genetics_terms.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/population_genetics_terms-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
-<span class="qti-package-status" role="status" aria-live="polite"></span>
-<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-population_genetics_terms-questions.txt">
+<span class="qpm-package-status" role="status" aria-live="polite"></span>
+<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
+</div><div class="qpm-selftest" data-bbq="bbq-WOMC-population_genetics_terms-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -57,12 +57,12 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 <div id="hardy_weinberg_mc_type-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-hardy_weinberg_mc_type-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-hardy_weinberg_mc_type-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-hardy_weinberg_mc_type.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
-<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-hardy_weinberg_mc_type-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-hardy_weinberg_mc_type.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-hardy_weinberg_mc_type-questions.txt" data-format="human_readable" data-filename="human_readable-hardy_weinberg_mc_type.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
-<span class="qti-package-status" role="status" aria-live="polite"></span>
-<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-hardy_weinberg_mc_type-questions.txt">
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-hardy_weinberg_mc_type-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-hardy_weinberg_mc_type.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-hardy_weinberg_mc_type-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-hardy_weinberg_mc_type.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-hardy_weinberg_mc_type-questions.txt" data-format="human_readable" data-filename="human_readable-hardy_weinberg_mc_type.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qpm-package-status" role="status" aria-live="polite"></span>
+<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
+</div><div class="qpm-selftest" data-bbq="bbq-hardy_weinberg_mc_type-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -72,12 +72,12 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 <div id="hardy_weinberg_numeric-NUM-5_choices-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-hardy_weinberg_numeric-NUM-5_choices.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
-<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-hardy_weinberg_numeric-NUM-5_choices.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-hardy_weinberg_numeric-NUM-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
-<span class="qti-package-status" role="status" aria-live="polite"></span>
-<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt">
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-hardy_weinberg_numeric-NUM-5_choices.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-hardy_weinberg_numeric-NUM-5_choices.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-hardy_weinberg_numeric-NUM-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qpm-package-status" role="status" aria-live="polite"></span>
+<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
+</div><div class="qpm-selftest" data-bbq="bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

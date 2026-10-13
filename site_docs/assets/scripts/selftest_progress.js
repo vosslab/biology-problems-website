@@ -207,7 +207,7 @@
 	}
 
 	function renderQuestionBadges() {
-		document.querySelectorAll(".qti-selftest[data-bbq]").forEach(renderQuestionBadge);
+		document.querySelectorAll(".qpm-selftest[data-bbq]").forEach(renderQuestionBadge);
 	}
 
 	var CORRECT_SOUND_URL = new URL("sounds/mixkit-correct-positive-notification-957.wav", siteBase).href;

@@ -1,4 +1,23 @@
 # Changelog
+## 2026-10-12
+
+### Behavior or Interface Changes
+
+- Rename BPW's project-owned browser hooks and WebAssembly package references from `qti`
+  to `qpm`; preserve the established `qti_package_maker` Python integration key. Topic indexes use
+  `qpm-*` selectors. QTI names remain for Canvas and Blackboard interoperability formats.
+- Replace the custom `QPM_ROOT` configuration variable in `devel/vendor_qpm_wasm.py` with the
+  explicit `--qpm-root` option. Its default retains the actual `qti-package-maker-rs` checkout
+  path while the package path is `packages/qpm-wasm`.
+
+### Developer Tests and Notes
+
+- Rename the existing generated WASM binding files with `git mv` before the next canonical QPM
+  package refresh. The producer build replaces the vendored runtime and hashes as one artifact.
+- Refresh the vendored package from `packages/qpm-wasm/dist`. The valid-bank browser lanes pass
+  all nine self-test and package-download checks. The complete smoke lane reports the already
+  identified invalid BPW CSS in three banks; source generators own those corrections.
+
 ## 2026-10-11
 
 ### Behavior or Interface Changes

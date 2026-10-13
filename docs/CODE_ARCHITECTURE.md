@@ -86,7 +86,7 @@ basenames, and then writes the self-test manifest.
 
 ## Browser self-test lifecycle
 
-Topic pages contain empty `.qti-selftest` containers identifying their BBQ bank with
+Topic pages contain empty `.qpm-selftest` containers identifying their BBQ bank with
 `data-bbq`. The manifest reads these declarations on reachable pages and validates
 each bank in its topic directory. The browser uses the bank and vendored WebAssembly
 converter to make its active question.

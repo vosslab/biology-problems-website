@@ -24,6 +24,24 @@ authoritative code or contract document, rather than a person.
 
 ## Software design
 
+### QPM names browser contracts
+
+**Decision.** Use `qpm-*` selectors, `qpm_wasm` artifacts, and `qti_package_maker` configuration
+for the website integration contract. Preserve the Python package name and QTI in standard-specific
+format identifiers such as `canvas_qti_v1_2`.
+
+**Why.** QPM abbreviates QTI Package Maker. Rust/Wasm uses qpm; Python retains its established
+`qti_package_maker` namespace. QTI also names the interoperability standard implemented by
+some output formats.
+
+**Consequence.** Browser producers and consumers change together without legacy aliases. The
+vendor command accepts `--qpm-root`; the physical sibling checkout remains
+`qti-package-maker-rs` until its repository is independently renamed.
+
+**Owner.** [../bioproblems_site/topic_page.py](../bioproblems_site/topic_page.py),
+[../site_docs/assets/scripts/package_download.js](../site_docs/assets/scripts/package_download.js),
+and [../devel/vendor_qpm_wasm.py](../devel/vendor_qpm_wasm.py)
+
 ### Website selectors stop at mounted question content
 
 **Decision.** Scope the built Material and website stylesheets to exclude
@@ -56,7 +74,7 @@ and [../mkdocs.yml](../mkdocs.yml)
 
 ### One lifecycle owns dynamic self-tests
 
-**Decision.** Use ordinary empty `.qti-selftest` containers and one browser
+**Decision.** Use ordinary empty `.qpm-selftest` containers and one browser
 lifecycle to generate, mount, grade, replace, and advance questions. The
 existing `selftest_reroll.js` filename remains the lifecycle owner. Progress and
 streak modules consume its DOM events rather than wrapping generated checkers.

@@ -7,7 +7,6 @@ import json
 import pathlib
 import shutil
 import argparse
-import os
 import subprocess
 
 
@@ -19,8 +18,8 @@ def vendor_wasm(repo: pathlib.Path, source_repo: pathlib.Path) -> None:
 		repo: BPW repository root.
 		source_repo: QPM source repository root.
 	"""
-	dist = source_repo / "packages" / "qti-wasm" / "dist"
-	if not (dist / "generated" / "qti_wasm_bg.wasm").is_file():
+	dist = source_repo / "packages" / "qpm-wasm" / "dist"
+	if not (dist / "generated" / "qpm_wasm_bg.wasm").is_file():
 		raise FileNotFoundError(f"Build the WASM package first: {dist}")
 	# ASVS 5.3.2: the destination is a fixed path under the website repository.
 	destination = repo / "site_docs" / "assets" / "qpm_wasm"
@@ -35,7 +34,7 @@ def vendor_wasm(repo: pathlib.Path, source_repo: pathlib.Path) -> None:
 			hashes[name] = hashlib.sha256(artifact.read_bytes()).hexdigest()
 	provenance = {
 		"sourceCommit": None,
-		"sourcePath": "packages/qti-wasm/dist",
+		"sourcePath": "packages/qpm-wasm/dist",
 		"provenanceNote": (
 			"Local built artifacts; no source revision was supplied. "
 			"Artifact hashes identify consumed bytes."
@@ -50,11 +49,15 @@ def vendor_wasm(repo: pathlib.Path, source_repo: pathlib.Path) -> None:
 def main() -> None:
 	"""Build the QPM browser package before replacing BPW's current copy."""
 	parser = argparse.ArgumentParser(description=__doc__)
-	parser.parse_args()
+	parser.add_argument(
+		"--qpm-root",
+		default="../qti-package-maker-rs",
+		help="path to the Rust QPM checkout (default: %(default)s)",
+	)
+	args = parser.parse_args()
 	repo = pathlib.Path(__file__).resolve().parents[1]
-	configured = os.environ.get("QPM_ROOT", "").strip() or "../qti-package-maker-rs"
-	source_repo = (repo / pathlib.Path(configured).expanduser()).resolve()
-	package = source_repo / "packages" / "qti-wasm"
+	source_repo = (repo / pathlib.Path(args.qpm_root).expanduser()).resolve()
+	package = source_repo / "packages" / "qpm-wasm"
 	print(f"Building QPM WASM from {package}", flush=True)
 	# ASVS 1.2.5: fixed argument lists, without shell interpolation.
 	# check=True stops before vendoring if dependency installation or compilation fails.

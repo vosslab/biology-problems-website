@@ -121,7 +121,7 @@ def build_repo(repo_root: str) -> dict:
 	index_text = (
 		"# Topic title\n"
 		"\n"
-		'<div class="qti-selftest" data-bbq="' + BBQ_NAME + '">\n'
+		'<div class="qpm-selftest" data-bbq="' + BBQ_NAME + '">\n'
 		'  <div class="selftest-reroll-content"></div>\n'
 		"</div>\n"
 		"Some prose stays here.\n"

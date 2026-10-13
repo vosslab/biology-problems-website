@@ -12,7 +12,7 @@ and site framework used by Biology Problems OER.
 - Evidence: `bbq_settings.yml` points task rows at this repository, and
   the public project contains the biology generators represented on this site.
 
-### qti-package-maker
+### QPM package maker
 
 - Relationship: direct conversion dependency
 - Link: [github.com/vosslab/qti-package-maker](https://github.com/vosslab/qti-package-maker)

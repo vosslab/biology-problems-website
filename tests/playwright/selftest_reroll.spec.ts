@@ -27,7 +27,7 @@ test("Show another question walks the bank in source order and wraps", async ({ 
     ].join("\n") });
   });
   await page.goto("/genetics/topic01/");
-  const host = page.locator(".qti-selftest[data-bbq]").first();
+  const host = page.locator(".qpm-selftest[data-bbq]").first();
   await waitForReady(host);
   await expect(host.getByText("First bank question", { exact: true })).toBeVisible();
   for (const prompt of ["Second bank question", "Third bank question", "First bank question"]) {
@@ -55,12 +55,12 @@ test("real WASM installs question styles and loads another question on request",
   });
   await page.goto("/genetics/topic01/");
 
-  const hosts = page.locator(".qti-selftest[data-bbq]");
+  const hosts = page.locator(".qpm-selftest[data-bbq]");
   await expect(hosts.first()).toBeAttached();
   const first = hosts.first();
   const second = hosts.nth(1);
   await waitForReady(first);
-  await expect(page.locator("#qti-selftest-theme")).toHaveCount(1);
+  await expect(page.locator("#qpm-selftest-theme")).toHaveCount(1);
   await expect(first.getByRole("button", { name: "Show another question", exact: true }))
     .toHaveCSS("border-top-style", "solid");
   expect(wasmRequests.some((url) => url.endsWith(".wasm"))).toBe(true);
@@ -97,7 +97,7 @@ test("real WASM installs question styles and loads another question on request",
   await expect(second.getByText("Your question will appear here.", { exact: true })).toHaveCount(0);
   await expect(second.getByText("Replaces this question with another from the same set.",
     { exact: true })).toBeVisible();
-  await expect(page.locator("#qti-selftest-theme")).toHaveCount(1);
+  await expect(page.locator("#qpm-selftest-theme")).toHaveCount(1);
   expect(errors).toEqual([]);
 });
 
@@ -114,7 +114,7 @@ test("wide scientific tables scroll locally on mobile without losing answer cont
     await route.fulfill({ response, body: record });
   });
   await page.goto("/biochemistry/topic11/");
-  const host = page.locator(`.qti-selftest[data-bbq="${bank}"]`);
+  const host = page.locator(`.qpm-selftest[data-bbq="${bank}"]`);
   await host.getByRole("button", { name: "Show practice question", exact: true }).click();
   await waitForReady(host);
   const table = host.getByRole("table");
@@ -183,9 +183,9 @@ async function lifecycleFixture(page: Page): Promise<Locator> {
   });
   await page.route("**/selftest_lifecycle_fixture/", async (route) => {
     await route.fulfill({ contentType: "text/html", body: `
-      <div class="qti-selftest" data-bbq="one.txt"><div class="selftest-reroll-content"></div></div>
-      <div class="qti-selftest" data-bbq="two.txt"><div class="selftest-reroll-content"></div></div>
-      <div class="qti-selftest" data-bbq="three.txt"><div class="selftest-reroll-content"></div></div>
+      <div class="qpm-selftest" data-bbq="one.txt"><div class="selftest-reroll-content"></div></div>
+      <div class="qpm-selftest" data-bbq="two.txt"><div class="selftest-reroll-content"></div></div>
+      <div class="qpm-selftest" data-bbq="three.txt"><div class="selftest-reroll-content"></div></div>
       <script src="/assets/scripts/selftest_reroll.js"></script>
     ` });
   });
@@ -195,7 +195,7 @@ async function lifecycleFixture(page: Page): Promise<Locator> {
     });
   }
   await page.goto("/selftest_lifecycle_fixture/");
-  return page.locator(".qti-selftest");
+  return page.locator(".qpm-selftest");
 }
 
 async function dependencyFixture(page: Page): Promise<Locator> {
@@ -222,7 +222,7 @@ async function dependencyFixture(page: Page): Promise<Locator> {
   });
   await page.route("**/selftest_dependency_fixture/", async (route) => {
     await route.fulfill({ contentType: "text/html", body: `
-      <div class="qti-selftest" data-bbq="dependency.txt"><div class="selftest-reroll-content"></div></div>
+      <div class="qpm-selftest" data-bbq="dependency.txt"><div class="selftest-reroll-content"></div></div>
       <script src="/assets/scripts/selftest_reroll.js"></script>
     ` });
   });
@@ -230,7 +230,7 @@ async function dependencyFixture(page: Page): Promise<Locator> {
     await route.fulfill({ body: "MC\tFixture\tAnswer\tCorrect" });
   });
   await page.goto("/selftest_dependency_fixture/");
-  return page.locator(".qti-selftest");
+  return page.locator(".qpm-selftest");
 }
 
 const drawingLibrary = `

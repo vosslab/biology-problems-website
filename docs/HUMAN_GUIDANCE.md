@@ -10,6 +10,11 @@ origin belongs there too. Rules: [REPO_STYLE.md](REPO_STYLE.md).
 
 ## Decision priority
 
+- Use QPM for project-owned names. Reserve QTI for the interoperability standard and its
+  format-specific identifiers. Do not retain project-owned compatibility aliases.
+- Configure project-owned paths with explicit command-line arguments rather than custom
+  environment variables.
+
 - I want students to drop in, answer a few questions, and come back tomorrow.
   This is a self-test website, not an LMS.
 - The questions are the main attraction. Progress and streaks are just
