@@ -25,7 +25,7 @@
 		if (!enginePromise) {
 			enginePromise = (async function () {
 				const api = await import(new URL("qpm_wasm/src/index.js", assetBase).href);
-				await api.initialize(await bytes(new URL("qpm_wasm/generated/qti_wasm_bg.wasm", assetBase)));
+				await api.initialize(await bytes(new URL("qpm_wasm/generated/qpm_wasm_bg.wasm", assetBase)));
 				return api;
 			}()).catch(function (error) { enginePromise = undefined; throw error; });
 		}
@@ -154,15 +154,15 @@
 	}
 
 	async function drawTable(doc, job, completed) {
-		const root = doc.getElementById("qti-render-root");
+		const root = doc.getElementById("qpm-render-root");
 		const template = doc.createElement("template");
 		template.innerHTML = job.html;
 		// The source-owned wrapper also blocks scripts; authored drawing uses the typed canvas API.
 		template.content.querySelectorAll("script,iframe,frame,object,embed,base,meta,link").forEach(function (node) {
 			node.remove();
 		});
-		template.content.querySelectorAll("img[src^='qti-render:']").forEach(function (image) {
-			const id = image.getAttribute("src").slice("qti-render:".length);
+		template.content.querySelectorAll("img[src^='qpm-render:']").forEach(function (image) {
+			const id = image.getAttribute("src").slice("qpm-render:".length);
 			const rendered = completed.get(id);
 			if (!rendered) { throw new Error("A question image has not finished drawing."); }
 			image.src = rendered.dataUrl;
@@ -248,9 +248,9 @@
 
 	async function download(button) {
 		const row = button.closest(".button-container");
-		const status = row.querySelector(".qti-package-status");
-		const progress = row.querySelector(".qti-package-progress");
-		const buttons = row.querySelectorAll(".qti-package-download");
+		const status = row.querySelector(".qpm-package-status");
+		const progress = row.querySelector(".qpm-package-progress");
+		const buttons = row.querySelectorAll(".qpm-package-download");
 		let tab;
 		function update(value, message) {
 			progress.value = value;
@@ -299,7 +299,7 @@
 
 	// Delegation also handles MkDocs navigation updates without duplicate listeners.
 	document.addEventListener("click", function (event) {
-		const button = event.target.closest(".qti-package-download");
+		const button = event.target.closest(".qpm-package-download");
 		if (button && !button.disabled) { event.preventDefault(); download(button); }
 	});
 }());

@@ -477,12 +477,12 @@
   display: none;
 }}
 
-@scope (:root) to (.selftest-reroll-content) {.qti-selftest[data-bbq]{
+@scope (:root) to (.selftest-reroll-content) {.qpm-selftest[data-bbq]{
   scroll-margin-top: 5rem;
   overflow-x: auto;
 }}
 
-@scope (:root) to (.selftest-reroll-content) {.qti-selftest[data-bbq]:focus-visible{
+@scope (:root) to (.selftest-reroll-content) {.qpm-selftest[data-bbq]:focus-visible{
   outline: 2px solid var(--md-accent-fg-color);
   outline-offset: 4px;
 }}
@@ -499,7 +499,7 @@
 }}
 
 @scope (:root) to (.selftest-reroll-content) {.selftest-status-complete,.selftest-topic-complete{
-  color: var(--qti-success-fg, #008000);
+  color: var(--qpm-success-fg, #008000);
   font-weight: 700;
 }}
 
