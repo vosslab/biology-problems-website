@@ -6,7 +6,7 @@
 ## DBsubject('Laboratory Techniques')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -38,11 +38,11 @@ $showPartialCorrectAnswers = 1;
     'both <span style="color: #248f24; font-weight:700;">primers</span> have about the same <span style="color: #995c00; font-weight:700;">melting temperature (T<sub>m</sub>)</span>',
   ],
   [
-    q{the <span style="color: #248f24; font-weight:700;">primers</span>' <span style="color: #002699; font-weight:700;">sequences</span> do NOT bind to each other to form primer-dimers},
+    q{the <span style="color: #248f24; font-weight:700;">primers</span>' <span style="color: #002699; font-weight:700;">sequences</span> do NOT bind to each other to form <span style="color: #248f24; font-weight:700;">primer</span>-dimers},
     'the <span style="color: #248f24; font-weight:700;">primers</span> do NOT have any <span style="color: #b33000; font-weight:700;">complementary</span> regions to each other',
   ],
   [
-    'the ends of the <span style="color: #248f24; font-weight:700;">primer </span><span style="color: #002699; font-weight:700;">sequence </span>must NOT bind to form secondary structures',
+    'the ends of the <span style="color: #248f24; font-weight:700;">primer</span> <span style="color: #002699; font-weight:700;">sequence</span> must NOT bind to form secondary structures',
   ],
   [
     'the percentage of G/C bases in the range of 40% to 60%',
@@ -63,17 +63,17 @@ $showPartialCorrectAnswers = 1;
     'the <span style="color: #248f24; font-weight:700;">primers</span> are <span style="color: #b33000; font-weight:700;">complementary</span> to highly variable regions of the genome',
   ],
   [
-    'each <span style="color: #248f24; font-weight:700;">primer </span>has a unique <span style="color: #995c00; font-weight:700;">melting temperature (T<sub>m</sub>)</span>, one is high and one is low',
+    'each <span style="color: #248f24; font-weight:700;">primer</span> has a unique <span style="color: #995c00; font-weight:700;">melting temperature (T<sub>m</sub>)</span>, one is high and one is low',
   ],
   [
     'the <span style="color: #248f24; font-weight:700;">primers</span> are rich in A/T bases at the 3&prime; end to ensure good binding',
   ],
   [
     'the <span style="color: #248f24; font-weight:700;">primers</span> are mostly <span style="color: #b33000; font-weight:700;">complementary</span> to each other',
-    'the <span style="color: #248f24; font-weight:700;">primers</span> can readily bind to form primer-dimers',
+    'the <span style="color: #248f24; font-weight:700;">primers</span> can readily bind to form <span style="color: #248f24; font-weight:700;">primer</span>-dimers',
   ],
   [
-    'the ends of each <span style="color: #248f24; font-weight:700;">primer </span>are self-<span style="color: #b33000; font-weight:700;">complementary</span> to form strong secondary structure',
+    'the ends of each <span style="color: #248f24; font-weight:700;">primer</span> are self-<span style="color: #b33000; font-weight:700;">complementary</span> to form strong secondary structure',
   ],
   [
     'the percentage of G/C bases are less than 30%',

@@ -5,7 +5,7 @@
 ## DBsubject('Biochemistry')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -81,7 +81,7 @@ our @ALPHABET = ('A' .. 'Z');
   ],
   'quaternary' => [
     'association of two or more <span style="color: #935d00; font-weight:700;">polypeptide chains</span>',
-    'relative orientation of one <span style="color: #c80085; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span> to another <span style="color: #c80085; font-weight:700;">protein</span> subunit',
+    'relative orientation of one <span style="color: #c80085; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunit</span> to another <span style="color: #c80085; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunit</span>',
     'formation of oligomers from two or more <span style="color: #c80085; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span>',
     'manner in which <span style="color: #c80085; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span> are arranged in the native <span style="color: #c80085; font-weight:700;">protein</span>',
     'number and arrangement of multiple folded <span style="color: #c80085; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span>',

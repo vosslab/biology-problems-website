@@ -5,7 +5,7 @@
 ## DBsubject('Biochemistry')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -1253,7 +1253,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #b74300; font-weight:700;">lipids</span>',
   },
   {
-    'item_name' => '<strong>phospho<span style="color: #b74300; font-weight:700;">lipids</span></strong>',
+    'item_name' => '<strong><span style="color: #b74300; font-weight:700;">phospholipids</span></strong>',
     'plural_choice' => 'types of macromolecules',
     'singular_item' => 'macromolecule',
     'choices' => [

@@ -6,7 +6,7 @@
 ## DBsubject('Biochemistry')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -32,23 +32,23 @@ $showPartialCorrectAnswers = 1;
     'wrong choice, do NOT select',
   ],
   [
-    'magnesium <span style="color: #663300; font-weight:700;">ion</span>, Mg<sup>2+</sup>',
-    'calcium <span style="color: #663300; font-weight:700;">ion</span>, Ca<sup>2+</sup>',
-    'sodium <span style="color: #663300; font-weight:700;">ion</span>, Na<sup>+</sup>',
-    'potassium <span style="color: #663300; font-weight:700;">ion</span>, K<sup>+</sup>',
-    'iron <span style="color: #663300; font-weight:700;">ion</span>s, Fe<sup>+2</sup>/Fe<sup>+3</sup>',
-    'zinc <span style="color: #663300; font-weight:700;">ion</span>, Zn<sup>2+</sup>',
-    'copper <span style="color: #663300; font-weight:700;">ion</span>, Cu<sup>2+</sup>',
-    'chloride <span style="color: #663300; font-weight:700;">ion</span>, Cl<sup>-</sup>',
-    'manganese <span style="color: #663300; font-weight:700;">ion</span>s (Mn<sup>2+</sup>)',
+    'magnesium ion, Mg<sup>2+</sup>',
+    'calcium ion, Ca<sup>2+</sup>',
+    'sodium ion, Na<sup>+</sup>',
+    'potassium ion, K<sup>+</sup>',
+    'iron ions, Fe<sup>+2</sup>/Fe<sup>+3</sup>',
+    'zinc ion, Zn<sup>2+</sup>',
+    'copper ion, Cu<sup>2+</sup>',
+    'chloride ion, Cl<sup>-</sup>',
+    'manganese ions (Mn<sup>2+</sup>)',
   ],
   [
     'flavin adenine dinucleotide (FAD &rarr; FADH<sub>2</sub>)',
     'nicotinamide adenine dinucleotide (NAD<sup>+</sup> &rarr; NADH)',
     'nicotinamide adenine dinucleotide phosphate (NADP<sup>+</sup> &rarr; NADPH)',
-    'co<span style="color: darkblue; font-weight:700;">enzyme</span> A (CoA)',
+    '<span style="color: darkblue; font-weight:700;">coenzyme</span> A (CoA)',
     'flavin mononucleotide (FMN &rarr; FMNH<sub>2</sub>)',
-    'co<span style="color: darkblue; font-weight:700;">enzyme</span> Q10, ubiquinone',
+    '<span style="color: darkblue; font-weight:700;">coenzyme</span> Q10, ubiquinone',
     'pyridoxal phosphate (PLP), a derivative of Vitamin B<sub>6</sub>',
     'tetrahydrofolate (THF), a form of folic acid, Vitamin B<sub>9</sub>',
     'methylcobalamin, a form of Vitamin B<sub>12</sub>',
@@ -68,7 +68,7 @@ $showPartialCorrectAnswers = 1;
     'testosterone, an anabolic-androgenic <span style="color: #6600cc; font-weight:700;">steroid</span> and the principal male sex hormone',
     'cholesterol, a cell membrane <span style="color: #6600cc; font-weight:700;">steroid</span>',
     'aldosterone, a <span style="color: #6600cc; font-weight:700;">steroid</span> hormone that acts on the kidney',
-    'cortisol, a cortico<span style="color: #6600cc; font-weight:700;">steroid</span> hormone that is produced in response to stress',
+    'cortisol, a <span style="color: #6600cc; font-weight:700;">corticosteroid</span> hormone that is produced in response to stress',
     'estrone (E1), one of the estrogen <span style="color: #6600cc; font-weight:700;">steroid</span> hormones responsible for female sex characteristics',
     'estradiol (E2), one of the estrogen <span style="color: #6600cc; font-weight:700;">steroid</span> hormones responsible for female sex characteristics',
     'estriol (E3), one of the estrogen <span style="color: #6600cc; font-weight:700;">steroid</span> hormones responsible for female sex characteristics',
@@ -81,9 +81,9 @@ $showPartialCorrectAnswers = 1;
     '<span style="color: #990033; font-weight:700;">adenosine</span> triphosphate (ATP)',
   ],
   [
-    'the <span style="color: darkred; font-weight:700;">organic molecule </span> of a heme porphyrin with an iron <span style="color: #663300; font-weight:700;">ion</span>, Fe<sup>2+</sup>, attached',
-    'creatine, an <span style="color: darkred; font-weight:700;">organic molecule </span> that recharges ATP',
-    'S-adenosyl meth<span style="color: #663300; font-weight:700;">ion</span>ine (SAM), an <span style="color: darkred; font-weight:700;">organic molecule </span> used for methyl group transfer',
+    'the organic molecule of a heme porphyrin with an iron ion, Fe<sup>2+</sup>, attached',
+    'creatine, an <span style="color: darkred; font-weight:700;">organic molecule</span> that recharges ATP',
+    'S-adenosyl methionine (SAM), an <span style="color: darkred; font-weight:700;">organic molecule</span> used for methyl group transfer',
     'quinone, an organic compound involved in electron transport',
   ],
 );
@@ -91,7 +91,7 @@ $showPartialCorrectAnswers = 1;
   [
     'polyalanine peptide',
     'ACTH protein',
-    'transcript<span style="color: #663300; font-weight:700;">ion</span> factor proteins',
+    'transcription factor proteins',
     'the glycolysis <span style="color: darkblue; font-weight:700;">enzyme</span>, hexokinase',
     'the glycolysis <span style="color: darkblue; font-weight:700;">enzyme</span>, pyruvate kinase',
     'the glycolysis <span style="color: darkblue; font-weight:700;">enzyme</span>, glyceraldehyde 3-phosphate dehydrogenase',

@@ -669,10 +669,16 @@ bbq-two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL-questions.txt: Pa
   Genotype Combinations in a Two-Point Test Cross (MA)
 bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt: Recombinant
   Genotypes from Two-Point Test Cross Progeny Counts (With Hint, MA)
+bbq-unique_cross_genotypes-genotypes-with_hint-4_genes-questions.txt: Unique Offspring
+  Genotype Counts from Parental Genotypes (4 Genes, With Hint, MC)
 bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt: Unique Offspring Genotypes
   from Four-Gene Crosses (With Hint, MC)
+bbq-unique_cross_phenotypes-phenotypes-with_hint-4_genes-questions.txt: Offspring
+  Phenotype Counts from Genetic Crosses (4 Genes, With Hint, MC)
 bbq-unique_cross_phenotypes-with_hint-4_genes-questions.txt: Unique Offspring Phenotypes
   from Four-Gene Crosses (With Hint, MC)
+bbq-unique_gametes-gametes-with_hint-4_genes-parent_1-questions.txt: Unique Gamete
+  Counts from a Parental Genotype (4 Genes, With Hint, MC)
 bbq-unique_gametes-with_hint-4_genes-questions.txt: Unique Gametes from Four-Gene
   Genotypes (With Hint, MC)
 bbq-which_amino_acid-FIB-questions.txt: Amino Acids from Chemical Structures (FiB)
@@ -725,4 +731,4 @@ bbq-x_linked_reciprocal_cross-questions.txt: X-Linked Eye Color Inheritance (MC)
 bbq-x_linked_tortoiseshell-questions.txt: X-Linked Coat Color Probability (MC)
 bbq-z_score_google_sheet-questions.txt: Z-Scores in Google Sheets (MC)
 bbq-z_score_table_interp-questions.txt: Biodiversity Comparisons Using Z-Scores (MC)
-last edit: Thu Oct  8 17:59:26 2026
+last edit: Thu Oct 15 11:03:11 2026

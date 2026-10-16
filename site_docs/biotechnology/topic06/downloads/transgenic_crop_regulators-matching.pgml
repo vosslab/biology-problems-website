@@ -5,7 +5,7 @@
 ## DBsubject('Biotechnology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -27,7 +27,7 @@ our @ALPHABET = ('A' .. 'Z');
 # ================================
 %match_data = (
   'Health Inspection Service of the U.S. Department of Agriculture (USDA)' => [
-    'Approves plan for a transgenic crop to be tested in a farmer\'s field (i.e. outside a laboratory).',
+    q{Approves plan for a transgenic crop to be tested in a farmer's field (i.e. outside a laboratory).},
     'Decides whether a transgenic crop may be planted or moved outside the laboratory.',
     'Grants the permit for an outdoor field trial of a transgenic crop.',
   ],
@@ -42,7 +42,7 @@ our @ALPHABET = ('A' .. 'Z');
     'Writes the guidelines that limit how a transgenic crop is constructed and grown.',
   ],
   'Environmental Protection Agency (EPA)' => [
-    'Evaluates for potential effects on animals and insects that inhabit the farmers\' fields.',
+    q{Evaluates for potential effects on animals and insects that inhabit the farmers' fields.},
     'Checks whether a transgenic crop harms insects or other animals living in the field.',
     'Assesses the environmental effect of a transgenic crop on the animals around the farm.',
   ],

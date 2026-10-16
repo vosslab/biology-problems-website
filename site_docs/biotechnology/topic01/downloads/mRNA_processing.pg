@@ -6,7 +6,7 @@
 ## DBsubject('Molecular Biology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -56,10 +56,10 @@ $showPartialCorrectAnswers = 1;
     '<span style="color: #0000b3; font-weight:700;">exons</span> are spliced together',
     '<span style="color: #0000b3; font-weight:700;">exons</span> are joined together',
     '<span style="color: #0000b3; font-weight:700;">exons</span> are stuck back together',
-    'coding sections are fused together',
-    'coding sections are spliced together',
-    'coding sections are joined together',
-    'coding sections are stuck back together',
+    '<span style="color: #0000b3; font-weight:700;">coding</span> sections are fused together',
+    '<span style="color: #0000b3; font-weight:700;">coding</span> sections are spliced together',
+    '<span style="color: #0000b3; font-weight:700;">coding</span> sections are joined together',
+    '<span style="color: #0000b3; font-weight:700;">coding</span> sections are stuck back together',
   ],
   [
     'nucleotide base modification',
@@ -96,10 +96,10 @@ $showPartialCorrectAnswers = 1;
     'a <span style="color: #4d4d00; font-weight:700;">modified guanosine</span> is added at the <span style="color: #008080; font-weight:700;">3&prime; end</span>',
   ],
   [
-    'removal the intervening,<span style="color: #0000b3; font-weight:700;"> coding</span> sequences',
+    'removal the intervening, <span style="color: #0000b3; font-weight:700;">coding</span> sequences',
     'removal of <span style="color: #0000b3; font-weight:700;">exons</span>',
-    'removing internal<span style="color: #0000b3; font-weight:700;"> coding</span> RNA sequences',
-    'coding sections of the RNA are removed',
+    'removing internal <span style="color: #0000b3; font-weight:700;">coding</span> RNA sequences',
+    '<span style="color: #0000b3; font-weight:700;">coding</span> sections of the RNA are removed',
     '<span style="color: #0000b3; font-weight:700;">exons</span> of the RNA are removed',
     '<span style="color: #b30059; font-weight:700;">introns</span> are fused together',
     '<span style="color: #b30059; font-weight:700;">introns</span> are spliced together',

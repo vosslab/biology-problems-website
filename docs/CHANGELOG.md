@@ -1,4 +1,22 @@
 # Changelog
+
+## 2026-10-14
+
+### Fixes and Maintenance
+
+- Regenerate the 16 BBQ banks with demonstrated invalid CSS from the corrected
+  biology-problems generators: Beadle-Tatum pathways, ordered tetrads, tree choices
+  and matches, and optimal-enzyme questions. Preserve all bank paths, modes, and
+  50-question counts. Reuse the same five-metabolite pathway bank at both course
+  placements; new random variants come directly from ordinary generation.
+
+### Developer Tests and Notes
+
+- Verify all 800 question placements with Python QPM parsing and Rust QPM
+  `ple_native_json` conversion before replacement. All 15 unique generator runs
+  produce 50 accepted questions and 50 native JSON items; verify replacement
+  hashes against the generated banks. This validates source-bank conversion.
+
 ## 2026-10-12
 
 ### Behavior or Interface Changes

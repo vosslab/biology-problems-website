@@ -7,7 +7,7 @@
 Browse the generated problem sets by subject and topic. Use your browser's Find command to search all problem-set titles on this page.
 For sortable results and subject, topic, and type filters, use the [Question Finder](question_finder.md).
 
-**482 problem sets**
+**485 problem sets**
 
 ## Biochemistry
 
@@ -261,8 +261,11 @@ For sortable results and subject, topic, and type filters, use the [Question Fin
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic04/">Parental Genotype Crosses from Monohybrid Offspring Ratios</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic04/">Unknown Parent Genotype from Monohybrid Offspring Counts</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic04/">Punnett Squares from Monohybrid Cross Descriptions</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic04/">Unique Offspring Genotype Counts from Parental Genotypes (4 Genes, With Hint)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic04/">Unique Offspring Genotypes from Four-Gene Crosses (With Hint)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic04/">Offspring Phenotype Counts from Genetic Crosses (4 Genes, With Hint)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic04/">Unique Offspring Phenotypes from Four-Gene Crosses (With Hint)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic04/">Unique Gamete Counts from a Parental Genotype (4 Genes, With Hint)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic04/">Unique Gametes from Four-Gene Genotypes (With Hint)</a></span>
 
 ### Gene Interactions

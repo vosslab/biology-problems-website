@@ -209,6 +209,21 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 </div>
 
 
+## Unique Offspring Genotype Counts from Parental Genotypes (4 Genes, With Hint)
+
+<div id="unique_cross_genotypes-genotypes-with_hint-4_genes-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-unique_cross_genotypes-genotypes-with_hint-4_genes-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-unique_cross_genotypes-genotypes-with_hint-4_genes-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-unique_cross_genotypes-genotypes-with_hint-4_genes.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-unique_cross_genotypes-genotypes-with_hint-4_genes-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-unique_cross_genotypes-genotypes-with_hint-4_genes.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-unique_cross_genotypes-genotypes-with_hint-4_genes-questions.txt" data-format="human_readable" data-filename="human_readable-unique_cross_genotypes-genotypes-with_hint-4_genes.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qpm-package-status" role="status" aria-live="polite"></span>
+<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
+</div><div class="qpm-selftest" data-bbq="bbq-unique_cross_genotypes-genotypes-with_hint-4_genes-questions.txt">
+  <div class="selftest-reroll-content"></div>
+</div>
+
+
 ## Unique Offspring Genotypes from Four-Gene Crosses (With Hint)
 
 <div id="unique_cross_genotypes-with_hint-4_genes-button-container" class="button-container">
@@ -224,6 +239,21 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 </div>
 
 
+## Offspring Phenotype Counts from Genetic Crosses (4 Genes, With Hint)
+
+<div id="unique_cross_phenotypes-phenotypes-with_hint-4_genes-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-unique_cross_phenotypes-phenotypes-with_hint-4_genes-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-unique_cross_phenotypes-phenotypes-with_hint-4_genes-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-unique_cross_phenotypes-phenotypes-with_hint-4_genes.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-unique_cross_phenotypes-phenotypes-with_hint-4_genes-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-unique_cross_phenotypes-phenotypes-with_hint-4_genes.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-unique_cross_phenotypes-phenotypes-with_hint-4_genes-questions.txt" data-format="human_readable" data-filename="human_readable-unique_cross_phenotypes-phenotypes-with_hint-4_genes.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qpm-package-status" role="status" aria-live="polite"></span>
+<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
+</div><div class="qpm-selftest" data-bbq="bbq-unique_cross_phenotypes-phenotypes-with_hint-4_genes-questions.txt">
+  <div class="selftest-reroll-content"></div>
+</div>
+
+
 ## Unique Offspring Phenotypes from Four-Gene Crosses (With Hint)
 
 <div id="unique_cross_phenotypes-with_hint-4_genes-button-container" class="button-container">
@@ -235,6 +265,21 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-unique_cross_phenotypes-with_hint-4_genes-questions.txt">
+  <div class="selftest-reroll-content"></div>
+</div>
+
+
+## Unique Gamete Counts from a Parental Genotype (4 Genes, With Hint)
+
+<div id="unique_gametes-gametes-with_hint-4_genes-parent_1-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-unique_gametes-gametes-with_hint-4_genes-parent_1-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-unique_gametes-gametes-with_hint-4_genes-parent_1-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-unique_gametes-gametes-with_hint-4_genes-parent_1.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-unique_gametes-gametes-with_hint-4_genes-parent_1-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-unique_gametes-gametes-with_hint-4_genes-parent_1.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-unique_gametes-gametes-with_hint-4_genes-parent_1-questions.txt" data-format="human_readable" data-filename="human_readable-unique_gametes-gametes-with_hint-4_genes-parent_1.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qpm-package-status" role="status" aria-live="polite"></span>
+<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
+</div><div class="qpm-selftest" data-bbq="bbq-unique_gametes-gametes-with_hint-4_genes-parent_1-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

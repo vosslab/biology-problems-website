@@ -5,7 +5,7 @@
 ## DBsubject('Genetics')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-11')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -55,7 +55,7 @@ our @ALPHABET = ('A' .. 'Z');
     'the structure, function, evolution, and mapping of <span style="color: #6c6c00; font-weight:700;">genomes</span>',
   ],
   'genome' => [
-    'an organism\'s complete set of DNA',
+    'all the DNA in an organism',
     'complete set of DNA in an organism',
     'complete set of DNA in a cell or organism',
   ],

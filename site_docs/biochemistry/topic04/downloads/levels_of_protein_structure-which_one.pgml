@@ -5,7 +5,7 @@
 ## DBsubject('Biochemistry')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -605,7 +605,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #a719db; font-weight:700;">quaternary</span>',
   },
   {
-    'item_name' => '<strong>relative orientation of one <span style="color: #c80085; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span> to another <span style="color: #c80085; font-weight:700;">protein</span> subunit</strong>',
+    'item_name' => '<strong>relative orientation of one <span style="color: #c80085; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunit</span> to another <span style="color: #c80085; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunit</span></strong>',
     'plural_choice' => 'levels of <span style="color: #c80085; font-weight:700;">protein</span> structure',
     'singular_item' => 'description',
     'choices' => [

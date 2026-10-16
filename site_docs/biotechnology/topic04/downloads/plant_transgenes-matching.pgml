@@ -5,7 +5,7 @@
 ## DBsubject('Biotechnology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -27,7 +27,7 @@ our @ALPHABET = ('A' .. 'Z');
 # ================================
 %match_data = (
   'DREB1A' => [
-    'Enhances the plant\'s ability to retain water under drought conditions',
+    q{Enhances the plant's ability to retain water under drought conditions},
     'Activates stress-responsive genes to help cope with arid environments',
     'Primarily found in plants that are modified to thrive in drought-prone areas',
     'Known for its role in enhancing abiotic stress tolerance, particularly drought',
@@ -39,7 +39,7 @@ our @ALPHABET = ('A' .. 'Z');
     'Is derived from the bacterium Bacillus thuringiensis',
     'Binds to receptors in the insect gut, leading to cell lysis and death',
     'Considered an environmentally friendly method for pest control as it reduces chemical pesticide use',
-    'Often integrated into plant genomes to produce Cry proteins throughout the plant\'s lifecycle',
+    q{Often integrated into plant genomes to produce Cry proteins throughout the plant's lifecycle},
   ],
   'AVP1' => [
     'Encodes a proton pump that helps plants tolerate salty environments',

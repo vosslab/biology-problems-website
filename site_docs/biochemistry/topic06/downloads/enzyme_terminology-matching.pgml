@@ -5,7 +5,7 @@
 ## DBsubject('Biochemistry')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -182,7 +182,7 @@ push(@answers, (map { $_->[1] } @q_and_a));
   'Ribozyme' => '<span style="color: #00775f; font-weight:700;">Ribozyme</span>',
   'Active site' => '<span style="color: #007576; font-weight:700;">Active site</span>',
   'Ligand' => '<span style="color: #076dad; font-weight:700;">Ligand</span>',
-  'Ligand-binding site' => '<span style="color: #076dad; font-weight:700;">Ligand</span>-binding site',
+  'Ligand-binding site' => '<span style="color: #076dad; font-weight:700;">Ligand-binding site</span>',
   'Cofactor' => '<span style="color: #0067cc; font-weight:700;">Cofactor</span>',
   'Coenzyme' => '<span style="color: #a719db; font-weight:700;">Coenzyme</span>',
   'Prosthetic group' => '<span style="color: #003fff; font-weight:700;">Prosthetic group</span>',

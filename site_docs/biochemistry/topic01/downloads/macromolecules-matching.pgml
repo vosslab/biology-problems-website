@@ -5,7 +5,7 @@
 ## DBsubject('Biochemistry')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -80,8 +80,8 @@ our @ALPHABET = ('A' .. 'Z');
     'stearic acid &ndash; a fatty acid with 18 carbons',
     'membrane bilayer',
     'diglycerides',
-    'phospho<span style="color: #b74300; font-weight:700;">lipids</span>',
-    'sphingo<span style="color: #b74300; font-weight:700;">lipids</span>',
+    '<span style="color: #b74300; font-weight:700;">phospholipids</span>',
+    '<span style="color: #b74300; font-weight:700;">sphingolipids</span>',
     'sphingosine',
     'phosphatidylcholine',
     'triglycerides',

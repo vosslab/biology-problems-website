@@ -5,7 +5,7 @@
 ## DBsubject('Biochemistry')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -35,7 +35,7 @@ our @ALPHABET = ('A' .. 'Z');
     'Short stage that produces carbon dioxide (CO<sub>2</sub>) and NADH',
     'Takes <span style="color: #935d00; font-weight:700;">pyruvate</span> as input and produces acetyl-CoA',
     'A stage that links glycolysis to the rest of <span style="color: #d40000; font-weight:700;">cellular respiration</span>',
-    'Pyruvate must enter the <span style="color: #a719db; font-weight:700;">mitochondrial matrix</span> for this stage to begin',
+    '<span style="color: #935d00; font-weight:700;">Pyruvate</span> must enter the <span style="color: #a719db; font-weight:700;">mitochondrial matrix</span> for this stage to begin',
     'This stage is entirely carried out by a large enzyme complex called the <span style="color: #935d00; font-weight:700;">pyruvate</span> dehydrogenase complex',
     'For each molecule of glucose, this stage produces zero (0) ATP and two (2) NADH molecules',
     'First stage of <span style="color: #d40000; font-weight:700;">cellular respiration</span> that occurs within the mitochondria organelles',

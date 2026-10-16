@@ -6,7 +6,7 @@
 ## DBsubject('Biostatistics')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-01')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -29,70 +29,42 @@ $showPartialCorrectAnswers = 1;
 
 @true_groups = (
   [
-    'the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span> is <span style="color: #007a00; font-weight:700;">accepted</span> if the <span style="color: #00775f; font-weight:700;">test statistic</span> is inside the <span style="color: #003fff; font-weight:700;">critical value(s)</span> region',
-    'the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span> is <span style="color: #d40000; font-weight:700;">rejected</span> if the <span style="color: #00775f; font-weight:700;">test statistic</span> is more extreme than the <span style="color: #003fff; font-weight:700;">critical value(s)</span>',
-    'the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span> is <span style="color: #d40000; font-weight:700;">rejected</span> if the <span style="color: #00775f; font-weight:700;">test statistic</span> is outside the <span style="color: #003fff; font-weight:700;">critical value(s)</span> region',
+    'we <span style="color: #9c3b10; font-weight:700;">do not reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #00775f; font-weight:700;">test statistic</span> is NOT past the <span style="color: #003fff; font-weight:700;">critical value</span>',
+    'we <span style="color: #17365d; font-weight:700;">reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #00775f; font-weight:700;">test statistic</span> is more extreme than the <span style="color: #003fff; font-weight:700;">critical value</span>',
+    'we <span style="color: #17365d; font-weight:700;">reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #00775f; font-weight:700;">test statistic</span> is past the <span style="color: #003fff; font-weight:700;">critical value</span>',
   ],
   [
-    'the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span> is <span style="color: #007a00; font-weight:700;">accepted</span> if the <span style="color: #c80085; font-weight:700;">p-value</span> is larger than the <span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
-    'the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span> is <span style="color: #d40000; font-weight:700;">rejected</span> if the <span style="color: #c80085; font-weight:700;">p-value</span> is less than the <span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+    'we <span style="color: #9c3b10; font-weight:700;">do not reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #c80085; font-weight:700;">p-value</span> is greater than the <span style="color: #a719db; font-weight:700;">significance level, &alpha;</span>',
+    'we <span style="color: #17365d; font-weight:700;">reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #c80085; font-weight:700;">p-value</span> is less than the <span style="color: #a719db; font-weight:700;">significance level, &alpha;</span>',
   ],
   [
-    'evidence in <span style="color: #007a00; font-weight:700;">FAVOR</span> of the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> occurs when the <span style="color: #00775f; font-weight:700;">test statistic</span> is more extreme than the <span style="color: #003fff; font-weight:700;">critical value(s)</span>',
-    'evidence against the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> occurs when the <span style="color: #00775f; font-weight:700;">test statistic</span> is inside the <span style="color: #003fff; font-weight:700;">critical value(s)</span> region',
-    'evidence in <span style="color: #007a00; font-weight:700;">FAVOR</span> of the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> occurs when the <span style="color: #00775f; font-weight:700;">test statistic</span> is outside the <span style="color: #003fff; font-weight:700;">critical value(s)</span> region',
+    'the evidence <span style="color: #17365d; font-weight:700;">supports</span> the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> when the <span style="color: #00775f; font-weight:700;">test statistic</span> is more extreme than the <span style="color: #003fff; font-weight:700;">critical value</span>',
+    'the evidence <span style="color: #9c3b10; font-weight:700;">does not support</span> the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> when the <span style="color: #00775f; font-weight:700;">test statistic</span> is NOT past the <span style="color: #003fff; font-weight:700;">critical value</span>',
+    'the evidence <span style="color: #17365d; font-weight:700;">supports</span> the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> when the <span style="color: #00775f; font-weight:700;">test statistic</span> is past the <span style="color: #003fff; font-weight:700;">critical value</span>',
   ],
   [
-    'evidence in <span style="color: #007a00; font-weight:700;">FAVOR</span> of the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> occurs when the <span style="color: #c80085; font-weight:700;">p-value</span> is less than the <span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
-    'evidence against the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> occurs when the <span style="color: #c80085; font-weight:700;">p-value</span> is larger than the <span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+    'the evidence <span style="color: #17365d; font-weight:700;">supports</span> the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> when the <span style="color: #c80085; font-weight:700;">p-value</span> is less than the <span style="color: #a719db; font-weight:700;">significance level, &alpha;</span>',
+    'the evidence <span style="color: #9c3b10; font-weight:700;">does not support</span> the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> when the <span style="color: #c80085; font-weight:700;">p-value</span> is greater than the <span style="color: #a719db; font-weight:700;">significance level, &alpha;</span>',
   ],
 );
 @false_groups = (
   [
-    'the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span> is <span style="color: #d40000; font-weight:700;">rejected</span> if the <span style="color: #00775f; font-weight:700;">test statistic</span> is inside the <span style="color: #003fff; font-weight:700;">critical value(s)</span> region',
-    'the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span> is <span style="color: #007a00; font-weight:700;">accepted</span> if the <span style="color: #00775f; font-weight:700;">test statistic</span> is more extreme than the <span style="color: #003fff; font-weight:700;">critical value(s)</span>',
-    'the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span> is <span style="color: #007a00; font-weight:700;">accepted</span> if the <span style="color: #00775f; font-weight:700;">test statistic</span> is outside the <span style="color: #003fff; font-weight:700;">critical value(s)</span> region',
+    'we <span style="color: #17365d; font-weight:700;">reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #00775f; font-weight:700;">test statistic</span> is NOT past the <span style="color: #003fff; font-weight:700;">critical value</span>',
+    'we <span style="color: #9c3b10; font-weight:700;">do not reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #00775f; font-weight:700;">test statistic</span> is more extreme than the <span style="color: #003fff; font-weight:700;">critical value</span>',
+    'we <span style="color: #9c3b10; font-weight:700;">do not reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #00775f; font-weight:700;">test statistic</span> is past the <span style="color: #003fff; font-weight:700;">critical value</span>',
   ],
   [
-    'the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span> is <span style="color: #d40000; font-weight:700;">rejected</span> if the <span style="color: #c80085; font-weight:700;">p-value</span> is larger than the <span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
-    'the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span> is <span style="color: #007a00; font-weight:700;">accepted</span> if the <span style="color: #c80085; font-weight:700;">p-value</span> is less than the <span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+    'we <span style="color: #17365d; font-weight:700;">reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #c80085; font-weight:700;">p-value</span> is greater than the <span style="color: #a719db; font-weight:700;">significance level, &alpha;</span>',
+    'we <span style="color: #9c3b10; font-weight:700;">do not reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #c80085; font-weight:700;">p-value</span> is less than the <span style="color: #a719db; font-weight:700;">significance level, &alpha;</span>',
   ],
   [
-    'evidence in <span style="color: #007a00; font-weight:700;">FAVOR</span> of the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> occurs when the <span style="color: #00775f; font-weight:700;">test statistic</span> is inside the <span style="color: #003fff; font-weight:700;">critical value(s)</span> region',
-    'evidence against the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> occurs when the <span style="color: #00775f; font-weight:700;">test statistic</span> is more extreme than the <span style="color: #003fff; font-weight:700;">critical value(s)</span>',
-    'evidence against the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> occurs when the <span style="color: #00775f; font-weight:700;">test statistic</span> is outside the <span style="color: #003fff; font-weight:700;">critical value(s)</span> region',
+    'the evidence <span style="color: #17365d; font-weight:700;">supports</span> the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> when the <span style="color: #00775f; font-weight:700;">test statistic</span> is NOT past the <span style="color: #003fff; font-weight:700;">critical value</span>',
+    'the evidence <span style="color: #9c3b10; font-weight:700;">does not support</span> the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> when the <span style="color: #00775f; font-weight:700;">test statistic</span> is more extreme than the <span style="color: #003fff; font-weight:700;">critical value</span>',
+    'the evidence <span style="color: #9c3b10; font-weight:700;">does not support</span> the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> when the <span style="color: #00775f; font-weight:700;">test statistic</span> is past the <span style="color: #003fff; font-weight:700;">critical value</span>',
   ],
   [
-    'evidence in <span style="color: #007a00; font-weight:700;">FAVOR</span> of the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> occurs when the <span style="color: #c80085; font-weight:700;">p-value</span> is larger than the <span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
-    'evidence against the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> occurs when the <span style="color: #c80085; font-weight:700;">p-value</span> is less than the <span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
-  ],
-  [
-    'the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span> is <span style="color: #007a00; font-weight:700;">accepted</span> if the <span style="color: #00775f; font-weight:700;">test statistic</span> is less than the <span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
-    'the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span> is <span style="color: #007a00; font-weight:700;">accepted</span> if the <span style="color: #00775f; font-weight:700;">test statistic</span> is larger than the <span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
-    'the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span> is <span style="color: #d40000; font-weight:700;">rejected</span> if the <span style="color: #00775f; font-weight:700;">test statistic</span> is larger than the <span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
-    'the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span> is <span style="color: #d40000; font-weight:700;">rejected</span> if the <span style="color: #00775f; font-weight:700;">test statistic</span> is less than the <span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
-  ],
-  [
-    'the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span> is <span style="color: #007a00; font-weight:700;">accepted</span> if the <span style="color: #c80085; font-weight:700;">p-value</span> is more extreme than the <span style="color: #003fff; font-weight:700;">critical value(s)</span>',
-    'the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span> is <span style="color: #007a00; font-weight:700;">accepted</span> if the <span style="color: #c80085; font-weight:700;">p-value</span> is outside the <span style="color: #003fff; font-weight:700;">critical value(s)</span> region',
-    'the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span> is <span style="color: #007a00; font-weight:700;">accepted</span> if the <span style="color: #c80085; font-weight:700;">p-value</span> is inside the <span style="color: #003fff; font-weight:700;">critical value(s)</span> region',
-    'the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span> is <span style="color: #d40000; font-weight:700;">rejected</span> if the <span style="color: #c80085; font-weight:700;">p-value</span> is more extreme than the <span style="color: #003fff; font-weight:700;">critical value(s)</span>',
-    'the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span> is <span style="color: #d40000; font-weight:700;">rejected</span> if the <span style="color: #c80085; font-weight:700;">p-value</span> is outside the <span style="color: #003fff; font-weight:700;">critical value(s)</span> region',
-    'the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span> is <span style="color: #d40000; font-weight:700;">rejected</span> if the <span style="color: #c80085; font-weight:700;">p-value</span> is inside the <span style="color: #003fff; font-weight:700;">critical value(s)</span> region',
-  ],
-  [
-    'evidence in <span style="color: #007a00; font-weight:700;">FAVOR</span> of the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> occurs when the <span style="color: #00775f; font-weight:700;">test statistic</span> is less than the <span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
-    'evidence in <span style="color: #007a00; font-weight:700;">FAVOR</span> of the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> occurs when the <span style="color: #00775f; font-weight:700;">test statistic</span> is larger than the <span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
-    'evidence against the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> occurs when the <span style="color: #00775f; font-weight:700;">test statistic</span> is less than the <span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
-    'evidence against the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> occurs when the <span style="color: #00775f; font-weight:700;">test statistic</span> is larger than the <span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
-  ],
-  [
-    'evidence in <span style="color: #007a00; font-weight:700;">FAVOR</span> of the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> occurs when the <span style="color: #c80085; font-weight:700;">p-value</span> is inside the <span style="color: #003fff; font-weight:700;">critical value(s)</span> region',
-    'evidence in <span style="color: #007a00; font-weight:700;">FAVOR</span> of the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> occurs when the <span style="color: #c80085; font-weight:700;">p-value</span> is more extreme than the <span style="color: #003fff; font-weight:700;">critical value(s)</span>',
-    'evidence in <span style="color: #007a00; font-weight:700;">FAVOR</span> of the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> occurs when the <span style="color: #c80085; font-weight:700;">p-value</span> is outside the <span style="color: #003fff; font-weight:700;">critical value(s)</span> region',
-    'evidence against the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> occurs when the <span style="color: #c80085; font-weight:700;">p-value</span> is inside the <span style="color: #003fff; font-weight:700;">critical value(s)</span> region',
-    'evidence against the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> occurs when the <span style="color: #c80085; font-weight:700;">p-value</span> is more extreme than the <span style="color: #003fff; font-weight:700;">critical value(s)</span>',
-    'evidence against the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> occurs when the <span style="color: #c80085; font-weight:700;">p-value</span> is outside the <span style="color: #003fff; font-weight:700;">critical value(s)</span> region',
+    'the evidence <span style="color: #17365d; font-weight:700;">supports</span> the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> when the <span style="color: #c80085; font-weight:700;">p-value</span> is greater than the <span style="color: #a719db; font-weight:700;">significance level, &alpha;</span>',
+    'the evidence <span style="color: #9c3b10; font-weight:700;">does not support</span> the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> when the <span style="color: #c80085; font-weight:700;">p-value</span> is less than the <span style="color: #a719db; font-weight:700;">significance level, &alpha;</span>',
   ],
 );
 
@@ -106,6 +78,8 @@ $local_random->srand($problemSeed);
 my @mode_choices = ("TRUE", "FALSE");
 $mode = $mode_choices[$local_random->random(0, $#mode_choices, 1)];
 $num_distractors = 4;
+# Question text with TRUE override
+$question_true = 'Which statement about <span style="color: #935d00; font-weight:700;">statistical tests</span> is TRUE?';
 #==========================================================
 # SELECT GROUP
 #==========================================================
@@ -178,7 +152,7 @@ $rb = RadioButtons(
 
 BEGIN_PGML
 
-[@ $mode eq "TRUE" ? "Which one of the following statements is <span style='color: #127663;'><strong>TRUE</strong></span> about $topic?" : "Which one of the following statements is <span style='color: #ba372a;'><strong>FALSE</strong></span> about $topic?" @]*
+[@ $mode eq "TRUE" ? $question_true : "Which one of the following statements is <span style='color: #ba372a;'><strong>FALSE</strong></span> about $topic?" @]*
 
 [_]{$rb}
 
