@@ -6,7 +6,7 @@
 ## DBsubject('Biochemistry')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -31,7 +31,7 @@ $showPartialCorrectAnswers = 1;
   [
     'Thermodynamics describes the <span style="color: #478d1b; font-weight:700;">equilibrium</span> point of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
     'Kinetics describes the rate at which a <span style="color: #008a75; font-weight:700;">reaction</span> approaches <span style="color: #478d1b; font-weight:700;">equilibrium</span>.',
-    'Equilibrium is reached when the rate of the forward and reverse <span style="color: #008a75; font-weight:700;">reaction</span>s is equal.',
+    'Equilibrium is reached when the rate of the forward and reverse <span style="color: #008a75; font-weight:700;">reactions</span> is equal.',
   ],
   [
     'Enzymes increase or decrease the rate of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
@@ -60,8 +60,8 @@ $showPartialCorrectAnswers = 1;
     'The second law of <span style="color: #bb5d00; font-weight:700;">thermodynamics</span> states that the total <span style="color: #b77b04; font-weight:700;">entropy</span> of a closed system will always increase.',
   ],
   [
-    'Hydrolysis <span style="color: #008a75; font-weight:700;">reaction</span>s often lead to an increase in the <span style="color: #b77b04; font-weight:700;">entropy</span> of the products.',
-    'Dehydration <span style="color: #008a75; font-weight:700;">reaction</span>s often lead to a decrease in the <span style="color: #b77b04; font-weight:700;">entropy</span> of the products.',
+    'Hydrolysis <span style="color: #008a75; font-weight:700;">reactions</span> often lead to an increase in the <span style="color: #b77b04; font-weight:700;">entropy</span> of the products.',
+    'Dehydration <span style="color: #008a75; font-weight:700;">reactions</span> often lead to a decrease in the <span style="color: #b77b04; font-weight:700;">entropy</span> of the products.',
     'In general, an increase in disorder or randomness corresponds to an increase in <span style="color: #b77b04; font-weight:700;">entropy</span>.',
   ],
 );
@@ -77,7 +77,7 @@ $showPartialCorrectAnswers = 1;
     'Kinetics is unaffected by <span style="color: #cc2489; font-weight:700;">enzymes</span>.',
     'Enzymes must be regenerated after each <span style="color: #008a75; font-weight:700;">reaction</span> they catalyze.',
     'Enzymes are consumed by the <span style="color: #008a75; font-weight:700;">reaction</span> they catalyze and must continually be replaced.',
-    'Enzymes are NOT essential for most biochemical <span style="color: #008a75; font-weight:700;">reaction</span>s.',
+    'Enzymes are NOT essential for most biochemical <span style="color: #008a75; font-weight:700;">reactions</span>.',
   ],
   [
     'Enzymes change the Gibbs free energy (&Delta;G) of the <span style="color: #008a75; font-weight:700;">reaction</span>.',
@@ -105,8 +105,8 @@ $showPartialCorrectAnswers = 1;
     'The second law of <span style="color: #bb5d00; font-weight:700;">thermodynamics</span> is the conservation of energy.',
   ],
   [
-    'Hydrolysis <span style="color: #008a75; font-weight:700;">reaction</span>s tend to decrease <span style="color: #b77b04; font-weight:700;">entropy</span> of the products.',
-    'Dehydration <span style="color: #008a75; font-weight:700;">reaction</span>s tend to increase <span style="color: #b77b04; font-weight:700;">entropy</span> of the products.',
+    'Hydrolysis <span style="color: #008a75; font-weight:700;">reactions</span> tend to decrease <span style="color: #b77b04; font-weight:700;">entropy</span> of the products.',
+    'Dehydration <span style="color: #008a75; font-weight:700;">reactions</span> tend to increase <span style="color: #b77b04; font-weight:700;">entropy</span> of the products.',
     'In general, more order means more <span style="color: #b77b04; font-weight:700;">entropy</span>.',
     'In general, more disorder means less <span style="color: #b77b04; font-weight:700;">entropy</span>.',
   ],

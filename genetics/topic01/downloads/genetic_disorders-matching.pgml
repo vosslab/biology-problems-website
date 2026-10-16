@@ -5,7 +5,7 @@
 ## DBsubject('Genetics')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-11')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -43,17 +43,17 @@ our @ALPHABET = ('A' .. 'Z');
     'a <span style="color: #b74300; font-weight:700;">genetic</span> condition involving changes in part of the X <span style="color: #6c6c00; font-weight:700;">chromosome</span>',
   ],
   'Galactosemia' => [
-    '<span style="color: #935d00; font-weight:700;">metabolic</span> <span style="color: #d40000; font-weight:700;">disorder</span> that affects an individual\'s ability to metabolize the sugar galactose properly',
+    q{<span style="color: #935d00; font-weight:700;">metabolic</span> <span style="color: #d40000; font-weight:700;">disorder</span> that affects an individual's ability to metabolize the sugar galactose properly},
   ],
   'Hemophilia' => [
     'an inherited bleeding <span style="color: #d40000; font-weight:700;">disorder</span> in which the blood does NOT clot properly',
   ],
-  'Huntington\'s disease' => [
+  q{Huntington's disease} => [
     '<span style="color: #d40000; font-weight:700;">disorder</span> that causes the progressive breakdown (degeneration) of nerve cells in the brain',
   ],
   'Maple syrup urine disease' => [
     '<span style="color: #935d00; font-weight:700;">metabolic</span> <span style="color: #d40000; font-weight:700;">disorder</span> affecting branched-chain amino acids',
-    'gets its name from the distinctive sweet odor of affected infants\' urine',
+    q{gets its name from the distinctive sweet odor of affected infants' urine},
   ],
   'Marfan syndrome' => [
     'multi-systemic <span style="color: #b74300; font-weight:700;">genetic</span> <span style="color: #d40000; font-weight:700;">disorder</span> that affects the connective tissue',
@@ -61,7 +61,7 @@ our @ALPHABET = ('A' .. 'Z');
   ],
   'Phenylketonuria' => [
     'inherited <span style="color: #d40000; font-weight:700;">disorder</span> that causes an amino acid called phenylalanine to build up in the body',
-    '<span style="color: #b74300; font-weight:700;">genetic</span> <span style="color: #935d00; font-weight:700;">metabolic</span> <span style="color: #d40000; font-weight:700;">disorder</span> that increases the body\'s levels of phenylalanine',
+    q{<span style="color: #b74300; font-weight:700;">genetic</span> <span style="color: #935d00; font-weight:700;">metabolic</span> <span style="color: #d40000; font-weight:700;">disorder</span> that increases the body's levels of phenylalanine},
     'inherited <span style="color: #d40000; font-weight:700;">disorder</span> of metabolism that causes an increase in the blood of a chemical known as phenylalanine',
   ],
   'Sickle-cell anemia' => [
@@ -192,7 +192,7 @@ push(@answers, (map { $_->[1] } @q_and_a));
   'Fragile X syndrome' => 'Fragile X syndrome',
   'Galactosemia' => 'Galactosemia',
   'Hemophilia' => 'Hemophilia',
-  'Huntington\'s disease' => q{Huntington's disease},
+  q{Huntington's disease} => q{Huntington's disease},
   'Maple syrup urine disease' => 'Maple syrup urine disease',
   'Marfan syndrome' => 'Marfan syndrome',
   'Phenylketonuria' => 'Phenylketonuria',

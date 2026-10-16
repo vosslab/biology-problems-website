@@ -6,7 +6,7 @@
 ## DBsubject('Cell Biology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -54,14 +54,14 @@ $showPartialCorrectAnswers = 1;
     'The basic units of structure and function are <span style="color: mediumblue; font-weight:700;">cells</span>.',
     '<span style="color: mediumblue; font-weight:700;">Cells</span> are the basic structural and functional units of <span style="color: orangered; font-weight:700;">life</span>.',
     'The <span style="color: mediumblue; font-weight:700;">cell</span> is the smallest living thing that performs all the functions of <span style="color: orangered; font-weight:700;">life</span>.',
-    'The basic unit of <span style="color: orangered; font-weight:700;">life</span> is a <span style="color: mediumblue; font-weight:700;">cell</span>.',
+    'The basic unit of <span style="color: orangered; font-weight:700;">life</span> is a cell.',
   ],
   [
     'Energy flow (metabolism and biochemistry) occurs within <span style="color: mediumblue; font-weight:700;">cells</span>.',
     'All <span style="color: orangered; font-weight:700;">life</span> functions occur within <span style="color: mediumblue; font-weight:700;">cells</span>.',
   ],
   [
-    'Heredity information (DNA) is passed on from <span style="color: mediumblue; font-weight:700;">cell</span> to <span style="color: mediumblue; font-weight:700;">cell</span>.',
+    'Heredity information (DNA) is passed on from <span style="color: mediumblue; font-weight:700;">cell</span> to cell.',
     'All <span style="color: mediumblue; font-weight:700;">cells</span> contain genetic information or DNA.',
   ],
 );

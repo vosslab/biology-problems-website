@@ -5,7 +5,7 @@
 ## DBsubject('Molecular Biology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -39,7 +39,7 @@ our @ALPHABET = ('A' .. 'Z');
     'RNA primase',
     'DNA sliding clamp',
     'DNA ligase',
-    'single-<span style="color: #6c6c00; font-weight:700;">strand</span>ed binding proteins',
+    'single-<span style="color: #6c6c00; font-weight:700;">stranded</span> binding proteins',
     'topoisomerase',
     'replication fork',
     'telomere shortening',
@@ -55,10 +55,10 @@ our @ALPHABET = ('A' .. 'Z');
   'RNA transcription' => [
     'RNA <span style="color: #3b7600; font-weight:700;">polymerase</span>',
     'RNA <span style="color: #3b7600; font-weight:700;">polymerase</span> II',
-    '-35 and -10 <span style="color: #007576; font-weight:700;">promotor</span> regions',
+    '-35 and -10 <span style="color: #007576; font-weight:700;">promoter</span> regions',
     'TATA box',
-    '-35 <span style="color: #007576; font-weight:700;">promotor</span> region',
-    '-75 and -25 <span style="color: #007576; font-weight:700;">promotor</span> regions',
+    '-35 <span style="color: #007576; font-weight:700;">promoter</span> region',
+    '-75 and -25 <span style="color: #007576; font-weight:700;">promoter</span> regions',
     'RNA is synthesized',
     'Pribnow box',
     'non-template or coding <span style="color: #6c6c00; font-weight:700;">strand</span>',
@@ -69,8 +69,8 @@ our @ALPHABET = ('A' .. 'Z');
     '<span style="color: #003fff; font-weight:700;">terminator</span> sequence',
     'transcription factors',
     'creation of pre-mRNA transcript',
-    'proximal <span style="color: #007576; font-weight:700;">promotor</span> elements',
-    'distal <span style="color: #007576; font-weight:700;">promotor</span> elements',
+    'proximal <span style="color: #007576; font-weight:700;">promoter</span> elements',
+    'distal <span style="color: #007576; font-weight:700;">promoter</span> elements',
   ],
   'mRNA processing' => [
     '5&prime;-cap',
@@ -104,10 +104,10 @@ our @ALPHABET = ('A' .. 'Z');
   'Protein translation' => [
     'start <span style="color: #c80085; font-weight:700;">codon</span>',
     'AUG start <span style="color: #c80085; font-weight:700;">codon</span>',
-    '<span style="color: #c80085; font-weight:700;">codon</span>s, triplets of bases',
+    '<span style="color: #c80085; font-weight:700;">codons</span>, triplets of bases',
     'proteins are synthesized',
     'stop <span style="color: #c80085; font-weight:700;">codon</span>',
-    'UAA, UAG, UGA stop <span style="color: #c80085; font-weight:700;">codon</span>s',
+    'UAA, UAG, UGA stop <span style="color: #c80085; font-weight:700;">codons</span>',
     'reading frame',
     'mRNA <span style="color: #c80085; font-weight:700;">codon</span> recognition by tRNA',
     'mRNA <span style="color: #c80085; font-weight:700;">codon</span> recognition',

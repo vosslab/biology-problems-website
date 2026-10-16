@@ -5,7 +5,7 @@
 ## DBsubject('Biochemistry')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -26,7 +26,7 @@ our @ALPHABET = ('A' .. 'Z');
 # Full matching data
 # ================================
 %match_data = (
-  'Hydroxl' => [
+  'Hydroxyl' => [
     'Compound name: Alcohol',
     '&mdash;OH',
     'Very common in sugars (e.g., glucose)',
@@ -124,7 +124,7 @@ push(@answers, (map { $_->[1] } @q_and_a));
 # HTML-safe answer labels
 # -------------------------------
 %answer_html = (
-  'Hydroxl' => '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
+  'Hydroxyl' => '<span style="color: #d40000; font-weight:700;">Hydroxyl</span>',
   'Carbonyl' => '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
   'Carboxyl' => '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
   'Amino' => '<span style="color: #003fff; font-weight:700;">Amino</span>',

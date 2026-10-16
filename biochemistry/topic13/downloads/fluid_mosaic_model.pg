@@ -6,7 +6,7 @@
 ## DBsubject('Cell Biology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -59,7 +59,7 @@ $showPartialCorrectAnswers = 1;
     'The <span style="color: #d40000; font-weight:700;">plasma&nbsp;membrane</span> facilitates transport of molecules across the membrane',
   ],
   [
-    'The <span style="color: #d40000; font-weight:700;">plasma&nbsp;membrane</span> recognizes and binds to other <span style="color: #007a00; font-weight:700;">cell</span>s or substances',
+    'The <span style="color: #d40000; font-weight:700;">plasma&nbsp;membrane</span> recognizes and binds to other <span style="color: #007a00; font-weight:700;">cells</span> or substances',
   ],
   [
     'The <span style="color: #d40000; font-weight:700;">plasma&nbsp;membrane</span> provides energy to the <span style="color: #007a00; font-weight:700;">cell</span>',

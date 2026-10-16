@@ -1906,6 +1906,13 @@
     },
     {
       "pagePath": "genetics/topic04/index.md",
+      "questionId": "bbq-unique_cross_genotypes-genotypes-with_hint-4_genes-questions.txt",
+      "subjectKey": "genetics",
+      "topicKey": "topic04",
+      "topicTitle": "Mendelian Genetics"
+    },
+    {
+      "pagePath": "genetics/topic04/index.md",
       "questionId": "bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic04",
@@ -1913,7 +1920,21 @@
     },
     {
       "pagePath": "genetics/topic04/index.md",
+      "questionId": "bbq-unique_cross_phenotypes-phenotypes-with_hint-4_genes-questions.txt",
+      "subjectKey": "genetics",
+      "topicKey": "topic04",
+      "topicTitle": "Mendelian Genetics"
+    },
+    {
+      "pagePath": "genetics/topic04/index.md",
       "questionId": "bbq-unique_cross_phenotypes-with_hint-4_genes-questions.txt",
+      "subjectKey": "genetics",
+      "topicKey": "topic04",
+      "topicTitle": "Mendelian Genetics"
+    },
+    {
+      "pagePath": "genetics/topic04/index.md",
+      "questionId": "bbq-unique_gametes-gametes-with_hint-4_genes-parent_1-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic04",
       "topicTitle": "Mendelian Genetics"

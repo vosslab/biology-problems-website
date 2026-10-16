@@ -5,7 +5,7 @@
 ## DBsubject('Biotechnology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -89,7 +89,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => 'Metabolomics',
   },
   {
-    'item_name' => '<strong>shows whether catalysts have changed the levels of the cell\'s small molecules</strong>',
+    'item_name' => q{<strong>shows whether catalysts have changed the levels of the cell's small molecules</strong>},
     'plural_choice' => 'techniques',
     'singular_item' => 'description',
     'choices' => [

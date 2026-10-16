@@ -5,7 +5,7 @@
 ## DBsubject('Biotechnology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -44,7 +44,7 @@ our @ALPHABET = ('A' .. 'Z');
   ],
   'Saccharomyces cerevisiae' => [
     'Yeast',
-    'Baker\'s yeast',
+    q{Baker's yeast},
   ],
   'Tetrahymena thermophila' => [
     'Ciliate',

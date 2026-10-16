@@ -6,7 +6,7 @@
 ## DBsubject('Cell Biology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -29,8 +29,8 @@ $showPartialCorrectAnswers = 1;
 
 @true_groups = (
   [
-    'They facilitate <span style="color: #007a00; font-weight:700;">transport</span> of <span style="color: #076dad; font-weight:700;">molecules</span> across the membrane',
-    'They allow <span style="color: #b74300; font-weight:700;">passage</span> of hydrophilic <span style="color: #3b7600; font-weight:700;">substances</span> across the membrane',
+    'They facilitate <span style="color: #007a00; font-weight:700;">transport</span> of <span style="color: #076dad; font-weight:700;">molecules</span> across the <span style="color: #a719db; font-weight:700;">membrane</span>',
+    'They allow <span style="color: #b74300; font-weight:700;">passage</span> of hydrophilic <span style="color: #3b7600; font-weight:700;">substances</span> across the <span style="color: #a719db; font-weight:700;">membrane</span>',
     'They provide a hydrophilic channel for certain <span style="color: #076dad; font-weight:700;">molecules</span> or ions to use as a tunnel',
     'Some <span style="color: #d40000; font-weight:700;">membrane&nbsp;proteins</span> serve as channels, pumps, or receptors',
   ],
@@ -40,15 +40,15 @@ $showPartialCorrectAnswers = 1;
   ],
   [
     'They tightly attach the cytoskeleton to the extracellular matrix (ECM)',
-    'Some <span style="color: #d40000; font-weight:700;">membrane&nbsp;proteins</span> anchor the cytoskeleton to the plasma membrane',
-    'Some <span style="color: #d40000; font-weight:700;">membrane&nbsp;proteins</span> anchor the extracellular matrix (ECM) to the plasma membrane',
+    'Some <span style="color: #d40000; font-weight:700;">membrane&nbsp;proteins</span> anchor the cytoskeleton to the plasma <span style="color: #a719db; font-weight:700;">membrane</span>',
+    'Some <span style="color: #d40000; font-weight:700;">membrane&nbsp;proteins</span> anchor the extracellular matrix (ECM) to the plasma <span style="color: #a719db; font-weight:700;">membrane</span>',
   ],
   [
     'They provide <span style="color: #c80085; font-weight:700;">enzymatic&nbsp;activity</span> for certain chemical reactions',
     'Some <span style="color: #d40000; font-weight:700;">membrane&nbsp;proteins</span> are <span style="color: #c80085; font-weight:700;">enzymes</span> that catalyze specific reactions',
   ],
   [
-    'They receive <span style="color: #935d00; font-weight:700;">cell </span>signals and transduce them across the membrane',
+    'They receive <span style="color: #935d00; font-weight:700;">cell</span> signals and transduce them across the <span style="color: #a719db; font-weight:700;">membrane</span>',
     'Some <span style="color: #d40000; font-weight:700;">membrane&nbsp;proteins</span> binds to signaling <span style="color: #076dad; font-weight:700;">molecules</span> such as hormones or neurotransmitters',
   ],
   [
@@ -58,11 +58,11 @@ $showPartialCorrectAnswers = 1;
 );
 @false_groups = (
   [
-    'They prevent the <span style="color: #b74300; font-weight:700;">passage</span> of <span style="color: #935d00; font-weight:700;">hydrophobic</span> <span style="color: #3b7600; font-weight:700;">substances</span> across the membrane',
-    'They block the <span style="color: #b74300; font-weight:700;">passage</span> of <span style="color: #935d00; font-weight:700;">hydrophobic</span> <span style="color: #076dad; font-weight:700;">molecules</span> from crossing the membrane',
+    'They prevent the <span style="color: #b74300; font-weight:700;">passage</span> of <span style="color: #935d00; font-weight:700;">hydrophobic</span> <span style="color: #3b7600; font-weight:700;">substances</span> across the <span style="color: #a719db; font-weight:700;">membrane</span>',
+    'They block the <span style="color: #b74300; font-weight:700;">passage</span> of <span style="color: #935d00; font-weight:700;">hydrophobic</span> <span style="color: #076dad; font-weight:700;">molecules</span> from crossing the <span style="color: #a719db; font-weight:700;">membrane</span>',
   ],
   [
-    'They are responsible for separating the interior of the <span style="color: #935d00; font-weight:700;">cell </span>from its external environment',
+    'They are responsible for separating the interior of the <span style="color: #935d00; font-weight:700;">cell</span> from its external environment',
   ],
 );
 

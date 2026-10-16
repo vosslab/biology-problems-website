@@ -5,7 +5,7 @@
 ## DBsubject('Molecular Biology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -42,8 +42,8 @@ our @ALPHABET = ('A' .. 'Z');
     'this enzyme joins <span style="color: #3b7600; font-weight:700;">Okazaki fragments</span> together to create one continuous <span style="color: #228822; font-weight:700;">DNA strand</span>',
     'this enzyme seals the gaps between the <span style="color: #3b7600; font-weight:700;">Okazaki fragments</span> to create one continuous <span style="color: #228822; font-weight:700;">DNA strand</span>',
   ],
-  'single-strand binding proteins' => [
-    'this protein holds the <span style="color: #228822; font-weight:700;">DNA strand</span>s apart while they are being replicated',
+  'single-strand binding protein' => [
+    'this protein holds the <span style="color: #228822; font-weight:700;">DNA strands</span> apart while they are being replicated',
     'this protein stabilizes the open conformation of the unwound DNA',
   ],
   'DNA&nbsp;polymerase&nbsp;&#8544;' => [
@@ -117,7 +117,7 @@ push(@answers, (map { $_->[1] } @q_and_a));
   'primase' => '<span style="color: #6c6c00; font-weight:700;">primase</span>',
   'DNA&nbsp;helicase' => '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
   'DNA&nbsp;ligase' => '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
-  'single-strand binding proteins' => '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
+  'single-strand binding protein' => '<span style="color: #7b7737; font-weight:700;">single-strand binding protein</span>',
   'DNA&nbsp;polymerase&nbsp;&#8544;' => '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
   'DNA&nbsp;polymerase&nbsp;&#8546;' => '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
   'DNA sliding clamp' => 'DNA sliding clamp',

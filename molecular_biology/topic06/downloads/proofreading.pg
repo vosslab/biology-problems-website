@@ -6,7 +6,7 @@
 ## DBsubject('Molecular Biology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -77,10 +77,10 @@ $showPartialCorrectAnswers = 1;
     '<span style="color: #793aaa; font-weight:700;">RNA&nbsp;polymerase</span> requires a primer to start synthesis',
   ],
   [
-    'the <span style="color: #248f24; font-weight:700;">primase</span> <span style="color: mediumvioletred; font-weight:700;">exonuclease polymerase domain</span> is required for <span style="color: darkgreen; font-weight:700;">proofreading</span>',
+    'the <span style="color: #248f24; font-weight:700;">5&prime;&rarr;3&prime;</span> <span style="color: mediumvioletred; font-weight:700;">exonuclease polymerase domain</span> is required for <span style="color: darkgreen; font-weight:700;">proofreading</span>',
   ],
   [
-    '<span style="color: darkgreen; font-weight:700;">proofreading</span> allows <span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase</span> to remove mismatched nucleotides in the <span style="color: #248f24; font-weight:700;">primase</span> direction',
+    '<span style="color: darkgreen; font-weight:700;">proofreading</span> allows <span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase</span> to remove mismatched nucleotides in the <span style="color: #248f24; font-weight:700;">5&prime;&rarr;3&prime;</span> direction',
   ],
 );
 

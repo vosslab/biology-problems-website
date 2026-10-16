@@ -5,7 +5,7 @@
 ## DBsubject('Biochemistry')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -107,7 +107,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #b74300; font-weight:700;">Pyruvate&nbsp;Oxidation</span>',
   },
   {
-    'item_name' => '<strong>Pyruvate must enter the <span style="color: #a719db; font-weight:700;">mitochondrial matrix</span> for this stage to begin</strong>',
+    'item_name' => '<strong><span style="color: #935d00; font-weight:700;">Pyruvate</span> must enter the <span style="color: #a719db; font-weight:700;">mitochondrial matrix</span> for this stage to begin</strong>',
     'plural_choice' => 'five stages in <span style="color: #d40000; font-weight:700;">cellular respiration</span>',
     'singular_item' => 'statement',
     'choices' => [

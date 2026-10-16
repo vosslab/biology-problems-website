@@ -5,7 +5,7 @@
 ## DBsubject('Genetics')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-11')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -93,7 +93,7 @@ our @ALPHABET = ('A' .. 'Z');
     'the second generation in a cross; the offspring of the <span style="color: #b74300; font-weight:700;">F<sub>1</sub></span> generation',
     'the second generation produced when <span style="color: #b74300; font-weight:700;">F<sub>1</sub></span> individuals are self-crossed or fertilized with each other',
     'the offspring of the <span style="color: #b74300; font-weight:700;">F<sub>1</sub></span> generation; the "grandchildren" of the <span style="color: #0067cc; font-weight:700;">parental</span> generation',
-    'the offspring from the <span style="color: #b74300; font-weight:700;">F<sub>1</sub></span> generation, and considered the \'grandchildren\' of the initial <span style="color: #0067cc; font-weight:700;">parental</span> generation',
+    q{the offspring from the <span style="color: #b74300; font-weight:700;">F<sub>1</sub></span> generation, and considered the 'grandchildren' of the initial <span style="color: #0067cc; font-weight:700;">parental</span> generation},
     'the second generation of offspring, descended from the <span style="color: #b74300; font-weight:700;">F<sub>1</sub></span> generation',
     'the offspring resulting from either self-fertilization or cross-fertilization of <span style="color: #b74300; font-weight:700;">F<sub>1</sub></span> individuals',
     'the subsequent generation derived from interbreeding or self-breeding of <span style="color: #b74300; font-weight:700;">F<sub>1</sub></span> hybrids',

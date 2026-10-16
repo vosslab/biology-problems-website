@@ -5,7 +5,7 @@
 ## DBsubject('Genetics')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-11')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -32,7 +32,7 @@ our @ALPHABET = ('A' .. 'Z');
     'For a given <span style="color: #00775f; font-weight:700;">characteristic</span>, each trait consists of two <span style="color: #d40000; font-weight:700;">alleles</span>.',
     'Each organism has two <span style="color: #d40000; font-weight:700;">alleles</span> for each gene.',
     'Genotypes for specific traits are determined by two <span style="color: #d40000; font-weight:700;">alleles</span>.',
-    'Two <span style="color: #d40000; font-weight:700;">alleles</span> contribute to an organism\'s <span style="color: #00775f; font-weight:700;">characteristic</span>.',
+    q{Two <span style="color: #d40000; font-weight:700;">alleles</span> contribute to an organism's <span style="color: #00775f; font-weight:700;">characteristic</span>.},
     'An organism possesses two <span style="color: #d40000; font-weight:700;">alleles</span> for each specific trait.',
     'The genetic makeup for a particular <span style="color: #00775f; font-weight:700;">characteristic</span> in an organism involves two <span style="color: #d40000; font-weight:700;">alleles</span>.',
     'A single trait in an organism is influenced by two <span style="color: #d40000; font-weight:700;">alleles</span>.',
@@ -55,10 +55,10 @@ our @ALPHABET = ('A' .. 'Z');
     'Dominant <span style="color: #d40000; font-weight:700;">alleles</span> express their effects even when present in just a single copy.',
     'If contrasting <span style="color: #d40000; font-weight:700;">alleles</span> are present, the <span style="color: #6c6c00; font-weight:700;">dominant</span> one determines the <span style="color: #007576; font-weight:700;">phenotype</span>.',
     'Presence of a <span style="color: #6c6c00; font-weight:700;">dominant</span> <span style="color: #d40000; font-weight:700;">allele</span> overrides the expression of the <span style="color: #076dad; font-weight:700;">recessive</span> <span style="color: #d40000; font-weight:700;">allele</span>.',
-    'When <span style="color: #c80085; font-weight:700;">different</span> <span style="color: #d40000; font-weight:700;">alleles</span> exist, the <span style="color: #6c6c00; font-weight:700;">dominant</span> <span style="color: #d40000; font-weight:700;">allele</span> determines the organism\'s traits.',
+    q{When <span style="color: #c80085; font-weight:700;">different</span> <span style="color: #d40000; font-weight:700;">alleles</span> exist, the <span style="color: #6c6c00; font-weight:700;">dominant</span> <span style="color: #d40000; font-weight:700;">allele</span> determines the organism's traits.},
     'In a set of differing <span style="color: #d40000; font-weight:700;">alleles</span>, one will usually mask the effect of the other.',
     'When two <span style="color: #c80085; font-weight:700;">different</span> <span style="color: #d40000; font-weight:700;">alleles</span> are present, one usually determines the observable traits.',
-    'One <span style="color: #d40000; font-weight:700;">allele</span>\'s traits will often be expressed over another <span style="color: #d40000; font-weight:700;">allele</span>\'s when both are present.',
+    q{One <span style="color: #d40000; font-weight:700;">allele</span>'s traits will often be expressed over another <span style="color: #d40000; font-weight:700;">allele</span>'s when both are present.},
     'The observable traits with mixed <span style="color: #d40000; font-weight:700;">alleles</span> are usually determined by one <span style="color: #6c6c00; font-weight:700;">dominant</span> <span style="color: #d40000; font-weight:700;">allele</span>.',
     'When <span style="color: #c80085; font-weight:700;">different</span> <span style="color: #d40000; font-weight:700;">alleles</span> are present, the effect of one will generally dominate.',
   ],
@@ -82,20 +82,20 @@ our @ALPHABET = ('A' .. 'Z');
   'Law of Independent&nbsp;Assortment' => [
     'Two <span style="color: #c80085; font-weight:700;">different</span> <span style="color: #00775f; font-weight:700;">characters</span> will be inherited <span style="color: #0067cc; font-weight:700;">separately</span> from each other.',
     'Inheritance of genes at one location does NOT influence the inheritance of genes at another location.',
-    'The segregation of one gene pair doesn\'t affect the segregation of another.',
+    q{The segregation of one gene pair doesn't affect the segregation of another.},
     'Inheritance patterns for one trait do NOT interfere with those of another trait.',
     'The segregation of one pair of <span style="color: #d40000; font-weight:700;">alleles</span> is NOT influenced by another pair.',
     'Traits from <span style="color: #c80085; font-weight:700;">different</span> genes are passed down <span style="color: #0067cc; font-weight:700;">separately</span> from one another.',
     'The inheritance of one gene has no bearing on the inheritance of another gene located at a <span style="color: #c80085; font-weight:700;">different</span> location.',
     'Genes at one location have no impact on the inheritance of genes at a <span style="color: #0067cc; font-weight:700;">separate</span> location.',
-    'The <span style="color: #a719db; font-weight:700;">factors</span> affecting one <span style="color: #00775f; font-weight:700;">characteristic</span> don\'t alter the <span style="color: #a719db; font-weight:700;">factors</span> affecting another <span style="color: #00775f; font-weight:700;">characteristic</span> during <span style="color: #007a00; font-weight:700;">gamete</span> creation.',
+    q{The <span style="color: #a719db; font-weight:700;">factors</span> affecting one <span style="color: #00775f; font-weight:700;">characteristic</span> don't alter the <span style="color: #a719db; font-weight:700;">factors</span> affecting another <span style="color: #00775f; font-weight:700;">characteristic</span> during <span style="color: #007a00; font-weight:700;">gamete</span> creation.},
     'Traits inherited from <span style="color: #c80085; font-weight:700;">different</span> genes do NOT influence each other.',
     'Sorting one pair of <span style="color: #d40000; font-weight:700;">alleles</span> into <span style="color: #007a00; font-weight:700;">gametes</span> does NOT alter the sorting of another pair of <span style="color: #d40000; font-weight:700;">alleles</span>.',
     'No connection exists between the inheritance patterns of one trait and those of a <span style="color: #c80085; font-weight:700;">different</span> trait.',
-    'During the creation of <span style="color: #007a00; font-weight:700;">gametes</span>, the grouping of one set of <span style="color: #d40000; font-weight:700;">alleles</span> doesn\'t affect the grouping of another set.',
+    q{During the creation of <span style="color: #007a00; font-weight:700;">gametes</span>, the grouping of one set of <span style="color: #d40000; font-weight:700;">alleles</span> doesn't affect the grouping of another set.},
     'Each pair of traits is passed down without any impact on the passage of other pairs during the creation of <span style="color: #007a00; font-weight:700;">gametes</span>.',
     'The inheritance of one gene does NOT impact the inheritance of another <span style="color: #0067cc; font-weight:700;">separate</span> gene.',
-    'The inheritance of one trait doesn\'t influence the inheritance of another.',
+    q{The inheritance of one trait doesn't influence the inheritance of another.},
     'Alleles for <span style="color: #c80085; font-weight:700;">different</span> traits are passed down without influencing each other.',
     'Traits from <span style="color: #0067cc; font-weight:700;">separate</span> genes do NOT affect each other during the reproductive process.',
     'In the process of forming <span style="color: #007a00; font-weight:700;">gametes</span>, each set of <span style="color: #d40000; font-weight:700;">alleles</span> sorts without impacting another set.',
@@ -201,7 +201,7 @@ HEADER_TEXT(<<END_STYLE);
 </style>
 END_STYLE
 
-$question_text = 'Match each of the following Mendel\'s Foundational Principles of Genetics with their corresponding descriptions.';
+$question_text = q{Match each of the following Mendel's Foundational Principles of Genetics with their corresponding descriptions.};
 $note_text = 'Note: Each choice will be used exactly once.';
 
 BEGIN_PGML

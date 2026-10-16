@@ -5,7 +5,7 @@
 ## DBsubject('Biotechnology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-15')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -29,12 +29,12 @@ $showPartialCorrectAnswers = 0;
 # All questions data
 @questions_data = (
   {
-    'item_name' => '<strong>Approves plan for a transgenic crop to be tested in a farmer\'s field (i.e. outside a laboratory).</strong>',
+    'item_name' => q{<strong>Approves plan for a transgenic crop to be tested in a farmer's field (i.e. outside a laboratory).</strong>},
     'plural_choice' => 'federal agencies',
     'singular_item' => 'regulatory job',
     'choices' => [
       'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
-      'National Institute of Health (NIH)',
+      'Food and Drug Administration (FDA)',
       'Environmental Protection Agency (EPA)',
       'Center for Disease Control (CDC)',
     ],
@@ -46,8 +46,8 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'regulatory job',
     'choices' => [
       'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
+      'Food and Drug Administration (FDA)',
       'National Institute of Health (NIH)',
-      'Environmental Protection Agency (EPA)',
       'Center for Disease Control (CDC)',
     ],
     'correct' => 'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
@@ -69,8 +69,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'federal agencies',
     'singular_item' => 'regulatory job',
     'choices' => [
+      'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
       'Food and Drug Administration (FDA)',
-      'National Institute of Health (NIH)',
       'Environmental Protection Agency (EPA)',
       'Center for Disease Control (CDC)',
     ],
@@ -84,7 +84,7 @@ $showPartialCorrectAnswers = 0;
       'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
       'Food and Drug Administration (FDA)',
       'National Institute of Health (NIH)',
-      'Environmental Protection Agency (EPA)',
+      'Center for Disease Control (CDC)',
     ],
     'correct' => 'Food and Drug Administration (FDA)',
   },
@@ -93,8 +93,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'federal agencies',
     'singular_item' => 'regulatory job',
     'choices' => [
+      'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
       'Food and Drug Administration (FDA)',
-      'National Institute of Health (NIH)',
       'Environmental Protection Agency (EPA)',
       'Center for Disease Control (CDC)',
     ],
@@ -106,8 +106,8 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'regulatory job',
     'choices' => [
       'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
+      'Food and Drug Administration (FDA)',
       'National Institute of Health (NIH)',
-      'Environmental Protection Agency (EPA)',
       'Center for Disease Control (CDC)',
     ],
     'correct' => 'National Institute of Health (NIH)',
@@ -117,7 +117,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'federal agencies',
     'singular_item' => 'regulatory job',
     'choices' => [
-      'Food and Drug Administration (FDA)',
+      'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
       'National Institute of Health (NIH)',
       'Environmental Protection Agency (EPA)',
       'Center for Disease Control (CDC)',
@@ -129,7 +129,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'federal agencies',
     'singular_item' => 'regulatory job',
     'choices' => [
-      'Food and Drug Administration (FDA)',
+      'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
       'National Institute of Health (NIH)',
       'Environmental Protection Agency (EPA)',
       'Center for Disease Control (CDC)',
@@ -137,7 +137,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => 'National Institute of Health (NIH)',
   },
   {
-    'item_name' => '<strong>Evaluates for potential effects on animals and insects that inhabit the farmers\' fields.</strong>',
+    'item_name' => q{<strong>Evaluates for potential effects on animals and insects that inhabit the farmers' fields.</strong>},
     'plural_choice' => 'federal agencies',
     'singular_item' => 'regulatory job',
     'choices' => [
@@ -166,9 +166,9 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'regulatory job',
     'choices' => [
       'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
+      'Food and Drug Administration (FDA)',
       'National Institute of Health (NIH)',
       'Environmental Protection Agency (EPA)',
-      'Center for Disease Control (CDC)',
     ],
     'correct' => 'Environmental Protection Agency (EPA)',
   },
