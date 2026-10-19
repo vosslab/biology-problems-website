@@ -16,6 +16,8 @@ import bioproblems_site.subject_index as subject_index_module
 import bioproblems_site.topic_page as topic_page_module
 import bioproblems_site.git_paths as git_paths
 import bioproblems_site.homepage_data as homepage_data
+import bioproblems_site.bloom as bloom
+import bioproblems_site.bloom_evidence as bloom_evidence
 from bioproblems_site.build_contracts import BuildChanges, BuildScope, TopicRef
 from bioproblems_site.build_progress import BuildProgress
 
@@ -24,6 +26,19 @@ REPO_ROOT = Path(git_paths.get_repo_root())
 DEFAULT_SITE_DOCS = REPO_ROOT / "site_docs"
 DEFAULT_METADATA_PATH = REPO_ROOT / "topics_metadata.yml"
 DEFAULT_MKDOCS_PATH = REPO_ROOT / "mkdocs.yml"
+
+
+#============================================
+def run_bloom(scope: BuildScope) -> set[TopicRef]:
+	"""Classify new banks before rendering, refreshing every placement of changed names."""
+	root = DEFAULT_SITE_DOCS.parent
+	changed = bloom.classify(root, dry_run=scope.dry_run)
+	topics = {
+		TopicRef(*entry.page_path.split("/")[:2])
+		for entry in bloom_evidence.entries(root)
+		if entry.source_path.name in changed
+	} if changed else set()
+	return topics
 
 
 #============================================
@@ -54,7 +69,7 @@ def is_newer_than_any(output_path: Path, input_paths: list[Path]) -> bool:
 def topic_page_needs_run(topic_ref: TopicRef, scope: BuildScope, changes: BuildChanges) -> bool:
 	"""Check direct topic-page inputs without scanning unrelated topics."""
 	page_path = topic_folder(topic_ref) / "index.md"
-	inputs = [DEFAULT_METADATA_PATH]
+	inputs = [DEFAULT_METADATA_PATH, DEFAULT_SITE_DOCS.parent / bloom.CACHE_NAME]
 	inputs.extend(topic_sources(topic_ref))
 	if scope.full or topic_ref in changes.changed_topics:
 		return True

@@ -1,0 +1,92 @@
+# Agent-authored diagnostic examples, grounded in the guide's original taxonomy definitions.
+# Expected pairs are provisional judgments, fixed before the first evaluation request.
+# Cases still marked held_out were not used to author the rubric revision; these are not
+# independently validated labels. None of these synthetic cases are corpus banks.
+- id: bases
+  prompt: Identify the four bases conventionally found in DNA from a list of taught base names.
+  expected: [Remember, Factual]
+  rationale: Recognition of terminology, without interpreting a new example.
+- id: complementarity
+  prompt: Explain how complementary base pairing permits each DNA strand to serve as a replication template.
+  expected: [Understand, Conceptual]
+  rationale: Explaining a relationship within a model.
+- id: punnett
+  prompt: Use the taught Punnett-square procedure for Aa x Aa to calculate the probability of aa. Show the square.
+  expected: [Apply, Procedural]
+  rationale: Executing an explicitly required familiar procedure, not recalling a ratio alone.
+- id: pathway
+  prompt: Given new mutant rescue results for four intermediates, separate informative results from controls and organize the intermediates into a pathway consistent with all results.
+  expected: [Analyze, Conceptual]
+  rationale: Organizing relationships among components of a biological model.
+- id: conclusion
+  prompt: A paper claims a treatment caused higher enzyme activity. Judge the conclusion using the stated criteria of random allocation, control equivalence, and measurement uncertainty; cite which criteria are unmet.
+  expected: [Evaluate, Conceptual]
+  rationale: Critiquing a causal claim against criteria.
+- id: experiment
+  prompt: Devise an original experimental plan to distinguish two mechanisms of inhibition, specifying measurements, controls, and decision criteria. No candidate plans are supplied.
+  expected: [Create, Procedural]
+  rationale: Producing a new plan using experimental methods.
+- id: pcr_recall
+  prompt: Recall the three stages of a standard PCR cycle in their taught order.
+  expected: [Remember, Procedural]
+  rationale: Recalling a procedure does not require executing it.
+- id: protocol_summary
+  prompt: Summarize a supplied unfamiliar multistep extraction protocol in your own words, preserving the sequence and purpose of each operation.
+  expected: [Understand, Procedural]
+  rationale: Summarizing the method being presented, not performing or evaluating it.
+- id: adaptation
+  prompt: Implement the taught serial dilution method for an unfamiliar stock concentration and available tube volumes; calculate and give the adjusted transfer volumes.
+  expected: [Apply, Procedural]
+  rationale: Implementing and adapting a procedure remains Apply.
+- id: terminology_matching
+  prompt: Match the taught terms substrate, enzyme, and product to their textbook definitions. No novel situations are presented.
+  expected: [Remember, Factual]
+  rationale: Retrieval of term-definition associations; matching format adds no analysis.
+- id: novel_category
+  prompt: An unfamiliar organism has a cell wall, chloroplasts, and a nucleus. Classify it into a taught organism category by interpreting these defining features.
+  expected: [Understand, Conceptual]
+  rationale: Classifying a new example using a conceptual category.
+- id: model_recall
+  prompt: Reproduce from memory the taught classification of protein structure into primary, secondary, tertiary, and quaternary levels.
+  expected: [Remember, Conceptual]
+  rationale: Recalling an organized classification, not merely isolated terms.
+- id: strategy_recall
+  held_out: true
+  prompt: Recall which learning strategy you previously recorded as most helpful for distinguishing amino acid classes.
+  expected: [Remember, Metacognitive]
+  rationale: Recalling knowledge about one's own learning.
+- id: strategy_explain
+  held_out: true
+  prompt: Explain why a concept map can help a learner organize related biological principles better than an unconnected list.
+  expected: [Understand, Metacognitive]
+  rationale: Explaining the use of a general learning strategy.
+- id: strategy_judge
+  held_out: true
+  prompt: Evaluate your two study strategies against the stated criteria of delayed retention and successful transfer, using your recorded learning results.
+  expected: [Evaluate, Metacognitive]
+  rationale: Judging learning strategies with evidence and criteria.
+- id: strategy_plan
+  held_out: true
+  prompt: Create a personal learning plan that combines monitoring and study strategies to address your documented strengths and weaknesses in genetics.
+  expected: [Create, Metacognitive]
+  rationale: Producing a learning plan using self-knowledge and cognitive strategies.
+- id: frequency
+  held_out: true
+  prompt: Use the supplied allele-counting algorithm to calculate allele frequencies from counts of AA, Aa, and aa individuals.
+  expected: [Apply, Procedural]
+  rationale: Executing an algorithm; numeric output alone is not the justification.
+- id: terminology_mc
+  held_out: true
+  prompt: Which taught term names the molecule transformed into product by an enzyme? Choose substrate, cofactor, enzyme, or inhibitor.
+  expected: [Remember, Factual]
+  rationale: Recognizing a definition, equivalent in cognitive demand to terminology matching.
+- id: controls
+  held_out: true
+  prompt: Critique three supplied PCR control plans against explicit criteria for detecting contamination and amplification failure; identify which plans meet both criteria.
+  expected: [Evaluate, Procedural]
+  rationale: Evaluating existing methods and their adequacy is not creating a plan.
+- id: table_interpretation
+  # The first run exposed this boundary; it became a development case for version 2.
+  prompt: Translate a supplied table of measured bacterial counts at three times into a short verbal summary of the observed changes.
+  expected: [Understand, Factual]
+  rationale: Interpreting particular observations without inferring a mechanism or judging a claim.

@@ -61,6 +61,8 @@ maintenance and test orchestration; `tools/` remains standalone.
 | [devel/run_playwright_tests.sh](../devel/run_playwright_tests.sh) | Playwright preflight and runner wrapper | `bash devel/run_playwright_tests.sh` |
 | [devel/vendor_qpm_wasm.py](../devel/vendor_qpm_wasm.py) | Build and refresh the QPM browser package | `source source_me.sh && python3 devel/vendor_qpm_wasm.py` |
 | [devel/setup_playwright.sh](../devel/setup_playwright.sh) | Install or verify Playwright tooling | `bash devel/setup_playwright.sh` |
+| [devel/classify_bloom.py](../devel/classify_bloom.py) | Explicit Bloom refresh or coverage report | `python3 -m devel.classify_bloom --action report` |
+| [devel/evaluate_bloom.py](../devel/evaluate_bloom.py) | Live rubric diagnostics, saved locally | `python3 -m devel.evaluate_bloom` |
 
 ### `devel/` propagated
 
@@ -97,7 +99,7 @@ lists all problem-set titles for browser searching. Generated downloads live und
 the live `bbq-*-questions.txt` files and writes the self-test manifest at
 `site_docs/assets/data/selftest_question_manifest.json`.
 
-Topic pages use empty `.qpm-selftest` containers that point to their BBQ bank
+Topic pages use `.qpm-selftest` containers with static bank headers that point to their BBQ bank
 through `data-bbq`. The manifest validates those declared banks directly. Browser lifecycle code in
 `site_docs/assets/scripts/selftest_reroll.js` generates and mounts active
 questions. `selftest_progress.js` keys completion directly by the BBQ filename,
@@ -114,3 +116,8 @@ while `streak.js` subscribes to the lifecycle events.
 - [REPO_STYLE.md](REPO_STYLE.md): repository conventions.
 - [PYTHON_STYLE.md](PYTHON_STYLE.md): Python conventions.
 - [PYTEST_STYLE.md](PYTEST_STYLE.md): test policy and lanes.
+
+- [BLOOM_TAXONOMY_GUIDE.md](BLOOM_TAXONOMY_GUIDE.md): classification workflow and rubric.
+- [BLOOM_COVERAGE.md](BLOOM_COVERAGE.md) and [BLOOM_FINDINGS.md](BLOOM_FINDINGS.md): corpus results.
+- [BLOOM_EVIDENCE_AUDIT.md](BLOOM_EVIDENCE_AUDIT.md): evidence fidelity and conversion limits.
+- [BLOOM_EXTERNAL_VALIDATION.md](BLOOM_EXTERNAL_VALIDATION.md): independent reference checks.

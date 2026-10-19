@@ -53,11 +53,10 @@ def test_format_badges_preserve_qualifiers_and_escape_titles(tmp_path: Path) -> 
 		source_path=source,
 	)
 	soup = BeautifulSoup(question_index.render([entry]), 'html.parser')
-	row = soup.find('span', class_='question-index-entry')
+	row = soup.find('tr', class_='question-index-entry')
 	link = row.find('a')
 	assert 'Protein <size> & Migration (With Ladder)' in link.get_text()
 	assert link.find('size') is None
-	assert row.find_all(recursive=False) == [row.find('span', class_='question-type-badges'), link]
 	assert [(badge.get_text(), badge['title']) for badge in soup.find_all('abbr')] == [
 		('MC', 'Multiple Choice'),
 	]

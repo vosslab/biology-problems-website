@@ -105,10 +105,6 @@
   min-width: 0;
 }
 
-.button-container > .question-type-badges {
-  align-self: center;
-}
-
 .md-typeset abbr.question-type {
   display: inline-block;
   box-sizing: border-box;
@@ -413,25 +409,10 @@ body[data-md-color-scheme="slate"] .streak-at-risk {
   margin: 0.6rem 0;
 }
 
-.selftest-question-placeholder {
-  border: 1px solid var(--md-default-fg-color--lightest, #dddddd);
-  border-radius: 0.35rem;
-  padding: 0.75rem;
-}
-
-.selftest-question-title {
-  flex-basis: 100%;
-  order: -1;
-  font-weight: 700;
-}
-
-.selftest-question-controls {
-  display: flex;
-  align-items: center;
-  flex: 1 1 16rem;
-  flex-wrap: wrap;
+.bloom-classification {
+  display: inline-flex;
   gap: 8px;
-  min-width: 0;
+  font-size: 0.78rem;
 }
 
 /* These controls belong to the website, outside the generated question body. */
@@ -475,14 +456,9 @@ body[data-md-color-scheme="slate"] .streak-at-risk {
   margin: 0;
 }
 
-.selftest-question-hint,
 .selftest-question-status {
   font-size: 0.75rem;
   color: var(--md-default-fg-color);
-}
-
-.selftest-question-hint {
-  flex: 1 1 12rem;
 }
 
 .selftest-question-status:empty {
@@ -609,4 +585,10 @@ body[data-md-color-scheme="slate"] .streak-at-risk {
       transform: translate(var(--star-dx, 0px), calc(-50% + var(--star-dy, -40px))) scale(0.8);
     }
   }
+}
+
+/* Keep sitemap columns available without widening narrow pages. */
+.question-index-scroll {
+  max-width: 100%;
+  overflow-x: auto;
 }

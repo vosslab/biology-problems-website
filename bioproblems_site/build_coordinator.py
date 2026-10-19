@@ -138,6 +138,7 @@ def _build_existing_artifacts(scope: BuildScope, progress: BuildProgress | None)
 	"""Force selected derived artifacts from existing sources without BBQ generation."""
 	started = time.perf_counter()
 	topics = _full_scope_topics(scope)
+	topics.update(build_stages.run_bloom(scope))
 	stage_files: dict[str, set[Path]] = {}
 	stage_seconds: dict[str, float] = {}
 	phase = "topic_pages"
@@ -231,6 +232,10 @@ def build_site(scope: BuildScope, progress: BuildProgress | None = None) -> Buil
 			)
 			selected_topics.add(topic_ref)
 
+	# Classification belongs to the build, before labels are rendered into pages.
+	bloom_topics = build_stages.run_bloom(scope)
+	selected_topics.update(bloom_topics)
+	changed_topics.update(bloom_topics)
 	changes = BuildChanges(
 		changed_topics=changed_topics,
 		changed_subjects=changed_subjects,

@@ -8,7 +8,7 @@ FORMAT_LABELS: dict = {
 	"bb_text": "BBQ Text",
 	"bb_export": "Blackboard Ultra ZIP",
 	"canvas_qti": "Canvas/ADAPT QTI v1.2",
-	"human_read": "Human-Readable HTML",
+	"human_read": "Human-Readable",
 	"webwork_pgml": "WeBWorK PGML",
 }
 

@@ -1,9 +1,13 @@
 # Question Finder
 
-Find problem sets by name, subject, topic, and question type. Open a name to visit
+Find problem sets by name, subject, topic, question type, and both Bloom dimensions. Open a name to visit
 its topic page and download the questions. This table searches problem-set metadata.
 
 Prefer browsing? [Browse All Questions in the sitemap](sitemap.md).
+
+Bloom labels estimate the thinking and knowledge assessed by each question bank. They help
+organize questions; they are not difficulty ratings. Teaching context can change the interpretation.
+The cognitive process describes what students do; the knowledge type describes what they work with.
 
 <link rel="stylesheet" href="https://cdn.datatables.net/3.1.2/css/dataTables.dataTables.min.css" integrity="sha384-IkYzSBi8dm4Cg6IWFobByqhtleZ+PI1q8HYZXz9QgfRw+9LiJ3uVKcGDIWZFa+0k" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.datatables.net/columncontrol/2.1.2/css/columnControl.dataTables.min.css" integrity="sha384-6J0Yn5VflAFZlwwk6LE8FtuppORLtNUl3VhRACLvSgnqT8GA0XA2VTIgkIyf/piJ" crossorigin="anonymous">
@@ -16,7 +20,7 @@ Prefer browsing? [Browse All Questions in the sitemap](sitemap.md).
   <div id="finder-content" hidden>
     <div class="finder-toolbar">
       <label for="finder-search">Search questions</label>
-      <input id="finder-search" type="search" placeholder="Search names, subjects, topics, or types">
+      <input id="finder-search" type="search" placeholder="Search names, subjects, topics, types, or Bloom labels">
       <button id="finder-clear" type="button">Clear all filters</button>
     </div>
     <p class="finder-help">Use the filter button in each column heading. Select several values to
@@ -24,8 +28,8 @@ Prefer browsing? [Browse All Questions in the sitemap](sitemap.md).
     <div id="finder-filters" aria-label="Active filters" role="group"></div>
     <div class="finder-scroll" tabindex="0" role="region" aria-label="Question sets table, scroll horizontally on narrow screens">
       <table id="finder-table">
-        <caption>Question sets by subject, topic, and question type</caption>
-        <thead><tr><th scope="col">Name</th><th scope="col">Subject</th><th scope="col">Topic</th><th scope="col">Question type</th></tr></thead>
+        <caption>Question sets by subject, topic, question type, and Bloom classification</caption>
+        <thead><tr><th scope="col">Name</th><th scope="col">Subject</th><th scope="col">Topic</th><th scope="col">Question type</th><th scope="col">Cognitive process</th><th scope="col">Knowledge type</th></tr></thead>
         <tbody></tbody>
       </table>
     </div>

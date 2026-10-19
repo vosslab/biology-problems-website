@@ -20,6 +20,8 @@ test("Finder filters combine, announce selection, restore, and clear", async ({ 
     id: `${subject}/topic01/bbq-${index}-questions.txt`, name, subject, topic, type,
     type_code: type, type_description: type === "MC" ? "Multiple Choice" : "Numeric",
     url: "../biology/topic01/",
+    cognitive: index === 0 ? "Remember" : "Apply",
+    knowledge: index === 0 ? "Factual" : "Procedural",
   }));
   await context.route("**/assets/data/question_finder.json", (route) => route.fulfill({ json: rows }));
   const errors: string[] = [];
@@ -135,4 +137,36 @@ test("Finder recovers from a failed catalog fetch", async ({ page }) => {
   await page.getByRole("button", { name: "Retry loading" }).click();
   await expect(page.getByLabel("Search questions", { exact: true })).toBeVisible();
   await expect(page.getByRole("button", { name: "Retry loading" })).toBeHidden();
+});
+
+test("Bloom dimensions combine, persist, sort by taxonomy, and include pending banks", async ({ page }) => {
+  const rows = [
+    ["Recall", "Remember", "Factual"],
+    ["Calculate", "Apply", "Procedural"],
+    ["Use model", "Apply", "Conceptual"],
+    ["Pending", "", ""],
+  ].map(([name, cognitive, knowledge], index) => ({
+    id: `biology/topic01/bbq-${index}-questions.txt`, name, cognitive, knowledge,
+    subject: "Biology", topic: "Cells", type: "MC", type_code: "MC",
+    type_description: "Multiple Choice", url: "../biology/topic01/",
+  }));
+  await page.route("**/assets/data/question_finder.json", (route) => route.fulfill({ json: rows }));
+  await page.goto("/question_finder/");
+  await expect(page.getByText("4 matching question sets", { exact: false })).toBeVisible();
+  await page.getByRole("columnheader", { name: /^Cognitive process/ }).click();
+  await expect(page.locator("#finder-table tbody a").first()).toHaveText("Recall");
+  const cognitive = await openFilter(page, "Cognitive process");
+  await cognitive.getByRole("button", { name: "Apply", exact: true }).click();
+  await page.keyboard.press("Escape");
+  const knowledge = await openFilter(page, "Knowledge type");
+  await knowledge.getByRole("button", { name: "Procedural", exact: true }).click();
+  await page.keyboard.press("Escape");
+  await expect(page.locator("#finder-table tbody a")).toHaveText(["Calculate"]);
+  await page.reload();
+  await expect(page.locator("#finder-table tbody a")).toHaveText(["Calculate"]);
+  await page.getByRole("button", { name: "Clear all filters" }).click();
+  const pending = await openFilter(page, "Cognitive process");
+  await pending.getByRole("button", { name: "Not classified", exact: true }).click();
+  await page.keyboard.press("Escape");
+  await expect(page.locator("#finder-table tbody a")).toHaveText(["Pending"]);
 });

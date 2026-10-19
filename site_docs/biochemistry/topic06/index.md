@@ -7,15 +7,18 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## Energy-Requiring and Energy-Releasing Processes
 
 <div id="MATCH-energy_terms-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-energy_terms-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-MATCH-energy_terms-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-energy_terms.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-MATCH-energy_terms-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-energy_terms.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-MATCH-energy_terms-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-energy_terms.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-MATCH-energy_terms-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-energy_terms.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/energy_terms-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-MATCH-energy_terms-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -23,15 +26,18 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## Enzyme Catalysis Terms from Definitions
 
 <div id="MATCH-enzyme_terminology-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-enzyme_terminology-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-MATCH-enzyme_terminology-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-enzyme_terminology.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-MATCH-enzyme_terminology-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-enzyme_terminology.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-MATCH-enzyme_terminology-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-enzyme_terminology.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-MATCH-enzyme_terminology-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-enzyme_terminology.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/enzyme_terminology-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-MATCH-enzyme_terminology-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge type">Factual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -39,15 +45,18 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## Chemical Reactions
 
 <div id="TFMS-chemical_reactions-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-chemical_reactions-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-TFMS-chemical_reactions-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-chemical_reactions.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-TFMS-chemical_reactions-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-chemical_reactions.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-TFMS-chemical_reactions-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-chemical_reactions.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-TFMS-chemical_reactions-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-chemical_reactions.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/chemical_reactions.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-TFMS-chemical_reactions-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -55,15 +64,18 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## Enzyme Cofactor Identification
 
 <div id="TFMS-enzyme_cofactors-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-enzyme_cofactors-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-TFMS-enzyme_cofactors-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-enzyme_cofactors.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-TFMS-enzyme_cofactors-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-enzyme_cofactors.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-TFMS-enzyme_cofactors-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-enzyme_cofactors.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-TFMS-enzyme_cofactors-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-enzyme_cofactors.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/enzyme_cofactors.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-TFMS-enzyme_cofactors-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Cognitive process">Understand</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -71,15 +83,18 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## Enzyme Equilibrium and Kinetics
 
 <div id="TFMS-enzyme_equilibrium-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-enzyme_equilibrium-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-TFMS-enzyme_equilibrium-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-enzyme_equilibrium.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-TFMS-enzyme_equilibrium-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-enzyme_equilibrium.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-TFMS-enzyme_equilibrium-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-enzyme_equilibrium.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-TFMS-enzyme_equilibrium-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-enzyme_equilibrium.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/enzyme_equilibrium.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-TFMS-enzyme_equilibrium-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -87,15 +102,18 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## Gibbs Free Energy (Delta G = Delta H - T Delta S)
 
 <div id="TFMS-gibbs_free_energy_equation-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-gibbs_free_energy_equation-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-TFMS-gibbs_free_energy_equation-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-gibbs_free_energy_equation.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-TFMS-gibbs_free_energy_equation-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-gibbs_free_energy_equation.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-TFMS-gibbs_free_energy_equation-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-gibbs_free_energy_equation.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-TFMS-gibbs_free_energy_equation-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-gibbs_free_energy_equation.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/gibbs_free_energy_equation.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-TFMS-gibbs_free_energy_equation-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -103,15 +121,18 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## Potential and Kinetic Energy Examples
 
 <div id="TFMS-potential_v_kinetic_energy-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-potential_v_kinetic_energy-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-TFMS-potential_v_kinetic_energy-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-potential_v_kinetic_energy.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-TFMS-potential_v_kinetic_energy-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-potential_v_kinetic_energy.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-TFMS-potential_v_kinetic_energy-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-potential_v_kinetic_energy.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-TFMS-potential_v_kinetic_energy-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-potential_v_kinetic_energy.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/potential_v_kinetic_energy.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-TFMS-potential_v_kinetic_energy-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Cognitive process">Understand</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -119,15 +140,18 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## Thermodynamics and Kinetics
 
 <div id="TFMS-thermodynamics-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-thermodynamics-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-TFMS-thermodynamics-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-thermodynamics.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-TFMS-thermodynamics-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-thermodynamics.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-TFMS-thermodynamics-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-thermodynamics.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-TFMS-thermodynamics-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-thermodynamics.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/thermodynamics.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-TFMS-thermodynamics-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -135,15 +159,18 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## Enzyme Naming Patterns
 
 <div id="TFMS-which_enzyme-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-which_enzyme-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-TFMS-which_enzyme-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-which_enzyme.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-TFMS-which_enzyme-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-which_enzyme.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-TFMS-which_enzyme-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-which_enzyme.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-TFMS-which_enzyme-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-which_enzyme.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/which_enzyme.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-TFMS-which_enzyme-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Cognitive process">Understand</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -151,15 +178,18 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## Energy-Requiring and Energy-Releasing Processes
 
 <div id="WOMC-energy_terms-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-energy_terms-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-WOMC-energy_terms-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-energy_terms.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-WOMC-energy_terms-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-energy_terms.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-WOMC-energy_terms-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-energy_terms.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-WOMC-energy_terms-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-energy_terms.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/energy_terms-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-WOMC-energy_terms-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -167,15 +197,18 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## Enzyme Catalysis Terms from Definitions
 
 <div id="WOMC-enzyme_terminology-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-enzyme_terminology-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-WOMC-enzyme_terminology-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-enzyme_terminology.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-WOMC-enzyme_terminology-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-enzyme_terminology.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-WOMC-enzyme_terminology-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-enzyme_terminology.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-WOMC-enzyme_terminology-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-enzyme_terminology.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/enzyme_terminology-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-WOMC-enzyme_terminology-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge type">Factual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -183,15 +216,18 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## Biochemical vs Chemical Standard Free Energy States
 
 <div id="delta_g_prime_standard_state-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-delta_g_prime_standard_state-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-delta_g_prime_standard_state-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-delta_g_prime_standard_state.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-delta_g_prime_standard_state-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-delta_g_prime_standard_state.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-delta_g_prime_standard_state-questions.txt" data-format="human_readable" data-filename="human_readable-delta_g_prime_standard_state.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-delta_g_prime_standard_state-questions.txt" data-format="human_readable" data-filename="human_readable-delta_g_prime_standard_state.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/delta_g_prime_standard_state.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-delta_g_prime_standard_state-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge type">Factual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -199,15 +235,18 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## Exergonic and Endergonic Reaction Classification
 
 <div id="exergonic_endergonic_reactions-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-exergonic_endergonic_reactions-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-exergonic_endergonic_reactions-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-exergonic_endergonic_reactions.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-exergonic_endergonic_reactions-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-exergonic_endergonic_reactions.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-exergonic_endergonic_reactions-questions.txt" data-format="human_readable" data-filename="human_readable-exergonic_endergonic_reactions.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-exergonic_endergonic_reactions-questions.txt" data-format="human_readable" data-filename="human_readable-exergonic_endergonic_reactions.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/exergonic_endergonic_reactions.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-exergonic_endergonic_reactions-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -215,15 +254,18 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## Gibbs Free Energy Change and Equilibrium Constant Relationships
 
 <div id="free_energy_keq_relationship-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-free_energy_keq_relationship-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-free_energy_keq_relationship-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-free_energy_keq_relationship.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-free_energy_keq_relationship-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-free_energy_keq_relationship.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-free_energy_keq_relationship-questions.txt" data-format="human_readable" data-filename="human_readable-free_energy_keq_relationship.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-free_energy_keq_relationship-questions.txt" data-format="human_readable" data-filename="human_readable-free_energy_keq_relationship.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/free_energy_keq_relationship.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-free_energy_keq_relationship-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Cognitive process">Understand</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -231,15 +273,18 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## Gibbs Free Energy Equation Symbols and Meanings
 
 <div id="gibbs_free_energy_equation_symbols-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-gibbs_free_energy_equation_symbols-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-gibbs_free_energy_equation_symbols-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-gibbs_free_energy_equation_symbols.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-gibbs_free_energy_equation_symbols-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-gibbs_free_energy_equation_symbols.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-gibbs_free_energy_equation_symbols-questions.txt" data-format="human_readable" data-filename="human_readable-gibbs_free_energy_equation_symbols.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-gibbs_free_energy_equation_symbols-questions.txt" data-format="human_readable" data-filename="human_readable-gibbs_free_energy_equation_symbols.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/gibbs_free_energy_equation_symbols.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-gibbs_free_energy_equation_symbols-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge type">Factual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -247,15 +292,18 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## Thermodynamics Law Statements
 
 <div id="thermodynamics_law_statements-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-thermodynamics_law_statements-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-thermodynamics_law_statements-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-thermodynamics_law_statements.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-thermodynamics_law_statements-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-thermodynamics_law_statements.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-thermodynamics_law_statements-questions.txt" data-format="human_readable" data-filename="human_readable-thermodynamics_law_statements.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-thermodynamics_law_statements-questions.txt" data-format="human_readable" data-filename="human_readable-thermodynamics_law_statements.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/thermodynamics_law_statements.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-thermodynamics_law_statements-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -263,15 +311,18 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## First and Second Laws of Thermodynamics for Different Systems
 
 <div id="thermodynamics_system_laws-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-thermodynamics_system_laws-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-thermodynamics_system_laws-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-thermodynamics_system_laws.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-thermodynamics_system_laws-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-thermodynamics_system_laws.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-thermodynamics_system_laws-questions.txt" data-format="human_readable" data-filename="human_readable-thermodynamics_system_laws.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-thermodynamics_system_laws-questions.txt" data-format="human_readable" data-filename="human_readable-thermodynamics_system_laws.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/thermodynamics_system_laws.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-thermodynamics_system_laws-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 

@@ -10,6 +10,17 @@ origin belongs there too. Rules: [REPO_STYLE.md](REPO_STYLE.md).
 
 ## Decision priority
 
+- Classify question banks by filename; generated instances change. Run JEV in generation and
+  indexing, using readable Python-generated questions and authored question YAML where appropriate.
+- Keep `problem_set_bloom.yml` as one filename and one compact `Cognitive, Knowledge` value per
+  entry, like the title map. Store experimental metadata in untracked files.
+- Use an exploratory first pass and refinement to investigate coverage and classification quality;
+  do not create a manual review queue for the corpus.
+
+- Keep Bloom classification simple: do not maintain specialized visual conversion repairs for
+  this secondary feature. Retain findings and document incomplete visual evidence.
+- Apply KISS aggressively; add mechanisms and tests only for demonstrated needs.
+
 - Use QPM for project-owned names. Reserve QTI for the interoperability standard and its
   format-specific identifiers. Do not retain project-owned compatibility aliases.
 - Configure project-owned paths with explicit command-line arguments rather than custom
@@ -61,9 +72,9 @@ origin belongs there too. Rules: [REPO_STYLE.md](REPO_STYLE.md).
 - Make question-type badges visually distinct from download buttons: rectangular
   labels with colored side bars, using the existing colorwheel. Give MC, WOMC,
   TFMS, and Matching distinct colors.
-- Put a label-width type badge at the start of each download row and before linked
-  titles in the All Questions index. Keep headings descriptive. Have the Python
-  site build write badge markup; use CSS only for layout.
+- Use three compact rows per bank: title; downloads; type, bank Bloom labels, completion and
+  practice controls. Call the download Human-Readable and omit redundant practice hints/status.
+  Keep type badges before linked titles in All Questions. Python owns badge markup; CSS owns layout.
 - Identify the response type from each BBQ file's first record. Treat `FIB_PLUS` as the
   distinct `MULTI_FIB` type, and distinguish regular MC, WOMC, and TFMS banks.
 

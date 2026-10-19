@@ -45,6 +45,7 @@ def test_artifact_only_build_uses_existing_sources_and_selected_topics(
 	monkeypatch.setattr(build_stages, "run_topic_page", render)
 	monkeypatch.setattr(build_stages, "run_subject_indexes", finalize)
 	scope = BuildScope(mode="indexes", subject="genetics", topic="topic01")
+	monkeypatch.setattr(build_stages, "run_bloom", lambda scope: set())
 	report = build_coordinator.build_site(scope)
 	assert set(events) == {("indexes", "topic01"), ("finalize", "indexes")}
 	assert report.changes.selected_topics == {TopicRef("genetics", "topic01")}
@@ -314,6 +315,7 @@ def test_csv_rows_finish_before_each_topic_page_runs_once(
 	)
 	monkeypatch.setattr(build_stages, "run_subject_indexes", lambda scope, selected=None: set())
 
+	monkeypatch.setattr(build_stages, "run_bloom", lambda scope: set())
 	build_coordinator.build_site(BuildScope(subject="genetics"))
 
 	assert events == [
@@ -409,6 +411,7 @@ def test_limited_full_build_does_not_expand_topic_scope(
 		lambda topic, scope: selected_topics.append(topic) or set(),
 	)
 	monkeypatch.setattr(build_stages, "run_subject_indexes", lambda scope, selected=None: set())
+	monkeypatch.setattr(build_stages, "run_bloom", lambda scope: set())
 	build_coordinator.build_site(BuildScope(full=True, limit=1, subject="genetics"))
 	assert selected_topics == [topic_ref]
 
@@ -441,6 +444,7 @@ def test_full_topic_build_stays_within_selected_topic(
 	)
 	monkeypatch.setattr(build_stages, "run_subject_indexes", lambda scope, selected=None: set())
 
+	monkeypatch.setattr(build_stages, "run_bloom", lambda scope: set())
 	build_coordinator.build_site(
 		BuildScope(full=True, subject="genetics", topic="topic01")
 	)

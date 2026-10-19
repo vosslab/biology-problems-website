@@ -195,7 +195,7 @@ export async function driveSelfTestIfPresent(page, route) {
 async function ensureQuestionReady(container, route) {
 	const status = container.locator(".selftest-question-status").first();
 	try {
-		await pageWaitForReadyStatus(status);
+		await pageWaitForReadyButton(container.locator(".selftest-reroll-button"));
 	} catch (_) {
 		const message = ((await status.textContent()) || "").trim();
 		throw new Error(
@@ -208,11 +208,11 @@ async function ensureQuestionReady(container, route) {
 //============================================
 // A locator-level wait keeps the helper compatible with the bare Playwright
 // library model used by its smoke-test caller.
-async function pageWaitForReadyStatus(status) {
-	await status.waitFor({ state: "visible", timeout: REACTION_TIMEOUT_MS });
-	await status.page().waitForFunction(
-		(element) => element.textContent?.trim() === "Question ready.",
-		await status.elementHandle(),
+async function pageWaitForReadyButton(button) {
+	await button.waitFor({ state: "visible", timeout: REACTION_TIMEOUT_MS });
+	await button.page().waitForFunction(
+		(element) => !element.disabled && element.textContent?.trim() === "Show another question",
+		await button.elementHandle(),
 		{ timeout: REACTION_TIMEOUT_MS }
 	);
 }

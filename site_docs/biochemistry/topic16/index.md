@@ -5,15 +5,18 @@ Students trace glucose through glycolysis to pyruvate, calculate net ATP and NAD
 ## Cellular Respiration Stages from Statements
 
 <div id="MATCH-respiration-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-respiration-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-MATCH-respiration-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-respiration.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-MATCH-respiration-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-respiration.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-MATCH-respiration-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-respiration.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-MATCH-respiration-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-respiration.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/respiration-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-MATCH-respiration-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge type">Factual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -21,15 +24,18 @@ Students trace glucose through glycolysis to pyruvate, calculate net ATP and NAD
 ## Cellular Respiration Stages from Statements
 
 <div id="WOMC-respiration-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-respiration-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-WOMC-respiration-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-respiration.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-WOMC-respiration-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-respiration.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-WOMC-respiration-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-respiration.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-WOMC-respiration-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-respiration.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/respiration-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-WOMC-respiration-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge type">Factual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -37,12 +43,15 @@ Students trace glucose through glycolysis to pyruvate, calculate net ATP and NAD
 ## Glycolysis Intermediate Ordering
 
 <div id="order_glycolysis_molecules-ORD-4_choices-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-ord" title="Ordering">ORD</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-order_glycolysis_molecules-ORD-4_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-order_glycolysis_molecules-ORD-4_choices-questions.txt" data-format="human_readable" data-filename="human_readable-order_glycolysis_molecules-ORD-4_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-order_glycolysis_molecules-ORD-4_choices-questions.txt" data-format="human_readable" data-filename="human_readable-order_glycolysis_molecules-ORD-4_choices.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-order_glycolysis_molecules-ORD-4_choices-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-ord" title="Ordering">ORD</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Analyze" title="Cognitive process">Analyze</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 

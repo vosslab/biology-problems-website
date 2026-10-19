@@ -7,7 +7,7 @@ test("Clear Selection clears answers and feedback while retaining completion", a
   await page.goto("/biochemistry/topic04/");
   const host = page.locator('.qpm-selftest[data-bbq="bbq-alpha_helix_h-bonds-MA-questions.txt"]');
   await host.getByRole("button", { name: "Show practice question", exact: true }).click();
-  await expect(host.locator(".selftest-question-status")).toHaveText("Question ready.");
+  await expect(host.getByRole("button", { name: "Show another question", exact: true })).toBeEnabled();
   const badge = host.locator(".selftest-status");
   await expect(badge).toHaveText("Not completed");
   await host.locator('input[data-correct="false"]').first().check();
@@ -28,7 +28,7 @@ test("Clear Selection clears answers and feedback while retaining completion", a
   await expect(host.locator('[id^="result_"]')).toBeEmpty();
   await expect(badge).toContainText("Completed");
   await host.getByRole("button", { name: "Show another question", exact: true }).click();
-  await expect(host.locator(".selftest-question-status")).toHaveText("Question ready.");
+  await expect(host.getByRole("button", { name: "Show another question", exact: true })).toBeEnabled();
   await expect(host.locator('[id^="result_"]')).toBeEmpty();
   await expect(badge).toContainText("Completed");
   await page.reload();

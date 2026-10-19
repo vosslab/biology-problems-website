@@ -146,7 +146,7 @@ test("site uses the self-hosted Atkinson text font", async ({ page }) => {
 		'.qpm-selftest[data-bbq="bbq-z_score_table_interp-questions.txt"]',
 	);
 	await tableQuestion.getByRole("button", { name: "Show practice question", exact: true }).click();
-	await expect(tableQuestion.locator(".selftest-question-status")).toHaveText("Question ready.");
+	await expect(tableQuestion.getByRole("button", { name: "Show another question", exact: true })).toBeEnabled();
 	textFontFamilies.push(
 		await tableQuestion
 			.getByRole("table").first()

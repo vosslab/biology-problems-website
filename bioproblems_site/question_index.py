@@ -81,8 +81,12 @@ def collect_entries(
 
 
 #============================================
-def render(entries: list[QuestionSetEntry]) -> str:
+def render(
+		entries: list[QuestionSetEntry], classifications: dict[str, dict[str, str]] | None = None,
+	) -> str:
 	"""Render the browser-searchable public question index Markdown."""
+	# Defer this import: Bloom evidence uses QuestionSetEntry from this module.
+	import bioproblems_site.bloom as bloom
 	lines = [
 		GENERATED_MARKER,
 		"",
@@ -92,15 +96,18 @@ def render(entries: list[QuestionSetEntry]) -> str:
 		"",
 		"Browse the generated problem sets by subject and topic. Use your browser's "
 		"Find command to search all problem-set titles on this page.",
-		"For sortable results and subject, topic, and type filters, use the "
+		"For sortable results and subject, topic, type, and Bloom filters, use the "
 		"[Question Finder](question_finder.md).",
 		"",
 		f"**{len(entries)} problem sets**",
 		"",
 	]
+	classifications = classifications or {}
 	current_subject = ""
 	current_topic = ""
 	for entry in entries:
+		if current_topic and (entry.subject_title != current_subject or entry.topic_title != current_topic):
+			lines.extend(["</tbody></table></div>", ""])
 		if entry.subject_title != current_subject:
 			if current_subject:
 				lines.append("")
@@ -111,11 +118,26 @@ def render(entries: list[QuestionSetEntry]) -> str:
 			if current_topic:
 				lines.append("")
 			current_topic = entry.topic_title
-			lines.extend([f"### {html.escape(current_topic)}", ""])
+			lines.extend([f"### {html.escape(current_topic)}", "",
+				'<div class="question-index-scroll" tabindex="0" role="region" '
+				f'aria-label="{html.escape(current_topic, quote=True)} question sets">'
+				'<table class="question-index-table"><thead><tr>'
+				'<th scope="col">Name</th><th scope="col">Question type</th>'
+				'<th scope="col">Cognitive process</th><th scope="col">Knowledge type</th>'
+				'</tr></thead><tbody>'])
 		page_href = f"../{entry.page_path.removesuffix('/index.md')}/"
 		badge = problem_set_display.render_badges(entry.title, source_path=entry.source_path)
 		title = problem_set_display.render_title(entry.title, href=page_href)
-		lines.append(f'- <span class="question-index-entry">{badge}{title}</span>')
+		record = classifications.get(entry.source_path.name) if entry.source_path else None
+		labels = bloom.pair(record) if record else ("", "")
+		cells = "".join(
+			f'<td><span class="bloom-badge" data-bloom="{html.escape(label)}">'
+			f'{html.escape(label)}</span></td>' if label else '<td>Not classified</td>'
+			for label in labels
+		)
+		lines.append(f'<tr class="question-index-entry"><td>{title}</td><td>{badge}</td>{cells}</tr>')
+	if current_topic:
+		lines.append("</tbody></table></div>")
 	lines.append("")
 	return "\n".join(lines)
 
@@ -129,11 +151,15 @@ def write(
 		dry_run: bool = False,
 	) -> str:
 	"""Render and optionally write the public question index."""
+	# Defer this import: Bloom evidence uses QuestionSetEntry from this module.
+	import bioproblems_site.bloom as bloom
 	subjects, nav_order = metadata_module.load_topics_metadata(
 		metadata_path=str(metadata_path),
 		mkdocs_path=str(mkdocs_path),
 	)
-	text = render(collect_entries(site_docs_dir, subjects, nav_order))
+	text = render(
+		collect_entries(site_docs_dir, subjects, nav_order), bloom.load(site_docs_dir.parent),
+	)
 	if not dry_run:
 		file_write.write_text(output_path, text)
 	return text

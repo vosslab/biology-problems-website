@@ -38,6 +38,7 @@ hooks:
 
 extra_css:
   - assets/stylesheets/custom.css
+  - assets/stylesheets/bloom.css
   - assets/stylesheets/homepage.css
   - assets/stylesheets/daily_puzzle.css
 

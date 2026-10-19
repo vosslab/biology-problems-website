@@ -183,11 +183,9 @@
 				await mount(state, next, version);
 				if (!current(state, version)) { return false; }
 				state.nextQuestion += 1;
-				state.title.remove();
 				state.header.classList.remove("selftest-question-placeholder");
-				state.hint.textContent = "Replaces this question with another from the same set.";
 				state.button.textContent = "Show another question";
-				state.status.textContent = "Question ready.";
+				state.status.textContent = "";
 				return true;
 			} catch (error) {
 				if (current(state, version)) {
@@ -272,31 +270,20 @@
 	}
 
 	function prepare(host) {
-		var header = document.createElement("div");
-		header.className = "selftest-question-header selftest-question-placeholder";
-		var title = document.createElement("div");
-		title.className = "selftest-question-title";
-		title.textContent = "Practice question";
-		var controls = document.createElement("div");
-		controls.className = "selftest-question-controls";
+		var header = host.querySelector(".selftest-question-header");
 		var button = document.createElement("button");
 		button.type = "button";
 		button.className = "selftest-reroll-button";
 		button.textContent = "Show practice question";
-		var hint = document.createElement("span");
-		hint.className = "selftest-question-hint";
-		hint.textContent = "Your question will appear here.";
 		var status = document.createElement("span");
 		status.className = "selftest-question-status";
 		status.setAttribute("role", "status");
 		status.setAttribute("aria-live", "polite");
-		controls.append(button, hint);
-		header.append(title, controls, status);
-		host.prepend(header);
+		header.append(button, status);
 		host.tabIndex = -1;
 		var state = {
 			host: host, body: host.querySelector(".selftest-reroll-content"),
-			header: header, title: title, button: button, hint: hint, status: status,
+			header: header, button: button, status: status,
 			crc: null, version: 0, nextQuestion: 0, ready: false,
 			pending: null, advanced: false, cleanup: function () {}
 		};

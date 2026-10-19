@@ -60,6 +60,18 @@ CLI exposes one dependency-aware content build workflow.
 The remaining `devel/` helpers are propagated repository-maintenance commands for
 versioning, changelog, release, graphify, and cleanup workflows.
 
+## Bloom classification
+
+[bioproblems_site/bloom.py](../bioproblems_site/bloom.py) owns backend-only JEV requests
+and the compact filename-to-pair cache in [problem_set_bloom.yml](../problem_set_bloom.yml).
+[bioproblems_site/bloom_evidence.py](../bioproblems_site/bloom_evidence.py) selects readable
+question evidence or authored YAML; [bioproblems_site/bloom_rubric.py](../bioproblems_site/bloom_rubric.py)
+owns the classification criteria, and [bioproblems_site/bloom_report.py](../bioproblems_site/bloom_report.py)
+produces coverage reports. Normal and index-only builds classify missing filenames before
+rendering topic pages and discovery indexes. The browser consumes static labels and never
+calls JEV. Request diagnostics stay in ignored `LOCAL_ONLY/` storage. See
+[BLOOM_TAXONOMY_GUIDE.md](BLOOM_TAXONOMY_GUIDE.md) for maintenance and limitations.
+
 ## Data flow
 
 The coordinator loads the selected task CSVs from [task_files/](../task_files/),
@@ -86,18 +98,18 @@ basenames, and then writes the self-test manifest.
 
 ## Browser self-test lifecycle
 
-Topic pages contain empty `.qpm-selftest` containers identifying their BBQ bank with
+Topic pages contain `.qpm-selftest` containers with static bank headers identifying their BBQ bank with
 `data-bbq`. The manifest reads these declarations on reachable pages and validates
 each bank in its topic directory. The browser uses the bank and vendored WebAssembly
 converter to make its active question.
 
 [selftest_reroll.js](../site_docs/assets/scripts/selftest_reroll.js) owns the
-whole question lifecycle: it creates the question header, generates the first
+whole question lifecycle: it adds controls to the static bank header, generates the first
 container on page load, mounts converter output, wraps the generated answer
 checker, and advances after a fully correct answer. It emits bubbling
 `selftest:ready` and `selftest:graded` events. The next question begins loading
 alongside the 500 ms feedback pause and receives focus only when it is ready.
-Manual **New version** replaces one container without retaining attempt history.
+Manual **Show another question** replaces the generated question content without retaining attempt history.
 
 [selftest_progress.js](../site_docs/assets/scripts/selftest_progress.js) and
 [streak.js](../site_docs/assets/scripts/streak.js) subscribe to those events.

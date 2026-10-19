@@ -1,5 +1,61 @@
 # Changelog
 
+## 2026-10-19
+
+### Behavior or Interface Changes
+
+- Add cognitive-process and knowledge-type columns to each sitemap topic table, using the
+  same cached Bloom labels and theme-aware badges as Question Finder.
+
+- Color cognitive and knowledge labels independently using the matching-template palette. Share
+  compact Bloom badges between topic pages and Question Finder, with light/dark theme contrast.
+  All 20 rendered category/theme pairs exceed 5.5:1 (minimum 6.06:1); keep palette evidence local.
+
+- Consolidate question-bank headers into title, downloads, and metadata/actions rows. Keep type,
+  bank-level Bloom labels, completion and practice controls together; remove redundant practice
+  hints and success messages, and shorten the download label to Human-Readable.
+
+- Add estimated Bloom cognitive-process and knowledge labels to Question Finder filters/sorting
+  and question-bank displays. Labels persist across instance rerolls and regenerated questions.
+- Classify missing filenames with JEV during content generation and index-only builds. Keep the
+  editable classification map as one `filename: Cognitive, Knowledge` entry per bank; preserve
+  cached labels on ordinary builds and API failures. Provide explicit refresh and coverage commands.
+- Keep API credentials, request evidence, probabilities, model/rubric versions, and experimental
+  results outside the published site; experimental files live in ignored `LOCAL_ONLY/` storage.
+
+### Developer Tests and Notes
+
+- Complete six independent Bloom audit passes. Update workflow and ownership documentation,
+  explain deferred imports, and remove an incidental sitemap cell-count assertion. Flag unrelated
+  homepage provenance loss and a staged obsolete experiment for release preparation.
+
+
+- Move the standalone Bloom utility into `devel/` for explicit refresh/report maintenance.
+  Normal `build_site.py` generation and index builds already classify missing filenames.
+
+- Check the unchanged Bloom rubric against 24 blinded official ISU objectives and independent
+  assessments of eight banks, then compare a reasoning-first candidate on six fresh banks. Keep
+  rubric version 2 and existing labels: evidence does not justify automatic upward promotion.
+  Document results in `BLOOM_EXTERNAL_VALIDATION.md`; keep scripts and raw experiments untracked.
+
+- Rank all 414 banks by pre-conversion compression and inspect the largest reductions. Experimentally restore
+  pedigree relationships, tree branches, molecular canvases, box-plot marks, DNA gel bands,
+  genetic-code associations, and pipette color cues in JEV evidence. Preserve numeric answer fields.
+- Remove specialized visual parsers and their tests after the experiment; retain simple extraction,
+  the numeric-field fix, cached classifications and documented evidence limitations.
+- Reassess 78 affected filenames with the existing model and rubric: 10 pairs change; Analyze rises
+  from 30 to 32, while all 12 pedigree banks remain Understand / Conceptual. Keep raw experiments
+  untracked and document source-type confounding and remaining visual gaps in `BLOOM_EVIDENCE_AUDIT.md`.
+- Revise the taxonomy guide for BPW and add a small live diagnostic set, source-backed rubric
+  boundaries, and a coverage report. Reference agreement and stability do not establish accuracy.
+- Classify all 414 filenames, then refine the rubric and rerun: 108 pairs change. Provisional
+  reference agreement increases from 16/20 to 20/20; the same 25-bank stress sample improves from
+  16 unchanged pairs to 23. Record remaining category ambiguities in `BLOOM_FINDINGS.md`.
+- Verify compact persistence, source selection, failure/dry-run behavior, shared-bank placements,
+  combined Bloom filters, taxonomy sorting, and labels surviving browser rerolls.
+- The default pytest whitespace fixer touches three existing BBQ files with trailing empty fields;
+  restore their original bytes after verification, keeping question content outside this change.
+
 ## 2026-10-14
 
 ### Fixes and Maintenance

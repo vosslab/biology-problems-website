@@ -1,8 +1,8 @@
 // Dynamic self-test contract. Selectors here describe the student-visible
 // container contract in selftest_reroll.js: an empty body is populated on
 // demand, its header owns the completion badge and practice button, and the
-// status region reports readiness. Question IDs belong to QPM html_selftest;
-// labels, hint and status belong to selftest_reroll.js prepare()/generate().
+// status region reports loading/errors. Question IDs belong to QPM html_selftest;
+// bank metadata is static and practice controls belong to selftest_reroll.js.
 import { expect, test } from "@playwright/test";
 import type { Locator, Page } from "@playwright/test";
 
@@ -13,7 +13,7 @@ function questionId(host: Locator): Locator {
 }
 
 async function waitForReady(host: Locator): Promise<void> {
-  await expect(host.locator(".selftest-question-status")).toHaveText("Question ready.");
+  await expect(host.getByRole("button", { name: "Show another question", exact: true })).toBeEnabled();
   await expect(questionId(host)).toBeVisible();
 }
 
@@ -29,6 +29,10 @@ test("Show another question walks the bank in source order and wraps", async ({ 
   await page.goto("/genetics/topic01/");
   const host = page.locator(".qpm-selftest[data-bbq]").first();
   await waitForReady(host);
+  const bloom = page.locator(".bloom-classification").first();
+  const classification = await bloom.innerText();
+  await expect(bloom).toHaveAttribute("aria-label", "Estimated Bloom labels for this bank");
+  await expect(host.locator(".selftest-question-header .question-type-badges")).toBeVisible();
   await expect(host.getByText("First bank question", { exact: true })).toBeVisible();
   for (const prompt of ["Second bank question", "Third bank question", "First bank question"]) {
     await host.getByRole("radio").first().check();
@@ -36,6 +40,7 @@ test("Show another question walks the bank in source order and wraps", async ({ 
     await waitForReady(host);
     await expect(host.getByText(prompt, { exact: true })).toBeVisible();
     await expect(host.locator("input:checked")).toHaveCount(0);
+    await expect(bloom).toHaveText(classification, { useInnerText: true });
   }
   await host.getByRole("button", { name: "Show another question", exact: true }).click();
   await expect(host.getByText("Second bank question", { exact: true })).toBeVisible();
@@ -85,8 +90,8 @@ test("real WASM installs question styles and loads another question on request",
     expect(contrast).toBeGreaterThanOrEqual(4.5);
   }
   await expect(second.locator(`[id^="${QUESTION_ID_PREFIX}"]`)).toHaveCount(0);
-  await expect(second.getByText("Practice question", { exact: true })).toBeVisible();
-  await expect(second.getByText("Your question will appear here.", { exact: true })).toBeVisible();
+  await expect(second.getByText("Practice question", { exact: true })).toHaveCount(0);
+  await expect(second.getByText("Your question will appear here.", { exact: true })).toHaveCount(0);
   await expect(second.getByRole("button", { name: "Show practice question", exact: true })).toBeVisible();
 
   const start = second.getByRole("button", { name: "Show practice question", exact: true });
@@ -96,7 +101,7 @@ test("real WASM installs question styles and loads another question on request",
   await expect(second.getByText("Practice question", { exact: true })).toHaveCount(0);
   await expect(second.getByText("Your question will appear here.", { exact: true })).toHaveCount(0);
   await expect(second.getByText("Replaces this question with another from the same set.",
-    { exact: true })).toBeVisible();
+    { exact: true })).toHaveCount(0);
   await expect(page.locator("#qpm-selftest-theme")).toHaveCount(1);
   expect(errors).toEqual([]);
 });
@@ -183,9 +188,9 @@ async function lifecycleFixture(page: Page): Promise<Locator> {
   });
   await page.route("**/selftest_lifecycle_fixture/", async (route) => {
     await route.fulfill({ contentType: "text/html", body: `
-      <div class="qpm-selftest" data-bbq="one.txt"><div class="selftest-reroll-content"></div></div>
-      <div class="qpm-selftest" data-bbq="two.txt"><div class="selftest-reroll-content"></div></div>
-      <div class="qpm-selftest" data-bbq="three.txt"><div class="selftest-reroll-content"></div></div>
+      <div class="qpm-selftest" data-bbq="one.txt"><div class="selftest-question-header selftest-question-placeholder"></div><div class="selftest-reroll-content"></div></div>
+      <div class="qpm-selftest" data-bbq="two.txt"><div class="selftest-question-header selftest-question-placeholder"></div><div class="selftest-reroll-content"></div></div>
+      <div class="qpm-selftest" data-bbq="three.txt"><div class="selftest-question-header selftest-question-placeholder"></div><div class="selftest-reroll-content"></div></div>
       <script src="/assets/scripts/selftest_reroll.js"></script>
     ` });
   });
@@ -222,7 +227,7 @@ async function dependencyFixture(page: Page): Promise<Locator> {
   });
   await page.route("**/selftest_dependency_fixture/", async (route) => {
     await route.fulfill({ contentType: "text/html", body: `
-      <div class="qpm-selftest" data-bbq="dependency.txt"><div class="selftest-reroll-content"></div></div>
+      <div class="qpm-selftest" data-bbq="dependency.txt"><div class="selftest-question-header selftest-question-placeholder"></div><div class="selftest-reroll-content"></div></div>
       <script src="/assets/scripts/selftest_reroll.js"></script>
     ` });
   });
@@ -253,7 +258,7 @@ test("question readiness waits for external drawing dependencies, then retries a
   const host = await dependencyFixture(page);
   await expect(host.locator(".selftest-question-status")).toContainText("Could not load a question script. Try again.");
   await expect(host.getByRole("button", { name: "Retry", exact: true })).toBeEnabled();
-  await expect(host.getByText("Practice question", { exact: true })).toBeVisible();
+  await expect(host.getByText("Practice question", { exact: true })).toHaveCount(0);
   await expect(host.locator("canvas")).not.toHaveAttribute("data-drawn", "yes");
 
   fail = false;
@@ -302,7 +307,7 @@ test("correct feedback remains while the next question becomes ready, and reroll
   await expect(first.locator('[id^="result_"]')).toHaveText("CORRECT");
   await expect(second.getByRole("button", { name: "Loading question...", exact: true }))
     .toBeDisabled();
-  await expect(second.getByText("Your question will appear here.", { exact: true })).toBeVisible();
+  await expect(second.getByText("Your question will appear here.", { exact: true })).toHaveCount(0);
   await expect(questionId(second)).toHaveCount(0);
   releaseQuestion();
   await waitForReady(second);

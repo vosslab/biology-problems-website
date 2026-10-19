@@ -5,15 +5,18 @@ RNA splicing, mRNA maturation, and CRISPR gene editing.
 ## Intron Removal Mechanisms
 
 <div id="TFMS-intron_splicing-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-intron_splicing-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-TFMS-intron_splicing-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-intron_splicing.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-TFMS-intron_splicing-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-intron_splicing.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-TFMS-intron_splicing-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-intron_splicing.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-TFMS-intron_splicing-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-intron_splicing.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/intron_splicing.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-TFMS-intron_splicing-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge type">Factual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -21,15 +24,18 @@ RNA splicing, mRNA maturation, and CRISPR gene editing.
 ## mRNA Post-Transcriptional Modification
 
 <div id="TFMS-mRNA_processing-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-mRNA_processing-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-TFMS-mRNA_processing-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-mRNA_processing.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-TFMS-mRNA_processing-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-mRNA_processing.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-TFMS-mRNA_processing-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-mRNA_processing.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-TFMS-mRNA_processing-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-mRNA_processing.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/mRNA_processing.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-TFMS-mRNA_processing-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge type">Factual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -37,14 +43,17 @@ RNA splicing, mRNA maturation, and CRISPR gene editing.
 ## Alternative Splicing Possibilities
 
 <div id="exon_splicing-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-exon_splicing-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-exon_splicing-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-exon_splicing.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-exon_splicing-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-exon_splicing.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-exon_splicing-questions.txt" data-format="human_readable" data-filename="human_readable-exon_splicing.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-exon_splicing-questions.txt" data-format="human_readable" data-filename="human_readable-exon_splicing.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-exon_splicing-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Analyze" title="Cognitive process">Analyze</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 

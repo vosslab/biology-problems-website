@@ -21,6 +21,12 @@ variables inherit from the page. The hook changes built CSS only, including duri
 
 ## CLI
 
+Normal and `--indexes-only` builds classify missing Bloom filenames through JEV before
+rendering pages and indexes. Existing labels are retained; missing credentials or an API
+failure leave pending banks unclassified without discarding cached pairs. Dry runs make no
+classification requests. See [BLOOM_TAXONOMY_GUIDE.md](BLOOM_TAXONOMY_GUIDE.md) for key setup
+and explicit refresh/report commands.
+
 - Build stale BBQ output and affected site pages:
   ```bash
   source source_me.sh && ./build_site.py
@@ -156,7 +162,7 @@ the dependency automatically. See [INSTALL.md](INSTALL.md) for explicit refresh 
 
 ### Browser downloads
 
-Topic pages generate Blackboard Ultra ZIP, Canvas/ADAPT QTI v1.2 ZIP, and Human-Readable HTML
+Topic pages generate Blackboard Ultra ZIP, Canvas/ADAPT QTI v1.2 ZIP, and Human-Readable
 from the original BBQ source when the corresponding control is clicked. BBQ and existing
 WeBWorK PGML remain direct file downloads. ORDER/ORD banks retain the existing Blackboard/Canvas
 availability restriction. Ordinary builds skip the three replaced prebuilt export formats.
@@ -168,7 +174,7 @@ the status explains the failure and the control permits another attempt. Canvas 
 use direct canonical conversion; Blackboard uses canonical Rust planning and finalization around
 browser PNG capture. Original question identities and grading stay with the source converter.
 
-Human-Readable HTML opens a new tab from the click and displays the converted document when ready.
+Human-Readable opens a new tab from the click and displays the converted document when ready.
 Self-test grading and problem-set completion remain independent of download conversion.
 The static site serves its vendored dependencies locally; see [INSTALL.md](INSTALL.md) for
 canonical build and dependency refresh commands. Actual Blackboard Ultra import/display/grading

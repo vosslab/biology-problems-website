@@ -13,6 +13,7 @@ import bioproblems_site.file_write as file_write
 import bioproblems_site.metadata as metadata
 import bioproblems_site.problem_set_display as problem_set_display
 import bioproblems_site.question_index as question_index
+import bioproblems_site.bloom as bloom
 
 
 #============================================
@@ -21,12 +22,15 @@ def catalog_rows(
 	) -> list[dict[str, str]]:
 	"""Keep each source placement, using the canonical title and type authorities."""
 	rows = []
+	classifications = bloom.load(site_docs_dir.parent)
 	for entry in entries:
 		if entry.source_path is None:
 			raise ValueError("Finder rows require a BBQ source path")
 		name, _cached_types = problem_set_display.split_title(entry.title)
 		code = problem_set_display.question_type_for_source(entry.source_path)
 		label, description = problem_set_display.QUESTION_TYPES[code]
+		record = classifications.get(entry.source_path.name)
+		cognitive, knowledge = bloom.pair(record) if record else ("", "")
 		# Relative routes also work when the site is hosted below a project prefix.
 		url = "../" + urllib.parse.quote(entry.page_path.removesuffix("/index.md")) + "/"
 		rows.append({
@@ -38,6 +42,8 @@ def catalog_rows(
 			"type_code": code,
 			"type_description": description,
 			"url": url,
+			"cognitive": cognitive,
+			"knowledge": knowledge,
 		})
 	return rows
 

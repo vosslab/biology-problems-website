@@ -7,14 +7,17 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 ## D/L Monosaccharide Configurations from Fischer Projections
 
 <div id="D_to_L_Fischer_configuration-MC-with_hint-5_choices-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-D_to_L_Fischer_configuration-MC-with_hint-5_choices.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-D_to_L_Fischer_configuration-MC-with_hint-5_choices.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-D_to_L_Fischer_configuration-MC-with_hint-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-D_to_L_Fischer_configuration-MC-with_hint-5_choices.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -22,14 +25,17 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 ## D/L Monosaccharide Configurations from Haworth Projections
 
 <div id="D_to_L_Haworth_configuration-MC-with_hint-5_choices-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-D_to_L_Haworth_configuration-MC-with_hint-5_choices.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-D_to_L_Haworth_configuration-MC-with_hint-5_choices.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-D_to_L_Haworth_configuration-MC-with_hint-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-D_to_L_Haworth_configuration-MC-with_hint-5_choices.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -37,15 +43,18 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 ## Polysaccharides from Descriptions
 
 <div id="MATCH-polysaccharides-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-polysaccharides-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-MATCH-polysaccharides-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-polysaccharides.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-MATCH-polysaccharides-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-polysaccharides.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-MATCH-polysaccharides-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-polysaccharides.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-MATCH-polysaccharides-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-polysaccharides.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/polysaccharides-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-MATCH-polysaccharides-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge type">Factual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -53,15 +62,18 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 ## Polysaccharides from Descriptions
 
 <div id="WOMC-polysaccharides-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-polysaccharides-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-WOMC-polysaccharides-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-polysaccharides.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-WOMC-polysaccharides-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-polysaccharides.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-WOMC-polysaccharides-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-polysaccharides.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-WOMC-polysaccharides-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-polysaccharides.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/polysaccharides-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-WOMC-polysaccharides-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge type">Factual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -69,14 +81,17 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 ## Monosaccharide Classification from Fischer Projections
 
 <div id="classify_Fischer-MA-with_hint-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-classify_Fischer-MA-with_hint-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-classify_Fischer-MA-with_hint-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-classify_Fischer-MA-with_hint.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-classify_Fischer-MA-with_hint-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-classify_Fischer-MA-with_hint.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-classify_Fischer-MA-with_hint-questions.txt" data-format="human_readable" data-filename="human_readable-classify_Fischer-MA-with_hint.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-classify_Fischer-MA-with_hint-questions.txt" data-format="human_readable" data-filename="human_readable-classify_Fischer-MA-with_hint.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-classify_Fischer-MA-with_hint-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Cognitive process">Understand</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -84,14 +99,17 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 ## Furanose Monosaccharide Classification from Haworth Projections
 
 <div id="classify_Haworth-MA-with_hint-FURAN-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-classify_Haworth-MA-with_hint-FURAN.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-classify_Haworth-MA-with_hint-FURAN.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt" data-format="human_readable" data-filename="human_readable-classify_Haworth-MA-with_hint-FURAN.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt" data-format="human_readable" data-filename="human_readable-classify_Haworth-MA-with_hint-FURAN.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Cognitive process">Understand</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -99,14 +117,17 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 ## Pyranose Monosaccharide Classification from Haworth Projections
 
 <div id="classify_Haworth-MA-with_hint-PYRAN-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-classify_Haworth-MA-with_hint-PYRAN.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-classify_Haworth-MA-with_hint-PYRAN.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt" data-format="human_readable" data-filename="human_readable-classify_Haworth-MA-with_hint-PYRAN.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt" data-format="human_readable" data-filename="human_readable-classify_Haworth-MA-with_hint-PYRAN.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Cognitive process">Understand</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -114,14 +135,17 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 ## Furanose Haworth Projections from Fischer Projections
 
 <div id="convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -129,14 +153,17 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 ## Pyranose Haworth Projections from Fischer Projections
 
 <div id="convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -144,14 +171,17 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 ## Furanose Fischer Projections from Haworth Projections
 
 <div id="convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -159,14 +189,17 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 ## Pyranose Fischer Projections from Haworth Projections
 
 <div id="convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 

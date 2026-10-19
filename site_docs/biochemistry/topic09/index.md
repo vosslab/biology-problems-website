@@ -7,15 +7,18 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
 ## Allosteric Enzyme Models from Conformational Descriptions
 
 <div id="allosteric_enzyme_models-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-allosteric_enzyme_models-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-allosteric_enzyme_models-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-allosteric_enzyme_models.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-allosteric_enzyme_models-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-allosteric_enzyme_models.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-allosteric_enzyme_models-questions.txt" data-format="human_readable" data-filename="human_readable-allosteric_enzyme_models.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-allosteric_enzyme_models-questions.txt" data-format="human_readable" data-filename="human_readable-allosteric_enzyme_models.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/allosteric_enzyme_models.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-allosteric_enzyme_models-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -23,15 +26,18 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
 ## Metabolic Regulation in Converging Pathways
 
 <div id="feedback_merging_pathway-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-feedback_merging_pathway-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-feedback_merging_pathway-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-feedback_merging_pathway.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-feedback_merging_pathway-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-feedback_merging_pathway.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-feedback_merging_pathway-questions.txt" data-format="human_readable" data-filename="human_readable-feedback_merging_pathway.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-feedback_merging_pathway-questions.txt" data-format="human_readable" data-filename="human_readable-feedback_merging_pathway.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/feedback_merging_pathway.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-feedback_merging_pathway-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Analyze" title="Cognitive process">Analyze</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -39,15 +45,18 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
 ## Metabolic Regulation in Diverging Pathways
 
 <div id="feedback_splitting_pathway-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-feedback_splitting_pathway-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-feedback_splitting_pathway-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-feedback_splitting_pathway.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-feedback_splitting_pathway-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-feedback_splitting_pathway.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-feedback_splitting_pathway-questions.txt" data-format="human_readable" data-filename="human_readable-feedback_splitting_pathway.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-feedback_splitting_pathway-questions.txt" data-format="human_readable" data-filename="human_readable-feedback_splitting_pathway.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/feedback_splitting_pathway.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-feedback_splitting_pathway-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Analyze" title="Cognitive process">Analyze</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -55,15 +64,18 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
 ## Hemoglobin Oxygen Affinity Under Different Conditions
 
 <div id="hemoglobin_oxygen_affinity-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-hemoglobin_oxygen_affinity-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-hemoglobin_oxygen_affinity-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-hemoglobin_oxygen_affinity.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-hemoglobin_oxygen_affinity-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-hemoglobin_oxygen_affinity.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-hemoglobin_oxygen_affinity-questions.txt" data-format="human_readable" data-filename="human_readable-hemoglobin_oxygen_affinity.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-hemoglobin_oxygen_affinity-questions.txt" data-format="human_readable" data-filename="human_readable-hemoglobin_oxygen_affinity.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/hemoglobin_oxygen_affinity.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-hemoglobin_oxygen_affinity-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -71,15 +83,18 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
 ## Allosteric Enzymes in Metabolic Pathways
 
 <div id="metabolic_pathway_allosteric-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-metabolic_pathway_allosteric-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-metabolic_pathway_allosteric-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-metabolic_pathway_allosteric.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-metabolic_pathway_allosteric-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-metabolic_pathway_allosteric.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-metabolic_pathway_allosteric-questions.txt" data-format="human_readable" data-filename="human_readable-metabolic_pathway_allosteric.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-metabolic_pathway_allosteric-questions.txt" data-format="human_readable" data-filename="human_readable-metabolic_pathway_allosteric.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/metabolic_pathway_allosteric.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-metabolic_pathway_allosteric-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Cognitive process">Understand</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 

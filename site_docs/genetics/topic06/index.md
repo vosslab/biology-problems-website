@@ -7,15 +7,18 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Meiosis Prophase I Stages from Descriptions
 
 <div id="MATCH-meiosis_prophase_1-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-meiosis_prophase_1-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-MATCH-meiosis_prophase_1-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-meiosis_prophase_1.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-MATCH-meiosis_prophase_1-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-meiosis_prophase_1.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-MATCH-meiosis_prophase_1-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-meiosis_prophase_1.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-MATCH-meiosis_prophase_1-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-meiosis_prophase_1.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/meiosis_prophase_1-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-MATCH-meiosis_prophase_1-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge type">Factual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -23,15 +26,18 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Meiosis Terms from Definitions
 
 <div id="MATCH-meiosis_terms-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-meiosis_terms-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-MATCH-meiosis_terms-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-meiosis_terms.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-MATCH-meiosis_terms-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-meiosis_terms.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-MATCH-meiosis_terms-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-meiosis_terms.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-MATCH-meiosis_terms-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-meiosis_terms.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/meiosis_terms-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-MATCH-meiosis_terms-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge type">Factual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -39,15 +45,18 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Sex Determination Systems from Descriptions
 
 <div id="MATCH-sex_determination-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-sex_determination-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-MATCH-sex_determination-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-sex_determination.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-MATCH-sex_determination-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-sex_determination.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-MATCH-sex_determination-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-sex_determination.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-MATCH-sex_determination-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-sex_determination.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/sex_determination-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-MATCH-sex_determination-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -55,15 +64,18 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Mitosis and Meiosis
 
 <div id="TFMS-mitosis_and_meiosis-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-mitosis_and_meiosis-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-TFMS-mitosis_and_meiosis-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-mitosis_and_meiosis.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-TFMS-mitosis_and_meiosis-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-mitosis_and_meiosis.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-TFMS-mitosis_and_meiosis-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-mitosis_and_meiosis.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-TFMS-mitosis_and_meiosis-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-mitosis_and_meiosis.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/mitosis_and_meiosis.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-TFMS-mitosis_and_meiosis-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -71,15 +83,18 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Meiosis Prophase I Stages from Descriptions
 
 <div id="WOMC-meiosis_prophase_1-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-meiosis_prophase_1-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-WOMC-meiosis_prophase_1-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-meiosis_prophase_1.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-WOMC-meiosis_prophase_1-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-meiosis_prophase_1.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-WOMC-meiosis_prophase_1-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-meiosis_prophase_1.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-WOMC-meiosis_prophase_1-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-meiosis_prophase_1.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/meiosis_prophase_1-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-WOMC-meiosis_prophase_1-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge type">Factual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -87,15 +102,18 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Meiosis Terms from Definitions
 
 <div id="WOMC-meiosis_terms-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-meiosis_terms-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-WOMC-meiosis_terms-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-meiosis_terms.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-WOMC-meiosis_terms-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-meiosis_terms.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-WOMC-meiosis_terms-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-meiosis_terms.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-WOMC-meiosis_terms-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-meiosis_terms.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/meiosis_terms-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-WOMC-meiosis_terms-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge type">Factual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -103,15 +121,18 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Sex Determination Systems from Descriptions
 
 <div id="WOMC-sex_determination-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-sex_determination-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-WOMC-sex_determination-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-sex_determination.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-WOMC-sex_determination-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-sex_determination.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-WOMC-sex_determination-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-sex_determination.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-WOMC-sex_determination-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-sex_determination.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/sex_determination-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-WOMC-sex_determination-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -119,14 +140,17 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Combined Autosomal Dominant and X-Linked Recessive Inheritance (Both Disorders)
 
 <div id="dominant_and_X-linked_recessive-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-dominant_and_X-linked_recessive-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-dominant_and_X-linked_recessive-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-dominant_and_X-linked_recessive.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-dominant_and_X-linked_recessive-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-dominant_and_X-linked_recessive.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-dominant_and_X-linked_recessive-questions.txt" data-format="human_readable" data-filename="human_readable-dominant_and_X-linked_recessive.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-dominant_and_X-linked_recessive-questions.txt" data-format="human_readable" data-filename="human_readable-dominant_and_X-linked_recessive.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-dominant_and_X-linked_recessive-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -134,14 +158,17 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Combined Autosomal Dominant and X-Linked Recessive Inheritance (Varied Outcomes)
 
 <div id="dominant_and_X-linked_recessive_variations-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-dominant_and_X-linked_recessive_variations-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-dominant_and_X-linked_recessive_variations-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-dominant_and_X-linked_recessive_variations.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-dominant_and_X-linked_recessive_variations-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-dominant_and_X-linked_recessive_variations.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-dominant_and_X-linked_recessive_variations-questions.txt" data-format="human_readable" data-filename="human_readable-dominant_and_X-linked_recessive_variations.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-dominant_and_X-linked_recessive_variations-questions.txt" data-format="human_readable" data-filename="human_readable-dominant_and_X-linked_recessive_variations.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-dominant_and_X-linked_recessive_variations-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -149,15 +176,18 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Parent Genotypes in X-Linked Recessive Crosses
 
 <div id="poisson_flies-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-poisson_flies-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-poisson_flies-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-poisson_flies.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-poisson_flies-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-poisson_flies.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-poisson_flies-questions.txt" data-format="human_readable" data-filename="human_readable-poisson_flies.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-poisson_flies-questions.txt" data-format="human_readable" data-filename="human_readable-poisson_flies.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <a class="md-button custom-button webwork_pgml" href="downloads/poisson_flies.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-poisson_flies-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -165,14 +195,17 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Offspring Sex Distribution Using the Binomial Model
 
 <div id="probabiliy_of_progeny-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-probabiliy_of_progeny-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-probabiliy_of_progeny-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-probabiliy_of_progeny.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-probabiliy_of_progeny-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-probabiliy_of_progeny.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-probabiliy_of_progeny-questions.txt" data-format="human_readable" data-filename="human_readable-probabiliy_of_progeny.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-probabiliy_of_progeny-questions.txt" data-format="human_readable" data-filename="human_readable-probabiliy_of_progeny.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-probabiliy_of_progeny-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -180,14 +213,17 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Pedigree Identification from Inheritance Patterns (Easy)
 
 <div id="write_pattern_to_pedigree-easy-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-write_pattern_to_pedigree-easy-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-write_pattern_to_pedigree-easy-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-write_pattern_to_pedigree-easy.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-write_pattern_to_pedigree-easy-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-write_pattern_to_pedigree-easy.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-write_pattern_to_pedigree-easy-questions.txt" data-format="human_readable" data-filename="human_readable-write_pattern_to_pedigree-easy.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-write_pattern_to_pedigree-easy-questions.txt" data-format="human_readable" data-filename="human_readable-write_pattern_to_pedigree-easy.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-write_pattern_to_pedigree-easy-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Cognitive process">Understand</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -195,14 +231,17 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Inheritance Patterns from Pedigrees (Easy)
 
 <div id="write_pedigree_pattern_matching-easy-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-write_pedigree_pattern_matching-easy-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-write_pedigree_pattern_matching-easy-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-write_pedigree_pattern_matching-easy.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-write_pedigree_pattern_matching-easy-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-write_pedigree_pattern_matching-easy.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-write_pedigree_pattern_matching-easy-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_pattern_matching-easy.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-write_pedigree_pattern_matching-easy-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_pattern_matching-easy.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-write_pedigree_pattern_matching-easy-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Cognitive process">Understand</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -210,14 +249,17 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Inheritance Patterns from Pedigrees (Bonus)
 
 <div id="write_pedigree_to_pattern-bonus-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-write_pedigree_to_pattern-bonus-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-write_pedigree_to_pattern-bonus-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-write_pedigree_to_pattern-bonus.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-write_pedigree_to_pattern-bonus-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-write_pedigree_to_pattern-bonus.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-write_pedigree_to_pattern-bonus-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-bonus.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-write_pedigree_to_pattern-bonus-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-bonus.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-write_pedigree_to_pattern-bonus-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Cognitive process">Understand</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -225,14 +267,17 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Inheritance Patterns from Pedigrees (Easy)
 
 <div id="write_pedigree_to_pattern-easy-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-write_pedigree_to_pattern-easy-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-write_pedigree_to_pattern-easy-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-write_pedigree_to_pattern-easy.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-write_pedigree_to_pattern-easy-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-write_pedigree_to_pattern-easy.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-write_pedigree_to_pattern-easy-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-easy.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-write_pedigree_to_pattern-easy-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-easy.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-write_pedigree_to_pattern-easy-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Cognitive process">Understand</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -240,14 +285,17 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Inheritance Patterns from Pedigrees (Medium)
 
 <div id="write_pedigree_to_pattern-medium-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-write_pedigree_to_pattern-medium-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-write_pedigree_to_pattern-medium-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-write_pedigree_to_pattern-medium.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-write_pedigree_to_pattern-medium-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-write_pedigree_to_pattern-medium.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-write_pedigree_to_pattern-medium-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-medium.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-write_pedigree_to_pattern-medium-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-medium.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-write_pedigree_to_pattern-medium-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Cognitive process">Understand</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -255,14 +303,17 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Inheritance Patterns from Pedigrees (Rigorous)
 
 <div id="write_pedigree_to_pattern-rigorous-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-write_pedigree_to_pattern-rigorous-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-write_pedigree_to_pattern-rigorous-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-write_pedigree_to_pattern-rigorous.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-write_pedigree_to_pattern-rigorous-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-write_pedigree_to_pattern-rigorous.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-write_pedigree_to_pattern-rigorous-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-rigorous.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-write_pedigree_to_pattern-rigorous-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-rigorous.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-write_pedigree_to_pattern-rigorous-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Cognitive process">Understand</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -270,14 +321,17 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## X-Linked Eye Color Inheritance
 
 <div id="x_linked_reciprocal_cross-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-x_linked_reciprocal_cross-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-x_linked_reciprocal_cross-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-x_linked_reciprocal_cross.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-x_linked_reciprocal_cross-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-x_linked_reciprocal_cross.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-x_linked_reciprocal_cross-questions.txt" data-format="human_readable" data-filename="human_readable-x_linked_reciprocal_cross.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-x_linked_reciprocal_cross-questions.txt" data-format="human_readable" data-filename="human_readable-x_linked_reciprocal_cross.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-x_linked_reciprocal_cross-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -285,14 +339,17 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## X-Linked Coat Color Probability
 
 <div id="x_linked_tortoiseshell-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-x_linked_tortoiseshell-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
 <button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-x_linked_tortoiseshell-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-x_linked_tortoiseshell.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
 <button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-x_linked_tortoiseshell-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-x_linked_tortoiseshell.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-x_linked_tortoiseshell-questions.txt" data-format="human_readable" data-filename="human_readable-x_linked_tortoiseshell.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-x_linked_tortoiseshell-questions.txt" data-format="human_readable" data-filename="human_readable-x_linked_tortoiseshell.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><div class="qpm-selftest" data-bbq="bbq-x_linked_tortoiseshell-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+</div>
   <div class="selftest-reroll-content"></div>
 </div>
 

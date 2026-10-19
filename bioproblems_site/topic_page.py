@@ -13,12 +13,14 @@ import re
 import glob
 import time
 import dataclasses
+from pathlib import Path
 
 # local repo modules
 import bioproblems_site.formats as formats_module
 import bioproblems_site.git_paths as git_paths
 import bioproblems_site.metadata as bp_metadata
 import bioproblems_site.title_cache as title_cache
+import bioproblems_site.bloom as bloom
 from bioproblems_site.topic_metadata import (
 	get_docs_dir,
 	get_libretexts_link,
@@ -165,15 +167,11 @@ def generate_download_button_row(
 	download_formats: list,
 	verbose: bool,
 	stats: dict,
-	*,
-	question_type_badge: str = "",
 ) -> str:
 	"""Render source links and browser conversion controls without artifact writes."""
 	core_name = html.escape(extract_core_name(bbq_file_name), quote=True)
 	bank_name = html.escape(os.path.basename(bbq_file_name), quote=True)
 	html_output = f'<div id="{core_name}-button-container" class="button-container">\n'
-	if question_type_badge:
-		html_output += question_type_badge + "\n"
 	browser_controls = False
 	for format_key in DOWNLOAD_FORMAT_KEYS:
 		if format_key not in download_formats:
@@ -370,6 +368,7 @@ def update_index_md(
 		print(color_text(f"LibreTexts link: {libretexts_link}", COLOR_CYAN))
 
 	index_md_path = os.path.join(topic_folder, "index.md")
+	classifications = bloom.load(Path(title_cache.path_for_source(index_md_path)).parent)
 	print(f"writing to {git_paths.display_path(index_md_path)}")
 	with open(index_md_path, "w", encoding="utf-8") as index_md:
 		index_md.write(f"# {title}\n\n")
@@ -426,14 +425,25 @@ def update_index_md(
 				download_formats,
 				verbose,
 				stats,
-				question_type_badge=question_type_badge,
 			)
 			index_md.write(download_button_row)
 			bank_name = os.path.basename(bbq_file)
 			bank_url = html.escape(bank_name, quote=True)
-			index_md.write(
-				f'<div class="qpm-selftest" data-bbq="{bank_url}">\n'
-			)
+			index_md.write(f'<div class="qpm-selftest" data-bbq="{bank_url}">\n')
+			index_md.write('<div class="selftest-question-header selftest-question-placeholder">\n')
+			index_md.write(question_type_badge + "\n")
+			record = classifications.get(bank_name)
+			if record:
+				cognitive, knowledge = bloom.pair(record)
+				index_md.write(
+					'<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" '
+					'title="Estimated Bloom labels for this question bank">'
+					f'<span class="bloom-badge" data-bloom="{cognitive}" title="Cognitive process">'
+					f'{html.escape(cognitive)}</span> '
+					f'<span class="bloom-badge" data-bloom="{knowledge}" title="Knowledge type">'
+					f'{html.escape(knowledge)}</span></span>\n'
+				)
+			index_md.write('</div>\n')
 			index_md.write('  <div class="selftest-reroll-content"></div>\n')
 			index_md.write("</div>\n\n\n")
 
