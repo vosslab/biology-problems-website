@@ -9,8 +9,25 @@
   const retry = document.getElementById("finder-retry");
   const search = document.getElementById("finder-search");
   const filters = document.getElementById("finder-filters");
-  const columns = ["name", "subject", "topic", "type"];
-  const labels = ["Name", "Subject", "Topic", "Question type"];
+  const columns = ["name", "subject", "topic", "type", "cognitive", "knowledge"];
+  const labels = ["Name", "Subject", "Topic", "Question type", "Cognitive process", "Knowledge type"];
+  const bloomOrder = {
+    cognitive: ["Remember", "Understand", "Apply", "Analyze", "Evaluate", "Create"],
+    knowledge: ["Factual", "Conceptual", "Procedural", "Metacognitive"],
+  };
+
+  function renderBloom(dimension) {
+    return function (value, mode) {
+      if (mode === "sort") return value ? bloomOrder[dimension].indexOf(value) : 99;
+      if (mode !== "display" || !value) return value || "Not classified";
+      const badge = document.createElement("span");
+      badge.className = "bloom-badge";
+      badge.dataset.bloom = value;
+      badge.title = dimension === "cognitive" ? "Cognitive process" : "Knowledge type";
+      badge.textContent = value;
+      return badge;
+    };
+  }
 
   // ASVS 1.2.1: display catalog text using DOM text, never interpolated HTML.
   function renderName(value, mode, row) {
@@ -34,7 +51,7 @@
   }
 
   function validateCatalog(rows) {
-    const fields = ["id", "name", "subject", "topic", "type", "type_code", "type_description", "url"];
+    const fields = ["id", "name", "subject", "topic", "type", "type_code", "type_description", "url", "cognitive", "knowledge"];
     if (!Array.isArray(rows)) throw new Error("Invalid catalog: expected rows");
     const identities = new Set();
     for (const row of rows) {
@@ -46,6 +63,11 @@
         throw new Error("Invalid catalog identity or topic route");
       }
       identities.add(row.id);
+      if ((row.cognitive === "") !== (row.knowledge === "") ||
+          (row.cognitive && (!bloomOrder.cognitive.includes(row.cognitive) ||
+                            !bloomOrder.knowledge.includes(row.knowledge)))) {
+        throw new Error("Invalid Bloom pair");
+      }
     }
     return rows;
   }
@@ -84,11 +106,16 @@
     const table = new DataTable("#finder-table", {
       data: rows,
       columns: columns.map((name, index) => ({
-        data: name, name, type: "string", columnControl: filterControl(index),
-        render: index === 0 ? renderName : index === 3 ? renderType : DataTable.render.text(),
+        data: name, name, type: index >= 4 ? "num" : "string", columnControl: filterControl(index),
+        render: index >= 4 ? renderBloom(name)
+          : index === 0 ? renderName : index === 3 ? renderType : DataTable.render.text(),
       })),
       order: [], pageLength: 50, lengthMenu: [25, 50, 100], deferRender: true,
       stateSave: true, stateDuration: -1,
+      stateLoadParams: function (_settings, data) {
+        // Discard saved four-column layouts after adding the Bloom dimensions.
+        if (data.columns.length !== columns.length) return false;
+      },
       layout: { topStart: "pageLength", topEnd: "info", bottomStart: null, bottomEnd: "paging" },
       language: {
         lengthMenu: "Show _MENU_ question sets per page",

@@ -106,10 +106,6 @@
   min-width: 0;
 }}
 
-@scope (:root) to (.selftest-reroll-content) {.button-container > .question-type-badges{
-  align-self: center;
-}}
-
 @scope (:root) to (.selftest-reroll-content) {.md-typeset abbr.question-type{
   display: inline-block;
   box-sizing: border-box;
@@ -402,25 +398,10 @@
   margin: 0.6rem 0;
 }}
 
-@scope (:root) to (.selftest-reroll-content) {.selftest-question-placeholder{
-  border: 1px solid var(--md-default-fg-color--lightest, #dddddd);
-  border-radius: 0.35rem;
-  padding: 0.75rem;
-}}
-
-@scope (:root) to (.selftest-reroll-content) {.selftest-question-title{
-  flex-basis: 100%;
-  order: -1;
-  font-weight: 700;
-}}
-
-@scope (:root) to (.selftest-reroll-content) {.selftest-question-controls{
-  display: flex;
-  align-items: center;
-  flex: 1 1 16rem;
-  flex-wrap: wrap;
+@scope (:root) to (.selftest-reroll-content) {.bloom-classification{
+  display: inline-flex;
   gap: 8px;
-  min-width: 0;
+  font-size: 0.78rem;
 }}
 
 /* These controls belong to the website, outside the generated question body. */
@@ -464,13 +445,9 @@
   margin: 0;
 }}
 
-@scope (:root) to (.selftest-reroll-content) {.selftest-question-hint,.selftest-question-status{
+@scope (:root) to (.selftest-reroll-content) {.selftest-question-status{
   font-size: 0.75rem;
   color: var(--md-default-fg-color);
-}}
-
-@scope (:root) to (.selftest-reroll-content) {.selftest-question-hint{
-  flex: 1 1 12rem;
 }}
 
 @scope (:root) to (.selftest-reroll-content) {.selftest-question-status:empty{
@@ -597,3 +574,9 @@
     }
   }
 }
+
+/* Keep sitemap columns available without widening narrow pages. */
+@scope (:root) to (.selftest-reroll-content) {.question-index-scroll{
+  max-width: 100%;
+  overflow-x: auto;
+}}

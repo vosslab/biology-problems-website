@@ -1,0 +1,34 @@
+/* Website styles exclude self-test content. */
+/* Independent Bloom categories, using BPQ matching_sets/TEMPLATE.yml hues.
+   Names carry meaning; color supplements them. Theme mixes preserve hue and
+   exceed the repository's 5.5:1 text-contrast target on the tinted badges. */
+@scope (:root) to (.selftest-reroll-content) {.bloom-badge{
+  display: inline-block;
+  padding: 2px 6px;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  white-space: nowrap;
+  color: color-mix(in srgb, var(--bloom-hue) 88%, #000000);
+  background-color: color-mix(in srgb, var(--bloom-hue) 6%, #ffffff);
+}}
+
+@scope (:root) to (.selftest-reroll-content) {[data-md-color-scheme="slate"] .bloom-badge{
+  color: color-mix(in srgb, var(--bloom-hue) 35%, #ffffff);
+  background-color: color-mix(in srgb, var(--bloom-hue) 12%, var(--md-default-bg-color));
+}}
+
+/* Cognitive process: cool to warm. */
+@scope (:root) to (.selftest-reroll-content) {.bloom-badge[data-bloom="Remember"]{ --bloom-hue: #003fff; }}
+@scope (:root) to (.selftest-reroll-content) {.bloom-badge[data-bloom="Understand"]{ --bloom-hue: #007576; }}
+@scope (:root) to (.selftest-reroll-content) {.bloom-badge[data-bloom="Apply"]{ --bloom-hue: #007a00; }}
+@scope (:root) to (.selftest-reroll-content) {.bloom-badge[data-bloom="Analyze"]{ --bloom-hue: #6c6c00; }}
+@scope (:root) to (.selftest-reroll-content) {.bloom-badge[data-bloom="Evaluate"]{ --bloom-hue: #b74300; }}
+@scope (:root) to (.selftest-reroll-content) {.bloom-badge[data-bloom="Create"]{ --bloom-hue: #d40000; }}
+
+/* Knowledge type: categories, not a difficulty progression. */
+@scope (:root) to (.selftest-reroll-content) {.bloom-badge[data-bloom="Factual"]{ --bloom-hue: #076dad; }}
+@scope (:root) to (.selftest-reroll-content) {.bloom-badge[data-bloom="Conceptual"]{ --bloom-hue: #a719db; }}
+@scope (:root) to (.selftest-reroll-content) {.bloom-badge[data-bloom="Procedural"]{ --bloom-hue: #c80085; }}
+@scope (:root) to (.selftest-reroll-content) {.bloom-badge[data-bloom="Metacognitive"]{ --bloom-hue: #cc0066; }}
