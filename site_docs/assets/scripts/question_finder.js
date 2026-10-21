@@ -19,11 +19,17 @@
     const entry = taxonomy[dimension].levels[index];
     // ASVS 1.2.1: display authored JSON as text and attributes, never HTML.
     const badge = document.createElement("span");
-    badge.className = "bloom-badge";
+    badge.className = "bloom-badge bloom-" + dimension;
     badge.dataset.bloom = value;
     badge.title = entry.description;
-    badge.textContent = value + " (" + (index + 1) + ")";
-    return badge;
+    const level = document.createElement("span");
+    level.className = "bloom-level";
+    level.textContent = String.fromCodePoint(0x2780 + index);
+    badge.append(value + " ", level);
+    const ribbon = document.createElement("span");
+    ribbon.className = "bloom-ribbon bloom-solo";
+    ribbon.append(badge);
+    return ribbon;
   }
 
   function renderBloomGuide() {
@@ -116,7 +122,7 @@
       ? { extend: "searchText" }
       : { extend: "searchList", search: true, select: true, ajaxOnly: false, orthogonal: "filter" };
     return [{
-      extend: "dropdown", text: "Filter " + labels[index], icon: "search",
+      extend: "dropdown", text: "Filter " + labels[index], icon: "finderFilter",
       dropdownClass: "finder-filter-" + columns[index], content: [control],
     }];
   }
@@ -142,8 +148,17 @@
   }
 
   function setupTable(rows) {
+    // ColumnControl's icon registry supports custom SVGs without replacing its buttons.
+    DataTable.ColumnControl.icons.finderFilter =
+      '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" ' +
+      'aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" ' +
+      'stroke-linecap="round"><path d="M3 6h18M6 12h12M10 18h4"/></svg>';
     const table = new DataTable("#finder-table", {
       data: rows,
+      autoWidth: false,
+      drawCallback: function () {
+        window.BloomDisplay.enhance(root);
+      },
       columns: columns.map((name, index) => ({
         data: name, name, type: index >= 4 ? "num" : "string", columnControl: filterControl(index),
         render: index >= 4 ? renderBloom(name)

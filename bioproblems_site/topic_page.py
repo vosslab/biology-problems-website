@@ -437,12 +437,7 @@ def update_index_md(
 			record = classifications.get(bank_name)
 			if record:
 				cognitive, knowledge = bloom.pair(record)
-				index_md.write(
-					'<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" '
-					'title="Estimated Bloom labels for this question bank">'
-					+ bloom_display.badge(cognitive, "cognitive") + " "
-					+ bloom_display.badge(knowledge, "knowledge") + '</span>\n'
-				)
+				index_md.write(bloom_display.classification(cognitive, knowledge) + "\n")
 			index_md.write('</div>\n')
 			index_md.write('  <div class="selftest-reroll-content"></div>\n')
 			index_md.write("</div>\n\n\n")

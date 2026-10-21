@@ -26,11 +26,20 @@ def badge(label: str, dimension: str) -> str:
 			name = html.escape(label, quote=True)
 			description = html.escape(entry["description"], quote=True)
 			markup = (
-				f'<span class="bloom-badge" data-bloom="{name}" title="{description}">'
-				f'{name} ({number})</span>'
+				f'<span class="bloom-badge bloom-{dimension}" data-bloom="{name}" title="{description}">'
+				f'{name} <span class="bloom-level">&#{10111 + number};</span></span>'
 			)
 			return markup
 	raise ValueError(f"Unknown {dimension} Bloom label: {label}")
+
+
+#============================================
+def classification(cognitive: str, knowledge: str) -> str:
+	"""Keep the two dimensions together in one connected ribbon."""
+	return (
+		'<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank">'
+		+ badge(cognitive, "cognitive") + badge(knowledge, "knowledge") + '</span>'
+	)
 
 
 #============================================
@@ -42,7 +51,8 @@ def guide() -> str:
 	for dimension, data in definitions().items():
 		lines.append(f'<section><h3>{html.escape(data["title"])}</h3><dl>')
 		for entry in data["levels"]:
-			lines.append(f'<dt>{badge(entry["label"], dimension)}</dt>'
+			lines.append(f'<dt><span class="bloom-ribbon bloom-solo">'
+				f'{badge(entry["label"], dimension)}</span></dt>'
 				f'<dd>{html.escape(entry["description"])}</dd>')
 		lines.append('</dl></section>')
 	lines.append('</div><p>Based on Anderson and Krathwohl (2001), chapters 4-5. '

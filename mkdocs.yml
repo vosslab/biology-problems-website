@@ -43,6 +43,7 @@ extra_css:
   - assets/stylesheets/daily_puzzle.css
 
 extra_javascript:
+  - assets/scripts/bloom_display.js
   - assets/scripts/custom.js
   - assets/scripts/confetti.browser.min.js
   - assets/scripts/selftest_progress.js

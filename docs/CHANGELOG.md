@@ -4,6 +4,19 @@
 
 ### Behavior or Interface Changes
 
+- Increase the global Material layout limit from 61rem to 80rem. Remove that limit on
+  Question Finder through its page-only stylesheet, retaining normal navigation and margins.
+
+- Use a three-bar filter icon in every Question Finder column heading. Keep headings left-aligned
+  with title, sort, and filter in the same order; reserve intrinsic control widths to prevent
+  squeezed icons. Preserve the existing accessible filter dialogs and active-filter states.
+
+- Replace Bloom badges with outlined SVG chevrons and sans-serif circled levels. Connect both
+  dimensions on topic pages and in one sitemap column; keep Finder dimensions separate.
+  Preserve shared explanations, category colors, readable scale guides, and static label text.
+  Fit Finder metadata columns to content, give Name the spare width, and keep titles readable
+  when horizontal scrolling is needed. Remove the obsolete sitemap flex-row styling.
+
 - Clarify acceptable MA design in [HUMAN_GUIDANCE.md](HUMAN_GUIDANCE.md): multiple valid
   outcomes or properties of one problem, with restriction digest, ABO, gene mapping, metabolic
   rescue, and monosaccharide examples. Distinguish these from independent true/false bundles.
@@ -42,6 +55,24 @@
   and Question Finder; add a collapsed scale guide for keyboard and touch access.
 
 ### Developer Tests and Notes
+
+- Layout width: MkDocs builds successfully. One-time Chromium and Firefox checks at 390,
+  1440, and 1920 pixels in both themes confirm the 80rem global cap, uncapped Finder,
+  and no horizontal page overflow. No permanent tests added for these cosmetic settings.
+
+- Finder filter icons: MkDocs builds and all four existing Finder browser tests pass.
+  One-time Firefox/Chromium checks verify equal icon sizes, consistent ordering, no overlapping
+  controls, and active-filter indication at desktop/mobile widths and enlarged text in both themes.
+
+- Regenerate all 57 topic pages and the sitemap from existing banks and classifications.
+  Share SVG geometry and resize handling between generated pages and Finder redraws.
+  Preserve homepage history by undoing two unrelated index-build side effects.
+  MkDocs builds successfully; all 32 focused Python tests and 11 Finder/practice browser tests pass.
+  One-time Chromium 156 and Firefox 157 checks cover both themes, narrow/wide layouts, enlarged
+  text, opened scales, Finder redraws, content-sized columns, and labels without JavaScript.
+  Remove the temporary checks; add no permanent tests for cosmetic values or taxonomy wording.
+  Finder paging and sorting expose a Material theme `delegateTarget` exception in current
+  browsers; reproduce the same exception with the unchanged pre-integration Finder script.
 
 - After removing the combined dice bank, verify 20 remaining Topic 07 sets, no live references
   to the retired bank, and byte-identical content in all 495 remaining question-bank files.

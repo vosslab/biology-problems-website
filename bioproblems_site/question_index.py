@@ -125,18 +125,17 @@ def render(
 				f'aria-label="{html.escape(current_topic, quote=True)} question sets">'
 				'<table class="question-index-table"><thead><tr>'
 				'<th scope="col">Name</th><th scope="col">Question type</th>'
-				'<th scope="col">Cognitive process</th><th scope="col">Knowledge type</th>'
+				'<th scope="col">Bloom classification</th>'
 				'</tr></thead><tbody>'])
 		page_href = f"../{entry.page_path.removesuffix('/index.md')}/"
 		badge = problem_set_display.render_badges(entry.title, source_path=entry.source_path)
 		title = problem_set_display.render_title(entry.title, href=page_href)
 		record = classifications.get(entry.source_path.name) if entry.source_path else None
-		labels = bloom.pair(record) if record else ("", "")
-		cells = "".join(
-			f'<td>{bloom_display.badge(label, dimension)}</td>' if label else '<td>Not classified</td>'
-			for dimension, label in zip(("cognitive", "knowledge"), labels)
+		classification = bloom_display.classification(*bloom.pair(record)) if record else "Not classified"
+		lines.append(
+			f'<tr class="question-index-entry"><td>{title}</td><td>{badge}</td>'
+			f'<td>{classification}</td></tr>'
 		)
-		lines.append(f'<tr class="question-index-entry"><td>{title}</td><td>{badge}</td>{cells}</tr>')
 	if current_topic:
 		lines.append("</tbody></table></div>")
 	lines.append("")
