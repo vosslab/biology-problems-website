@@ -4,6 +4,24 @@ Students calculate offspring probabilities from visible outcomes and small famil
 
 **LibreTexts reference:** [Chapter 7: Chi Square Analysis](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/07:_Chi_Square_Analysis) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/07:_Chi_Square_Analysis" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 7" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
+<details class="bloom-scales"><summary>Bloom's scales</summary>
+<p>Two dimensions describe the assessed task. Numbers identify categories, not difficulty ratings.</p><div class="bloom-scales-grid">
+<section><h3>Cognitive Process Dimension</h3><dl>
+<dt><span class="bloom-badge" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember (1)</span></dt><dd>Retrieve relevant knowledge from memory by recognizing or recalling.</dd>
+<dt><span class="bloom-badge" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand (2)</span></dt><dd>Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.</dd>
+<dt><span class="bloom-badge" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply (3)</span></dt><dd>Carry out or use a procedure in a given situation.</dd>
+<dt><span class="bloom-badge" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze (4)</span></dt><dd>Separate material into parts and identify their relationships and overall structure.</dd>
+<dt><span class="bloom-badge" data-bloom="Evaluate" title="Make judgments using criteria and standards through checking or critique.">Evaluate (5)</span></dt><dd>Make judgments using criteria and standards through checking or critique.</dd>
+<dt><span class="bloom-badge" data-bloom="Create" title="Combine elements into a coherent new whole through generating, planning, or producing.">Create (6)</span></dt><dd>Combine elements into a coherent new whole through generating, planning, or producing.</dd>
+</dl></section>
+<section><h3>Knowledge Dimension</h3><dl>
+<dt><span class="bloom-badge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual (1)</span></dt><dd>Knowledge of basic elements, terminology, and specific details.</dd>
+<dt><span class="bloom-badge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual (2)</span></dt><dd>Knowledge of categories, principles, theories, models, and how they relate.</dd>
+<dt><span class="bloom-badge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural (3)</span></dt><dd>Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.</dd>
+<dt><span class="bloom-badge" data-bloom="Metacognitive" title="Knowledge of learning strategies, thinking tasks, and one&#x27;s own strengths and limitations.">Metacognitive (4)</span></dt><dd>Knowledge of learning strategies, thinking tasks, and one&#x27;s own strengths and limitations.</dd>
+</dl></section>
+</div><p>Based on Anderson and Krathwohl (2001), chapters 4-5. <a href="https://celt.iastate.edu/prepare-and-teach/design-your-course/blooms-taxonomy/">Iowa State Bloom's taxonomy guide</a>.</p></details>
+
 ## Chi-Square Terms from Definitions
 
 <div id="MATCH-chi-square_terms-button-container" class="button-container">
@@ -17,7 +35,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div><div class="qpm-selftest" data-bbq="bbq-MATCH-chi-square_terms-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge type">Factual</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember (1)</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual (1)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -36,7 +54,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div><div class="qpm-selftest" data-bbq="bbq-TFMS-chi-square-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember (1)</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural (3)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -55,7 +73,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div><div class="qpm-selftest" data-bbq="bbq-WOMC-chi-square_terms-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge type">Factual</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember (1)</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual (1)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -73,7 +91,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div><div class="qpm-selftest" data-bbq="bbq-chi_square_calculated-ACCEPT-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply (3)</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural (3)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -91,7 +109,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div><div class="qpm-selftest" data-bbq="bbq-chi_square_choices-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply (3)</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural (3)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -109,7 +127,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div><div class="qpm-selftest" data-bbq="bbq-chi_square_dice-calculate-MC-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply (3)</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural (3)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -127,7 +145,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div><div class="qpm-selftest" data-bbq="bbq-chi_square_dice-conclusions-MA-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply (3)</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural (3)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -145,7 +163,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div><div class="qpm-selftest" data-bbq="bbq-chi_square_dice-connect-MATCH-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply (3)</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural (3)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -163,7 +181,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div><div class="qpm-selftest" data-bbq="bbq-chi_square_dice-df-MC-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply (3)</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural (3)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -181,7 +199,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div><div class="qpm-selftest" data-bbq="bbq-chi_square_dice-expected-MC-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply (3)</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural (3)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -199,7 +217,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div><div class="qpm-selftest" data-bbq="bbq-chi_square_dice-interpret-MC-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Evaluate" title="Cognitive process">Evaluate</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Evaluate" title="Make judgments using criteria and standards through checking or critique.">Evaluate (5)</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual (2)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -217,7 +235,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div><div class="qpm-selftest" data-bbq="bbq-chi_square_errors-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Evaluate" title="Cognitive process">Evaluate</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Evaluate" title="Make judgments using criteria and standards through checking or critique.">Evaluate (5)</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural (3)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -235,7 +253,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div><div class="qpm-selftest" data-bbq="bbq-chi_square_hardy_weinberg-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Evaluate" title="Cognitive process">Evaluate</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Evaluate" title="Make judgments using criteria and standards through checking or critique.">Evaluate (5)</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural (3)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -253,7 +271,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div><div class="qpm-selftest" data-bbq="bbq-chi_square_hypotheses-alt-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Cognitive process">Understand</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand (2)</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual (2)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -271,7 +289,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div><div class="qpm-selftest" data-bbq="bbq-chi_square_hypotheses-null-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Cognitive process">Understand</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand (2)</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual (2)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -289,7 +307,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div><div class="qpm-selftest" data-bbq="bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Evaluate" title="Cognitive process">Evaluate</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Evaluate" title="Make judgments using criteria and standards through checking or critique.">Evaluate (5)</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual (2)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -307,7 +325,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div><div class="qpm-selftest" data-bbq="bbq-probabiliy_of_progeny-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply (3)</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural (3)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -325,7 +343,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div><div class="qpm-selftest" data-bbq="bbq-progeny_probability_practice-calculate-MC-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply (3)</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural (3)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -343,7 +361,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div><div class="qpm-selftest" data-bbq="bbq-progeny_probability_practice-independence-MC-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply (3)</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual (2)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -361,7 +379,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div><div class="qpm-selftest" data-bbq="bbq-progeny_probability_practice-outcomes-MA-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply (3)</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural (3)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -379,7 +397,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div><div class="qpm-selftest" data-bbq="bbq-progeny_probability_practice-tables-MATCH-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply (3)</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural (3)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>

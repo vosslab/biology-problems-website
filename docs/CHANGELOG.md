@@ -1,5 +1,35 @@
 # Changelog
 
+## 2026-10-21
+
+### Behavior or Interface Changes
+
+- Double the correct-answer pause from half a second to one second. Cancel pending
+  advancement when the reader scrolls, touches, clicks, presses a key, or leaves the tab.
+  Keep native smooth scrolling and reduced-motion support.
+- Add compact Hide/Show controls beside Show another question, including the first question.
+  Collapse only the question body, retain its current content, and cancel pending automatic
+  scrolling when hiding. Visibility lasts only for the current page visit.
+- Number both Bloom dimensions and explain each label with a tooltip based on Anderson and
+  Krathwohl (2001), chapters 4-5. Share the ten definitions across topic pages, the sitemap,
+  and Question Finder; add a collapsed scale guide for keyboard and touch access.
+
+### Developer Tests and Notes
+
+- Review automatic advancement with the HCI, UI/UX, and TypeScript skills; record scope and
+  evidence in [SELFTEST_ADVANCEMENT_REVIEW.md](ux/SELFTEST_ADVANCEMENT_REVIEW.md).
+  Extend the existing interaction test without pinning the exact pause. All 12 focused browser
+  tests pass; one-time checks confirm the doubled pause, reduced motion, and click/touch cancellation.
+- Keep one new permanent browser test for reversible, independent question collapse; extend
+  existing keyboard-navigation and delayed-advancement checks. Remove new tests that pinned
+  Bloom display wording and values after reviewing the permanent-test checklist.
+- Refresh all 57 topic pages and the sitemap from existing banks and cached labels. Treat the
+  scale-content and desktop/mobile theme review as one-time implementation evidence.
+- MkDocs build and all 12 focused browser tests pass. Desktop/mobile review in both themes
+  confirms usable scales, no page overflow, and practice buttons staying together when wrapped.
+- Full pytest with automatic fixing disabled: 3,442 passed; three unchanged question banks
+  retain their existing trailing-whitespace failures. No question-bank content was edited.
+
 ## 2026-10-20
 
 - Move the existing offspring-probability bank unchanged from Genetics chapter 6

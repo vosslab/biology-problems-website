@@ -21,6 +21,7 @@ import bioproblems_site.git_paths as git_paths
 import bioproblems_site.metadata as bp_metadata
 import bioproblems_site.title_cache as title_cache
 import bioproblems_site.bloom as bloom
+import bioproblems_site.bloom_display as bloom_display
 from bioproblems_site.topic_metadata import (
 	get_docs_dir,
 	get_libretexts_link,
@@ -399,6 +400,7 @@ def update_index_md(
 			)
 			index_md.write(f"{reference_line}\n\n")
 
+		index_md.write(bloom_display.guide() + "\n\n")
 		bbq_files.sort()
 		for bbq_file in bbq_files:
 			file_counter["count"] += 1
@@ -438,10 +440,8 @@ def update_index_md(
 				index_md.write(
 					'<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" '
 					'title="Estimated Bloom labels for this question bank">'
-					f'<span class="bloom-badge" data-bloom="{cognitive}" title="Cognitive process">'
-					f'{html.escape(cognitive)}</span> '
-					f'<span class="bloom-badge" data-bloom="{knowledge}" title="Knowledge type">'
-					f'{html.escape(knowledge)}</span></span>\n'
+					+ bloom_display.badge(cognitive, "cognitive") + " "
+					+ bloom_display.badge(knowledge, "knowledge") + '</span>\n'
 				)
 			index_md.write('</div>\n')
 			index_md.write('  <div class="selftest-reroll-content"></div>\n')

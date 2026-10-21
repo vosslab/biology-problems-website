@@ -31,3 +31,21 @@
 .bloom-badge[data-bloom="Conceptual"] { --bloom-hue: #a719db; }
 .bloom-badge[data-bloom="Procedural"] { --bloom-hue: #c80085; }
 .bloom-badge[data-bloom="Metacognitive"] { --bloom-hue: #cc0066; }
+
+.bloom-scales {
+  font-size: 0.8rem;
+}
+
+.bloom-scales-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+  gap: 0 1rem;
+}
+
+.bloom-scales-grid h3 {
+  margin-top: 0.5rem;
+}
+
+.bloom-scales-grid dd {
+  margin: 0.3rem 0 0.8rem;
+}

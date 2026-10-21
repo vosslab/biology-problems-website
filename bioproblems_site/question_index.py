@@ -8,6 +8,7 @@ import bioproblems_site.file_write as file_write
 import bioproblems_site.metadata as metadata_module
 import bioproblems_site.problem_set_display as problem_set_display
 import bioproblems_site.title_cache as title_cache
+import bioproblems_site.bloom_display as bloom_display
 
 
 GENERATED_MARKER = (
@@ -102,6 +103,7 @@ def render(
 		f"**{len(entries)} problem sets**",
 		"",
 	]
+	lines.extend([bloom_display.guide(), ""])
 	classifications = classifications or {}
 	current_subject = ""
 	current_topic = ""
@@ -131,9 +133,8 @@ def render(
 		record = classifications.get(entry.source_path.name) if entry.source_path else None
 		labels = bloom.pair(record) if record else ("", "")
 		cells = "".join(
-			f'<td><span class="bloom-badge" data-bloom="{html.escape(label)}">'
-			f'{html.escape(label)}</span></td>' if label else '<td>Not classified</td>'
-			for label in labels
+			f'<td>{bloom_display.badge(label, dimension)}</td>' if label else '<td>Not classified</td>'
+			for dimension, label in zip(("cognitive", "knowledge"), labels)
 		)
 		lines.append(f'<tr class="question-index-entry"><td>{title}</td><td>{badge}</td>{cells}</tr>')
 	if current_topic:

@@ -238,6 +238,12 @@ can search the complete title list with the browser's native Find command.
 MkDocs continues to generate the SEO `sitemap.xml`; that XML file lists URLs,
 while the page supplies the searchable problem information.
 
+Topic pages, All Questions, and Question Finder display numbered Bloom labels. Hover over
+a label for its definition, or open **Bloom's scales** for both dimensions and their explanations.
+Numbers identify taxonomy categories, not difficulty ratings. The shared display definitions live in
+[../site_docs/assets/data/bloom_taxonomy.json](../site_docs/assets/data/bloom_taxonomy.json)
+and summarize Anderson and Krathwohl (2001), chapters 4-5.
+
 ## Self-test progress
 
 Self-test pages are short, fresh practice sessions. Each page visit generates
@@ -246,13 +252,20 @@ when that browser has already completed the same problem set. Other empty questi
 containers offer **Show practice question**. Each bank advances through its
 source records in order and returns to the first record after the last.
 A fully correct answer starts loading the next question immediately, keeps
-feedback visible for about half a second, and then moves to the ready question.
+feedback visible for about one second, and then moves to the ready question.
+Scrolling, touching, clicking, or pressing a key during that pause cancels the move,
+as does switching away from the browser tab. The next question remains available below.
+Scrolling uses the browser's native smooth motion, with animation disabled when reduced
+motion is requested.
 Earlier questions remain available for review; the last question stays in place.
 
 **Show another question** appears beside the question's completion badge. It
 replaces only that question's active version, answers, and feedback with the next
 record from the same bank. It does not replace other questions or retain an
 attempt history.
+**Hide** beside it collapses the question body; **Show** reveals the same content again.
+The header stays available. Hiding cancels pending automatic scrolling, and loading another
+question reveals its body. Visibility resets on the next page visit.
 If loading fails, the header offers **Retry** to try generating the question again.
 
 The [Self-test Progress](../site_docs/progress/index.md) dashboard tracks which

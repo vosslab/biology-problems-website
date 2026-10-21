@@ -416,7 +416,16 @@ body[data-md-color-scheme="slate"] .streak-at-risk {
 }
 
 /* These controls belong to the website, outside the generated question body. */
-.selftest-reroll-button {
+.selftest-practice-controls {
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 100%;
+}
+
+.selftest-reroll-button,
+.selftest-visibility-button {
   flex: 0 1 auto;
   min-height: 28px;
   padding: 3px 10px;
@@ -431,7 +440,14 @@ body[data-md-color-scheme="slate"] .streak-at-risk {
   cursor: pointer;
 }
 
-.selftest-reroll-button:hover:not(:disabled) {
+.selftest-visibility-button {
+  border-color: var(--md-default-fg-color--light);
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+
+.selftest-reroll-button:hover:not(:disabled),
+.selftest-visibility-button:hover:not(:disabled) {
   filter: brightness(0.9);
 }
 
@@ -442,12 +458,14 @@ body[data-md-color-scheme="slate"] .streak-at-risk {
   padding: 2px 9px;
 }
 
-.selftest-reroll-button:focus-visible {
+.selftest-reroll-button:focus-visible,
+.selftest-visibility-button:focus-visible {
   outline: 2px solid var(--md-accent-fg-color);
   outline-offset: 3px;
 }
 
-.selftest-reroll-button:disabled {
+.selftest-reroll-button:disabled,
+.selftest-visibility-button:disabled {
   cursor: wait;
   opacity: 0.55;
 }

@@ -4,6 +4,24 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 
 **LibreTexts reference:** [Chapter 6: Chromosomal Inheritance](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/06:_Chromosomal_Inheritance) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/06:_Chromosomal_Inheritance" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 6" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
+<details class="bloom-scales"><summary>Bloom's scales</summary>
+<p>Two dimensions describe the assessed task. Numbers identify categories, not difficulty ratings.</p><div class="bloom-scales-grid">
+<section><h3>Cognitive Process Dimension</h3><dl>
+<dt><span class="bloom-badge" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember (1)</span></dt><dd>Retrieve relevant knowledge from memory by recognizing or recalling.</dd>
+<dt><span class="bloom-badge" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand (2)</span></dt><dd>Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.</dd>
+<dt><span class="bloom-badge" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply (3)</span></dt><dd>Carry out or use a procedure in a given situation.</dd>
+<dt><span class="bloom-badge" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze (4)</span></dt><dd>Separate material into parts and identify their relationships and overall structure.</dd>
+<dt><span class="bloom-badge" data-bloom="Evaluate" title="Make judgments using criteria and standards through checking or critique.">Evaluate (5)</span></dt><dd>Make judgments using criteria and standards through checking or critique.</dd>
+<dt><span class="bloom-badge" data-bloom="Create" title="Combine elements into a coherent new whole through generating, planning, or producing.">Create (6)</span></dt><dd>Combine elements into a coherent new whole through generating, planning, or producing.</dd>
+</dl></section>
+<section><h3>Knowledge Dimension</h3><dl>
+<dt><span class="bloom-badge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual (1)</span></dt><dd>Knowledge of basic elements, terminology, and specific details.</dd>
+<dt><span class="bloom-badge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual (2)</span></dt><dd>Knowledge of categories, principles, theories, models, and how they relate.</dd>
+<dt><span class="bloom-badge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural (3)</span></dt><dd>Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.</dd>
+<dt><span class="bloom-badge" data-bloom="Metacognitive" title="Knowledge of learning strategies, thinking tasks, and one&#x27;s own strengths and limitations.">Metacognitive (4)</span></dt><dd>Knowledge of learning strategies, thinking tasks, and one&#x27;s own strengths and limitations.</dd>
+</dl></section>
+</div><p>Based on Anderson and Krathwohl (2001), chapters 4-5. <a href="https://celt.iastate.edu/prepare-and-teach/design-your-course/blooms-taxonomy/">Iowa State Bloom's taxonomy guide</a>.</p></details>
+
 ## Meiosis Prophase I Stages from Descriptions
 
 <div id="MATCH-meiosis_prophase_1-button-container" class="button-container">
@@ -17,7 +35,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div><div class="qpm-selftest" data-bbq="bbq-MATCH-meiosis_prophase_1-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge type">Factual</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember (1)</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual (1)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -36,7 +54,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div><div class="qpm-selftest" data-bbq="bbq-MATCH-meiosis_terms-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge type">Factual</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember (1)</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual (1)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -55,7 +73,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div><div class="qpm-selftest" data-bbq="bbq-MATCH-sex_determination-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember (1)</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual (2)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -74,7 +92,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div><div class="qpm-selftest" data-bbq="bbq-TFMS-mitosis_and_meiosis-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember (1)</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual (2)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -93,7 +111,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div><div class="qpm-selftest" data-bbq="bbq-WOMC-meiosis_prophase_1-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge type">Factual</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember (1)</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual (1)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -112,7 +130,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div><div class="qpm-selftest" data-bbq="bbq-WOMC-meiosis_terms-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge type">Factual</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember (1)</span> <span class="bloom-badge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual (1)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -131,7 +149,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div><div class="qpm-selftest" data-bbq="bbq-WOMC-sex_determination-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Cognitive process">Remember</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember (1)</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual (2)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -149,7 +167,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div><div class="qpm-selftest" data-bbq="bbq-dominant_and_X-linked_recessive-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply (3)</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural (3)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -167,7 +185,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div><div class="qpm-selftest" data-bbq="bbq-dominant_and_X-linked_recessive_variations-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply (3)</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural (3)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -186,7 +204,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div><div class="qpm-selftest" data-bbq="bbq-poisson_flies-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply (3)</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual (2)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -204,7 +222,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div><div class="qpm-selftest" data-bbq="bbq-write_pattern_to_pedigree-easy-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Cognitive process">Understand</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand (2)</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual (2)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -222,7 +240,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div><div class="qpm-selftest" data-bbq="bbq-write_pedigree_pattern_matching-easy-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Cognitive process">Understand</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand (2)</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual (2)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -240,7 +258,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div><div class="qpm-selftest" data-bbq="bbq-write_pedigree_to_pattern-bonus-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Cognitive process">Understand</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand (2)</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual (2)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -258,7 +276,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div><div class="qpm-selftest" data-bbq="bbq-write_pedigree_to_pattern-easy-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Cognitive process">Understand</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand (2)</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual (2)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -276,7 +294,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div><div class="qpm-selftest" data-bbq="bbq-write_pedigree_to_pattern-medium-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Cognitive process">Understand</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand (2)</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual (2)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -294,7 +312,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div><div class="qpm-selftest" data-bbq="bbq-write_pedigree_to_pattern-rigorous-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Cognitive process">Understand</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand (2)</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual (2)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -312,7 +330,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div><div class="qpm-selftest" data-bbq="bbq-x_linked_reciprocal_cross-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge type">Conceptual</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply (3)</span> <span class="bloom-badge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual (2)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -330,7 +348,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div><div class="qpm-selftest" data-bbq="bbq-x_linked_tortoiseshell-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Cognitive process">Apply</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge type">Procedural</span></span>
+<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply (3)</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural (3)</span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>

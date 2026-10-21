@@ -167,11 +167,19 @@
 		}));
 	}
 
+	function showBody(state, visible) {
+		state.body.hidden = !visible;
+		state.visibilityButton.textContent = visible ? "Hide" : "Show";
+		state.visibilityButton.setAttribute("aria-expanded", String(visible));
+	}
+
 	function generate(state) {
 		if (state.pending) { return state.pending; }
 		state.cleanup();
 		var version = ++state.version;
 		state.button.disabled = true;
+		state.visibilityButton.disabled = true;
+		showBody(state, true);
 		state.body.inert = true;
 		state.body.setAttribute("aria-busy", "true");
 		state.button.textContent = "Loading question...";
@@ -200,6 +208,8 @@
 				if (current(state, version)) {
 					state.pending = null;
 					state.button.disabled = false;
+					state.visibilityButton.disabled = false;
+					state.visibilityButton.hidden = !state.ready;
 					state.body.inert = !state.ready;
 					state.body.setAttribute("aria-busy", "false");
 				}
@@ -247,11 +257,12 @@
 			}
 			if (!task.elapsed || !task.ready) { return; }
 			advancement = null;
+			showBody(next, true);
 			next.host.focus({ preventScroll: true });
 			var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 			next.host.scrollIntoView({ behavior: reduced ? "instant" : "smooth", block: "start" });
 		}
-		task.timer = window.setTimeout(function () { task.elapsed = true; finish(); }, 500);
+		task.timer = window.setTimeout(function () { task.elapsed = true; finish(); }, 1000);
 		// Generation and the feedback pause run concurrently; never advance into an empty body.
 		var ready = next.pending || (next.ready ? Promise.resolve(true) : generate(next));
 		ready.then(function (success) { task.ready = success; finish(); });
@@ -275,18 +286,33 @@
 		button.type = "button";
 		button.className = "selftest-reroll-button";
 		button.textContent = "Show practice question";
+		var visibilityButton = document.createElement("button");
+		visibilityButton.type = "button";
+		visibilityButton.className = "selftest-visibility-button";
+		visibilityButton.textContent = "Hide";
+		visibilityButton.hidden = true;
 		var status = document.createElement("span");
 		status.className = "selftest-question-status";
 		status.setAttribute("role", "status");
 		status.setAttribute("aria-live", "polite");
-		header.append(button, status);
+		var controls = document.createElement("div");
+		controls.className = "selftest-practice-controls";
+		controls.append(button, visibilityButton);
+		header.append(controls, status);
 		host.tabIndex = -1;
 		var state = {
 			host: host, body: host.querySelector(".selftest-reroll-content"),
-			header: header, button: button, status: status,
+			header: header, button: button, visibilityButton: visibilityButton, status: status,
 			crc: null, version: 0, nextQuestion: 0, ready: false,
 			pending: null, advanced: false, cleanup: function () {}
 		};
+		if (!state.body.id) { state.body.id = "selftest-content-" + states.size; }
+		visibilityButton.setAttribute("aria-controls", state.body.id);
+		visibilityButton.setAttribute("aria-expanded", "true");
+		visibilityButton.addEventListener("click", function () {
+			cancelAdvance();
+			showBody(state, state.body.hidden);
+		});
 		button.addEventListener("click", function () {
 			cancelAdvance();
 			generate(state);
@@ -310,6 +336,14 @@
 	window.SelfTestQuestions = { initPage: initPage, classifyResultElement: classifyResultElement };
 	if (typeof module !== "undefined" && module.exports) { module.exports = window.SelfTestQuestions; }
 	document.addEventListener("selftest:graded", onGraded);
+	// Reader input takes priority over a pending automatic move. Listen before
+	// control handlers so the action that grades an answer can start a fresh pause.
+	["wheel", "touchstart", "pointerdown", "keydown"].forEach(function (type) {
+		document.addEventListener(type, cancelAdvance, { capture: true, passive: true });
+	});
+	document.addEventListener("visibilitychange", function () {
+		if (document.hidden) { cancelAdvance(); }
+	});
 	if (document.readyState === "loading") {
 		document.addEventListener("DOMContentLoaded", initPage);
 	} else { initPage(); }

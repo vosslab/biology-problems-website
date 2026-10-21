@@ -69,7 +69,8 @@ def is_newer_than_any(output_path: Path, input_paths: list[Path]) -> bool:
 def topic_page_needs_run(topic_ref: TopicRef, scope: BuildScope, changes: BuildChanges) -> bool:
 	"""Check direct topic-page inputs without scanning unrelated topics."""
 	page_path = topic_folder(topic_ref) / "index.md"
-	inputs = [DEFAULT_METADATA_PATH, DEFAULT_SITE_DOCS.parent / bloom.CACHE_NAME]
+	inputs = [DEFAULT_METADATA_PATH, DEFAULT_SITE_DOCS.parent / bloom.CACHE_NAME,
+		DEFAULT_SITE_DOCS / "assets/data/bloom_taxonomy.json"]
 	inputs.extend(topic_sources(topic_ref))
 	if scope.full or topic_ref in changes.changed_topics:
 		return True

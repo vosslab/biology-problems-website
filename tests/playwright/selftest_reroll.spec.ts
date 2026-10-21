@@ -49,6 +49,42 @@ test("Show another question walks the bank in source order and wraps", async ({ 
   await expect(host.getByText("First bank question", { exact: true })).toBeVisible();
 });
 
+test("Hide and Show collapse individual questions without changing their content", async ({ page }) => {
+  // Keep collapse reversible and local to its bank; a failure means content was
+  // lost or a control affected the wrong question. Display wording is not pinned.
+  await page.route("**/bbq-MATCH-genetic_disorders-questions.txt", (route) => route.fulfill({
+    body: "MC\tFirst question\tATP\tCorrect\tADP\tIncorrect\nMC\tNext question\tDNA\tCorrect\tRNA\tIncorrect",
+  }));
+  await page.goto("/genetics/topic01/");
+  const hosts = page.locator(".qpm-selftest[data-bbq]");
+  const first = hosts.first();
+  const second = hosts.nth(1);
+  await waitForReady(first);
+  await first.getByRole("radio").first().check();
+  const hide = first.getByRole("button", { name: "Hide", exact: true });
+  await expect(hide).toHaveAttribute("aria-expanded", "true");
+  await hide.focus();
+  await page.keyboard.press("Enter");
+  await expect(questionId(first)).toBeHidden();
+  const show = first.getByRole("button", { name: "Show", exact: true });
+  await expect(show).toBeFocused();
+  await expect(show).toHaveAttribute("aria-expanded", "false");
+  await show.click();
+  await expect(questionId(first)).toBeVisible();
+  await expect(first.getByRole("radio").first()).toBeChecked();
+
+  await second.getByRole("button", { name: "Show practice question", exact: true }).click();
+  await waitForReady(second);
+  await second.getByRole("button", { name: "Hide", exact: true }).click();
+  await expect(questionId(second)).toBeHidden();
+  await expect(questionId(first)).toBeVisible();
+  await hide.click();
+  await first.getByRole("button", { name: "Show another question", exact: true }).click();
+  await waitForReady(first);
+  await expect(hide).toBeVisible();
+  await expect(questionId(second)).toBeHidden();
+});
+
 test("real WASM installs question styles and loads another question on request", async ({ page }) => {
   const errors: string[] = [];
   const wasmRequests: string[] = [];
@@ -146,8 +182,13 @@ test("wide scientific tables scroll locally on mobile without losing answer cont
   }
 
   const reroll = host.getByRole("button", { name: "Show another question", exact: true });
+  const hide = host.getByRole("button", { name: "Hide", exact: true });
+  await page.keyboard.press("Tab");
+  await expect(hide).toBeFocused();
   await page.keyboard.press("Tab");
   await expect(host.getByRole("textbox")).toBeFocused();
+  await page.keyboard.press("Shift+Tab");
+  await expect(hide).toBeFocused();
   await page.keyboard.press("Shift+Tab");
   await expect(reroll).toBeFocused();
   await expect(reroll).toBeInViewport({ ratio: 1 });
@@ -325,7 +366,7 @@ test("correct feedback remains while the next question becomes ready, and reroll
   await expect(first.locator('[id^="result_"]')).toHaveText("");
 });
 
-test("advancement waits 500 ms after feedback and a replacement cancels its stale timer", async ({ page }) => {
+test("advancement pauses for feedback and yields to reader interaction", async ({ page }) => {
   await page.clock.install({ time: new Date("2025-01-01T00:00:00Z") });
   const hosts = await lifecycleFixture(page);
   const first = hosts.nth(0);
@@ -337,9 +378,10 @@ test("advancement waits 500 ms after feedback and a replacement cancels its stal
   await first.getByRole("button", { name: "Check Answer" }).click();
   await expect(first.locator('[id^="result_"]')).toHaveText("CORRECT");
   await waitForReady(second);
-  await page.clock.runFor(499);
+  // Protect a perceptible pause and eventual advancement, not an exact duration.
+  await page.clock.runFor(100);
   await expect(second).not.toBeFocused();
-  await page.clock.runFor(1);
+  await page.clock.runFor(5000);
   await expect(second).toBeFocused();
 
   // A manual replacement cancels a previous automatic transition, so an old
@@ -352,7 +394,41 @@ test("advancement waits 500 ms after feedback and a replacement cancels its stal
   await first.getByRole("button", { name: "Show another question", exact: true }).click();
   await waitForReady(first);
   await first.focus();
-  await page.clock.runFor(500);
+  await page.clock.runFor(5000);
   await expect(first).toBeFocused();
   await expect(second).not.toBeFocused();
+
+  await first.locator('input[type="radio"]').check();
+  await first.getByRole("button", { name: "Check Answer" }).click();
+  await first.getByRole("button", { name: "Hide", exact: true }).click();
+  await page.clock.runFor(5000);
+  await expect(first.getByRole("button", { name: "Show", exact: true })).toBeFocused();
+  await expect(questionId(first)).toBeHidden();
+  await expect(second).not.toBeFocused();
+  await first.getByRole("button", { name: "Show", exact: true }).click();
+  await expect(first.locator('[id^="result_"]')).toHaveText("CORRECT");
+
+  // Reviewing an answer must not be interrupted by a stale automatic move.
+  for (const interaction of ["scroll", "keyboard"]) {
+    await first.getByRole("button", { name: "Show another question", exact: true }).click();
+    await waitForReady(first);
+    await first.locator('input[type="radio"]').check();
+    const check = first.getByRole("button", { name: "Check Answer" });
+    await check.click();
+    if (interaction === "scroll") {
+      // Wheel delivery is asynchronous; let the browser receive it before
+      // advancing the virtual clock beyond the feedback pause.
+      await Promise.all([
+        page.evaluate(() => new Promise<void>((resolve) => {
+          document.addEventListener("wheel", () => resolve(), { once: true });
+        })),
+        page.mouse.wheel(0, -100),
+      ]);
+    } else {
+      await page.keyboard.press("Escape");
+    }
+    await page.clock.runFor(5000);
+    await expect(check).toBeFocused();
+    await expect(first.locator('[id^="result_"]')).toHaveText("CORRECT");
+  }
 });

@@ -11,21 +11,60 @@
   const filters = document.getElementById("finder-filters");
   const columns = ["name", "subject", "topic", "type", "cognitive", "knowledge"];
   const labels = ["Name", "Subject", "Topic", "Question type", "Cognitive process", "Knowledge type"];
-  const bloomOrder = {
-    cognitive: ["Remember", "Understand", "Apply", "Analyze", "Evaluate", "Create"],
-    knowledge: ["Factual", "Conceptual", "Procedural", "Metacognitive"],
-  };
+  let taxonomy;
+  const bloomOrder = {};
+
+  function bloomBadge(dimension, value) {
+    const index = bloomOrder[dimension].indexOf(value);
+    const entry = taxonomy[dimension].levels[index];
+    // ASVS 1.2.1: display authored JSON as text and attributes, never HTML.
+    const badge = document.createElement("span");
+    badge.className = "bloom-badge";
+    badge.dataset.bloom = value;
+    badge.title = entry.description;
+    badge.textContent = value + " (" + (index + 1) + ")";
+    return badge;
+  }
+
+  function renderBloomGuide() {
+    const details = document.createElement("details");
+    details.className = "bloom-scales";
+    const summary = document.createElement("summary");
+    summary.textContent = "Bloom's scales";
+    const intro = document.createElement("p");
+    intro.textContent = "Two dimensions describe the assessed task. Numbers identify categories, not difficulty ratings.";
+    const grid = document.createElement("div");
+    grid.className = "bloom-scales-grid";
+    for (const dimension of Object.keys(bloomOrder)) {
+      const section = document.createElement("section");
+      const heading = document.createElement("h3");
+      heading.textContent = taxonomy[dimension].title;
+      const list = document.createElement("dl");
+      for (const entry of taxonomy[dimension].levels) {
+        const term = document.createElement("dt");
+        term.append(bloomBadge(dimension, entry.label));
+        const definition = document.createElement("dd");
+        definition.textContent = entry.description;
+        list.append(term, definition);
+      }
+      section.append(heading, list);
+      grid.append(section);
+    }
+    const source = document.createElement("p");
+    source.textContent = "Based on Anderson and Krathwohl (2001), chapters 4-5. ";
+    const link = document.createElement("a");
+    link.href = "https://celt.iastate.edu/prepare-and-teach/design-your-course/blooms-taxonomy/";
+    link.textContent = "Iowa State Bloom's taxonomy guide";
+    source.append(link, ".");
+    details.append(summary, intro, grid, source);
+    document.getElementById("finder-bloom-scales").replaceChildren(details);
+  }
 
   function renderBloom(dimension) {
     return function (value, mode) {
       if (mode === "sort") return value ? bloomOrder[dimension].indexOf(value) : 99;
       if (mode !== "display" || !value) return value || "Not classified";
-      const badge = document.createElement("span");
-      badge.className = "bloom-badge";
-      badge.dataset.bloom = value;
-      badge.title = dimension === "cognitive" ? "Cognitive process" : "Knowledge type";
-      badge.textContent = value;
-      return badge;
+      return bloomBadge(dimension, value);
     };
   }
 
@@ -198,9 +237,17 @@
     // Catch at the page boundary so fetch, JSON, and initialization errors have a
     // useful fallback; never silently substitute an empty dataset.
     try {
-      const response = await fetch(root.dataset.catalog);
+      const [response, taxonomyResponse] = await Promise.all([
+        fetch(root.dataset.catalog), fetch(root.dataset.taxonomy),
+      ]);
       if (!response.ok) throw new Error("Catalog response " + response.status);
+      if (!taxonomyResponse.ok) throw new Error("Taxonomy response " + taxonomyResponse.status);
+      taxonomy = await taxonomyResponse.json();
+      for (const dimension of ["cognitive", "knowledge"]) {
+        bloomOrder[dimension] = taxonomy[dimension].levels.map((entry) => entry.label);
+      }
       const rows = validateCatalog(await response.json());
+      renderBloomGuide();
       content.hidden = false;
       setupTable(rows);
       status.hidden = true;
