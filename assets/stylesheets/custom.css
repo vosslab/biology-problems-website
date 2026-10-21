@@ -405,7 +405,15 @@
 }}
 
 /* These controls belong to the website, outside the generated question body. */
-@scope (:root) to (.selftest-reroll-content) {.selftest-reroll-button{
+@scope (:root) to (.selftest-reroll-content) {.selftest-practice-controls{
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 100%;
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.selftest-reroll-button,.selftest-visibility-button{
   flex: 0 1 auto;
   min-height: 28px;
   padding: 3px 10px;
@@ -420,7 +428,13 @@
   cursor: pointer;
 }}
 
-@scope (:root) to (.selftest-reroll-content) {.selftest-reroll-button:hover:not(:disabled){
+@scope (:root) to (.selftest-reroll-content) {.selftest-visibility-button{
+  border-color: var(--md-default-fg-color--light);
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.selftest-reroll-button:hover:not(:disabled),.selftest-visibility-button:hover:not(:disabled){
   filter: brightness(0.9);
 }}
 
@@ -431,12 +445,12 @@
   padding: 2px 9px;
 }}
 
-@scope (:root) to (.selftest-reroll-content) {.selftest-reroll-button:focus-visible{
+@scope (:root) to (.selftest-reroll-content) {.selftest-reroll-button:focus-visible,.selftest-visibility-button:focus-visible{
   outline: 2px solid var(--md-accent-fg-color);
   outline-offset: 3px;
 }}
 
-@scope (:root) to (.selftest-reroll-content) {.selftest-reroll-button:disabled{
+@scope (:root) to (.selftest-reroll-content) {.selftest-reroll-button:disabled,.selftest-visibility-button:disabled{
   cursor: wait;
   opacity: 0.55;
 }}

@@ -32,3 +32,21 @@
 @scope (:root) to (.selftest-reroll-content) {.bloom-badge[data-bloom="Conceptual"]{ --bloom-hue: #a719db; }}
 @scope (:root) to (.selftest-reroll-content) {.bloom-badge[data-bloom="Procedural"]{ --bloom-hue: #c80085; }}
 @scope (:root) to (.selftest-reroll-content) {.bloom-badge[data-bloom="Metacognitive"]{ --bloom-hue: #cc0066; }}
+
+@scope (:root) to (.selftest-reroll-content) {.bloom-scales{
+  font-size: 0.8rem;
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.bloom-scales-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+  gap: 0 1rem;
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.bloom-scales-grid h3{
+  margin-top: 0.5rem;
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.bloom-scales-grid dd{
+  margin: 0.3rem 0 0.8rem;
+}}

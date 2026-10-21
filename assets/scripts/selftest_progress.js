@@ -202,7 +202,7 @@
 		var badge = header.querySelector("[data-selftest-status]") || document.createElement("div");
 		badge.setAttribute("data-selftest-status", host.dataset.bbq);
 		badge.setAttribute("role", "status");
-		header.insertBefore(badge, header.querySelector(".selftest-reroll-button"));
+		header.insertBefore(badge, header.querySelector(".selftest-practice-controls"));
 		setQuestionStatus(host.dataset.bbq);
 	}
 

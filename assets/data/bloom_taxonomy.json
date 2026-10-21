@@ -1,0 +1,22 @@
+{
+  "cognitive": {
+    "title": "Cognitive Process Dimension",
+    "levels": [
+      {"label": "Remember", "description": "Retrieve relevant knowledge from memory by recognizing or recalling."},
+      {"label": "Understand", "description": "Construct meaning by interpreting, classifying, summarizing, comparing, or explaining."},
+      {"label": "Apply", "description": "Carry out or use a procedure in a given situation."},
+      {"label": "Analyze", "description": "Separate material into parts and identify their relationships and overall structure."},
+      {"label": "Evaluate", "description": "Make judgments using criteria and standards through checking or critique."},
+      {"label": "Create", "description": "Combine elements into a coherent new whole through generating, planning, or producing."}
+    ]
+  },
+  "knowledge": {
+    "title": "Knowledge Dimension",
+    "levels": [
+      {"label": "Factual", "description": "Knowledge of basic elements, terminology, and specific details."},
+      {"label": "Conceptual", "description": "Knowledge of categories, principles, theories, models, and how they relate."},
+      {"label": "Procedural", "description": "Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them."},
+      {"label": "Metacognitive", "description": "Knowledge of learning strategies, thinking tasks, and one's own strengths and limitations."}
+    ]
+  }
+}
