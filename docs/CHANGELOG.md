@@ -4,6 +4,31 @@
 
 ### Behavior or Interface Changes
 
+- Clarify acceptable MA design in [HUMAN_GUIDANCE.md](HUMAN_GUIDANCE.md): multiple valid
+  outcomes or properties of one problem, with restriction digest, ABO, gene mapping, metabolic
+  rescue, and monosaccharide examples. Distinguish these from independent true/false bundles.
+
+- Remove the combined multiple-answer dice bank from Genetics Topic 07 and its task assignment,
+  caches, provenance, catalog, and practice manifest. Its independent statement checks overlap
+  the separate dice tasks; retain those tasks. Topic 07 now contains 20 problem sets.
+  Remove the retired bank from title-guide and generation-prompt examples.
+
+- Establish [PROBLEM_TITLE_STYLE.md](PROBLEM_TITLE_STYLE.md) as the editorial guide for
+  instructor recognition, with before/after examples, chapter-level comparison, and a review
+  workflow. Keep format and badge rules in the abbreviation guide, link the style guide from
+  agent instructions, and align the generation prompt with the reviewed titles.
+
+- Revise Genetics Topic 07 problem-set titles for instructors selecting class questions.
+  Review all 21 together for recognition within the chapter. Distinguish independent births,
+  binomial offspring counts, table selection, hypothesis-pair errors, and test conclusions.
+  Preserve the approved rejection-criteria and process-error titles. Update the title guide and
+  generation prompt to favor the shortest wording that uniquely identifies each problem set.
+  Name null and alternative hypotheses explicitly and distinguish dice calculations and statistical
+  significance. Verify the dice bank scope: 23 questions
+  ask for individual contributions and 27 for totals; all 50 interpretation questions assess
+  significance at alpha = 0.05. Keep Calculations rather than the narrower Totals title.
+  Refresh topic pages, catalogs, and activity labels, including the shared Biostatistics bank.
+
 - Make the secondary practice control Hide-only. Hide it when the question is collapsed
   and return keyboard focus to Show another question, eliminating the duplicate Show button.
 - Double the correct-answer pause from half a second to one second. Cancel pending
@@ -18,6 +43,22 @@
 
 ### Developer Tests and Notes
 
+- After removing the combined dice bank, verify 20 remaining Topic 07 sets, no live references
+  to the retired bank, and byte-identical content in all 495 remaining question-bank files.
+  Refresh counts while preserving source history. All 194 focused documentation, title, catalog,
+  homepage, and practice-manifest checks pass.
+- Title-guide update: 175 documentation-link and focused title/index/download checks pass.
+  Smoke-check the prompt's dice examples and verify the two revised catalog titles and formats.
+- Update the local SVG Bloom gallery with connected sitemap/topic labels, separate Finder
+  columns, thicker outlines, smaller circled numbers, and unbroken text at natural width.
+  Keep Finder metadata columns fitted to their content, with Name taking the spare width.
+  One-time checks pass in Firefox 157 and Chromium 156 at normal and doubled text size:
+  selectable text, tooltips, resizing, offline operation, and no script errors. This is a
+  preview only; production rendering is unchanged and ESR has not been tested.
+- Verify the revised titles against topic headings and Question Finder; preserve remaining cache
+  keys, format labels, and existing homepage history. All 12 focused title/index/download tests pass.
+  Two one-time checks cover all 21 chapter titles and the revised prompt with a real question;
+  live LLM title generation has not been evaluated.
 - Verify the Hide-only controls with a fresh MkDocs build and all eight focused practice
   browser tests, including keyboard focus, independent collapse, and advancement cancellation.
 - Review automatic advancement with the HCI, UI/UX, and TypeScript skills; record scope and

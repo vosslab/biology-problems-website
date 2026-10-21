@@ -26,21 +26,25 @@ def generate_title_prompt(file_path: str, problem_statements: list) -> str:
 	prompt = (
 		"You curate a catalog of biology problem sets for instructors browsing the corpus "
 		"and considering material for their courses. "
-		"Write a concise title that helps an instructor recognize the topic, assessed skill, "
-		"and meaningful differences from related sets. The title appears beside related "
+		"Write the shortest title that uniquely identifies the specific problem set to an "
+		"instructor familiar with the chapter. Preserve the details that make the set "
+		"recognizable among its chapter neighbors. The title appears beside related "
 		"sets in a subject-and-topic sitemap and a searchable Question Finder, without "
 		"the filename or question text. The question format is displayed separately as a badge.\n\n"
 	)
 
 	prompt += (
 		# Provide instructions for how the title should be created
+		# Editorial authority: docs/PROBLEM_TITLE_STYLE.md.
 		# Canonical format labels: docs/PROBLEM_TITLE_ABBREVIATIONS.md.
 		"Instructions:\n"
-		"- Lead with the biological concept and use the scientific terms instructors search for.\n"
-		"- Name the assessed task or input when useful, such as structure identification, pedigree interpretation, or calculations from data.\n"
+		"- Be specific, descriptive, concise, and recognizable: name what students actually do and use familiar teaching terminology.\n"
+		"- Lead with the distinguishing content. Include biological context, mathematical concept, application, or input where it identifies this set among others in the chapter.\n"
+		"- Use concrete noun phrases and remove filler such as Completing a, Evaluating a, and When to. Retain a shared topic name where it helps identify the specific problem set.\n"
+		"- Identify the assessed task or decision, including cases with different correct conclusions. Keep the details that distinguish a combined task from its component sets.\n"
 		"- Describe the scope across the sample questions. Include a particular organism, disorder, or value only when it defines the set.\n"
 		"- Use the same base wording for versions of the same content; put format and meaningful variant details in parentheses at the end.\n"
-		"- Make each variant recognizable on its own and easy to compare with its siblings. Use the pattern Topic or Result from Input (Variant Details, Format).\n"
+		"- Make each variant recognizable on its own and easy to compare with its siblings. Result from Input (Variant Details, Format) is one useful pattern; choose wording that best identifies the set.\n"
 		"- Keep parallel wording for parallel tasks. For example, sets asking for p-values use p-Values from the named data, with the statistical test identified.\n"
 		"- MATCH- and WOMC- files are versions of a matching bank. Use the same content title with a final Matching or WOMC label, respectively. WOMC means Which One Multiple Choice, drawn from matching content.\n"
 		"- Use (TFMS) for TFMS- filenames. It identifies that MC generator family even when the stem asks for an example or sequence. The website displays it as T/F Statements (MC); describe the actual assessed task in the base title.\n"
@@ -59,6 +63,14 @@ def generate_title_prompt(file_path: str, problem_statements: list) -> str:
 	prompt += (
 		# Curated examples show how sibling titles read together in the sitemap.
 		"<sample titles showing parallel families>\n"
+		"Offspring Phenotype Probabilities for Independent Births (MC)\n"
+		"Binomial Probabilities for Offspring Phenotype Counts (2-4 Offspring, MC)\n"
+		"Binomial Probabilities for Offspring Sex Counts (MC)\n"
+		"Null Hypothesis Rejection Criteria (TFMS)\n"
+		"Chi-Square Process Error Identification (MC)\n"
+		"Null and Alternative Hypothesis Error Identification for Genetic Crosses (MC)\n"
+		"Chi-Square Calculations for Dice Rolls (MC)\n"
+		"Statistical Significance of Dice Roll Deviations (MC)\n"
 		"Allosteric Enzymes in Metabolic Pathways (MC)\n"
 		"Amino Acids from Chemical Structures (7 Choices, MC)\n"
 		"Cell Disruption Techniques from Descriptions (Matching)\n"
@@ -71,8 +83,6 @@ def generate_title_prompt(file_path: str, problem_statements: list) -> str:
 		"Enzyme Inhibition Type from Enzyme Activity Data (MC)\n"
 		"Michaelis-Menten Constant (Km) from Enzyme Activity Data (MC)\n"
 		"Optimal Buffering Range Using pKa (MC)\n"
-		"Chemical Reactions (TFMS)\n"
-		"Michaelis-Menten Kinetics (TFMS)\n"
 		"Inheritance Patterns from Pedigrees (Easy, MC)\n"
 		"Inheritance Patterns from Pedigrees (Medium, MC)\n"
 		"Inheritance Patterns from Pedigrees (Rigorous, MC)\n"

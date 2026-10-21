@@ -3,8 +3,8 @@
 Use these canonical abbreviations for question-format labels in
 [problem_set_titles.yml](../problem_set_titles.yml) and newly generated titles.
 
-Titles form an instructor-facing catalog. They should help instructors judge the topic,
-assessed skill, and suitability of a problem set for their courses.
+For audience, wording, specificity, examples, and editorial review, follow
+[PROBLEM_TITLE_STYLE.md](PROBLEM_TITLE_STYLE.md).
 
 The cache stores plain titles with final format labels. Generated topic pages place the
 type badge first in the download row; the All Questions index places it before each
@@ -17,6 +17,7 @@ while the text labels identify formats independently of color.
 
 | Abbreviation | Meaning |
 | --- | --- |
+| Matching | Matching questions; BBQ record type `MAT` |
 | FiB | Fill in the Blank |
 | MULTI_FIB | Multiple Fill in the Blanks; badge reads `Multi-FiB` |
 | MC | Multiple Choice |
@@ -29,7 +30,7 @@ while the text labels identify formats independently of color.
 - Preserve the capitalization shown above, including `FiB`.
 - Use format labels in parentheses, such as `Dipeptide Sequences from Structures (FiB)`
   and `Dipeptide Sequences from Structures (MC)`.
-- Put the topic first and the question type last in every cached title.
+- Put the descriptive title first and the question type last in every cached title.
 - Check the response format against the BBQ records: `MA`, `NUM`, and `ORD` use those
   labels; `MAT` displays as `Matching`; `FIB` displays as `FiB`; `FIB_PLUS` maps to
   the distinct `MULTI_FIB` type and displays as `Multi-FiB`.
@@ -59,29 +60,3 @@ disabled. Light mode pairs `xdark` text with `xlight` fill; dark mode pairs
 MULTI_FIB, ORD, WOMC, TFMS. This gives the common MC, WOMC, TFMS, and Matching
 badges distinct red, violet, magenta, and warm-brown colors. The generated
 values are fixed in CSS so site builds do not depend on the colorwheel package.
-
-## Editorial guidance
-
-- Use the scientific terms instructors search for and name the assessed task or input when
-  useful: structure identification, pedigree interpretation, or calculations from data.
-- Describe the problem set's scope across its questions. Sample organisms, disorders, values,
-  and correct answers should appear only when they define the set.
-- Give versions of the same content the same base title, with format and meaningful variant
-  details in parentheses.
-- Review titles as adjacent sitemap entries: each should identify the task and variant without
-  requiring the filename or question text. Use parallel wording for parallel tasks, such as
-  `One-Sample t-Test p-Values from Birth Weight Data (One-Tailed, NUM)` and
-  `Two-Sample t-Test p-Values from Birth Weight Data (One-Tailed, NUM)`.
-- Retain explicit filename difficulty labels: `Easy`, `Medium`, `Hard`, `Rigorous`, and `Bonus`.
-  Shared scientific assumptions do not replace these labels. For example, pedigree variants use
-  `Inheritance Patterns from Pedigrees (Rigorous, MC)` and
-  `Inheritance Patterns from Pedigrees (Bonus, MC)`.
-- Order applicable qualifiers consistently: difficulty, size or count, representation or label
-  type, `With Hint`, then format. Preserve meaningful differences in the assessed content.
-- Replace opaque generator labels and local course codes with verified content distinctions.
-  For example, use `3 Taxa` instead of `Level 1` when the generator confirms that meaning.
-- Retain information that affects course selection, including representation, prerequisites,
-  question format, and scope. Use difficulty claims only when supported by the material.
-- Check the question bank or generator before claiming what a variant covers.
-- Use consistent qualifier spellings such as `With Hint`, `Word Labels`, `Directionless`, and
-  `5'/3' Labels`.

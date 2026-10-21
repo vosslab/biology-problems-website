@@ -41,7 +41,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div>
 
 
-## Chi-Square Tests
+## Null Hypothesis Rejection Criteria
 
 <div id="TFMS-chi-square-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-chi-square-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -79,7 +79,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div>
 
 
-## Chi-Square Values for Phenotypic Ratios
+## Chi-Square Statistic from Dihybrid Offspring Counts
 
 <div id="chi_square_calculated-ACCEPT-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_calculated-ACCEPT-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -97,7 +97,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div>
 
 
-## Hypothesis Decisions from Chi-Square Tests
+## Dihybrid Chi-Square Table Selection and Conclusions
 
 <div id="chi_square_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -115,7 +115,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div>
 
 
-## Completing a Dice Chi-Square Calculation
+## Chi-Square Calculations for Dice Rolls
 
 <div id="chi_square_dice-calculate-MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_dice-calculate-MC-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -133,25 +133,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div>
 
 
-## Evaluating a Dice Chi-Square Test
-
-<div id="chi_square_dice-conclusions-MA-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-chi_square_dice-conclusions-MA-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-chi_square_dice-conclusions-MA-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-chi_square_dice-conclusions-MA.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
-<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-chi_square_dice-conclusions-MA-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-chi_square_dice-conclusions-MA.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-chi_square_dice-conclusions-MA-questions.txt" data-format="human_readable" data-filename="human_readable-chi_square_dice-conclusions-MA.html" aria-label="Generate Human-Readable">Human-Readable</button>
-<span class="qpm-package-status" role="status" aria-live="polite"></span>
-<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-chi_square_dice-conclusions-MA-questions.txt">
-<div class="selftest-question-header selftest-question-placeholder">
-<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
-<span class="bloom-classification" aria-label="Estimated Bloom labels for this bank" title="Estimated Bloom labels for this question bank"><span class="bloom-badge" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply (3)</span> <span class="bloom-badge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural (3)</span></span>
-</div>
-  <div class="selftest-reroll-content"></div>
-</div>
-
-
-## Counts and Degrees of Freedom in a Dice Experiment
+## Sample Size, Expected Counts, and Degrees of Freedom for Dice
 
 <div id="chi_square_dice-connect-MATCH-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_dice-connect-MATCH-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -169,7 +151,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div>
 
 
-## Degrees of Freedom for Six-Sided Dice
+## Degrees of Freedom for a Six-Sided Die
 
 <div id="chi_square_dice-df-MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_dice-df-MC-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -187,7 +169,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div>
 
 
-## Expected Counts for Six-Sided Dice
+## Expected Face Counts for a Fair Die
 
 <div id="chi_square_dice-expected-MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_dice-expected-MC-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -205,7 +187,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div>
 
 
-## Interpreting Dice Chi-Square Results
+## Statistical Significance of Dice Roll Deviations
 
 <div id="chi_square_dice-interpret-MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_dice-interpret-MC-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -223,7 +205,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div>
 
 
-## Errors in Chi-Square Calculations and Hypothesis Decisions
+## Chi-Square Process Error Identification
 
 <div id="chi_square_errors-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_errors-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -241,7 +223,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div>
 
 
-## Chi-Square Tests for Hardy-Weinberg Equilibrium
+## Hardy-Weinberg Equilibrium Test Conclusions
 
 <div id="chi_square_hardy_weinberg-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_hardy_weinberg-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -259,7 +241,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div>
 
 
-## Choosing the Alternative Hypothesis for a Genetic Cross
+## Alternative Hypotheses for Mendelian Offspring Ratios
 
 <div id="chi_square_hypotheses-alt-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_hypotheses-alt-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -277,7 +259,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div>
 
 
-## Choosing the Null Hypothesis for a Genetic Cross
+## Null Hypotheses for Mendelian Offspring Ratios
 
 <div id="chi_square_hypotheses-null-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_hypotheses-null-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -295,7 +277,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div>
 
 
-## Reviewing a Lab Partner&#x27;s Chi-Square Hypotheses
+## Null and Alternative Hypothesis Error Identification for Genetic Crosses
 
 <div id="chi_square_hypotheses_lab_partner-hypotheses_partner-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -313,7 +295,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div>
 
 
-## Offspring Sex Distribution Using the Binomial Model
+## Binomial Probabilities for Offspring Sex Counts
 
 <div id="probabiliy_of_progeny-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-probabiliy_of_progeny-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -331,7 +313,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div>
 
 
-## Probabilities for Two to Four Offspring
+## Binomial Probabilities for Offspring Phenotype Counts (2-4 Offspring)
 
 <div id="progeny_probability_practice-calculate-MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-progeny_probability_practice-calculate-MC-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -349,7 +331,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div>
 
 
-## Offspring Probability and Independence
+## Offspring Phenotype Probabilities for Independent Births
 
 <div id="progeny_probability_practice-independence-MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-progeny_probability_practice-independence-MC-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -367,7 +349,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div>
 
 
-## Exactly and At Least in Offspring Outcomes
+## Offspring Sequences with Exact or Minimum Phenotype Counts
 
 <div id="progeny_probability_practice-outcomes-MA-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-progeny_probability_practice-outcomes-MA-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -385,7 +367,7 @@ Students calculate offspring probabilities from visible outcomes and small famil
 </div>
 
 
-## Offspring Probabilities from Tables
+## Offspring Phenotype Count Probabilities from Tables
 
 <div id="progeny_probability_practice-tables-MATCH-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-progeny_probability_practice-tables-MATCH-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>

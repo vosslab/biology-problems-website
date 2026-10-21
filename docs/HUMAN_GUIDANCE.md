@@ -67,8 +67,8 @@ origin belongs there too. Rules: [REPO_STYLE.md](REPO_STYLE.md).
   for history. Renaming generated website files must not erase the question history. An older
   source newly included on the website belongs under New to the site.
 
-- Curate problem-set titles for instructors browsing the corpus and considering whether
-  to use the material in their courses.
+- Curate problem-set titles for instructors choosing questions for their classes. An instructor
+  familiar with the chapter should recognize the specific problem set from its title.
 - Make question-type badges visually distinct from download buttons: rectangular
   labels with colored side bars, using the existing colorwheel. Give MC, WOMC,
   TFMS, and Matching distinct colors.
@@ -77,6 +77,22 @@ origin belongs there too. Rules: [REPO_STYLE.md](REPO_STYLE.md).
   Keep type badges before linked titles in All Questions. Python owns badge markup; CSS owns layout.
 - Identify the response type from each BBQ file's first record. Treat `FIB_PLUS` as the
   distinct `MULTI_FIB` type, and distinguish regular MC, WOMC, and TFMS banks.
+
+## Multiple-answer question design
+
+- Use MA when multiple correct answers arise naturally from one biological or mathematical
+  problem. Students select multiple valid outcomes or properties of that problem, rather than
+  independently judging several unrelated claims.
+- Restriction fragment sizes: identify all fragments produced by one restriction digest.
+- ABO blood types: identify all possible offspring or maternal blood types.
+- Gene mapping: identify all recombinant or parental genotypes.
+- Metabolic pathways: identify all supplements that rescue a mutant.
+- Monosaccharide classification: identify all classifications that apply to one structure.
+- Avoid MA banks that bundle independent true/false statements, even when each statement is
+  scientifically valid. Assess those concepts separately rather than as an all-or-nothing
+  combination that can deny credit for partial understanding.
+- The combined dice chi-square MA bank is a poor fit: the separate dice banks already assess
+  expected counts, degrees of freedom, chi-square calculations, and statistical significance.
 
 ## Working style
 

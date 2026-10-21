@@ -10,5 +10,4 @@ genetics,chi_square,{bp_root}/inheritance-problems/chi_square/chi_square_dice.py
 genetics,chi_square,{bp_root}/inheritance-problems/chi_square/chi_square_dice.py,--kind df,,
 genetics,chi_square,{bp_root}/inheritance-problems/chi_square/chi_square_dice.py,--kind calculate,,
 genetics,chi_square,{bp_root}/inheritance-problems/chi_square/chi_square_dice.py,--kind interpret,,
-genetics,chi_square,{bp_root}/inheritance-problems/chi_square/chi_square_dice.py,--kind conclusions,,
 genetics,chi_square,{bp_root}/inheritance-problems/chi_square/chi_square_dice.py,--kind connect,,

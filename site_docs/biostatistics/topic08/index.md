@@ -39,7 +39,7 @@ Students formulate hypotheses, calculate expected counts and chi-square statisti
 </div>
 
 
-## Chi-Square Tests
+## Null Hypothesis Rejection Criteria
 
 <div id="TFMS-chi-square-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-chi-square-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
