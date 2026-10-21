@@ -203,8 +203,16 @@ bbq-chargaff_dna_percent-5_choices-questions.txt: Apply, Procedural
 bbq-chemical_group_pka_forms-questions.txt: Apply, Conceptual
 bbq-chi_square_calculated-ACCEPT-questions.txt: Apply, Procedural
 bbq-chi_square_choices-questions.txt: Apply, Procedural
+bbq-chi_square_dice-calculate-MC-questions.txt: Apply, Procedural
+bbq-chi_square_dice-conclusions-MA-questions.txt: Apply, Procedural
+bbq-chi_square_dice-connect-MATCH-questions.txt: Apply, Procedural
+bbq-chi_square_dice-df-MC-questions.txt: Apply, Procedural
+bbq-chi_square_dice-expected-MC-questions.txt: Apply, Procedural
+bbq-chi_square_dice-interpret-MC-questions.txt: Evaluate, Conceptual
 bbq-chi_square_errors-questions.txt: Evaluate, Procedural
 bbq-chi_square_hardy_weinberg-questions.txt: Evaluate, Procedural
+bbq-chi_square_hypotheses-alt-questions.txt: Understand, Conceptual
+bbq-chi_square_hypotheses-null-questions.txt: Understand, Conceptual
 bbq-chi_square_hypotheses-pair-questions.txt: Apply, Conceptual
 bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt: Evaluate, Conceptual
 bbq-chymotrypsin_substrate-questions.txt: Apply, Procedural
@@ -338,6 +346,10 @@ bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt: Apply, Procedural
 bbq-polyploid-gametes-questions.txt: Apply, Procedural
 bbq-polyploid-monoploid_v_haploid-questions.txt: Apply, Procedural
 bbq-probabiliy_of_progeny-questions.txt: Apply, Procedural
+bbq-progeny_probability_practice-calculate-MC-questions.txt: Apply, Procedural
+bbq-progeny_probability_practice-independence-MC-questions.txt: Apply, Conceptual
+bbq-progeny_probability_practice-outcomes-MA-questions.txt: Apply, Procedural
+bbq-progeny_probability_practice-tables-MATCH-questions.txt: Apply, Procedural
 bbq-protein_gel_migration-questions.txt: Apply, Procedural
 bbq-punnett_choice-questions.txt: Apply, Procedural
 bbq-quick_fatty_acid_colon_system-questions.txt: Understand, Factual

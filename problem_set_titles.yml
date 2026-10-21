@@ -1,3 +1,15 @@
+bbq-progeny_probability_practice-independence-MC-questions.txt: Offspring Probability and Independence (MC)
+bbq-progeny_probability_practice-outcomes-MA-questions.txt: Exactly and At Least in Offspring Outcomes (MA)
+bbq-progeny_probability_practice-tables-MATCH-questions.txt: Offspring Probabilities from Tables (Matching)
+bbq-progeny_probability_practice-calculate-MC-questions.txt: Probabilities for Two to Four Offspring (MC)
+bbq-chi_square_hypotheses-null-questions.txt: Choosing the Null Hypothesis for a Genetic Cross (MC)
+bbq-chi_square_hypotheses-alt-questions.txt: Choosing the Alternative Hypothesis for a Genetic Cross (MC)
+bbq-chi_square_dice-expected-MC-questions.txt: Expected Counts for Six-Sided Dice (MC)
+bbq-chi_square_dice-df-MC-questions.txt: Degrees of Freedom for Six-Sided Dice (MC)
+bbq-chi_square_dice-calculate-MC-questions.txt: Completing a Dice Chi-Square Calculation (MC)
+bbq-chi_square_dice-interpret-MC-questions.txt: Interpreting Dice Chi-Square Results (MC)
+bbq-chi_square_dice-conclusions-MA-questions.txt: Evaluating a Dice Chi-Square Test (MA)
+bbq-chi_square_dice-connect-MATCH-questions.txt: Counts and Degrees of Freedom in a Dice Experiment (Matching)
 bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt: D/L Monosaccharide
   Configurations from Fischer Projections (MC)
 bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt: D/L Monosaccharide
@@ -342,8 +354,8 @@ bbq-chi_square_hardy_weinberg-questions.txt: Chi-Square Tests for Hardy-Weinberg
   (MC)
 bbq-chi_square_hypotheses-pair-questions.txt: Null and Alternative Hypotheses for
   Genetic Crosses (MC)
-bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt: Misstated
-  Null Hypotheses for Genetic Ratios (MC)
+bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt: Reviewing a
+  Lab Partner's Chi-Square Hypotheses (MC)
 bbq-chymotrypsin_substrate-questions.txt: Cleavage Sites for Chymotrypsin Digestion
   of Peptides (MC)
 bbq-circular_digest-length_10-sites_2_selected-questions.txt: Restriction Fragment

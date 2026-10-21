@@ -1,5 +1,24 @@
 # Changelog
 
+## 2026-10-20
+
+- Move the existing offspring-probability bank unchanged from Genetics chapter 6
+  to chapter 7 and update its task assignment. Expand chapter 7's description to
+  include probability while preserving its title, alias, and URL.
+- Add 12 Genetics quiz banks: four probability modes, six dice chi-square modes,
+  and separate null/alternative hypothesis questions. Refresh the lab-partner
+  bank and replace the Genetics paired-hypothesis placement. Biostatistics retains
+  its paired bank. Keep the new/revised tasks together in
+  `task_files/genetics_probability_tasks.csv` for scoped regeneration.
+- Curate titles and regenerate affected topic pages, catalogs, navigation,
+  self-test metadata, and homepage activity. Smaller probability batches respect
+  their finite scenario pools rather than inflating counts with cosmetic variants.
+- Validation: independently verify 272 probability/dice keys and 90 hypothesis
+  keys. The read-only full suite passes 3,416 checks and reports pre-existing
+  trailing whitespace in three unrelated banks. An initial default test run
+  automatically stripped that whitespace; restore those three files byte-for-byte
+  and rerun with automatic fixing disabled. No unrelated bank edits remain.
+
 ## 2026-10-19
 
 ### Behavior or Interface Changes

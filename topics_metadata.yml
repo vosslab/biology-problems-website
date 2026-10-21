@@ -204,7 +204,7 @@ genetics:
     topic07:
       alias: chi_square
       title: Chi Square Analysis
-      description: Students perform chi-square tests on genetic cross data to evaluate whether observed ratios fit expected Mendelian predictions.
+      description: Students calculate offspring probabilities from visible outcomes and small families, then use expected counts, hypotheses, and chi-square results to evaluate Mendelian predictions.
       libretexts:
         url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/07:_Chi_Square_Analysis"
         chapter: 7
