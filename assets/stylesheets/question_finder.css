@@ -1,4 +1,9 @@
 /* Website styles exclude self-test content. */
+/* This stylesheet is loaded only on Question Finder; use the full page width. */
+@scope (:root) to (.selftest-reroll-content) {.md-grid{
+  max-width: none;
+}}
+
 /* Scoped overrides for the Material light/dark palettes and column dropdowns. */
 @scope (:root) to (.selftest-reroll-content) {.question-finder{
   --dt-html_background: var(--md-default-bg-color);
@@ -36,8 +41,19 @@
 @scope (:root) to (.selftest-reroll-content) {.question-finder #finder-filters{ display: flex; flex-wrap: wrap; gap: .35rem; margin-bottom: .6rem; }}
 @scope (:root) to (.selftest-reroll-content) {.question-finder .finder-help{ font-size: .75rem; color: var(--md-default-fg-color--light); }}
 @scope (:root) to (.selftest-reroll-content) {.question-finder .finder-scroll{ overflow-x: auto; }}
-@scope (:root) to (.selftest-reroll-content) {.question-finder #finder-table{ width: 100%; min-width: 36rem; font-size: .75rem; }}
-@scope (:root) to (.selftest-reroll-content) {.question-finder #finder-table th{ color: var(--md-default-fg-color); background: var(--md-default-bg-color); }}
+@scope (:root) to (.selftest-reroll-content) {.question-finder #finder-table{ width: 100%; table-layout: auto; font-size: .75rem; }}
+/* Reserve only intrinsic content space for metadata; Name gets the remainder. */
+@scope (:root) to (.selftest-reroll-content) {.question-finder #finder-table :is(th, td):not(:first-child){ width: 1%; white-space: nowrap; }}
+/* Keep titles readable when metadata alone fills the available page width. */
+@scope (:root) to (.selftest-reroll-content) {.question-finder #finder-table :is(th, td):first-child{ min-width: 14em; overflow-wrap: normal; }}
+@scope (:root) to (.selftest-reroll-content) {.question-finder #finder-table th{ text-align: left; color: var(--md-default-fg-color); background: var(--md-default-bg-color); }}
+/* Title, sort, filter: intrinsic control widths and the same order for every type. */
+@scope (:root) to (.selftest-reroll-content) {.question-finder #finder-table .dt-column-header{
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+}}
+@scope (:root) to (.selftest-reroll-content) {.question-finder #finder-table .dtcc-button-icon{ min-width: var(--dtcc-button-icon_size); }}
 @scope (:root) to (.selftest-reroll-content) {.question-finder #finder-table caption{ text-align: left; padding: .35rem 0; }}
 @scope (:root) to (.selftest-reroll-content) {.question-finder .dt-container{ color: var(--md-default-fg-color); }}
 @scope (:root) to (.selftest-reroll-content) {.question-finder .dtcc-dropdown{

@@ -2,21 +2,104 @@
 /* Independent Bloom categories, using BPQ matching_sets/TEMPLATE.yml hues.
    Names carry meaning; color supplements them. Theme mixes preserve hue and
    exceed the repository's 5.5:1 text-contrast target on the tinted badges. */
-@scope (:root) to (.selftest-reroll-content) {.bloom-badge{
-  display: inline-block;
-  padding: 2px 6px;
-  border: 1px solid currentColor;
-  border-radius: 3px;
+@scope (:root) to (.selftest-reroll-content) {.bloom-ribbon{
+  --bloom-frame: .2em;
+  --bloom-fold: .4em;
+  --bloom-chevron-depth: .6;
+  --bloom-chevron: calc(var(--bloom-chevron-depth) * 1em);
+  --bloom-gap: 3px;
+  --bloom-stroke: 1.5px;
+  --bloom-backing: #d7dbe0;
+  position: relative;
+  isolation: isolate;
+  display: inline-flex;
+  align-items: stretch;
+  flex: 0 0 auto;
+  flex-wrap: nowrap;
+  width: max-content;
+  max-width: none;
+  padding-block: var(--bloom-frame);
   font-size: 0.75rem;
+  vertical-align: middle;
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.bloom-ribbon::before{
+  content: "";
+  position: absolute;
+  inset: 0 var(--bloom-fold);
+  background: var(--bloom-backing);
+  z-index: -1;
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.bloom-badge{
+  position: relative;
+  isolation: isolate;
+  display: inline-block;
+  flex: 0 0 auto;
+  padding: .15em calc(var(--bloom-chevron) + .55em) .15em calc(var(--bloom-fold) + .55em);
+  font-size: inherit;
   line-height: 1.4;
   white-space: nowrap;
+  overflow-wrap: normal;
   color: color-mix(in srgb, var(--bloom-hue) 88%, #000000);
-  background-color: color-mix(in srgb, var(--bloom-hue) 6%, #ffffff);
+  --bloom-fill: color-mix(in srgb, var(--bloom-hue) 6%, #ffffff);
+}}
+
+@scope (:root) to (.selftest-reroll-content) {[data-md-color-scheme="slate"] .bloom-ribbon{
+  --bloom-backing: #4a4e59;
 }}
 
 @scope (:root) to (.selftest-reroll-content) {[data-md-color-scheme="slate"] .bloom-badge{
   color: color-mix(in srgb, var(--bloom-hue) 35%, #ffffff);
-  background-color: color-mix(in srgb, var(--bloom-hue) 12%, var(--md-default-bg-color));
+  --bloom-fill: color-mix(in srgb, var(--bloom-hue) 12%, var(--md-default-bg-color));
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.bloom-knowledge{
+  margin-left: calc(var(--bloom-gap) - var(--bloom-chevron));
+  padding-inline: calc(var(--bloom-chevron) + .55em) calc(var(--bloom-fold) + .55em);
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.bloom-badge::before{
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: var(--bloom-fold);
+  height: var(--bloom-frame);
+  background: #0008;
+  z-index: -1;
+  pointer-events: none;
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.bloom-cognitive::before{ left: 0; clip-path: polygon(0 0, 100% 0, 100% 100%); }}
+@scope (:root) to (.selftest-reroll-content) {.bloom-knowledge::before{ right: 0; clip-path: polygon(0 0, 100% 0, 0 100%); }}
+@scope (:root) to (.selftest-reroll-content) {.bloom-solo .bloom-knowledge{ margin-left: 0; }}
+@scope (:root) to (.selftest-reroll-content) {.bloom-solo:has(.bloom-cognitive)::before{ right: var(--bloom-chevron); }}
+@scope (:root) to (.selftest-reroll-content) {.bloom-solo:has(.bloom-knowledge)::before{ left: var(--bloom-chevron); }}
+
+@scope (:root) to (.selftest-reroll-content) {.bloom-badge .bloom-outline{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  overflow: visible;
+  z-index: -1;
+  pointer-events: none;
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.bloom-outline path{
+  fill: var(--bloom-fill);
+  stroke: currentColor;
+  stroke-width: var(--bloom-stroke);
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.bloom-level{
+  font-family: "Segoe UI Symbol", "Apple Symbols", "Noto Sans Symbols 2", sans-serif;
+  font-size: 1.2em;
+  line-height: 0;
+  vertical-align: -.075em;
 }}
 
 /* Cognitive process: cool to warm. */

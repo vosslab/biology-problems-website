@@ -19,6 +19,11 @@
   --md-text-font: "Atkinson Hyperlegible Next";
 }
 
+/* Give tables and teaching content more room on wide screens. */
+@scope (:root) to (.selftest-reroll-content) {.md-grid{
+  max-width: 80rem;
+}}
+
 @font-face {
   font-family: "Font Awesome 6 Free";
   src: url("/assets/fonts/fa-solid-900.woff2") format("woff2");
@@ -94,16 +99,6 @@
   font-size: 0.7rem;
   font-weight: 700;
   line-height: 1.4;
-}}
-
-@scope (:root) to (.selftest-reroll-content) {.question-index-entry{
-  display: flex;
-  align-items: flex-start;
-  gap: 7px;
-}}
-
-@scope (:root) to (.selftest-reroll-content) {.question-index-entry a{
-  min-width: 0;
 }}
 
 @scope (:root) to (.selftest-reroll-content) {.md-typeset abbr.question-type{
@@ -398,12 +393,6 @@
   margin: 0.6rem 0;
 }}
 
-@scope (:root) to (.selftest-reroll-content) {.bloom-classification{
-  display: inline-flex;
-  gap: 8px;
-  font-size: 0.78rem;
-}}
-
 /* These controls belong to the website, outside the generated question body. */
 @scope (:root) to (.selftest-reroll-content) {.selftest-practice-controls{
   display: inline-flex;
@@ -594,3 +583,19 @@
   max-width: 100%;
   overflow-x: auto;
 }}
+
+@scope (:root) to (.selftest-reroll-content) {.question-index-table{
+  width: 100%;
+  border-collapse: collapse;
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.question-index-table :is(th, td){
+  text-align: left;
+  vertical-align: middle;
+  padding: .4rem .5rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}}
+
+@scope (:root) to (.selftest-reroll-content) {.question-index-table :is(th, td):first-child{ padding-left: 0; }}
+@scope (:root) to (.selftest-reroll-content) {.question-index-table :is(th, td):not(:first-child){ width: 1%; white-space: nowrap; }}
+@scope (:root) to (.selftest-reroll-content) {.question-index-table :is(th, td):last-child{ padding-right: 0; }}
