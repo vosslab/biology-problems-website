@@ -2228,13 +2228,6 @@
     },
     {
       "pagePath": "genetics/topic07/index.md",
-      "questionId": "bbq-chi_square_dice-conclusions-MA-questions.txt",
-      "subjectKey": "genetics",
-      "topicKey": "topic07",
-      "topicTitle": "Chi Square Analysis"
-    },
-    {
-      "pagePath": "genetics/topic07/index.md",
       "questionId": "bbq-chi_square_dice-connect-MATCH-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic07",

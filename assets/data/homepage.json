@@ -6,17 +6,17 @@
   "new": [
     {
       "date": "2026-10-20",
-      "name": "Probabilities for Two to Four Offspring",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#progeny_probability_practice-calculate-MC-button-container"
-    },
-    {
-      "date": "2026-10-20",
-      "name": "Interpreting Dice Chi-Square Results",
+      "name": "Statistical Significance of Dice Roll Deviations",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "url": "genetics/topic07/#chi_square_dice-interpret-MC-button-container"
+    },
+    {
+      "date": "2026-10-20",
+      "name": "Offspring Sequences with Exact or Minimum Phenotype Counts",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#progeny_probability_practice-outcomes-MA-button-container"
     },
     {
       "date": "2026-10-01",
@@ -2695,7 +2695,7 @@
       "created": "2022-10-23",
       "family": "7800c46763679e90860aa9e93469646262e9c69f:multiple_choice_statements/chi-square.yml",
       "id": "genetics/topic07/bbq-TFMS-chi-square-questions.txt",
-      "name": "Chi-Square Tests",
+      "name": "Null Hypothesis Rejection Criteria",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-03-05",
@@ -2717,7 +2717,7 @@
       "created": "2021-10-20",
       "family": "d89a2d6f6665c647e63bf13099e6b36c21e9d9fe:chi_square_calculated.py",
       "id": "genetics/topic07/bbq-chi_square_calculated-ACCEPT-questions.txt",
-      "name": "Chi-Square Values for Phenotypic Ratios",
+      "name": "Chi-Square Statistic from Dihybrid Offspring Counts",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-01-10",
@@ -2728,7 +2728,7 @@
       "created": "2021-10-20",
       "family": "3c8b1d6991600c17a09edc95bcbbdb9b90e03d9c:chi_square_errors.py",
       "id": "genetics/topic07/bbq-chi_square_choices-questions.txt",
-      "name": "Hypothesis Decisions from Chi-Square Tests",
+      "name": "Dihybrid Chi-Square Table Selection and Conclusions",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-10-12",
@@ -2739,7 +2739,7 @@
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
       "id": "genetics/topic07/bbq-chi_square_dice-calculate-MC-questions.txt",
-      "name": "Completing a Dice Chi-Square Calculation",
+      "name": "Chi-Square Calculations for Dice Rolls",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-10-20",
@@ -2749,19 +2749,8 @@
       "added": "2026-10-20",
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
-      "id": "genetics/topic07/bbq-chi_square_dice-conclusions-MA-questions.txt",
-      "name": "Evaluating a Dice Chi-Square Test",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "updated": "2026-10-20",
-      "url": "genetics/topic07/#chi_square_dice-conclusions-MA-button-container"
-    },
-    {
-      "added": "2026-10-20",
-      "created": "2026-10-20",
-      "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
       "id": "genetics/topic07/bbq-chi_square_dice-connect-MATCH-questions.txt",
-      "name": "Counts and Degrees of Freedom in a Dice Experiment",
+      "name": "Sample Size, Expected Counts, and Degrees of Freedom for Dice",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-10-20",
@@ -2772,7 +2761,7 @@
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
       "id": "genetics/topic07/bbq-chi_square_dice-df-MC-questions.txt",
-      "name": "Degrees of Freedom for Six-Sided Dice",
+      "name": "Degrees of Freedom for a Six-Sided Die",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-10-20",
@@ -2783,7 +2772,7 @@
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
       "id": "genetics/topic07/bbq-chi_square_dice-expected-MC-questions.txt",
-      "name": "Expected Counts for Six-Sided Dice",
+      "name": "Expected Face Counts for a Fair Die",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-10-20",
@@ -2794,7 +2783,7 @@
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
       "id": "genetics/topic07/bbq-chi_square_dice-interpret-MC-questions.txt",
-      "name": "Interpreting Dice Chi-Square Results",
+      "name": "Statistical Significance of Dice Roll Deviations",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-10-20",
@@ -2805,7 +2794,7 @@
       "created": "2021-10-20",
       "family": "3c8b1d6991600c17a09edc95bcbbdb9b90e03d9c:chi_square_errors.py",
       "id": "genetics/topic07/bbq-chi_square_errors-questions.txt",
-      "name": "Errors in Chi-Square Calculations and Hypothesis Decisions",
+      "name": "Chi-Square Process Error Identification",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-07-12",
@@ -2816,7 +2805,7 @@
       "created": "2021-10-20",
       "family": "bae8f50e095fd7bdc14e36d6772e6d1c79fd9ef2:chi_square_hardy_weinberg.py",
       "id": "genetics/topic07/bbq-chi_square_hardy_weinberg-questions.txt",
-      "name": "Chi-Square Tests for Hardy-Weinberg Equilibrium",
+      "name": "Hardy-Weinberg Equilibrium Test Conclusions",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-01-10",
@@ -2827,7 +2816,7 @@
       "created": "2026-01-04",
       "family": "566b69080e0aee48e64db813efd8b176b4541653:inheritance-problems/chi_square/chi_square_hypotheses.py",
       "id": "genetics/topic07/bbq-chi_square_hypotheses-alt-questions.txt",
-      "name": "Choosing the Alternative Hypothesis for a Genetic Cross",
+      "name": "Alternative Hypotheses for Mendelian Offspring Ratios",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-10-20",
@@ -2838,7 +2827,7 @@
       "created": "2026-01-04",
       "family": "566b69080e0aee48e64db813efd8b176b4541653:inheritance-problems/chi_square/chi_square_hypotheses.py",
       "id": "genetics/topic07/bbq-chi_square_hypotheses-null-questions.txt",
-      "name": "Choosing the Null Hypothesis for a Genetic Cross",
+      "name": "Null Hypotheses for Mendelian Offspring Ratios",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-10-20",
@@ -2849,7 +2838,7 @@
       "created": "2026-01-04",
       "family": "566b69080e0aee48e64db813efd8b176b4541653:inheritance-problems/chi_square/chi_square_hypotheses_lab_partner.py",
       "id": "genetics/topic07/bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt",
-      "name": "Reviewing a Lab Partner's Chi-Square Hypotheses",
+      "name": "Null and Alternative Hypothesis Error Identification for Genetic Crosses",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-10-20",
@@ -2860,7 +2849,7 @@
       "created": "2021-10-20",
       "family": "af21e74916ae104701d871e6eb48d785c19fad67:probabiliy_of_progeny.py",
       "id": "genetics/topic07/bbq-probabiliy_of_progeny-questions.txt",
-      "name": "Offspring Sex Distribution Using the Binomial Model",
+      "name": "Binomial Probabilities for Offspring Sex Counts",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-10-12",
@@ -2871,7 +2860,7 @@
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/progeny_probability_practice.py",
       "id": "genetics/topic07/bbq-progeny_probability_practice-calculate-MC-questions.txt",
-      "name": "Probabilities for Two to Four Offspring",
+      "name": "Binomial Probabilities for Offspring Phenotype Counts (2-4 Offspring)",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-10-20",
@@ -2882,7 +2871,7 @@
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/progeny_probability_practice.py",
       "id": "genetics/topic07/bbq-progeny_probability_practice-independence-MC-questions.txt",
-      "name": "Offspring Probability and Independence",
+      "name": "Offspring Phenotype Probabilities for Independent Births",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-10-20",
@@ -2893,7 +2882,7 @@
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/progeny_probability_practice.py",
       "id": "genetics/topic07/bbq-progeny_probability_practice-outcomes-MA-questions.txt",
-      "name": "Exactly and At Least in Offspring Outcomes",
+      "name": "Offspring Sequences with Exact or Minimum Phenotype Counts",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-10-20",
@@ -2904,7 +2893,7 @@
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/progeny_probability_practice.py",
       "id": "genetics/topic07/bbq-progeny_probability_practice-tables-MATCH-questions.txt",
-      "name": "Offspring Probabilities from Tables",
+      "name": "Offspring Phenotype Count Probabilities from Tables",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-10-20",
@@ -4642,7 +4631,7 @@
       "created": "2022-10-23",
       "family": "7800c46763679e90860aa9e93469646262e9c69f:multiple_choice_statements/chi-square.yml",
       "id": "biostatistics/topic08/bbq-TFMS-chi-square-questions.txt",
-      "name": "Chi-Square Tests",
+      "name": "Null Hypothesis Rejection Criteria",
       "subject": "Biostatistics",
       "topic": "Chi-Square Tests",
       "updated": "2026-03-05",
@@ -5629,7 +5618,7 @@
     {
       "icon": "\ud83e\udeb0",
       "key": "genetics",
-      "sets": 158,
+      "sets": 157,
       "title": "Genetics",
       "topics": 11,
       "url": "genetics/"
@@ -5676,21 +5665,21 @@
     }
   ],
   "totals": {
-    "sets": 496,
+    "sets": 495,
     "subjects": 7,
     "topics": 57
   },
   "updated": [
     {
       "date": "2026-10-20",
-      "name": "Reviewing a Lab Partner's Chi-Square Hypotheses",
+      "name": "Null and Alternative Hypothesis Error Identification for Genetic Crosses",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "url": "genetics/topic07/#chi_square_hypotheses_lab_partner-hypotheses_partner-button-container"
     },
     {
       "date": "2026-10-20",
-      "name": "Choosing the Null Hypothesis for a Genetic Cross",
+      "name": "Null Hypotheses for Mendelian Offspring Ratios",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "url": "genetics/topic07/#chi_square_hypotheses-null-button-container"
@@ -5802,13 +5791,6 @@
     },
     {
       "date": "2026-10-12",
-      "name": "Offspring Sex Distribution Using the Binomial Model",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#probabiliy_of_progeny-button-container"
-    },
-    {
-      "date": "2026-10-12",
       "name": "Metabolic Pathway Mutant Growth Rescue by Nutrient Supplementation (5 Metabolites)",
       "subject": "Genetics",
       "topic": "Genetic Disorders",
@@ -5816,17 +5798,24 @@
     },
     {
       "date": "2026-10-12",
-      "name": "Hypothesis Decisions from Chi-Square Tests",
+      "name": "Dihybrid Cross Ratios from Epistatic Metabolic Pathways (4 Choices)",
+      "subject": "Genetics",
+      "topic": "Gene Interactions",
+      "url": "genetics/topic05/#dihybrid_cross_epistatic_gene_metabolics-4_choices-button-container"
+    },
+    {
+      "date": "2026-10-12",
+      "name": "Dihybrid Chi-Square Table Selection and Conclusions",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "url": "genetics/topic07/#chi_square_choices-button-container"
     },
     {
       "date": "2026-10-12",
-      "name": "Dihybrid Cross Ratios from Epistatic Metabolic Pathways (4 Choices)",
+      "name": "Binomial Probabilities for Offspring Sex Counts",
       "subject": "Genetics",
-      "topic": "Gene Interactions",
-      "url": "genetics/topic05/#dihybrid_cross_epistatic_gene_metabolics-4_choices-button-container"
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#probabiliy_of_progeny-button-container"
     },
     {
       "date": "2026-10-11",
@@ -6628,17 +6617,17 @@
     },
     {
       "date": "2026-03-05",
+      "name": "Null Hypothesis Rejection Criteria",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#TFMS-chi-square-button-container"
+    },
+    {
+      "date": "2026-03-05",
       "name": "Enzyme Naming Patterns",
       "subject": "Biochemistry",
       "topic": "Thermodynamics",
       "url": "biochemistry/topic06/#TFMS-which_enzyme-button-container"
-    },
-    {
-      "date": "2026-03-05",
-      "name": "Chi-Square Tests",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#TFMS-chi-square-button-container"
     },
     {
       "date": "2026-03-05",
@@ -7062,6 +7051,13 @@
     },
     {
       "date": "2026-01-10",
+      "name": "Hardy-Weinberg Equilibrium Test Conclusions",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#chi_square_hardy_weinberg-button-container"
+    },
+    {
+      "date": "2026-01-10",
       "name": "Gene Order from Deletion Mutants (6 Genes, Word Labels)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
@@ -7132,17 +7128,10 @@
     },
     {
       "date": "2026-01-10",
-      "name": "Chi-Square Values for Phenotypic Ratios",
+      "name": "Chi-Square Statistic from Dihybrid Offspring Counts",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "url": "genetics/topic07/#chi_square_calculated-ACCEPT-button-container"
-    },
-    {
-      "date": "2026-01-10",
-      "name": "Chi-Square Tests for Hardy-Weinberg Equilibrium",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#chi_square_hardy_weinberg-button-container"
     },
     {
       "date": "2026-01-10",

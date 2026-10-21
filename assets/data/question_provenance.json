@@ -2551,14 +2551,6 @@
     "source_path": "problems/inheritance-problems/chi_square/chi_square_dice.py",
     "source_updated": "2026-10-20"
   },
-  "genetics/topic07/bbq-chi_square_dice-conclusions-MA-questions.txt": {
-    "output_fingerprint": "e2a037cf611d6bf6c482d840818ff2b3de62157acf6f7e88fd1353f7780da06c",
-    "source_commit": "553a193e21c2f5eae858e20aee796d340f199c9a",
-    "source_fingerprint": "3419558bffe6f2e72f42029aeca973c41fc619230c51ee0eeebe310232fdaf39",
-    "source_id": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
-    "source_path": "problems/inheritance-problems/chi_square/chi_square_dice.py",
-    "source_updated": "2026-10-20"
-  },
   "genetics/topic07/bbq-chi_square_dice-connect-MATCH-questions.txt": {
     "output_fingerprint": "8204d48ec564ba79e1ea68f97e8a695e58f831874c0847b639a4250c8bde9954",
     "source_commit": "553a193e21c2f5eae858e20aee796d340f199c9a",
