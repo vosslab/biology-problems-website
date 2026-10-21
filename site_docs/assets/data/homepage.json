@@ -5,6 +5,20 @@
   },
   "new": [
     {
+      "date": "2026-10-20",
+      "name": "Probabilities for Two to Four Offspring",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#progeny_probability_practice-calculate-MC-button-container"
+    },
+    {
+      "date": "2026-10-20",
+      "name": "Interpreting Dice Chi-Square Results",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#chi_square_dice-interpret-MC-button-container"
+    },
+    {
       "date": "2026-10-01",
       "name": "Pedigrees from Autosomal Inheritance Patterns (Easy)",
       "subject": "Genetics",
@@ -2721,7 +2735,7 @@
       "url": "genetics/topic07/#chi_square_choices-button-container"
     },
     {
-      "added": null,
+      "added": "2026-10-20",
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
       "id": "genetics/topic07/bbq-chi_square_dice-calculate-MC-questions.txt",
@@ -2732,7 +2746,7 @@
       "url": "genetics/topic07/#chi_square_dice-calculate-MC-button-container"
     },
     {
-      "added": null,
+      "added": "2026-10-20",
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
       "id": "genetics/topic07/bbq-chi_square_dice-conclusions-MA-questions.txt",
@@ -2743,7 +2757,7 @@
       "url": "genetics/topic07/#chi_square_dice-conclusions-MA-button-container"
     },
     {
-      "added": null,
+      "added": "2026-10-20",
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
       "id": "genetics/topic07/bbq-chi_square_dice-connect-MATCH-questions.txt",
@@ -2754,7 +2768,7 @@
       "url": "genetics/topic07/#chi_square_dice-connect-MATCH-button-container"
     },
     {
-      "added": null,
+      "added": "2026-10-20",
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
       "id": "genetics/topic07/bbq-chi_square_dice-df-MC-questions.txt",
@@ -2765,7 +2779,7 @@
       "url": "genetics/topic07/#chi_square_dice-df-MC-button-container"
     },
     {
-      "added": null,
+      "added": "2026-10-20",
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
       "id": "genetics/topic07/bbq-chi_square_dice-expected-MC-questions.txt",
@@ -2776,7 +2790,7 @@
       "url": "genetics/topic07/#chi_square_dice-expected-MC-button-container"
     },
     {
-      "added": null,
+      "added": "2026-10-20",
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
       "id": "genetics/topic07/bbq-chi_square_dice-interpret-MC-questions.txt",
@@ -2853,7 +2867,7 @@
       "url": "genetics/topic07/#probabiliy_of_progeny-button-container"
     },
     {
-      "added": null,
+      "added": "2026-10-20",
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/progeny_probability_practice.py",
       "id": "genetics/topic07/bbq-progeny_probability_practice-calculate-MC-questions.txt",
@@ -2864,7 +2878,7 @@
       "url": "genetics/topic07/#progeny_probability_practice-calculate-MC-button-container"
     },
     {
-      "added": null,
+      "added": "2026-10-20",
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/progeny_probability_practice.py",
       "id": "genetics/topic07/bbq-progeny_probability_practice-independence-MC-questions.txt",
@@ -2875,7 +2889,7 @@
       "url": "genetics/topic07/#progeny_probability_practice-independence-MC-button-container"
     },
     {
-      "added": null,
+      "added": "2026-10-20",
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/progeny_probability_practice.py",
       "id": "genetics/topic07/bbq-progeny_probability_practice-outcomes-MA-questions.txt",
@@ -2886,7 +2900,7 @@
       "url": "genetics/topic07/#progeny_probability_practice-outcomes-MA-button-container"
     },
     {
-      "added": null,
+      "added": "2026-10-20",
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/progeny_probability_practice.py",
       "id": "genetics/topic07/bbq-progeny_probability_practice-tables-MATCH-questions.txt",
