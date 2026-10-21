@@ -169,7 +169,7 @@
 
 	function showBody(state, visible) {
 		state.body.hidden = !visible;
-		state.visibilityButton.textContent = visible ? "Hide" : "Show";
+		state.visibilityButton.hidden = !visible;
 		state.visibilityButton.setAttribute("aria-expanded", String(visible));
 	}
 
@@ -311,7 +311,8 @@
 		visibilityButton.setAttribute("aria-expanded", "true");
 		visibilityButton.addEventListener("click", function () {
 			cancelAdvance();
-			showBody(state, state.body.hidden);
+			showBody(state, false);
+			state.button.focus({ preventScroll: true });
 		});
 		button.addEventListener("click", function () {
 			cancelAdvance();

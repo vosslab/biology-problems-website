@@ -49,9 +49,8 @@ test("Show another question walks the bank in source order and wraps", async ({ 
   await expect(host.getByText("First bank question", { exact: true })).toBeVisible();
 });
 
-test("Hide and Show collapse individual questions without changing their content", async ({ page }) => {
-  // Keep collapse reversible and local to its bank; a failure means content was
-  // lost or a control affected the wrong question. Display wording is not pinned.
+test("Hide collapses only its question and leaves one way to show another", async ({ page }) => {
+  // Keep collapse local to its bank and keyboard focus on a visible control.
   await page.route("**/bbq-MATCH-genetic_disorders-questions.txt", (route) => route.fulfill({
     body: "MC\tFirst question\tATP\tCorrect\tADP\tIncorrect\nMC\tNext question\tDNA\tCorrect\tRNA\tIncorrect",
   }));
@@ -66,12 +65,13 @@ test("Hide and Show collapse individual questions without changing their content
   await hide.focus();
   await page.keyboard.press("Enter");
   await expect(questionId(first)).toBeHidden();
-  const show = first.getByRole("button", { name: "Show", exact: true });
-  await expect(show).toBeFocused();
-  await expect(show).toHaveAttribute("aria-expanded", "false");
-  await show.click();
-  await expect(questionId(first)).toBeVisible();
-  await expect(first.getByRole("radio").first()).toBeChecked();
+  await expect(hide).toBeHidden();
+  await expect(first.getByRole("button", { name: "Show", exact: true })).toHaveCount(0);
+  const another = first.getByRole("button", { name: "Show another question", exact: true });
+  await expect(another).toBeFocused();
+  await page.keyboard.press("Enter");
+  await waitForReady(first);
+  await expect(first.getByText("Next question", { exact: true })).toBeVisible();
 
   await second.getByRole("button", { name: "Show practice question", exact: true }).click();
   await waitForReady(second);
@@ -402,11 +402,9 @@ test("advancement pauses for feedback and yields to reader interaction", async (
   await first.getByRole("button", { name: "Check Answer" }).click();
   await first.getByRole("button", { name: "Hide", exact: true }).click();
   await page.clock.runFor(5000);
-  await expect(first.getByRole("button", { name: "Show", exact: true })).toBeFocused();
+  await expect(first.getByRole("button", { name: "Show another question", exact: true })).toBeFocused();
   await expect(questionId(first)).toBeHidden();
   await expect(second).not.toBeFocused();
-  await first.getByRole("button", { name: "Show", exact: true }).click();
-  await expect(first.locator('[id^="result_"]')).toHaveText("CORRECT");
 
   // Reviewing an answer must not be interrupted by a stale automatic move.
   for (const interaction of ["scroll", "keyboard"]) {

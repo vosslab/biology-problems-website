@@ -4,6 +4,8 @@
 
 ### Behavior or Interface Changes
 
+- Make the secondary practice control Hide-only. Hide it when the question is collapsed
+  and return keyboard focus to Show another question, eliminating the duplicate Show button.
 - Double the correct-answer pause from half a second to one second. Cancel pending
   advancement when the reader scrolls, touches, clicks, presses a key, or leaves the tab.
   Keep native smooth scrolling and reduced-motion support.
@@ -16,6 +18,8 @@
 
 ### Developer Tests and Notes
 
+- Verify the Hide-only controls with a fresh MkDocs build and all eight focused practice
+  browser tests, including keyboard focus, independent collapse, and advancement cancellation.
 - Review automatic advancement with the HCI, UI/UX, and TypeScript skills; record scope and
   evidence in [SELFTEST_ADVANCEMENT_REVIEW.md](ux/SELFTEST_ADVANCEMENT_REVIEW.md).
   Extend the existing interaction test without pinning the exact pause. All 12 focused browser

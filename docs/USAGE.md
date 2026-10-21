@@ -263,7 +263,8 @@ Earlier questions remain available for review; the last question stays in place.
 replaces only that question's active version, answers, and feedback with the next
 record from the same bank. It does not replace other questions or retain an
 attempt history.
-**Hide** beside it collapses the question body; **Show** reveals the same content again.
+**Hide** beside it collapses the question body and disappears. Use **Show another question**
+to display the next question.
 The header stays available. Hiding cancels pending automatic scrolling, and loading another
 question reveals its body. Visibility resets on the next page visit.
 If loading fails, the header offers **Retry** to try generating the question again.
