@@ -2720,7 +2720,7 @@
       "name": "Chi-Square Statistic from Dihybrid Offspring Counts",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-01-10",
+      "updated": null,
       "url": "genetics/topic07/#chi_square_calculated-ACCEPT-button-container"
     },
     {
@@ -2731,7 +2731,7 @@
       "name": "Dihybrid Chi-Square Table Selection and Conclusions",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-12",
+      "updated": null,
       "url": "genetics/topic07/#chi_square_choices-button-container"
     },
     {
@@ -2742,7 +2742,7 @@
       "name": "Chi-Square Calculations for Dice Rolls",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-20",
+      "updated": null,
       "url": "genetics/topic07/#chi_square_dice-calculate-MC-button-container"
     },
     {
@@ -2764,7 +2764,7 @@
       "name": "Degrees of Freedom for a Six-Sided Die",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-20",
+      "updated": null,
       "url": "genetics/topic07/#chi_square_dice-df-MC-button-container"
     },
     {
@@ -2775,7 +2775,7 @@
       "name": "Expected Face Counts for a Fair Die",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-20",
+      "updated": null,
       "url": "genetics/topic07/#chi_square_dice-expected-MC-button-container"
     },
     {
@@ -2786,7 +2786,7 @@
       "name": "Statistical Significance of Dice Roll Deviations",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-20",
+      "updated": null,
       "url": "genetics/topic07/#chi_square_dice-interpret-MC-button-container"
     },
     {
@@ -2797,7 +2797,7 @@
       "name": "Chi-Square Process Error Identification",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-07-12",
+      "updated": null,
       "url": "genetics/topic07/#chi_square_errors-button-container"
     },
     {
@@ -2808,7 +2808,7 @@
       "name": "Hardy-Weinberg Equilibrium Test Conclusions",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-01-10",
+      "updated": null,
       "url": "genetics/topic07/#chi_square_hardy_weinberg-button-container"
     },
     {
@@ -2819,7 +2819,7 @@
       "name": "Alternative Hypotheses for Mendelian Offspring Ratios",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-20",
+      "updated": null,
       "url": "genetics/topic07/#chi_square_hypotheses-alt-button-container"
     },
     {
@@ -2830,7 +2830,7 @@
       "name": "Null Hypotheses for Mendelian Offspring Ratios",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-20",
+      "updated": null,
       "url": "genetics/topic07/#chi_square_hypotheses-null-button-container"
     },
     {
@@ -2841,7 +2841,7 @@
       "name": "Null and Alternative Hypothesis Error Identification for Genetic Crosses",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-20",
+      "updated": null,
       "url": "genetics/topic07/#chi_square_hypotheses_lab_partner-hypotheses_partner-button-container"
     },
     {
@@ -2859,12 +2859,56 @@
       "added": "2026-10-20",
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/progeny_probability_practice.py",
+      "id": "genetics/topic07/bbq-progeny_probability_practice-binomial-MC-questions.txt",
+      "name": "Binomial Probability Expressions for Offspring Phenotype Counts",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "updated": null,
+      "url": "genetics/topic07/#progeny_probability_practice-binomial-MC-button-container"
+    },
+    {
+      "added": "2026-10-20",
+      "created": "2026-10-20",
+      "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/progeny_probability_practice.py",
       "id": "genetics/topic07/bbq-progeny_probability_practice-calculate-MC-questions.txt",
       "name": "Binomial Probabilities for Offspring Phenotype Counts (2-4 Offspring)",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-10-20",
       "url": "genetics/topic07/#progeny_probability_practice-calculate-MC-button-container"
+    },
+    {
+      "added": "2026-10-20",
+      "created": "2026-10-20",
+      "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/progeny_probability_practice.py",
+      "id": "genetics/topic07/bbq-progeny_probability_practice-coefficient-MC-questions.txt",
+      "name": "Binomial Coefficients for Offspring Phenotype Sequences",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "updated": null,
+      "url": "genetics/topic07/#progeny_probability_practice-coefficient-MC-button-container"
+    },
+    {
+      "added": "2026-10-20",
+      "created": "2026-10-20",
+      "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/progeny_probability_practice.py",
+      "id": "genetics/topic07/bbq-progeny_probability_practice-explain-MC-questions.txt",
+      "name": "Binomial Coefficient Interpretation for Offspring Phenotype Counts",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "updated": null,
+      "url": "genetics/topic07/#progeny_probability_practice-explain-MC-button-container"
+    },
+    {
+      "added": "2026-10-20",
+      "created": "2026-10-20",
+      "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/progeny_probability_practice.py",
+      "id": "genetics/topic07/bbq-progeny_probability_practice-factorial-MC-questions.txt",
+      "name": "Factorial Expressions for Ordering Distinct Items",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "updated": null,
+      "url": "genetics/topic07/#progeny_probability_practice-factorial-MC-button-container"
     },
     {
       "added": "2026-10-20",
@@ -5618,7 +5662,7 @@
     {
       "icon": "\ud83e\udeb0",
       "key": "genetics",
-      "sets": 157,
+      "sets": 161,
       "title": "Genetics",
       "topics": 11,
       "url": "genetics/"
@@ -5665,25 +5709,11 @@
     }
   ],
   "totals": {
-    "sets": 495,
+    "sets": 499,
     "subjects": 7,
     "topics": 57
   },
   "updated": [
-    {
-      "date": "2026-10-20",
-      "name": "Null and Alternative Hypothesis Error Identification for Genetic Crosses",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#chi_square_hypotheses_lab_partner-hypotheses_partner-button-container"
-    },
-    {
-      "date": "2026-10-20",
-      "name": "Null Hypotheses for Mendelian Offspring Ratios",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#chi_square_hypotheses-null-button-container"
-    },
     {
       "date": "2026-10-13",
       "name": "Unique Offspring Genotype Counts from Parental Genotypes (4 Genes, With Hint)",
@@ -5802,13 +5832,6 @@
       "subject": "Genetics",
       "topic": "Gene Interactions",
       "url": "genetics/topic05/#dihybrid_cross_epistatic_gene_metabolics-4_choices-button-container"
-    },
-    {
-      "date": "2026-10-12",
-      "name": "Dihybrid Chi-Square Table Selection and Conclusions",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#chi_square_choices-button-container"
     },
     {
       "date": "2026-10-12",
@@ -7023,6 +7046,13 @@
     },
     {
       "date": "2026-01-10",
+      "name": "Null and Alternative Hypotheses for Genetic Crosses",
+      "subject": "Biostatistics",
+      "topic": "Chi-Square Tests",
+      "url": "biostatistics/topic08/#chi_square_hypotheses-pair-button-container"
+    },
+    {
+      "date": "2026-01-10",
       "name": "Metabolic Pathway Precursor Order from Mutant Growth Data (4 Metabolites)",
       "subject": "Molecular Biology",
       "topic": "Historical Experiments",
@@ -7048,13 +7078,6 @@
       "subject": "Genetics",
       "topic": "Population Genetics",
       "url": "genetics/topic10/#hardy_weinberg_mc_type-button-container"
-    },
-    {
-      "date": "2026-01-10",
-      "name": "Hardy-Weinberg Equilibrium Test Conclusions",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#chi_square_hardy_weinberg-button-container"
     },
     {
       "date": "2026-01-10",
@@ -7125,13 +7148,6 @@
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
       "url": "genetics/topic06/#dominant_and_X-linked_recessive-button-container"
-    },
-    {
-      "date": "2026-01-10",
-      "name": "Chi-Square Statistic from Dihybrid Offspring Counts",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#chi_square_calculated-ACCEPT-button-container"
     },
     {
       "date": "2026-01-10",

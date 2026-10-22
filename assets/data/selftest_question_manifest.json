@@ -2298,7 +2298,35 @@
     },
     {
       "pagePath": "genetics/topic07/index.md",
+      "questionId": "bbq-progeny_probability_practice-binomial-MC-questions.txt",
+      "subjectKey": "genetics",
+      "topicKey": "topic07",
+      "topicTitle": "Chi Square Analysis"
+    },
+    {
+      "pagePath": "genetics/topic07/index.md",
       "questionId": "bbq-progeny_probability_practice-calculate-MC-questions.txt",
+      "subjectKey": "genetics",
+      "topicKey": "topic07",
+      "topicTitle": "Chi Square Analysis"
+    },
+    {
+      "pagePath": "genetics/topic07/index.md",
+      "questionId": "bbq-progeny_probability_practice-coefficient-MC-questions.txt",
+      "subjectKey": "genetics",
+      "topicKey": "topic07",
+      "topicTitle": "Chi Square Analysis"
+    },
+    {
+      "pagePath": "genetics/topic07/index.md",
+      "questionId": "bbq-progeny_probability_practice-explain-MC-questions.txt",
+      "subjectKey": "genetics",
+      "topicKey": "topic07",
+      "topicTitle": "Chi Square Analysis"
+    },
+    {
+      "pagePath": "genetics/topic07/index.md",
+      "questionId": "bbq-progeny_probability_practice-factorial-MC-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic07",
       "topicTitle": "Chi Square Analysis"
