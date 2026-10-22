@@ -163,39 +163,6 @@
 			isComplete: ids.length > 0 && completed === ids.length };
 	}
 
-	function renderTopicSummary(rows) {
-		if (!rows.length || document.getElementById("selftest-topic-progress")) {
-			return;
-		}
-		var first = rows[0];
-		var summary = pageSummary(rows);
-		var h1 = document.querySelector("h1");
-		if (!h1) {
-			return;
-		}
-		var panel = document.createElement("div");
-		panel.id = "selftest-topic-progress";
-		panel.className = "selftest-progress-panel";
-		panel.setAttribute("data-topic-key", first.topicKey);
-		// Announce live so screen readers hear the count change after an answer.
-		panel.setAttribute("aria-live", "polite");
-		panel.innerHTML = "<strong>Self-test progress:</strong> " +
-			"<span data-selftest-topic-count>" + summary.completed + " / " +
-			summary.total + " completed</span>";
-		h1.insertAdjacentElement("afterend", panel);
-	}
-
-	function updateTopicSummary(rows) {
-		if (!rows.length) {
-			return;
-		}
-		var summary = pageSummary(rows);
-		var count = document.querySelector("[data-selftest-topic-count]");
-		if (count) {
-			count.textContent = summary.completed + " / " + summary.total + " completed";
-		}
-	}
-
 	function renderQuestionBadge(host) {
 		var header = host.querySelector(".selftest-question-header");
 		if (!header) { return; }
@@ -453,9 +420,7 @@
 		return fetchManifest().then(function (manifest) {
 			renderStorageWarning();
 			var rows = getCurrentRows(manifest);
-			renderTopicSummary(rows);
 			renderQuestionBadges();
-			updateTopicSummary(rows);
 			renderDashboard(manifest);
 			return { rows: rows, manifest: manifest };
 		}).catch(function () {

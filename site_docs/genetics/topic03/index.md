@@ -1,28 +1,18 @@
+<div class="topic-page" markdown="1">
+
+<div class="topic-introduction" markdown="1">
+
 # 3: DNA Profiling
 
 Students use blood typing agglutination tests, HLA genotyping, gel electrophoresis band patterns, and DNA fingerprinting techniques to solve paternity disputes and forensic identification problems.
 
 **LibreTexts reference:** [Chapter 3: DNA Profiling and Techniques](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/03:_DNA_Profiling_and_Techniques) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/03:_DNA_Profiling_and_Techniques" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 3" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-<details class="bloom-scales"><summary>Bloom's scales</summary>
-<p>Two dimensions describe the assessed task. Numbers identify categories, not difficulty ratings.</p><div class="bloom-scales-grid">
-<section><h3>Cognitive Process Dimension</h3><dl>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span></span></dt><dd>Retrieve relevant knowledge from memory by recognizing or recalling.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span></span></dt><dd>Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span></span></dt><dd>Carry out or use a procedure in a given situation.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span></span></dt><dd>Separate material into parts and identify their relationships and overall structure.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Evaluate" title="Make judgments using criteria and standards through checking or critique.">Evaluate <span class="bloom-level">&#10116;</span></span></span></dt><dd>Make judgments using criteria and standards through checking or critique.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Create" title="Combine elements into a coherent new whole through generating, planning, or producing.">Create <span class="bloom-level">&#10117;</span></span></span></dt><dd>Combine elements into a coherent new whole through generating, planning, or producing.</dd>
-</dl></section>
-<section><h3>Knowledge Dimension</h3><dl>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span></dt><dd>Knowledge of basic elements, terminology, and specific details.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span></dt><dd>Knowledge of categories, principles, theories, models, and how they relate.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span></dt><dd>Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Metacognitive" title="Knowledge of learning strategies, thinking tasks, and one&#x27;s own strengths and limitations.">Metacognitive <span class="bloom-level">&#10115;</span></span></span></dt><dd>Knowledge of learning strategies, thinking tasks, and one&#x27;s own strengths and limitations.</dd>
-</dl></section>
-</div><p>Based on Anderson and Krathwohl (2001), chapters 4-5. <a href="https://celt.iastate.edu/prepare-and-teach/design-your-course/blooms-taxonomy/">Iowa State Bloom's taxonomy guide</a>.</p></details>
+</div>
 
-## Blood Type Agglutination Test Results (ABO and Rh)
+<section class="problem-set" markdown="1" aria-labelledby="blood-type-agglutination-test-results-abo-and-rh">
+
+## 3.1 Blood Type Agglutination Test Results (ABO and Rh) {#blood-type-agglutination-test-results-abo-and-rh}
 
 <div id="blood_type_agglutination_test-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-blood_type_agglutination_test-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -31,7 +21,9 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-blood_type_agglutination_test-questions.txt" data-format="human_readable" data-filename="human_readable-blood_type_agglutination_test.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-blood_type_agglutination_test-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-blood_type_agglutination_test-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -40,7 +32,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 </div>
 
 
-## Offspring HLA Genotypes (2 Markers, Black-and-White)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="offspring-hla-genotypes-2-markers-black-and-white">
+
+## 3.2 Offspring HLA Genotypes (2 Markers, Black-and-White) {#offspring-hla-genotypes-2-markers-black-and-white}
 
 <div id="hla_genotype-2_markers-black-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-hla_genotype-2_markers-black-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -49,7 +45,9 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-hla_genotype-2_markers-black-questions.txt" data-format="human_readable" data-filename="human_readable-hla_genotype-2_markers-black.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-hla_genotype-2_markers-black-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-hla_genotype-2_markers-black-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -58,7 +56,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 </div>
 
 
-## Offspring HLA Genotypes (3 Markers, Color)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="offspring-hla-genotypes-3-markers-color">
+
+## 3.3 Offspring HLA Genotypes (3 Markers, Color) {#offspring-hla-genotypes-3-markers-color}
 
 <div id="hla_genotype-3_markers-color-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-hla_genotype-3_markers-color-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -67,7 +69,9 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-hla_genotype-3_markers-color-questions.txt" data-format="human_readable" data-filename="human_readable-hla_genotype-3_markers-color.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-hla_genotype-3_markers-color-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-hla_genotype-3_markers-color-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -76,7 +80,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 </div>
 
 
-## RFLP Paternity Testing from DNA Gels (Easy, 3 Males)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="rflp-paternity-testing-from-dna-gels-easy-3-males">
+
+## 3.4 RFLP Paternity Testing from DNA Gels (Easy, 3 Males) {#rflp-paternity-testing-from-dna-gels-easy-3-males}
 
 <div id="who_father_html-EASY-3_males-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_father_html-EASY-3_males-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -85,7 +93,9 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-who_father_html-EASY-3_males-questions.txt" data-format="human_readable" data-filename="human_readable-who_father_html-EASY-3_males.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-who_father_html-EASY-3_males-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-who_father_html-EASY-3_males-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -94,7 +104,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 </div>
 
 
-## RFLP Paternity Testing from DNA Gels (Hard, 9 Males)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="rflp-paternity-testing-from-dna-gels-hard-9-males">
+
+## 3.5 RFLP Paternity Testing from DNA Gels (Hard, 9 Males) {#rflp-paternity-testing-from-dna-gels-hard-9-males}
 
 <div id="who_father_html-HARD-9_males-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_father_html-HARD-9_males-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -103,7 +117,9 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-who_father_html-HARD-9_males-questions.txt" data-format="human_readable" data-filename="human_readable-who_father_html-HARD-9_males.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-who_father_html-HARD-9_males-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-who_father_html-HARD-9_males-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -112,7 +128,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 </div>
 
 
-## RFLP Paternity Testing from DNA Gels (Medium, 5 Males)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="rflp-paternity-testing-from-dna-gels-medium-5-males">
+
+## 3.6 RFLP Paternity Testing from DNA Gels (Medium, 5 Males) {#rflp-paternity-testing-from-dna-gels-medium-5-males}
 
 <div id="who_father_html-MEDIUM-5_males-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_father_html-MEDIUM-5_males-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -121,7 +141,9 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-who_father_html-MEDIUM-5_males-questions.txt" data-format="human_readable" data-filename="human_readable-who_father_html-MEDIUM-5_males.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-who_father_html-MEDIUM-5_males-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-who_father_html-MEDIUM-5_males-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -130,7 +152,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 </div>
 
 
-## RFLP Suspect Identification from DNA Profiles (Easy, 4 Suspects)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="rflp-suspect-identification-from-dna-profiles-easy-4-suspects">
+
+## 3.7 RFLP Suspect Identification from DNA Profiles (Easy, 4 Suspects) {#rflp-suspect-identification-from-dna-profiles-easy-4-suspects}
 
 <div id="who_killer_html-EASY-4_suspects-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_killer_html-EASY-4_suspects-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -139,7 +165,9 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-who_killer_html-EASY-4_suspects-questions.txt" data-format="human_readable" data-filename="human_readable-who_killer_html-EASY-4_suspects.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-who_killer_html-EASY-4_suspects-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-who_killer_html-EASY-4_suspects-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -148,7 +176,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 </div>
 
 
-## RFLP Suspect Identification from DNA Profiles (Hard, 9 Suspects)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="rflp-suspect-identification-from-dna-profiles-hard-9-suspects">
+
+## 3.8 RFLP Suspect Identification from DNA Profiles (Hard, 9 Suspects) {#rflp-suspect-identification-from-dna-profiles-hard-9-suspects}
 
 <div id="who_killer_html-HARD-9_suspects-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_killer_html-HARD-9_suspects-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -157,7 +189,9 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-who_killer_html-HARD-9_suspects-questions.txt" data-format="human_readable" data-filename="human_readable-who_killer_html-HARD-9_suspects.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-who_killer_html-HARD-9_suspects-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-who_killer_html-HARD-9_suspects-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -166,7 +200,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 </div>
 
 
-## RFLP Suspect Identification from DNA Profiles (Medium, 5 Suspects)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="rflp-suspect-identification-from-dna-profiles-medium-5-suspects">
+
+## 3.9 RFLP Suspect Identification from DNA Profiles (Medium, 5 Suspects) {#rflp-suspect-identification-from-dna-profiles-medium-5-suspects}
 
 <div id="who_killer_html-MEDIUM-5_suspects-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -175,7 +213,9 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" data-format="human_readable" data-filename="human_readable-who_killer_html-MEDIUM-5_suspects.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -184,3 +224,6 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 </div>
 
 
+</section>
+
+</div>

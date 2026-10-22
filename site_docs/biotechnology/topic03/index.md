@@ -1,26 +1,16 @@
+<div class="topic-page" markdown="1">
+
+<div class="topic-introduction" markdown="1">
+
 # 3: Protein Biotechnology
 
 Students examine proteomics, western blotting, mass spectrometry, phage display, ELISA, recombinant expression systems, directed evolution, AlphaFold, cryo-EM, and de novo protein design.
 
-<details class="bloom-scales"><summary>Bloom's scales</summary>
-<p>Two dimensions describe the assessed task. Numbers identify categories, not difficulty ratings.</p><div class="bloom-scales-grid">
-<section><h3>Cognitive Process Dimension</h3><dl>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span></span></dt><dd>Retrieve relevant knowledge from memory by recognizing or recalling.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span></span></dt><dd>Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span></span></dt><dd>Carry out or use a procedure in a given situation.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span></span></dt><dd>Separate material into parts and identify their relationships and overall structure.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Evaluate" title="Make judgments using criteria and standards through checking or critique.">Evaluate <span class="bloom-level">&#10116;</span></span></span></dt><dd>Make judgments using criteria and standards through checking or critique.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Create" title="Combine elements into a coherent new whole through generating, planning, or producing.">Create <span class="bloom-level">&#10117;</span></span></span></dt><dd>Combine elements into a coherent new whole through generating, planning, or producing.</dd>
-</dl></section>
-<section><h3>Knowledge Dimension</h3><dl>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span></dt><dd>Knowledge of basic elements, terminology, and specific details.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span></dt><dd>Knowledge of categories, principles, theories, models, and how they relate.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span></dt><dd>Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Metacognitive" title="Knowledge of learning strategies, thinking tasks, and one&#x27;s own strengths and limitations.">Metacognitive <span class="bloom-level">&#10115;</span></span></span></dt><dd>Knowledge of learning strategies, thinking tasks, and one&#x27;s own strengths and limitations.</dd>
-</dl></section>
-</div><p>Based on Anderson and Krathwohl (2001), chapters 4-5. <a href="https://celt.iastate.edu/prepare-and-teach/design-your-course/blooms-taxonomy/">Iowa State Bloom's taxonomy guide</a>.</p></details>
+</div>
 
-## Protein and Nucleic Acid Gel Electrophoresis Components
+<section class="problem-set" markdown="1" aria-labelledby="protein-and-nucleic-acid-gel-electrophoresis-components">
+
+## 3.1 Protein and Nucleic Acid Gel Electrophoresis Components {#protein-and-nucleic-acid-gel-electrophoresis-components}
 
 <div id="MATCH-protein_v_dna_gels-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-protein_v_dna_gels-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -30,7 +20,9 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/protein_v_dna_gels-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-MATCH-protein_v_dna_gels-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-MATCH-protein_v_dna_gels-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -39,7 +31,11 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 </div>
 
 
-## Proteomics and Metabolomics Techniques from Descriptions
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="proteomics-and-metabolomics-techniques-from-descriptions">
+
+## 3.2 Proteomics and Metabolomics Techniques from Descriptions {#proteomics-and-metabolomics-techniques-from-descriptions}
 
 <div id="MATCH-proteomics_v_metabolomics-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-proteomics_v_metabolomics-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -49,7 +45,9 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/proteomics_v_metabolomics-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-MATCH-proteomics_v_metabolomics-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-MATCH-proteomics_v_metabolomics-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -58,7 +56,11 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 </div>
 
 
-## Protein Stability
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="protein-stability">
+
+## 3.3 Protein Stability {#protein-stability}
 
 <div id="TFMS-protein_stability-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-protein_stability-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -68,7 +70,9 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/protein_stability.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-TFMS-protein_stability-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-TFMS-protein_stability-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -77,7 +81,11 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 </div>
 
 
-## Protein and Nucleic Acid Gel Electrophoresis Components
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="protein-and-nucleic-acid-gel-electrophoresis-components_1">
+
+## 3.4 Protein and Nucleic Acid Gel Electrophoresis Components {#protein-and-nucleic-acid-gel-electrophoresis-components_1}
 
 <div id="WOMC-protein_v_dna_gels-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-protein_v_dna_gels-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -87,7 +95,9 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/protein_v_dna_gels-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-WOMC-protein_v_dna_gels-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-WOMC-protein_v_dna_gels-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -96,7 +106,11 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 </div>
 
 
-## Proteomics and Metabolomics Techniques from Descriptions
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="proteomics-and-metabolomics-techniques-from-descriptions_1">
+
+## 3.5 Proteomics and Metabolomics Techniques from Descriptions {#proteomics-and-metabolomics-techniques-from-descriptions_1}
 
 <div id="WOMC-proteomics_v_metabolomics-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-proteomics_v_metabolomics-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -106,7 +120,9 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/proteomics_v_metabolomics-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-WOMC-proteomics_v_metabolomics-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-WOMC-proteomics_v_metabolomics-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -115,7 +131,11 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 </div>
 
 
-## Protein Net Charge at a Given pH
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="protein-net-charge-at-a-given-ph">
+
+## 3.6 Protein Net Charge at a Given pH {#protein-net-charge-at-a-given-ph}
 
 <div id="isoelectric_one_protein-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-isoelectric_one_protein-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -125,7 +145,9 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/isoelectric_one_protein.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-isoelectric_one_protein-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-isoelectric_one_protein-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -134,7 +156,11 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 </div>
 
 
-## Protein Molecular Weight from an SDS-PAGE Ladder
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="protein-molecular-weight-from-an-sds-page-ladder">
+
+## 3.7 Protein Molecular Weight from an SDS-PAGE Ladder {#protein-molecular-weight-from-an-sds-page-ladder}
 
 <div id="kaleidoscope_ladder_unknown_band-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-kaleidoscope_ladder_unknown_band-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -144,7 +170,9 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/kaleidoscope_ladder_unknown_band.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-kaleidoscope_ladder_unknown_band-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-kaleidoscope_ladder_unknown_band-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -153,7 +181,11 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 </div>
 
 
-## Protein Molecular Weight from SDS-PAGE Migration
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="protein-molecular-weight-from-sds-page-migration">
+
+## 3.8 Protein Molecular Weight from SDS-PAGE Migration {#protein-molecular-weight-from-sds-page-migration}
 
 <div id="protein_gel_migration-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-protein_gel_migration-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -163,7 +195,9 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/protein_gel_migration.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-protein_gel_migration-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-protein_gel_migration-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -172,3 +206,6 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 </div>
 
 
+</section>
+
+</div>

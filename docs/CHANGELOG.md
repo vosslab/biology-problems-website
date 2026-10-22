@@ -2,6 +2,33 @@
 
 ## 2026-10-22
 
+- Alternate stacked bank borders between the theme green and a slightly deeper green.
+  Preserve the connected edges and match the final bottom border to its card.
+
+- Join topic banks into a continuous stack with rounded green top edges and a bottom
+  border only on the final bank. Use the shared Material primary green for visible
+  borders across all topic pages, preserving question content and controls.
+  Validate the MkDocs build and Chromium desktop, dark-theme, and mobile layouts:
+  all 24 Genetics topic07 banks connect without gaps or page overflow, with only
+  the final bank drawing a bottom border.
+
+- Apply one shared topic-page layout to all 57 pages. Remove chapter-top progress and Bloom guides,
+  number problem headings, and separate bank sections. Record the approved scope and closeout in
+  [topic_page_layout.md](archive/topic_page_layout.md). Preserve all 499 bank sections,
+  heading IDs, download targets, controls, labels, questions, and grading behavior. No question-bank,
+  cached-title, or metadata sources changed.
+- Validation: baseline and final MkDocs builds pass; the targeted Python suite passes 542 checks and
+  the Chromium suite passes 93 browser tests. Temporary all-page checks confirm section containment,
+  IDs, controls, and all 499 rendered bank sections across all 57 pages. Independent specification
+  and layout-quality reviews pass. Desktop, dark-theme, 390px mobile, enlarged-text, deep-link,
+  download, completion, clear, reroll, and wide-table browser checks pass without overflow or
+  console errors. Two rendering issues found during review were corrected: preserve the existing
+  heading font size, and insert a blank block boundary between each download row and practice host
+  so Markdown keeps every bank inside the outer topic-page wrapper.
+  Independent integration review accepts the implementation, confirming all 57 pages, all 499
+  bank sections, 556 heading IDs, 499 download containers, focused checks, and composed screenshots
+  with no findings or architecture drift.
+
 - Remove duplicate-count overrides from the genetics probability task file; the
   build script owns the generated question count.
 

@@ -15,6 +15,9 @@ import time
 import dataclasses
 from pathlib import Path
 
+# PIP3 modules
+import markdown
+
 # local repo modules
 import bioproblems_site.formats as formats_module
 import bioproblems_site.git_paths as git_paths
@@ -328,6 +331,18 @@ def get_expected_outfile_name(bbq_file_name: str, prefix: str, extension: str) -
 
 #==============
 
+def problem_set_heading_ids(title: str, problem_titles: list[str]) -> list[str]:
+	"""Preserve the published fragments using the site's Markdown TOC semantics."""
+	# Include the chapter heading so a matching bank title gets its original suffix.
+	headings = f"# {title}\n\n"
+	headings += "\n\n".join(f"## {bank_title}" for bank_title in problem_titles)
+	converter = markdown.Markdown(extensions=["toc"])
+	converter.convert(headings)
+	heading_ids = [entry["id"] for entry in converter.toc_tokens[0]["children"]]
+	return heading_ids
+
+
+#==============
 def update_index_md(
 	topic_folder: str,
 	bbq_files: list,
@@ -370,8 +385,15 @@ def update_index_md(
 
 	index_md_path = os.path.join(topic_folder, "index.md")
 	classifications = bloom.load(Path(title_cache.path_for_source(index_md_path)).parent)
+	# Resolve every title before opening the output, including any missing cache entries.
+	bbq_files.sort()
+	problem_titles = [get_problem_set_title(client, bbq_file) for bbq_file in bbq_files]
+	display_titles = [problem_set_display.render_title(value) for value in problem_titles]
+	heading_ids = problem_set_heading_ids(title, display_titles)
 	print(f"writing to {git_paths.display_path(index_md_path)}")
 	with open(index_md_path, "w", encoding="utf-8") as index_md:
+		index_md.write('<div class="topic-page" markdown="1">\n\n')
+		index_md.write('<div class="topic-introduction" markdown="1">\n\n')
 		index_md.write(f"# {title}\n\n")
 		index_md.write(f"{description}\n\n")
 		if libretexts_link:
@@ -400,9 +422,10 @@ def update_index_md(
 			)
 			index_md.write(f"{reference_line}\n\n")
 
-		index_md.write(bloom_display.guide() + "\n\n")
-		bbq_files.sort()
-		for bbq_file in bbq_files:
+		index_md.write('</div>\n\n')
+		for position, (bbq_file, problem_set_title, display_title, heading_id) in enumerate(
+			zip(bbq_files, problem_titles, display_titles, heading_ids), start=1,
+		):
 			file_counter["count"] += 1
 			file_progress = ""
 			if total_files:
@@ -413,12 +436,16 @@ def update_index_md(
 				COLOR_CYAN,
 			))
 
-			# Generate the problem set title using the LLM
-			problem_set_title = get_problem_set_title(client, bbq_file)
 			print(color_text(f"  Problem set title: {problem_set_title}", COLOR_CYAN))
 
-			# Add content to the index.md file
-			index_md.write(f"## {problem_set_display.render_title(problem_set_title)}\n\n")
+			# Keep headings addressable by their old fragment while showing chapter order.
+			index_md.write(
+				f'<section class="problem-set" markdown="1" '
+				f'aria-labelledby="{html.escape(heading_id, quote=True)}">\n\n'
+			)
+			index_md.write(
+				f"## {topic_number}.{position} {display_title} {{#{heading_id}}}\n\n"
+			)
 			question_type_badge = problem_set_display.render_badges(
 				problem_set_title, source_path=bbq_file,
 			)
@@ -428,7 +455,8 @@ def update_index_md(
 				verbose,
 				stats,
 			)
-			index_md.write(download_button_row)
+			# Separate raw HTML blocks so Markdown keeps every bank in the topic wrapper.
+			index_md.write(download_button_row + "\n\n")
 			bank_name = os.path.basename(bbq_file)
 			bank_url = html.escape(bank_name, quote=True)
 			index_md.write(f'<div class="qpm-selftest" data-bbq="{bank_url}">\n')
@@ -441,6 +469,8 @@ def update_index_md(
 			index_md.write('</div>\n')
 			index_md.write('  <div class="selftest-reroll-content"></div>\n')
 			index_md.write("</div>\n\n\n")
+			index_md.write('</section>\n\n')
+		index_md.write('</div>\n')
 
 
 #==============

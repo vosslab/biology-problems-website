@@ -1,26 +1,16 @@
+<div class="topic-page" markdown="1">
+
+<div class="topic-introduction" markdown="1">
+
 # 9: Translation
 
 Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, tRNA, and peptide synthesis.
 
-<details class="bloom-scales"><summary>Bloom's scales</summary>
-<p>Two dimensions describe the assessed task. Numbers identify categories, not difficulty ratings.</p><div class="bloom-scales-grid">
-<section><h3>Cognitive Process Dimension</h3><dl>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span></span></dt><dd>Retrieve relevant knowledge from memory by recognizing or recalling.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span></span></dt><dd>Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span></span></dt><dd>Carry out or use a procedure in a given situation.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span></span></dt><dd>Separate material into parts and identify their relationships and overall structure.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Evaluate" title="Make judgments using criteria and standards through checking or critique.">Evaluate <span class="bloom-level">&#10116;</span></span></span></dt><dd>Make judgments using criteria and standards through checking or critique.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Create" title="Combine elements into a coherent new whole through generating, planning, or producing.">Create <span class="bloom-level">&#10117;</span></span></span></dt><dd>Combine elements into a coherent new whole through generating, planning, or producing.</dd>
-</dl></section>
-<section><h3>Knowledge Dimension</h3><dl>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span></dt><dd>Knowledge of basic elements, terminology, and specific details.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span></dt><dd>Knowledge of categories, principles, theories, models, and how they relate.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span></dt><dd>Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Metacognitive" title="Knowledge of learning strategies, thinking tasks, and one&#x27;s own strengths and limitations.">Metacognitive <span class="bloom-level">&#10115;</span></span></span></dt><dd>Knowledge of learning strategies, thinking tasks, and one&#x27;s own strengths and limitations.</dd>
-</dl></section>
-</div><p>Based on Anderson and Krathwohl (2001), chapters 4-5. <a href="https://celt.iastate.edu/prepare-and-teach/design-your-course/blooms-taxonomy/">Iowa State Bloom's taxonomy guide</a>.</p></details>
+</div>
 
-## Central Dogma Stages from Related Terms
+<section class="problem-set" markdown="1" aria-labelledby="central-dogma-stages-from-related-terms">
+
+## 9.1 Central Dogma Stages from Related Terms {#central-dogma-stages-from-related-terms}
 
 <div id="MATCH-central_dogma_terms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-central_dogma_terms-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -30,7 +20,9 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 <a class="md-button custom-button webwork_pgml" href="downloads/central_dogma_terms-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-MATCH-central_dogma_terms-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-MATCH-central_dogma_terms-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -39,7 +31,11 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 </div>
 
 
-## G-U Wobble Base Pairs
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="g-u-wobble-base-pairs">
+
+## 9.2 G-U Wobble Base Pairs {#g-u-wobble-base-pairs}
 
 <div id="TFMS-g-u_wobble-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-g-u_wobble-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -49,7 +45,9 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 <a class="md-button custom-button webwork_pgml" href="downloads/g-u_wobble.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-TFMS-g-u_wobble-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-TFMS-g-u_wobble-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -58,7 +56,11 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 </div>
 
 
-## Translation Accuracy
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="translation-accuracy">
+
+## 9.3 Translation Accuracy {#translation-accuracy}
 
 <div id="TFMS-translation_accuracy-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-translation_accuracy-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -68,7 +70,9 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 <a class="md-button custom-button webwork_pgml" href="downloads/translation_accuracy.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-TFMS-translation_accuracy-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-TFMS-translation_accuracy-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -77,7 +81,11 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 </div>
 
 
-## Central Dogma Stages from Related Terms
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="central-dogma-stages-from-related-terms_1">
+
+## 9.4 Central Dogma Stages from Related Terms {#central-dogma-stages-from-related-terms_1}
 
 <div id="WOMC-central_dogma_terms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-central_dogma_terms-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -87,7 +95,9 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 <a class="md-button custom-button webwork_pgml" href="downloads/central_dogma_terms-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-WOMC-central_dogma_terms-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-WOMC-central_dogma_terms-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -96,7 +106,11 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 </div>
 
 
-## Peptide Sequences from mRNA Using the Genetic Code (10 Amino Acids)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="peptide-sequences-from-mrna-using-the-genetic-code-10-amino-acids">
+
+## 9.5 Peptide Sequences from mRNA Using the Genetic Code (10 Amino Acids) {#peptide-sequences-from-mrna-using-the-genetic-code-10-amino-acids}
 
 <div id="translate_genetic_code-10_aa-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-translate_genetic_code-10_aa-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -105,7 +119,9 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-translate_genetic_code-10_aa-questions.txt" data-format="human_readable" data-filename="human_readable-translate_genetic_code-10_aa.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-translate_genetic_code-10_aa-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-translate_genetic_code-10_aa-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -114,3 +130,6 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 </div>
 
 
+</section>
+
+</div>

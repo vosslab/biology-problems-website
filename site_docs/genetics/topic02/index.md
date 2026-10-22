@@ -1,28 +1,18 @@
+<div class="topic-page" markdown="1">
+
+<div class="topic-introduction" markdown="1">
+
 # 2: DNA Structure
 
 Students answer questions about DNA composition, base pairing rules, nucleotide components, and double-helix complementarity.
 
 **LibreTexts reference:** [Chapter 2: DNA Structure and Sequences](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/02:_DNA_Structure_and_Sequences) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/02:_DNA_Structure_and_Sequences" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 2" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-<details class="bloom-scales"><summary>Bloom's scales</summary>
-<p>Two dimensions describe the assessed task. Numbers identify categories, not difficulty ratings.</p><div class="bloom-scales-grid">
-<section><h3>Cognitive Process Dimension</h3><dl>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span></span></dt><dd>Retrieve relevant knowledge from memory by recognizing or recalling.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span></span></dt><dd>Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span></span></dt><dd>Carry out or use a procedure in a given situation.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span></span></dt><dd>Separate material into parts and identify their relationships and overall structure.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Evaluate" title="Make judgments using criteria and standards through checking or critique.">Evaluate <span class="bloom-level">&#10116;</span></span></span></dt><dd>Make judgments using criteria and standards through checking or critique.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Create" title="Combine elements into a coherent new whole through generating, planning, or producing.">Create <span class="bloom-level">&#10117;</span></span></span></dt><dd>Combine elements into a coherent new whole through generating, planning, or producing.</dd>
-</dl></section>
-<section><h3>Knowledge Dimension</h3><dl>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span></dt><dd>Knowledge of basic elements, terminology, and specific details.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span></dt><dd>Knowledge of categories, principles, theories, models, and how they relate.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span></dt><dd>Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Metacognitive" title="Knowledge of learning strategies, thinking tasks, and one&#x27;s own strengths and limitations.">Metacognitive <span class="bloom-level">&#10115;</span></span></span></dt><dd>Knowledge of learning strategies, thinking tasks, and one&#x27;s own strengths and limitations.</dd>
-</dl></section>
-</div><p>Based on Anderson and Krathwohl (2001), chapters 4-5. <a href="https://celt.iastate.edu/prepare-and-teach/design-your-course/blooms-taxonomy/">Iowa State Bloom's taxonomy guide</a>.</p></details>
+</div>
 
-## DNA Structure (Core Set)
+<section class="problem-set" markdown="1" aria-labelledby="dna-structure-core-set">
+
+## 2.1 DNA Structure (Core Set) {#dna-structure-core-set}
 
 <div id="TFMS-dna_structure-biol_351-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-dna_structure-biol_351-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -32,7 +22,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_structure-biol_351.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-TFMS-dna_structure-biol_351-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-TFMS-dna_structure-biol_351-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -41,7 +33,11 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </div>
 
 
-## English Palindrome Identification
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="english-palindrome-identification">
+
+## 2.2 English Palindrome Identification {#english-palindrome-identification}
 
 <div id="TFMS-english_palindromes-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-english_palindromes-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -51,7 +47,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <a class="md-button custom-button webwork_pgml" href="downloads/english_palindromes.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-TFMS-english_palindromes-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-TFMS-english_palindromes-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -60,7 +58,11 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </div>
 
 
-## Nucleotide Components
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="nucleotide-components">
+
+## 2.3 Nucleotide Components {#nucleotide-components}
 
 <div id="TFMS-nucleotide_components-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-nucleotide_components-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -70,7 +72,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <a class="md-button custom-button webwork_pgml" href="downloads/nucleotide_components.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-TFMS-nucleotide_components-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-TFMS-nucleotide_components-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -79,7 +83,11 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </div>
 
 
-## RNA and DNA Differences (Helix Forms and Charge Included)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="rna-and-dna-differences-helix-forms-and-charge-included">
+
+## 2.4 RNA and DNA Differences (Helix Forms and Charge Included) {#rna-and-dna-differences-helix-forms-and-charge-included}
 
 <div id="TFMS-rna_v_dna-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-rna_v_dna-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -89,7 +97,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <a class="md-button custom-button webwork_pgml" href="downloads/rna_v_dna.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-TFMS-rna_v_dna-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-TFMS-rna_v_dna-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -98,7 +108,11 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </div>
 
 
-## DNA Base Composition Using Chargaff&#x27;s Rules (5 Choices)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="dna-base-composition-using-chargaffs-rules-5-choices">
+
+## 2.5 DNA Base Composition Using Chargaff&#x27;s Rules (5 Choices) {#dna-base-composition-using-chargaffs-rules-5-choices}
 
 <div id="chargaff_dna_percent-5_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chargaff_dna_percent-5_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -107,7 +121,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-chargaff_dna_percent-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-chargaff_dna_percent-5_choices.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-chargaff_dna_percent-5_choices-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-chargaff_dna_percent-5_choices-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -116,7 +132,11 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </div>
 
 
-## Restriction Fragment Sizes from Circular DNA Maps (10 kb, 2 Sites)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="restriction-fragment-sizes-from-circular-dna-maps-10-kb-2-sites">
+
+## 2.6 Restriction Fragment Sizes from Circular DNA Maps (10 kb, 2 Sites) {#restriction-fragment-sizes-from-circular-dna-maps-10-kb-2-sites}
 
 <div id="circular_digest-length_10-sites_2_selected-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-circular_digest-length_10-sites_2_selected-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -125,7 +145,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-circular_digest-length_10-sites_2_selected-questions.txt" data-format="human_readable" data-filename="human_readable-circular_digest-length_10-sites_2_selected.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-circular_digest-length_10-sites_2_selected-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-circular_digest-length_10-sites_2_selected-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -134,7 +156,11 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </div>
 
 
-## Restriction Fragment Sizes from Circular DNA Maps (12 kb, 3 Sites)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="restriction-fragment-sizes-from-circular-dna-maps-12-kb-3-sites">
+
+## 2.7 Restriction Fragment Sizes from Circular DNA Maps (12 kb, 3 Sites) {#restriction-fragment-sizes-from-circular-dna-maps-12-kb-3-sites}
 
 <div id="circular_digest-length_12-sites_3_selected-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-circular_digest-length_12-sites_3_selected-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -143,7 +169,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-circular_digest-length_12-sites_3_selected-questions.txt" data-format="human_readable" data-filename="human_readable-circular_digest-length_12-sites_3_selected.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-circular_digest-length_12-sites_3_selected-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-circular_digest-length_12-sites_3_selected-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -152,7 +180,11 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </div>
 
 
-## Restriction Fragment Sizes from Circular DNA Maps (16 kb, 3 Sites)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="restriction-fragment-sizes-from-circular-dna-maps-16-kb-3-sites">
+
+## 2.8 Restriction Fragment Sizes from Circular DNA Maps (16 kb, 3 Sites) {#restriction-fragment-sizes-from-circular-dna-maps-16-kb-3-sites}
 
 <div id="circular_digest-length_16-sites_3_selected-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-circular_digest-length_16-sites_3_selected-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -161,7 +193,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-circular_digest-length_16-sites_3_selected-questions.txt" data-format="human_readable" data-filename="human_readable-circular_digest-length_16-sites_3_selected.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-circular_digest-length_16-sites_3_selected-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-circular_digest-length_16-sites_3_selected-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -170,7 +204,11 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </div>
 
 
-## Complementary DNA Sequences (Directionless)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="complementary-dna-sequences-directionless">
+
+## 2.9 Complementary DNA Sequences (Directionless) {#complementary-dna-sequences-directionless}
 
 <div id="complementary_sequences-mc-directionless-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-complementary_sequences-mc-directionless-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -179,7 +217,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-complementary_sequences-mc-directionless-questions.txt" data-format="human_readable" data-filename="human_readable-complementary_sequences-mc-directionless.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-complementary_sequences-mc-directionless-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-complementary_sequences-mc-directionless-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -188,7 +228,11 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </div>
 
 
-## Complementary DNA Sequences (5&#x27;/3&#x27; Labels)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="complementary-dna-sequences-53-labels">
+
+## 2.10 Complementary DNA Sequences (5&#x27;/3&#x27; Labels) {#complementary-dna-sequences-53-labels}
 
 <div id="complementary_sequences-mc-prime-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-complementary_sequences-mc-prime-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -197,7 +241,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-complementary_sequences-mc-prime-questions.txt" data-format="human_readable" data-filename="human_readable-complementary_sequences-mc-prime.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-complementary_sequences-mc-prime-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-complementary_sequences-mc-prime-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -206,7 +252,11 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </div>
 
 
-## Restriction Fragment Sizes from Linear DNA Maps (10 kb, 2 Sites, Isolated Fragment)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="restriction-fragment-sizes-from-linear-dna-maps-10-kb-2-sites-isolated-fragment">
+
+## 2.11 Restriction Fragment Sizes from Linear DNA Maps (10 kb, 2 Sites, Isolated Fragment) {#restriction-fragment-sizes-from-linear-dna-maps-10-kb-2-sites-isolated-fragment}
 
 <div id="linear_digest-len_10-sites_2-fragment-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-len_10-sites_2-fragment-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -215,7 +265,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-linear_digest-len_10-sites_2-fragment-questions.txt" data-format="human_readable" data-filename="human_readable-linear_digest-len_10-sites_2-fragment.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-linear_digest-len_10-sites_2-fragment-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-linear_digest-len_10-sites_2-fragment-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -224,7 +276,11 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </div>
 
 
-## Restriction Fragment Sizes from Linear DNA Maps (10 kb, 3 Sites, Internal Segment)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="restriction-fragment-sizes-from-linear-dna-maps-10-kb-3-sites-internal-segment">
+
+## 2.12 Restriction Fragment Sizes from Linear DNA Maps (10 kb, 3 Sites, Internal Segment) {#restriction-fragment-sizes-from-linear-dna-maps-10-kb-3-sites-internal-segment}
 
 <div id="linear_digest-len_10-sites_3-strand-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-len_10-sites_3-strand-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -233,7 +289,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-linear_digest-len_10-sites_3-strand-questions.txt" data-format="human_readable" data-filename="human_readable-linear_digest-len_10-sites_3-strand.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-linear_digest-len_10-sites_3-strand-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-linear_digest-len_10-sites_3-strand-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -242,7 +300,11 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </div>
 
 
-## Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Isolated Fragment)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="restriction-fragment-sizes-from-linear-dna-maps-12-kb-3-sites-isolated-fragment">
+
+## 2.13 Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Isolated Fragment) {#restriction-fragment-sizes-from-linear-dna-maps-12-kb-3-sites-isolated-fragment}
 
 <div id="linear_digest-len_12-sites_3-fragment-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-len_12-sites_3-fragment-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -251,7 +313,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-linear_digest-len_12-sites_3-fragment-questions.txt" data-format="human_readable" data-filename="human_readable-linear_digest-len_12-sites_3-fragment.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-linear_digest-len_12-sites_3-fragment-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-linear_digest-len_12-sites_3-fragment-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -260,7 +324,11 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </div>
 
 
-## Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Internal Segment)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="restriction-fragment-sizes-from-linear-dna-maps-12-kb-3-sites-internal-segment">
+
+## 2.14 Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Internal Segment) {#restriction-fragment-sizes-from-linear-dna-maps-12-kb-3-sites-internal-segment}
 
 <div id="linear_digest-len_12-sites_3-strand-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-len_12-sites_3-strand-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -269,7 +337,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-linear_digest-len_12-sites_3-strand-questions.txt" data-format="human_readable" data-filename="human_readable-linear_digest-len_12-sites_3-strand.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-linear_digest-len_12-sites_3-strand-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-linear_digest-len_12-sites_3-strand-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -278,7 +348,11 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </div>
 
 
-## Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Isolated Fragment)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="restriction-fragment-sizes-from-linear-dna-maps-16-kb-4-sites-isolated-fragment">
+
+## 2.15 Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Isolated Fragment) {#restriction-fragment-sizes-from-linear-dna-maps-16-kb-4-sites-isolated-fragment}
 
 <div id="linear_digest-len_16-sites_4-fragment-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-len_16-sites_4-fragment-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -287,7 +361,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-linear_digest-len_16-sites_4-fragment-questions.txt" data-format="human_readable" data-filename="human_readable-linear_digest-len_16-sites_4-fragment.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-linear_digest-len_16-sites_4-fragment-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-linear_digest-len_16-sites_4-fragment-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -296,7 +372,11 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </div>
 
 
-## Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Internal Segment)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="restriction-fragment-sizes-from-linear-dna-maps-16-kb-4-sites-internal-segment">
+
+## 2.16 Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Internal Segment) {#restriction-fragment-sizes-from-linear-dna-maps-16-kb-4-sites-internal-segment}
 
 <div id="linear_digest-len_16-sites_4-strand-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-len_16-sites_4-strand-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -305,7 +385,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-linear_digest-len_16-sites_4-strand-questions.txt" data-format="human_readable" data-filename="human_readable-linear_digest-len_16-sites_4-strand.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-linear_digest-len_16-sites_4-strand-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-linear_digest-len_16-sites_4-strand-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -314,7 +396,11 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </div>
 
 
-## Restriction Enzyme Overhang Sequences
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="restriction-enzyme-overhang-sequences">
+
+## 2.17 Restriction Enzyme Overhang Sequences {#restriction-enzyme-overhang-sequences}
 
 <div id="overhang_sequence-mc-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-overhang_sequence-mc-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -323,7 +409,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-overhang_sequence-mc-questions.txt" data-format="human_readable" data-filename="human_readable-overhang_sequence-mc.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-overhang_sequence-mc-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-overhang_sequence-mc-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -332,7 +420,11 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </div>
 
 
-## Restriction Enzyme Cut Types (5&#x27;, 3&#x27;, or Blunt)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="restriction-enzyme-cut-types-5-3-or-blunt">
+
+## 2.18 Restriction Enzyme Cut Types (5&#x27;, 3&#x27;, or Blunt) {#restriction-enzyme-cut-types-5-3-or-blunt}
 
 <div id="overhang_type-5_3_blunt-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-overhang_type-5_3_blunt-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -341,7 +433,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-overhang_type-5_3_blunt-questions.txt" data-format="human_readable" data-filename="human_readable-overhang_type-5_3_blunt.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-overhang_type-5_3_blunt-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-overhang_type-5_3_blunt-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -350,7 +444,11 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </div>
 
 
-## Restriction Enzyme Cut Types (Blunt or Sticky)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="restriction-enzyme-cut-types-blunt-or-sticky">
+
+## 2.19 Restriction Enzyme Cut Types (Blunt or Sticky) {#restriction-enzyme-cut-types-blunt-or-sticky}
 
 <div id="overhang_type-blunt_v_sticky-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-overhang_type-blunt_v_sticky-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -359,7 +457,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-overhang_type-blunt_v_sticky-questions.txt" data-format="human_readable" data-filename="human_readable-overhang_type-blunt_v_sticky.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-overhang_type-blunt_v_sticky-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-overhang_type-blunt_v_sticky-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -368,7 +468,11 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </div>
 
 
-## Palindromic DNA Sequence Completion
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="palindromic-dna-sequence-completion">
+
+## 2.20 Palindromic DNA Sequence Completion {#palindromic-dna-sequence-completion}
 
 <div id="palindrome_sequence_match-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-palindrome_sequence_match-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -377,7 +481,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-palindrome_sequence_match-questions.txt" data-format="human_readable" data-filename="human_readable-palindrome_sequence_match.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-palindrome_sequence_match-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-palindrome_sequence_match-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -386,3 +492,6 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </div>
 
 
+</section>
+
+</div>

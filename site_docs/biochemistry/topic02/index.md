@@ -1,28 +1,18 @@
+<div class="topic-page" markdown="1">
+
+<div class="topic-introduction" markdown="1">
+
 # 2: Water and pH
 
 Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict protonation states of simple acids and bases, and analyze buffer systems.
 
 **LibreTexts reference:** [Unit 1, Chapter 2: Chemistry of Water](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.02%3A_Chemistry_of_Water) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.02%3A_Chemistry_of_Water" target="_blank" rel="noopener" aria-label="LibreTexts Unit 1, Chapter 2" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-<details class="bloom-scales"><summary>Bloom's scales</summary>
-<p>Two dimensions describe the assessed task. Numbers identify categories, not difficulty ratings.</p><div class="bloom-scales-grid">
-<section><h3>Cognitive Process Dimension</h3><dl>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span></span></dt><dd>Retrieve relevant knowledge from memory by recognizing or recalling.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span></span></dt><dd>Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span></span></dt><dd>Carry out or use a procedure in a given situation.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span></span></dt><dd>Separate material into parts and identify their relationships and overall structure.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Evaluate" title="Make judgments using criteria and standards through checking or critique.">Evaluate <span class="bloom-level">&#10116;</span></span></span></dt><dd>Make judgments using criteria and standards through checking or critique.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Create" title="Combine elements into a coherent new whole through generating, planning, or producing.">Create <span class="bloom-level">&#10117;</span></span></span></dt><dd>Combine elements into a coherent new whole through generating, planning, or producing.</dd>
-</dl></section>
-<section><h3>Knowledge Dimension</h3><dl>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span></dt><dd>Knowledge of basic elements, terminology, and specific details.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span></dt><dd>Knowledge of categories, principles, theories, models, and how they relate.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span></dt><dd>Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Metacognitive" title="Knowledge of learning strategies, thinking tasks, and one&#x27;s own strengths and limitations.">Metacognitive <span class="bloom-level">&#10115;</span></span></span></dt><dd>Knowledge of learning strategies, thinking tasks, and one&#x27;s own strengths and limitations.</dd>
-</dl></section>
-</div><p>Based on Anderson and Krathwohl (2001), chapters 4-5. <a href="https://celt.iastate.edu/prepare-and-teach/design-your-course/blooms-taxonomy/">Iowa State Bloom's taxonomy guide</a>.</p></details>
+</div>
 
-## Correct Form of the Henderson-Hasselbalch Equation
+<section class="problem-set" markdown="1" aria-labelledby="correct-form-of-the-henderson-hasselbalch-equation">
+
+## 2.1 Correct Form of the Henderson-Hasselbalch Equation {#correct-form-of-the-henderson-hasselbalch-equation}
 
 <div id="Henderson-Hasselbalch-equation-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-equation-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -31,7 +21,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-Henderson-Hasselbalch-equation-questions.txt" data-format="human_readable" data-filename="human_readable-Henderson-Hasselbalch-equation.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-Henderson-Hasselbalch-equation-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-Henderson-Hasselbalch-equation-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -40,7 +32,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </div>
 
 
-## pH Using the Henderson-Hasselbalch Equation
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="ph-using-the-henderson-hasselbalch-equation">
+
+## 2.2 pH Using the Henderson-Hasselbalch Equation {#ph-using-the-henderson-hasselbalch-equation}
 
 <div id="Henderson-Hasselbalch-pH_mc-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pH_mc-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -49,7 +45,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-Henderson-Hasselbalch-pH_mc-questions.txt" data-format="human_readable" data-filename="human_readable-Henderson-Hasselbalch-pH_mc.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-Henderson-Hasselbalch-pH_mc-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-Henderson-Hasselbalch-pH_mc-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -58,7 +56,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </div>
 
 
-## pH Using the Henderson-Hasselbalch Equation
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="ph-using-the-henderson-hasselbalch-equation_1">
+
+## 2.3 pH Using the Henderson-Hasselbalch Equation {#ph-using-the-henderson-hasselbalch-equation_1}
 
 <div id="Henderson-Hasselbalch-pH_num-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pH_num-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -67,7 +69,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-Henderson-Hasselbalch-pH_num-questions.txt" data-format="human_readable" data-filename="human_readable-Henderson-Hasselbalch-pH_num.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-Henderson-Hasselbalch-pH_num-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-Henderson-Hasselbalch-pH_num-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -76,7 +80,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </div>
 
 
-## pKa and pKb Using the Henderson-Hasselbalch Equation
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="pka-and-pkb-using-the-henderson-hasselbalch-equation">
+
+## 2.4 pKa and pKb Using the Henderson-Hasselbalch Equation {#pka-and-pkb-using-the-henderson-hasselbalch-equation}
 
 <div id="Henderson-Hasselbalch-pKa_mc-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pKa_mc-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -85,7 +93,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-Henderson-Hasselbalch-pKa_mc-questions.txt" data-format="human_readable" data-filename="human_readable-Henderson-Hasselbalch-pKa_mc.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-Henderson-Hasselbalch-pKa_mc-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-Henderson-Hasselbalch-pKa_mc-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -94,7 +104,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </div>
 
 
-## pKa and pKb Using the Henderson-Hasselbalch Equation
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="pka-and-pkb-using-the-henderson-hasselbalch-equation_1">
+
+## 2.5 pKa and pKb Using the Henderson-Hasselbalch Equation {#pka-and-pkb-using-the-henderson-hasselbalch-equation_1}
 
 <div id="Henderson-Hasselbalch-pKa_num-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pKa_num-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -103,7 +117,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-Henderson-Hasselbalch-pKa_num-questions.txt" data-format="human_readable" data-filename="human_readable-Henderson-Hasselbalch-pKa_num.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-Henderson-Hasselbalch-pKa_num-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-Henderson-Hasselbalch-pKa_num-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -112,7 +128,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </div>
 
 
-## Conjugate Base-to-Acid Ratios Using the Henderson-Hasselbalch Equation
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="conjugate-base-to-acid-ratios-using-the-henderson-hasselbalch-equation">
+
+## 2.6 Conjugate Base-to-Acid Ratios Using the Henderson-Hasselbalch Equation {#conjugate-base-to-acid-ratios-using-the-henderson-hasselbalch-equation}
 
 <div id="Henderson-Hasselbalch-ratio_mc-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-ratio_mc-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -121,7 +141,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-Henderson-Hasselbalch-ratio_mc-questions.txt" data-format="human_readable" data-filename="human_readable-Henderson-Hasselbalch-ratio_mc.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-Henderson-Hasselbalch-ratio_mc-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-Henderson-Hasselbalch-ratio_mc-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -130,7 +152,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </div>
 
 
-## Conjugate Base-to-Acid Ratios Using the Henderson-Hasselbalch Equation
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="conjugate-base-to-acid-ratios-using-the-henderson-hasselbalch-equation_1">
+
+## 2.7 Conjugate Base-to-Acid Ratios Using the Henderson-Hasselbalch Equation {#conjugate-base-to-acid-ratios-using-the-henderson-hasselbalch-equation_1}
 
 <div id="Henderson-Hasselbalch-ratio_num-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-ratio_num-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -139,7 +165,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-Henderson-Hasselbalch-ratio_num-questions.txt" data-format="human_readable" data-filename="human_readable-Henderson-Hasselbalch-ratio_num.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-Henderson-Hasselbalch-ratio_num-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-Henderson-Hasselbalch-ratio_num-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -148,7 +176,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </div>
 
 
-## Protonation States of Chemical Groups
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="protonation-states-of-chemical-groups">
+
+## 2.8 Protonation States of Chemical Groups {#protonation-states-of-chemical-groups}
 
 <div id="chemical_group_pka_forms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chemical_group_pka_forms-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -158,7 +190,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <a class="md-button custom-button webwork_pgml" href="downloads/chemical_group_pka_forms.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-chemical_group_pka_forms-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-chemical_group_pka_forms-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -167,7 +201,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </div>
 
 
-## Functional Group Classification by Bond Type
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="functional-group-classification-by-bond-type">
+
+## 2.9 Functional Group Classification by Bond Type {#functional-group-classification-by-bond-type}
 
 <div id="functional_groups_bond_types-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-functional_groups_bond_types-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -177,7 +215,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <a class="md-button custom-button webwork_pgml" href="downloads/functional_groups_bond_types.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-functional_groups_bond_types-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-functional_groups_bond_types-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -186,7 +226,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </div>
 
 
-## Optimal Buffering Range Using pKa
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="optimal-buffering-range-using-pka">
+
+## 2.10 Optimal Buffering Range Using pKa {#optimal-buffering-range-using-pka}
 
 <div id="optimal_buffering_range-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-optimal_buffering_range-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -196,7 +240,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <a class="md-button custom-button webwork_pgml" href="downloads/optimal_buffering_range.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-optimal_buffering_range-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-optimal_buffering_range-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -205,7 +251,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </div>
 
 
-## Predominant Protonation State from pH and pKa (Diprotic)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="predominant-protonation-state-from-ph-and-pka-diprotic">
+
+## 2.11 Predominant Protonation State from pH and pKa (Diprotic) {#predominant-protonation-state-from-ph-and-pka-diprotic}
 
 <div id="pKa_buffer_state-2_protons-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-pKa_buffer_state-2_protons-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -214,7 +264,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-pKa_buffer_state-2_protons-questions.txt" data-format="human_readable" data-filename="human_readable-pKa_buffer_state-2_protons.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-pKa_buffer_state-2_protons-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-pKa_buffer_state-2_protons-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -223,7 +275,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </div>
 
 
-## Predominant Protonation State from pH and pKa (Triprotic)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="predominant-protonation-state-from-ph-and-pka-triprotic">
+
+## 2.12 Predominant Protonation State from pH and pKa (Triprotic) {#predominant-protonation-state-from-ph-and-pka-triprotic}
 
 <div id="pKa_buffer_state-3_protons-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-pKa_buffer_state-3_protons-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -232,7 +288,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-pKa_buffer_state-3_protons-questions.txt" data-format="human_readable" data-filename="human_readable-pKa_buffer_state-3_protons.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-pKa_buffer_state-3_protons-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-pKa_buffer_state-3_protons-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -241,7 +299,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </div>
 
 
-## Predominant Protonation State from pH and pKa (Tetraprotic)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="predominant-protonation-state-from-ph-and-pka-tetraprotic">
+
+## 2.13 Predominant Protonation State from pH and pKa (Tetraprotic) {#predominant-protonation-state-from-ph-and-pka-tetraprotic}
 
 <div id="pKa_buffer_state-4_protons-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-pKa_buffer_state-4_protons-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -250,7 +312,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-pKa_buffer_state-4_protons-questions.txt" data-format="human_readable" data-filename="human_readable-pKa_buffer_state-4_protons.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-pKa_buffer_state-4_protons-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-pKa_buffer_state-4_protons-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -259,7 +323,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </div>
 
 
-## pH Differences Between Solutions
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="ph-differences-between-solutions">
+
+## 2.14 pH Differences Between Solutions {#ph-differences-between-solutions}
 
 <div id="ph_h_concentration_ratio-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-ph_h_concentration_ratio-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -269,7 +337,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <a class="md-button custom-button webwork_pgml" href="downloads/ph_h_concentration_ratio.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-ph_h_concentration_ratio-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-ph_h_concentration_ratio-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -278,3 +348,6 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </div>
 
 
+</section>
+
+</div>

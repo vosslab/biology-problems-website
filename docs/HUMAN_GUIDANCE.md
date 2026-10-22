@@ -69,6 +69,10 @@ origin belongs there too. Rules: [REPO_STYLE.md](REPO_STYLE.md).
 
 - Curate problem-set titles for instructors choosing questions for their classes. An instructor
   familiar with the chapter should recognize the specific problem set from its title.
+- The website primarily serves instructors choosing question banks for their classes. Student
+  self-testing and practice games are secondary uses.
+- Add complexity when it provides a concrete benefit to the people using or maintaining the site;
+  do not minimize implementation cost as an end in itself.
 - Make question-type badges visually distinct from download buttons: rectangular
   labels with colored side bars, using the existing colorwheel. Give MC, WOMC,
   TFMS, and Matching distinct colors.
@@ -77,6 +81,10 @@ origin belongs there too. Rules: [REPO_STYLE.md](REPO_STYLE.md).
   Keep type badges before linked titles in All Questions. Python owns badge markup; CSS owns layout.
 - Identify the response type from each BBQ file's first record. Treat `FIB_PLUS` as the
   distinct `MULTI_FIB` type, and distinguish regular MC, WOMC, and TFMS banks.
+- On topic pages, keep breadcrumbs, the title, topic summary, and LibreTexts reference; remove
+  chapter-top self-test progress and Bloom scales, reduce excess space, and number problem headings.
+  Keep all per-bank downloads, labels, controls, questions, and grading intact. Apply the layout to
+  every topic page; Topic 07 is an internal trial, not the stopping point.
 
 ## Multiple-answer question design
 

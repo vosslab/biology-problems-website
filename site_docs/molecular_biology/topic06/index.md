@@ -1,26 +1,16 @@
+<div class="topic-page" markdown="1">
+
+<div class="topic-introduction" markdown="1">
+
 # 6: DNA Replication
 
 Replication machinery, origins, forks, and fidelity mechanisms.
 
-<details class="bloom-scales"><summary>Bloom's scales</summary>
-<p>Two dimensions describe the assessed task. Numbers identify categories, not difficulty ratings.</p><div class="bloom-scales-grid">
-<section><h3>Cognitive Process Dimension</h3><dl>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span></span></dt><dd>Retrieve relevant knowledge from memory by recognizing or recalling.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span></span></dt><dd>Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span></span></dt><dd>Carry out or use a procedure in a given situation.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span></span></dt><dd>Separate material into parts and identify their relationships and overall structure.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Evaluate" title="Make judgments using criteria and standards through checking or critique.">Evaluate <span class="bloom-level">&#10116;</span></span></span></dt><dd>Make judgments using criteria and standards through checking or critique.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Create" title="Combine elements into a coherent new whole through generating, planning, or producing.">Create <span class="bloom-level">&#10117;</span></span></span></dt><dd>Combine elements into a coherent new whole through generating, planning, or producing.</dd>
-</dl></section>
-<section><h3>Knowledge Dimension</h3><dl>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span></dt><dd>Knowledge of basic elements, terminology, and specific details.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span></dt><dd>Knowledge of categories, principles, theories, models, and how they relate.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span></dt><dd>Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Metacognitive" title="Knowledge of learning strategies, thinking tasks, and one&#x27;s own strengths and limitations.">Metacognitive <span class="bloom-level">&#10115;</span></span></span></dt><dd>Knowledge of learning strategies, thinking tasks, and one&#x27;s own strengths and limitations.</dd>
-</dl></section>
-</div><p>Based on Anderson and Krathwohl (2001), chapters 4-5. <a href="https://celt.iastate.edu/prepare-and-teach/design-your-course/blooms-taxonomy/">Iowa State Bloom's taxonomy guide</a>.</p></details>
+</div>
 
-## Bacterial DNA Replication Proteins and Functions (Topoisomerase Terminology)
+<section class="problem-set" markdown="1" aria-labelledby="bacterial-dna-replication-proteins-and-functions-topoisomerase-terminology">
+
+## 6.1 Bacterial DNA Replication Proteins and Functions (Topoisomerase Terminology) {#bacterial-dna-replication-proteins-and-functions-topoisomerase-terminology}
 
 <div id="MATCH-dna_replication_enzymes-biol_301-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-dna_replication_enzymes-biol_301-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -30,7 +20,9 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_replication_enzymes-biol_301-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-MATCH-dna_replication_enzymes-biol_301-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-MATCH-dna_replication_enzymes-biol_301-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -39,7 +31,11 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 </div>
 
 
-## Bacterial DNA Replication Proteins and Functions (Gyrase Terminology)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="bacterial-dna-replication-proteins-and-functions-gyrase-terminology">
+
+## 6.2 Bacterial DNA Replication Proteins and Functions (Gyrase Terminology) {#bacterial-dna-replication-proteins-and-functions-gyrase-terminology}
 
 <div id="MATCH-dna_replication_enzymes-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-dna_replication_enzymes-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -49,7 +45,9 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_replication_enzymes-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-MATCH-dna_replication_enzymes-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-MATCH-dna_replication_enzymes-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -58,7 +56,11 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 </div>
 
 
-## Bacterial DNA Replication (Topoisomerase Terminology)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="bacterial-dna-replication-topoisomerase-terminology">
+
+## 6.3 Bacterial DNA Replication (Topoisomerase Terminology) {#bacterial-dna-replication-topoisomerase-terminology}
 
 <div id="TFMS-dna_replication-biol_301-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-dna_replication-biol_301-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -68,7 +70,9 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_replication-biol_301.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-TFMS-dna_replication-biol_301-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-TFMS-dna_replication-biol_301-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -77,7 +81,11 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 </div>
 
 
-## Bacterial DNA Replication (Gyrase Terminology)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="bacterial-dna-replication-gyrase-terminology">
+
+## 6.4 Bacterial DNA Replication (Gyrase Terminology) {#bacterial-dna-replication-gyrase-terminology}
 
 <div id="TFMS-dna_replication-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-dna_replication-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -87,7 +95,9 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_replication.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-TFMS-dna_replication-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-TFMS-dna_replication-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -96,7 +106,11 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 </div>
 
 
-## Leading and Lagging Strands
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="leading-and-lagging-strands">
+
+## 6.5 Leading and Lagging Strands {#leading-and-lagging-strands}
 
 <div id="TFMS-leading_v_lagging_strand-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-leading_v_lagging_strand-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -106,7 +120,9 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/leading_v_lagging_strand.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-TFMS-leading_v_lagging_strand-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-TFMS-leading_v_lagging_strand-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -115,7 +131,11 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 </div>
 
 
-## DNA Polymerase Proofreading
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="dna-polymerase-proofreading">
+
+## 6.6 DNA Polymerase Proofreading {#dna-polymerase-proofreading}
 
 <div id="TFMS-proofreading-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-proofreading-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -125,7 +145,9 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/proofreading.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-TFMS-proofreading-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-TFMS-proofreading-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -134,7 +156,11 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 </div>
 
 
-## Bacterial DNA Replication Proteins and Functions (Topoisomerase Terminology)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="bacterial-dna-replication-proteins-and-functions-topoisomerase-terminology_1">
+
+## 6.7 Bacterial DNA Replication Proteins and Functions (Topoisomerase Terminology) {#bacterial-dna-replication-proteins-and-functions-topoisomerase-terminology_1}
 
 <div id="WOMC-dna_replication_enzymes-biol_301-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-dna_replication_enzymes-biol_301-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -144,7 +170,9 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_replication_enzymes-biol_301-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-WOMC-dna_replication_enzymes-biol_301-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-WOMC-dna_replication_enzymes-biol_301-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -153,7 +181,11 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 </div>
 
 
-## Bacterial DNA Replication Proteins and Functions (Gyrase Terminology)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="bacterial-dna-replication-proteins-and-functions-gyrase-terminology_1">
+
+## 6.8 Bacterial DNA Replication Proteins and Functions (Gyrase Terminology) {#bacterial-dna-replication-proteins-and-functions-gyrase-terminology_1}
 
 <div id="WOMC-dna_replication_enzymes-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-dna_replication_enzymes-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -163,7 +195,9 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_replication_enzymes-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-WOMC-dna_replication_enzymes-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-WOMC-dna_replication_enzymes-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -172,3 +206,6 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 </div>
 
 
+</section>
+
+</div>

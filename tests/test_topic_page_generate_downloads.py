@@ -4,6 +4,7 @@ import pathlib
 
 # PIP3 modules
 import pytest
+import markdown
 from bs4 import BeautifulSoup
 
 # local repo modules
@@ -119,3 +120,37 @@ def test_topic_page_uses_empty_dynamic_selftest_container(
 	assert not (topic_dir / "downloads").exists()
 	assert container.select_one(".selftest-reroll-content").get_text() == ""
 	assert "<details>" not in page
+
+
+#============================================
+def test_numbered_banks_keep_legacy_fragments_and_source_association(
+	tmp_path: pathlib.Path, monkeypatch: pytest.MonkeyPatch,
+) -> None:
+	"""Existing chapter and duplicate-title links still reach the intended bank."""
+	topic_dir = tmp_path / "site_docs" / "biology" / "topic07"
+	topic_dir.mkdir(parents=True)
+	bank_names = ["bbq-first-questions.txt", "bbq-second-questions.txt"]
+	for bank_name in bank_names:
+		(topic_dir / bank_name).write_text("MC\tWhat is a cell?\n", encoding="utf-8")
+	monkeypatch.setattr(topic_page, "get_topic_title", lambda *args: "Cells & DNA")
+	monkeypatch.setattr(topic_page, "get_topic_description", lambda *args: "Cell questions.")
+	monkeypatch.setattr(topic_page, "get_libretexts_link", lambda *args: None)
+	monkeypatch.setattr(topic_page, "get_problem_set_title", lambda *args: "Cells & DNA (MC)")
+	monkeypatch.setattr(topic_page.bloom, "load", lambda *args: {})
+	topic_page.update_index_md(
+		str(topic_dir), [str(topic_dir / name) for name in reversed(bank_names)],
+		{"count": 0}, len(bank_names), ["bb_text"], False, {},
+	)
+	page = (topic_dir / "index.md").read_text(encoding="utf-8")
+	rendered = markdown.markdown(page, extensions=["toc", "attr_list", "md_in_html"])
+	soup = BeautifulSoup(rendered, "html.parser")
+	assert soup.find(id="cells-dna").name == "h1"
+	for fragment, bank_name, download_id in zip(
+		["cells-dna_1", "cells-dna_2"], bank_names,
+		["first-button-container", "second-button-container"],
+	):
+		heading = soup.find(id=fragment)
+		assert heading is not None
+		bank = heading.find_parent(attrs={"aria-labelledby": fragment})
+		assert bank.select_one(".qpm-selftest")["data-bbq"] == bank_name
+		assert bank.find(id=download_id).select_one("a.bb_text")["href"] == bank_name

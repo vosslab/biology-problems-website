@@ -1,28 +1,18 @@
+<div class="topic-page" markdown="1">
+
+<div class="topic-introduction" markdown="1">
+
 # 6: Chromosomal Inheritance
 
 Students trace inheritance of X-linked genes through meiosis, predict progeny outcomes from sex-linked crosses, and explain the chromosomal basis of inheritance.
 
 **LibreTexts reference:** [Chapter 6: Chromosomal Inheritance](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/06:_Chromosomal_Inheritance) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/06:_Chromosomal_Inheritance" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 6" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-<details class="bloom-scales"><summary>Bloom's scales</summary>
-<p>Two dimensions describe the assessed task. Numbers identify categories, not difficulty ratings.</p><div class="bloom-scales-grid">
-<section><h3>Cognitive Process Dimension</h3><dl>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span></span></dt><dd>Retrieve relevant knowledge from memory by recognizing or recalling.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span></span></dt><dd>Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span></span></dt><dd>Carry out or use a procedure in a given situation.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span></span></dt><dd>Separate material into parts and identify their relationships and overall structure.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Evaluate" title="Make judgments using criteria and standards through checking or critique.">Evaluate <span class="bloom-level">&#10116;</span></span></span></dt><dd>Make judgments using criteria and standards through checking or critique.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Create" title="Combine elements into a coherent new whole through generating, planning, or producing.">Create <span class="bloom-level">&#10117;</span></span></span></dt><dd>Combine elements into a coherent new whole through generating, planning, or producing.</dd>
-</dl></section>
-<section><h3>Knowledge Dimension</h3><dl>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span></dt><dd>Knowledge of basic elements, terminology, and specific details.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span></dt><dd>Knowledge of categories, principles, theories, models, and how they relate.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span></dt><dd>Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Metacognitive" title="Knowledge of learning strategies, thinking tasks, and one&#x27;s own strengths and limitations.">Metacognitive <span class="bloom-level">&#10115;</span></span></span></dt><dd>Knowledge of learning strategies, thinking tasks, and one&#x27;s own strengths and limitations.</dd>
-</dl></section>
-</div><p>Based on Anderson and Krathwohl (2001), chapters 4-5. <a href="https://celt.iastate.edu/prepare-and-teach/design-your-course/blooms-taxonomy/">Iowa State Bloom's taxonomy guide</a>.</p></details>
+</div>
 
-## Meiosis Prophase I Stages from Descriptions
+<section class="problem-set" markdown="1" aria-labelledby="meiosis-prophase-i-stages-from-descriptions">
+
+## 6.1 Meiosis Prophase I Stages from Descriptions {#meiosis-prophase-i-stages-from-descriptions}
 
 <div id="MATCH-meiosis_prophase_1-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-meiosis_prophase_1-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -32,7 +22,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/meiosis_prophase_1-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-MATCH-meiosis_prophase_1-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-MATCH-meiosis_prophase_1-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -41,7 +33,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div>
 
 
-## Meiosis Terms from Definitions
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="meiosis-terms-from-definitions">
+
+## 6.2 Meiosis Terms from Definitions {#meiosis-terms-from-definitions}
 
 <div id="MATCH-meiosis_terms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-meiosis_terms-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -51,7 +47,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/meiosis_terms-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-MATCH-meiosis_terms-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-MATCH-meiosis_terms-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -60,7 +58,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div>
 
 
-## Sex Determination Systems from Descriptions
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="sex-determination-systems-from-descriptions">
+
+## 6.3 Sex Determination Systems from Descriptions {#sex-determination-systems-from-descriptions}
 
 <div id="MATCH-sex_determination-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-sex_determination-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -70,7 +72,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/sex_determination-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-MATCH-sex_determination-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-MATCH-sex_determination-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -79,7 +83,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div>
 
 
-## Mitosis and Meiosis
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="mitosis-and-meiosis">
+
+## 6.4 Mitosis and Meiosis {#mitosis-and-meiosis}
 
 <div id="TFMS-mitosis_and_meiosis-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-mitosis_and_meiosis-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -89,7 +97,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/mitosis_and_meiosis.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-TFMS-mitosis_and_meiosis-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-TFMS-mitosis_and_meiosis-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -98,7 +108,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div>
 
 
-## Meiosis Prophase I Stages from Descriptions
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="meiosis-prophase-i-stages-from-descriptions_1">
+
+## 6.5 Meiosis Prophase I Stages from Descriptions {#meiosis-prophase-i-stages-from-descriptions_1}
 
 <div id="WOMC-meiosis_prophase_1-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-meiosis_prophase_1-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -108,7 +122,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/meiosis_prophase_1-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-WOMC-meiosis_prophase_1-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-WOMC-meiosis_prophase_1-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -117,7 +133,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div>
 
 
-## Meiosis Terms from Definitions
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="meiosis-terms-from-definitions_1">
+
+## 6.6 Meiosis Terms from Definitions {#meiosis-terms-from-definitions_1}
 
 <div id="WOMC-meiosis_terms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-meiosis_terms-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -127,7 +147,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/meiosis_terms-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-WOMC-meiosis_terms-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-WOMC-meiosis_terms-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -136,7 +158,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div>
 
 
-## Sex Determination Systems from Descriptions
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="sex-determination-systems-from-descriptions_1">
+
+## 6.7 Sex Determination Systems from Descriptions {#sex-determination-systems-from-descriptions_1}
 
 <div id="WOMC-sex_determination-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-sex_determination-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -146,7 +172,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/sex_determination-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-WOMC-sex_determination-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-WOMC-sex_determination-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -155,7 +183,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div>
 
 
-## Combined Autosomal Dominant and X-Linked Recessive Inheritance (Both Disorders)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="combined-autosomal-dominant-and-x-linked-recessive-inheritance-both-disorders">
+
+## 6.8 Combined Autosomal Dominant and X-Linked Recessive Inheritance (Both Disorders) {#combined-autosomal-dominant-and-x-linked-recessive-inheritance-both-disorders}
 
 <div id="dominant_and_X-linked_recessive-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-dominant_and_X-linked_recessive-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -164,7 +196,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-dominant_and_X-linked_recessive-questions.txt" data-format="human_readable" data-filename="human_readable-dominant_and_X-linked_recessive.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-dominant_and_X-linked_recessive-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-dominant_and_X-linked_recessive-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -173,7 +207,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div>
 
 
-## Combined Autosomal Dominant and X-Linked Recessive Inheritance (Varied Outcomes)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="combined-autosomal-dominant-and-x-linked-recessive-inheritance-varied-outcomes">
+
+## 6.9 Combined Autosomal Dominant and X-Linked Recessive Inheritance (Varied Outcomes) {#combined-autosomal-dominant-and-x-linked-recessive-inheritance-varied-outcomes}
 
 <div id="dominant_and_X-linked_recessive_variations-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-dominant_and_X-linked_recessive_variations-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -182,7 +220,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-dominant_and_X-linked_recessive_variations-questions.txt" data-format="human_readable" data-filename="human_readable-dominant_and_X-linked_recessive_variations.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-dominant_and_X-linked_recessive_variations-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-dominant_and_X-linked_recessive_variations-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -191,7 +231,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div>
 
 
-## Parent Genotypes in X-Linked Recessive Crosses
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="parent-genotypes-in-x-linked-recessive-crosses">
+
+## 6.10 Parent Genotypes in X-Linked Recessive Crosses {#parent-genotypes-in-x-linked-recessive-crosses}
 
 <div id="poisson_flies-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-poisson_flies-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -201,7 +245,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/poisson_flies.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-poisson_flies-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-poisson_flies-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -210,7 +256,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div>
 
 
-## Pedigree Identification from Inheritance Patterns (Easy)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="pedigree-identification-from-inheritance-patterns-easy">
+
+## 6.11 Pedigree Identification from Inheritance Patterns (Easy) {#pedigree-identification-from-inheritance-patterns-easy}
 
 <div id="write_pattern_to_pedigree-easy-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-write_pattern_to_pedigree-easy-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -219,7 +269,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-write_pattern_to_pedigree-easy-questions.txt" data-format="human_readable" data-filename="human_readable-write_pattern_to_pedigree-easy.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-write_pattern_to_pedigree-easy-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-write_pattern_to_pedigree-easy-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -228,7 +280,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div>
 
 
-## Inheritance Patterns from Pedigrees (Easy)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="inheritance-patterns-from-pedigrees-easy">
+
+## 6.12 Inheritance Patterns from Pedigrees (Easy) {#inheritance-patterns-from-pedigrees-easy}
 
 <div id="write_pedigree_pattern_matching-easy-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-write_pedigree_pattern_matching-easy-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -237,7 +293,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-write_pedigree_pattern_matching-easy-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_pattern_matching-easy.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-write_pedigree_pattern_matching-easy-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-write_pedigree_pattern_matching-easy-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -246,7 +304,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div>
 
 
-## Inheritance Patterns from Pedigrees (Bonus)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="inheritance-patterns-from-pedigrees-bonus">
+
+## 6.13 Inheritance Patterns from Pedigrees (Bonus) {#inheritance-patterns-from-pedigrees-bonus}
 
 <div id="write_pedigree_to_pattern-bonus-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-write_pedigree_to_pattern-bonus-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -255,7 +317,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-write_pedigree_to_pattern-bonus-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-bonus.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-write_pedigree_to_pattern-bonus-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-write_pedigree_to_pattern-bonus-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -264,7 +328,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div>
 
 
-## Inheritance Patterns from Pedigrees (Easy)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="inheritance-patterns-from-pedigrees-easy_1">
+
+## 6.14 Inheritance Patterns from Pedigrees (Easy) {#inheritance-patterns-from-pedigrees-easy_1}
 
 <div id="write_pedigree_to_pattern-easy-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-write_pedigree_to_pattern-easy-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -273,7 +341,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-write_pedigree_to_pattern-easy-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-easy.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-write_pedigree_to_pattern-easy-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-write_pedigree_to_pattern-easy-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -282,7 +352,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div>
 
 
-## Inheritance Patterns from Pedigrees (Medium)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="inheritance-patterns-from-pedigrees-medium">
+
+## 6.15 Inheritance Patterns from Pedigrees (Medium) {#inheritance-patterns-from-pedigrees-medium}
 
 <div id="write_pedigree_to_pattern-medium-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-write_pedigree_to_pattern-medium-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -291,7 +365,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-write_pedigree_to_pattern-medium-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-medium.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-write_pedigree_to_pattern-medium-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-write_pedigree_to_pattern-medium-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -300,7 +376,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div>
 
 
-## Inheritance Patterns from Pedigrees (Rigorous)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="inheritance-patterns-from-pedigrees-rigorous">
+
+## 6.16 Inheritance Patterns from Pedigrees (Rigorous) {#inheritance-patterns-from-pedigrees-rigorous}
 
 <div id="write_pedigree_to_pattern-rigorous-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-write_pedigree_to_pattern-rigorous-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -309,7 +389,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-write_pedigree_to_pattern-rigorous-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-rigorous.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-write_pedigree_to_pattern-rigorous-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-write_pedigree_to_pattern-rigorous-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -318,7 +400,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div>
 
 
-## X-Linked Eye Color Inheritance
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="x-linked-eye-color-inheritance">
+
+## 6.17 X-Linked Eye Color Inheritance {#x-linked-eye-color-inheritance}
 
 <div id="x_linked_reciprocal_cross-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-x_linked_reciprocal_cross-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -327,7 +413,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-x_linked_reciprocal_cross-questions.txt" data-format="human_readable" data-filename="human_readable-x_linked_reciprocal_cross.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-x_linked_reciprocal_cross-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-x_linked_reciprocal_cross-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -336,7 +424,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div>
 
 
-## X-Linked Coat Color Probability
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="x-linked-coat-color-probability">
+
+## 6.18 X-Linked Coat Color Probability {#x-linked-coat-color-probability}
 
 <div id="x_linked_tortoiseshell-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-x_linked_tortoiseshell-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -345,7 +437,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-x_linked_tortoiseshell-questions.txt" data-format="human_readable" data-filename="human_readable-x_linked_tortoiseshell.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-x_linked_tortoiseshell-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-x_linked_tortoiseshell-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -354,3 +448,6 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </div>
 
 
+</section>
+
+</div>

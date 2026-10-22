@@ -1,26 +1,16 @@
+<div class="topic-page" markdown="1">
+
+<div class="topic-introduction" markdown="1">
+
 # 2: DNA and Genomics Biotechnology
 
 Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR, Sanger and next-generation sequencing, RT-qPCR, CRISPR technology, RNA interference, GWAS, and synthetic biology.
 
-<details class="bloom-scales"><summary>Bloom's scales</summary>
-<p>Two dimensions describe the assessed task. Numbers identify categories, not difficulty ratings.</p><div class="bloom-scales-grid">
-<section><h3>Cognitive Process Dimension</h3><dl>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span></span></dt><dd>Retrieve relevant knowledge from memory by recognizing or recalling.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span></span></dt><dd>Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span></span></dt><dd>Carry out or use a procedure in a given situation.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span></span></dt><dd>Separate material into parts and identify their relationships and overall structure.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Evaluate" title="Make judgments using criteria and standards through checking or critique.">Evaluate <span class="bloom-level">&#10116;</span></span></span></dt><dd>Make judgments using criteria and standards through checking or critique.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Create" title="Combine elements into a coherent new whole through generating, planning, or producing.">Create <span class="bloom-level">&#10117;</span></span></span></dt><dd>Combine elements into a coherent new whole through generating, planning, or producing.</dd>
-</dl></section>
-<section><h3>Knowledge Dimension</h3><dl>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span></dt><dd>Knowledge of basic elements, terminology, and specific details.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span></dt><dd>Knowledge of categories, principles, theories, models, and how they relate.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span></dt><dd>Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Metacognitive" title="Knowledge of learning strategies, thinking tasks, and one&#x27;s own strengths and limitations.">Metacognitive <span class="bloom-level">&#10115;</span></span></span></dt><dd>Knowledge of learning strategies, thinking tasks, and one&#x27;s own strengths and limitations.</dd>
-</dl></section>
-</div><p>Based on Anderson and Krathwohl (2001), chapters 4-5. <a href="https://celt.iastate.edu/prepare-and-teach/design-your-course/blooms-taxonomy/">Iowa State Bloom's taxonomy guide</a>.</p></details>
+</div>
 
-## Cell Disruption Techniques from Descriptions
+<section class="problem-set" markdown="1" aria-labelledby="cell-disruption-techniques-from-descriptions">
+
+## 2.1 Cell Disruption Techniques from Descriptions {#cell-disruption-techniques-from-descriptions}
 
 <div id="MATCH-cell_disruption-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-cell_disruption-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -30,7 +20,9 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <a class="md-button custom-button webwork_pgml" href="downloads/cell_disruption-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-MATCH-cell_disruption-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-MATCH-cell_disruption-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -39,7 +31,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </div>
 
 
-## DNA Sequencing Techniques from Descriptions
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="dna-sequencing-techniques-from-descriptions">
+
+## 2.2 DNA Sequencing Techniques from Descriptions {#dna-sequencing-techniques-from-descriptions}
 
 <div id="MATCH-dna_sequencing-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-dna_sequencing-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -49,7 +45,9 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_sequencing-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-MATCH-dna_sequencing-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-MATCH-dna_sequencing-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -58,7 +56,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </div>
 
 
-## Latin Phrases from Their Meanings
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="latin-phrases-from-their-meanings">
+
+## 2.3 Latin Phrases from Their Meanings {#latin-phrases-from-their-meanings}
 
 <div id="MATCH-latin_phrases-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-latin_phrases-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -68,7 +70,9 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <a class="md-button custom-button webwork_pgml" href="downloads/latin_phrases-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-MATCH-latin_phrases-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-MATCH-latin_phrases-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -77,7 +81,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </div>
 
 
-## Cell Disruption Techniques from Descriptions
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="cell-disruption-techniques-from-descriptions_1">
+
+## 2.4 Cell Disruption Techniques from Descriptions {#cell-disruption-techniques-from-descriptions_1}
 
 <div id="WOMC-cell_disruption-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-cell_disruption-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -87,7 +95,9 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <a class="md-button custom-button webwork_pgml" href="downloads/cell_disruption-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-WOMC-cell_disruption-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-WOMC-cell_disruption-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -96,7 +106,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </div>
 
 
-## DNA Sequencing Techniques from Descriptions
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="dna-sequencing-techniques-from-descriptions_1">
+
+## 2.5 DNA Sequencing Techniques from Descriptions {#dna-sequencing-techniques-from-descriptions_1}
 
 <div id="WOMC-dna_sequencing-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-dna_sequencing-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -106,7 +120,9 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_sequencing-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-WOMC-dna_sequencing-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-WOMC-dna_sequencing-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -115,7 +131,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </div>
 
 
-## Latin Phrases from Their Meanings
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="latin-phrases-from-their-meanings_1">
+
+## 2.6 Latin Phrases from Their Meanings {#latin-phrases-from-their-meanings_1}
 
 <div id="WOMC-latin_phrases-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-latin_phrases-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -125,7 +145,9 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <a class="md-button custom-button webwork_pgml" href="downloads/latin_phrases-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-WOMC-latin_phrases-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-WOMC-latin_phrases-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -134,7 +156,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </div>
 
 
-## Complementary DNA Sequences (5&#x27;/3&#x27; Labels)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="complementary-dna-sequences-53-labels">
+
+## 2.7 Complementary DNA Sequences (5&#x27;/3&#x27; Labels) {#complementary-dna-sequences-53-labels}
 
 <div id="complementary_sequences-mc-prime-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-complementary_sequences-mc-prime-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -143,7 +169,9 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-complementary_sequences-mc-prime-questions.txt" data-format="human_readable" data-filename="human_readable-complementary_sequences-mc-prime.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-complementary_sequences-mc-prime-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-complementary_sequences-mc-prime-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -152,7 +180,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </div>
 
 
-## Consensus Sequences from Alignments
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="consensus-sequences-from-alignments">
+
+## 2.8 Consensus Sequences from Alignments {#consensus-sequences-from-alignments}
 
 <div id="consensus_sequence_MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-consensus_sequence_MC-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -161,7 +193,9 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-consensus_sequence_MC-questions.txt" data-format="human_readable" data-filename="human_readable-consensus_sequence_MC.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-consensus_sequence_MC-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-consensus_sequence_MC-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -170,7 +204,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </div>
 
 
-## DNA Fragment Migration in Agarose Gel Electrophoresis (Closest/Farthest)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="dna-fragment-migration-in-agarose-gel-electrophoresis-closestfarthest">
+
+## 2.9 DNA Fragment Migration in Agarose Gel Electrophoresis (Closest/Farthest) {#dna-fragment-migration-in-agarose-gel-electrophoresis-closestfarthest}
 
 <div id="dna_gel-closest_farthest_MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-dna_gel-closest_farthest_MC-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -179,7 +217,9 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-dna_gel-closest_farthest_MC-questions.txt" data-format="human_readable" data-filename="human_readable-dna_gel-closest_farthest_MC.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-dna_gel-closest_farthest_MC-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-dna_gel-closest_farthest_MC-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -188,7 +228,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </div>
 
 
-## DNA Fragment Size from Agarose Gel Migration Data
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="dna-fragment-size-from-agarose-gel-migration-data">
+
+## 2.10 DNA Fragment Size from Agarose Gel Migration Data {#dna-fragment-size-from-agarose-gel-migration-data}
 
 <div id="dna_gel-estimate_size-MC_or_NUM-mc-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-dna_gel-estimate_size-MC_or_NUM-mc-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -197,7 +241,9 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-dna_gel-estimate_size-MC_or_NUM-mc-questions.txt" data-format="human_readable" data-filename="human_readable-dna_gel-estimate_size-MC_or_NUM-mc.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-dna_gel-estimate_size-MC_or_NUM-mc-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-dna_gel-estimate_size-MC_or_NUM-mc-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -206,7 +252,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </div>
 
 
-## PCR Primer Pair Selection from Double-Stranded DNA (9 bp Template, 6-nt Primers)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="pcr-primer-pair-selection-from-double-stranded-dna-9-bp-template-6-nt-primers">
+
+## 2.11 PCR Primer Pair Selection from Double-Stranded DNA (9 bp Template, 6-nt Primers) {#pcr-primer-pair-selection-from-double-stranded-dna-9-bp-template-6-nt-primers}
 
 <div id="pcr_design-9_bp-6_primer-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-pcr_design-9_bp-6_primer-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -215,7 +265,9 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-pcr_design-9_bp-6_primer-questions.txt" data-format="human_readable" data-filename="human_readable-pcr_design-9_bp-6_primer.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-pcr_design-9_bp-6_primer-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-pcr_design-9_bp-6_primer-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -224,3 +276,6 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </div>
 
 
+</section>
+
+</div>

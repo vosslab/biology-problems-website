@@ -1,28 +1,18 @@
+<div class="topic-page" markdown="1">
+
+<div class="topic-introduction" markdown="1">
+
 # 14: Human Senses
 
 Students explain the biochemical basis of taste, smell, hearing, sight, and touch perception.
 
 **LibreTexts reference:** [Unit 4, Chapter 1: Biochemistry of Our Senses](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/04%3A_Biochemistry_of_Our_Senses) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/04%3A_Biochemistry_of_Our_Senses" target="_blank" rel="noopener" aria-label="LibreTexts Unit 4, Chapter 1" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-<details class="bloom-scales"><summary>Bloom's scales</summary>
-<p>Two dimensions describe the assessed task. Numbers identify categories, not difficulty ratings.</p><div class="bloom-scales-grid">
-<section><h3>Cognitive Process Dimension</h3><dl>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span></span></dt><dd>Retrieve relevant knowledge from memory by recognizing or recalling.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span></span></dt><dd>Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span></span></dt><dd>Carry out or use a procedure in a given situation.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span></span></dt><dd>Separate material into parts and identify their relationships and overall structure.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Evaluate" title="Make judgments using criteria and standards through checking or critique.">Evaluate <span class="bloom-level">&#10116;</span></span></span></dt><dd>Make judgments using criteria and standards through checking or critique.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-cognitive" data-bloom="Create" title="Combine elements into a coherent new whole through generating, planning, or producing.">Create <span class="bloom-level">&#10117;</span></span></span></dt><dd>Combine elements into a coherent new whole through generating, planning, or producing.</dd>
-</dl></section>
-<section><h3>Knowledge Dimension</h3><dl>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span></dt><dd>Knowledge of basic elements, terminology, and specific details.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span></dt><dd>Knowledge of categories, principles, theories, models, and how they relate.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span></dt><dd>Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.</dd>
-<dt><span class="bloom-ribbon bloom-solo"><span class="bloom-badge bloom-knowledge" data-bloom="Metacognitive" title="Knowledge of learning strategies, thinking tasks, and one&#x27;s own strengths and limitations.">Metacognitive <span class="bloom-level">&#10115;</span></span></span></dt><dd>Knowledge of learning strategies, thinking tasks, and one&#x27;s own strengths and limitations.</dd>
-</dl></section>
-</div><p>Based on Anderson and Krathwohl (2001), chapters 4-5. <a href="https://celt.iastate.edu/prepare-and-teach/design-your-course/blooms-taxonomy/">Iowa State Bloom's taxonomy guide</a>.</p></details>
+</div>
 
-## Sensory Modalities from Receptor Cell Types
+<section class="problem-set" markdown="1" aria-labelledby="sensory-modalities-from-receptor-cell-types">
+
+## 14.1 Sensory Modalities from Receptor Cell Types {#sensory-modalities-from-receptor-cell-types}
 
 <div id="MATCH-senses_receptor_types_by_modality-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-senses_receptor_types_by_modality-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -32,7 +22,9 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_receptor_types_by_modality-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-MATCH-senses_receptor_types_by_modality-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-MATCH-senses_receptor_types_by_modality-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -41,7 +33,11 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 </div>
 
 
-## Sensory Signal Transduction Components from Functions
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="sensory-signal-transduction-components-from-functions">
+
+## 14.2 Sensory Signal Transduction Components from Functions {#sensory-signal-transduction-components-from-functions}
 
 <div id="MATCH-senses_signal_transduction_matching_set-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-senses_signal_transduction_matching_set-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -51,7 +47,9 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_signal_transduction_matching_set-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-MATCH-senses_signal_transduction_matching_set-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-MATCH-senses_signal_transduction_matching_set-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -60,7 +58,11 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 </div>
 
 
-## Taste Qualities from Stimuli
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="taste-qualities-from-stimuli">
+
+## 14.3 Taste Qualities from Stimuli {#taste-qualities-from-stimuli}
 
 <div id="MATCH-senses_taste_quality_to_stimulus-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -70,7 +72,9 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_taste_quality_to_stimulus-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -79,7 +83,11 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 </div>
 
 
-## Chemosensation (Smell and Taste)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="chemosensation-smell-and-taste">
+
+## 14.4 Chemosensation (Smell and Taste) {#chemosensation-smell-and-taste}
 
 <div id="TFMS-senses_chemosensation_smell_taste-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-senses_chemosensation_smell_taste-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -89,7 +97,9 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_chemosensation_smell_taste.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-TFMS-senses_chemosensation_smell_taste-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-TFMS-senses_chemosensation_smell_taste-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -98,7 +108,11 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 </div>
 
 
-## Sensory Coding (Smell vs. Taste)
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="sensory-coding-smell-vs-taste">
+
+## 14.5 Sensory Coding (Smell vs. Taste) {#sensory-coding-smell-vs-taste}
 
 <div id="TFMS-senses_smell_vs_taste-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-senses_smell_vs_taste-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -108,7 +122,9 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_smell_vs_taste.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-TFMS-senses_smell_vs_taste-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-TFMS-senses_smell_vs_taste-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -117,7 +133,11 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 </div>
 
 
-## Vision and Hearing Transduction
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="vision-and-hearing-transduction">
+
+## 14.6 Vision and Hearing Transduction {#vision-and-hearing-transduction}
 
 <div id="TFMS-senses_vision_hearing-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-senses_vision_hearing-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -127,7 +147,9 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_vision_hearing.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-TFMS-senses_vision_hearing-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-TFMS-senses_vision_hearing-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
@@ -136,7 +158,11 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 </div>
 
 
-## Sensory Modalities from Receptor Cell Types
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="sensory-modalities-from-receptor-cell-types_1">
+
+## 14.7 Sensory Modalities from Receptor Cell Types {#sensory-modalities-from-receptor-cell-types_1}
 
 <div id="WOMC-senses_receptor_types_by_modality-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-senses_receptor_types_by_modality-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -146,7 +172,9 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_receptor_types_by_modality-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-WOMC-senses_receptor_types_by_modality-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-WOMC-senses_receptor_types_by_modality-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -155,7 +183,11 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 </div>
 
 
-## Sensory Signal Transduction Components from Functions
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="sensory-signal-transduction-components-from-functions_1">
+
+## 14.8 Sensory Signal Transduction Components from Functions {#sensory-signal-transduction-components-from-functions_1}
 
 <div id="WOMC-senses_signal_transduction_matching_set-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-senses_signal_transduction_matching_set-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -165,7 +197,9 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_signal_transduction_matching_set-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-WOMC-senses_signal_transduction_matching_set-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-WOMC-senses_signal_transduction_matching_set-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -174,7 +208,11 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 </div>
 
 
-## Taste Qualities from Stimuli
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="taste-qualities-from-stimuli_1">
+
+## 14.9 Taste Qualities from Stimuli {#taste-qualities-from-stimuli_1}
 
 <div id="WOMC-senses_taste_quality_to_stimulus-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -184,7 +222,9 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_taste_quality_to_stimulus-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qpm-selftest" data-bbq="bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt">
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
@@ -193,3 +233,6 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 </div>
 
 
+</section>
+
+</div>
