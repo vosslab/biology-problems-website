@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-10-22
+
+- Remove duplicate-count overrides from the genetics probability task file; the
+  build script owns the generated question count.
+
+- Remove the dice quantity-to-value matching task; its separate MC tasks assess
+  expected counts, degrees of freedom, calculations, and interpretation.
+
+- Refocus the four offspring-probability task rows on factorial meaning, factorial
+  arrangement counts, binomial setup, and the repeated-phenotype denominator.
+  Keep the chi-square assignments unchanged. Retire the four introductory modes
+  from the generator so the available modes match this narrower class scope.
+
 ## 2026-10-21
 
 ### Behavior or Interface Changes

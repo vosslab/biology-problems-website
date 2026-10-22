@@ -1,8 +1,8 @@
 subject,topic,script,flags,input,notes
-genetics,chi_square,{bp_root}/inheritance-problems/progeny_probability_practice.py,--kind independence --duplicates 12,,
-genetics,chi_square,{bp_root}/inheritance-problems/progeny_probability_practice.py,--kind outcomes,,
-genetics,chi_square,{bp_root}/inheritance-problems/progeny_probability_practice.py,--kind tables,,
-genetics,chi_square,{bp_root}/inheritance-problems/progeny_probability_practice.py,--kind calculate --duplicates 20,,
+genetics,chi_square,{bp_root}/inheritance-problems/progeny_probability_practice.py,--kind factorial,,
+genetics,chi_square,{bp_root}/inheritance-problems/progeny_probability_practice.py,--kind coefficient,,
+genetics,chi_square,{bp_root}/inheritance-problems/progeny_probability_practice.py,--kind explain,,
+genetics,chi_square,{bp_root}/inheritance-problems/progeny_probability_practice.py,--kind binomial,,
 genetics,chi_square,{bp_root}/inheritance-problems/chi_square/chi_square_hypotheses.py,--kind null,,
 genetics,chi_square,{bp_root}/inheritance-problems/chi_square/chi_square_hypotheses.py,--kind alt,,
 genetics,chi_square,{bp_root}/inheritance-problems/chi_square/chi_square_hypotheses_lab_partner.py,,,
@@ -10,4 +10,3 @@ genetics,chi_square,{bp_root}/inheritance-problems/chi_square/chi_square_dice.py
 genetics,chi_square,{bp_root}/inheritance-problems/chi_square/chi_square_dice.py,--kind df,,
 genetics,chi_square,{bp_root}/inheritance-problems/chi_square/chi_square_dice.py,--kind calculate,,
 genetics,chi_square,{bp_root}/inheritance-problems/chi_square/chi_square_dice.py,--kind interpret,,
-genetics,chi_square,{bp_root}/inheritance-problems/chi_square/chi_square_dice.py,--kind connect,,
