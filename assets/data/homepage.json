@@ -2819,7 +2819,7 @@
       "name": "Alternative Hypotheses for Mendelian Offspring Ratios",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-22",
+      "updated": null,
       "url": "genetics/topic07/#chi_square_hypotheses-alt-button-container"
     },
     {
@@ -2830,7 +2830,7 @@
       "name": "Null Hypotheses for Mendelian Offspring Ratios",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-22",
+      "updated": null,
       "url": "genetics/topic07/#chi_square_hypotheses-null-button-container"
     },
     {
@@ -2852,7 +2852,7 @@
       "name": "Binomial Probabilities for Offspring Sex Counts",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-23",
+      "updated": null,
       "url": "genetics/topic07/#probabiliy_of_progeny-button-container"
     },
     {
@@ -2863,7 +2863,7 @@
       "name": "Binomial Probability Expressions for Offspring Phenotype Counts",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-23",
+      "updated": null,
       "url": "genetics/topic07/#progeny_probability_practice-binomial-MC-button-container"
     },
     {
@@ -2885,7 +2885,7 @@
       "name": "Binomial Coefficients for Offspring Phenotype Sequences",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-23",
+      "updated": null,
       "url": "genetics/topic07/#progeny_probability_practice-coefficient-MC-button-container"
     },
     {
@@ -2896,7 +2896,7 @@
       "name": "Binomial Coefficient Interpretation for Offspring Phenotype Counts",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-23",
+      "updated": null,
       "url": "genetics/topic07/#progeny_probability_practice-explain-MC-button-container"
     },
     {
@@ -2907,7 +2907,7 @@
       "name": "Factorial Expressions for Ordering Distinct Items",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-23",
+      "updated": null,
       "url": "genetics/topic07/#progeny_probability_practice-factorial-MC-button-container"
     },
     {
@@ -5723,24 +5723,10 @@
     },
     {
       "date": "2026-10-23",
-      "name": "Factorial Expressions for Ordering Distinct Items",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#progeny_probability_practice-factorial-MC-button-container"
-    },
-    {
-      "date": "2026-10-23",
       "name": "Dihybrid Chi-Square Table Selection and Conclusions",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "url": "genetics/topic07/#chi_square_choices-button-container"
-    },
-    {
-      "date": "2026-10-23",
-      "name": "Binomial Probabilities for Offspring Sex Counts",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#probabiliy_of_progeny-button-container"
     },
     {
       "date": "2026-10-22",
@@ -5755,13 +5741,6 @@
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "url": "genetics/topic07/#chi_square_hypotheses_lab_partner-hypotheses_partner-button-container"
-    },
-    {
-      "date": "2026-10-22",
-      "name": "Null Hypotheses for Mendelian Offspring Ratios",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#chi_square_hypotheses-null-button-container"
     },
     {
       "date": "2026-10-22",
@@ -7092,6 +7071,13 @@
       "subject": "Biostatistics",
       "topic": "Z-Tests, T-Tests, F-Tests, and ANOVA",
       "url": "biostatistics/topic07/#busse_woods_one_sample_tests-ztest-button-container"
+    },
+    {
+      "date": "2026-01-10",
+      "name": "Null and Alternative Hypotheses for Genetic Crosses",
+      "subject": "Biostatistics",
+      "topic": "Chi-Square Tests",
+      "url": "biostatistics/topic08/#chi_square_hypotheses-pair-button-container"
     },
     {
       "date": "2026-01-10",
