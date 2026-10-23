@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-23
+
+### Behavior or Interface Changes
+
+- Open Human-Readable questions at permanent, filename-based HTML addresses beside their BBQ
+  source files. MkDocs publishes lightweight wrappers and QPM converts on demand, so links can
+  be copied, bookmarked, shared, and reloaded without UUIDs or query parameters.
+
+### Fixes and Maintenance
+
+- Synchronized shared style guides, tests, and repository support files from the starter template.
+
 ## 2026-10-22
 
 - Alternate stacked bank borders between the theme green and a slightly deeper green.

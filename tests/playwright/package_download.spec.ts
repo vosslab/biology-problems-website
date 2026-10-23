@@ -12,18 +12,21 @@ const bank = [
   `MC\t<p>Identify ethanol.</p><table><caption>Molecule evidence</caption><tr><td>${molecule("ethanol", "CCO")}</td><td>Two carbons</td></tr></table>\tEthanol\tCorrect\tMethane\tIncorrect`,
   `MC\t<p>Identify methane.</p>${molecule("methane", "C")}\tEthanol\tIncorrect\tMethane\tCorrect`,
 ].join("\n");
+const readableBank = "/genetics/topic07/bbq-progeny_probability_practice-explain-MC-questions.txt";
+const readablePage = readableBank.replace(/\.txt$/, ".html");
 
 async function host(page: Page) {
   await page.route("**/package_fixture/questions.txt", route => route.fulfill({ body: bank }));
   // Human-readable output supports ordinary HTML stems; RDKit stems are filtered by its writer.
-  await page.route("**/package_fixture/plain.txt", route => route.fulfill({ body:
+  // Context routing also supplies the bank to its independently loaded viewer tab.
+  await page.context().route(`**${readableBank}`, route => route.fulfill({ body:
     "MC\t<p>Identify ethanol.</p>Two carbons and one hydroxyl.\tEthanol\tCorrect\tMethane\tIncorrect\n" +
     "MC\t<p>Identify methane.</p>One carbon and four hydrogens.\tEthanol\tIncorrect\tMethane\tCorrect" }));
   await page.route("**/package_fixture/", route => route.fulfill({ contentType: "text/html", body: `
     <div class="button-container">
       <button class="qpm-package-download" data-bbq="questions.txt" data-format="blackboard_export_zip" data-filename="blackboard.zip">Blackboard</button>
       <button class="qpm-package-download" data-bbq="questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas.zip">Canvas</button>
-      <button class="qpm-package-download" data-bbq="plain.txt" data-format="human_readable" data-filename="questions.html">HTML</button>
+      <button class="qpm-package-download" data-bbq="${readableBank}" data-format="human_readable" data-filename="questions.html">HTML</button>
       <span class="qpm-package-status" role="status"></span><progress class="qpm-package-progress" hidden></progress>
     </div><script src="/assets/scripts/package_download.js"></script>` }));
   await page.goto("/package_fixture/");
@@ -159,11 +162,38 @@ test("real downloads preserve source identity, grading and scientific media", as
   const popup = await popupEvent;
   await expect(popup.locator("body")).toContainText("Identify ethanol.");
   await expect(popup.locator("body")).toContainText("Identify methane.");
-  expect(popup.url()).toMatch(/^blob:/);
+  const namedUrl = new URL(readablePage, page.url()).href;
+  await expect(popup).toHaveURL(namedUrl);
+  await expect(popup).toHaveTitle(readableBank.split("/").pop()!);
   expect(await popup.evaluate(() => window.opener === null)).toBe(true);
+  await popup.reload();
+  await expect(popup.locator("body")).toContainText("Identify ethanol.");
+  await expect(popup).toHaveURL(namedUrl);
+  await popup.close();
+  const reopened = await page.context().newPage();
+  await reopened.goto(namedUrl);
+  await expect(reopened.locator("body")).toContainText("Identify methane.");
+  await expect(reopened).toHaveTitle(readableBank.split("/").pop()!);
+  await reopened.close();
   expect(await page.evaluate(() => localStorage.getItem("selftest_progress_v2")))
     .toBe('{"version":2,"completed":{"previous":true}}');
   expect(errors).toEqual([]);
+});
+
+test("named human-readable page retries a failed bank load", async ({ page }) => {
+  let fail = true;
+  await page.route(`**${readableBank}`, async route => {
+    if (fail) { await route.fulfill({ status: 503, body: "Unavailable" }); }
+    else { await route.continue(); }
+  });
+  await page.goto(readablePage);
+  await expect(page.getByRole("status")).toContainText("Could not load question data.");
+  fail = false;
+  await page.getByRole("button", { name: "Retry", exact: true }).click();
+  // Retry uses the actual shipped bank and canonical WASM output.
+  await expect(page.locator("pre")).not.toBeEmpty();
+  await expect(page.getByRole("button", { name: "Retry", exact: true })).toHaveCount(0);
+  expect(new URL(page.url()).pathname).toBe(readablePage);
 });
 
 test("failed molecule dependency restores controls and a retry builds the real package", async ({ page }) => {

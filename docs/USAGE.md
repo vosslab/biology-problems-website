@@ -175,6 +175,9 @@ use direct canonical conversion; Blackboard uses canonical Rust planning and fin
 browser PNG capture. Original question identities and grading stay with the source converter.
 
 Human-Readable opens a new tab from the click and displays the converted document when ready.
+Its address uses the BBQ filename with an `.html` extension beside the original `.txt` file.
+MkDocs publishes a small wrapper for each bank; QPM converts its content in the browser on each
+visit. These links can be copied, bookmarked, shared, and reloaded without a temporary blob URL.
 Self-test grading and problem-set completion remain independent of download conversion.
 The static site serves its vendored dependencies locally; see [INSTALL.md](INSTALL.md) for
 canonical build and dependency refresh commands. Actual Blackboard Ultra import/display/grading

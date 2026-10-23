@@ -1,6 +1,6 @@
 beautifulsoup4
 lxml
-Markdown
+mkdocs
 mkdocs-include-markdown-plugin
 mkdocs-material
 ollama

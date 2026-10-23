@@ -35,6 +35,7 @@ plugins:
 
 hooks:
   - bioproblems_site/mkdocs_styles.py
+  - bioproblems_site/mkdocs_human_readable.py
 
 extra_css:
   - assets/stylesheets/custom.css

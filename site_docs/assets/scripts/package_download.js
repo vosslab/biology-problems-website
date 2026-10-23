@@ -225,23 +225,62 @@
 		} finally { frame.remove(); }
 	}
 
-	function deliver(result, button, tab) {
+	async function showHumanReadable(bank) {
+		const status = document.querySelector("[role='status']");
+		const retry = document.getElementById("human-readable-retry");
+		retry.hidden = true;
+		status.textContent = "Loading question bank...";
+		try {
+			const url = sameOrigin(new URL(bank, window.location.href));
+			const [api, input] = await Promise.all([engine(), bankData(url)]);
+			const result = successful(api.convert({
+				inputFormat: "bbq_text_upload", outputFormat: "human_readable", input,
+			}));
+			if (!result.artifact || result.artifact.kind !== "file") {
+				throw new Error("No human-readable questions were generated.");
+			}
+			const doc = new DOMParser().parseFromString(
+				new TextDecoder().decode(result.artifact.primary.bytes), "text/html",
+			);
+			// Keep the served filename URL while displaying the canonical QPM document.
+			// ASVS 1.2.1: assign the bank title as text, never as HTML.
+			doc.title = bank;
+			doc.head.appendChild(document.querySelector("meta[name='viewport']").cloneNode(true));
+			document.head.replaceChildren(...doc.head.childNodes);
+			document.body.replaceChildren(...doc.body.childNodes);
+		} catch (error) {
+			const message = error.message || "Could not load these questions.";
+			status.textContent = message + " Select Retry to try again.";
+			retry.hidden = false;
+		}
+	}
+
+	function openHumanReadable(button) {
+		const status = button.closest(".button-container").querySelector(".qpm-package-status");
+		const url = sameOrigin(new URL(button.dataset.bbq, window.location.href));
+		url.pathname = url.pathname.replace(/\.txt$/, ".html");
+		const tab = window.open("", "_blank");
+		if (!tab) {
+			status.textContent = "Allow a new tab for this site, then try again.";
+			return;
+		}
+		tab.opener = null;
+		tab.location.href = url.href;
+		status.textContent = "Question bank opened in a new tab.";
+	}
+
+	function deliver(result, button) {
 		const artifact = result.artifact;
 		if (!artifact || artifact.kind !== "file") { throw new Error("No download was generated."); }
-		const html = button.dataset.format === "human_readable";
 		const url = URL.createObjectURL(new Blob([artifact.primary.bytes], {
-			type: html ? "text/html;charset=utf-8" : "application/zip",
+			type: "application/zip",
 		}));
-		if (html) {
-			tab.location.href = url;
-		} else {
-			const link = document.createElement("a");
-			link.href = url;
-			link.download = button.dataset.filename;
-			document.body.appendChild(link);
-			link.click();
-			link.remove();
-		}
+		const link = document.createElement("a");
+		link.href = url;
+		link.download = button.dataset.filename;
+		document.body.appendChild(link);
+		link.click();
+		link.remove();
 		// Allow the browser time to consume the Blob before releasing it.
 		setTimeout(function () { URL.revokeObjectURL(url); }, 60000);
 	}
@@ -251,7 +290,6 @@
 		const status = row.querySelector(".qpm-package-status");
 		const progress = row.querySelector(".qpm-package-progress");
 		const buttons = row.querySelectorAll(".qpm-package-download");
-		let tab;
 		function update(value, message) {
 			progress.value = value;
 			// ASVS 3.2.2: failure messages are displayed as text.
@@ -261,12 +299,6 @@
 		progress.hidden = false;
 		update(0, "Loading question bank...");
 		try {
-			if (button.dataset.format === "human_readable") {
-				// Reserve the tab during the click so asynchronous loading retains popup permission.
-				tab = window.open("", "_blank");
-				if (!tab) { throw new Error("Allow a new tab for this site, then try again."); }
-				tab.opener = null;
-			}
 			const url = sameOrigin(new URL(button.dataset.bbq, window.location.href));
 			const loaded = await Promise.all([engine(), bankData(url)]);
 			const request = {
@@ -286,10 +318,9 @@
 				update(0, "Building download...");
 				result = api.convert(request);
 			}
-			deliver(successful(result), button, tab);
-			update(1, tab ? "Question bank opened in a new tab." : "Download ready.");
+			deliver(successful(result), button);
+			update(1, "Download ready.");
 		} catch (error) {
-			if (tab && !tab.closed) { tab.close(); }
 			update(0, (error.message || "Could not build this download.") + " Select the button to retry.");
 		} finally {
 			progress.hidden = true;
@@ -297,9 +328,22 @@
 		}
 	}
 
+	const viewerBank = document.body.dataset.humanReadableBank;
+	if (viewerBank) {
+		document.getElementById("human-readable-retry").addEventListener("click", function () {
+			showHumanReadable(viewerBank);
+		});
+		showHumanReadable(viewerBank);
+		return;
+	}
+
 	// Delegation also handles MkDocs navigation updates without duplicate listeners.
 	document.addEventListener("click", function (event) {
 		const button = event.target.closest(".qpm-package-download");
-		if (button && !button.disabled) { event.preventDefault(); download(button); }
+		if (button && !button.disabled) {
+			event.preventDefault();
+			if (button.dataset.format === "human_readable") { openHumanReadable(button); }
+			else { download(button); }
+		}
 	});
 }());

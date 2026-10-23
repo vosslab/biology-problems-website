@@ -30,7 +30,7 @@ MkDocs already has `site_url: https://biologyproblems.org/` and owns final stati
 - Use existing files, mtimes, and known direct input/output relationships; do not add persistent build state.
 - Keep the coordinator small enough that its code reads like the dependency pipeline.
 - Preserve the package boundary: `bioproblems_site/` remains the implementation package.
-- Preserve the user’s ability to restrict work to one subject, one task CSV, or a development limit.
+- Preserve the user's ability to restrict work to one subject, one task CSV, or a development limit.
 - Make `--full` bypass stale checks while respecting the requested scope.
 - Make `--dry-run` report planned work without invoking generators, LLM calls, or writing generated files.
 - Regenerate inexpensive subject indexes and MkDocs navigation unconditionally on normal runs unless repository evidence proves that this is materially expensive.
@@ -42,7 +42,7 @@ Use a simple dependency pipeline, not separate user-sequenced commands and not a
 
 Each stage should answer two questions:
 
-1. `needs_run(...)`: is this stage’s output missing, stale relative to its direct inputs, or forced by `--full`?
+1. `needs_run(...)`: is this stage's output missing, stale relative to its direct inputs, or forced by `--full`?
 2. `run(...)`: what does this stage write, and what structured result should it return to the next stage?
 
 The coordinator owns order and propagation of affected topics. It does not own BBQ generation details, page rendering details, download naming rules, or stale-detection rules belonging to another stage.
@@ -129,7 +129,7 @@ class BuildChanges:
     changed_files: set[Path]
 ```
 
-Use canonical subject/topic identifiers consistently. If a task can affect several generated files, add every actually changed file to `changed_files` and add the task’s canonical topic and subject to the corresponding sets. If a dry run cannot know actual post-run changes, return the planned scope in a clearly documented dry-run result rather than pretending that files were written.
+Use canonical subject/topic identifiers consistently. If a task can affect several generated files, add every actually changed file to `changed_files` and add the task's canonical topic and subject to the corresponding sets. If a dry run cannot know actual post-run changes, return the planned scope in a clearly documented dry-run result rather than pretending that files were written.
 
 The coordinator should pass this object directly to downstream stages. Do not make every downstream stage rescan the repository to guess what BBQ changed.
 
@@ -176,7 +176,7 @@ Review the following options individually against current repository usage and d
 
 Remove the normal-user sequencing options `--subject-indexes`, `--topic-pages`, `--generate-downloads`, `--selftests`, and `--no-selftests`. Remove old `pages`/`bbq` command syntax and do not add compatibility aliases.
 
-Unless repository evidence says otherwise, apply `--full` as “ignore stale checks within the selected scope” while still respecting `--subject`, `--tasks`, and `--limit`. A limited full run should not silently become an all-repository run.
+Unless repository evidence says otherwise, apply `--full` as "ignore stale checks within the selected scope" while still respecting `--subject`, `--tasks`, and `--limit`. A limited full run should not silently become an all-repository run.
 
 ## Coordinator contract
 
@@ -202,7 +202,7 @@ def build_site(scope: BuildScope) -> BuildReport:
     return report
 ```
 
-The actual ordering must account for the fact that a newly generated self-test may be a direct input to a topic page and a newly generated topic page may reference downloads. The implementation should either update each stage’s input model or run the stages in the order that makes those relationships explicit. The coordinator must not hide those dependencies in a monolithic `run()` function.
+The actual ordering must account for the fact that a newly generated self-test may be a direct input to a topic page and a newly generated topic page may reference downloads. The implementation should either update each stage's input model or run the stages in the order that makes those relationships explicit. The coordinator must not hide those dependencies in a monolithic `run()` function.
 
 `--dry-run` must use the same selection and stale-check logic but stop before subprocesses, LLM calls, and writes. Its report should make clear which stages would run and why.
 
@@ -264,7 +264,7 @@ First measure the current index/nav generation cost. If it is inexpensive, alway
 
 Inspect the current entrypoints, task CSV schema, output naming, self-test inputs, topic-page inputs, index/nav writers, and all executable configuration formats. Include `*.csv`, `*.yaml`, `*.yml`, `*.json`, shell files, and other repository-local operational inputs in stale-reference searches.
 
-**Exit gate:** a written ownership map identifies each stage’s direct inputs, outputs, and side effects; no module split is justified only by old line ranges.
+**Exit gate:** a written ownership map identifies each stage's direct inputs, outputs, and side effects; no module split is justified only by old line ranges.
 
 ### Milestone 2: Public CLI and root rename
 
@@ -361,7 +361,7 @@ Update usage and architecture documentation, record the change in `docs/CHANGELO
 
 - Parse and validate the unified CLI, including representative valid/invalid arguments and exit-code behavior.
 - Test `BuildChanges` construction and canonical subject/topic propagation.
-- Test each stage’s `needs_run()` with missing outputs, older outputs, newer direct inputs, and `full=True`.
+- Test each stage's `needs_run()` with missing outputs, older outputs, newer direct inputs, and `full=True`.
 - Test dry-run reports without invoking subprocesses, generators, LLMs, or writes.
 - Test coordinator order with stub stages and verify that `changed_topics` flows only to the correct downstream stages.
 - Test subject and task-file scope boundaries.
@@ -369,7 +369,7 @@ Update usage and architecture documentation, record the change in `docs/CHANGELO
 ### Repository-level checks
 
 - Run the existing focused BBQ/task smoke tests with a small limit and dry-run/flat mode as appropriate.
-- Run the full pytest suite using the repository’s documented Python environment.
+- Run the full pytest suite using the repository's documented Python environment.
 - Run static checks required by the repository style rules.
 - Run `git diff --check`.
 - Run `mkdocs build --strict` and inspect that the generated static site contains the sitemap and expected representative pages.
@@ -453,5 +453,5 @@ Keep patches small enough that a reviewer can distinguish CLI changes, structure
 - Verify which advanced BBQ options have active repository usage before exposing them in the unified command.
 - Verify whether the current `pipeline.py` can become the coordinator without becoming a large mixed-responsibility module, or whether a new thin coordinator is clearer.
 - Verify semantic ownership before splitting or merging BBQ modules; do not use historical line ranges as the design.
-- Decide whether `--limit` on a full run means “full rebuild of the topics selected by the limited BBQ scope.” The recommended interpretation is yes.
+- Decide whether `--limit` on a full run means "full rebuild of the topics selected by the limited BBQ scope." The recommended interpretation is yes.
 - Keep the user-visible problem index/SEO sitemap enhancement as a separate follow-up. The current site can support a generated, searchable problem-set index using existing titles and human-readable links, but that is not required to implement this build pipeline.
