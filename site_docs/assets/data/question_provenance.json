@@ -2504,7 +2504,7 @@
     "source_updated": "2026-10-11"
   },
   "genetics/topic07/bbq-MATCH-chi-square_terms-questions.txt": {
-    "output_fingerprint": "0f40d380b00ae42f752ce1a752d6819f4a63b7e4d01737cb81e3e82502d7b6cb",
+    "output_fingerprint": "91524ab710918265ec4760c4f099a24e510d640fefdf043c2e449db8689753fd",
     "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
     "source_fingerprint": "d3548203f549048ca0797c929c2ef88d1388d15afbb62cd9673953dd7d3cc0ac",
     "source_id": "7e3dd9473043bad9e6d8d2a1fd83c165525a153d:matching_sets/chi-square_terms.yml",
@@ -2512,7 +2512,7 @@
     "source_updated": "2026-10-06"
   },
   "genetics/topic07/bbq-TFMS-chi-square-questions.txt": {
-    "output_fingerprint": "b13220a7fb804f3a382c1254b6ba038a1a05d2d0756a0dd7308c9a1c732471bd",
+    "output_fingerprint": "2f2565ad21f44881deef19d51ce3d0ce6e0cc9d61be816d11d04b561b726bf54",
     "source_commit": "98dba9da687edf8b3c6656fbf7dc8fed7fd97b68",
     "source_fingerprint": "66684a3c838d5b6b09cf213476ae681298048752a338605930185cf8dc3f8318",
     "source_id": "7800c46763679e90860aa9e93469646262e9c69f:multiple_choice_statements/chi-square.yml",
@@ -2520,7 +2520,7 @@
     "source_updated": "2026-03-05"
   },
   "genetics/topic07/bbq-WOMC-chi-square_terms-questions.txt": {
-    "output_fingerprint": "dc701352fe9dcb6473475987b312ecab27185c122e94222397f71f7b37cc203f",
+    "output_fingerprint": "1eff53e98a94f436bebeefbbb1c58896b2c9e695445fbb815e51a17ca005c168",
     "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
     "source_fingerprint": "d3548203f549048ca0797c929c2ef88d1388d15afbb62cd9673953dd7d3cc0ac",
     "source_id": "7e3dd9473043bad9e6d8d2a1fd83c165525a153d:matching_sets/chi-square_terms.yml",
@@ -2528,28 +2528,28 @@
     "source_updated": "2026-10-06"
   },
   "genetics/topic07/bbq-chi_square_calculated-ACCEPT-questions.txt": {
-    "output_fingerprint": "c56f0aa2375360463678f7247a38e93ebee86c6cea661456f4cbb88a92f3c966",
-    "source_commit": null,
+    "output_fingerprint": "3d6868a8e848bd138cae133b0eb2aba61be3840657673d657018a87304ae1922",
+    "source_commit": "77a9b9189a9896e5928a9e94d13d0bcdf7e1bc6b",
     "source_fingerprint": "c016f0727ff6e20a7c67f8b4f8c98c16d6af67ed4d63808476a02578b8125dc4",
     "source_id": "d89a2d6f6665c647e63bf13099e6b36c21e9d9fe:chi_square_calculated.py",
     "source_path": "problems/inheritance-problems/chi_square/chi_square_calculated.py",
-    "source_updated": null
+    "source_updated": "2026-10-22"
   },
   "genetics/topic07/bbq-chi_square_choices-questions.txt": {
-    "output_fingerprint": "bf21ddac9d285821b9889456c1b7a7152faf29fea023be781d35f4e7a4f04f08",
-    "source_commit": null,
-    "source_fingerprint": "e4b65de26e4e5f5f1356347e2353668db3b47677beeae8d7e54ebb60e217c06f",
+    "output_fingerprint": "6423253b943634d65707ebc5ca77a819e5982d6aa8486394eb533c65aff47a66",
+    "source_commit": "0cc9a7820350cbb3470f507f1425eccfe321b216",
+    "source_fingerprint": "e723badbb4d80858d5eb80882d190984ceb46ec9e71c861b94037e97b8dd0add",
     "source_id": "3c8b1d6991600c17a09edc95bcbbdb9b90e03d9c:chi_square_errors.py",
     "source_path": "problems/inheritance-problems/chi_square/chi_square_choices.py",
-    "source_updated": null
+    "source_updated": "2026-10-23"
   },
   "genetics/topic07/bbq-chi_square_dice-calculate-MC-questions.txt": {
-    "output_fingerprint": "4f39db2b2d9f38978c56f214e83a1deecbd70b9f4c3537b9602576c8d0ce2b63",
-    "source_commit": null,
+    "output_fingerprint": "8fb30b6cbfea7770618049d21ded5c5b0333d30f5f477f9692f2b35490f04869",
+    "source_commit": "77a9b9189a9896e5928a9e94d13d0bcdf7e1bc6b",
     "source_fingerprint": "e365fe6e542b1648f59160651ac2bb7434b9d4001e5eadb8013330905ebcb0c5",
     "source_id": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
     "source_path": "problems/inheritance-problems/chi_square/chi_square_dice.py",
-    "source_updated": null
+    "source_updated": "2026-10-22"
   },
   "genetics/topic07/bbq-chi_square_dice-connect-MATCH-questions.txt": {
     "output_fingerprint": "8204d48ec564ba79e1ea68f97e8a695e58f831874c0847b639a4250c8bde9954",
@@ -2560,60 +2560,60 @@
     "source_updated": "2026-10-20"
   },
   "genetics/topic07/bbq-chi_square_dice-df-MC-questions.txt": {
-    "output_fingerprint": "e8f75f315d384675452df4dcb11ab62407949aeac3783013063bcfa225e685bc",
-    "source_commit": null,
+    "output_fingerprint": "c325049e17d9bcc92758fdaa8d57eb6e84fe6a725afd6623e647df027a6fb54e",
+    "source_commit": "77a9b9189a9896e5928a9e94d13d0bcdf7e1bc6b",
     "source_fingerprint": "e365fe6e542b1648f59160651ac2bb7434b9d4001e5eadb8013330905ebcb0c5",
     "source_id": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
     "source_path": "problems/inheritance-problems/chi_square/chi_square_dice.py",
-    "source_updated": null
+    "source_updated": "2026-10-22"
   },
   "genetics/topic07/bbq-chi_square_dice-expected-MC-questions.txt": {
-    "output_fingerprint": "726d389bc1f1eef6f363015638ec00adcfdb8cf5f8fd6e74cb12a424fb03c160",
-    "source_commit": null,
+    "output_fingerprint": "4a30c88a04dbbdd16b34a73db2bbcf3a4d3fa2ddc666577182987eba2f8e97c9",
+    "source_commit": "77a9b9189a9896e5928a9e94d13d0bcdf7e1bc6b",
     "source_fingerprint": "e365fe6e542b1648f59160651ac2bb7434b9d4001e5eadb8013330905ebcb0c5",
     "source_id": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
     "source_path": "problems/inheritance-problems/chi_square/chi_square_dice.py",
-    "source_updated": null
+    "source_updated": "2026-10-22"
   },
   "genetics/topic07/bbq-chi_square_dice-interpret-MC-questions.txt": {
-    "output_fingerprint": "abe6da72c87ba4594ad3c990f2262884216408f6e109db34fa913d2036f6e980",
-    "source_commit": null,
+    "output_fingerprint": "cbdf36042816ba94984afa25396764062b4b414e67c34c6dec01941842cfdd13",
+    "source_commit": "77a9b9189a9896e5928a9e94d13d0bcdf7e1bc6b",
     "source_fingerprint": "e365fe6e542b1648f59160651ac2bb7434b9d4001e5eadb8013330905ebcb0c5",
     "source_id": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
     "source_path": "problems/inheritance-problems/chi_square/chi_square_dice.py",
-    "source_updated": null
+    "source_updated": "2026-10-22"
   },
   "genetics/topic07/bbq-chi_square_errors-questions.txt": {
-    "output_fingerprint": "aace569c68a1e2530abde4e0f0fd21c7f02ad506bb13f31319fdfc3833a1117a",
-    "source_commit": null,
+    "output_fingerprint": "872857506a8e08c0fea8596543e0d154b04962d7967b2617f174113a8da42a68",
+    "source_commit": "77a9b9189a9896e5928a9e94d13d0bcdf7e1bc6b",
     "source_fingerprint": "55b6c224c723860fb4b09c8dd2a67524ed71eb46a14bb70d241ccab661721abc",
     "source_id": "3c8b1d6991600c17a09edc95bcbbdb9b90e03d9c:chi_square_errors.py",
     "source_path": "problems/inheritance-problems/chi_square/chi_square_errors.py",
-    "source_updated": null
+    "source_updated": "2026-10-22"
   },
   "genetics/topic07/bbq-chi_square_hardy_weinberg-questions.txt": {
-    "output_fingerprint": "f570b8d6ade6aa93f69bdc7604b40bb3912be6b45b2c773e71aeb7b26f41ff48",
-    "source_commit": null,
-    "source_fingerprint": "ed52577df117c5e6860d16fce22dcd291654f2c1c18d5e1542a0ef85b0d92874",
+    "output_fingerprint": "c5787b475b9787a40b8e2f05880012f1bf75cea5062544ead78e06a60073e018",
+    "source_commit": "0cc9a7820350cbb3470f507f1425eccfe321b216",
+    "source_fingerprint": "0efab6b9a00c90ea5340e68eec10c578b3f77d1c00f75808188917c9189812db",
     "source_id": "bae8f50e095fd7bdc14e36d6772e6d1c79fd9ef2:chi_square_hardy_weinberg.py",
     "source_path": "problems/inheritance-problems/chi_square/chi_square_hardy_weinberg.py",
-    "source_updated": null
+    "source_updated": "2026-10-23"
   },
   "genetics/topic07/bbq-chi_square_hypotheses-alt-questions.txt": {
-    "output_fingerprint": "f587cf9a1937f78768ceee7504624e2c699fb4e78a73b34e9170d490f6811788",
-    "source_commit": null,
+    "output_fingerprint": "3c7d04fd6312082ded7c30873da6ae4c1be78140f9c61e65030e57ccf02408ce",
+    "source_commit": "77a9b9189a9896e5928a9e94d13d0bcdf7e1bc6b",
     "source_fingerprint": "f90db63c64e7d0224f3008b23759125e6b31226c38c0ada9f1c28ab75c319ada",
     "source_id": "566b69080e0aee48e64db813efd8b176b4541653:inheritance-problems/chi_square/chi_square_hypotheses.py",
     "source_path": "problems/inheritance-problems/chi_square/chi_square_hypotheses.py",
-    "source_updated": null
+    "source_updated": "2026-10-22"
   },
   "genetics/topic07/bbq-chi_square_hypotheses-null-questions.txt": {
-    "output_fingerprint": "065c257a51bbc2ea035b52fa1f2053b2830213e29ff309d02e54b321a1067cd3",
-    "source_commit": null,
+    "output_fingerprint": "6ea56cc1bb2748f758c4a1b7848c525fb94c140a5d42aa1702169eea12be9d62",
+    "source_commit": "77a9b9189a9896e5928a9e94d13d0bcdf7e1bc6b",
     "source_fingerprint": "f90db63c64e7d0224f3008b23759125e6b31226c38c0ada9f1c28ab75c319ada",
     "source_id": "566b69080e0aee48e64db813efd8b176b4541653:inheritance-problems/chi_square/chi_square_hypotheses.py",
     "source_path": "problems/inheritance-problems/chi_square/chi_square_hypotheses.py",
-    "source_updated": null
+    "source_updated": "2026-10-22"
   },
   "genetics/topic07/bbq-chi_square_hypotheses-pair-questions.txt": {
     "output_fingerprint": "81c3c2918aa93e6867aefe07158c823742db6bfa5e62a88b1034eb1e1e2f9460",
@@ -2624,28 +2624,28 @@
     "source_updated": "2026-01-10"
   },
   "genetics/topic07/bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt": {
-    "output_fingerprint": "3486df0c26fe2b0eec9b0b674270258a3b3b91b2a83364a42577934a2dd6cd54",
-    "source_commit": null,
+    "output_fingerprint": "636e4d05f4416ba879bd062f56cb3a1590d74077e42bb9f285bbeb5288f57833",
+    "source_commit": "77a9b9189a9896e5928a9e94d13d0bcdf7e1bc6b",
     "source_fingerprint": "946a7b534af1daecb94944ab700f7f3da0fc74e8e2d9b5efeb2c75d50695d75e",
     "source_id": "566b69080e0aee48e64db813efd8b176b4541653:inheritance-problems/chi_square/chi_square_hypotheses_lab_partner.py",
     "source_path": "problems/inheritance-problems/chi_square/chi_square_hypotheses_lab_partner.py",
-    "source_updated": null
+    "source_updated": "2026-10-22"
   },
   "genetics/topic07/bbq-probabiliy_of_progeny-questions.txt": {
-    "output_fingerprint": "c7ebe22b1375e42bce3ad8f91257648be6cabc18b113e9278275fd5656ccc907",
-    "source_commit": "7916e807ef90d741d849d520515f131f6a811aa5",
-    "source_fingerprint": "fb837345016a5079b0c96443142a67a7110c326b9999bac05a58e5a18d0d8295",
+    "output_fingerprint": "602f15e5eab86c961c8ef0a3abb5d6f26496e5fb3636b2c8809145e3b34e0deb",
+    "source_commit": "0cc9a7820350cbb3470f507f1425eccfe321b216",
+    "source_fingerprint": "4128d808f57790c03bbefd20b21a90c5bf0d9b08ca0572432167f85e08275f62",
     "source_id": "af21e74916ae104701d871e6eb48d785c19fad67:probabiliy_of_progeny.py",
     "source_path": "problems/inheritance-problems/probabiliy_of_progeny.py",
-    "source_updated": "2026-10-12"
+    "source_updated": "2026-10-23"
   },
   "genetics/topic07/bbq-progeny_probability_practice-binomial-MC-questions.txt": {
-    "output_fingerprint": "119364cb84df244cb14da6d0c4ac718e6a664788ccc05d83d0c60bb2210e5036",
-    "source_commit": null,
-    "source_fingerprint": "53434c5434d500288fb3ecb0d86133fd536da0d222ad518775e96eaf97b05c25",
+    "output_fingerprint": "8bea2824f8a779e3ed0a853876a496a54fc99d0d1c3b9a3cbc2ebc13741671e6",
+    "source_commit": "0cc9a7820350cbb3470f507f1425eccfe321b216",
+    "source_fingerprint": "568e1a86df1a995b4f615d97cc03ff7744eebffd5e313915cc226403601a4917",
     "source_id": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/progeny_probability_practice.py",
     "source_path": "problems/inheritance-problems/progeny_probability_practice.py",
-    "source_updated": null
+    "source_updated": "2026-10-23"
   },
   "genetics/topic07/bbq-progeny_probability_practice-calculate-MC-questions.txt": {
     "output_fingerprint": "066e552e378001be746b35e4d8e815e7d01ec0268ad33e6e79047e3beaba3386",
@@ -2656,28 +2656,28 @@
     "source_updated": "2026-10-20"
   },
   "genetics/topic07/bbq-progeny_probability_practice-coefficient-MC-questions.txt": {
-    "output_fingerprint": "ef38b5e73584677420b438d77cc216244ca9c4611e1ed54e3d9152c783b2c0b1",
-    "source_commit": null,
-    "source_fingerprint": "53434c5434d500288fb3ecb0d86133fd536da0d222ad518775e96eaf97b05c25",
+    "output_fingerprint": "a15f459783ba30a4e6feab3057a667998d948921198f4bd30b58ee83c6e38203",
+    "source_commit": "0cc9a7820350cbb3470f507f1425eccfe321b216",
+    "source_fingerprint": "568e1a86df1a995b4f615d97cc03ff7744eebffd5e313915cc226403601a4917",
     "source_id": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/progeny_probability_practice.py",
     "source_path": "problems/inheritance-problems/progeny_probability_practice.py",
-    "source_updated": null
+    "source_updated": "2026-10-23"
   },
   "genetics/topic07/bbq-progeny_probability_practice-explain-MC-questions.txt": {
-    "output_fingerprint": "dd4e29ba5a762a45ea6884c73bc3a44dc079006680bd4aab293e8fb831a1afe5",
-    "source_commit": null,
-    "source_fingerprint": "53434c5434d500288fb3ecb0d86133fd536da0d222ad518775e96eaf97b05c25",
+    "output_fingerprint": "9f37a995e8184b3af2d120e697604801eaceee5b36c6496c36501d7d3f7b43ad",
+    "source_commit": "0cc9a7820350cbb3470f507f1425eccfe321b216",
+    "source_fingerprint": "568e1a86df1a995b4f615d97cc03ff7744eebffd5e313915cc226403601a4917",
     "source_id": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/progeny_probability_practice.py",
     "source_path": "problems/inheritance-problems/progeny_probability_practice.py",
-    "source_updated": null
+    "source_updated": "2026-10-23"
   },
   "genetics/topic07/bbq-progeny_probability_practice-factorial-MC-questions.txt": {
-    "output_fingerprint": "88a1704ffbb7fb38734abd054980268e4a55d20caff426981f351ec78f4b9a67",
-    "source_commit": null,
-    "source_fingerprint": "53434c5434d500288fb3ecb0d86133fd536da0d222ad518775e96eaf97b05c25",
+    "output_fingerprint": "76980e21171bb77ca11040f80c0661d9191645839d1a16604d071d7984e91a5f",
+    "source_commit": "0cc9a7820350cbb3470f507f1425eccfe321b216",
+    "source_fingerprint": "568e1a86df1a995b4f615d97cc03ff7744eebffd5e313915cc226403601a4917",
     "source_id": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/progeny_probability_practice.py",
     "source_path": "problems/inheritance-problems/progeny_probability_practice.py",
-    "source_updated": null
+    "source_updated": "2026-10-23"
   },
   "genetics/topic07/bbq-progeny_probability_practice-independence-MC-questions.txt": {
     "output_fingerprint": "ff290a91eb7e88310ea32b82646b3f3590804ab94cc7fbbddafddf3edcd882c3",
