@@ -2228,13 +2228,6 @@
     },
     {
       "pagePath": "genetics/topic07/index.md",
-      "questionId": "bbq-chi_square_dice-connect-MATCH-questions.txt",
-      "subjectKey": "genetics",
-      "topicKey": "topic07",
-      "topicTitle": "Chi Square Analysis"
-    },
-    {
-      "pagePath": "genetics/topic07/index.md",
       "questionId": "bbq-chi_square_dice-df-MC-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic07",
@@ -2305,13 +2298,6 @@
     },
     {
       "pagePath": "genetics/topic07/index.md",
-      "questionId": "bbq-progeny_probability_practice-calculate-MC-questions.txt",
-      "subjectKey": "genetics",
-      "topicKey": "topic07",
-      "topicTitle": "Chi Square Analysis"
-    },
-    {
-      "pagePath": "genetics/topic07/index.md",
       "questionId": "bbq-progeny_probability_practice-coefficient-MC-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic07",
@@ -2327,27 +2313,6 @@
     {
       "pagePath": "genetics/topic07/index.md",
       "questionId": "bbq-progeny_probability_practice-factorial-MC-questions.txt",
-      "subjectKey": "genetics",
-      "topicKey": "topic07",
-      "topicTitle": "Chi Square Analysis"
-    },
-    {
-      "pagePath": "genetics/topic07/index.md",
-      "questionId": "bbq-progeny_probability_practice-independence-MC-questions.txt",
-      "subjectKey": "genetics",
-      "topicKey": "topic07",
-      "topicTitle": "Chi Square Analysis"
-    },
-    {
-      "pagePath": "genetics/topic07/index.md",
-      "questionId": "bbq-progeny_probability_practice-outcomes-MA-questions.txt",
-      "subjectKey": "genetics",
-      "topicKey": "topic07",
-      "topicTitle": "Chi Square Analysis"
-    },
-    {
-      "pagePath": "genetics/topic07/index.md",
-      "questionId": "bbq-progeny_probability_practice-tables-MATCH-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic07",
       "topicTitle": "Chi Square Analysis"

@@ -10,6 +10,10 @@
 
 ### Fixes and Maintenance
 
+- Remove the retired dice-connect matching bank and its cached metadata and generated
+  catalog references; its generator mode and task registration were already removed.
+- Remove the retired offspring-outcomes MA bank and its title, Bloom, provenance, and
+  generated website references. Refresh the Genetics topic 07 indexes and shared catalogs.
 - Synchronized shared style guides, tests, and repository support files from the starter template.
 
 ## 2026-10-22

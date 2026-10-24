@@ -204,7 +204,6 @@ bbq-chemical_group_pka_forms-questions.txt: Apply, Conceptual
 bbq-chi_square_calculated-ACCEPT-questions.txt: Apply, Procedural
 bbq-chi_square_choices-questions.txt: Apply, Procedural
 bbq-chi_square_dice-calculate-MC-questions.txt: Apply, Procedural
-bbq-chi_square_dice-connect-MATCH-questions.txt: Apply, Procedural
 bbq-chi_square_dice-df-MC-questions.txt: Apply, Procedural
 bbq-chi_square_dice-expected-MC-questions.txt: Apply, Procedural
 bbq-chi_square_dice-interpret-MC-questions.txt: Evaluate, Conceptual
@@ -351,7 +350,6 @@ bbq-progeny_probability_practice-coefficient-MC-questions.txt: Apply, Procedural
 bbq-progeny_probability_practice-explain-MC-questions.txt: Understand, Conceptual
 bbq-progeny_probability_practice-factorial-MC-questions.txt: Apply, Procedural
 bbq-progeny_probability_practice-independence-MC-questions.txt: Apply, Conceptual
-bbq-progeny_probability_practice-outcomes-MA-questions.txt: Apply, Procedural
 bbq-progeny_probability_practice-tables-MATCH-questions.txt: Apply, Procedural
 bbq-protein_gel_migration-questions.txt: Apply, Procedural
 bbq-punnett_choice-questions.txt: Apply, Procedural

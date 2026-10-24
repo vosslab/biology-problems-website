@@ -339,8 +339,6 @@ bbq-chi_square_choices-questions.txt: Dihybrid Chi-Square Table Selection and Co
   (MC)
 bbq-chi_square_dice-calculate-MC-questions.txt: Chi-Square Calculations for Dice Rolls
   (MC)
-bbq-chi_square_dice-connect-MATCH-questions.txt: Sample Size, Expected Counts, and
-  Degrees of Freedom for Dice (Matching)
 bbq-chi_square_dice-df-MC-questions.txt: Degrees of Freedom for a Six-Sided Die (MC)
 bbq-chi_square_dice-expected-MC-questions.txt: Expected Face Counts for a Fair Die
   (MC)
@@ -608,20 +606,12 @@ bbq-probabiliy_of_progeny-questions.txt: Binomial Probabilities for Offspring Se
   Counts (MC)
 bbq-progeny_probability_practice-binomial-MC-questions.txt: Binomial Probability Expressions
   for Offspring Phenotype Counts (MC)
-bbq-progeny_probability_practice-calculate-MC-questions.txt: Binomial Probabilities
-  for Offspring Phenotype Counts (2-4 Offspring, MC)
 bbq-progeny_probability_practice-coefficient-MC-questions.txt: Binomial Coefficients
   for Offspring Phenotype Sequences (MC)
 bbq-progeny_probability_practice-explain-MC-questions.txt: Binomial Coefficient Interpretation
   for Offspring Phenotype Counts (MC)
 bbq-progeny_probability_practice-factorial-MC-questions.txt: Factorial Expressions
   for Ordering Distinct Items (MC)
-bbq-progeny_probability_practice-independence-MC-questions.txt: Offspring Phenotype
-  Probabilities for Independent Births (MC)
-bbq-progeny_probability_practice-outcomes-MA-questions.txt: Offspring Sequences with
-  Exact or Minimum Phenotype Counts (MA)
-bbq-progeny_probability_practice-tables-MATCH-questions.txt: Offspring Phenotype Count
-  Probabilities from Tables (Matching)
 bbq-protein_gel_migration-questions.txt: Protein Molecular Weight from SDS-PAGE Migration
   (MC/NUM)
 bbq-punnett_choice-questions.txt: Punnett Squares from Monohybrid Cross Descriptions
