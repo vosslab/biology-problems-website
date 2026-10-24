@@ -2207,7 +2207,14 @@
     },
     {
       "pagePath": "genetics/topic07/index.md",
-      "questionId": "bbq-chi_square_calculated-ACCEPT-questions.txt",
+      "questionId": "bbq-chi_square_calculated-REJECT-questions.txt",
+      "subjectKey": "genetics",
+      "topicKey": "topic07",
+      "topicTitle": "Chi Square Analysis"
+    },
+    {
+      "pagePath": "genetics/topic07/index.md",
+      "questionId": "bbq-chi_square_calculated-SUPPORT-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic07",
       "topicTitle": "Chi Square Analysis"
