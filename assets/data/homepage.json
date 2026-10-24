@@ -2815,7 +2815,7 @@
       "name": "Alternative Hypotheses for Mendelian Offspring Ratios",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-23",
+      "updated": null,
       "url": "genetics/topic07/#chi_square_hypotheses-alt-button-container"
     },
     {
@@ -2826,7 +2826,7 @@
       "name": "Null Hypotheses for Mendelian Offspring Ratios",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-23",
+      "updated": null,
       "url": "genetics/topic07/#chi_square_hypotheses-null-button-container"
     },
     {
@@ -4619,7 +4619,7 @@
       "name": "Null Hypothesis Rejection Criteria",
       "subject": "Biostatistics",
       "topic": "Chi-Square Tests",
-      "updated": "2026-03-05",
+      "updated": null,
       "url": "biostatistics/topic08/#TFMS-chi-square-button-container"
     },
     {
@@ -5664,13 +5664,6 @@
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "url": "genetics/topic07/#TFMS-chi-square-button-container"
-    },
-    {
-      "date": "2026-10-23",
-      "name": "Null Hypotheses for Mendelian Offspring Ratios",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#chi_square_hypotheses-null-button-container"
     },
     {
       "date": "2026-10-23",
