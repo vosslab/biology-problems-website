@@ -83,22 +83,4 @@ Students formulate hypotheses, calculate expected counts and chi-square statisti
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="null-and-alternative-hypotheses-for-genetic-crosses">
-
-## 8.4 Null and Alternative Hypotheses for Genetic Crosses {#null-and-alternative-hypotheses-for-genetic-crosses}
-
-<div id="chi_square_hypotheses-pair-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-chi_square_hypotheses-pair-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-chi_square_hypotheses-pair-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-chi_square_hypotheses-pair.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
-<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-chi_square_hypotheses-pair-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-chi_square_hypotheses-pair.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-chi_square_hypotheses-pair-questions.txt" data-format="human_readable" data-filename="human_readable-chi_square_hypotheses-pair.html" aria-label="Generate Human-Readable">Human-Readable</button>
-<span class="qpm-package-status" role="status" aria-live="polite"></span>
-<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div>
-
-
-
-
-</section>
-
 </div>

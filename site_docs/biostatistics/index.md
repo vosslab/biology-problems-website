@@ -23,5 +23,5 @@ Questions ask students to calculate means, standard deviations, and p-values, in
 5. [Z-Tests, T-Tests, F-Tests, and ANOVA](topic07/index.md) <span class='topic-count' title='7 question sets'>7 question sets</span>
     - Students analyze biological datasets using one-sample z-tests and t-tests, two-sample t-tests, F-tests for comparing variances, and ANOVA for comparing group means.
 
-6. [Chi-Square Tests](topic08/index.md) <span class='topic-count' title='4 question sets'>4 question sets</span>
+6. [Chi-Square Tests](topic08/index.md) <span class='topic-count' title='3 question sets'>3 question sets</span>
     - Students formulate hypotheses, calculate expected counts and chi-square statistics, interpret goodness-of-fit tests for genetic ratios, and identify errors in test procedures.

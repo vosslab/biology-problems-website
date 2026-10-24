@@ -2,6 +2,13 @@
 
 ## 2026-10-23
 
+- Refresh the TFMS chi-square banks for Genetics and Biostatistics with amber
+  statistic labels and the symbol after "statistic", including local built-site copies.
+
+- Retire paired chi-square hypotheses from Biostatistics as well as Genetics;
+  remove the remaining task, generator mode, and catalog references. This supersedes
+  the earlier audit decision to retain it for Biostatistics.
+
 - Audit correction: retain paired hypotheses for the active Biostatistics consumer
   and register its mode explicitly. Clean retired genetics metadata and point the
   download test at the retained binomial bank. Remove random sampling at library import.

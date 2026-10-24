@@ -206,7 +206,6 @@ bbq-chi_square_calculated-SUPPORT-questions.txt,Genetics,NUM,Apply,Procedural
 bbq-chi_square_choices-questions.txt,Genetics,MC,Apply,Procedural
 bbq-chi_square_errors-questions.txt,Genetics,MC,Evaluate,Procedural
 bbq-chi_square_hardy_weinberg-questions.txt,Genetics,MC,Evaluate,Procedural
-bbq-chi_square_hypotheses-pair-questions.txt,Biostatistics; Genetics,MC,Apply,Conceptual
 bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt,Genetics,MC,Evaluate,Conceptual
 bbq-chymotrypsin_substrate-questions.txt,Biochemistry,MC,Apply,Procedural
 bbq-circular_digest-length_10-sites_2_selected-questions.txt,Genetics,MA,Apply,Procedural
