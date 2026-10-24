@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-24
+
+- Update chi-square generator paths in the Genetics, genetics probability, and
+  Biostatistics task files to `problems/chi_square/chi2-*.py`, including commented
+  task rows. Preserve task assignments and flags.
+- Add the existing curated titles and Bloom classifications under the renamed output
+  bank filenames. Retain old keys for published banks until the site is rebuilt.
+
 ## 2026-10-23
 
 ### Behavior or Interface Changes

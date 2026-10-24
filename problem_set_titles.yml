@@ -747,3 +747,25 @@ bbq-x_linked_tortoiseshell-questions.txt: X-Linked Coat Color Probability (MC)
 bbq-z_score_google_sheet-questions.txt: Z-Scores in Google Sheets (MC)
 bbq-z_score_table_interp-questions.txt: Biodiversity Comparisons Using Z-Scores (MC)
 last edit: Fri Oct 23 20:48:08 2026
+bbq-chi2-calculate_statistic-REJECT-questions.txt: Chi-Square Statistic from Dihybrid
+  Offspring Counts (Reject Null, NUM)
+bbq-chi2-calculate_statistic-SUPPORT-questions.txt: Chi-Square Statistic from Dihybrid
+  Offspring Counts (Support Null, NUM)
+bbq-chi2-choose_table-questions.txt: Dihybrid Chi-Square Table Selection and Conclusions
+  (MC)
+bbq-chi2-analyze_dice-calculate-MC-questions.txt: Chi-Square Calculations for Dice Rolls
+  (MC)
+bbq-chi2-analyze_dice-df-MC-questions.txt: Degrees of Freedom for a Six-Sided Die (MC)
+bbq-chi2-analyze_dice-expected-MC-questions.txt: Expected Face Counts for a Fair Die
+  (MC)
+bbq-chi2-analyze_dice-interpret-MC-questions.txt: Statistical Significance of Dice Roll
+  Deviations (MC)
+bbq-chi2-find_errors-questions.txt: Chi-Square Process Error Identification (MC)
+bbq-chi2-test_hardy_weinberg-questions.txt: Hardy-Weinberg Equilibrium Test Conclusions
+  (MC)
+bbq-chi2-select_hypothesis-alt-questions.txt: Alternative Hypotheses for Mendelian
+  Offspring Ratios (MC)
+bbq-chi2-select_hypothesis-null-questions.txt: Null Hypotheses for Mendelian Offspring
+  Ratios (MC)
+bbq-chi2-review_hypotheses-hypotheses_partner-questions.txt: Null and Alternative
+  Hypothesis Error Identification for Genetic Crosses (MC)

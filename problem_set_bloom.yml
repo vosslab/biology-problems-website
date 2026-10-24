@@ -420,3 +420,15 @@ bbq-x_linked_tortoiseshell-questions.txt: Apply, Procedural
 bbq-z_score_google_sheet-questions.txt: Apply, Procedural
 bbq-z_score_table_interp-questions.txt: Apply, Procedural
 bbq-chi_square_calculated-REJECT-questions.txt: Apply, Procedural
+bbq-chi2-calculate_statistic-SUPPORT-questions.txt: Apply, Procedural
+bbq-chi2-choose_table-questions.txt: Apply, Procedural
+bbq-chi2-analyze_dice-calculate-MC-questions.txt: Apply, Procedural
+bbq-chi2-analyze_dice-df-MC-questions.txt: Apply, Procedural
+bbq-chi2-analyze_dice-expected-MC-questions.txt: Apply, Procedural
+bbq-chi2-analyze_dice-interpret-MC-questions.txt: Evaluate, Conceptual
+bbq-chi2-find_errors-questions.txt: Evaluate, Procedural
+bbq-chi2-test_hardy_weinberg-questions.txt: Evaluate, Procedural
+bbq-chi2-select_hypothesis-alt-questions.txt: Understand, Conceptual
+bbq-chi2-select_hypothesis-null-questions.txt: Understand, Conceptual
+bbq-chi2-review_hypotheses-hypotheses_partner-questions.txt: Evaluate, Conceptual
+bbq-chi2-calculate_statistic-REJECT-questions.txt: Apply, Procedural
