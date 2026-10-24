@@ -2,6 +2,8 @@
 
 ## 2026-10-23
 
+### Behavior or Interface Changes
+
 - Refresh the TFMS chi-square banks for Genetics and Biostatistics with amber
   statistic labels and the symbol after "statistic", including local built-site copies.
 
@@ -36,14 +38,14 @@
 - Remove the standalone progeny coefficient MC bank and its build registration; retain
   coefficient calculations used by the binomial and explanation questions.
 
-### Behavior or Interface Changes
-
 - Open Human-Readable questions at permanent, filename-based HTML addresses beside their BBQ
   source files. MkDocs publishes lightweight wrappers and QPM converts on demand, so links can
   be copied, bookmarked, shared, and reloaded without UUIDs or query parameters.
 
 ### Fixes and Maintenance
 
+- Categorize October 20, 22, and 23 changelog entries to eliminate orphan bullets
+  and legacy flat-day warnings.
 - Remove the retired dice-connect matching bank and its cached metadata and generated
   catalog references; its generator mode and task registration were already removed.
 - Remove the retired offspring-outcomes MA bank and its title, Bloom, provenance, and
@@ -51,6 +53,8 @@
 - Synchronized shared style guides, tests, and repository support files from the starter template.
 
 ## 2026-10-22
+
+### Behavior or Interface Changes
 
 - Alternate stacked bank borders between the theme green and a slightly deeper green.
   Preserve the connected edges and match the final bottom border to its card.
@@ -197,6 +201,8 @@
   retain their existing trailing-whitespace failures. No question-bank content was edited.
 
 ## 2026-10-20
+
+### Behavior or Interface Changes
 
 - Move the existing offspring-probability bank unchanged from Genetics chapter 6
   to chapter 7 and update its task assignment. Expand chapter 7's description to
