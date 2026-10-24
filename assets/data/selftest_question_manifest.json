@@ -2263,13 +2263,6 @@
     },
     {
       "pagePath": "genetics/topic07/index.md",
-      "questionId": "bbq-chi_square_hardy_weinberg-questions.txt",
-      "subjectKey": "genetics",
-      "topicKey": "topic07",
-      "topicTitle": "Chi Square Analysis"
-    },
-    {
-      "pagePath": "genetics/topic07/index.md",
       "questionId": "bbq-chi_square_hypotheses-alt-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic07",
@@ -2306,20 +2299,6 @@
     {
       "pagePath": "genetics/topic07/index.md",
       "questionId": "bbq-progeny_probability_practice-binomial-MC-questions.txt",
-      "subjectKey": "genetics",
-      "topicKey": "topic07",
-      "topicTitle": "Chi Square Analysis"
-    },
-    {
-      "pagePath": "genetics/topic07/index.md",
-      "questionId": "bbq-progeny_probability_practice-explain-MC-questions.txt",
-      "subjectKey": "genetics",
-      "topicKey": "topic07",
-      "topicTitle": "Chi Square Analysis"
-    },
-    {
-      "pagePath": "genetics/topic07/index.md",
-      "questionId": "bbq-progeny_probability_practice-factorial-MC-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic07",
       "topicTitle": "Chi Square Analysis"
@@ -2607,6 +2586,13 @@
     {
       "pagePath": "genetics/topic10/index.md",
       "questionId": "bbq-WOMC-population_genetics_terms-questions.txt",
+      "subjectKey": "genetics",
+      "topicKey": "topic10",
+      "topicTitle": "Population Genetics"
+    },
+    {
+      "pagePath": "genetics/topic10/index.md",
+      "questionId": "bbq-chi_square_hardy_weinberg-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic10",
       "topicTitle": "Population Genetics"
