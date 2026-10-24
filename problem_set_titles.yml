@@ -580,6 +580,8 @@ bbq-pKa_buffer_state-3_protons-questions.txt: Predominant Protonation State from
 bbq-pKa_buffer_state-4_protons-questions.txt: Predominant Protonation State from pH
   and pKa (Tetraprotic, MC)
 bbq-palindrome_sequence_match-questions.txt: Palindromic DNA Sequence Completion (Matching)
+bbq-pascal_triangle-MC-questions.txt: Binomial Coefficients from Pascal's Triangle
+  for Offspring Sex Counts (MC)
 bbq-pcr_design-36_bp-9_primer-questions.txt: PCR Primer Pair Selection from Double-Stranded
   DNA (36 bp Template, 9-nt Primers, MC)
 bbq-pcr_design-9_bp-6_primer-questions.txt: PCR Primer Pair Selection from Double-Stranded
@@ -606,8 +608,6 @@ bbq-probabiliy_of_progeny-questions.txt: Binomial Probabilities for Offspring Se
   Counts (MC)
 bbq-progeny_probability_practice-binomial-MC-questions.txt: Binomial Probability Expressions
   for Offspring Phenotype Counts (MC)
-bbq-progeny_probability_practice-coefficient-MC-questions.txt: Binomial Coefficients
-  for Offspring Phenotype Sequences (MC)
 bbq-progeny_probability_practice-explain-MC-questions.txt: Binomial Coefficient Interpretation
   for Offspring Phenotype Counts (MC)
 bbq-progeny_probability_practice-factorial-MC-questions.txt: Factorial Expressions
@@ -750,4 +750,4 @@ bbq-x_linked_reciprocal_cross-questions.txt: X-Linked Eye Color Inheritance (MC)
 bbq-x_linked_tortoiseshell-questions.txt: X-Linked Coat Color Probability (MC)
 bbq-z_score_google_sheet-questions.txt: Z-Scores in Google Sheets (MC)
 bbq-z_score_table_interp-questions.txt: Biodiversity Comparisons Using Z-Scores (MC)
-last edit: Thu Oct 22 12:21:13 2026
+last edit: Fri Oct 23 20:48:08 2026

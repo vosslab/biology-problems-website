@@ -2,6 +2,15 @@
 
 ## 2026-10-23
 
+- Frame Pascal triangle practice around the woman who lived in a shoe: 5-9 children,
+  exactly 0 through N girls or boys, and independent equal probabilities.
+
+- Add standalone `pascal_triangle.py` row-reading MC practice for rows 6-12, using rendered binomial
+  notation and distinct answer values drawn from the supplied row.
+
+- Remove the standalone progeny coefficient MC bank and its build registration; retain
+  coefficient calculations used by the binomial and explanation questions.
+
 ### Behavior or Interface Changes
 
 - Open Human-Readable questions at permanent, filename-based HTML addresses beside their BBQ

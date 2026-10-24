@@ -330,6 +330,7 @@ bbq-pKa_buffer_state-2_protons-questions.txt: Apply, Conceptual
 bbq-pKa_buffer_state-3_protons-questions.txt: Apply, Conceptual
 bbq-pKa_buffer_state-4_protons-questions.txt: Apply, Conceptual
 bbq-palindrome_sequence_match-questions.txt: Apply, Procedural
+bbq-pascal_triangle-MC-questions.txt: Apply, Procedural
 bbq-pcr_design-36_bp-9_primer-questions.txt: Apply, Procedural
 bbq-pcr_design-9_bp-6_primer-questions.txt: Apply, Procedural
 bbq-percent_dilution_aliquot_numeric-questions.txt: Apply, Procedural
@@ -346,7 +347,6 @@ bbq-polyploid-monoploid_v_haploid-questions.txt: Apply, Procedural
 bbq-probabiliy_of_progeny-questions.txt: Apply, Procedural
 bbq-progeny_probability_practice-binomial-MC-questions.txt: Apply, Procedural
 bbq-progeny_probability_practice-calculate-MC-questions.txt: Apply, Procedural
-bbq-progeny_probability_practice-coefficient-MC-questions.txt: Apply, Procedural
 bbq-progeny_probability_practice-explain-MC-questions.txt: Understand, Conceptual
 bbq-progeny_probability_practice-factorial-MC-questions.txt: Apply, Procedural
 bbq-progeny_probability_practice-independence-MC-questions.txt: Apply, Conceptual

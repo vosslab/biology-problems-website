@@ -2786,7 +2786,7 @@
       "name": "Chi-Square Process Error Identification",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": null,
+      "updated": "2026-10-23",
       "url": "genetics/topic07/#chi_square_errors-button-container"
     },
     {
@@ -2797,7 +2797,7 @@
       "name": "Hardy-Weinberg Equilibrium Test Conclusions",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": null,
+      "updated": "2026-10-23",
       "url": "genetics/topic07/#chi_square_hardy_weinberg-button-container"
     },
     {
@@ -2835,6 +2835,17 @@
     },
     {
       "added": null,
+      "created": "2026-10-23",
+      "family": "38fc860080cc12ab22e3884be378d535492ccf1f:problems/inheritance-problems/pascal_triangle.py",
+      "id": "genetics/topic07/bbq-pascal_triangle-MC-questions.txt",
+      "name": "Binomial Coefficients from Pascal's Triangle for Offspring Sex Counts",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "updated": null,
+      "url": "genetics/topic07/#pascal_triangle-MC-button-container"
+    },
+    {
+      "added": null,
       "created": "2021-10-20",
       "family": "af21e74916ae104701d871e6eb48d785c19fad67:probabiliy_of_progeny.py",
       "id": "genetics/topic07/bbq-probabiliy_of_progeny-questions.txt",
@@ -2854,17 +2865,6 @@
       "topic": "Chi Square Analysis",
       "updated": null,
       "url": "genetics/topic07/#progeny_probability_practice-binomial-MC-button-container"
-    },
-    {
-      "added": "2026-10-20",
-      "created": "2026-10-20",
-      "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/progeny_probability_practice.py",
-      "id": "genetics/topic07/bbq-progeny_probability_practice-coefficient-MC-questions.txt",
-      "name": "Binomial Coefficients for Offspring Phenotype Sequences",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "updated": null,
-      "url": "genetics/topic07/#progeny_probability_practice-coefficient-MC-button-container"
     },
     {
       "added": "2026-10-20",
@@ -5659,6 +5659,20 @@
     "topics": 57
   },
   "updated": [
+    {
+      "date": "2026-10-23",
+      "name": "Hardy-Weinberg Equilibrium Test Conclusions",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#chi_square_hardy_weinberg-button-container"
+    },
+    {
+      "date": "2026-10-23",
+      "name": "Chi-Square Process Error Identification",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#chi_square_errors-button-container"
+    },
     {
       "date": "2026-10-23",
       "name": "Binomial Probabilities for Offspring Sex Counts",
