@@ -608,10 +608,6 @@ bbq-probabiliy_of_progeny-questions.txt: Binomial Probabilities for Offspring Se
   Counts (MC)
 bbq-progeny_probability_practice-binomial-MC-questions.txt: Binomial Probability Expressions
   for Offspring Phenotype Counts (MC)
-bbq-progeny_probability_practice-explain-MC-questions.txt: Binomial Coefficient Interpretation
-  for Offspring Phenotype Counts (MC)
-bbq-progeny_probability_practice-factorial-MC-questions.txt: Factorial Expressions
-  for Ordering Distinct Items (MC)
 bbq-protein_gel_migration-questions.txt: Protein Molecular Weight from SDS-PAGE Migration
   (MC/NUM)
 bbq-punnett_choice-questions.txt: Punnett Squares from Monohybrid Cross Descriptions

@@ -2,6 +2,15 @@
 
 ## 2026-10-23
 
+- Remove the unregistered paired-hypothesis mode and its private helpers/data,
+  the binomial-only mode selector and unused scenario, and retired generated artifacts.
+
+- Remove standalone factorial and factorial-denominator explanation banks, their
+  generator modes, and build tasks. Retain applied binomial and Pascal practice.
+
+- Move the Hardy-Weinberg chi-square bank and task from genetics topic07 to
+  topic10 (Population Genetics), alongside the other Hardy-Weinberg questions.
+
 - Register both SUPPORT and REJECT calculated chi-square tasks and add the REJECT bank.
 
 - Rename the calculated chi-square ACCEPT mode and bank to SUPPORT; retain

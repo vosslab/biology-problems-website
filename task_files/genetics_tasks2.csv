@@ -51,3 +51,4 @@ genetics,phylogenetics,{bp_root}/inheritance-problems/phylogenetic_trees/gene_tr
 genetics,phylogenetics,{bp_root}/inheritance-problems/phylogenetic_trees/gene_tree_matches_plus.py,--different --medium,,
 genetics,phylogenetics,{bp_root}/inheritance-problems/phylogenetic_trees/gene_tree_matches_plus.py,--same --easy,,
 genetics,phylogenetics,{bp_root}/inheritance-problems/phylogenetic_trees/gene_tree_matches_plus.py,--same --medium,,
+genetics,population_genetics,{bp_root}/inheritance-problems/chi_square/chi_square_hardy_weinberg.py,,,

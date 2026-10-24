@@ -1,7 +1,5 @@
 subject,topic,script,flags,input,notes
-genetics,chi_square,{bp_root}/inheritance-problems/progeny_probability_practice.py,--kind factorial,,
-genetics,chi_square,{bp_root}/inheritance-problems/progeny_probability_practice.py,--kind explain,,
-genetics,chi_square,{bp_root}/inheritance-problems/progeny_probability_practice.py,--kind binomial,,
+genetics,chi_square,{bp_root}/inheritance-problems/progeny_probability_practice.py,,,
 genetics,chi_square,{bp_root}/inheritance-problems/chi_square/chi_square_hypotheses.py,--kind null,,
 genetics,chi_square,{bp_root}/inheritance-problems/chi_square/chi_square_hypotheses.py,--kind alt,,
 genetics,chi_square,{bp_root}/inheritance-problems/chi_square/chi_square_hypotheses_lab_partner.py,,,
