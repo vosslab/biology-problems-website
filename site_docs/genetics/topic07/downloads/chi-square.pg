@@ -1,8 +1,8 @@
-## TITLE('Chi-square (&chi;&sup2;) Tests')
+## TITLE('Chi-square (&chi;2) Tests')
 ## DESCRIPTION
-## Select the statement that is TRUE or FALSE about chi-square (&chi;&sup2;) tests.
+## Select the statement that is TRUE or FALSE about chi-square (&chi;2) tests.
 ## ENDDESCRIPTION
-## KEYWORDS('chi-square (&chi;&sup2;) tests','true/false','multiple choice')
+## KEYWORDS('chi-square (&chi;2) tests','true/false','multiple choice')
 ## DBsubject('Biostatistics')
 ## DBchapter('')
 ## DBsection('')
@@ -29,60 +29,60 @@ $showPartialCorrectAnswers = 1;
 
 @true_groups = (
   [
-    'the null hypothesis, H<sub>0</sub> is NOT REJECTED if the chi-square (&chi;&sup2;) statistic is less than the critical value',
-    'the null hypothesis, H<sub>0</sub> is REJECTED if the chi-square (&chi;&sup2;) statistic is larger than the critical value',
+    'the null hypothesis (H<sub>0</sub>) is NOT REJECTED if the chi-square statistic (&chi;<sup>2</sup>) is less than the critical value',
+    'the null hypothesis (H<sub>0</sub>) is REJECTED if the chi-square statistic (&chi;<sup>2</sup>) is larger than the critical value',
   ],
   [
-    'the null hypothesis, H<sub>0</sub> is NOT REJECTED if the p-value is larger than the level of significance, &alpha;',
-    'the null hypothesis, H<sub>0</sub> is REJECTED if the p-value is less than the level of significance, &alpha;',
+    'the null hypothesis (H<sub>0</sub>) is NOT REJECTED if the p-value is larger than the level of significance (&alpha;)',
+    'the null hypothesis (H<sub>0</sub>) is REJECTED if the p-value is less than the level of significance (&alpha;)',
   ],
   [
-    'the alternative hypothesis, H<sub>a</sub> is SUPPORTED if the chi-square (&chi;&sup2;) statistic is larger than the critical value',
-    'the alternative hypothesis, H<sub>a</sub> is NOT SUPPORTED if the chi-square (&chi;&sup2;) statistic is less than the critical value',
+    'the alternative hypothesis (H<sub>a</sub>) is SUPPORTED if the chi-square statistic (&chi;<sup>2</sup>) is larger than the critical value',
+    'the alternative hypothesis (H<sub>a</sub>) is NOT SUPPORTED if the chi-square statistic (&chi;<sup>2</sup>) is less than the critical value',
   ],
   [
-    'the alternative hypothesis, H<sub>a</sub> is SUPPORTED if the p-value is less than the level of significance, &alpha;',
-    'the alternative hypothesis, H<sub>a</sub> is NOT SUPPORTED if the p-value is larger than the level of significance, &alpha;',
+    'the alternative hypothesis (H<sub>a</sub>) is SUPPORTED if the p-value is less than the level of significance (&alpha;)',
+    'the alternative hypothesis (H<sub>a</sub>) is NOT SUPPORTED if the p-value is larger than the level of significance (&alpha;)',
   ],
 );
 @false_groups = (
   [
-    'the null hypothesis, H<sub>0</sub> is REJECTED if the chi-square (&chi;&sup2;) statistic is less than the critical value',
-    'the null hypothesis, H<sub>0</sub> is NOT REJECTED if the chi-square (&chi;&sup2;) statistic is larger than the critical value',
+    'the null hypothesis (H<sub>0</sub>) is REJECTED if the chi-square statistic (&chi;<sup>2</sup>) is less than the critical value',
+    'the null hypothesis (H<sub>0</sub>) is NOT REJECTED if the chi-square statistic (&chi;<sup>2</sup>) is larger than the critical value',
   ],
   [
-    'the null hypothesis, H<sub>0</sub> is REJECTED if the p-value is larger than the level of significance, &alpha;',
-    'the null hypothesis, H<sub>0</sub> is NOT REJECTED if the p-value is less than the level of significance, &alpha;',
+    'the null hypothesis (H<sub>0</sub>) is REJECTED if the p-value is larger than the level of significance (&alpha;)',
+    'the null hypothesis (H<sub>0</sub>) is NOT REJECTED if the p-value is less than the level of significance (&alpha;)',
   ],
   [
-    'the alternative hypothesis, H<sub>a</sub> is SUPPORTED if the chi-square (&chi;&sup2;) statistic is less than the critical value',
+    'the alternative hypothesis (H<sub>a</sub>) is SUPPORTED if the chi-square statistic (&chi;<sup>2</sup>) is less than the critical value',
   ],
   [
-    'the alternative hypothesis, H<sub>a</sub> is SUPPORTED if the p-value is larger than the level of significance, &alpha;',
+    'the alternative hypothesis (H<sub>a</sub>) is SUPPORTED if the p-value is larger than the level of significance (&alpha;)',
   ],
   [
-    'the null hypothesis, H<sub>0</sub> is NOT REJECTED if the chi-square (&chi;&sup2;) statistic is less than the level of significance, &alpha;',
-    'the null hypothesis, H<sub>0</sub> is NOT REJECTED if the chi-square (&chi;&sup2;) statistic is larger than the level of significance, &alpha;',
-    'the null hypothesis, H<sub>0</sub> is REJECTED if the chi-square (&chi;&sup2;) statistic is larger than the level of significance, &alpha;',
-    'the null hypothesis, H<sub>0</sub> is REJECTED if the chi-square (&chi;&sup2;) statistic is less than the level of significance, &alpha;',
+    'the null hypothesis (H<sub>0</sub>) is NOT REJECTED if the chi-square statistic (&chi;<sup>2</sup>) is less than the level of significance (&alpha;)',
+    'the null hypothesis (H<sub>0</sub>) is NOT REJECTED if the chi-square statistic (&chi;<sup>2</sup>) is larger than the level of significance (&alpha;)',
+    'the null hypothesis (H<sub>0</sub>) is REJECTED if the chi-square statistic (&chi;<sup>2</sup>) is larger than the level of significance (&alpha;)',
+    'the null hypothesis (H<sub>0</sub>) is REJECTED if the chi-square statistic (&chi;<sup>2</sup>) is less than the level of significance (&alpha;)',
   ],
   [
-    'the null hypothesis, H<sub>0</sub> is NOT REJECTED if the p-value is larger than the critical value',
-    'the null hypothesis, H<sub>0</sub> is NOT REJECTED if the p-value is less than the critical value',
-    'the null hypothesis, H<sub>0</sub> is REJECTED if the p-value is larger than the critical value',
-    'the null hypothesis, H<sub>0</sub> is REJECTED if the p-value is less than the critical value',
+    'the null hypothesis (H<sub>0</sub>) is NOT REJECTED if the p-value is larger than the critical value',
+    'the null hypothesis (H<sub>0</sub>) is NOT REJECTED if the p-value is less than the critical value',
+    'the null hypothesis (H<sub>0</sub>) is REJECTED if the p-value is larger than the critical value',
+    'the null hypothesis (H<sub>0</sub>) is REJECTED if the p-value is less than the critical value',
   ],
   [
-    'the alternative hypothesis, H<sub>a</sub> is SUPPORTED if the chi-square (&chi;&sup2;) statistic is less than the level of significance, &alpha;',
-    'the alternative hypothesis, H<sub>a</sub> is SUPPORTED if the chi-square (&chi;&sup2;) statistic is larger than the level of significance, &alpha;',
-    'the alternative hypothesis, H<sub>a</sub> is NOT SUPPORTED if the chi-square (&chi;&sup2;) statistic is less than the level of significance, &alpha;',
-    'the alternative hypothesis, H<sub>a</sub> is NOT SUPPORTED if the chi-square (&chi;&sup2;) statistic is larger than the level of significance, &alpha;',
+    'the alternative hypothesis (H<sub>a</sub>) is SUPPORTED if the chi-square statistic (&chi;<sup>2</sup>) is less than the level of significance (&alpha;)',
+    'the alternative hypothesis (H<sub>a</sub>) is SUPPORTED if the chi-square statistic (&chi;<sup>2</sup>) is larger than the level of significance (&alpha;)',
+    'the alternative hypothesis (H<sub>a</sub>) is NOT SUPPORTED if the chi-square statistic (&chi;<sup>2</sup>) is less than the level of significance (&alpha;)',
+    'the alternative hypothesis (H<sub>a</sub>) is NOT SUPPORTED if the chi-square statistic (&chi;<sup>2</sup>) is larger than the level of significance (&alpha;)',
   ],
   [
-    'the alternative hypothesis, H<sub>a</sub> is SUPPORTED if the p-value is less than the critical value',
-    'the alternative hypothesis, H<sub>a</sub> is SUPPORTED if the p-value is larger than the critical value',
-    'the alternative hypothesis, H<sub>a</sub> is NOT SUPPORTED if the p-value is less than the critical value',
-    'the alternative hypothesis, H<sub>a</sub> is NOT SUPPORTED if the p-value is larger than the critical value',
+    'the alternative hypothesis (H<sub>a</sub>) is SUPPORTED if the p-value is less than the critical value',
+    'the alternative hypothesis (H<sub>a</sub>) is SUPPORTED if the p-value is larger than the critical value',
+    'the alternative hypothesis (H<sub>a</sub>) is NOT SUPPORTED if the p-value is less than the critical value',
+    'the alternative hypothesis (H<sub>a</sub>) is NOT SUPPORTED if the p-value is larger than the critical value',
   ],
 );
 
@@ -90,7 +90,7 @@ $showPartialCorrectAnswers = 1;
 # GLOBAL SETTINGS
 #==========================================================
 
-$topic = 'chi-square (&chi;&sup2;) tests';
+$topic = 'chi-square (&chi;<sup>2</sup>) tests';
 my $local_random = PGrandom->new();
 $local_random->srand($problemSeed);
 my @mode_choices = ("TRUE", "FALSE");

@@ -2,6 +2,10 @@
 
 ## 2026-10-23
 
+- Audit correction: retain paired hypotheses for the active Biostatistics consumer
+  and register its mode explicitly. Clean retired genetics metadata and point the
+  download test at the retained binomial bank. Remove random sampling at library import.
+
 - Remove the unregistered paired-hypothesis mode and its private helpers/data,
   the binomial-only mode selector and unused scenario, and retired generated artifacts.
 

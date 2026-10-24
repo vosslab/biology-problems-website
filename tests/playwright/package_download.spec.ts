@@ -12,7 +12,7 @@ const bank = [
   `MC\t<p>Identify ethanol.</p><table><caption>Molecule evidence</caption><tr><td>${molecule("ethanol", "CCO")}</td><td>Two carbons</td></tr></table>\tEthanol\tCorrect\tMethane\tIncorrect`,
   `MC\t<p>Identify methane.</p>${molecule("methane", "C")}\tEthanol\tIncorrect\tMethane\tCorrect`,
 ].join("\n");
-const readableBank = "/genetics/topic07/bbq-progeny_probability_practice-explain-MC-questions.txt";
+const readableBank = "/genetics/topic07/bbq-progeny_probability_practice-binomial-MC-questions.txt";
 const readablePage = readableBank.replace(/\.txt$/, ".html");
 
 async function host(page: Page) {

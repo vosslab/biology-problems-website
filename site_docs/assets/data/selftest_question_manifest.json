@@ -1191,13 +1191,6 @@
       "topicTitle": "Chi-Square Tests"
     },
     {
-      "pagePath": "biostatistics/topic08/index.md",
-      "questionId": "bbq-chi_square_hypotheses-pair-questions.txt",
-      "subjectKey": "biostatistics",
-      "topicKey": "topic08",
-      "topicTitle": "Chi-Square Tests"
-    },
-    {
       "pagePath": "biotechnology/topic01/index.md",
       "questionId": "bbq-MATCH-biotech_vs_improved-questions.txt",
       "subjectKey": "biotechnology",

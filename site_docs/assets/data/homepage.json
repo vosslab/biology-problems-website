@@ -1,9 +1,7 @@
 {
   "diagnostics": {
     "ambiguous": [],
-    "unowned": [
-      "biostatistics/topic08/bbq-chi_square_hypotheses-pair-questions.txt"
-    ]
+    "unowned": []
   },
   "new": [
     {
@@ -2696,7 +2694,7 @@
       "name": "Chi-Square Terms from Definitions",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-06",
+      "updated": "2026-10-23",
       "url": "genetics/topic07/#MATCH-chi-square_terms-button-container"
     },
     {
@@ -2707,7 +2705,7 @@
       "name": "Null Hypothesis Rejection Criteria",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-03-05",
+      "updated": "2026-10-23",
       "url": "genetics/topic07/#TFMS-chi-square-button-container"
     },
     {
@@ -2718,7 +2716,7 @@
       "name": "Chi-Square Terms from Definitions",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-06",
+      "updated": "2026-10-23",
       "url": "genetics/topic07/#WOMC-chi-square_terms-button-container"
     },
     {
@@ -2817,7 +2815,7 @@
       "name": "Alternative Hypotheses for Mendelian Offspring Ratios",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": null,
+      "updated": "2026-10-23",
       "url": "genetics/topic07/#chi_square_hypotheses-alt-button-container"
     },
     {
@@ -2828,7 +2826,7 @@
       "name": "Null Hypotheses for Mendelian Offspring Ratios",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": null,
+      "updated": "2026-10-23",
       "url": "genetics/topic07/#chi_square_hypotheses-null-button-container"
     },
     {
@@ -2839,7 +2837,7 @@
       "name": "Null and Alternative Hypothesis Error Identification for Genetic Crosses",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": null,
+      "updated": "2026-10-23",
       "url": "genetics/topic07/#chi_square_hypotheses_lab_partner-hypotheses_partner-button-container"
     },
     {
@@ -2850,7 +2848,7 @@
       "name": "Binomial Coefficients from Pascal's Triangle for Offspring Sex Counts",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": null,
+      "updated": "2026-10-23",
       "url": "genetics/topic07/#pascal_triangle-MC-button-container"
     },
     {
@@ -2872,7 +2870,7 @@
       "name": "Binomial Probability Expressions for Offspring Phenotype Counts",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": null,
+      "updated": "2026-10-23",
       "url": "genetics/topic07/#progeny_probability_practice-binomial-MC-button-container"
     },
     {
@@ -5655,6 +5653,27 @@
     },
     {
       "date": "2026-10-23",
+      "name": "Null and Alternative Hypothesis Error Identification for Genetic Crosses",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#chi_square_hypotheses_lab_partner-hypotheses_partner-button-container"
+    },
+    {
+      "date": "2026-10-23",
+      "name": "Null Hypothesis Rejection Criteria",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#TFMS-chi-square-button-container"
+    },
+    {
+      "date": "2026-10-23",
+      "name": "Null Hypotheses for Mendelian Offspring Ratios",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#chi_square_hypotheses-null-button-container"
+    },
+    {
+      "date": "2026-10-23",
       "name": "Dihybrid Chi-Square Table Selection and Conclusions",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
@@ -5662,10 +5681,24 @@
     },
     {
       "date": "2026-10-23",
+      "name": "Chi-Square Terms from Definitions",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#MATCH-chi-square_terms-button-container"
+    },
+    {
+      "date": "2026-10-23",
       "name": "Chi-Square Statistic from Dihybrid Offspring Counts (Support Null)",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "url": "genetics/topic07/#chi_square_calculated-SUPPORT-button-container"
+    },
+    {
+      "date": "2026-10-23",
+      "name": "Binomial Probability Expressions for Offspring Phenotype Counts",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#progeny_probability_practice-binomial-MC-button-container"
     },
     {
       "date": "2026-10-23",
@@ -6030,13 +6063,6 @@
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
       "url": "genetics/topic09/#MATCH-chromosome_shapes-button-container"
-    },
-    {
-      "date": "2026-10-06",
-      "name": "Chi-Square Terms from Definitions",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#MATCH-chi-square_terms-button-container"
     },
     {
       "date": "2026-10-06",
@@ -6590,13 +6616,6 @@
       "subject": "Biotechnology",
       "topic": "Environmental and Synthetic Biology",
       "url": "biotechnology/topic04/#TFMS-xna_and_xdna-button-container"
-    },
-    {
-      "date": "2026-03-05",
-      "name": "Null Hypothesis Rejection Criteria",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#TFMS-chi-square-button-container"
     },
     {
       "date": "2026-03-05",

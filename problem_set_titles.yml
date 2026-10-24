@@ -333,8 +333,10 @@ bbq-chargaff_dna_percent-5_choices-questions.txt: DNA Base Composition Using Cha
   Rules (5 Choices, MC)
 bbq-chemical_group_pka_forms-questions.txt: Protonation States of Chemical Groups
   (MA)
-bbq-chi_square_calculated-REJECT-questions.txt: Chi-Square Statistic from Dihybrid Offspring Counts (Reject Null, NUM)
-bbq-chi_square_calculated-SUPPORT-questions.txt: Chi-Square Statistic from Dihybrid Offspring Counts (Support Null, NUM)
+bbq-chi_square_calculated-REJECT-questions.txt: Chi-Square Statistic from Dihybrid
+  Offspring Counts (Reject Null, NUM)
+bbq-chi_square_calculated-SUPPORT-questions.txt: Chi-Square Statistic from Dihybrid
+  Offspring Counts (Support Null, NUM)
 bbq-chi_square_choices-questions.txt: Dihybrid Chi-Square Table Selection and Conclusions
   (MC)
 bbq-chi_square_dice-calculate-MC-questions.txt: Chi-Square Calculations for Dice Rolls
@@ -351,8 +353,6 @@ bbq-chi_square_hypotheses-alt-questions.txt: Alternative Hypotheses for Mendelia
   Offspring Ratios (MC)
 bbq-chi_square_hypotheses-null-questions.txt: Null Hypotheses for Mendelian Offspring
   Ratios (MC)
-bbq-chi_square_hypotheses-pair-questions.txt: Null and Alternative Hypotheses for
-  Genetic Crosses (MC)
 bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt: Null and Alternative
   Hypothesis Error Identification for Genetic Crosses (MC)
 bbq-chymotrypsin_substrate-questions.txt: Cleavage Sites for Chymotrypsin Digestion
