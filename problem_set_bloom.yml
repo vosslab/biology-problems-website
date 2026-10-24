@@ -201,7 +201,7 @@ bbq-busse_woods_two_sample_t_test-tails1-questions.txt: Apply, Procedural
 bbq-cell_surf-to-vol_ratio-questions.txt: Apply, Conceptual
 bbq-chargaff_dna_percent-5_choices-questions.txt: Apply, Procedural
 bbq-chemical_group_pka_forms-questions.txt: Apply, Conceptual
-bbq-chi_square_calculated-ACCEPT-questions.txt: Apply, Procedural
+bbq-chi_square_calculated-SUPPORT-questions.txt: Apply, Procedural
 bbq-chi_square_choices-questions.txt: Apply, Procedural
 bbq-chi_square_dice-calculate-MC-questions.txt: Apply, Procedural
 bbq-chi_square_dice-df-MC-questions.txt: Apply, Procedural
@@ -425,3 +425,4 @@ bbq-x_linked_reciprocal_cross-questions.txt: Apply, Conceptual
 bbq-x_linked_tortoiseshell-questions.txt: Apply, Procedural
 bbq-z_score_google_sheet-questions.txt: Apply, Procedural
 bbq-z_score_table_interp-questions.txt: Apply, Procedural
+bbq-chi_square_calculated-REJECT-questions.txt: Apply, Procedural

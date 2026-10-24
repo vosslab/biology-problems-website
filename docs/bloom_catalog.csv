@@ -202,7 +202,7 @@ bbq-busse_woods_two_sample_t_test-tails1-questions.txt,Biostatistics,NUM,Apply,P
 bbq-cell_surf-to-vol_ratio-questions.txt,Other,MC,Apply,Conceptual
 bbq-chargaff_dna_percent-5_choices-questions.txt,Biochemistry; Genetics; Molecular Biology,MC,Apply,Procedural
 bbq-chemical_group_pka_forms-questions.txt,Biochemistry,MA,Apply,Conceptual
-bbq-chi_square_calculated-ACCEPT-questions.txt,Genetics,NUM,Apply,Procedural
+bbq-chi_square_calculated-SUPPORT-questions.txt,Genetics,NUM,Apply,Procedural
 bbq-chi_square_choices-questions.txt,Genetics,MC,Apply,Procedural
 bbq-chi_square_errors-questions.txt,Genetics,MC,Evaluate,Procedural
 bbq-chi_square_hardy_weinberg-questions.txt,Genetics,MC,Evaluate,Procedural

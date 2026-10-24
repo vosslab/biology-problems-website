@@ -2,6 +2,11 @@
 
 ## 2026-10-23
 
+- Register both SUPPORT and REJECT calculated chi-square tasks and add the REJECT bank.
+
+- Rename the calculated chi-square ACCEPT mode and bank to SUPPORT; retain
+  fail-to-reject wording and the existing REJECT generator mode.
+
 - Frame Pascal triangle practice around the woman who lived in a shoe: 5-9 children,
   exactly 0 through N girls or boys, and independent equal probabilities.
 

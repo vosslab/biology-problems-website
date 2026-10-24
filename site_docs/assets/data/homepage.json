@@ -5,6 +5,13 @@
   },
   "new": [
     {
+      "date": "2026-10-23",
+      "name": "Binomial Coefficients from Pascal's Triangle for Offspring Sex Counts",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#pascal_triangle-MC-button-container"
+    },
+    {
       "date": "2026-10-20",
       "name": "Statistical Significance of Dice Roll Deviations",
       "subject": "Genetics",
@@ -2716,12 +2723,23 @@
       "added": null,
       "created": "2021-10-20",
       "family": "d89a2d6f6665c647e63bf13099e6b36c21e9d9fe:chi_square_calculated.py",
-      "id": "genetics/topic07/bbq-chi_square_calculated-ACCEPT-questions.txt",
-      "name": "Chi-Square Statistic from Dihybrid Offspring Counts",
+      "id": "genetics/topic07/bbq-chi_square_calculated-REJECT-questions.txt",
+      "name": "Chi-Square Statistic from Dihybrid Offspring Counts (Reject Null)",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": null,
-      "url": "genetics/topic07/#chi_square_calculated-ACCEPT-button-container"
+      "updated": "2026-10-23",
+      "url": "genetics/topic07/#chi_square_calculated-REJECT-button-container"
+    },
+    {
+      "added": null,
+      "created": "2021-10-20",
+      "family": "d89a2d6f6665c647e63bf13099e6b36c21e9d9fe:chi_square_calculated.py",
+      "id": "genetics/topic07/bbq-chi_square_calculated-SUPPORT-questions.txt",
+      "name": "Chi-Square Statistic from Dihybrid Offspring Counts (Support Null)",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "updated": "2026-10-23",
+      "url": "genetics/topic07/#chi_square_calculated-SUPPORT-button-container"
     },
     {
       "added": null,
@@ -2731,7 +2749,7 @@
       "name": "Dihybrid Chi-Square Table Selection and Conclusions",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": null,
+      "updated": "2026-10-23",
       "url": "genetics/topic07/#chi_square_choices-button-container"
     },
     {
@@ -2834,14 +2852,14 @@
       "url": "genetics/topic07/#chi_square_hypotheses_lab_partner-hypotheses_partner-button-container"
     },
     {
-      "added": null,
+      "added": "2026-10-23",
       "created": "2026-10-23",
       "family": "38fc860080cc12ab22e3884be378d535492ccf1f:problems/inheritance-problems/pascal_triangle.py",
       "id": "genetics/topic07/bbq-pascal_triangle-MC-questions.txt",
       "name": "Binomial Coefficients from Pascal's Triangle for Offspring Sex Counts",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": null,
+      "updated": "2026-10-23",
       "url": "genetics/topic07/#pascal_triangle-MC-button-container"
     },
     {
@@ -5607,7 +5625,7 @@
     {
       "icon": "\ud83e\udeb0",
       "key": "genetics",
-      "sets": 156,
+      "sets": 157,
       "title": "Genetics",
       "topics": 11,
       "url": "genetics/"
@@ -5654,7 +5672,7 @@
     }
   ],
   "totals": {
-    "sets": 494,
+    "sets": 495,
     "subjects": 7,
     "topics": 57
   },
@@ -5668,10 +5686,17 @@
     },
     {
       "date": "2026-10-23",
-      "name": "Chi-Square Process Error Identification",
+      "name": "Dihybrid Chi-Square Table Selection and Conclusions",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#chi_square_errors-button-container"
+      "url": "genetics/topic07/#chi_square_choices-button-container"
+    },
+    {
+      "date": "2026-10-23",
+      "name": "Chi-Square Statistic from Dihybrid Offspring Counts (Support Null)",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#chi_square_calculated-SUPPORT-button-container"
     },
     {
       "date": "2026-10-23",

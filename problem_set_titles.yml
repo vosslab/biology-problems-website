@@ -333,8 +333,8 @@ bbq-chargaff_dna_percent-5_choices-questions.txt: DNA Base Composition Using Cha
   Rules (5 Choices, MC)
 bbq-chemical_group_pka_forms-questions.txt: Protonation States of Chemical Groups
   (MA)
-bbq-chi_square_calculated-ACCEPT-questions.txt: Chi-Square Statistic from Dihybrid
-  Offspring Counts (NUM)
+bbq-chi_square_calculated-REJECT-questions.txt: Chi-Square Statistic from Dihybrid Offspring Counts (Reject Null, NUM)
+bbq-chi_square_calculated-SUPPORT-questions.txt: Chi-Square Statistic from Dihybrid Offspring Counts (Support Null, NUM)
 bbq-chi_square_choices-questions.txt: Dihybrid Chi-Square Table Selection and Conclusions
   (MC)
 bbq-chi_square_dice-calculate-MC-questions.txt: Chi-Square Calculations for Dice Rolls
