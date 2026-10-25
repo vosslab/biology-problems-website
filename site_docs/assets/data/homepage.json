@@ -16,7 +16,7 @@
       "name": "Statistical Significance of Dice Roll Deviations",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#chi_square_dice-interpret-MC-button-container"
+      "url": "genetics/topic07/#chi2-analyze_dice-interpret-MC-button-container"
     },
     {
       "date": "2026-10-20",
@@ -2720,125 +2720,125 @@
       "url": "genetics/topic07/#WOMC-chi-square_terms-button-container"
     },
     {
-      "added": null,
-      "created": "2021-10-20",
-      "family": "d89a2d6f6665c647e63bf13099e6b36c21e9d9fe:chi_square_calculated.py",
-      "id": "genetics/topic07/bbq-chi_square_calculated-REJECT-questions.txt",
-      "name": "Chi-Square Statistic from Dihybrid Offspring Counts (Reject Null)",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "updated": "2026-10-23",
-      "url": "genetics/topic07/#chi_square_calculated-REJECT-button-container"
-    },
-    {
-      "added": null,
-      "created": "2021-10-20",
-      "family": "d89a2d6f6665c647e63bf13099e6b36c21e9d9fe:chi_square_calculated.py",
-      "id": "genetics/topic07/bbq-chi_square_calculated-SUPPORT-questions.txt",
-      "name": "Chi-Square Statistic from Dihybrid Offspring Counts (Support Null)",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "updated": "2026-10-23",
-      "url": "genetics/topic07/#chi_square_calculated-SUPPORT-button-container"
-    },
-    {
-      "added": null,
-      "created": "2021-10-20",
-      "family": "3c8b1d6991600c17a09edc95bcbbdb9b90e03d9c:chi_square_errors.py",
-      "id": "genetics/topic07/bbq-chi_square_choices-questions.txt",
-      "name": "Dihybrid Chi-Square Table Selection and Conclusions",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "updated": "2026-10-23",
-      "url": "genetics/topic07/#chi_square_choices-button-container"
-    },
-    {
       "added": "2026-10-20",
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
-      "id": "genetics/topic07/bbq-chi_square_dice-calculate-MC-questions.txt",
+      "id": "genetics/topic07/bbq-chi2-analyze_dice-calculate-MC-questions.txt",
       "name": "Chi-Square Calculations for Dice Rolls",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-10-23",
-      "url": "genetics/topic07/#chi_square_dice-calculate-MC-button-container"
+      "url": "genetics/topic07/#chi2-analyze_dice-calculate-MC-button-container"
     },
     {
       "added": "2026-10-20",
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
-      "id": "genetics/topic07/bbq-chi_square_dice-df-MC-questions.txt",
+      "id": "genetics/topic07/bbq-chi2-analyze_dice-df-MC-questions.txt",
       "name": "Degrees of Freedom for a Six-Sided Die",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-10-23",
-      "url": "genetics/topic07/#chi_square_dice-df-MC-button-container"
+      "url": "genetics/topic07/#chi2-analyze_dice-df-MC-button-container"
     },
     {
       "added": "2026-10-20",
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
-      "id": "genetics/topic07/bbq-chi_square_dice-expected-MC-questions.txt",
+      "id": "genetics/topic07/bbq-chi2-analyze_dice-expected-MC-questions.txt",
       "name": "Expected Face Counts for a Fair Die",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-10-23",
-      "url": "genetics/topic07/#chi_square_dice-expected-MC-button-container"
+      "url": "genetics/topic07/#chi2-analyze_dice-expected-MC-button-container"
     },
     {
       "added": "2026-10-20",
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
-      "id": "genetics/topic07/bbq-chi_square_dice-interpret-MC-questions.txt",
+      "id": "genetics/topic07/bbq-chi2-analyze_dice-interpret-MC-questions.txt",
       "name": "Statistical Significance of Dice Roll Deviations",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-10-23",
-      "url": "genetics/topic07/#chi_square_dice-interpret-MC-button-container"
+      "url": "genetics/topic07/#chi2-analyze_dice-interpret-MC-button-container"
+    },
+    {
+      "added": null,
+      "created": "2021-10-20",
+      "family": "d89a2d6f6665c647e63bf13099e6b36c21e9d9fe:chi_square_calculated.py",
+      "id": "genetics/topic07/bbq-chi2-calculate_statistic-REJECT-questions.txt",
+      "name": "Chi-Square Statistic from Dihybrid Offspring Counts (Reject Null)",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "updated": "2026-10-23",
+      "url": "genetics/topic07/#chi2-calculate_statistic-REJECT-button-container"
+    },
+    {
+      "added": null,
+      "created": "2021-10-20",
+      "family": "d89a2d6f6665c647e63bf13099e6b36c21e9d9fe:chi_square_calculated.py",
+      "id": "genetics/topic07/bbq-chi2-calculate_statistic-SUPPORT-questions.txt",
+      "name": "Chi-Square Statistic from Dihybrid Offspring Counts (Support Null)",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "updated": "2026-10-23",
+      "url": "genetics/topic07/#chi2-calculate_statistic-SUPPORT-button-container"
     },
     {
       "added": null,
       "created": "2021-10-20",
       "family": "3c8b1d6991600c17a09edc95bcbbdb9b90e03d9c:chi_square_errors.py",
-      "id": "genetics/topic07/bbq-chi_square_errors-questions.txt",
+      "id": "genetics/topic07/bbq-chi2-choose_table-questions.txt",
+      "name": "Dihybrid Chi-Square Table Selection and Conclusions",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "updated": "2026-10-23",
+      "url": "genetics/topic07/#chi2-choose_table-button-container"
+    },
+    {
+      "added": null,
+      "created": "2021-10-20",
+      "family": "3c8b1d6991600c17a09edc95bcbbdb9b90e03d9c:chi_square_errors.py",
+      "id": "genetics/topic07/bbq-chi2-find_errors-questions.txt",
       "name": "Chi-Square Process Error Identification",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-10-23",
-      "url": "genetics/topic07/#chi_square_errors-button-container"
-    },
-    {
-      "added": null,
-      "created": "2026-01-04",
-      "family": "566b69080e0aee48e64db813efd8b176b4541653:inheritance-problems/chi_square/chi_square_hypotheses.py",
-      "id": "genetics/topic07/bbq-chi_square_hypotheses-alt-questions.txt",
-      "name": "Alternative Hypotheses for Mendelian Offspring Ratios",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "updated": null,
-      "url": "genetics/topic07/#chi_square_hypotheses-alt-button-container"
-    },
-    {
-      "added": null,
-      "created": "2026-01-04",
-      "family": "566b69080e0aee48e64db813efd8b176b4541653:inheritance-problems/chi_square/chi_square_hypotheses.py",
-      "id": "genetics/topic07/bbq-chi_square_hypotheses-null-questions.txt",
-      "name": "Null Hypotheses for Mendelian Offspring Ratios",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "updated": null,
-      "url": "genetics/topic07/#chi_square_hypotheses-null-button-container"
+      "url": "genetics/topic07/#chi2-find_errors-button-container"
     },
     {
       "added": null,
       "created": "2026-01-04",
       "family": "566b69080e0aee48e64db813efd8b176b4541653:inheritance-problems/chi_square/chi_square_hypotheses_lab_partner.py",
-      "id": "genetics/topic07/bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt",
+      "id": "genetics/topic07/bbq-chi2-review_hypotheses-hypotheses_partner-questions.txt",
       "name": "Null and Alternative Hypothesis Error Identification for Genetic Crosses",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "updated": "2026-10-23",
-      "url": "genetics/topic07/#chi_square_hypotheses_lab_partner-hypotheses_partner-button-container"
+      "url": "genetics/topic07/#chi2-review_hypotheses-hypotheses_partner-button-container"
+    },
+    {
+      "added": null,
+      "created": "2026-01-04",
+      "family": "566b69080e0aee48e64db813efd8b176b4541653:inheritance-problems/chi_square/chi_square_hypotheses.py",
+      "id": "genetics/topic07/bbq-chi2-select_hypothesis-alt-questions.txt",
+      "name": "Alternative Hypotheses for Mendelian Offspring Ratios",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "updated": "2026-10-23",
+      "url": "genetics/topic07/#chi2-select_hypothesis-alt-button-container"
+    },
+    {
+      "added": null,
+      "created": "2026-01-04",
+      "family": "566b69080e0aee48e64db813efd8b176b4541653:inheritance-problems/chi_square/chi_square_hypotheses.py",
+      "id": "genetics/topic07/bbq-chi2-select_hypothesis-null-questions.txt",
+      "name": "Null Hypotheses for Mendelian Offspring Ratios",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "updated": "2026-10-23",
+      "url": "genetics/topic07/#chi2-select_hypothesis-null-button-container"
     },
     {
       "added": "2026-10-23",
@@ -3328,12 +3328,12 @@
       "added": null,
       "created": "2021-10-20",
       "family": "bae8f50e095fd7bdc14e36d6772e6d1c79fd9ef2:chi_square_hardy_weinberg.py",
-      "id": "genetics/topic10/bbq-chi_square_hardy_weinberg-questions.txt",
-      "name": "Hardy-Weinberg Equilibrium Test Conclusions",
+      "id": "genetics/topic10/bbq-chi2-test_hardy_weinberg-questions.txt",
+      "name": "Hardy-Weinberg Chi-Square Test Conclusions",
       "subject": "Genetics",
       "topic": "Population Genetics",
-      "updated": null,
-      "url": "genetics/topic10/#chi_square_hardy_weinberg-button-container"
+      "updated": "2026-10-23",
+      "url": "genetics/topic10/#chi2-test_hardy_weinberg-button-container"
     },
     {
       "added": null,
@@ -5649,14 +5649,14 @@
       "name": "Statistical Significance of Dice Roll Deviations",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#chi_square_dice-interpret-MC-button-container"
+      "url": "genetics/topic07/#chi2-analyze_dice-interpret-MC-button-container"
     },
     {
       "date": "2026-10-23",
       "name": "Null and Alternative Hypothesis Error Identification for Genetic Crosses",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#chi_square_hypotheses_lab_partner-hypotheses_partner-button-container"
+      "url": "genetics/topic07/#chi2-review_hypotheses-hypotheses_partner-button-container"
     },
     {
       "date": "2026-10-23",
@@ -5667,10 +5667,24 @@
     },
     {
       "date": "2026-10-23",
+      "name": "Null Hypotheses for Mendelian Offspring Ratios",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#chi2-select_hypothesis-null-button-container"
+    },
+    {
+      "date": "2026-10-23",
+      "name": "Hardy-Weinberg Chi-Square Test Conclusions",
+      "subject": "Genetics",
+      "topic": "Population Genetics",
+      "url": "genetics/topic10/#chi2-test_hardy_weinberg-button-container"
+    },
+    {
+      "date": "2026-10-23",
       "name": "Dihybrid Chi-Square Table Selection and Conclusions",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#chi_square_choices-button-container"
+      "url": "genetics/topic07/#chi2-choose_table-button-container"
     },
     {
       "date": "2026-10-23",
@@ -5684,7 +5698,7 @@
       "name": "Chi-Square Statistic from Dihybrid Offspring Counts (Support Null)",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#chi_square_calculated-SUPPORT-button-container"
+      "url": "genetics/topic07/#chi2-calculate_statistic-SUPPORT-button-container"
     },
     {
       "date": "2026-10-23",

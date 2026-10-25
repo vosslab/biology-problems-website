@@ -2200,77 +2200,77 @@
     },
     {
       "pagePath": "genetics/topic07/index.md",
-      "questionId": "bbq-chi_square_calculated-REJECT-questions.txt",
+      "questionId": "bbq-chi2-analyze_dice-calculate-MC-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic07",
       "topicTitle": "Chi Square Analysis"
     },
     {
       "pagePath": "genetics/topic07/index.md",
-      "questionId": "bbq-chi_square_calculated-SUPPORT-questions.txt",
+      "questionId": "bbq-chi2-analyze_dice-df-MC-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic07",
       "topicTitle": "Chi Square Analysis"
     },
     {
       "pagePath": "genetics/topic07/index.md",
-      "questionId": "bbq-chi_square_choices-questions.txt",
+      "questionId": "bbq-chi2-analyze_dice-expected-MC-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic07",
       "topicTitle": "Chi Square Analysis"
     },
     {
       "pagePath": "genetics/topic07/index.md",
-      "questionId": "bbq-chi_square_dice-calculate-MC-questions.txt",
+      "questionId": "bbq-chi2-analyze_dice-interpret-MC-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic07",
       "topicTitle": "Chi Square Analysis"
     },
     {
       "pagePath": "genetics/topic07/index.md",
-      "questionId": "bbq-chi_square_dice-df-MC-questions.txt",
+      "questionId": "bbq-chi2-calculate_statistic-REJECT-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic07",
       "topicTitle": "Chi Square Analysis"
     },
     {
       "pagePath": "genetics/topic07/index.md",
-      "questionId": "bbq-chi_square_dice-expected-MC-questions.txt",
+      "questionId": "bbq-chi2-calculate_statistic-SUPPORT-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic07",
       "topicTitle": "Chi Square Analysis"
     },
     {
       "pagePath": "genetics/topic07/index.md",
-      "questionId": "bbq-chi_square_dice-interpret-MC-questions.txt",
+      "questionId": "bbq-chi2-choose_table-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic07",
       "topicTitle": "Chi Square Analysis"
     },
     {
       "pagePath": "genetics/topic07/index.md",
-      "questionId": "bbq-chi_square_errors-questions.txt",
+      "questionId": "bbq-chi2-find_errors-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic07",
       "topicTitle": "Chi Square Analysis"
     },
     {
       "pagePath": "genetics/topic07/index.md",
-      "questionId": "bbq-chi_square_hypotheses-alt-questions.txt",
+      "questionId": "bbq-chi2-review_hypotheses-hypotheses_partner-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic07",
       "topicTitle": "Chi Square Analysis"
     },
     {
       "pagePath": "genetics/topic07/index.md",
-      "questionId": "bbq-chi_square_hypotheses-null-questions.txt",
+      "questionId": "bbq-chi2-select_hypothesis-alt-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic07",
       "topicTitle": "Chi Square Analysis"
     },
     {
       "pagePath": "genetics/topic07/index.md",
-      "questionId": "bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt",
+      "questionId": "bbq-chi2-select_hypothesis-null-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic07",
       "topicTitle": "Chi Square Analysis"
@@ -2585,7 +2585,7 @@
     },
     {
       "pagePath": "genetics/topic10/index.md",
-      "questionId": "bbq-chi_square_hardy_weinberg-questions.txt",
+      "questionId": "bbq-chi2-test_hardy_weinberg-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic10",
       "topicTitle": "Population Genetics"

@@ -85,20 +85,20 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="hardy-weinberg-equilibrium-test-conclusions">
+<section class="problem-set" markdown="1" aria-labelledby="hardy-weinberg-chi-square-test-conclusions">
 
-## 10.4 Hardy-Weinberg Equilibrium Test Conclusions {#hardy-weinberg-equilibrium-test-conclusions}
+## 10.4 Hardy-Weinberg Chi-Square Test Conclusions {#hardy-weinberg-chi-square-test-conclusions}
 
-<div id="chi_square_hardy_weinberg-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-chi_square_hardy_weinberg-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-chi_square_hardy_weinberg-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-chi_square_hardy_weinberg.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
-<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-chi_square_hardy_weinberg-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-chi_square_hardy_weinberg.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-chi_square_hardy_weinberg-questions.txt" data-format="human_readable" data-filename="human_readable-chi_square_hardy_weinberg.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<div id="chi2-test_hardy_weinberg-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-chi2-test_hardy_weinberg-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-chi2-test_hardy_weinberg-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-chi2-test_hardy_weinberg.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-chi2-test_hardy_weinberg-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-chi2-test_hardy_weinberg.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-chi2-test_hardy_weinberg-questions.txt" data-format="human_readable" data-filename="human_readable-chi2-test_hardy_weinberg.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div>
 
-<div class="qpm-selftest" data-bbq="bbq-chi_square_hardy_weinberg-questions.txt">
+<div class="qpm-selftest" data-bbq="bbq-chi2-test_hardy_weinberg-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Evaluate" title="Make judgments using criteria and standards through checking or critique.">Evaluate <span class="bloom-level">&#10116;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
