@@ -13,10 +13,10 @@
     },
     {
       "date": "2026-10-20",
-      "name": "Statistical Significance of Dice Roll Deviations",
+      "name": "Expected Face Counts for a Fair Die",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#chi2-analyze_dice-interpret-MC-button-container"
+      "url": "genetics/topic07/#chi2-analyze_dice-expected-count-MC-button-container"
     },
     {
       "date": "2026-10-20",
@@ -2723,45 +2723,34 @@
       "added": "2026-10-20",
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
-      "id": "genetics/topic07/bbq-chi2-analyze_dice-calculate-MC-questions.txt",
-      "name": "Chi-Square Calculations for Dice Rolls",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "updated": "2026-10-23",
-      "url": "genetics/topic07/#chi2-analyze_dice-calculate-MC-button-container"
-    },
-    {
-      "added": "2026-10-20",
-      "created": "2026-10-20",
-      "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
-      "id": "genetics/topic07/bbq-chi2-analyze_dice-df-MC-questions.txt",
+      "id": "genetics/topic07/bbq-chi2-analyze_dice-degrees-free-MC-questions.txt",
       "name": "Degrees of Freedom for a Six-Sided Die",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-23",
-      "url": "genetics/topic07/#chi2-analyze_dice-df-MC-button-container"
+      "updated": "2026-10-25",
+      "url": "genetics/topic07/#chi2-analyze_dice-degrees-free-MC-button-container"
     },
     {
       "added": "2026-10-20",
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
-      "id": "genetics/topic07/bbq-chi2-analyze_dice-expected-MC-questions.txt",
+      "id": "genetics/topic07/bbq-chi2-analyze_dice-expected-count-MC-questions.txt",
       "name": "Expected Face Counts for a Fair Die",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-23",
-      "url": "genetics/topic07/#chi2-analyze_dice-expected-MC-button-container"
+      "updated": "2026-10-25",
+      "url": "genetics/topic07/#chi2-analyze_dice-expected-count-MC-button-container"
     },
     {
       "added": "2026-10-20",
       "created": "2026-10-20",
       "family": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
-      "id": "genetics/topic07/bbq-chi2-analyze_dice-interpret-MC-questions.txt",
-      "name": "Statistical Significance of Dice Roll Deviations",
+      "id": "genetics/topic07/bbq-chi2-analyze_dice-row-calc-MC-questions.txt",
+      "name": "Chi-Square Row Calculations for Dice Rolls",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-23",
-      "url": "genetics/topic07/#chi2-analyze_dice-interpret-MC-button-container"
+      "updated": "2026-10-25",
+      "url": "genetics/topic07/#chi2-analyze_dice-row-calc-MC-button-container"
     },
     {
       "added": null,
@@ -2810,23 +2799,12 @@
     {
       "added": null,
       "created": "2026-01-04",
-      "family": "566b69080e0aee48e64db813efd8b176b4541653:inheritance-problems/chi_square/chi_square_hypotheses_lab_partner.py",
-      "id": "genetics/topic07/bbq-chi2-review_hypotheses-hypotheses_partner-questions.txt",
-      "name": "Null and Alternative Hypothesis Error Identification for Genetic Crosses",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "updated": "2026-10-23",
-      "url": "genetics/topic07/#chi2-review_hypotheses-hypotheses_partner-button-container"
-    },
-    {
-      "added": null,
-      "created": "2026-01-04",
       "family": "566b69080e0aee48e64db813efd8b176b4541653:inheritance-problems/chi_square/chi_square_hypotheses.py",
       "id": "genetics/topic07/bbq-chi2-select_hypothesis-alt-questions.txt",
       "name": "Alternative Hypotheses for Mendelian Offspring Ratios",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-23",
+      "updated": "2026-10-25",
       "url": "genetics/topic07/#chi2-select_hypothesis-alt-button-container"
     },
     {
@@ -2837,7 +2815,7 @@
       "name": "Null Hypotheses for Mendelian Offspring Ratios",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-23",
+      "updated": "2026-10-25",
       "url": "genetics/topic07/#chi2-select_hypothesis-null-button-container"
     },
     {
@@ -5592,7 +5570,7 @@
     {
       "icon": "\ud83e\udeb0",
       "key": "genetics",
-      "sets": 155,
+      "sets": 153,
       "title": "Genetics",
       "topics": 11,
       "url": "genetics/"
@@ -5639,24 +5617,24 @@
     }
   ],
   "totals": {
-    "sets": 492,
+    "sets": 490,
     "subjects": 7,
     "topics": 57
   },
   "updated": [
     {
-      "date": "2026-10-23",
-      "name": "Statistical Significance of Dice Roll Deviations",
+      "date": "2026-10-25",
+      "name": "Null Hypotheses for Mendelian Offspring Ratios",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#chi2-analyze_dice-interpret-MC-button-container"
+      "url": "genetics/topic07/#chi2-select_hypothesis-null-button-container"
     },
     {
-      "date": "2026-10-23",
-      "name": "Null and Alternative Hypothesis Error Identification for Genetic Crosses",
+      "date": "2026-10-25",
+      "name": "Expected Face Counts for a Fair Die",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#chi2-review_hypotheses-hypotheses_partner-button-container"
+      "url": "genetics/topic07/#chi2-analyze_dice-expected-count-MC-button-container"
     },
     {
       "date": "2026-10-23",
@@ -5664,13 +5642,6 @@
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "url": "genetics/topic07/#TFMS-chi-square-button-container"
-    },
-    {
-      "date": "2026-10-23",
-      "name": "Null Hypotheses for Mendelian Offspring Ratios",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#chi2-select_hypothesis-null-button-container"
     },
     {
       "date": "2026-10-23",
