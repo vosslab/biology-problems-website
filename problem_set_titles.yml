@@ -333,14 +333,12 @@ bbq-chargaff_dna_percent-5_choices-questions.txt: DNA Base Composition Using Cha
   Rules (5 Choices, MC)
 bbq-chemical_group_pka_forms-questions.txt: Protonation States of Chemical Groups
   (MA)
-bbq-chi2-analyze_dice-calculate-MC-questions.txt: Chi-Square Calculations for Dice
+bbq-chi2-analyze_dice-degrees-free-MC-questions.txt: Degrees of Freedom for a Six-Sided Die
+  (MC)
+bbq-chi2-analyze_dice-expected-count-MC-questions.txt: Expected Face Counts for a Fair Die
+  (MC)
+bbq-chi2-analyze_dice-row-calc-MC-questions.txt: Chi-Square Row Calculations for Dice
   Rolls (MC)
-bbq-chi2-analyze_dice-df-MC-questions.txt: Degrees of Freedom for a Six-Sided Die
-  (MC)
-bbq-chi2-analyze_dice-expected-MC-questions.txt: Expected Face Counts for a Fair Die
-  (MC)
-bbq-chi2-analyze_dice-interpret-MC-questions.txt: Statistical Significance of Dice
-  Roll Deviations (MC)
 bbq-chi2-calculate_statistic-REJECT-questions.txt: Chi-Square Statistic from Dihybrid
   Offspring Counts (Reject Null, NUM)
 bbq-chi2-calculate_statistic-SUPPORT-questions.txt: Chi-Square Statistic from Dihybrid
@@ -348,8 +346,6 @@ bbq-chi2-calculate_statistic-SUPPORT-questions.txt: Chi-Square Statistic from Di
 bbq-chi2-choose_table-questions.txt: Dihybrid Chi-Square Table Selection and Conclusions
   (MC)
 bbq-chi2-find_errors-questions.txt: Chi-Square Process Error Identification (MC)
-bbq-chi2-review_hypotheses-hypotheses_partner-questions.txt: Null and Alternative
-  Hypothesis Error Identification for Genetic Crosses (MC)
 bbq-chi2-select_hypothesis-alt-questions.txt: Alternative Hypotheses for Mendelian
   Offspring Ratios (MC)
 bbq-chi2-select_hypothesis-null-questions.txt: Null Hypotheses for Mendelian Offspring

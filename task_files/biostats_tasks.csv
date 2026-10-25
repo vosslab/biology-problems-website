@@ -31,7 +31,6 @@ biostatistics,statistical_tests,{bp_root}/biostatistics-problems/busse_woods_ano
 biostatistics,chi_square,YMATCH,,{bp_match}/biostatistics/chi-square_terms.yml,
 biostatistics,chi_square,YMCS,,{bp_mcs}/biostatistics/chi-square.yml,
 #biostatistics,chi_square,{bp_root}/chi_square/chi2-find_errors.py,,,
-#biostatistics,chi_square,{bp_root}/chi_square/chi2-review_hypotheses.py,,,
 ,,,,,
 #biostatistics,hardy_weinberg,{bp_root}/inheritance-problems/hardy_weinberg/hardy_weinberg_mc_type.py,,,
 #biostatistics,hardy_weinberg,{bp_root}/inheritance-problems/hardy_weinberg/hardy_weinberg_numeric.py,,,

@@ -4,6 +4,15 @@
 
 ### Behavior or Interface Changes
 
+- Retire the genetic-cross lab-partner hypothesis critique bank and its exact
+  registrations. Retain the null/alternative selection banks with observed counts
+  and clearer misconception-based choices. Preserve the Biostatistics critique bank.
+
+- Replace the dice calculation-error and interpretation tasks with `row-calc`
+  chi-square calculations. Use `degrees-free` and `expected-count` mode values with variable
+  misconception-based distractors; use plain degrees-of-freedom numbers and slanted
+  fractions with bold decimal results. Match bank filenames and metadata to the mode names.
+
 - Update chi-square generator paths in the Genetics, genetics probability, and
   Biostatistics task files to `problems/chi_square/chi2-*.py`, including commented
   task rows. Preserve task assignments and flags.
