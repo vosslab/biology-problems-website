@@ -71,7 +71,7 @@ genetics,chromosomal_inheritance,{bp_root}/inheritance-problems/pedigrees/write_
 genetics,chromosomal_inheritance,{bp_root}/inheritance-problems/pedigrees/write_pattern_to_pedigree.py,--easy --random-color,,
 genetics,chromosomal_inheritance,{bp_root}/inheritance-problems/pedigrees/write_pedigree_pattern_matching.py,--easy --random-color,,
 ,,,,,
-genetics,chi_square,{bp_root}/inheritance-problems/probabiliy_of_progeny.py,,,
+genetics,chi_square,{bp_root}/inheritance-problems/binomial/probabiliy_of_progeny.py,,,
 ,,,,,
 genetics,chromosomal_inheritance,{bp_root}/inheritance-problems/dominant_and_X-linked_recessive.py,,,
 genetics,chromosomal_inheritance,{bp_root}/inheritance-problems/dominant_and_X-linked_recessive_variations.py ,,,
