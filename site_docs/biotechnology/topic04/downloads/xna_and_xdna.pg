@@ -6,7 +6,7 @@
 ## DBsubject('Biotechnology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-15')
+## Date('2026-10-26')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -29,13 +29,10 @@ $showPartialCorrectAnswers = 1;
 
 @true_groups = (
   [
-    '<span style="color: #990000; font-weight:700;">XNA</span> has more than four nucleobase letters',
-  ],
-  [
     '<span style="color: #990000; font-weight:700;">XNA</span> has a modified sugar backbone',
   ],
   [
-    '<span style="color: #990000; font-weight:700;">XNA</span> can base pair with <span style="color: #000099;">natural DNA</span>',
+    'Some forms of <span style="color: #990000; font-weight:700;">XNA</span> can base pair with <span style="color: #000099;">natural DNA</span>',
   ],
   [
     '<span style="color: #990000; font-weight:700;">XNA</span> stands for Xeno Nucleic Acid',
@@ -57,9 +54,6 @@ $showPartialCorrectAnswers = 1;
   ],
 );
 @false_groups = (
-  [
-    '<span style="color: #007a00; font-weight:700;">xDNA</span> has more than four nucleobase letters',
-  ],
   [
     '<span style="color: #007a00; font-weight:700;">xDNA</span> has a modified sugar backbone',
   ],

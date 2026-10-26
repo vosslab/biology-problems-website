@@ -58,9 +58,9 @@ Students trace glucose through glycolysis to pyruvate, calculate net ATP and NAD
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="glycolysis-intermediate-ordering">
+<section class="problem-set" markdown="1" aria-labelledby="glycolysis-intermediate-structure-ordering-4-molecules">
 
-## 16.3 Glycolysis Intermediate Ordering {#glycolysis-intermediate-ordering}
+## 16.3 Glycolysis Intermediate Structure Ordering (4 Molecules) {#glycolysis-intermediate-structure-ordering-4-molecules}
 
 <div id="order_glycolysis_molecules-ORD-4_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-order_glycolysis_molecules-ORD-4_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -72,7 +72,7 @@ Students trace glucose through glycolysis to pyruvate, calculate net ATP and NAD
 <div class="qpm-selftest" data-bbq="bbq-order_glycolysis_molecules-ORD-4_choices-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-ord" title="Ordering">ORD</abbr></span>
-<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
+<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>

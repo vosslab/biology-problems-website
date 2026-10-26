@@ -10,6 +10,7 @@ bbq-Henderson-Hasselbalch-ratio_num-questions.txt: Apply, Procedural
 bbq-MATCH-amino_acids_properties-long_tables-questions.txt: Remember, Factual
 bbq-MATCH-amino_acids_properties-questions.txt: Remember, Factual
 bbq-MATCH-biochemical_functional_groups-questions.txt: Remember, Factual
+bbq-MATCH-biofuels-questions.txt: Remember, Factual
 bbq-MATCH-biotech_vs_improved-questions.txt: Understand, Conceptual
 bbq-MATCH-biotechnology_periods_and_milestones-questions.txt: Remember, Factual
 bbq-MATCH-bond_types-questions.txt: Understand, Conceptual
@@ -55,6 +56,7 @@ bbq-MATCH-polysaccharides-questions.txt: Remember, Factual
 bbq-MATCH-population_genetics_terms-questions.txt: Remember, Factual
 bbq-MATCH-protein_v_dna_gels-questions.txt: Remember, Factual
 bbq-MATCH-proteomics_v_metabolomics-questions.txt: Remember, Conceptual
+bbq-MATCH-remediation_sites-questions.txt: Remember, Factual
 bbq-MATCH-respiration-questions.txt: Remember, Factual
 bbq-MATCH-selecting_statistical_tests-questions.txt: Understand, Procedural
 bbq-MATCH-senses_receptor_types_by_modality-questions.txt: Remember, Factual
@@ -66,7 +68,11 @@ bbq-MATCH-theranos_people-questions.txt: Remember, Factual
 bbq-MATCH-transgenic_crop_regulators-questions.txt: Remember, Factual
 bbq-MATCH-trophic_classes-questions.txt: Remember, Conceptual
 bbq-MATCH-trophic_organisms-questions.txt: Remember, Conceptual
+bbq-MCORDER-microbial_16s_survey-6_items-questions.txt: Analyze, Procedural
+bbq-ORDER-glycolysis-11_items-questions.txt: Analyze, Conceptual
+bbq-ORDER-model_organism_complexity-7_items-questions.txt: Understand, Conceptual
 bbq-RT-qPCR-questions.txt: Apply, Procedural
+bbq-TFMS-bloodless_glucose-questions.txt: Understand, Conceptual
 bbq-TFMS-catalytic_strategies-questions.txt: Remember, Conceptual
 bbq-TFMS-cell_theory-questions.txt: Remember, Conceptual
 bbq-TFMS-chemical_reactions-questions.txt: Remember, Conceptual
@@ -104,6 +110,7 @@ bbq-TFMS-nucleotide_components-questions.txt: Remember, Factual
 bbq-TFMS-pcr_components-questions.txt: Remember, Factual
 bbq-TFMS-pcr_primers-questions.txt: Remember, Procedural
 bbq-TFMS-pcr_step_order-questions.txt: Remember, Procedural
+bbq-TFMS-plant_gene_methods-questions.txt: Remember, Factual
 bbq-TFMS-potential_v_kinetic_energy-questions.txt: Understand, Conceptual
 bbq-TFMS-proofreading-questions.txt: Remember, Conceptual
 bbq-TFMS-protein_stability-questions.txt: Remember, Conceptual
@@ -120,6 +127,7 @@ bbq-TFMS-xna_and_xdna-questions.txt: Remember, Factual
 bbq-WOMC-amino_acids_properties-long_tables-questions.txt: Remember, Factual
 bbq-WOMC-amino_acids_properties-questions.txt: Remember, Factual
 bbq-WOMC-biochemical_functional_groups-questions.txt: Remember, Factual
+bbq-WOMC-biofuels-questions.txt: Remember, Factual
 bbq-WOMC-biotech_vs_improved-questions.txt: Understand, Conceptual
 bbq-WOMC-biotechnology_periods_and_milestones-questions.txt: Remember, Factual
 bbq-WOMC-bond_types-questions.txt: Understand, Conceptual
@@ -165,6 +173,7 @@ bbq-WOMC-polysaccharides-questions.txt: Remember, Factual
 bbq-WOMC-population_genetics_terms-questions.txt: Remember, Factual
 bbq-WOMC-protein_v_dna_gels-questions.txt: Understand, Factual
 bbq-WOMC-proteomics_v_metabolomics-questions.txt: Remember, Conceptual
+bbq-WOMC-remediation_sites-questions.txt: Remember, Factual
 bbq-WOMC-respiration-questions.txt: Remember, Factual
 bbq-WOMC-selecting_statistical_tests-questions.txt: Apply, Procedural
 bbq-WOMC-senses_receptor_types_by_modality-questions.txt: Remember, Factual
@@ -201,6 +210,17 @@ bbq-busse_woods_two_sample_t_test-tails1-questions.txt: Apply, Procedural
 bbq-cell_surf-to-vol_ratio-questions.txt: Apply, Conceptual
 bbq-chargaff_dna_percent-5_choices-questions.txt: Apply, Procedural
 bbq-chemical_group_pka_forms-questions.txt: Apply, Conceptual
+bbq-chi2-analyze_dice-degrees-free-MC-questions.txt: Apply, Procedural
+bbq-chi2-analyze_dice-expected-count-MC-questions.txt: Apply, Procedural
+bbq-chi2-analyze_dice-row-calc-MC-questions.txt: Apply, Procedural
+bbq-chi2-calculate_statistic-REJECT-questions.txt: Apply, Procedural
+bbq-chi2-calculate_statistic-SUPPORT-questions.txt: Apply, Procedural
+bbq-chi2-choose_table-questions.txt: Apply, Procedural
+bbq-chi2-find_errors-questions.txt: Evaluate, Procedural
+bbq-chi2-select_hypothesis-alt-questions.txt: Understand, Conceptual
+bbq-chi2-select_hypothesis-null-questions.txt: Understand, Conceptual
+bbq-chi2-test_hardy_weinberg-questions.txt: Evaluate, Procedural
+bbq-chi_square_calculated-REJECT-questions.txt: Apply, Procedural
 bbq-chi_square_calculated-SUPPORT-questions.txt: Apply, Procedural
 bbq-chi_square_choices-questions.txt: Apply, Procedural
 bbq-chi_square_errors-questions.txt: Evaluate, Procedural
@@ -302,8 +322,7 @@ bbq-metabolic_pathway_allosteric-questions.txt: Understand, Conceptual
 bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt: Understand, Conceptual
 bbq-michaelis_menten_table-Km-questions.txt: Apply, Procedural
 bbq-michaelis_menten_table-inhibition-questions.txt: Understand, Conceptual
-bbq-microbial_16s_rdna_survey_order-ORD-6_choices-questions.txt: Analyze, Procedural
-bbq-model_organism_complexity_order-ORD-4_choices-questions.txt: Understand, Conceptual
+bbq-model_organism_complexity_order-ORD-4_choices-questions.txt: Analyze, Conceptual
 bbq-monohybrid_degrees_of_dominance-questions.txt: Understand, Conceptual
 bbq-monohybrid_genotype_statements-questions.txt: Apply, Conceptual
 bbq-monohybrid_litter_inference-questions.txt: Apply, Conceptual
@@ -315,7 +334,7 @@ bbq-optimal_buffering_range-questions.txt: Apply, Conceptual
 bbq-optimal_enzyme-type_1-questions.txt: Apply, Conceptual
 bbq-optimal_enzyme-type_2-questions.txt: Apply, Conceptual
 bbq-optimal_enzyme-type_3-questions.txt: Apply, Conceptual
-bbq-order_glycolysis_molecules-ORD-4_choices-questions.txt: Analyze, Conceptual
+bbq-order_glycolysis_molecules-ORD-4_choices-questions.txt: Analyze, Procedural
 bbq-orders_of_magnitude_mc-questions.txt: Apply, Procedural
 bbq-overhang_sequence-mc-questions.txt: Apply, Procedural
 bbq-overhang_type-5_3_blunt-questions.txt: Understand, Conceptual
@@ -414,14 +433,3 @@ bbq-x_linked_reciprocal_cross-questions.txt: Apply, Conceptual
 bbq-x_linked_tortoiseshell-questions.txt: Apply, Procedural
 bbq-z_score_google_sheet-questions.txt: Apply, Procedural
 bbq-z_score_table_interp-questions.txt: Apply, Procedural
-bbq-chi_square_calculated-REJECT-questions.txt: Apply, Procedural
-bbq-chi2-calculate_statistic-SUPPORT-questions.txt: Apply, Procedural
-bbq-chi2-choose_table-questions.txt: Apply, Procedural
-bbq-chi2-analyze_dice-degrees-free-MC-questions.txt: Apply, Procedural
-bbq-chi2-analyze_dice-expected-count-MC-questions.txt: Apply, Procedural
-bbq-chi2-analyze_dice-row-calc-MC-questions.txt: Apply, Procedural
-bbq-chi2-find_errors-questions.txt: Evaluate, Procedural
-bbq-chi2-test_hardy_weinberg-questions.txt: Evaluate, Procedural
-bbq-chi2-select_hypothesis-alt-questions.txt: Understand, Conceptual
-bbq-chi2-select_hypothesis-null-questions.txt: Understand, Conceptual
-bbq-chi2-calculate_statistic-REJECT-questions.txt: Apply, Procedural

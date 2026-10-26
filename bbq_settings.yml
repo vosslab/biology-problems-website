@@ -2,10 +2,13 @@
 paths:
   bp_root: "~/nsh/PROBLEMS/biology-problems/problems"
   qti_package_maker: "~/nsh/PROBLEMS/qti-package-maker"
+  bp_order: "{bp_root}/ordering"
   bp_match: "{bp_root}/matching_sets"
   bp_mcs: "{bp_root}/multiple_choice_statements"
 
 script_aliases:
+  YORDER: "{bp_order}/yaml_order_to_bbq.py"
+  YMCORDER: "{bp_order}/yaml_mc_order_to_bbq.py"
   YMATCH:
     - "{bp_match}/yaml_match_to_bbq.py"
     - "{bp_match}/yaml_which_one_mc_to_bbq.py"

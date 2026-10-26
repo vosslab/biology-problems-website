@@ -109,6 +109,8 @@ def task_label(task: dict, index: int, output_path: str, cmd_list: list) -> str:
 	if script_path:
 		script_base = os.path.basename(script_path)
 		if script_base in (
+			"yaml_order_to_bbq.py",
+			"yaml_mc_order_to_bbq.py",
 			"yaml_match_to_bbq.py",
 			"yaml_which_one_mc_to_bbq.py",
 			"yaml_mc_statements_to_bbq.py",

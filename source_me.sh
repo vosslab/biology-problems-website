@@ -22,16 +22,8 @@ export PYTHONDONTWRITEBYTECODE=1
 # import them. Runs after ~/.bashrc, which clears PYTHONPATH.
 #   local-llm-wrapper : LLM client (also on PyPI as local-llm-wrapper)
 #   qti-package-maker : qti_package_maker package used by bbq_converter.py
-prepend_pythonpath() {
-	# Prepend a directory to PYTHONPATH when it exists and is not already listed.
-	local dir="$1"
-	[ -d "$dir" ] || return 0
-	case ":${PYTHONPATH:-}:" in
-		*":$dir:"*) ;;
-		*) export PYTHONPATH="$dir${PYTHONPATH:+:$PYTHONPATH}" ;;
-	esac
-}
-
-prepend_pythonpath "$HOME/nsh/local-llm-wrapper"
-prepend_pythonpath "$HOME/nsh/PROBLEMS/qti-package-maker"
-unset -f prepend_pythonpath
+ADDPATH="$HOME/nsh/local-llm-wrapper"
+export PYTHONPATH="${ADDPATH}${PYTHONPATH:+:$PYTHONPATH}"
+ADDPATH="$HOME/nsh/PROBLEMS/qti-package-maker"
+export PYTHONPATH="${ADDPATH}${PYTHONPATH:+:$PYTHONPATH}"
+unset ADDPATH

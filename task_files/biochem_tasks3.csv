@@ -50,7 +50,7 @@ biochemistry,senses,YMATCH,,{bp_match}/cell_biology/senses_receptor_types_by_mod
 biochemistry,senses,YMATCH,,{bp_match}/cell_biology/senses_signal_transduction_matching_set.yml,
 biochemistry,senses,YMATCH,,{bp_match}/cell_biology/senses_taste_quality_to_stimulus.yml,
 ,,,,,
-biochemistry,sugar_metabolism,{bp_root}/biochemistry-problems/PUBCHEM/GLYCOLYSIS/order_glycolysis_molecules.py,,,
+biochemistry,sugar_metabolism,YORDER,,{bp_order}/biochemistry/glycolysis.yml,
 biochemistry,sugar_metabolism,YMATCH,,{bp_match}/biochemistry/respiration.yml,
 ,,,,,
 biochemistry,photosynthesis,{bp_root}/biochemistry-problems/photosynthetic_light_pigments.py,,,

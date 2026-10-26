@@ -1,12 +1,12 @@
-## TITLE('Topic of a &YEAR; Nobel Prizes Awarded This Week')
+## TITLE('The 2026 Nobel Prizes')
 ## DESCRIPTION
-## Select the statement that is TRUE or FALSE about topic of a &YEAR; Nobel Prizes awarded this week.
+## Select the statement that is TRUE or FALSE about the 2026 Nobel Prizes.
 ## ENDDESCRIPTION
-## KEYWORDS('topic of a &YEAR; Nobel Prizes awarded this week','true/false','multiple choice')
+## KEYWORDS('the 2026 Nobel Prizes','true/false','multiple choice')
 ## DBsubject('Biotechnology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-15')
+## Date('2026-10-26')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -29,16 +29,16 @@ $showPartialCorrectAnswers = 1;
 
 @true_groups = (
   [
-    'discoveries concerning the genomes of extinct hominins and human evolution',
+    'discoveries of light-sensitive ion channels that allow researchers to control nerve-cell activity using light',
   ],
   [
-    'development of click chemistry in which molecular building blocks snap together quickly and efficiently',
+    'discovery of nonlinear effects in reactions that favor one mirror-image form of a molecule over the other',
   ],
   [
-    'development of bioorthogonal chemistry reactions that take place without disrupting the normal chemistry of the cell',
+    'discovery of reactions in which a product helps make more of its own mirror-image form',
   ],
   [
-    'establishing the violation of Bell inequalities and pioneering quantum information science using entangled photons',
+    'development of the IceCube observatory to detect high-energy neutrinos arriving from distant sources in space',
   ],
 );
 @false_groups = (
@@ -129,22 +129,62 @@ $showPartialCorrectAnswers = 1;
   [
     'discovery of the interplay of disorder and fluctuations in physical systems from atomic to planetary scales',
   ],
+  [
+    'discoveries concerning the genomes of extinct hominins and human evolution',
+  ],
+  [
+    'development of click chemistry in which molecular building blocks snap together quickly and efficiently',
+  ],
+  [
+    'development of bioorthogonal chemistry reactions that take place without disrupting the normal chemistry of the cell',
+  ],
+  [
+    'establishing the violation of Bell inequalities and pioneering quantum information science using entangled photons',
+  ],
+  [
+    'discoveries of modified RNA bases that made effective mRNA vaccines against COVID-19 possible',
+  ],
+  [
+    'discovery and production of quantum dots whose tiny size determines the colors of light they produce',
+  ],
+  [
+    'development of extremely short light pulses used to study the movement of electrons in matter',
+  ],
+  [
+    'development of computer methods for designing new proteins with structures and functions NOT found in nature',
+  ],
+  [
+    q{development of artificial intelligence methods for predicting a protein's three-dimensional structure from its amino acid sequence},
+  ],
+  [
+    'discovery of microRNA molecules and their role in controlling gene activity after RNA is made',
+  ],
+  [
+    'development of artificial neural networks that allow computers to learn patterns from examples',
+  ],
+  [
+    q{discoveries of immune controls that prevent the body's defenses from attacking its own healthy tissues},
+  ],
+  [
+    'development of metal-organic frameworks with tiny spaces that can trap gases and other molecules',
+  ],
+  [
+    'discovery of quantum tunnelling and separate energy levels in an electrical circuit large enough to build in a laboratory',
+  ],
 );
 
 #==========================================================
 # GLOBAL SETTINGS
 #==========================================================
 
-$topic = 'topic of a &YEAR; Nobel Prizes awarded this week';
+$topic = 'the 2026 Nobel Prizes';
 my $local_random = PGrandom->new();
 $local_random->srand($problemSeed);
 my @mode_choices = ("TRUE", "FALSE");
 $mode = $mode_choices[$local_random->random(0, $#mode_choices, 1)];
 $num_distractors = 4;
 # Question text with TRUE override
-$question_true = 'BONUS: Which of the following was a topic of the 2022 Nobel Prizes awarded this week?';
-# Question text with FALSE override
-$question_false = 'BONUS: Which of the following was NOT a topic of the 2022 Nobel Prizes awarded this week??';
+$question_true = 'Which of the following was a topic of the 2026 Nobel Prizes?';
 #==========================================================
 # SELECT GROUP
 #==========================================================
@@ -217,7 +257,7 @@ $rb = RadioButtons(
 
 BEGIN_PGML
 
-[@ $mode eq "TRUE" ? $question_true : $question_false @]*
+[@ $mode eq "TRUE" ? $question_true : "Which one of the following statements is <span style='color: #ba372a;'><strong>FALSE</strong></span> about $topic?" @]*
 
 [_]{$rb}
 

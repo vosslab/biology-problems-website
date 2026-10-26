@@ -1,5 +1,31 @@
 # Changelog
 
+## 2026-10-25
+
+### YAML ordering
+
+- Register YORDER and YMCORDER with the existing task loader and bank-specific output
+  discovery. Migrate the 16S, model-organism, and glycolysis tasks to their YAML banks.
+  Preserve curated classifications and titles; organism ordering now uses all seven ranks
+  and glycolysis all eleven intermediates. No generated site artifacts are replaced.
+
+- Merge biofuel sources and challenges into `biofuels.yml`, with two alternate
+  descriptions per type. Use one website task and retain a ten-point selection
+  by assigning culture enrichment two points.
+
+### Biotechnology topic04
+
+- Rebuild plant genetic modification questions from the cleaned bank: eleven prompts,
+  three descriptions each, with specific functions and no trait labels that reveal answers.
+- Refresh the Nobel bank and title to 2026; earlier prize topics are distractors and
+  every question asks students to select a current-year topic.
+- Use the MC version of the 16S workflow and remove its old ORDER bank from this topic.
+- Add slide-based remediation sites, biofuel sources, biofuel challenges, glucose measurement,
+  and basic Agrobacterium/gene-gun/CRISPR questions. Update titles and rebuild the local topic
+  and catalogs. Keep the existing `environmental_biotech` assignment.
+- The suggested homework selects ten questions at one point each; points are set in Blackboard.
+  Local generation and browser previews were checked; Blackboard import was not tested.
+
 ## 2026-10-24
 
 ### Behavior or Interface Changes

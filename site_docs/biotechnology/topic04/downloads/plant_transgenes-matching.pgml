@@ -1,11 +1,11 @@
 ## DESCRIPTION
-## Match each of the following transgenes with their corresponding descriptions.
+## Match each of the following genes and genetic modifications with their corresponding functions.
 ## ENDDESCRIPTION
-## KEYWORDS('transgenes','descriptions')
+## KEYWORDS('genes and genetic modifications','functions')
 ## DBsubject('Biotechnology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-15')
+## Date('2026-10-26')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -26,64 +26,60 @@ our @ALPHABET = ('A' .. 'Z');
 # Full matching data
 # ================================
 %match_data = (
-  'DREB1A' => [
-    q{Enhances the plant's ability to retain water under drought conditions},
-    'Activates stress-responsive genes to help cope with arid environments',
-    'Primarily found in plants that are modified to thrive in drought-prone areas',
-    'Known for its role in enhancing abiotic stress tolerance, particularly drought',
-    'Increases the osmotic potential in plants, allowing them to survive longer without water',
+  'DREB1A gene' => [
+    'Turns on genes that help plants respond to drought and other stresses',
+    'Activates genes that help plants tolerate drought and other stresses',
+    'Coordinates several genes involved in coping with water shortage',
   ],
-  'Cry/Bt' => [
-    'Functions by producing a protein toxic to specific insect larvae',
-    'Commonly utilized in crops like corn and cotton to reduce reliance on chemical pesticides',
-    'Is derived from the bacterium Bacillus thuringiensis',
-    'Binds to receptors in the insect gut, leading to cell lysis and death',
-    'Considered an environmentally friendly method for pest control as it reduces chemical pesticide use',
-    q{Often integrated into plant genomes to produce Cry proteins throughout the plant's lifecycle},
+  'Cry/Bt genes' => [
+    'Produces a protein that damages the gut of susceptible insect larvae',
+    'Produces a toxin that kills susceptible insect larvae when they eat the crop',
+    'Makes a bacterial toxin that protects crops against certain insect pests',
   ],
-  'AVP1' => [
-    'Encodes a proton pump that helps plants tolerate salty environments',
-    'Increases root growth and biomass in transgenic plants',
-    'Plays a key role in vacuolar proton transport',
-    'Often engineered into plants that require high salt tolerance',
-    'Enhances water-use efficiency by increasing cellular ion retention',
-    'Associated with improved phosphorus uptake in plants',
+  'AVP1 gene' => [
+    'Produces a proton pump that helps store dissolved substances in plant vacuoles',
+    'Produces a vacuolar proton pump that helps plants tolerate salt stress',
+    'Increases proton pumping into vacuoles, helping plants retain water during salt stress',
   ],
-  'aro A (Glyphosate Resistant)' => [
-    'Allows for resistance to glyphosate herbicides',
-    'Developed by transferring aro A gene into a glyphosate EPSP synthetase from Salmonella typhimurium and E. coli',
+  'Modified aroA gene' => [
+    'Allows plants to keep making amino acids when treated with glyphosate',
+    'Produces a form of EPSPS that still works in the presence of glyphosate',
+    'Produces an enzyme that resists glyphosate, the herbicide sold as Roundup',
   ],
-  'Mutant ALS (Sulphonylurea Resistant)' => [
-    'Encodes for a mutant acetolactate synthetase that allows for resistance to Sulphonylurea herbicides',
-    'Originates from Arabidopsis',
+  'Modified ALS gene' => [
+    'Allows plants to keep making amino acids when treated with sulfonylureas',
+    'Produces an amino acid synthesis enzyme that resists sulfonylurea herbicides',
+    'Keeps an amino acid synthesis pathway working in plants exposed to sulfonylureas',
   ],
-  'QB Protein (Atrazine Resistant)' => [
-    'Derived from mutant Amaranthus hybrids',
-    'Produces atrazine-resistant transgenic plants',
+  'Modified QB protein gene' => [
+    'Allows photosynthesis to continue when plants are treated with atrazine',
+    'Protects photosynthetic electron transport from being blocked by atrazine',
+    'Reduces atrazine binding at its target in the photosynthetic machinery',
   ],
-  'TMV Coat Proteins (Virus Resistant)' => [
-    'Provides resistance against Tobacco Mosaic Virus (TMV)',
-    'Developed by introducing viral coat proteins',
+  'TMV coat protein gene' => [
+    'Helps protect plants against infection by tobacco mosaic virus',
+    'Gives plants resistance to the virus that causes tobacco mosaic disease',
+    'Reduces disease caused by tobacco mosaic virus in susceptible plants',
   ],
-  'Beta-Carotene Genes (Nutritional Benefits)' => [
-    'Increases production of beta-carotene as a precursor to vitamin A',
-    'Derived from daffodils and microorganisms',
+  'Golden Rice genes' => [
+    'Enable production of beta-carotene, a vitamin A precursor, in the grain',
+    'Add enzymes that make a vitamin A precursor in the edible grain',
+    'Increase beta-carotene in grain so it supplies a precursor of vitamin A',
   ],
-  'Salt Tolerance Gene (from Mangroves)' => [
-    'Provides salt tolerance',
-    'Derived from Avicennia marina',
+  'gutD gene' => [
+    'Helps maize build up sorbitol, a sugar alcohol linked to salt tolerance',
+    'Increases sorbitol production in maize, which can help with salt tolerance',
+    'Adds a bacterial enzyme that helps maize accumulate sorbitol during growth',
   ],
-  'gut D Gene (Salt Tolerance)' => [
-    'Used to generate salt-tolerant transgenic maize plants',
-    'Originates from Escherichia coli',
+  'Human antibody genes' => [
+    'Allow plants to make proteins that bind specific targets for medical use',
+    'Turn plant cells into a source of proteins that bind disease targets',
+    'Direct plants to produce immune-system proteins for use as medicines',
   ],
-  'Therapeutic Proteins' => [
-    'Produces antibodies, proteins, or vaccines for therapeutic use',
-    'Could be useful for various diseases ranging from dental caries to certain cancers',
-  ],
-  'Enhanced Shelf Life Genes' => [
-    'Provides enhanced ability to withstand long-distance transportation',
-    'Allows for longer shelf life of produce',
+  'Antisense PG construct' => [
+    'Reduces production of an enzyme that breaks down pectin in fruit cell walls',
+    'Lowers the amount of a pectin-degrading enzyme made in ripening tomatoes',
+    'Reduces pectin breakdown by lowering production of a fruit cell-wall enzyme',
   ],
 );
 
@@ -137,18 +133,17 @@ push(@answers, (map { $_->[1] } @q_and_a));
 # HTML-safe answer labels
 # -------------------------------
 %answer_html = (
-  'DREB1A' => 'DREB1A',
-  'Cry/Bt' => 'Cry/Bt',
-  'AVP1' => 'AVP1',
-  'aro A (Glyphosate Resistant)' => 'aro A (Glyphosate Resistant)',
-  'Mutant ALS (Sulphonylurea Resistant)' => 'Mutant ALS (Sulphonylurea Resistant)',
-  'QB Protein (Atrazine Resistant)' => 'QB Protein (Atrazine Resistant)',
-  'TMV Coat Proteins (Virus Resistant)' => 'TMV Coat Proteins (Virus Resistant)',
-  'Beta-Carotene Genes (Nutritional Benefits)' => 'Beta-Carotene Genes (Nutritional Benefits)',
-  'Salt Tolerance Gene (from Mangroves)' => 'Salt Tolerance Gene (from Mangroves)',
-  'gut D Gene (Salt Tolerance)' => 'gut D Gene (Salt Tolerance)',
-  'Therapeutic Proteins' => 'Therapeutic Proteins',
-  'Enhanced Shelf Life Genes' => 'Enhanced Shelf Life Genes',
+  'DREB1A gene' => 'DREB1A gene',
+  'Cry/Bt genes' => 'Cry/Bt genes',
+  'AVP1 gene' => 'AVP1 gene',
+  'Modified aroA gene' => 'Modified aroA gene',
+  'Modified ALS gene' => 'Modified ALS gene',
+  'Modified QB protein gene' => 'Modified QB protein gene',
+  'TMV coat protein gene' => 'TMV coat protein gene',
+  'Golden Rice genes' => 'Golden Rice genes',
+  'gutD gene' => 'gutD gene',
+  'Human antibody genes' => 'Human antibody genes',
+  'Antisense PG construct' => 'Antisense PG construct',
 );
 
 @answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
@@ -192,7 +187,7 @@ HEADER_TEXT(<<END_STYLE);
 </style>
 END_STYLE
 
-$question_text = 'Match each of the following transgenes with their corresponding descriptions.';
+$question_text = 'Match each of the following genes and genetic modifications with their corresponding functions.';
 $note_text = 'Note: Each choice will be used exactly once.';
 
 BEGIN_PGML

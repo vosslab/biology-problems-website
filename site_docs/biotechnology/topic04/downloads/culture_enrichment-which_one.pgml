@@ -5,7 +5,7 @@
 ## DBsubject('Laboratory Techniques')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-15')
+## Date('2026-10-26')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -29,83 +29,23 @@ $showPartialCorrectAnswers = 0;
 # All questions data
 @questions_data = (
   {
-    'item_name' => '<strong>adding heavy isotopes to an environmental sample to distinguish actively growing organisms</strong>',
+    'item_name' => '<strong>identifies microbes that use a labeled food source by separating their heavier DNA</strong>',
     'plural_choice' => 'methods of culture enrichment',
     'singular_item' => 'description',
     'choices' => [
-      'stable isotope probing (SIP)',
+      'DNA stable isotope probing (DNA-SIP)',
       'RNA stable isotope probing (RNA-SIP)',
       'suppressive subtraction hybridization (SSH)',
       'BrdU',
     ],
-    'correct' => 'stable isotope probing (SIP)',
+    'correct' => 'DNA stable isotope probing (DNA-SIP)',
   },
   {
-    'item_name' => '<strong>substrate is enriched with a heavy isotopes to be consumed by the organisms to be studied</strong>',
+    'item_name' => '<strong>identifies microbes that use a labeled food source by separating their heavier RNA</strong>',
     'plural_choice' => 'methods of culture enrichment',
     'singular_item' => 'description',
     'choices' => [
-      'stable isotope probing (SIP)',
-      'RNA stable isotope probing (RNA-SIP)',
-      'suppressive subtraction hybridization (SSH)',
-      'BrdU',
-    ],
-    'correct' => 'stable isotope probing (SIP)',
-  },
-  {
-    'item_name' => '<strong>relies on the consuption of a substrate that is highly enriched by an isotope, such as <sup>13</sup>C</strong>',
-    'plural_choice' => 'methods of culture enrichment',
-    'singular_item' => 'description',
-    'choices' => [
-      'stable isotope probing (SIP)',
-      'RNA stable isotope probing (RNA-SIP)',
-      'suppressive subtraction hybridization (SSH)',
-      'BrdU',
-    ],
-    'correct' => 'stable isotope probing (SIP)',
-  },
-  {
-    'item_name' => '<strong>isotope-labeled carbon (<sup>13</sup>C) or nitrogen (<sup>15</sup>N) sources are assimilated into microbial environmental samples</strong>',
-    'plural_choice' => 'methods of culture enrichment',
-    'singular_item' => 'description',
-    'choices' => [
-      'stable isotope probing (SIP)',
-      'RNA stable isotope probing (RNA-SIP)',
-      'suppressive subtraction hybridization (SSH)',
-      'BrdU',
-    ],
-    'correct' => 'stable isotope probing (SIP)',
-  },
-  {
-    'item_name' => '<strong>adding heavy isotopes into SSU ribosomal RNA to distinguish metabolically active organisms</strong>',
-    'plural_choice' => 'methods of culture enrichment',
-    'singular_item' => 'description',
-    'choices' => [
-      'stable isotope probing (SIP)',
-      'RNA stable isotope probing (RNA-SIP)',
-      'suppressive subtraction hybridization (SSH)',
-      'BrdU',
-    ],
-    'correct' => 'RNA stable isotope probing (RNA-SIP)',
-  },
-  {
-    'item_name' => '<strong>active labeled substrate metabolism and incorporation of heavier mass isotopes into the RNA</strong>',
-    'plural_choice' => 'methods of culture enrichment',
-    'singular_item' => 'description',
-    'choices' => [
-      'stable isotope probing (SIP)',
-      'RNA stable isotope probing (RNA-SIP)',
-      'suppressive subtraction hybridization (SSH)',
-      'BrdU',
-    ],
-    'correct' => 'RNA stable isotope probing (RNA-SIP)',
-  },
-  {
-    'item_name' => '<strong>environmental sample of 16S rRNA from bacteria is labeled with a carbon isotope (<sup>13</sup>C)</strong>',
-    'plural_choice' => 'methods of culture enrichment',
-    'singular_item' => 'description',
-    'choices' => [
-      'stable isotope probing (SIP)',
+      'DNA stable isotope probing (DNA-SIP)',
       'RNA stable isotope probing (RNA-SIP)',
       'suppressive subtraction hybridization (SSH)',
       'BrdU',
@@ -117,7 +57,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'methods of culture enrichment',
     'singular_item' => 'description',
     'choices' => [
-      'stable isotope probing (SIP)',
+      'DNA stable isotope probing (DNA-SIP)',
       'RNA stable isotope probing (RNA-SIP)',
       'suppressive subtraction hybridization (SSH)',
       'BrdU',
@@ -129,7 +69,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'methods of culture enrichment',
     'singular_item' => 'description',
     'choices' => [
-      'stable isotope probing (SIP)',
+      'DNA stable isotope probing (DNA-SIP)',
       'RNA stable isotope probing (RNA-SIP)',
       'suppressive subtraction hybridization (SSH)',
       'BrdU',
@@ -137,11 +77,11 @@ $showPartialCorrectAnswers = 0;
     'correct' => 'suppressive subtraction hybridization (SSH)',
   },
   {
-    'item_name' => '<strong>identical mRNA is removed from two different samples leaving only mRNA that is different</strong>',
+    'item_name' => '<strong>shared DNA sequences are removed to find differences between two microbial samples</strong>',
     'plural_choice' => 'methods of culture enrichment',
     'singular_item' => 'description',
     'choices' => [
-      'stable isotope probing (SIP)',
+      'DNA stable isotope probing (DNA-SIP)',
       'RNA stable isotope probing (RNA-SIP)',
       'suppressive subtraction hybridization (SSH)',
       'BrdU',
@@ -153,7 +93,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'methods of culture enrichment',
     'singular_item' => 'description',
     'choices' => [
-      'stable isotope probing (SIP)',
+      'DNA stable isotope probing (DNA-SIP)',
       'RNA stable isotope probing (RNA-SIP)',
       'suppressive subtraction hybridization (SSH)',
       'BrdU',
@@ -165,7 +105,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'methods of culture enrichment',
     'singular_item' => 'description',
     'choices' => [
-      'stable isotope probing (SIP)',
+      'DNA stable isotope probing (DNA-SIP)',
       'RNA stable isotope probing (RNA-SIP)',
       'suppressive subtraction hybridization (SSH)',
       'BrdU',
@@ -177,7 +117,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'methods of culture enrichment',
     'singular_item' => 'description',
     'choices' => [
-      'stable isotope probing (SIP)',
+      'DNA stable isotope probing (DNA-SIP)',
       'RNA stable isotope probing (RNA-SIP)',
       'suppressive subtraction hybridization (SSH)',
       'BrdU',

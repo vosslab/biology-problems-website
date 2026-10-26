@@ -11,6 +11,8 @@ import bioproblems_site.topic_aliases
 
 
 INPUT_SCRIPT_BASENAMES = {
+	"yaml_order_to_bbq.py",
+	"yaml_mc_order_to_bbq.py",
 	"yaml_match_to_bbq.py",
 	"yaml_which_one_mc_to_bbq.py",
 	"yaml_make_which_one_multiple_choice.py",

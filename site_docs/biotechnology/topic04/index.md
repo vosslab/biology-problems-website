@@ -8,9 +8,34 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 
 </div>
 
+<section class="problem-set" markdown="1" aria-labelledby="biofuel-sources-and-challenges">
+
+## 4.1 Biofuel Sources and Challenges {#biofuel-sources-and-challenges}
+
+<div id="MATCH-biofuels-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-MATCH-biofuels-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-MATCH-biofuels-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-biofuels.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-MATCH-biofuels-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-biofuels.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-MATCH-biofuels-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-biofuels.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/biofuels-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qpm-package-status" role="status" aria-live="polite"></span>
+<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-MATCH-biofuels-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
+<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
+</div>
+  <div class="selftest-reroll-content"></div>
+</div>
+
+
+</section>
+
 <section class="problem-set" markdown="1" aria-labelledby="culture-enrichment-methods-from-descriptions">
 
-## 4.1 Culture Enrichment Methods from Descriptions {#culture-enrichment-methods-from-descriptions}
+## 4.2 Culture Enrichment Methods from Descriptions {#culture-enrichment-methods-from-descriptions}
 
 <div id="MATCH-culture_enrichment-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-culture_enrichment-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -33,9 +58,9 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="plant-transgenes-from-functions">
+<section class="problem-set" markdown="1" aria-labelledby="plant-genetic-modifications-from-functions">
 
-## 4.2 Plant Transgenes from Functions {#plant-transgenes-from-functions}
+## 4.3 Plant Genetic Modifications from Functions {#plant-genetic-modifications-from-functions}
 
 <div id="MATCH-plant_transgenes-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-plant_transgenes-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -58,9 +83,83 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="2022-nobel-prize-topics">
+<section class="problem-set" markdown="1" aria-labelledby="remediation-categories-from-sites">
 
-## 4.3 2022 Nobel Prize Topics {#2022-nobel-prize-topics}
+## 4.4 Remediation Categories from Sites {#remediation-categories-from-sites}
+
+<div id="MATCH-remediation_sites-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-MATCH-remediation_sites-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-MATCH-remediation_sites-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-remediation_sites.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-MATCH-remediation_sites-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-remediation_sites.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-MATCH-remediation_sites-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-remediation_sites.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/remediation_sites-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qpm-package-status" role="status" aria-live="polite"></span>
+<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-MATCH-remediation_sites-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
+<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
+</div>
+  <div class="selftest-reroll-content"></div>
+</div>
+
+
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="environmental-16s-rdna-survey-workflow-6-steps">
+
+## 4.5 Environmental 16S rDNA Survey Workflow (6 Steps) {#environmental-16s-rdna-survey-workflow-6-steps}
+
+<div id="MCORDER-microbial_16s_survey-6_items-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-MCORDER-microbial_16s_survey-6_items-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-MCORDER-microbial_16s_survey-6_items-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MCORDER-microbial_16s_survey-6_items.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-MCORDER-microbial_16s_survey-6_items-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MCORDER-microbial_16s_survey-6_items.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-MCORDER-microbial_16s_survey-6_items-questions.txt" data-format="human_readable" data-filename="human_readable-MCORDER-microbial_16s_survey-6_items.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<span class="qpm-package-status" role="status" aria-live="polite"></span>
+<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-MCORDER-microbial_16s_survey-6_items-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
+</div>
+  <div class="selftest-reroll-content"></div>
+</div>
+
+
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="glucose-measurement-through-skin">
+
+## 4.6 Glucose Measurement Through Skin {#glucose-measurement-through-skin}
+
+<div id="TFMS-bloodless_glucose-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-TFMS-bloodless_glucose-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-TFMS-bloodless_glucose-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-bloodless_glucose.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-TFMS-bloodless_glucose-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-bloodless_glucose.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-TFMS-bloodless_glucose-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-bloodless_glucose.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/bloodless_glucose.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qpm-package-status" role="status" aria-live="polite"></span>
+<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-TFMS-bloodless_glucose-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
+<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
+</div>
+  <div class="selftest-reroll-content"></div>
+</div>
+
+
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="2026-nobel-prize-topics">
+
+## 4.7 2026 Nobel Prize Topics {#2026-nobel-prize-topics}
 
 <div id="TFMS-nobel_prizes-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-nobel_prizes-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -83,9 +182,34 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 
 </section>
 
+<section class="problem-set" markdown="1" aria-labelledby="agrobacterium-gene-guns-and-crispr">
+
+## 4.8 Agrobacterium, Gene Guns, and CRISPR {#agrobacterium-gene-guns-and-crispr}
+
+<div id="TFMS-plant_gene_methods-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-TFMS-plant_gene_methods-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-TFMS-plant_gene_methods-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-plant_gene_methods.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-TFMS-plant_gene_methods-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-plant_gene_methods.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-TFMS-plant_gene_methods-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-plant_gene_methods.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/plant_gene_methods.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qpm-package-status" role="status" aria-live="polite"></span>
+<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-TFMS-plant_gene_methods-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
+<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
+</div>
+  <div class="selftest-reroll-content"></div>
+</div>
+
+
+</section>
+
 <section class="problem-set" markdown="1" aria-labelledby="xdna-and-xna">
 
-## 4.4 xDNA and XNA {#xdna-and-xna}
+## 4.9 xDNA and XNA {#xdna-and-xna}
 
 <div id="TFMS-xna_and_xdna-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-xna_and_xdna-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -108,9 +232,34 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 
 </section>
 
+<section class="problem-set" markdown="1" aria-labelledby="biofuel-sources-and-challenges_1">
+
+## 4.10 Biofuel Sources and Challenges {#biofuel-sources-and-challenges_1}
+
+<div id="WOMC-biofuels-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-WOMC-biofuels-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-WOMC-biofuels-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-biofuels.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-WOMC-biofuels-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-biofuels.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-WOMC-biofuels-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-biofuels.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/biofuels-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qpm-package-status" role="status" aria-live="polite"></span>
+<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-WOMC-biofuels-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
+<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
+</div>
+  <div class="selftest-reroll-content"></div>
+</div>
+
+
+</section>
+
 <section class="problem-set" markdown="1" aria-labelledby="culture-enrichment-methods-from-descriptions_1">
 
-## 4.5 Culture Enrichment Methods from Descriptions {#culture-enrichment-methods-from-descriptions_1}
+## 4.11 Culture Enrichment Methods from Descriptions {#culture-enrichment-methods-from-descriptions_1}
 
 <div id="WOMC-culture_enrichment-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-culture_enrichment-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -133,9 +282,9 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="plant-transgenes-from-functions_1">
+<section class="problem-set" markdown="1" aria-labelledby="plant-genetic-modifications-from-functions_1">
 
-## 4.6 Plant Transgenes from Functions {#plant-transgenes-from-functions_1}
+## 4.12 Plant Genetic Modifications from Functions {#plant-genetic-modifications-from-functions_1}
 
 <div id="WOMC-plant_transgenes-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-plant_transgenes-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -158,21 +307,24 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="environmental-16s-rdna-survey-workflow-6-steps">
+<section class="problem-set" markdown="1" aria-labelledby="sites-by-remediation-category">
 
-## 4.7 Environmental 16S rDNA Survey Workflow (6 Steps) {#environmental-16s-rdna-survey-workflow-6-steps}
+## 4.13 Sites by Remediation Category {#sites-by-remediation-category}
 
-<div id="microbial_16s_rdna_survey_order-ORD-6_choices-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-microbial_16s_rdna_survey_order-ORD-6_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-microbial_16s_rdna_survey_order-ORD-6_choices-questions.txt" data-format="human_readable" data-filename="human_readable-microbial_16s_rdna_survey_order-ORD-6_choices.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<div id="WOMC-remediation_sites-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-WOMC-remediation_sites-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-WOMC-remediation_sites-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-remediation_sites.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-WOMC-remediation_sites-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-remediation_sites.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-WOMC-remediation_sites-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-remediation_sites.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/remediation_sites-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div>
 
-<div class="qpm-selftest" data-bbq="bbq-microbial_16s_rdna_survey_order-ORD-6_choices-questions.txt">
+<div class="qpm-selftest" data-bbq="bbq-WOMC-remediation_sites-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
-<span class="question-type-badges"><abbr class="question-type question-type-ord" title="Ordering">ORD</abbr></span>
-<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
+<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Remember" title="Retrieve relevant knowledge from memory by recognizing or recalling.">Remember <span class="bloom-level">&#10112;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Factual" title="Knowledge of basic elements, terminology, and specific details.">Factual <span class="bloom-level">&#10112;</span></span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>

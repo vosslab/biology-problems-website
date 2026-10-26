@@ -332,9 +332,9 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="model-organisms-by-complexity-4-organisms">
+<section class="problem-set" markdown="1" aria-labelledby="model-organisms-by-increasing-complexity-4-organisms">
 
-## 1.14 Model Organisms by Complexity (4 Organisms) {#model-organisms-by-complexity-4-organisms}
+## 1.14 Model Organisms by Increasing Complexity (4 Organisms) {#model-organisms-by-increasing-complexity-4-organisms}
 
 <div id="model_organism_complexity_order-ORD-4_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-model_organism_complexity_order-ORD-4_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -346,7 +346,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <div class="qpm-selftest" data-bbq="bbq-model_organism_complexity_order-ORD-4_choices-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-ord" title="Ordering">ORD</abbr></span>
-<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
+<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>

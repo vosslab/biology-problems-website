@@ -17,7 +17,7 @@ Questions ask students to design cloning strategies with restriction enzymes and
 3. [Protein Biotechnology](topic03/index.md) <span class='topic-count' title='8 question sets'>8 question sets</span>
     - Students examine proteomics, western blotting, mass spectrometry, phage display, ELISA, recombinant expression systems, directed evolution, AlphaFold, cryo-EM, and de novo protein design.
 
-4. [Environmental and Synthetic Biology](topic04/index.md) <span class='topic-count' title='7 question sets'>7 question sets</span>
+4. [Environmental and Synthetic Biology](topic04/index.md) <span class='topic-count' title='13 question sets'>13 question sets</span>
     - Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, biosensors, Agrobacterium, gene guns, transgenic organisms, and GMO applications.
 
 5. [Medicinal Biotechnology](topic05/index.md) <span class='topic-count' title='4 question sets'>4 question sets</span>

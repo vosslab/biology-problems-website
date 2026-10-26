@@ -1647,61 +1647,117 @@
     "source_path": "problems/biochemistry-problems/electrophoresis/protein_gel_migration.py",
     "source_updated": "2026-01-19"
   },
+  "biotechnology/topic04/bbq-MATCH-biofuels-questions.txt": {
+    "output_fingerprint": "43bd5f8f5093035f94dbb640a6ece347c1f149e62b362203a9cf1ae5875c00c5",
+    "source_commit": "8e2d49825dbc62dde5134560e1015be5ace71b74",
+    "source_fingerprint": "d47899554976f9517f59a02d9f4b183352fa1e1969e62125c0fddaea8364f021",
+    "source_id": "8e2d49825dbc62dde5134560e1015be5ace71b74:problems/matching_sets/biotechnology/biofuels.yml",
+    "source_path": "problems/matching_sets/biotechnology/biofuels.yml",
+    "source_updated": "2026-10-25"
+  },
   "biotechnology/topic04/bbq-MATCH-culture_enrichment-questions.txt": {
-    "output_fingerprint": "ac50abbda4ae7fee1b6e2b489789befa3b66724866bb0d7549acd23ddd10002e",
-    "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
-    "source_fingerprint": "11de079e075bcd07eea227991ebd86b23fcdd88a9d53ddecb75ffae3d7a29bd7",
+    "output_fingerprint": "db8fc5a3589d114afb456bde95bd4d45c37ceed93961b8cb8729816ec33089f0",
+    "source_commit": "8e2d49825dbc62dde5134560e1015be5ace71b74",
+    "source_fingerprint": "d4cdb26a06bc0b133b08aeeea745b3392dab3cf479c119d75cd8bfc5d8b6ccb0",
     "source_id": "3f3ed46bac1f2f313cd59707f0c833e538094f39:matching_sets/culture_enrichment.yml",
     "source_path": "problems/matching_sets/biotechnology/culture_enrichment.yml",
-    "source_updated": "2026-01-23"
+    "source_updated": "2026-10-25"
   },
   "biotechnology/topic04/bbq-MATCH-plant_transgenes-questions.txt": {
-    "output_fingerprint": "6e1974c1db18402cfe122340cfdfc57f6f3d1aa44c67d255734ed1f1a2f2550f",
-    "source_commit": "1c1d6e7ec6739470031e1f7fabde529685a43e80",
-    "source_fingerprint": "3774b61f588b1d5d3ea11ce54d7228388eb09f0627f370ab921d0b414e8471a7",
+    "output_fingerprint": "cb9b270b1d8a47234cfa09a416318a2998efe63f67c02fd830bc503b38c96cc4",
+    "source_commit": "8e2d49825dbc62dde5134560e1015be5ace71b74",
+    "source_fingerprint": "770d9cd54d51d44b1fef522fbc210b598483ef7b1ab8b9b53caf7bae5606a44c",
     "source_id": "c67ee1b54c28c9f7d9953544746d2ae73ca120b4:matching_sets/plant_transgenes.yml",
     "source_path": "problems/matching_sets/biotechnology/plant_transgenes.yml",
-    "source_updated": "2026-07-12"
+    "source_updated": "2026-10-25"
+  },
+  "biotechnology/topic04/bbq-MATCH-remediation_sites-questions.txt": {
+    "output_fingerprint": "78e52e37cf15da3cc84288696ebba7f0ca702238b745b43d181e1f27c51bd8b0",
+    "source_commit": "8e2d49825dbc62dde5134560e1015be5ace71b74",
+    "source_fingerprint": "b8e49e5f10108ee1cd5ce6032317abff9a6ff161561adc1c4bbfd480f47221c7",
+    "source_id": "8e2d49825dbc62dde5134560e1015be5ace71b74:problems/matching_sets/biotechnology/remediation_sites.yml",
+    "source_path": "problems/matching_sets/biotechnology/remediation_sites.yml",
+    "source_updated": "2026-10-25"
+  },
+  "biotechnology/topic04/bbq-MCORDER-microbial_16s_survey-6_items-questions.txt": {
+    "output_fingerprint": "04af9b35b4e0ca0a9020377d3618bdb57559beaefa57ca79ed71ce33596032f1",
+    "source_commit": "119c995c6e08f0e190799c13236edb36a39a91a3",
+    "source_fingerprint": "0d97ae68cbc6e8db0fc5f7d8c89f56886129df35f233290035c83e0788bd7971",
+    "source_id": "119c995c6e08f0e190799c13236edb36a39a91a3:problems/ordering/biotechnology/microbial_16s_survey.yml",
+    "source_path": "problems/ordering/biotechnology/microbial_16s_survey.yml",
+    "source_updated": "2026-10-26"
+  },
+  "biotechnology/topic04/bbq-TFMS-bloodless_glucose-questions.txt": {
+    "output_fingerprint": "4f25e2f6fdc199d787df57d87b912dcff98a9e0649007539d5a3776c9f703b75",
+    "source_commit": "8e2d49825dbc62dde5134560e1015be5ace71b74",
+    "source_fingerprint": "d91dea9e3a0b0230b15d97a655f38d4146a867730e634db5674ac560d6ba9ed0",
+    "source_id": "8e2d49825dbc62dde5134560e1015be5ace71b74:problems/multiple_choice_statements/biotechnology/bloodless_glucose.yml",
+    "source_path": "problems/multiple_choice_statements/biotechnology/bloodless_glucose.yml",
+    "source_updated": "2026-10-25"
   },
   "biotechnology/topic04/bbq-TFMS-nobel_prizes-questions.txt": {
-    "output_fingerprint": "6671f603917022581540927a65a7e7f40b305ab5254d2170d2da847da48b6c1e",
-    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
-    "source_fingerprint": "33024f618f6726a891a23b12af03a2bd13ef03034c708ef98af1c27be93e4588",
+    "output_fingerprint": "7e1702e457c76db1325752b5c28a32215a73a9fb7380b281b3749388bea8cb9d",
+    "source_commit": "8e2d49825dbc62dde5134560e1015be5ace71b74",
+    "source_fingerprint": "858239c5cf6e2f64290f2db9aff33b2cf5e0fda2c64bf05cc2067a8bdcd94f9a",
     "source_id": "c6f63be74c6c3190d43f680021d6bb152b528a15:multiple_choice_statements/nobel_prizes.yml",
     "source_path": "problems/multiple_choice_statements/biotechnology/nobel_prizes.yml",
-    "source_updated": "2026-10-06"
+    "source_updated": "2026-10-25"
+  },
+  "biotechnology/topic04/bbq-TFMS-plant_gene_methods-questions.txt": {
+    "output_fingerprint": "9ddc9d272667821d4c3ea576294922d3122dd8ae4a9606f4ffbb1e6eb933c772",
+    "source_commit": "8e2d49825dbc62dde5134560e1015be5ace71b74",
+    "source_fingerprint": "b67cca370fca7de1f069267be1ef8180a25f21a177f1fafab8198bb955428a9e",
+    "source_id": "8e2d49825dbc62dde5134560e1015be5ace71b74:problems/multiple_choice_statements/biotechnology/plant_gene_methods.yml",
+    "source_path": "problems/multiple_choice_statements/biotechnology/plant_gene_methods.yml",
+    "source_updated": "2026-10-25"
   },
   "biotechnology/topic04/bbq-TFMS-xna_and_xdna-questions.txt": {
-    "output_fingerprint": "c027b26bd98b6fbda10ea74a782273093d307a4e718356c23c7619b36610e669",
-    "source_commit": "2be140127c1c7a6befc6c72c48f9f9b98c3686cb",
-    "source_fingerprint": "faa867069ed637ff5d2e00ecff7af7611fc3bd41c48ac78418ae462f8237b310",
+    "output_fingerprint": "c6bcfab85ddc9108488e5ce59c892f3a42af383a631dd54fe79921f4b4b102fd",
+    "source_commit": "8e2d49825dbc62dde5134560e1015be5ace71b74",
+    "source_fingerprint": "c77724e36dbfe2bbda6ab242be1cc01c0c6ce4999de0df73c6a68076cffc8756",
     "source_id": "0ad588726728addf2e0212420fb8bb1100547dae:multiple_choice_statements/xna_and_xdna.yml",
     "source_path": "problems/multiple_choice_statements/biotechnology/xna_and_xdna.yml",
-    "source_updated": "2026-03-05"
+    "source_updated": "2026-10-25"
+  },
+  "biotechnology/topic04/bbq-WOMC-biofuels-questions.txt": {
+    "output_fingerprint": "f1adcfd5bdfce0c8af0b77106079766c5c2f29182b553077990efd93bb2b3f5e",
+    "source_commit": "8e2d49825dbc62dde5134560e1015be5ace71b74",
+    "source_fingerprint": "d47899554976f9517f59a02d9f4b183352fa1e1969e62125c0fddaea8364f021",
+    "source_id": "8e2d49825dbc62dde5134560e1015be5ace71b74:problems/matching_sets/biotechnology/biofuels.yml",
+    "source_path": "problems/matching_sets/biotechnology/biofuels.yml",
+    "source_updated": "2026-10-25"
   },
   "biotechnology/topic04/bbq-WOMC-culture_enrichment-questions.txt": {
-    "output_fingerprint": "dacfa4667fe3958c4906c7cadaa295e45b08d88883069f317d5d4a1ab92db416",
-    "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
-    "source_fingerprint": "11de079e075bcd07eea227991ebd86b23fcdd88a9d53ddecb75ffae3d7a29bd7",
+    "output_fingerprint": "4f6af40757574be59aea193a5d02a2acecd24cabf543d0bcf54b2d07441679e6",
+    "source_commit": "8e2d49825dbc62dde5134560e1015be5ace71b74",
+    "source_fingerprint": "d4cdb26a06bc0b133b08aeeea745b3392dab3cf479c119d75cd8bfc5d8b6ccb0",
     "source_id": "3f3ed46bac1f2f313cd59707f0c833e538094f39:matching_sets/culture_enrichment.yml",
     "source_path": "problems/matching_sets/biotechnology/culture_enrichment.yml",
-    "source_updated": "2026-01-23"
+    "source_updated": "2026-10-25"
   },
   "biotechnology/topic04/bbq-WOMC-plant_transgenes-questions.txt": {
-    "output_fingerprint": "6cb6b3877412029c93161ebdcb904c2cec1795ed026a81b5d9b7e087e999e852",
-    "source_commit": "1c1d6e7ec6739470031e1f7fabde529685a43e80",
-    "source_fingerprint": "3774b61f588b1d5d3ea11ce54d7228388eb09f0627f370ab921d0b414e8471a7",
+    "output_fingerprint": "a41808f2671e631a0636b4b3e4d5f4c6134e10b39522ed5c8789bb5b1980a2da",
+    "source_commit": "8e2d49825dbc62dde5134560e1015be5ace71b74",
+    "source_fingerprint": "770d9cd54d51d44b1fef522fbc210b598483ef7b1ab8b9b53caf7bae5606a44c",
     "source_id": "c67ee1b54c28c9f7d9953544746d2ae73ca120b4:matching_sets/plant_transgenes.yml",
     "source_path": "problems/matching_sets/biotechnology/plant_transgenes.yml",
-    "source_updated": "2026-07-12"
+    "source_updated": "2026-10-25"
   },
-  "biotechnology/topic04/bbq-microbial_16s_rdna_survey_order-ORD-6_choices-questions.txt": {
-    "output_fingerprint": "1484962d1739c680d3252847b96e66f1e5f639f7e469e4379a2d8ce47942406d",
-    "source_commit": "d99cd51d15eae9772d0ecd83b7f5925c3ce531bf",
-    "source_fingerprint": "a31df4761c082aab4c114018e4506a562d6c4e67e7f339bccb2cf222d212eb64",
+  "biotechnology/topic04/bbq-WOMC-remediation_sites-questions.txt": {
+    "output_fingerprint": "9c117c693d7456d0876903c041d22cd3cf09642ea5c1c1d9618a599da19daa8e",
+    "source_commit": "8e2d49825dbc62dde5134560e1015be5ace71b74",
+    "source_fingerprint": "b8e49e5f10108ee1cd5ce6032317abff9a6ff161561adc1c4bbfd480f47221c7",
+    "source_id": "8e2d49825dbc62dde5134560e1015be5ace71b74:problems/matching_sets/biotechnology/remediation_sites.yml",
+    "source_path": "problems/matching_sets/biotechnology/remediation_sites.yml",
+    "source_updated": "2026-10-25"
+  },
+  "biotechnology/topic04/bbq-microbial_16s_rdna_survey_order-MC-6_steps-questions.txt": {
+    "output_fingerprint": "eb37b916e5585457e19958a0f4623b33bfcc8dde1a2b326ef03f3607a9e071bb",
+    "source_commit": null,
+    "source_fingerprint": "8617cc3a3a193d91e71d7d8ab35e03844902a343d2c9cd9c6ceb6093f2375ad1",
     "source_id": "cd7ae3b6237a9aa940d0a575bc2f49dd1751e2e4:problems/biotechnology-problems/microbial_16s_rdna_survey_order.py",
     "source_path": "problems/biotechnology-problems/microbial_16s_rdna_survey_order.py",
-    "source_updated": "2026-09-28"
+    "source_updated": null
   },
   "biotechnology/topic05/bbq-MATCH-gene_therapy_v_edit-questions.txt": {
     "output_fingerprint": "e0fb372c411eee25391850bf14269ec0baccb9f1c539a899254e6be7d6127a7f",
