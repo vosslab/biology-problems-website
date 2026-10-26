@@ -1,0 +1,381 @@
+## DESCRIPTION
+## Select the biofuel type that corresponds to the given description.
+## ENDDESCRIPTION
+## KEYWORDS('biofuel types','descriptions','which one','multiple choice')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-10-26')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>Corn kernels used to make ethanol</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Starch-based Biofuels',
+  },
+  {
+    'item_name' => '<strong>Ethanol made from sugars released from corn grain</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Starch-based Biofuels',
+  },
+  {
+    'item_name' => '<strong>Fuel made by breaking down grain into sugars and fermenting them</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Starch-based Biofuels',
+  },
+  {
+    'item_name' => '<strong>Using edible grain to make ethanol competes with using it for food</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Starch-based Biofuels',
+  },
+  {
+    'item_name' => '<strong>Making fuel from corn grain competes with food production</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Starch-based Biofuels',
+  },
+  {
+    'item_name' => '<strong>Using grain for fuel leaves less of that grain available for food</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Starch-based Biofuels',
+  },
+  {
+    'item_name' => '<strong>Wood, grasses, or crop stalks used to make ethanol</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Cellulose-based Biofuels',
+  },
+  {
+    'item_name' => '<strong>Ethanol made from sugars released from wood and crop stalks</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Cellulose-based Biofuels',
+  },
+  {
+    'item_name' => '<strong>Fuel made from the tough cell walls of grasses and other plants</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Cellulose-based Biofuels',
+  },
+  {
+    'item_name' => '<strong>Releasing sugars from tough plant cell walls takes extra processing</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Cellulose-based Biofuels',
+  },
+  {
+    'item_name' => '<strong>Tough plant cell walls must be broken down before their sugars can be fermented</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Cellulose-based Biofuels',
+  },
+  {
+    'item_name' => '<strong>Getting usable sugars out of wood and crop stalks requires extra processing</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Cellulose-based Biofuels',
+  },
+  {
+    'item_name' => '<strong>Vegetable oils, animal fats, or used cooking oil</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Conventional Biodiesel',
+  },
+  {
+    'item_name' => '<strong>Fuel made by chemically processing vegetable oils or animal fats</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Conventional Biodiesel',
+  },
+  {
+    'item_name' => '<strong>Used frying oil processed into fuel for diesel engines</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Conventional Biodiesel',
+  },
+  {
+    'item_name' => '<strong>Water and free fatty acids in used cooking oil complicate processing</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Conventional Biodiesel',
+  },
+  {
+    'item_name' => '<strong>Used frying oil may need treatment to remove water before making fuel</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Conventional Biodiesel',
+  },
+  {
+    'item_name' => '<strong>Free fatty acids in used cooking oil can interfere with making the fuel</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Conventional Biodiesel',
+  },
+  {
+    'item_name' => '<strong>Oils from microscopic photosynthetic cells grown in ponds or tanks</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Algae-based Biodiesel',
+  },
+  {
+    'item_name' => '<strong>Fuel made from oils collected from tiny photosynthetic cells grown in water</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Algae-based Biodiesel',
+  },
+  {
+    'item_name' => '<strong>Oils produced by microscopic pond-grown cells and processed into diesel fuel</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Algae-based Biodiesel',
+  },
+  {
+    'item_name' => '<strong>Extracting oil from microscopic cells requires separating it from other cell material</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Algae-based Biodiesel',
+  },
+  {
+    'item_name' => '<strong>Getting oil out of microscopic cells and away from the cell debris is difficult</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Algae-based Biodiesel',
+  },
+  {
+    'item_name' => '<strong>Oil from microscopic photosynthetic cells must be separated from the rest of the cell contents</strong>',
+    'plural_choice' => 'biofuel types',
+    'singular_item' => 'description',
+    'choices' => [
+      'Starch-based Biofuels',
+      'Cellulose-based Biofuels',
+      'Conventional Biodiesel',
+      'Algae-based Biodiesel',
+    ],
+    'correct' => 'Algae-based Biodiesel',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+
