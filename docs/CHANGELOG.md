@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-27
+
+- Register the four-gene test-cross distance-and-order bonus generator in the genetics
+  gene-mapping task CSV alongside the existing three-gene questions.
+
 ## 2026-10-25
 
 ### YAML ordering

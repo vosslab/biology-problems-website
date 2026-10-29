@@ -4,6 +4,7 @@ genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/tetrad_unorder
 genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/tetrad_unordered_three_gene-find_one_distance.py,,,
 genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/tetrad_unordered_two_gene-find_distance.py,,,
 genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/tetrad_unordered_two_gene-test_linkage.py,,,
+genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/four_point_test-cross_gene_map-distances_plus.py,,,
 genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/three-point_test_cross-distances_plus.py,,,
 genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/three-point_test_cross-find_interence.py,--mc,,
 genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/three-point_test_cross-find_interence.py,--num,,
