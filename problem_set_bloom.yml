@@ -280,6 +280,7 @@ bbq-fatty_acid_naming_delta-questions.txt: Apply, Procedural
 bbq-fatty_acid_naming_omega-questions.txt: Apply, Procedural
 bbq-feedback_merging_pathway-questions.txt: Analyze, Conceptual
 bbq-feedback_splitting_pathway-questions.txt: Analyze, Conceptual
+bbq-four_point_test-cross_gene_map-distances_plus-questions.txt: Apply, Procedural
 bbq-free_energy_keq_relationship-questions.txt: Understand, Conceptual
 bbq-fret_overlap_colors-questions.txt: Apply, Conceptual
 bbq-fret_permute_colors-questions.txt: Apply, Conceptual

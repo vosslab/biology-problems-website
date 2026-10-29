@@ -466,6 +466,8 @@ bbq-feedback_merging_pathway-questions.txt: Metabolic Regulation in Converging P
   (MC)
 bbq-feedback_splitting_pathway-questions.txt: Metabolic Regulation in Diverging Pathways
   (MC)
+bbq-four_point_test-cross_gene_map-distances_plus-questions.txt: Gene Order and Pairwise
+  Recombination Distances from Four-Point Test Crosses (MULTI_FIB)
 bbq-free_energy_keq_relationship-questions.txt: Gibbs Free Energy Change and Equilibrium
   Constant Relationships (MC)
 bbq-fret_overlap_colors-questions.txt: FRET Donor-Acceptor Pairs from Spectral Overlap
@@ -754,4 +756,4 @@ bbq-x_linked_reciprocal_cross-questions.txt: X-Linked Eye Color Inheritance (MC)
 bbq-x_linked_tortoiseshell-questions.txt: X-Linked Coat Color Probability (MC)
 bbq-z_score_google_sheet-questions.txt: Z-Scores in Google Sheets (MC)
 bbq-z_score_table_interp-questions.txt: Biodiversity Comparisons Using Z-Scores (MC)
-last edit: Mon Oct 26 07:37:22 2026
+last edit: Wed Oct 28 19:19:02 2026
