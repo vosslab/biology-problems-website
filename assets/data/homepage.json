@@ -8,6 +8,41 @@
   },
   "new": [
     {
+      "date": "2026-10-26",
+      "name": "Sites by Remediation Category",
+      "subject": "Biotechnology",
+      "topic": "Environmental and Synthetic Biology",
+      "url": "biotechnology/topic04/#WOMC-remediation_sites-button-container"
+    },
+    {
+      "date": "2026-10-26",
+      "name": "Glucose Measurement Through Skin",
+      "subject": "Biotechnology",
+      "topic": "Environmental and Synthetic Biology",
+      "url": "biotechnology/topic04/#TFMS-bloodless_glucose-button-container"
+    },
+    {
+      "date": "2026-10-26",
+      "name": "Environmental 16S rDNA Survey Workflow (6 Steps)",
+      "subject": "Biotechnology",
+      "topic": "Environmental and Synthetic Biology",
+      "url": "biotechnology/topic04/#MCORDER-microbial_16s_survey-6_items-button-container"
+    },
+    {
+      "date": "2026-10-26",
+      "name": "Biofuel Sources and Challenges",
+      "subject": "Biotechnology",
+      "topic": "Environmental and Synthetic Biology",
+      "url": "biotechnology/topic04/#MATCH-biofuels-button-container"
+    },
+    {
+      "date": "2026-10-26",
+      "name": "Agrobacterium, Gene Guns, and CRISPR",
+      "subject": "Biotechnology",
+      "topic": "Environmental and Synthetic Biology",
+      "url": "biotechnology/topic04/#TFMS-plant_gene_methods-button-container"
+    },
+    {
       "date": "2026-10-20",
       "name": "Expected Face Counts for a Fair Die",
       "subject": "Genetics",
@@ -2817,13 +2852,24 @@
     },
     {
       "added": null,
+      "created": "2021-10-20",
+      "family": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
+      "id": "genetics/topic08/bbq-four_point_test-cross_gene_map-distances_plus-questions.txt",
+      "name": "Gene Order and Pairwise Recombination Distances from Four-Point Test Crosses",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "updated": "2026-10-27",
+      "url": "genetics/topic08/#four_point_test-cross_gene_map-distances_plus-button-container"
+    },
+    {
+      "added": null,
       "created": "2023-11-08",
       "family": "d865b5bf1d9c787d57e133be98be9bf574114dbb:inheritance-problems/ordered_tetrad-centromere_distance.py",
       "id": "genetics/topic08/bbq-tetrad_ordered-centromere_distance-MC-questions.txt",
       "name": "Gene-to-Centromere Distance from Ordered Tetrads",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-10-16",
       "url": "genetics/topic08/#tetrad_ordered-centromere_distance-MC-button-container"
     },
     {
@@ -2878,7 +2924,7 @@
       "name": "Gene Order and Map Distances from Three-Point Test Crosses",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-01-11",
       "url": "genetics/topic08/#three-point_test_cross-distances_plus-button-container"
     },
     {
@@ -4961,7 +5007,7 @@
       "url": "biotechnology/topic03/#protein_gel_migration-button-container"
     },
     {
-      "added": null,
+      "added": "2026-10-26",
       "created": "2026-10-25",
       "family": "8e2d49825dbc62dde5134560e1015be5ace71b74:problems/matching_sets/biotechnology/biofuels.yml",
       "id": "biotechnology/topic04/bbq-MATCH-biofuels-questions.txt",
@@ -4994,7 +5040,7 @@
       "url": "biotechnology/topic04/#MATCH-plant_transgenes-button-container"
     },
     {
-      "added": null,
+      "added": "2026-10-26",
       "created": "2026-10-25",
       "family": "8e2d49825dbc62dde5134560e1015be5ace71b74:problems/matching_sets/biotechnology/remediation_sites.yml",
       "id": "biotechnology/topic04/bbq-MATCH-remediation_sites-questions.txt",
@@ -5005,7 +5051,7 @@
       "url": "biotechnology/topic04/#MATCH-remediation_sites-button-container"
     },
     {
-      "added": null,
+      "added": "2026-10-26",
       "created": "2026-10-26",
       "family": "119c995c6e08f0e190799c13236edb36a39a91a3:problems/ordering/biotechnology/microbial_16s_survey.yml",
       "id": "biotechnology/topic04/bbq-MCORDER-microbial_16s_survey-6_items-questions.txt",
@@ -5016,7 +5062,7 @@
       "url": "biotechnology/topic04/#MCORDER-microbial_16s_survey-6_items-button-container"
     },
     {
-      "added": null,
+      "added": "2026-10-26",
       "created": "2026-10-25",
       "family": "8e2d49825dbc62dde5134560e1015be5ace71b74:problems/multiple_choice_statements/biotechnology/bloodless_glucose.yml",
       "id": "biotechnology/topic04/bbq-TFMS-bloodless_glucose-questions.txt",
@@ -5038,7 +5084,7 @@
       "url": "biotechnology/topic04/#TFMS-nobel_prizes-button-container"
     },
     {
-      "added": null,
+      "added": "2026-10-26",
       "created": "2026-10-25",
       "family": "8e2d49825dbc62dde5134560e1015be5ace71b74:problems/multiple_choice_statements/biotechnology/plant_gene_methods.yml",
       "id": "biotechnology/topic04/bbq-TFMS-plant_gene_methods-questions.txt",
@@ -5060,7 +5106,7 @@
       "url": "biotechnology/topic04/#TFMS-xna_and_xdna-button-container"
     },
     {
-      "added": null,
+      "added": "2026-10-26",
       "created": "2026-10-25",
       "family": "8e2d49825dbc62dde5134560e1015be5ace71b74:problems/matching_sets/biotechnology/biofuels.yml",
       "id": "biotechnology/topic04/bbq-WOMC-biofuels-questions.txt",
@@ -5093,7 +5139,7 @@
       "url": "biotechnology/topic04/#WOMC-plant_transgenes-button-container"
     },
     {
-      "added": null,
+      "added": "2026-10-26",
       "created": "2026-10-25",
       "family": "8e2d49825dbc62dde5134560e1015be5ace71b74:problems/matching_sets/biotechnology/remediation_sites.yml",
       "id": "biotechnology/topic04/bbq-WOMC-remediation_sites-questions.txt",
@@ -5589,7 +5635,7 @@
     {
       "icon": "\ud83e\udeb0",
       "key": "genetics",
-      "sets": 153,
+      "sets": 154,
       "title": "Genetics",
       "topics": 11,
       "url": "genetics/"
@@ -5636,11 +5682,18 @@
     }
   ],
   "totals": {
-    "sets": 494,
+    "sets": 495,
     "subjects": 7,
     "topics": 57
   },
   "updated": [
+    {
+      "date": "2026-10-27",
+      "name": "Gene Order and Pairwise Recombination Distances from Four-Point Test Crosses",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "url": "genetics/topic08/#four_point_test-cross_gene_map-distances_plus-button-container"
+    },
     {
       "date": "2026-10-25",
       "name": "xDNA and XNA",
@@ -5717,6 +5770,13 @@
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "url": "genetics/topic07/#chi2-calculate_statistic-SUPPORT-button-container"
+    },
+    {
+      "date": "2026-10-16",
+      "name": "Gene-to-Centromere Distance from Ordered Tetrads",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "url": "genetics/topic08/#tetrad_ordered-centromere_distance-MC-button-container"
     },
     {
       "date": "2026-10-13",
@@ -6501,13 +6561,6 @@
       "subject": "Biochemistry",
       "topic": "Nucleic Acids",
       "url": "biochemistry/topic11/#TFMS-melting_Tm_type_2b-button-container"
-    },
-    {
-      "date": "2026-04-19",
-      "name": "Three-Point Test Cross: Parental Genotypes from Progeny Counts",
-      "subject": "Genetics",
-      "topic": "Gene Mapping",
-      "url": "genetics/topic08/#three-point_test_cross-which_genotypes-PARENTAL-button-container"
     },
     {
       "date": "2026-04-19",

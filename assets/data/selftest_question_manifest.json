@@ -2326,6 +2326,13 @@
     },
     {
       "pagePath": "genetics/topic08/index.md",
+      "questionId": "bbq-four_point_test-cross_gene_map-distances_plus-questions.txt",
+      "subjectKey": "genetics",
+      "topicKey": "topic08",
+      "topicTitle": "Gene Mapping"
+    },
+    {
+      "pagePath": "genetics/topic08/index.md",
       "questionId": "bbq-tetrad_ordered-centromere_distance-MC-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic08",
