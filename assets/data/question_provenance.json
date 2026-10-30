@@ -2792,7 +2792,7 @@
     "source_updated": "2026-10-23"
   },
   "genetics/topic08/bbq-four_point_test-cross_gene_map-distances_plus-questions.txt": {
-    "output_fingerprint": "08b7319cafc354d6973eae14a4ed5eadb139dee7a5bed7321a738e0394789f3c",
+    "output_fingerprint": "99c71196b6fc20354bde04c18b1c475ae55fc8eefb9e67e7e8db89c7c04afe50",
     "source_commit": "cc465cad736e63b1b5f26109149686e4f669ec4e",
     "source_fingerprint": "d9b6e77d0832efea30a1082ab7dabb89440884e1c9f35c3d426882cb5ca0f202",
     "source_id": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
@@ -2800,7 +2800,7 @@
     "source_updated": "2026-10-27"
   },
   "genetics/topic08/bbq-tetrad_ordered-centromere_distance-MC-questions.txt": {
-    "output_fingerprint": "58c2e0dc1ecdb96990c3dd48c00f6828a0965029a9f240a4324332aa17f3f8c4",
+    "output_fingerprint": "8c137f9ad03c528d3aef302be4e9251669da73e6a42f4f6970c7b0a65bc0f41a",
     "source_commit": "ea4407dbdf9e2e2b3e8bf828e1557d183bb22083",
     "source_fingerprint": "ce5a8b0cd58ab735244f2d18e0c2b6dd443c611426dda71a5f1ae23ed306afc3",
     "source_id": "d865b5bf1d9c787d57e133be98be9bf574114dbb:inheritance-problems/ordered_tetrad-centromere_distance.py",
@@ -2808,7 +2808,7 @@
     "source_updated": "2026-10-16"
   },
   "genetics/topic08/bbq-three-point_test_cross-distances_plus-questions.txt": {
-    "output_fingerprint": "c4bbe65567cc6513e7b3d1605539a486105f861aaebd248d8de465e4929523c2",
+    "output_fingerprint": "cae664d7d204d313bd517ab0b404f9c7ab2ad3a2a07a26902c42ed78d52fd561",
     "source_commit": "d59c5f091003f6ee2b2ec1d17a324cf31f5f55c6",
     "source_fingerprint": "4b3d4c5068a8684195a7c87f348093c1a2884e01a2678ed4c64084fc64e9ce82",
     "source_id": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
@@ -2816,7 +2816,7 @@
     "source_updated": "2026-01-11"
   },
   "genetics/topic08/bbq-three-point_test_cross-one_gene_distance-MC-questions.txt": {
-    "output_fingerprint": "bf87ca2cac69200b18715515c5ad9289cc30a737ffa98c29dba6d455f706f388",
+    "output_fingerprint": "2f6e17180f5c011591655a1193ca59b2c8d23161ac93cccca16b9fe8458538d8",
     "source_commit": "d5b1eaf8be74fa9d48d04e626721c2e9a72da89c",
     "source_fingerprint": "de20f4d6d3fc129df68f5dc456ee2842024140dcc4030eae401c7e3ed1135f42",
     "source_id": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
@@ -2824,7 +2824,7 @@
     "source_updated": "2026-04-19"
   },
   "genetics/topic08/bbq-three-point_test_cross-one_gene_distance-NUM-questions.txt": {
-    "output_fingerprint": "035e10d0e5c379f92f710111401378df1182505b11560fca6fef9c437f66b938",
+    "output_fingerprint": "3ff6f94370a8177ec25411c576f4785e6c69b9b0281007fa4506518c6de4d630",
     "source_commit": "d5b1eaf8be74fa9d48d04e626721c2e9a72da89c",
     "source_fingerprint": "de20f4d6d3fc129df68f5dc456ee2842024140dcc4030eae401c7e3ed1135f42",
     "source_id": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
@@ -2832,7 +2832,7 @@
     "source_updated": "2026-04-19"
   },
   "genetics/topic08/bbq-three-point_test_cross-which_genotypes-DOUBLE-questions.txt": {
-    "output_fingerprint": "1641340d10290791ecd48295ed88ddf5a807ac6ca8207dc1182de9d18898b4da",
+    "output_fingerprint": "d564b38e0198f10d6fdf65a23a44ff9b583f518bfc172633004a8c1827ac3b00",
     "source_commit": "d5b1eaf8be74fa9d48d04e626721c2e9a72da89c",
     "source_fingerprint": "e0c58ccaa0c7e86fd491aa7da3e0a1f36a177f2b41f82a0cf895108dfb8e9ee3",
     "source_id": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
@@ -2840,7 +2840,7 @@
     "source_updated": "2026-04-19"
   },
   "genetics/topic08/bbq-three-point_test_cross-which_genotypes-GENES-questions.txt": {
-    "output_fingerprint": "650106632d2d19e185e27a855f4682b6930e5ab2f2a889665b8195183e7b5b39",
+    "output_fingerprint": "e6f4c618487e0bba92b740119a6d722eae5e87f32d9192586cad2b9b66e243a1",
     "source_commit": "d5b1eaf8be74fa9d48d04e626721c2e9a72da89c",
     "source_fingerprint": "e0c58ccaa0c7e86fd491aa7da3e0a1f36a177f2b41f82a0cf895108dfb8e9ee3",
     "source_id": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
@@ -2848,7 +2848,7 @@
     "source_updated": "2026-04-19"
   },
   "genetics/topic08/bbq-three-point_test_cross-which_genotypes-PARENTAL-questions.txt": {
-    "output_fingerprint": "5f5a99f0538a4c3252040b79631c0782d20887d341110e4f5123ac3c6ae7991c",
+    "output_fingerprint": "7a85cb4f80aeb7573f164fafc5dd9b09afc6f74b0aa19b85f742a0effcf8f7ac",
     "source_commit": "d5b1eaf8be74fa9d48d04e626721c2e9a72da89c",
     "source_fingerprint": "e0c58ccaa0c7e86fd491aa7da3e0a1f36a177f2b41f82a0cf895108dfb8e9ee3",
     "source_id": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
@@ -2856,7 +2856,7 @@
     "source_updated": "2026-04-19"
   },
   "genetics/topic08/bbq-two-point_test_cross-cis-trans-MC-with_hint-questions.txt": {
-    "output_fingerprint": "2b24fc1604f0151040707fadb1db7c8d57f811310280393ba1f6bc404aded00d",
+    "output_fingerprint": "7a427075d3f6458635307fe352deb6e37025679c4c42029aed56c14bb2d63796",
     "source_commit": "59c4b41838d68b51808fa5c7ee14edde05036f69",
     "source_fingerprint": "cd741bb0e3f3d6b636ccf3146875e6fbaec656dd8630daf1423780d3b7f8d759",
     "source_id": "4d0e14d53a1c9666cf74947fc8a17d203e893d56:inheritance-problems/two-point_test_cross-cis-trans.py",
@@ -2864,7 +2864,7 @@
     "source_updated": "2026-01-11"
   },
   "genetics/topic08/bbq-two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL-questions.txt": {
-    "output_fingerprint": "724fe43131989c74e55b7af336f72a4dd1a52b801b7bc257a13db87a7c9688bf",
+    "output_fingerprint": "547bdf297aed056b7a8714a4da575f38969afb2b8987fc5fbc209068bc4e878c",
     "source_commit": "d5b1eaf8be74fa9d48d04e626721c2e9a72da89c",
     "source_fingerprint": "dfbfebdf58c358b8880be28ae97e3d11ccd61d840a0c759a6804bf0009028d11",
     "source_id": "4d0e14d53a1c9666cf74947fc8a17d203e893d56:inheritance-problems/two-point_test_cross-which_genotypes.py",
@@ -2872,7 +2872,7 @@
     "source_updated": "2026-04-19"
   },
   "genetics/topic08/bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt": {
-    "output_fingerprint": "380a93d567df71709e1667b6aadfd310093f39ca3a727b247db508f4daaaa9ea",
+    "output_fingerprint": "471ba41a0e0eda56b9a456945ec38bb6f08b3f8cc9e20b2fffde2a20036f68dd",
     "source_commit": "d5b1eaf8be74fa9d48d04e626721c2e9a72da89c",
     "source_fingerprint": "dfbfebdf58c358b8880be28ae97e3d11ccd61d840a0c759a6804bf0009028d11",
     "source_id": "4d0e14d53a1c9666cf74947fc8a17d203e893d56:inheritance-problems/two-point_test_cross-which_genotypes.py",
