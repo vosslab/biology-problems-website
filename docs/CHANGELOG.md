@@ -4,6 +4,12 @@
 
 ### Behavior or Interface Changes
 
+- Freeze elapsed time at build termination and label all three dashboard panels
+  BUILD COMPLETE with thick green borders on success.
+
+- Make dashboard success prominent with a solid green, bordered completion panel
+  and a thick green outline around the metrics area after all build steps finish.
+
 - Use -r for rebuild and -s for shuffle; remove legacy -F, -R, --full, and --tasks aliases.
 - Default every build scope to 50 questions per bank and reject CSV question limits.
 - Replace the premature topic completion banner and show finalization and colored

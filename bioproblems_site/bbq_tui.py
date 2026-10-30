@@ -89,6 +89,9 @@ class SiteBuildApp(App[int]):
 		"#metrics_box { width: 38%; height: 1fr; border: solid gray; padding: 0 1; }\n"
 		"#metrics_title { height: 1; text-style: bold; }\n"
 		"#eta { height: auto; min-height: 2; text-style: bold; }\n"
+		"#metrics_box.complete, #messages.complete, #task_table.complete { border: thick green; }\n"
+		"#eta.complete { background: green; color: white; border: heavy white; "
+		"padding: 1; margin: 1 0; text-align: center; }\n"
 		"#metrics { height: auto; min-height: 5; }\n"
 		"#footer_note { height: 1; }\n"
 		"#messages { width: 62%; height: 1fr; border: solid gray; }\n"
@@ -99,6 +102,7 @@ class SiteBuildApp(App[int]):
 		super().__init__()
 		self.scope = scope
 		self.started_at = time.perf_counter()
+		self.finished_at: float | None = None
 		self.cancel_event = threading.Event()
 		self.progress = build_progress.BuildProgress(self._report_event, self.cancel_event)
 		self.step_keys: dict[tuple[str, int | str], object] = {}
@@ -293,7 +297,8 @@ class SiteBuildApp(App[int]):
 
 	def update_metrics(self) -> None:
 		"""Refresh elapsed time, phase averages, progress, and estimated finish."""
-		elapsed = time.perf_counter() - self.started_at
+		end_time = self.finished_at if self.finished_at is not None else time.perf_counter()
+		elapsed = end_time - self.started_at
 		completed = sum(self.timing.completed.values())
 		planned = sum(self.timing.totals.values())
 		metrics = (
@@ -323,7 +328,9 @@ class SiteBuildApp(App[int]):
 		eta_widget = self.query_one("#eta", Static)
 		if self.finished:
 			if self.exit_code == 0:
-				eta_widget.update(Text("Build complete - press q to close", style="green"))
+				eta_widget.add_class("complete")
+				self.query_one("#metrics_box").add_class("complete")
+				eta_widget.update("BUILD COMPLETE\n\nAll build steps finished\nPress q to close")
 			elif self.exit_code == 130:
 				eta_widget.update(Text("Build cancelled", style="yellow"))
 			else:
@@ -393,6 +400,7 @@ class SiteBuildApp(App[int]):
 		if exit_code == 0 and self.cancel_event.is_set():
 			exit_code = 130
 			message = "Build cancelled."
+		self.finished_at = time.perf_counter()
 		self.finished = True
 		self.exit_code = exit_code
 		for key, status in list(self.step_status.items()):
@@ -406,6 +414,12 @@ class SiteBuildApp(App[int]):
 		self.active_phase = ""
 		self.active_label = ""
 		self.active_started_at = None
+		if exit_code == 0:
+			for selector in ("#metrics_box", "#messages", "#task_table"):
+				panel = self.query_one(selector)
+				panel.add_class("complete")
+				panel.border_title = "BUILD COMPLETE"
+			self.query_one("#metrics_title", Static).update("BUILD COMPLETE")
 		self.append_log(message)
 		self.update_metrics()
 		self.query_one("#footer_note", Static).update("Press q to close")
