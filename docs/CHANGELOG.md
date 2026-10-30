@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-30
+
+### Behavior or Interface Changes
+
+- Use -r for rebuild and -s for shuffle; remove legacy -F, -R, --full, and --tasks aliases.
+- Default every build scope to 50 questions per bank and reject CSV question limits.
+- Replace the premature topic completion banner and show finalization and colored
+  whole-build results in the dashboard.
+
 ## 2026-10-29
 
 ### Behavior or Interface Changes

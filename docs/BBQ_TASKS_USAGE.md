@@ -36,10 +36,9 @@ build:
 source source_me.sh && ./build_site.py
 ```
 
-Only an unrestricted all-task run receives the 50-question maximum by default.
-A selected CSV (`--task`), subject (`-S/--subject`), or limited (`-l/--limit`)
-run keeps each configured generator's own limit. Use `-x/--max-questions N` to
-set the common maximum for task rows without their own `-x` flag, for example:
+Every build scope defaults to a maximum of 50 questions per generated bank.
+Use `-x/--max-questions N` to change it. Task CSV question-limit flags are rejected.
+Use `-r` to regenerate existing banks, for example:
 
 ```bash
 source source_me.sh && ./build_site.py -x 99
@@ -56,14 +55,14 @@ The BBQ step reports the number of question records in each output file. With
 short outputs, including files skipped because they were already current.
 
 The public command accepts `-S/--subject`, `-t/--task`, `-l/--limit`,
-`-x/--max-questions`, `-R/--shuffle`, `-b/--backend`, `-n/--dry-run`,
-`-F/--rebuild`, and `-m/--model`. `--rebuild` forces regeneration within the
+`-x/--max-questions`, `-s/--shuffle`, `-b/--backend`, `-n/--dry-run`,
+`-r/--rebuild`, and `-m/--model`. `--rebuild` forces regeneration within the
 selected filters; with no filters, it rebuilds all configured tasks and topics.
-The older `--full` spelling remains accepted. Use
+Use
 `--backend codex` to generate page titles through the configured Codex CLI
 instead of Ollama.
 
-Use `-R -l N` to sample N task rows in random order during development.
+Use `-s -l N` to sample N task rows in random order during development.
 Shuffling is opt-in and happens before the limit is applied.
 
 ## Rewrite generated indexes

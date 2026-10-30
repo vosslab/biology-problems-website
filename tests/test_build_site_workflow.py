@@ -91,7 +91,7 @@ def test_parse_scope_supports_task_option_and_short_options(
 	monkeypatch.chdir(repo_root / "tests")
 	scope = build_site.parse_scope([
 		"-S", "genetics", "-T", "topic01", "-t", "task_files/genetics_tasks1.csv", "-l", "2",
-		"-R", "-n", "-F", "-b", "codex", "-m", "gpt-5-codex",
+		"-s", "-n", "-r", "-b", "codex", "-m", "gpt-5-codex",
 	])
 
 	assert scope.tasks_csv == repo_root / "task_files/genetics_tasks1.csv"
@@ -589,3 +589,22 @@ def test_subject_dry_run_plans_global_reconciliation_without_mutating_site_files
 	assert manifest_calls == []
 	manifest_path = site_docs_dir / "assets/data/selftest_question_manifest.json"
 	assert manifest_path in stage_outputs
+
+
+@pytest.mark.parametrize("flags", [[], ["-S", "genetics", "-T", "topic08"], ["-l", "1"], ["-t", "task_files/genetics_tasks1.csv"]])
+def test_question_cap_reaches_generator(flags: list[str]) -> None:
+	scope = build_site.parse_scope(flags)
+	task = {"args": []}
+	bbq_workflow._prepare_task(task, scope)
+	assert task["extra_args"][:2] == ["-x", "50"]
+	assert task["max_questions"] == 50
+
+
+def test_new_flags_and_index_limit_validation() -> None:
+	assert build_site.parse_scope(["-r", "-s"]) == build_site.parse_scope(["--rebuild", "--shuffle"])
+	assert build_site.parse_scope(["-I"]).mode == "indexes"
+	with pytest.raises(ValueError, match="indexes-only"):
+		build_site.parse_scope(["-I", "-x", "50"])
+	task = {"args": []}
+	bbq_workflow._prepare_task(task, build_site.parse_scope(["-x", "73"]))
+	assert task["max_questions"] == 73

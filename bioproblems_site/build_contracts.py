@@ -4,6 +4,9 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 
+DEFAULT_MAX_QUESTIONS = 50
+
+
 #============================================
 @dataclass(frozen=True, order=True)
 class TopicRef:
@@ -48,7 +51,7 @@ class BuildScope:
 	shuffle: bool = False
 	dry_run: bool = False
 	full: bool = False
-	max_questions: int | None = None
+	max_questions: int = DEFAULT_MAX_QUESTIONS
 	backend: str = "codex"
 	model: str | None = None
 	mode: str = "all"

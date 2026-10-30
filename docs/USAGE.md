@@ -215,12 +215,11 @@ Common flags:
   `genetic_disorders`, or `Genetic Disorders`; combine it with `-S/--subject`.
 - `-t/--task task_files/genetics_tasks1.csv`: select one configured CSV.
 - `-l/--limit 1`: limit the number of CSV task rows during development.
-- `-x/--max-questions 99`: set the common maximum for task rows without their
-  own `-x` flag. Unrestricted runs default to 50; scoped runs otherwise use
-  each generator's configured limit. Since generators default to `-d 2`, the
+- `-x/--max-questions 99`: set the maximum per generated bank (default: 50 in every scope).
+  Task CSV question-limit flags are rejected. Use `-r` to regenerate current banks. Since generators default to `-d 2`, the
   runner passes `-d ceil(N * 1.1)` for a common maximum `N` (so `-x 50` passes
   `-d 56` with floating-point rounding); task-specific duplicate counts take precedence.
-- `-R/--shuffle`: shuffle BBQ task order before applying `--limit`.
+- `-s/--shuffle`: shuffle BBQ task order before applying `--limit`.
 - `-b/--backend BACKEND`: use `ollama`, `codex`, or `claude` for generated
   problem-set titles. Codex is the default and uses its configured
   CLI model when `--model` is omitted.
@@ -230,9 +229,9 @@ Common flags:
 - `--tui`: explicitly open the dashboard in an interactive terminal. Without
   either display option, interactive terminals open the dashboard automatically
   and piped runs use plain output.
-- `-F/--rebuild`: regenerate outputs even when current. Subject, topic, task,
+- `-r/--rebuild`: regenerate outputs even when current. Subject, topic, task,
   and limit filters still apply; with no filters, rebuild all configured tasks
-  and topics. The older `--full` spelling still works.
+  and topics.
 - `-m/--model MODEL`: use a specific model with the selected title-generation backend.
 
 The generated [All Questions](../site_docs/sitemap.md) page is a human-readable

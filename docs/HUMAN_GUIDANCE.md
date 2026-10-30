@@ -116,3 +116,8 @@ origin belongs there too. Rules: [REPO_STYLE.md](REPO_STYLE.md).
   community SVG. Never put the full per-symbol export under `docs/`.
 - Let Markdown link checks include newly created, nonignored untracked files for their first 24
   hours. Keep ignored files unavailable.
+
+- Task CSVs must never contain `-x` or `--max-questions`; reject them with an error.
+  Set question limits on the build command, defaulting to 50 for every scope.
+- This codebase is pre-production with no users. Prefer stronger foundational schemas, contracts,
+  abstractions, and ownership boundaries over legacy compatibility when that improves the design.

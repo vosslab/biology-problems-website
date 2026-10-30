@@ -212,3 +212,12 @@ def test_unknown_alias_raises(tmp_path: object) -> object:
 		bbq_config.load_tasks_csv(
 			_write_csv(tmp_path, body), _bbq_config(tmp_path), _alias_map_with_amino_acids(),
 		)
+
+
+@pytest.mark.parametrize("flag", ["-x 50", "-x50", "-x=50", "--max-questions 50", "--max-questions=50"])
+def test_csv_question_limits_rejected(tmp_path: Path, flag: str) -> None:
+	body = f"subject,topic,script,flags,input,notes\nbiochemistry,amino_acids,example.py,{flag},,\n"
+	with pytest.raises(ValueError, match=r"tasks\.csv:2 cannot set"):
+		bbq_config.load_tasks_csv(
+			_write_csv(tmp_path, body), _bbq_config(tmp_path), _alias_map_with_amino_acids(),
+		)

@@ -88,7 +88,7 @@ class SiteBuildApp(App[int]):
 		"#top_row { height: 38%; min-height: 14; }\n"
 		"#metrics_box { width: 38%; height: 1fr; border: solid gray; padding: 0 1; }\n"
 		"#metrics_title { height: 1; text-style: bold; }\n"
-		"#eta { height: auto; min-height: 2; color: $success; text-style: bold; }\n"
+		"#eta { height: auto; min-height: 2; text-style: bold; }\n"
 		"#metrics { height: auto; min-height: 5; }\n"
 		"#footer_note { height: 1; }\n"
 		"#messages { width: 62%; height: 1fr; border: solid gray; }\n"
@@ -120,7 +120,7 @@ class SiteBuildApp(App[int]):
 					yield Static("Site Build Dashboard", id="metrics_title")
 					yield Static("Estimating finish time...", id="eta")
 					yield Static("Preparing build", id="metrics")
-					yield Static("Press q to stop or close", id="footer_note")
+					yield Static("Press q to cancel", id="footer_note")
 				yield RichLog(id="messages", wrap=True, highlight=False, markup=False)
 			table = DataTable(id="task_table", zebra_stripes=True)
 			table.cursor_type = "row"
@@ -323,11 +323,11 @@ class SiteBuildApp(App[int]):
 		eta_widget = self.query_one("#eta", Static)
 		if self.finished:
 			if self.exit_code == 0:
-				eta_widget.update("Build complete")
+				eta_widget.update(Text("Build complete - press q to close", style="green"))
 			elif self.exit_code == 130:
-				eta_widget.update("Build cancelled")
+				eta_widget.update(Text("Build cancelled", style="yellow"))
 			else:
-				eta_widget.update("Build failed")
+				eta_widget.update(Text("Build failed", style="red"))
 			return
 		active_elapsed = 0.0
 		if self.active_phase and self.active_started_at is not None:
@@ -339,7 +339,13 @@ class SiteBuildApp(App[int]):
 			clock_time = finish_time.strftime("%I:%M:%S %p").lstrip("0")
 			remaining_text = bbq_runner.format_elapsed_time(remaining)
 			eta_text = f"Finish: ~{clock_time}\n~{remaining_text} left"
-		eta_widget.update(eta_text)
+		phase_text = self.PHASE_LABELS.get(self.active_phase, "Build in progress")
+		if self.active_phase == "indexes":
+			phase_text = "Finalizing site: indexes, navigation, and manifest"
+		if self.cancel_event.is_set():
+			eta_widget.update(Text("Cancellation requested", style="yellow"))
+		else:
+			eta_widget.update(Text(f"{phase_text}\n{eta_text}", style="cyan"))
 
 	def action_request_cancel(self) -> None:
 		"""Ask before stopping, or close the completed dashboard."""

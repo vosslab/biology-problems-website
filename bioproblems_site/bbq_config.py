@@ -365,6 +365,14 @@ def load_tasks_csv(
 					output = os.path.join(output_dir, output_file)
 				output = normalize_path(output, repo_root, "", path_aliases)
 				base_args = shlex.split(expand_text(flags, path_aliases)) if flags else []
+				# ASVS 2.2.1: question limits belong to the build command.
+				for option in base_args:
+					if option.startswith(("-x", "--max-questions=")) or option == "--max-questions":
+						raise ValueError(
+							f"Task CSV {bioproblems_site.git_paths.display_path(config_path)}:"
+							f"{csv_row_number} cannot set {option}; "
+							"set question limits on build_site.py instead (default: 50)."
+						)
 				for script_entry in script_values:
 					script_path = normalize_path(script_entry, repo_root, base_root, path_aliases)
 					args = list(base_args)

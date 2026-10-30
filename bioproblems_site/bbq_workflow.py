@@ -1,6 +1,5 @@
 """Configured BBQ selection, local stale checks, and change reporting."""
 
-import dataclasses
 import math
 import os
 from pathlib import Path
@@ -293,29 +292,11 @@ def _prepare_task(task: dict[str, object], scope: BuildScope) -> None:
 	task_args = task["args"]
 	if not isinstance(task_args, list):
 		raise TypeError("BBQ task args must be a list")
-	if scope.max_questions is not None:
-		if "-x" not in task_args and "--max-questions" not in task_args:
-			task.setdefault("extra_args", []).extend(["-x", str(scope.max_questions)])
-		task["max_questions"] = scope.max_questions
-	duplicate_count = math.ceil(scope.max_questions * 1.1) if scope.max_questions else 99
+	task.setdefault("extra_args", []).extend(["-x", str(scope.max_questions)])
+	task["max_questions"] = scope.max_questions
+	duplicate_count = math.ceil(scope.max_questions * 1.1)
 	if "-d" not in task_args and "--duplicates" not in task_args:
 		task.setdefault("extra_args", []).extend(["-d", str(duplicate_count)])
-
-
-#============================================
-def _task_question_limit(task: dict[str, object], scope: BuildScope) -> int | None:
-	"""Return the effective requested limit, including a CSV row override."""
-	args = task["args"]
-	if not isinstance(args, list):
-		raise TypeError("BBQ task args must be a list")
-	for index, arg in enumerate(args):
-		if arg in ("-x", "--max-questions"):
-			return int(args[index + 1])
-		if isinstance(arg, str) and arg.startswith("--max-questions="):
-			return int(arg.split("=", 1)[1])
-	if scope.max_questions is not None:
-		return scope.max_questions
-	return None
 
 
 #============================================
@@ -326,7 +307,7 @@ def _row_question_counts(
 	counts: list[dict[str, object]] = []
 	seen: set[Path] = set()
 	for task in task_row:
-		limit = _task_question_limit(task, scope)
+		limit = scope.max_questions
 		for source_path in sorted(_task_source_files(task)):
 			if source_path in seen or not source_path.is_file():
 				continue
@@ -512,16 +493,6 @@ def iter_task_results(
 			print(f"WARNING: could not remove old error log {legacy_error_log_path}: {exc}")
 	context = bbq_runner.RunContext(log_path, error_log_path, True, pythonpath_value)
 	total = pending_count
-	# The 50-question default belongs to an unrestricted all-task build.
-	# A single selected CSV retains its generator-defined default.
-	runner_scope = scope
-	if (
-		scope.subject is None
-		and scope.tasks_csv is None
-		and scope.limit is None
-		and scope.max_questions is None
-	):
-		runner_scope = dataclasses.replace(scope, max_questions=50)
 	pending_index = 0
 	for row_index, task_row in enumerate(task_rows, start=1):
 		if progress:
@@ -554,7 +525,7 @@ def iter_task_results(
 			if progress:
 				progress.check_cancelled()
 			pending_index += 1
-			_prepare_task(task, runner_scope)
+			_prepare_task(task, scope)
 			before_outputs = expected_output_paths(task)
 			if progress:
 				progress.check_cancelled()

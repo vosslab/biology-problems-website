@@ -42,7 +42,7 @@ def build_parser() -> argparse.ArgumentParser:
 			"    ./build_site.py -I -S genetics -T topic01 -n --cli\n\n"
 			"  Set question counts or sample one task row:\n"
 			"    ./build_site.py -x 99\n"
-			"    ./build_site.py -R -l 1"
+			"    ./build_site.py -s -l 1"
 		),
 		formatter_class=argparse.RawDescriptionHelpFormatter,
 	)
@@ -60,9 +60,8 @@ def build_parser() -> argparse.ArgumentParser:
 		"-T", "--topic", dest="topic", metavar="TOPIC",
 		help="Build one topic by key, alias, or title within --subject.",
 	)
-	# Remove the previous plural spelling after 2026-12-31.
 	parser.add_argument(
-		"-t", "--task", "--tasks", dest="task_file", metavar="TASK_FILE",
+		"-t", "--task", dest="task_file", metavar="TASK_FILE",
 		help="Use one task CSV from task_files/ instead of all task files.",
 	)
 	parser.add_argument(
@@ -70,7 +69,7 @@ def build_parser() -> argparse.ArgumentParser:
 		help="Run at most N CSV task rows.",
 	)
 	parser.add_argument(
-		"-R", "--shuffle", dest="shuffle", action="store_true",
+		"-s", "--shuffle", dest="shuffle", action="store_true",
 		help="Shuffle CSV task rows before applying --limit.",
 	)
 	parser.add_argument(
@@ -87,14 +86,11 @@ def build_parser() -> argparse.ArgumentParser:
 		help="Open the Textual dashboard; requires interactive stdin and stdout.",
 	)
 	parser.add_argument(
-		"-F", "--rebuild", dest="full", action="store_true",
+		"-r", "--rebuild", dest="full", action="store_true",
 		help=(
 			"Force regeneration within the selected scope; without filters, "
 			"rebuild all configured tasks and topics."
 		),
-	)
-	parser.add_argument(
-		"--full", dest="full", action="store_true", help=argparse.SUPPRESS,
 	)
 	parser.add_argument(
 		"-b", "--backend", dest="backend",
@@ -110,7 +106,7 @@ def build_parser() -> argparse.ArgumentParser:
 	)
 	parser.add_argument(
 		"-x", "--max-questions", dest="max_questions", metavar="N", type=int,
-		help="Set the common per-task maximum where rows do not define -x (default: 50).",
+		help="Maximum questions per generated bank (default: 50).",
 	)
 	return parser
 
@@ -199,7 +195,8 @@ def _scope_from_args(args: argparse.Namespace) -> build_contracts.BuildScope:
 		shuffle=args.shuffle,
 		dry_run=args.dry_run,
 		full=args.full,
-		max_questions=args.max_questions,
+		max_questions=(args.max_questions if args.max_questions is not None
+			else build_contracts.DEFAULT_MAX_QUESTIONS),
 		backend=args.backend,
 		model=args.model,
 		mode=args.mode,

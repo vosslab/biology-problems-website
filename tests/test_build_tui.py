@@ -48,6 +48,9 @@ def test_topic_and_index_results_are_listed(monkeypatch: pytest.MonkeyPatch) -> 
 				"phase": "indexes", "label": "Indexes, navigation, manifest",
 				"duration": 1.0, "executed": True,
 			})
+			assert app.finished is False
+			app._finish_build(0, "Build completed successfully.")
+			assert "Build complete" in str(app.query_one("#eta").render())
 			steps = [tuple(map(str, table.get_row_at(index)[1:])) for index in range(table.row_count)]
 			assert ("Topic pages", "biotechnology/topic01", "ok") in steps
 			assert ("Indexes, navigation, and manifest", "Indexes, navigation, manifest", "ok") in steps

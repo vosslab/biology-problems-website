@@ -613,4 +613,4 @@ def render_all(
 				f"- {label}: generated {generated}, failed {failed}, "
 				f"existing {existing}, missing {missing}, skipped {skipped}"
 			)
-		print(color_text("PROGRAM HAS COMPLETED!!!", COLOR_GREEN))
+		print("Topic page rendering finished")
