@@ -50,7 +50,7 @@ Questions ask students to identify molecular structures, classify biomolecules, 
 14. [Human Senses](topic14/index.md) <span class='topic-count' title='9 question sets'>9 question sets</span> <a class="lt-link" href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/04%3A_Biochemistry_of_Our_Senses" target="_blank" rel="noopener noreferrer" aria-label="LibreTexts Unit 4, Chapter 1" title="Open on LibreTexts (new tab)"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"><span class="lt-label">Chapter 4.1</span></a>
     - Students explain the biochemical basis of taste, smell, hearing, sight, and touch perception.
 
-15. [Sugar Metabolism](topic16/index.md) <span class='topic-count' title='3 question sets'>3 question sets</span>
+15. [Sugar Metabolism](topic16/index.md) <span class='topic-count' title='4 question sets'>4 question sets</span>
     - Students trace glucose through glycolysis to pyruvate, calculate net ATP and NADH yield, explain how fructose and galactose enter the pathway, describe NAD+ regeneration through fermentation, identify regulatory control points responsive to energy demand and hormonal signals, and contrast gluconeogenesis bypass reactions with irreversible glycolytic steps including reciprocal regulation between the two pathways.
 
 16. [Photosynthesis](topic20/index.md) <span class='topic-count' title='1 question set'>1 question set</span>

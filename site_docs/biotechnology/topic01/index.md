@@ -133,9 +133,55 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 
 </section>
 
+<section class="problem-set" markdown="1" aria-labelledby="model-organisms-by-complexity-7-organisms">
+
+## 1.6 Model Organisms by Complexity (7 Organisms) {#model-organisms-by-complexity-7-organisms}
+
+<div id="SEQUENCEMC-model_organism_complexity-7_items-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-SEQUENCEMC-model_organism_complexity-7_items.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-SEQUENCEMC-model_organism_complexity-7_items.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt" data-format="human_readable" data-filename="human_readable-SEQUENCEMC-model_organism_complexity-7_items.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<span class="qpm-package-status" role="status" aria-live="polite"></span>
+<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-mcorder" title="Selection of the Correct Sorting Sequence Multiple Choice">Sequence MC</abbr></span>
+<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
+</div>
+  <div class="selftest-reroll-content"></div>
+</div>
+
+
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="model-organisms-by-complexity-7-organisms_1">
+
+## 1.7 Model Organisms by Complexity (7 Organisms) {#model-organisms-by-complexity-7-organisms_1}
+
+<div id="ORDER-model_organism_complexity-7_items-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-ORDER-model_organism_complexity-7_items-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-ORDER-model_organism_complexity-7_items-questions.txt" data-format="human_readable" data-filename="human_readable-ORDER-model_organism_complexity-7_items.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<span class="qpm-package-status" role="status" aria-live="polite"></span>
+<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-ORDER-model_organism_complexity-7_items-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-ord" title="Ordering">ORD</abbr></span>
+<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
+</div>
+  <div class="selftest-reroll-content"></div>
+</div>
+
+
+</section>
+
 <section class="problem-set" markdown="1" aria-labelledby="fermentation-substrate-identification">
 
-## 1.6 Fermentation Substrate Identification {#fermentation-substrate-identification}
+## 1.8 Fermentation Substrate Identification {#fermentation-substrate-identification}
 
 <div id="TFMS-fermentation-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-fermentation-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -160,7 +206,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 
 <section class="problem-set" markdown="1" aria-labelledby="mrna-post-transcriptional-modification">
 
-## 1.7 mRNA Post-Transcriptional Modification {#mrna-post-transcriptional-modification}
+## 1.9 mRNA Post-Transcriptional Modification {#mrna-post-transcriptional-modification}
 
 <div id="TFMS-mRNA_processing-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-mRNA_processing-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -185,7 +231,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 
 <section class="problem-set" markdown="1" aria-labelledby="biotechnology-and-related-industries-from-project-descriptions-traditional-vs-modern_1">
 
-## 1.8 Biotechnology and Related Industries from Project Descriptions (Traditional vs. Modern) {#biotechnology-and-related-industries-from-project-descriptions-traditional-vs-modern_1}
+## 1.10 Biotechnology and Related Industries from Project Descriptions (Traditional vs. Modern) {#biotechnology-and-related-industries-from-project-descriptions-traditional-vs-modern_1}
 
 <div id="WOMC-biotech_vs_improved-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-biotech_vs_improved-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -210,7 +256,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 
 <section class="problem-set" markdown="1" aria-labelledby="historical-biotechnology-periods-from-milestones_1">
 
-## 1.9 Historical Biotechnology Periods from Milestones {#historical-biotechnology-periods-from-milestones_1}
+## 1.11 Historical Biotechnology Periods from Milestones {#historical-biotechnology-periods-from-milestones_1}
 
 <div id="WOMC-biotechnology_periods_and_milestones-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-biotechnology_periods_and_milestones-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -235,7 +281,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 
 <section class="problem-set" markdown="1" aria-labelledby="model-organisms-from-approximate-generation-times_1">
 
-## 1.10 Model Organisms from Approximate Generation Times {#model-organisms-from-approximate-generation-times_1}
+## 1.12 Model Organisms from Approximate Generation Times {#model-organisms-from-approximate-generation-times_1}
 
 <div id="WOMC-model_organism_generation_times-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-model_organism_generation_times-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -260,7 +306,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 
 <section class="problem-set" markdown="1" aria-labelledby="model-organism-research-concepts-from-descriptions_1">
 
-## 1.11 Model Organism Research Concepts from Descriptions {#model-organism-research-concepts-from-descriptions_1}
+## 1.13 Model Organism Research Concepts from Descriptions {#model-organism-research-concepts-from-descriptions_1}
 
 <div id="WOMC-model_organism_principles-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-model_organism_principles-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -285,7 +331,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 
 <section class="problem-set" markdown="1" aria-labelledby="model-organism-scientific-names-from-common-names-and-groups_1">
 
-## 1.12 Model Organism Scientific Names from Common Names and Groups {#model-organism-scientific-names-from-common-names-and-groups_1}
+## 1.14 Model Organism Scientific Names from Common Names and Groups {#model-organism-scientific-names-from-common-names-and-groups_1}
 
 <div id="WOMC-model_organisms-genus_species-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-model_organisms-genus_species-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -310,7 +356,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 
 <section class="problem-set" markdown="1" aria-labelledby="metabolic-pathway-mutant-growth-rescue-by-nutrient-supplementation-4-metabolites">
 
-## 1.13 Metabolic Pathway Mutant Growth Rescue by Nutrient Supplementation (4 Metabolites) {#metabolic-pathway-mutant-growth-rescue-by-nutrient-supplementation-4-metabolites}
+## 1.15 Metabolic Pathway Mutant Growth Rescue by Nutrient Supplementation (4 Metabolites) {#metabolic-pathway-mutant-growth-rescue-by-nutrient-supplementation-4-metabolites}
 
 <div id="beadle_tatum-metabolic_pathway-4_metabolites-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -332,31 +378,9 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="model-organisms-by-increasing-complexity-4-organisms">
-
-## 1.14 Model Organisms by Increasing Complexity (4 Organisms) {#model-organisms-by-increasing-complexity-4-organisms}
-
-<div id="model_organism_complexity_order-ORD-4_choices-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-model_organism_complexity_order-ORD-4_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-model_organism_complexity_order-ORD-4_choices-questions.txt" data-format="human_readable" data-filename="human_readable-model_organism_complexity_order-ORD-4_choices.html" aria-label="Generate Human-Readable">Human-Readable</button>
-<span class="qpm-package-status" role="status" aria-live="polite"></span>
-<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div>
-
-<div class="qpm-selftest" data-bbq="bbq-model_organism_complexity_order-ORD-4_choices-questions.txt">
-<div class="selftest-question-header selftest-question-placeholder">
-<span class="question-type-badges"><abbr class="question-type question-type-ord" title="Ordering">ORD</abbr></span>
-<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
-</div>
-  <div class="selftest-reroll-content"></div>
-</div>
-
-
-</section>
-
 <section class="problem-set" markdown="1" aria-labelledby="metabolic-pathway-mutant-screens-wild-type-identification-from-precursor-growth-patterns-4-metabolites">
 
-## 1.15 Metabolic Pathway Mutant Screens: Wild-Type Identification from Precursor Growth Patterns (4 Metabolites) {#metabolic-pathway-mutant-screens-wild-type-identification-from-precursor-growth-patterns-4-metabolites}
+## 1.16 Metabolic Pathway Mutant Screens: Wild-Type Identification from Precursor Growth Patterns (4 Metabolites) {#metabolic-pathway-mutant-screens-wild-type-identification-from-precursor-growth-patterns-4-metabolites}
 
 <div id="mutant_screen-mc-4_metabolites-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-mutant_screen-mc-4_metabolites-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -380,7 +404,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 
 <section class="problem-set" markdown="1" aria-labelledby="mrna-sequences-from-dna-template-strands-6-nucleotides-53-labels">
 
-## 1.16 mRNA Sequences from DNA Template Strands (6 Nucleotides, 5&#x27;/3&#x27; Labels) {#mrna-sequences-from-dna-template-strands-6-nucleotides-53-labels}
+## 1.17 mRNA Sequences from DNA Template Strands (6 Nucleotides, 5&#x27;/3&#x27; Labels) {#mrna-sequences-from-dna-template-strands-6-nucleotides-53-labels}
 
 <div id="rna_transcribe-MC-prime-len_6-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-rna_transcribe-MC-prime-len_6-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -404,7 +428,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 
 <section class="problem-set" markdown="1" aria-labelledby="genetic-code-translation-of-mrna-into-five-amino-acid-peptides-5-choices">
 
-## 1.17 Genetic Code Translation of mRNA into Five-Amino-Acid Peptides (5 Choices) {#genetic-code-translation-of-mrna-into-five-amino-acid-peptides-5-choices}
+## 1.18 Genetic Code Translation of mRNA into Five-Amino-Acid Peptides (5 Choices) {#genetic-code-translation-of-mrna-into-five-amino-acid-peptides-5-choices}
 
 <div id="translate_genetic_code-MC-5_aa-5_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-translate_genetic_code-MC-5_aa-5_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>

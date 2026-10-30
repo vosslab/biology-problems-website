@@ -1127,6 +1127,22 @@
     "source_path": "problems/matching_sets/biochemistry/respiration.yml",
     "source_updated": "2026-10-06"
   },
+  "biochemistry/topic16/bbq-SEQUENCEMC-glycolysis-11_items-questions.txt": {
+    "output_fingerprint": "7b005182096cce1c0dead1f81337a6b469e37d7643530c245e5d98c33527c5a8",
+    "source_commit": "119c995c6e08f0e190799c13236edb36a39a91a3",
+    "source_fingerprint": "37c478848afcb273f05344fe4a6bec02abc68ec3e9da7e4790d519ff42c4efdd",
+    "source_id": "119c995c6e08f0e190799c13236edb36a39a91a3:problems/ordering/biochemistry/glycolysis.yml",
+    "source_path": "problems/ordering/biochemistry/glycolysis.yml",
+    "source_updated": "2026-10-26"
+  },
+  "biochemistry/topic16/bbq-ORDER-glycolysis-11_items-questions.txt": {
+    "output_fingerprint": "bb00bcd739220fd77284d4efed530f973bc35cd73f5265d9f00a12f49016d0e8",
+    "source_commit": "119c995c6e08f0e190799c13236edb36a39a91a3",
+    "source_fingerprint": "37c478848afcb273f05344fe4a6bec02abc68ec3e9da7e4790d519ff42c4efdd",
+    "source_id": "119c995c6e08f0e190799c13236edb36a39a91a3:problems/ordering/biochemistry/glycolysis.yml",
+    "source_path": "problems/ordering/biochemistry/glycolysis.yml",
+    "source_updated": "2026-10-26"
+  },
   "biochemistry/topic16/bbq-WOMC-respiration-questions.txt": {
     "output_fingerprint": "eaa2e570f1cab22720905980f8fd675254b6cb6af0080a877efb6b59b54cda0e",
     "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
@@ -1398,6 +1414,22 @@
     "source_id": "96a2e7b85d74b90465c128941b67d1b6a6966c59:problems/matching_sets/biotechnology/model_organisms-genus_species.yml",
     "source_path": "problems/matching_sets/biotechnology/model_organisms-genus_species.yml",
     "source_updated": "2026-09-25"
+  },
+  "biotechnology/topic01/bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt": {
+    "output_fingerprint": "9fb0f005cc6d896c6f8ac1ced964ba9b14fd5a48585c8b8cad18ac8f15403a86",
+    "source_commit": "119c995c6e08f0e190799c13236edb36a39a91a3",
+    "source_fingerprint": "e80cb1467ae08355a06c065cc0f1036d80f70115c363385f10b0596f09850acc",
+    "source_id": "119c995c6e08f0e190799c13236edb36a39a91a3:problems/ordering/biotechnology/model_organism_complexity.yml",
+    "source_path": "problems/ordering/biotechnology/model_organism_complexity.yml",
+    "source_updated": "2026-10-26"
+  },
+  "biotechnology/topic01/bbq-ORDER-model_organism_complexity-7_items-questions.txt": {
+    "output_fingerprint": "97c541cf77ec7c7d7ed4d15173bf1bd2f60297029c3d09323677407a1de1b69b",
+    "source_commit": "119c995c6e08f0e190799c13236edb36a39a91a3",
+    "source_fingerprint": "e80cb1467ae08355a06c065cc0f1036d80f70115c363385f10b0596f09850acc",
+    "source_id": "119c995c6e08f0e190799c13236edb36a39a91a3:problems/ordering/biotechnology/model_organism_complexity.yml",
+    "source_path": "problems/ordering/biotechnology/model_organism_complexity.yml",
+    "source_updated": "2026-10-26"
   },
   "biotechnology/topic01/bbq-TFMS-fermentation-questions.txt": {
     "output_fingerprint": "057dc2aadda22e30a5a22dd58ebd98fa9a6267bd1fa87ede559e284c7377d1ca",
@@ -1679,8 +1711,16 @@
     "source_path": "problems/matching_sets/biotechnology/remediation_sites.yml",
     "source_updated": "2026-10-25"
   },
-  "biotechnology/topic04/bbq-MCORDER-microbial_16s_survey-6_items-questions.txt": {
-    "output_fingerprint": "04af9b35b4e0ca0a9020377d3618bdb57559beaefa57ca79ed71ce33596032f1",
+  "biotechnology/topic04/bbq-SEQUENCEMC-microbial_16s_survey-6_items-questions.txt": {
+    "output_fingerprint": "e07322d6a4dae3f14a17694c15d717f468d5bcd777f703858285dfd1ec645349",
+    "source_commit": "119c995c6e08f0e190799c13236edb36a39a91a3",
+    "source_fingerprint": "0d97ae68cbc6e8db0fc5f7d8c89f56886129df35f233290035c83e0788bd7971",
+    "source_id": "119c995c6e08f0e190799c13236edb36a39a91a3:problems/ordering/biotechnology/microbial_16s_survey.yml",
+    "source_path": "problems/ordering/biotechnology/microbial_16s_survey.yml",
+    "source_updated": "2026-10-26"
+  },
+  "biotechnology/topic04/bbq-ORDER-microbial_16s_survey-6_items-questions.txt": {
+    "output_fingerprint": "0842b063e0de3b37839742831a8898bb309acb066141cd0b44b5e76e2375f105",
     "source_commit": "119c995c6e08f0e190799c13236edb36a39a91a3",
     "source_fingerprint": "0d97ae68cbc6e8db0fc5f7d8c89f56886129df35f233290035c83e0788bd7971",
     "source_id": "119c995c6e08f0e190799c13236edb36a39a91a3:problems/ordering/biotechnology/microbial_16s_survey.yml",

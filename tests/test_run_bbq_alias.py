@@ -6,13 +6,16 @@ CSVs and a hand-crafted alias map. Real metadata is not required.
 
 # Standard Library
 import textwrap
+from pathlib import Path
 
 # PIP3 modules
 import pytest
 
 # local repo modules
+import file_utils
 import bioproblems_site.metadata as metadata
 import bioproblems_site.bbq_config as bbq_config
+import bioproblems_site.bbq_outputs as bbq_outputs
 
 
 def _bbq_config(tmp_path: object) -> object:
@@ -68,6 +71,34 @@ def test_alias_resolves_to_canonical_topicNN(tmp_path: object) -> object:
 	)
 	# Output dir contains canonical topic03 even though the CSV used the alias.
 	assert tasks[0]["output_dir"].endswith("/topic03")
+
+
+@pytest.mark.parametrize("alias, formats", [
+	("YORDER", ("ORDER", "SEQUENCEMC")),
+	("YMCORDER", ("SEQUENCEMC",)),
+])
+def test_ordering_aliases_generate_and_resolve_each_format(
+	tmp_path: Path, alias: str, formats: tuple[str, ...],
+) -> None:
+	"""A paired row retains both tasks and discovers only each task's own output."""
+	settings = bbq_config.load_bbq_config(str(Path(file_utils.get_repo_root()) / "bbq_settings.yml"))
+	settings["paths"]["bp_root"] = str(tmp_path)
+	body = (
+		"subject,topic,script,flags,input,notes\n"
+		f"biochemistry,amino_acids,{alias},-d 5,steps.yml,\n"
+	)
+	tasks = bbq_config.load_tasks_csv(
+		_write_csv(tmp_path, body), settings, _alias_map_with_amino_acids(),
+	)
+	# Both formats and another bank coexist in the generator's working directory.
+	for name in ("ORDER-steps", "SEQUENCEMC-steps", "SEQUENCEMC-other"):
+		(tmp_path / f"bbq-{name}-3_items-questions.txt").write_text("question\n")
+	outputs = []
+	for task in tasks:
+		ok, output, _candidate, message = bbq_outputs.resolve_generated_output(task, str(tmp_path), 0)
+		assert ok, message
+		outputs.append(Path(output).name)
+	assert outputs == [f"bbq-{fmt}-steps-3_items-questions.txt" for fmt in formats]
 
 
 def test_raw_topicNN_for_aliased_topic_raises(tmp_path: object) -> object:

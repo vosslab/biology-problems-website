@@ -11,6 +11,7 @@ bbq-Henderson-Hasselbalch-ratio_num-questions.txt,Biochemistry,NUM,Apply,Procedu
 bbq-MATCH-amino_acids_properties-long_tables-questions.txt,Biochemistry,Matching,Remember,Factual
 bbq-MATCH-amino_acids_properties-questions.txt,Biochemistry,Matching,Remember,Factual
 bbq-MATCH-biochemical_functional_groups-questions.txt,Biochemistry,Matching,Remember,Factual
+bbq-MATCH-biofuels-questions.txt,Biotechnology,Matching,Remember,Factual
 bbq-MATCH-biotech_vs_improved-questions.txt,Biotechnology,Matching,Understand,Conceptual
 bbq-MATCH-biotechnology_periods_and_milestones-questions.txt,Biotechnology,Matching,Remember,Factual
 bbq-MATCH-bond_types-questions.txt,Biochemistry,Matching,Understand,Conceptual
@@ -56,6 +57,7 @@ bbq-MATCH-polysaccharides-questions.txt,Biochemistry,Matching,Remember,Factual
 bbq-MATCH-population_genetics_terms-questions.txt,Genetics,Matching,Remember,Factual
 bbq-MATCH-protein_v_dna_gels-questions.txt,Biochemistry; Biotechnology,Matching,Remember,Factual
 bbq-MATCH-proteomics_v_metabolomics-questions.txt,Biotechnology,Matching,Remember,Conceptual
+bbq-MATCH-remediation_sites-questions.txt,Biotechnology,Matching,Remember,Factual
 bbq-MATCH-respiration-questions.txt,Biochemistry,Matching,Remember,Factual
 bbq-MATCH-selecting_statistical_tests-questions.txt,Biostatistics,Matching,Understand,Procedural
 bbq-MATCH-senses_receptor_types_by_modality-questions.txt,Biochemistry; Other,Matching,Remember,Factual
@@ -67,7 +69,14 @@ bbq-MATCH-theranos_people-questions.txt,Biotechnology,Matching,Remember,Factual
 bbq-MATCH-transgenic_crop_regulators-questions.txt,Biotechnology,Matching,Remember,Factual
 bbq-MATCH-trophic_classes-questions.txt,Other,Matching,Remember,Conceptual
 bbq-MATCH-trophic_organisms-questions.txt,Other,Matching,Remember,Conceptual
+bbq-SEQUENCEMC-glycolysis-11_items-questions.txt,Biochemistry,MCORDER,Analyze,Conceptual
+bbq-SEQUENCEMC-microbial_16s_survey-6_items-questions.txt,Biotechnology,MCORDER,Analyze,Procedural
+bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt,Biotechnology,MCORDER,Understand,Conceptual
+bbq-ORDER-glycolysis-11_items-questions.txt,Biochemistry,ORD,Analyze,Conceptual
+bbq-ORDER-microbial_16s_survey-6_items-questions.txt,Biotechnology,ORD,Analyze,Procedural
+bbq-ORDER-model_organism_complexity-7_items-questions.txt,Biotechnology,ORD,Understand,Conceptual
 bbq-RT-qPCR-questions.txt,Laboratory; Molecular Biology,NUM,Apply,Procedural
+bbq-TFMS-bloodless_glucose-questions.txt,Biotechnology,TFMS,Understand,Conceptual
 bbq-TFMS-catalytic_strategies-questions.txt,Biochemistry,TFMS,Remember,Conceptual
 bbq-TFMS-cell_theory-questions.txt,Other,TFMS,Remember,Conceptual
 bbq-TFMS-chemical_reactions-questions.txt,Biochemistry,TFMS,Remember,Conceptual
@@ -105,6 +114,7 @@ bbq-TFMS-nucleotide_components-questions.txt,Biochemistry; Genetics; Molecular B
 bbq-TFMS-pcr_components-questions.txt,Molecular Biology,TFMS,Remember,Factual
 bbq-TFMS-pcr_primers-questions.txt,Molecular Biology,TFMS,Remember,Procedural
 bbq-TFMS-pcr_step_order-questions.txt,Molecular Biology,TFMS,Remember,Procedural
+bbq-TFMS-plant_gene_methods-questions.txt,Biotechnology,TFMS,Remember,Factual
 bbq-TFMS-potential_v_kinetic_energy-questions.txt,Biochemistry,TFMS,Understand,Conceptual
 bbq-TFMS-proofreading-questions.txt,Molecular Biology,TFMS,Remember,Conceptual
 bbq-TFMS-protein_stability-questions.txt,Biotechnology,TFMS,Remember,Conceptual
@@ -121,6 +131,7 @@ bbq-TFMS-xna_and_xdna-questions.txt,Biotechnology,TFMS,Remember,Factual
 bbq-WOMC-amino_acids_properties-long_tables-questions.txt,Biochemistry,WOMC,Remember,Factual
 bbq-WOMC-amino_acids_properties-questions.txt,Biochemistry,WOMC,Remember,Factual
 bbq-WOMC-biochemical_functional_groups-questions.txt,Biochemistry,WOMC,Remember,Factual
+bbq-WOMC-biofuels-questions.txt,Biotechnology,WOMC,Remember,Factual
 bbq-WOMC-biotech_vs_improved-questions.txt,Biotechnology,WOMC,Understand,Conceptual
 bbq-WOMC-biotechnology_periods_and_milestones-questions.txt,Biotechnology,WOMC,Remember,Factual
 bbq-WOMC-bond_types-questions.txt,Biochemistry,WOMC,Understand,Conceptual
@@ -166,6 +177,7 @@ bbq-WOMC-polysaccharides-questions.txt,Biochemistry,WOMC,Remember,Factual
 bbq-WOMC-population_genetics_terms-questions.txt,Genetics,WOMC,Remember,Factual
 bbq-WOMC-protein_v_dna_gels-questions.txt,Biochemistry; Biotechnology,WOMC,Understand,Factual
 bbq-WOMC-proteomics_v_metabolomics-questions.txt,Biotechnology,WOMC,Remember,Conceptual
+bbq-WOMC-remediation_sites-questions.txt,Biotechnology,WOMC,Remember,Factual
 bbq-WOMC-respiration-questions.txt,Biochemistry,WOMC,Remember,Factual
 bbq-WOMC-selecting_statistical_tests-questions.txt,Biostatistics,WOMC,Apply,Procedural
 bbq-WOMC-senses_receptor_types_by_modality-questions.txt,Biochemistry; Other,WOMC,Remember,Factual
@@ -202,10 +214,16 @@ bbq-busse_woods_two_sample_t_test-tails1-questions.txt,Biostatistics,NUM,Apply,P
 bbq-cell_surf-to-vol_ratio-questions.txt,Other,MC,Apply,Conceptual
 bbq-chargaff_dna_percent-5_choices-questions.txt,Biochemistry; Genetics; Molecular Biology,MC,Apply,Procedural
 bbq-chemical_group_pka_forms-questions.txt,Biochemistry,MA,Apply,Conceptual
-bbq-chi_square_calculated-SUPPORT-questions.txt,Genetics,NUM,Apply,Procedural
-bbq-chi_square_choices-questions.txt,Genetics,MC,Apply,Procedural
-bbq-chi_square_errors-questions.txt,Genetics,MC,Evaluate,Procedural
-bbq-chi_square_hardy_weinberg-questions.txt,Genetics,MC,Evaluate,Procedural
+bbq-chi2-analyze_dice-degrees-free-MC-questions.txt,Genetics,MC,Apply,Procedural
+bbq-chi2-analyze_dice-expected-count-MC-questions.txt,Genetics,MC,Apply,Procedural
+bbq-chi2-analyze_dice-row-calc-MC-questions.txt,Genetics,MC,Apply,Procedural
+bbq-chi2-calculate_statistic-REJECT-questions.txt,Genetics,NUM,Apply,Procedural
+bbq-chi2-calculate_statistic-SUPPORT-questions.txt,Genetics,NUM,Apply,Procedural
+bbq-chi2-choose_table-questions.txt,Genetics,MC,Apply,Procedural
+bbq-chi2-find_errors-questions.txt,Genetics,MC,Evaluate,Procedural
+bbq-chi2-select_hypothesis-alt-questions.txt,Genetics,MC,Understand,Conceptual
+bbq-chi2-select_hypothesis-null-questions.txt,Genetics,MC,Understand,Conceptual
+bbq-chi2-test_hardy_weinberg-questions.txt,Genetics,MC,Evaluate,Procedural
 bbq-chymotrypsin_substrate-questions.txt,Biochemistry,MC,Apply,Procedural
 bbq-circular_digest-length_10-sites_2_selected-questions.txt,Genetics,MA,Apply,Procedural
 bbq-circular_digest-length_12-sites_3_selected-questions.txt,Genetics,MA,Apply,Procedural
@@ -259,6 +277,7 @@ bbq-fatty_acid_naming_delta-questions.txt,Biochemistry,MC,Apply,Procedural
 bbq-fatty_acid_naming_omega-questions.txt,Biochemistry,MC,Apply,Procedural
 bbq-feedback_merging_pathway-questions.txt,Biochemistry,MC,Analyze,Conceptual
 bbq-feedback_splitting_pathway-questions.txt,Biochemistry,MC,Analyze,Conceptual
+bbq-four_point_test-cross_gene_map-distances_plus-questions.txt,Genetics,MULTI_FIB,Apply,Procedural
 bbq-free_energy_keq_relationship-questions.txt,Biochemistry,MC,Understand,Conceptual
 bbq-fret_overlap_colors-questions.txt,Other,MC,Apply,Conceptual
 bbq-fret_permute_colors-questions.txt,Other,MC,Apply,Conceptual
@@ -301,8 +320,6 @@ bbq-metabolic_pathway_allosteric-questions.txt,Biochemistry,MC,Understand,Concep
 bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt,Biochemistry,MC,Understand,Conceptual
 bbq-michaelis_menten_table-Km-questions.txt,Biochemistry; Laboratory,MC,Apply,Procedural
 bbq-michaelis_menten_table-inhibition-questions.txt,Biochemistry; Laboratory,MC,Understand,Conceptual
-bbq-microbial_16s_rdna_survey_order-ORD-6_choices-questions.txt,Biotechnology,ORD,Analyze,Procedural
-bbq-model_organism_complexity_order-ORD-4_choices-questions.txt,Biotechnology,ORD,Understand,Conceptual
 bbq-monohybrid_degrees_of_dominance-questions.txt,Genetics,MC,Understand,Conceptual
 bbq-monohybrid_genotype_statements-questions.txt,Genetics,MC,Apply,Conceptual
 bbq-monohybrid_litter_inference-questions.txt,Genetics,MC,Apply,Conceptual
@@ -314,7 +331,6 @@ bbq-optimal_buffering_range-questions.txt,Biochemistry,MC,Apply,Conceptual
 bbq-optimal_enzyme-type_1-questions.txt,Biochemistry,MC,Apply,Conceptual
 bbq-optimal_enzyme-type_2-questions.txt,Biochemistry,MC,Apply,Conceptual
 bbq-optimal_enzyme-type_3-questions.txt,Biochemistry,MC,Apply,Conceptual
-bbq-order_glycolysis_molecules-ORD-4_choices-questions.txt,Biochemistry,ORD,Analyze,Conceptual
 bbq-orders_of_magnitude_mc-questions.txt,Laboratory,MC,Apply,Procedural
 bbq-overhang_sequence-mc-questions.txt,Genetics; Molecular Biology,MC,Apply,Procedural
 bbq-overhang_type-5_3_blunt-questions.txt,Genetics; Molecular Biology,MC,Understand,Conceptual
@@ -323,6 +339,7 @@ bbq-pKa_buffer_state-2_protons-questions.txt,Biochemistry,MC,Apply,Conceptual
 bbq-pKa_buffer_state-3_protons-questions.txt,Biochemistry,MC,Apply,Conceptual
 bbq-pKa_buffer_state-4_protons-questions.txt,Biochemistry,MC,Apply,Conceptual
 bbq-palindrome_sequence_match-questions.txt,Biochemistry; Genetics; Molecular Biology,Matching,Apply,Procedural
+bbq-pascal_triangle-MC-questions.txt,Genetics,MC,Apply,Procedural
 bbq-pcr_design-36_bp-9_primer-questions.txt,Laboratory; Molecular Biology,MC,Apply,Procedural
 bbq-pcr_design-9_bp-6_primer-questions.txt,Biotechnology,MC,Apply,Procedural
 bbq-percent_dilution_aliquot_numeric-questions.txt,Laboratory,NUM,Apply,Procedural
@@ -337,6 +354,7 @@ bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt,Biochemistry,MC,Apply,Pr
 bbq-polyploid-gametes-questions.txt,Genetics,MC,Apply,Procedural
 bbq-polyploid-monoploid_v_haploid-questions.txt,Genetics,MC,Apply,Procedural
 bbq-probabiliy_of_progeny-questions.txt,Genetics,MC,Apply,Procedural
+bbq-progeny_probability_practice-binomial-MC-questions.txt,Genetics,MC,Apply,Procedural
 bbq-protein_gel_migration-questions.txt,Biochemistry; Biotechnology; Laboratory,MC,Apply,Procedural
 bbq-punnett_choice-questions.txt,Genetics,MC,Apply,Procedural
 bbq-quick_fatty_acid_colon_system-questions.txt,Biochemistry,MC,Understand,Factual

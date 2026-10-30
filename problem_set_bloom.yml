@@ -68,8 +68,11 @@ bbq-MATCH-theranos_people-questions.txt: Remember, Factual
 bbq-MATCH-transgenic_crop_regulators-questions.txt: Remember, Factual
 bbq-MATCH-trophic_classes-questions.txt: Remember, Conceptual
 bbq-MATCH-trophic_organisms-questions.txt: Remember, Conceptual
-bbq-MCORDER-microbial_16s_survey-6_items-questions.txt: Analyze, Procedural
+bbq-SEQUENCEMC-glycolysis-11_items-questions.txt: Analyze, Conceptual
+bbq-SEQUENCEMC-microbial_16s_survey-6_items-questions.txt: Analyze, Procedural
+bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt: Understand, Conceptual
 bbq-ORDER-glycolysis-11_items-questions.txt: Analyze, Conceptual
+bbq-ORDER-microbial_16s_survey-6_items-questions.txt: Analyze, Procedural
 bbq-ORDER-model_organism_complexity-7_items-questions.txt: Understand, Conceptual
 bbq-RT-qPCR-questions.txt: Apply, Procedural
 bbq-TFMS-bloodless_glucose-questions.txt: Understand, Conceptual

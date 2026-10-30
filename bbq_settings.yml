@@ -7,7 +7,9 @@ paths:
   bp_mcs: "{bp_root}/multiple_choice_statements"
 
 script_aliases:
-  YORDER: "{bp_order}/yaml_order_to_bbq.py"
+  YORDER:
+    - "{bp_order}/yaml_order_to_bbq.py"
+    - "{bp_order}/yaml_mc_order_to_bbq.py"
   YMCORDER: "{bp_order}/yaml_mc_order_to_bbq.py"
   YMATCH:
     - "{bp_match}/yaml_match_to_bbq.py"

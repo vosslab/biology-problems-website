@@ -114,7 +114,10 @@ or `--max-questions`).
 - `script` can be a full path, a relative path, or a configured script alias.
 - `flags` holds extra CLI flags. `input` supplies a required input file and is
   added as `-y` by default.
-- For `YMATCH`, `YMCS`, and `YMMS`, `input` may be only the YAML basename.
+- For `YORDER`, `YMCORDER`, `YMATCH`, `YMCS`, and `YMMS`, `input` may be only the YAML basename.
+- `YORDER` generates both native ordering (`ORDER` filenames, `ORD` records) and
+  Sequence MC (`SEQUENCEMC` filenames, `MC` records) from one YAML bank. `YMCORDER`
+  generates only the Sequence MC version. Both formats retain their own download controls.
 
 ## Sort a task CSV
 

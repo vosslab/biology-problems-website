@@ -2,6 +2,7 @@
 
 from pathlib import Path
 
+import pytest
 from bs4 import BeautifulSoup
 
 import bioproblems_site.metadata as metadata
@@ -105,17 +106,34 @@ def test_same_filename_uses_each_generated_files_response_type(tmp_path: Path) -
 
 
 #============================================
-def test_mc_subtype_uses_filename(tmp_path: Path) -> None:
-	"""WOMC and TFMS are distinct MC generator families."""
-	womc = tmp_path / 'bbq-WOMC-properties-questions.txt'
-	tfms = tmp_path / 'bbq-TFMS-properties-questions.txt'
-	regular = tmp_path / 'bbq-properties-questions.txt'
-	womc.write_text('MC\tQuestion\n')
-	tfms.write_text('MC\tQuestion\n')
-	regular.write_text('MC\tQuestion\n')
-	assert problem_set_display.question_type_for_source(womc) == 'WOMC'
-	assert problem_set_display.question_type_for_source(tfms) == 'TFMS'
-	assert problem_set_display.question_type_for_source(regular) == 'MC'
+@pytest.mark.parametrize('prefix, raw_type, expected', [
+	('WOMC-', 'MC', 'WOMC'),
+	('TFMS-', 'MC', 'TFMS'),
+	('SEQUENCEMC-', 'MC', 'MCORDER'),
+	('', 'MC', 'MC'),
+	('ORDER-', 'ORD', 'ORD'),
+	('SEQUENCEMC-', 'ORD', 'ORD'),
+])
+def test_mc_subtype_uses_filename(
+	tmp_path: Path, prefix: str, raw_type: str, expected: str,
+) -> None:
+	"""MC families use filenames while the BBQ record remains authoritative."""
+	source = tmp_path / f'bbq-{prefix}properties-questions.txt'
+	source.write_text(f'{raw_type}\tQuestion\n')
+	assert problem_set_display.question_type_for_source(source) == expected
+
+
+#============================================
+def test_sequence_mc_badge_preserves_qualifiers(tmp_path: Path) -> None:
+	"""Sequence MC has an explanatory tooltip and a separate format badge."""
+	source = tmp_path / 'bbq-SEQUENCEMC-workflow-6_items-questions.txt'
+	source.write_text('MC\tQuestion\n')
+	title = 'Survey Workflow (6 Steps, MCORDER)'
+	assert problem_set_display.render_title(title) == 'Survey Workflow (6 Steps)'
+	for source_path in (None, source):
+		soup = BeautifulSoup(problem_set_display.render_badges(title, source_path), 'html.parser')
+		assert soup.get_text() == 'Sequence MC'
+		assert soup.abbr['title'] == 'Selection of the Correct Sorting Sequence Multiple Choice'
 
 
 #============================================

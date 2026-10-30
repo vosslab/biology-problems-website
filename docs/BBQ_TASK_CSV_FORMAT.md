@@ -79,6 +79,7 @@ Common path aliases:
 | Placeholder    | Meaning                                              |
 | ---            | ---                                                  |
 | `{bp_root}`    | Root of the `biology-problems` problems tree.        |
+| `{bp_order}`   | `{bp_root}/ordering`.                               |
 | `{bp_match}`   | `{bp_root}/matching_sets`.                           |
 | `{bp_mcs}`     | `{bp_root}/multiple_choice_statements`.              |
 
@@ -87,6 +88,8 @@ Common script aliases:
 | Alias    | Resolves to                                                    |
 | ---      | ---                                                            |
 | `YMATCH` | A pair of YAML-to-BBQ scripts under `{bp_match}` (one row in, two scripts run). |
+| `YORDER` | A pair of YAML-to-BBQ scripts under `{bp_order}`: native ordering and Sequence MC. |
+| `YMCORDER` | `{bp_order}/yaml_mc_order_to_bbq.py` for Sequence MC only.     |
 | `YMCS`   | `{bp_mcs}/yaml_mc_statements_to_bbq.py`.                       |
 | `YMMS`   | `{bp_match}/yaml_make_match_sets.py`.                          |
 

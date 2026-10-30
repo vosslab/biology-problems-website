@@ -13,78 +13,78 @@ Rubric versions: {'2': 414}.
 
 ## Overall
 
-Classified: 414; unavailable: 0.
+Classified: 430; unavailable: 0.
 
 | Cognitive process | Factual | Conceptual | Procedural | Metacognitive |
 | --- | --- | --- | --- | --- |
-| Remember | 101 (24.4%) | 54 (13.0%) | 3 (0.7%) | 0 (0.0%) |
-| Understand | 9 (2.2%) | 48 (11.6%) | 1 (0.2%) | 0 (0.0%) |
-| Apply | 5 (1.2%) | 37 (8.9%) | 120 (29.0%) | 0 (0.0%) |
-| Analyze | 0 (0.0%) | 12 (2.9%) | 20 (4.8%) | 0 (0.0%) |
-| Evaluate | 0 (0.0%) | 2 (0.5%) | 2 (0.5%) | 0 (0.0%) |
+| Remember | 106 (24.7%) | 54 (12.6%) | 3 (0.7%) | 0 (0.0%) |
+| Understand | 9 (2.1%) | 52 (12.1%) | 1 (0.2%) | 0 (0.0%) |
+| Apply | 5 (1.2%) | 36 (8.4%) | 127 (29.5%) | 0 (0.0%) |
+| Analyze | 0 (0.0%) | 13 (3.0%) | 21 (4.9%) | 0 (0.0%) |
+| Evaluate | 0 (0.0%) | 1 (0.2%) | 2 (0.5%) | 0 (0.0%) |
 | Create | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 
 ## Subject: Biochemistry
 
-Classified: 144; unavailable: 0.
+Classified: 145; unavailable: 0.
 
 | Cognitive process | Factual | Conceptual | Procedural | Metacognitive |
 | --- | --- | --- | --- | --- |
-| Remember | 37 (25.7%) | 25 (17.4%) | 0 (0.0%) | 0 (0.0%) |
-| Understand | 5 (3.5%) | 23 (16.0%) | 0 (0.0%) | 0 (0.0%) |
-| Apply | 3 (2.1%) | 16 (11.1%) | 32 (22.2%) | 0 (0.0%) |
-| Analyze | 0 (0.0%) | 3 (2.1%) | 0 (0.0%) | 0 (0.0%) |
+| Remember | 37 (25.5%) | 25 (17.2%) | 0 (0.0%) | 0 (0.0%) |
+| Understand | 5 (3.4%) | 23 (15.9%) | 0 (0.0%) | 0 (0.0%) |
+| Apply | 3 (2.1%) | 16 (11.0%) | 32 (22.1%) | 0 (0.0%) |
+| Analyze | 0 (0.0%) | 4 (2.8%) | 0 (0.0%) | 0 (0.0%) |
 | Evaluate | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 | Create | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 
 ## Question type: Matching
 
-Classified: 67; unavailable: 0.
+Classified: 69; unavailable: 0.
 
 | Cognitive process | Factual | Conceptual | Procedural | Metacognitive |
 | --- | --- | --- | --- | --- |
-| Remember | 44 (65.7%) | 14 (20.9%) | 0 (0.0%) | 0 (0.0%) |
-| Understand | 0 (0.0%) | 6 (9.0%) | 1 (1.5%) | 0 (0.0%) |
-| Apply | 0 (0.0%) | 1 (1.5%) | 1 (1.5%) | 0 (0.0%) |
+| Remember | 46 (66.7%) | 14 (20.3%) | 0 (0.0%) | 0 (0.0%) |
+| Understand | 0 (0.0%) | 6 (8.7%) | 1 (1.4%) | 0 (0.0%) |
+| Apply | 0 (0.0%) | 1 (1.4%) | 1 (1.4%) | 0 (0.0%) |
 | Analyze | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 | Evaluate | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 | Create | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 
 ## Question type: WOMC
 
-Classified: 59; unavailable: 0.
+Classified: 61; unavailable: 0.
 
 | Cognitive process | Factual | Conceptual | Procedural | Metacognitive |
 | --- | --- | --- | --- | --- |
-| Remember | 36 (61.0%) | 15 (25.4%) | 0 (0.0%) | 0 (0.0%) |
-| Understand | 1 (1.7%) | 5 (8.5%) | 0 (0.0%) | 0 (0.0%) |
-| Apply | 0 (0.0%) | 1 (1.7%) | 1 (1.7%) | 0 (0.0%) |
+| Remember | 38 (62.3%) | 15 (24.6%) | 0 (0.0%) | 0 (0.0%) |
+| Understand | 1 (1.6%) | 5 (8.2%) | 0 (0.0%) | 0 (0.0%) |
+| Apply | 0 (0.0%) | 1 (1.6%) | 1 (1.6%) | 0 (0.0%) |
 | Analyze | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 | Evaluate | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 | Create | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 
 ## Question type: MC
 
-Classified: 170; unavailable: 0.
+Classified: 175; unavailable: 0.
 
 | Cognitive process | Factual | Conceptual | Procedural | Metacognitive |
 | --- | --- | --- | --- | --- |
-| Remember | 2 (1.2%) | 5 (2.9%) | 0 (0.0%) | 0 (0.0%) |
-| Understand | 6 (3.5%) | 26 (15.3%) | 0 (0.0%) | 0 (0.0%) |
-| Apply | 4 (2.4%) | 27 (15.9%) | 70 (41.2%) | 0 (0.0%) |
-| Analyze | 0 (0.0%) | 8 (4.7%) | 18 (10.6%) | 0 (0.0%) |
-| Evaluate | 0 (0.0%) | 2 (1.2%) | 2 (1.2%) | 0 (0.0%) |
+| Remember | 2 (1.1%) | 5 (2.9%) | 0 (0.0%) | 0 (0.0%) |
+| Understand | 6 (3.4%) | 28 (16.0%) | 0 (0.0%) | 0 (0.0%) |
+| Apply | 4 (2.3%) | 26 (14.9%) | 75 (42.9%) | 0 (0.0%) |
+| Analyze | 0 (0.0%) | 8 (4.6%) | 18 (10.3%) | 0 (0.0%) |
+| Evaluate | 0 (0.0%) | 1 (0.6%) | 2 (1.1%) | 0 (0.0%) |
 | Create | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 
 ## Question type: NUM
 
-Classified: 29; unavailable: 0.
+Classified: 30; unavailable: 0.
 
 | Cognitive process | Factual | Conceptual | Procedural | Metacognitive |
 | --- | --- | --- | --- | --- |
 | Remember | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 | Understand | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
-| Apply | 0 (0.0%) | 0 (0.0%) | 29 (100.0%) | 0 (0.0%) |
+| Apply | 0 (0.0%) | 0 (0.0%) | 30 (100.0%) | 0 (0.0%) |
 | Analyze | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 | Evaluate | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 | Create | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
@@ -117,14 +117,27 @@ Classified: 10; unavailable: 0.
 
 ## Question type: TFMS
 
-Classified: 50; unavailable: 0.
+Classified: 52; unavailable: 0.
 
 | Cognitive process | Factual | Conceptual | Procedural | Metacognitive |
 | --- | --- | --- | --- | --- |
-| Remember | 19 (38.0%) | 20 (40.0%) | 3 (6.0%) | 0 (0.0%) |
-| Understand | 1 (2.0%) | 7 (14.0%) | 0 (0.0%) | 0 (0.0%) |
+| Remember | 20 (38.5%) | 20 (38.5%) | 3 (5.8%) | 0 (0.0%) |
+| Understand | 1 (1.9%) | 8 (15.4%) | 0 (0.0%) | 0 (0.0%) |
 | Apply | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 | Analyze | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
+| Evaluate | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
+| Create | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
+
+## Question type: MCORDER
+
+Classified: 3; unavailable: 0.
+
+| Cognitive process | Factual | Conceptual | Procedural | Metacognitive |
+| --- | --- | --- | --- | --- |
+| Remember | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
+| Understand | 0 (0.0%) | 1 (33.3%) | 0 (0.0%) | 0 (0.0%) |
+| Apply | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
+| Analyze | 0 (0.0%) | 1 (33.3%) | 1 (33.3%) | 0 (0.0%) |
 | Evaluate | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 | Create | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 
@@ -143,26 +156,26 @@ Classified: 3; unavailable: 0.
 
 ## Subject: Genetics
 
-Classified: 147; unavailable: 0.
+Classified: 154; unavailable: 0.
 
 | Cognitive process | Factual | Conceptual | Procedural | Metacognitive |
 | --- | --- | --- | --- | --- |
-| Remember | 23 (15.6%) | 8 (5.4%) | 1 (0.7%) | 0 (0.0%) |
-| Understand | 4 (2.7%) | 18 (12.2%) | 0 (0.0%) | 0 (0.0%) |
-| Apply | 2 (1.4%) | 16 (10.9%) | 47 (32.0%) | 0 (0.0%) |
-| Analyze | 0 (0.0%) | 6 (4.1%) | 19 (12.9%) | 0 (0.0%) |
-| Evaluate | 0 (0.0%) | 1 (0.7%) | 2 (1.4%) | 0 (0.0%) |
+| Remember | 23 (14.9%) | 8 (5.2%) | 1 (0.6%) | 0 (0.0%) |
+| Understand | 4 (2.6%) | 20 (13.0%) | 0 (0.0%) | 0 (0.0%) |
+| Apply | 2 (1.3%) | 15 (9.7%) | 54 (35.1%) | 0 (0.0%) |
+| Analyze | 0 (0.0%) | 6 (3.9%) | 19 (12.3%) | 0 (0.0%) |
+| Evaluate | 0 (0.0%) | 0 (0.0%) | 2 (1.3%) | 0 (0.0%) |
 | Create | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 
 ## Question type: MULTI_FIB
 
-Classified: 3; unavailable: 0.
+Classified: 4; unavailable: 0.
 
 | Cognitive process | Factual | Conceptual | Procedural | Metacognitive |
 | --- | --- | --- | --- | --- |
 | Remember | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 | Understand | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
-| Apply | 0 (0.0%) | 0 (0.0%) | 3 (100.0%) | 0 (0.0%) |
+| Apply | 0 (0.0%) | 0 (0.0%) | 4 (100.0%) | 0 (0.0%) |
 | Analyze | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 | Evaluate | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 | Create | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
@@ -195,27 +208,27 @@ Classified: 51; unavailable: 0.
 
 ## Subject: Biostatistics
 
-Classified: 27; unavailable: 0.
+Classified: 26; unavailable: 0.
 
 | Cognitive process | Factual | Conceptual | Procedural | Metacognitive |
 | --- | --- | --- | --- | --- |
-| Remember | 6 (22.2%) | 1 (3.7%) | 1 (3.7%) | 0 (0.0%) |
-| Understand | 0 (0.0%) | 0 (0.0%) | 1 (3.7%) | 0 (0.0%) |
-| Apply | 0 (0.0%) | 1 (3.7%) | 16 (59.3%) | 0 (0.0%) |
+| Remember | 6 (23.1%) | 1 (3.8%) | 1 (3.8%) | 0 (0.0%) |
+| Understand | 0 (0.0%) | 0 (0.0%) | 1 (3.8%) | 0 (0.0%) |
+| Apply | 0 (0.0%) | 0 (0.0%) | 16 (61.5%) | 0 (0.0%) |
 | Analyze | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
-| Evaluate | 0 (0.0%) | 1 (3.7%) | 0 (0.0%) | 0 (0.0%) |
+| Evaluate | 0 (0.0%) | 1 (3.8%) | 0 (0.0%) | 0 (0.0%) |
 | Create | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 
 ## Subject: Biotechnology
 
-Classified: 56; unavailable: 0.
+Classified: 64; unavailable: 0.
 
 | Cognitive process | Factual | Conceptual | Procedural | Metacognitive |
 | --- | --- | --- | --- | --- |
-| Remember | 25 (44.6%) | 11 (19.6%) | 0 (0.0%) | 0 (0.0%) |
-| Understand | 1 (1.8%) | 7 (12.5%) | 0 (0.0%) | 0 (0.0%) |
-| Apply | 0 (0.0%) | 2 (3.6%) | 8 (14.3%) | 0 (0.0%) |
-| Analyze | 0 (0.0%) | 1 (1.8%) | 1 (1.8%) | 0 (0.0%) |
+| Remember | 30 (46.9%) | 11 (17.2%) | 0 (0.0%) | 0 (0.0%) |
+| Understand | 1 (1.6%) | 9 (14.1%) | 0 (0.0%) | 0 (0.0%) |
+| Apply | 0 (0.0%) | 2 (3.1%) | 8 (12.5%) | 0 (0.0%) |
+| Analyze | 0 (0.0%) | 1 (1.6%) | 2 (3.1%) | 0 (0.0%) |
 | Evaluate | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 | Create | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 
@@ -236,23 +249,23 @@ Classified: 30; unavailable: 0.
 
 Examples are filenames, not additional counts or reference labels.
 
-- Remember / Factual (101): `bbq-Henderson-Hasselbalch-equation-questions.txt`, `bbq-MATCH-amino_acids_properties-long_tables-questions.txt`
+- Remember / Factual (106): `bbq-Henderson-Hasselbalch-equation-questions.txt`, `bbq-MATCH-amino_acids_properties-long_tables-questions.txt`
 - Remember / Conceptual (54): `bbq-MATCH-catalytic_strategies-questions.txt`, `bbq-MATCH-clinical_trial_phases-questions.txt`
 - Remember / Procedural (3): `bbq-TFMS-chi-square-questions.txt`, `bbq-TFMS-pcr_primers-questions.txt`
 - Understand / Factual (9): `bbq-TFMS-english_palindromes-questions.txt`, `bbq-WOMC-protein_v_dna_gels-questions.txt`
-- Understand / Conceptual (48): `bbq-MATCH-biotech_vs_improved-questions.txt`, `bbq-MATCH-bond_types-questions.txt`
+- Understand / Conceptual (52): `bbq-MATCH-biotech_vs_improved-questions.txt`, `bbq-MATCH-bond_types-questions.txt`
 - Understand / Procedural (1): `bbq-MATCH-selecting_statistical_tests-questions.txt`
 - Apply / Factual (5): `bbq-blood_type_agglutination_test-questions.txt`, `bbq-cytogenetic_notation-band_order-5_choices-questions.txt`
-- Apply / Conceptual (37): `bbq-MATCH-monohybrid_cross_genotype-questions.txt`, `bbq-WOMC-monohybrid_cross_genotype-questions.txt`
-- Apply / Procedural (120): `bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt`, `bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt`
-- Analyze / Conceptual (12): `bbq-epistasis_test_cross-inverse_direction-6_choices-questions.txt`, `bbq-exon_splicing-questions.txt`
-- Analyze / Procedural (20): `bbq-deletion_mutant_random-04_genes-MC-questions.txt`, `bbq-deletion_mutant_random-05_genes-MC-questions.txt`
-- Evaluate / Conceptual (2): `bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt`, `bbq-hypothesis_statement_errors-hypotheses_partner-questions.txt`
-- Evaluate / Procedural (2): `bbq-chi_square_errors-questions.txt`, `bbq-chi_square_hardy_weinberg-questions.txt`
+- Apply / Conceptual (36): `bbq-MATCH-monohybrid_cross_genotype-questions.txt`, `bbq-WOMC-monohybrid_cross_genotype-questions.txt`
+- Apply / Procedural (127): `bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt`, `bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt`
+- Analyze / Conceptual (13): `bbq-MCORDER-glycolysis-11_items-questions.txt`, `bbq-ORDER-glycolysis-11_items-questions.txt`
+- Analyze / Procedural (21): `bbq-MCORDER-microbial_16s_survey-6_items-questions.txt`, `bbq-ORDER-microbial_16s_survey-6_items-questions.txt`
+- Evaluate / Conceptual (1): `bbq-hypothesis_statement_errors-hypotheses_partner-questions.txt`
+- Evaluate / Procedural (2): `bbq-chi2-find_errors-questions.txt`, `bbq-chi2-test_hardy_weinberg-questions.txt`
 
 ## Changes from baseline
 
-104 banks changed their pair. This measures revision, not accuracy.
+100 banks changed their pair. This measures revision, not accuracy.
 
 - Understand / Conceptual -> Remember / Conceptual: 35
 - Understand / Factual -> Remember / Factual: 23
@@ -260,22 +273,19 @@ Examples are filenames, not additional counts or reference labels.
 - Evaluate / Conceptual -> Remember / Conceptual: 6
 - Understand / Procedural -> Understand / Conceptual: 4
 - Analyze / Procedural -> Analyze / Conceptual: 4
-- Understand / Conceptual -> Apply / Conceptual: 3
+- Understand / Conceptual -> Apply / Conceptual: 2
 - Apply / Factual -> Apply / Procedural: 2
-- Apply / Procedural -> Evaluate / Procedural: 1
-- Apply / Procedural -> Understand / Procedural: 1
-- Understand / Procedural -> Analyze / Conceptual: 1
-- Evaluate / Factual -> Remember / Procedural: 1
-- Remember / Factual -> Remember / Procedural: 1
-- Analyze / Factual -> Remember / Factual: 1
-- Remember / Conceptual -> Remember / Factual: 1
-- Analyze / Conceptual -> Understand / Conceptual: 1
-- Understand / Procedural -> Apply / Procedural: 1
-- Analyze / Factual -> Analyze / Conceptual: 1
-- Understand / Conceptual -> Remember / Procedural: 1
-- Understand / Conceptual -> Apply / Factual: 1
-- Apply / Conceptual -> Apply / Procedural: 1
 - Analyze / Factual -> Apply / Factual: 1
+- Analyze / Factual -> Remember / Factual: 1
+- Understand / Procedural -> Analyze / Conceptual: 1
+- Understand / Procedural -> Apply / Procedural: 1
+- Apply / Procedural -> Understand / Procedural: 1
+- Evaluate / Factual -> Remember / Procedural: 1
 - Remember / Factual -> Remember / Conceptual: 1
+- Understand / Conceptual -> Remember / Procedural: 1
+- Remember / Factual -> Remember / Procedural: 1
+- Understand / Conceptual -> Apply / Factual: 1
+- Remember / Conceptual -> Remember / Factual: 1
 - Understand / Conceptual -> Analyze / Conceptual: 1
 - Apply / Procedural -> Analyze / Procedural: 1
+- Apply / Conceptual -> Apply / Procedural: 1

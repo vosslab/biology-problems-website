@@ -32,7 +32,7 @@ biotechnology,environmental_biotech,YMATCH,,{bp_match}/biotechnology/culture_enr
 biotechnology,environmental_biotech,YMATCH,,{bp_match}/biotechnology/plant_transgenes.yml,
 biotechnology,environmental_biotech,YMCS,,{bp_mcs}/biotechnology/xna_and_xdna.yml,
 biotechnology,environmental_biotech,YMCS,,{bp_mcs}/biotechnology/nobel_prizes.yml,
-biotechnology,environmental_biotech,YMCORDER,,{bp_order}/biotechnology/microbial_16s_survey.yml,
+biotechnology,environmental_biotech,YORDER,,{bp_order}/biotechnology/microbial_16s_survey.yml,
 biotechnology,environmental_biotech,YMATCH,,{bp_match}/biotechnology/remediation_sites.yml,
 biotechnology,environmental_biotech,YMATCH,,{bp_match}/biotechnology/biofuels.yml,
 biotechnology,environmental_biotech,YMCS,,{bp_mcs}/biotechnology/bloodless_glucose.yml,

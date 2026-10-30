@@ -1,5 +1,29 @@
 # Changelog
 
+## 2026-10-29
+
+### Behavior or Interface Changes
+
+- Expand YORDER into native ordering and MC ordering generators; use it for the 16S workflow
+  alongside model-organism complexity and glycolysis. Retain YMCORDER for MC-only tasks.
+- Identify MCORDER banks as the distinct Sequence MC website type with the tooltip
+  "Selection of the Correct Sorting Sequence Multiple Choice". Retain MC records and filenames,
+  share native ordering badge colors, and keep paired titles and Bloom classifications aligned.
+- Rebuild all three paired banks, topic pages, catalogs, and manifests. Retire the two older
+  four-item ordering banks; the full glycolysis native bank has one unique eleven-item question.
+- Rename `bbq-MCORDER-` banks to `bbq-SEQUENCEMC-` and update generator output discovery,
+  metadata keys, and site links. Preserve the question contents, Sequence MC badge, and tooltip.
+
+### Developer Tests and Notes
+
+- Keep permanent coverage for paired task outputs and Sequence MC classification and display;
+  remove one-time rebuild checks. Focused checks pass (579 tests), and MkDocs builds successfully.
+- The full suite has four existing failures: guidance formatting, two undeclared Markdown-import
+  checks, and unavailable Podman. Global cleanup is skipped because a separate genetics task
+  references a missing generator. Retire only the two verified ordering replacements explicitly.
+- Browser verification remains incomplete: sandboxed Chromium could not launch; stop further
+  testing at the user's request.
+
 ## 2026-10-27
 
 - Register the four-gene test-cross distance-and-order bonus generator in the genetics

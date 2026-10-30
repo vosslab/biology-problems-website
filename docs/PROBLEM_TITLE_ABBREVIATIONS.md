@@ -23,6 +23,7 @@ while the text labels identify formats independently of color.
 | MC | Multiple Choice |
 | WOMC | Which One Multiple Choice, drawn from matching content |
 | TFMS | True/False Multiple-Choice Statements; badge reads `T/F Statements (MC)` |
+| MCORDER | Selection of the Correct Sorting Sequence Multiple Choice; badge reads `Sequence MC` |
 | MA | Multiple Answer |
 | NUM | Numeric |
 | ORD | Ordering |
@@ -35,7 +36,7 @@ while the text labels identify formats independently of color.
   labels; `MAT` displays as `Matching`; `FIB` displays as `FiB`; `FIB_PLUS` maps to
   the distinct `MULTI_FIB` type and displays as `Multi-FiB`.
 - `MC` records use the filename to identify their subtype: `bbq-WOMC-` uses `WOMC`,
-  `bbq-TFMS-` uses `TFMS`, and other MC filenames use `MC`.
+  `bbq-TFMS-` uses `TFMS`, `bbq-SEQUENCEMC-` uses `MCORDER`, and other MC filenames use `MC`.
 - A shared cache title may use `MC/NUM` when the same generator filename produces
   different formats in different topic files. Each generated file is labeled with its
   actual response type, so its topic heading and catalog entry show one badge.
@@ -44,6 +45,8 @@ while the text labels identify formats independently of color.
 - `TFMS` identifies the generator family. Some TFMS stems ask students to identify
   examples or sequences; describe that assessed task in the base title.
 - Keep paired titles parallel and retain qualifiers such as difficulty and choice counts.
+- Paired `ORDER` and `SEQUENCEMC` filenames use the same base title with `ORD` and `MCORDER`
+  format labels, respectively. Sequence MC keeps the MC BBQ record type.
 - Write the matching format as `Matching`, such as `Amino Acid Properties (Matching)`
   alongside `Amino Acid Properties (WOMC)`.
 - These spellings apply to display titles; filename identifiers keep their existing spelling.
@@ -60,3 +63,4 @@ disabled. Light mode pairs `xdark` text with `xlight` fill; dark mode pairs
 MULTI_FIB, ORD, WOMC, TFMS. This gives the common MC, WOMC, TFMS, and Matching
 badges distinct red, violet, magenta, and warm-brown colors. The generated
 values are fixed in CSS so site builds do not depend on the colorwheel package.
+Sequence MC shares the native ordering blue palette in both themes.

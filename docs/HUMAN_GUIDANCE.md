@@ -81,6 +81,8 @@ origin belongs there too. Rules: [REPO_STYLE.md](REPO_STYLE.md).
   Keep type badges before linked titles in All Questions. Python owns badge markup; CSS owns layout.
 - Identify the response type from each BBQ file's first record. Treat `FIB_PLUS` as the
   distinct `MULTI_FIB` type, and distinguish regular MC, WOMC, and TFMS banks.
+- Have YORDER create both native ordering and Sequence MC banks, including the 16S workflow.
+  Use "Selection of the Correct Sorting Sequence Multiple Choice" as the Sequence MC tooltip.
 - On topic pages, keep breadcrumbs, the title, topic summary, and LibreTexts reference; remove
   chapter-top self-test progress and Bloom scales, reduce excess space, and number problem headings.
   Keep all per-bank downloads, labels, controls, questions, and grading intact. Apply the layout to

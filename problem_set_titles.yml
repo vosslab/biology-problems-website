@@ -121,9 +121,14 @@ bbq-MATCH-trophic_classes-questions.txt: Trophic Categories from Metabolic Defin
   (Matching)
 bbq-MATCH-trophic_organisms-questions.txt: Trophic Classification from Energy and
   Carbon Sources (Matching)
-bbq-MCORDER-microbial_16s_survey-6_items-questions.txt: Environmental 16S rDNA Survey
-  Workflow (6 Steps, MC)
+bbq-SEQUENCEMC-glycolysis-11_items-questions.txt: Glycolysis Intermediate Ordering (MCORDER)
+bbq-SEQUENCEMC-microbial_16s_survey-6_items-questions.txt: Environmental 16S rDNA Survey
+  Workflow (6 Steps, MCORDER)
+bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt: Model Organisms by Complexity
+  (7 Organisms, MCORDER)
 bbq-ORDER-glycolysis-11_items-questions.txt: Glycolysis Intermediate Ordering (ORD)
+bbq-ORDER-microbial_16s_survey-6_items-questions.txt: Environmental 16S rDNA Survey
+  Workflow (6 Steps, ORD)
 bbq-ORDER-model_organism_complexity-7_items-questions.txt: Model Organisms by Complexity
   (7 Organisms, ORD)
 bbq-RT-qPCR-questions.txt: Gene Expression Fold Change from RT-qPCR Data (NUM)
@@ -551,8 +556,6 @@ bbq-michaelis_menten_table-Km-questions.txt: Michaelis-Menten Constant (Km) from
   Activity Data (MC)
 bbq-michaelis_menten_table-inhibition-questions.txt: Enzyme Inhibition Type from Enzyme
   Activity Data (MC)
-bbq-model_organism_complexity_order-ORD-4_choices-questions.txt: Model Organisms by
-  Increasing Complexity (4 Organisms, ORD)
 bbq-monohybrid_degrees_of_dominance-questions.txt: Degrees of Dominance from Monohybrid
   Cross Results (MC)
 bbq-monohybrid_genotype_statements-questions.txt: Parental Genotype Crosses from Monohybrid
@@ -574,8 +577,6 @@ bbq-optimal_enzyme-type_2-questions.txt: Enzyme Selection for Given Temperature 
   pH (MC)
 bbq-optimal_enzyme-type_3-questions.txt: Optimal Temperature and pH for Enzyme Activity
   (MC)
-bbq-order_glycolysis_molecules-ORD-4_choices-questions.txt: Glycolysis Intermediate
-  Structure Ordering (4 Molecules, ORD)
 bbq-orders_of_magnitude_mc-questions.txt: Orders of Magnitude for Given Quantities
   (MC)
 bbq-overhang_sequence-mc-questions.txt: Restriction Enzyme Overhang Sequences (MC)

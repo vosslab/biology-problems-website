@@ -20,6 +20,7 @@ def test_catalog_preserves_files_types_qualifiers_and_topic_links(tmp_path: Path
 		("biology", "bbq-gels-questions.txt", "MC"),
 		("biology", "bbq-gels_numeric-questions.txt", "NUM"),
 		("chemistry", "bbq-gels-questions.txt", "NUM"),
+		("biology", "bbq-SEQUENCEMC-workflow-3_items-questions.txt", "MC"),
 	):
 		path = tmp_path / subject / "topic01" / filename
 		path.parent.mkdir(parents=True, exist_ok=True)
@@ -30,10 +31,14 @@ def test_catalog_preserves_files_types_qualifiers_and_topic_links(tmp_path: Path
 		))
 	rows = finder.catalog_rows(sources, tmp_path)
 	assert len({row["id"] for row in rows}) == len(sources)
-	assert [row["type"] for row in rows] == ["MC", "NUM", "NUM"]
+	assert [row["type"] for row in rows] == ["MC", "NUM", "NUM", "Sequence MC"]
+	assert rows[-1]["type_code"] == "MCORDER"
+	assert rows[-1]["type_description"] == (
+		"Selection of the Correct Sorting Sequence Multiple Choice"
+	)
 	assert all(row["name"] == "Protein <size> (With Ladder)" for row in rows)
 	assert [row["url"] for row in rows] == [
-		"../biology/topic01/", "../biology/topic01/", "../chemistry/topic01/",
+		"../biology/topic01/", "../biology/topic01/", "../chemistry/topic01/", "../biology/topic01/",
 	]
 
 

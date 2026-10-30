@@ -121,7 +121,8 @@
 .question-type-multi-fib { color: #00495b; background-color: #cef1ff; }
 .question-type-num { color: #4a4200; background-color: #f5ecb8; }
 .question-type-matching { color: #613500; background-color: #ffe5cf; }
-.question-type-ord { color: #004182; background-color: #e1ebff; }
+.question-type-ord,
+.question-type-mcorder { color: #004182; background-color: #e1ebff; }
 
 [data-md-color-scheme="slate"] .question-type-badges {
   --question-type-border: rgba(255, 255, 255, 0.2);
@@ -136,7 +137,8 @@
 [data-md-color-scheme="slate"] .question-type-multi-fib { color: #92e3ff; background-color: #00495b; }
 [data-md-color-scheme="slate"] .question-type-num { color: #e6d776; background-color: #4a4200; }
 [data-md-color-scheme="slate"] .question-type-matching { color: #ffc997; background-color: #613500; }
-[data-md-color-scheme="slate"] .question-type-ord { color: #c0d6ff; background-color: #004182; }
+[data-md-color-scheme="slate"] .question-type-ord,
+[data-md-color-scheme="slate"] .question-type-mcorder { color: #c0d6ff; background-color: #004182; }
 
 /* Flexbox layout for button container */
 .button-container {

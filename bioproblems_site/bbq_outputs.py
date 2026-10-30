@@ -76,7 +76,7 @@ def build_output_patterns(task: dict[str, object]) -> tuple[list[str], tuple[str
 	input_basename = os.path.splitext(os.path.basename(input_path))[0] if input_path else ""
 	if input_basename:
 		if script_basename in ("yaml_order_to_bbq", "yaml_mc_order_to_bbq"):
-			format_name = "ORDER" if script_basename == "yaml_order_to_bbq" else "MCORDER"
+			format_name = "ORDER" if script_basename == "yaml_order_to_bbq" else "SEQUENCEMC"
 			return [f"bbq-{format_name}-{input_basename}-"], ("_items-questions.txt",)
 		if script_basename == "yaml_match_to_bbq":
 			prefixes.append(f"bbq-MATCH-{input_basename}")

@@ -9,6 +9,7 @@ QUESTION_TYPES = {
 	'MC': ('MC', 'Multiple Choice'),
 	'WOMC': ('WOMC', 'Which One Multiple Choice (from matching content)'),
 	'TFMS': ('T/F Statements (MC)', 'True/False Statements (Multiple Choice)'),
+	'MCORDER': ('Sequence MC', 'Selection of the Correct Sorting Sequence Multiple Choice'),
 	'MA': ('MA', 'Multiple Answer'),
 	'FiB': ('FiB', 'Fill in the Blank'),
 	'MULTI_FIB': ('Multi-FiB', 'Multiple Fill in the Blanks'),
@@ -54,6 +55,8 @@ def question_type_for_source(source_path: str | Path) -> str:
 			return 'WOMC'
 		if source_path.name.startswith('bbq-TFMS-'):
 			return 'TFMS'
+		if source_path.name.startswith('bbq-SEQUENCEMC-'):
+			return 'MCORDER'
 		return 'MC'
 	if raw_type not in BBQ_TYPES:
 		raise ValueError(f'Unsupported BBQ question type {raw_type!r}: {source_path}')
