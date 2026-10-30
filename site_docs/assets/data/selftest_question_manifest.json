@@ -989,14 +989,14 @@
     },
     {
       "pagePath": "biochemistry/topic16/index.md",
-      "questionId": "bbq-SEQUENCEMC-glycolysis-11_items-questions.txt",
+      "questionId": "bbq-ORDER-glycolysis-11_items-questions.txt",
       "subjectKey": "biochemistry",
       "topicKey": "topic16",
       "topicTitle": "Sugar Metabolism"
     },
     {
       "pagePath": "biochemistry/topic16/index.md",
-      "questionId": "bbq-ORDER-glycolysis-11_items-questions.txt",
+      "questionId": "bbq-SEQUENCEMC-glycolysis-11_items-questions.txt",
       "subjectKey": "biochemistry",
       "topicKey": "topic16",
       "topicTitle": "Sugar Metabolism"
@@ -1234,14 +1234,14 @@
     },
     {
       "pagePath": "biotechnology/topic01/index.md",
-      "questionId": "bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt",
+      "questionId": "bbq-ORDER-model_organism_complexity-7_items-questions.txt",
       "subjectKey": "biotechnology",
       "topicKey": "topic01",
       "topicTitle": "Biotech Basics and Central Dogma"
     },
     {
       "pagePath": "biotechnology/topic01/index.md",
-      "questionId": "bbq-ORDER-model_organism_complexity-7_items-questions.txt",
+      "questionId": "bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt",
       "subjectKey": "biotechnology",
       "topicKey": "topic01",
       "topicTitle": "Biotech Basics and Central Dogma"
@@ -1486,14 +1486,14 @@
     },
     {
       "pagePath": "biotechnology/topic04/index.md",
-      "questionId": "bbq-SEQUENCEMC-microbial_16s_survey-6_items-questions.txt",
+      "questionId": "bbq-ORDER-microbial_16s_survey-6_items-questions.txt",
       "subjectKey": "biotechnology",
       "topicKey": "topic04",
       "topicTitle": "Environmental and Synthetic Biology"
     },
     {
       "pagePath": "biotechnology/topic04/index.md",
-      "questionId": "bbq-ORDER-microbial_16s_survey-6_items-questions.txt",
+      "questionId": "bbq-SEQUENCEMC-microbial_16s_survey-6_items-questions.txt",
       "subjectKey": "biotechnology",
       "topicKey": "topic04",
       "topicTitle": "Environmental and Synthetic Biology"
