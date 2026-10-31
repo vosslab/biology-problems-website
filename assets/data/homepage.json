@@ -2916,7 +2916,7 @@
       "name": "Gene-to-Centromere Distance from Ordered Tetrads",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": "2026-10-16",
+      "updated": "2026-10-31",
       "url": "genetics/topic08/#tetrad_ordered-centromere_distance-MC-button-container"
     },
     {
@@ -3004,7 +3004,7 @@
       "name": "Genetic Distance for a Gene Pair from Three-Point Test Crosses",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": "2026-04-19",
+      "updated": "2026-10-31",
       "url": "genetics/topic08/#three-point_test_cross-one_gene_distance-MC-button-container"
     },
     {
@@ -3015,7 +3015,7 @@
       "name": "Genetic Distance for a Gene Pair from Three-Point Test Crosses",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": "2026-04-19",
+      "updated": "2026-10-31",
       "url": "genetics/topic08/#three-point_test_cross-one_gene_distance-NUM-button-container"
     },
     {
@@ -5776,17 +5776,24 @@
     },
     {
       "date": "2026-10-31",
+      "name": "Genetic Distance for a Gene Pair from Three-Point Test Crosses",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "url": "genetics/topic08/#three-point_test_cross-one_gene_distance-MC-button-container"
+    },
+    {
+      "date": "2026-10-31",
+      "name": "Gene-to-Centromere Distance from Ordered Tetrads",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "url": "genetics/topic08/#tetrad_ordered-centromere_distance-MC-button-container"
+    },
+    {
+      "date": "2026-10-31",
       "name": "Cis or Trans Allele Configuration from Two-Point Test Cross Data",
       "subject": "Genetics",
       "topic": "Gene Mapping",
       "url": "genetics/topic08/#two-point_test_cross-cis-trans-MC-button-container"
-    },
-    {
-      "date": "2026-10-27",
-      "name": "Gene Order and Pairwise Recombination Distances from Four-Point Test Crosses",
-      "subject": "Genetics",
-      "topic": "Gene Mapping",
-      "url": "genetics/topic08/#four_point_test-cross_gene_map-distances_plus-button-container"
     },
     {
       "date": "2026-10-25",
@@ -5878,13 +5885,6 @@
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "url": "genetics/topic07/#probabiliy_of_progeny-button-container"
-    },
-    {
-      "date": "2026-10-16",
-      "name": "Gene-to-Centromere Distance from Ordered Tetrads",
-      "subject": "Genetics",
-      "topic": "Gene Mapping",
-      "url": "genetics/topic08/#tetrad_ordered-centromere_distance-MC-button-container"
     },
     {
       "date": "2026-10-13",
