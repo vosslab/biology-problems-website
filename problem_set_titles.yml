@@ -121,17 +121,18 @@ bbq-MATCH-trophic_classes-questions.txt: Trophic Categories from Metabolic Defin
   (Matching)
 bbq-MATCH-trophic_organisms-questions.txt: Trophic Classification from Energy and
   Carbon Sources (Matching)
-bbq-SEQUENCEMC-glycolysis-11_items-questions.txt: Glycolysis Intermediate Ordering (MCORDER)
-bbq-SEQUENCEMC-microbial_16s_survey-6_items-questions.txt: Environmental 16S rDNA Survey
-  Workflow (6 Steps, MCORDER)
-bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt: Model Organisms by Complexity
-  (7 Organisms, MCORDER)
 bbq-ORDER-glycolysis-11_items-questions.txt: Glycolysis Intermediate Ordering (ORD)
 bbq-ORDER-microbial_16s_survey-6_items-questions.txt: Environmental 16S rDNA Survey
   Workflow (6 Steps, ORD)
 bbq-ORDER-model_organism_complexity-7_items-questions.txt: Model Organisms by Complexity
   (7 Organisms, ORD)
 bbq-RT-qPCR-questions.txt: Gene Expression Fold Change from RT-qPCR Data (NUM)
+bbq-SEQUENCEMC-glycolysis-11_items-questions.txt: Glycolysis Intermediate Ordering
+  (MCORDER)
+bbq-SEQUENCEMC-microbial_16s_survey-6_items-questions.txt: Environmental 16S rDNA
+  Survey Workflow (6 Steps, MCORDER)
+bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt: Model Organisms by
+  Complexity (7 Organisms, MCORDER)
 bbq-TFMS-bloodless_glucose-questions.txt: Glucose Measurement Through Skin (TFMS)
 bbq-TFMS-catalytic_strategies-questions.txt: Enzyme Catalytic Strategies (TFMS)
 bbq-TFMS-cell_theory-questions.txt: Cell Theory (TFMS)
@@ -685,16 +686,16 @@ bbq-translate_genetic_code-MC-5_aa-5_choices-questions.txt: Genetic Code Transla
   of mRNA into Five-Amino-Acid Peptides (5 Choices, MC)
 bbq-translocation_meiosis_table-questions.txt: Balanced Translocation Segregation
   Outcomes (MA)
-bbq-two-point_test_cross-cis-trans-MC-with_hint-questions.txt: Gene Configuration
-  (Cis vs. Trans) in Two-Point Test Crosses (MC)
-bbq-two-point_test_cross-distance-MC-with_hint-6_choices-questions.txt: Genetic Distance
-  in Two-Point Test Crosses (6 Choices, MC)
-bbq-two-point_test_cross-distance-NUM-with_hint-questions.txt: Genetic Distance in
-  Two-Point Test Crosses (NUM)
-bbq-two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL-questions.txt: Parental
-  Genotype Combinations in a Two-Point Test Cross (MA)
-bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt: Recombinant
-  Genotypes from Two-Point Test Cross Progeny Counts (With Hint, MA)
+bbq-two-point_test_cross-cis-trans-MC-questions.txt: Cis or Trans Allele Configuration
+  from Two-Point Test Cross Data (MC)
+bbq-two-point_test_cross-distance-MC-6_choices-questions.txt: Genetic Distance from
+  Two-Point Test Cross Progeny Counts (6 Choices, MC)
+bbq-two-point_test_cross-distance-NUM-questions.txt: Genetic Distance from Two-Point
+  Test Cross Progeny (NUM)
+bbq-two-point_test_cross-which_genotypes-MA-PARENTAL-questions.txt: Parental Genotypes
+  from Two-Point Test Cross Data (MA)
+bbq-two-point_test_cross-which_genotypes-MA-RECOMBINANT-questions.txt: Recombinant
+  Genotypes from Two-Point Test Cross Data (MA)
 bbq-unique_cross_genotypes-genotypes-with_hint-4_genes-questions.txt: Unique Offspring
   Genotype Counts from Parental Genotypes (4 Genes, With Hint, MC)
 bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt: Unique Offspring Genotypes
@@ -757,4 +758,4 @@ bbq-x_linked_reciprocal_cross-questions.txt: X-Linked Eye Color Inheritance (MC)
 bbq-x_linked_tortoiseshell-questions.txt: X-Linked Coat Color Probability (MC)
 bbq-z_score_google_sheet-questions.txt: Z-Scores in Google Sheets (MC)
 bbq-z_score_table_interp-questions.txt: Biodiversity Comparisons Using Z-Scores (MC)
-last edit: Wed Oct 28 19:19:02 2026
+last edit: Sat Oct 31 06:22:19 2026

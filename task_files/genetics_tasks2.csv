@@ -13,7 +13,7 @@ genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/three-point_te
 genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/three-point_test_cross-which_genotypes.py,--parental,,
 genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/three-point_test_cross-which_genotypes.py,--double,,
 genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/three-point_test_cross-which_genotypes.py,--genes,,
-genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/two-point_test_cross-cis-trans.py,--mc,,
+genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/two-point_test_cross-cis-trans.py,,,
 genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/two-point_test_cross-distance.py,--mc,,
 genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/two-point_test_cross-distance.py,--num,,
 genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/two-point_test_cross-which_genotypes.py,--parental,,

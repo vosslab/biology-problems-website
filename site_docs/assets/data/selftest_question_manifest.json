@@ -2445,35 +2445,35 @@
     },
     {
       "pagePath": "genetics/topic08/index.md",
-      "questionId": "bbq-two-point_test_cross-cis-trans-MC-with_hint-questions.txt",
+      "questionId": "bbq-two-point_test_cross-cis-trans-MC-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic08",
       "topicTitle": "Gene Mapping"
     },
     {
       "pagePath": "genetics/topic08/index.md",
-      "questionId": "bbq-two-point_test_cross-distance-MC-with_hint-6_choices-questions.txt",
+      "questionId": "bbq-two-point_test_cross-distance-MC-6_choices-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic08",
       "topicTitle": "Gene Mapping"
     },
     {
       "pagePath": "genetics/topic08/index.md",
-      "questionId": "bbq-two-point_test_cross-distance-NUM-with_hint-questions.txt",
+      "questionId": "bbq-two-point_test_cross-distance-NUM-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic08",
       "topicTitle": "Gene Mapping"
     },
     {
       "pagePath": "genetics/topic08/index.md",
-      "questionId": "bbq-two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL-questions.txt",
+      "questionId": "bbq-two-point_test_cross-which_genotypes-MA-PARENTAL-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic08",
       "topicTitle": "Gene Mapping"
     },
     {
       "pagePath": "genetics/topic08/index.md",
-      "questionId": "bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt",
+      "questionId": "bbq-two-point_test_cross-which_genotypes-MA-RECOMBINANT-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic08",
       "topicTitle": "Gene Mapping"

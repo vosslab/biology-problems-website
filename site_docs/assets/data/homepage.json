@@ -3055,56 +3055,56 @@
       "added": null,
       "created": "2023-11-05",
       "family": "4d0e14d53a1c9666cf74947fc8a17d203e893d56:inheritance-problems/two-point_test_cross-cis-trans.py",
-      "id": "genetics/topic08/bbq-two-point_test_cross-cis-trans-MC-with_hint-questions.txt",
-      "name": "Gene Configuration (Cis vs. Trans) in Two-Point Test Crosses",
+      "id": "genetics/topic08/bbq-two-point_test_cross-cis-trans-MC-questions.txt",
+      "name": "Cis or Trans Allele Configuration from Two-Point Test Cross Data",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": "2026-01-11",
-      "url": "genetics/topic08/#two-point_test_cross-cis-trans-MC-with_hint-button-container"
+      "updated": "2026-10-31",
+      "url": "genetics/topic08/#two-point_test_cross-cis-trans-MC-button-container"
     },
     {
       "added": null,
       "created": null,
       "family": null,
-      "id": "genetics/topic08/bbq-two-point_test_cross-distance-MC-with_hint-6_choices-questions.txt",
-      "name": "Genetic Distance in Two-Point Test Crosses (6 Choices)",
+      "id": "genetics/topic08/bbq-two-point_test_cross-distance-MC-6_choices-questions.txt",
+      "name": "Genetic Distance from Two-Point Test Cross Progeny Counts (6 Choices)",
       "subject": "Genetics",
       "topic": "Gene Mapping",
       "updated": null,
-      "url": "genetics/topic08/#two-point_test_cross-distance-MC-with_hint-6_choices-button-container"
+      "url": "genetics/topic08/#two-point_test_cross-distance-MC-6_choices-button-container"
     },
     {
       "added": null,
       "created": null,
       "family": null,
-      "id": "genetics/topic08/bbq-two-point_test_cross-distance-NUM-with_hint-questions.txt",
-      "name": "Genetic Distance in Two-Point Test Crosses",
+      "id": "genetics/topic08/bbq-two-point_test_cross-distance-NUM-questions.txt",
+      "name": "Genetic Distance from Two-Point Test Cross Progeny",
       "subject": "Genetics",
       "topic": "Gene Mapping",
       "updated": null,
-      "url": "genetics/topic08/#two-point_test_cross-distance-NUM-with_hint-button-container"
+      "url": "genetics/topic08/#two-point_test_cross-distance-NUM-button-container"
     },
     {
       "added": null,
       "created": "2023-11-05",
       "family": "4d0e14d53a1c9666cf74947fc8a17d203e893d56:inheritance-problems/two-point_test_cross-which_genotypes.py",
-      "id": "genetics/topic08/bbq-two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL-questions.txt",
-      "name": "Parental Genotype Combinations in a Two-Point Test Cross",
+      "id": "genetics/topic08/bbq-two-point_test_cross-which_genotypes-MA-PARENTAL-questions.txt",
+      "name": "Parental Genotypes from Two-Point Test Cross Data",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": "2026-04-19",
-      "url": "genetics/topic08/#two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL-button-container"
+      "updated": "2026-10-31",
+      "url": "genetics/topic08/#two-point_test_cross-which_genotypes-MA-PARENTAL-button-container"
     },
     {
       "added": null,
       "created": "2023-11-05",
       "family": "4d0e14d53a1c9666cf74947fc8a17d203e893d56:inheritance-problems/two-point_test_cross-which_genotypes.py",
-      "id": "genetics/topic08/bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt",
-      "name": "Recombinant Genotypes from Two-Point Test Cross Progeny Counts (With Hint)",
+      "id": "genetics/topic08/bbq-two-point_test_cross-which_genotypes-MA-RECOMBINANT-questions.txt",
+      "name": "Recombinant Genotypes from Two-Point Test Cross Data",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": "2026-04-19",
-      "url": "genetics/topic08/#two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-button-container"
+      "updated": "2026-10-31",
+      "url": "genetics/topic08/#two-point_test_cross-which_genotypes-MA-RECOMBINANT-button-container"
     },
     {
       "added": null,
@@ -5768,6 +5768,20 @@
   },
   "updated": [
     {
+      "date": "2026-10-31",
+      "name": "Recombinant Genotypes from Two-Point Test Cross Data",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "url": "genetics/topic08/#two-point_test_cross-which_genotypes-MA-RECOMBINANT-button-container"
+    },
+    {
+      "date": "2026-10-31",
+      "name": "Cis or Trans Allele Configuration from Two-Point Test Cross Data",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "url": "genetics/topic08/#two-point_test_cross-cis-trans-MC-button-container"
+    },
+    {
       "date": "2026-10-27",
       "name": "Gene Order and Pairwise Recombination Distances from Four-Point Test Crosses",
       "subject": "Genetics",
@@ -6657,13 +6671,6 @@
       "url": "biochemistry/topic11/#TFMS-melting_Tm_type_2b-button-container"
     },
     {
-      "date": "2026-04-19",
-      "name": "Recombinant Genotypes from Two-Point Test Cross Progeny Counts (With Hint)",
-      "subject": "Genetics",
-      "topic": "Gene Mapping",
-      "url": "genetics/topic08/#two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-button-container"
-    },
-    {
       "date": "2026-04-07",
       "name": "Orders of Magnitude for Given Quantities",
       "subject": "Laboratory",
@@ -7082,13 +7089,6 @@
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
       "url": "genetics/topic09/#letter_translocation_problem_color-button-container"
-    },
-    {
-      "date": "2026-01-11",
-      "name": "Gene Configuration (Cis vs. Trans) in Two-Point Test Crosses",
-      "subject": "Genetics",
-      "topic": "Gene Mapping",
-      "url": "genetics/topic08/#two-point_test_cross-cis-trans-MC-with_hint-button-container"
     },
     {
       "date": "2026-01-10",

@@ -346,23 +346,22 @@ Students determine gene order on chromosomes using recombination data from test 
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="gene-configuration-cis-vs-trans-in-two-point-test-crosses">
+<section class="problem-set" markdown="1" aria-labelledby="cis-or-trans-allele-configuration-from-two-point-test-cross-data">
 
-## 8.15 Gene Configuration (Cis vs. Trans) in Two-Point Test Crosses {#gene-configuration-cis-vs-trans-in-two-point-test-crosses}
+## 8.15 Cis or Trans Allele Configuration from Two-Point Test Cross Data {#cis-or-trans-allele-configuration-from-two-point-test-cross-data}
 
-<div id="two-point_test_cross-cis-trans-MC-with_hint-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-two-point_test_cross-cis-trans-MC-with_hint-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-two-point_test_cross-cis-trans-MC-with_hint-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-two-point_test_cross-cis-trans-MC-with_hint.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
-<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-two-point_test_cross-cis-trans-MC-with_hint-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-two-point_test_cross-cis-trans-MC-with_hint.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-two-point_test_cross-cis-trans-MC-with_hint-questions.txt" data-format="human_readable" data-filename="human_readable-two-point_test_cross-cis-trans-MC-with_hint.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<div id="two-point_test_cross-cis-trans-MC-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-two-point_test_cross-cis-trans-MC-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-two-point_test_cross-cis-trans-MC-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-two-point_test_cross-cis-trans-MC.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-two-point_test_cross-cis-trans-MC-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-two-point_test_cross-cis-trans-MC.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-two-point_test_cross-cis-trans-MC-questions.txt" data-format="human_readable" data-filename="human_readable-two-point_test_cross-cis-trans-MC.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div>
 
-<div class="qpm-selftest" data-bbq="bbq-two-point_test_cross-cis-trans-MC-with_hint-questions.txt">
+<div class="qpm-selftest" data-bbq="bbq-two-point_test_cross-cis-trans-MC-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -370,23 +369,22 @@ Students determine gene order on chromosomes using recombination data from test 
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="genetic-distance-in-two-point-test-crosses-6-choices">
+<section class="problem-set" markdown="1" aria-labelledby="genetic-distance-from-two-point-test-cross-progeny-counts-6-choices">
 
-## 8.16 Genetic Distance in Two-Point Test Crosses (6 Choices) {#genetic-distance-in-two-point-test-crosses-6-choices}
+## 8.16 Genetic Distance from Two-Point Test Cross Progeny Counts (6 Choices) {#genetic-distance-from-two-point-test-cross-progeny-counts-6-choices}
 
-<div id="two-point_test_cross-distance-MC-with_hint-6_choices-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-two-point_test_cross-distance-MC-with_hint-6_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-two-point_test_cross-distance-MC-with_hint-6_choices-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-two-point_test_cross-distance-MC-with_hint-6_choices.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
-<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-two-point_test_cross-distance-MC-with_hint-6_choices-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-two-point_test_cross-distance-MC-with_hint-6_choices.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-two-point_test_cross-distance-MC-with_hint-6_choices-questions.txt" data-format="human_readable" data-filename="human_readable-two-point_test_cross-distance-MC-with_hint-6_choices.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<div id="two-point_test_cross-distance-MC-6_choices-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-two-point_test_cross-distance-MC-6_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-two-point_test_cross-distance-MC-6_choices-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-two-point_test_cross-distance-MC-6_choices.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-two-point_test_cross-distance-MC-6_choices-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-two-point_test_cross-distance-MC-6_choices.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-two-point_test_cross-distance-MC-6_choices-questions.txt" data-format="human_readable" data-filename="human_readable-two-point_test_cross-distance-MC-6_choices.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div>
 
-<div class="qpm-selftest" data-bbq="bbq-two-point_test_cross-distance-MC-with_hint-6_choices-questions.txt">
+<div class="qpm-selftest" data-bbq="bbq-two-point_test_cross-distance-MC-6_choices-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -394,23 +392,22 @@ Students determine gene order on chromosomes using recombination data from test 
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="genetic-distance-in-two-point-test-crosses">
+<section class="problem-set" markdown="1" aria-labelledby="genetic-distance-from-two-point-test-cross-progeny">
 
-## 8.17 Genetic Distance in Two-Point Test Crosses {#genetic-distance-in-two-point-test-crosses}
+## 8.17 Genetic Distance from Two-Point Test Cross Progeny {#genetic-distance-from-two-point-test-cross-progeny}
 
-<div id="two-point_test_cross-distance-NUM-with_hint-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-two-point_test_cross-distance-NUM-with_hint-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-two-point_test_cross-distance-NUM-with_hint-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-two-point_test_cross-distance-NUM-with_hint.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
-<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-two-point_test_cross-distance-NUM-with_hint-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-two-point_test_cross-distance-NUM-with_hint.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-two-point_test_cross-distance-NUM-with_hint-questions.txt" data-format="human_readable" data-filename="human_readable-two-point_test_cross-distance-NUM-with_hint.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<div id="two-point_test_cross-distance-NUM-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-two-point_test_cross-distance-NUM-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-two-point_test_cross-distance-NUM-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-two-point_test_cross-distance-NUM.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-two-point_test_cross-distance-NUM-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-two-point_test_cross-distance-NUM.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-two-point_test_cross-distance-NUM-questions.txt" data-format="human_readable" data-filename="human_readable-two-point_test_cross-distance-NUM.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div>
 
-<div class="qpm-selftest" data-bbq="bbq-two-point_test_cross-distance-NUM-with_hint-questions.txt">
+<div class="qpm-selftest" data-bbq="bbq-two-point_test_cross-distance-NUM-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
-<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -418,23 +415,22 @@ Students determine gene order on chromosomes using recombination data from test 
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="parental-genotype-combinations-in-a-two-point-test-cross">
+<section class="problem-set" markdown="1" aria-labelledby="parental-genotypes-from-two-point-test-cross-data">
 
-## 8.18 Parental Genotype Combinations in a Two-Point Test Cross {#parental-genotype-combinations-in-a-two-point-test-cross}
+## 8.18 Parental Genotypes from Two-Point Test Cross Data {#parental-genotypes-from-two-point-test-cross-data}
 
-<div id="two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
-<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL-questions.txt" data-format="human_readable" data-filename="human_readable-two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<div id="two-point_test_cross-which_genotypes-MA-PARENTAL-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-two-point_test_cross-which_genotypes-MA-PARENTAL-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-PARENTAL-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-two-point_test_cross-which_genotypes-MA-PARENTAL.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-PARENTAL-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-two-point_test_cross-which_genotypes-MA-PARENTAL.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-PARENTAL-questions.txt" data-format="human_readable" data-filename="human_readable-two-point_test_cross-which_genotypes-MA-PARENTAL.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div>
 
-<div class="qpm-selftest" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL-questions.txt">
+<div class="qpm-selftest" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-PARENTAL-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
-<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -442,23 +438,22 @@ Students determine gene order on chromosomes using recombination data from test 
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="recombinant-genotypes-from-two-point-test-cross-progeny-counts-with-hint">
+<section class="problem-set" markdown="1" aria-labelledby="recombinant-genotypes-from-two-point-test-cross-data">
 
-## 8.19 Recombinant Genotypes from Two-Point Test Cross Progeny Counts (With Hint) {#recombinant-genotypes-from-two-point-test-cross-progeny-counts-with-hint}
+## 8.19 Recombinant Genotypes from Two-Point Test Cross Data {#recombinant-genotypes-from-two-point-test-cross-data}
 
-<div id="two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
-<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt" data-format="human_readable" data-filename="human_readable-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<div id="two-point_test_cross-which_genotypes-MA-RECOMBINANT-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-two-point_test_cross-which_genotypes-MA-RECOMBINANT-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-RECOMBINANT-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-two-point_test_cross-which_genotypes-MA-RECOMBINANT.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-RECOMBINANT-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-two-point_test_cross-which_genotypes-MA-RECOMBINANT.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-RECOMBINANT-questions.txt" data-format="human_readable" data-filename="human_readable-two-point_test_cross-which_genotypes-MA-RECOMBINANT.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div>
 
-<div class="qpm-selftest" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt">
+<div class="qpm-selftest" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-RECOMBINANT-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
-<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
