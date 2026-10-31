@@ -362,6 +362,7 @@ Students determine gene order on chromosomes using recombination data from test 
 <div class="qpm-selftest" data-bbq="bbq-two-point_test_cross-cis-trans-MC-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -385,6 +386,7 @@ Students determine gene order on chromosomes using recombination data from test 
 <div class="qpm-selftest" data-bbq="bbq-two-point_test_cross-distance-MC-6_choices-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -408,6 +410,7 @@ Students determine gene order on chromosomes using recombination data from test 
 <div class="qpm-selftest" data-bbq="bbq-two-point_test_cross-distance-NUM-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
+<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -431,6 +434,7 @@ Students determine gene order on chromosomes using recombination data from test 
 <div class="qpm-selftest" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-PARENTAL-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
+<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
@@ -454,6 +458,7 @@ Students determine gene order on chromosomes using recombination data from test 
 <div class="qpm-selftest" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-RECOMBINANT-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
+<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
 </div>
   <div class="selftest-reroll-content"></div>
 </div>
