@@ -3312,7 +3312,7 @@
       "name": "Gametes from Robertsonian Translocation",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": "2026-01-10",
+      "updated": null,
       "url": "genetics/topic09/#robertsonian-button-container"
     },
     {
@@ -7173,13 +7173,6 @@
       "subject": "Laboratory",
       "topic": "PCR and Electrophoresis",
       "url": "laboratory/topic11/#RT-qPCR-button-container"
-    },
-    {
-      "date": "2026-01-10",
-      "name": "Gametes from Robertsonian Translocation",
-      "subject": "Genetics",
-      "topic": "Chromosomal Disorders",
-      "url": "genetics/topic09/#robertsonian-button-container"
     },
     {
       "date": "2026-01-10",
