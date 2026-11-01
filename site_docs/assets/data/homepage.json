@@ -3279,7 +3279,7 @@
       "name": "Chromosomal Translocation Outcomes (Color)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-10-31",
       "url": "genetics/topic09/#letter_translocation_problem_color-button-container"
     },
     {
@@ -5801,6 +5801,13 @@
       "subject": "Genetics",
       "topic": "Gene Mapping",
       "url": "genetics/topic08/#two-point_test_cross-cis-trans-MC-button-container"
+    },
+    {
+      "date": "2026-10-31",
+      "name": "Chromosomal Translocation Outcomes (Color)",
+      "subject": "Genetics",
+      "topic": "Chromosomal Disorders",
+      "url": "genetics/topic09/#letter_translocation_problem_color-button-container"
     },
     {
       "date": "2026-10-31",
