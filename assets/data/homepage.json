@@ -3213,7 +3213,7 @@
       "name": "Gene Order from Deletion Mutants (4 Genes, Random Labels)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": "2026-01-10",
+      "updated": null,
       "url": "genetics/topic09/#deletion_mutant_random-04_genes-MC-button-container"
     },
     {
@@ -3224,7 +3224,7 @@
       "name": "Gene Order from Deletion Mutants (5 Genes, Random Labels)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": "2026-01-10",
+      "updated": null,
       "url": "genetics/topic09/#deletion_mutant_random-05_genes-MC-button-container"
     },
     {
@@ -3235,7 +3235,7 @@
       "name": "Gene Order from Deletion Mutants (6 Genes, Random Labels)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": "2026-01-10",
+      "updated": null,
       "url": "genetics/topic09/#deletion_mutant_random-06_genes-MC-button-container"
     },
     {
@@ -3246,7 +3246,7 @@
       "name": "Gene Order from Deletion Mutants (4 Genes, Word Labels)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": "2026-01-10",
+      "updated": null,
       "url": "genetics/topic09/#deletion_mutant_words-04_genes-MC-button-container"
     },
     {
@@ -3257,7 +3257,7 @@
       "name": "Gene Order from Deletion Mutants (5 Genes, Word Labels)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": "2026-01-10",
+      "updated": null,
       "url": "genetics/topic09/#deletion_mutant_words-05_genes-MC-button-container"
     },
     {
@@ -3268,7 +3268,7 @@
       "name": "Gene Order from Deletion Mutants (6 Genes, Word Labels)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": "2026-01-10",
+      "updated": null,
       "url": "genetics/topic09/#deletion_mutant_words-06_genes-MC-button-container"
     },
     {
@@ -7152,13 +7152,6 @@
       "subject": "Genetics",
       "topic": "Population Genetics",
       "url": "genetics/topic10/#hardy_weinberg_mc_type-button-container"
-    },
-    {
-      "date": "2026-01-10",
-      "name": "Gene Order from Deletion Mutants (6 Genes, Word Labels)",
-      "subject": "Genetics",
-      "topic": "Chromosomal Disorders",
-      "url": "genetics/topic09/#deletion_mutant_words-06_genes-MC-button-container"
     },
     {
       "date": "2026-01-10",
