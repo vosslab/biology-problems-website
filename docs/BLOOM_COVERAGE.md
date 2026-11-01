@@ -9,18 +9,18 @@ question quantities do not weight coverage. Zero means no banks were assigned to
 See [BLOOM_TAXONOMY_GUIDE.md](BLOOM_TAXONOMY_GUIDE.md) and
 [bloom_catalog.csv](bloom_catalog.csv) for filename-level results.
 
-Rubric versions: {'2': 414}.
+Rubric versions: {'2': 408}.
 
 ## Overall
 
-Classified: 430; unavailable: 0.
+Classified: 431; unavailable: 0.
 
 | Cognitive process | Factual | Conceptual | Procedural | Metacognitive |
 | --- | --- | --- | --- | --- |
-| Remember | 106 (24.7%) | 54 (12.6%) | 3 (0.7%) | 0 (0.0%) |
-| Understand | 9 (2.1%) | 52 (12.1%) | 1 (0.2%) | 0 (0.0%) |
-| Apply | 5 (1.2%) | 36 (8.4%) | 127 (29.5%) | 0 (0.0%) |
-| Analyze | 0 (0.0%) | 13 (3.0%) | 21 (4.9%) | 0 (0.0%) |
+| Remember | 106 (24.6%) | 54 (12.5%) | 3 (0.7%) | 0 (0.0%) |
+| Understand | 8 (1.9%) | 52 (12.1%) | 1 (0.2%) | 0 (0.0%) |
+| Apply | 5 (1.2%) | 40 (9.3%) | 127 (29.5%) | 0 (0.0%) |
+| Analyze | 0 (0.0%) | 13 (3.0%) | 19 (4.4%) | 0 (0.0%) |
 | Evaluate | 0 (0.0%) | 1 (0.2%) | 2 (0.5%) | 0 (0.0%) |
 | Create | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 
@@ -39,13 +39,13 @@ Classified: 145; unavailable: 0.
 
 ## Question type: Matching
 
-Classified: 69; unavailable: 0.
+Classified: 70; unavailable: 0.
 
 | Cognitive process | Factual | Conceptual | Procedural | Metacognitive |
 | --- | --- | --- | --- | --- |
-| Remember | 46 (66.7%) | 14 (20.3%) | 0 (0.0%) | 0 (0.0%) |
-| Understand | 0 (0.0%) | 6 (8.7%) | 1 (1.4%) | 0 (0.0%) |
-| Apply | 0 (0.0%) | 1 (1.4%) | 1 (1.4%) | 0 (0.0%) |
+| Remember | 46 (65.7%) | 14 (20.0%) | 0 (0.0%) | 0 (0.0%) |
+| Understand | 0 (0.0%) | 6 (8.6%) | 1 (1.4%) | 0 (0.0%) |
+| Apply | 0 (0.0%) | 2 (2.9%) | 1 (1.4%) | 0 (0.0%) |
 | Analyze | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 | Evaluate | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 | Create | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
@@ -65,15 +65,15 @@ Classified: 61; unavailable: 0.
 
 ## Question type: MC
 
-Classified: 175; unavailable: 0.
+Classified: 173; unavailable: 0.
 
 | Cognitive process | Factual | Conceptual | Procedural | Metacognitive |
 | --- | --- | --- | --- | --- |
-| Remember | 2 (1.1%) | 5 (2.9%) | 0 (0.0%) | 0 (0.0%) |
-| Understand | 6 (3.4%) | 28 (16.0%) | 0 (0.0%) | 0 (0.0%) |
-| Apply | 4 (2.3%) | 26 (14.9%) | 75 (42.9%) | 0 (0.0%) |
-| Analyze | 0 (0.0%) | 8 (4.6%) | 18 (10.3%) | 0 (0.0%) |
-| Evaluate | 0 (0.0%) | 1 (0.6%) | 2 (1.1%) | 0 (0.0%) |
+| Remember | 2 (1.2%) | 5 (2.9%) | 0 (0.0%) | 0 (0.0%) |
+| Understand | 5 (2.9%) | 28 (16.2%) | 0 (0.0%) | 0 (0.0%) |
+| Apply | 4 (2.3%) | 29 (16.8%) | 75 (43.4%) | 0 (0.0%) |
+| Analyze | 0 (0.0%) | 8 (4.6%) | 14 (8.1%) | 0 (0.0%) |
+| Evaluate | 0 (0.0%) | 1 (0.6%) | 2 (1.2%) | 0 (0.0%) |
 | Create | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 
 ## Question type: NUM
@@ -104,14 +104,14 @@ Classified: 25; unavailable: 0.
 
 ## Question type: FiB
 
-Classified: 10; unavailable: 0.
+Classified: 12; unavailable: 0.
 
 | Cognitive process | Factual | Conceptual | Procedural | Metacognitive |
 | --- | --- | --- | --- | --- |
 | Remember | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
-| Understand | 1 (10.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
-| Apply | 1 (10.0%) | 0 (0.0%) | 7 (70.0%) | 0 (0.0%) |
-| Analyze | 0 (0.0%) | 1 (10.0%) | 0 (0.0%) | 0 (0.0%) |
+| Understand | 1 (8.3%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
+| Apply | 1 (8.3%) | 0 (0.0%) | 7 (58.3%) | 0 (0.0%) |
+| Analyze | 0 (0.0%) | 1 (8.3%) | 2 (16.7%) | 0 (0.0%) |
 | Evaluate | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 | Create | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 
@@ -128,7 +128,7 @@ Classified: 52; unavailable: 0.
 | Evaluate | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 | Create | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 
-## Question type: MCORDER
+## Question type: ORD
 
 Classified: 3; unavailable: 0.
 
@@ -141,7 +141,7 @@ Classified: 3; unavailable: 0.
 | Evaluate | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 | Create | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 
-## Question type: ORD
+## Question type: MCORDER
 
 Classified: 3; unavailable: 0.
 
@@ -156,14 +156,14 @@ Classified: 3; unavailable: 0.
 
 ## Subject: Genetics
 
-Classified: 154; unavailable: 0.
+Classified: 155; unavailable: 0.
 
 | Cognitive process | Factual | Conceptual | Procedural | Metacognitive |
 | --- | --- | --- | --- | --- |
-| Remember | 23 (14.9%) | 8 (5.2%) | 1 (0.6%) | 0 (0.0%) |
-| Understand | 4 (2.6%) | 20 (13.0%) | 0 (0.0%) | 0 (0.0%) |
-| Apply | 2 (1.3%) | 15 (9.7%) | 54 (35.1%) | 0 (0.0%) |
-| Analyze | 0 (0.0%) | 6 (3.9%) | 19 (12.3%) | 0 (0.0%) |
+| Remember | 23 (14.8%) | 8 (5.2%) | 1 (0.6%) | 0 (0.0%) |
+| Understand | 3 (1.9%) | 20 (12.9%) | 0 (0.0%) | 0 (0.0%) |
+| Apply | 2 (1.3%) | 19 (12.3%) | 54 (34.8%) | 0 (0.0%) |
+| Analyze | 0 (0.0%) | 6 (3.9%) | 17 (11.0%) | 0 (0.0%) |
 | Evaluate | 0 (0.0%) | 0 (0.0%) | 2 (1.3%) | 0 (0.0%) |
 | Create | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) | 0 (0.0%) |
 
@@ -252,40 +252,39 @@ Examples are filenames, not additional counts or reference labels.
 - Remember / Factual (106): `bbq-Henderson-Hasselbalch-equation-questions.txt`, `bbq-MATCH-amino_acids_properties-long_tables-questions.txt`
 - Remember / Conceptual (54): `bbq-MATCH-catalytic_strategies-questions.txt`, `bbq-MATCH-clinical_trial_phases-questions.txt`
 - Remember / Procedural (3): `bbq-TFMS-chi-square-questions.txt`, `bbq-TFMS-pcr_primers-questions.txt`
-- Understand / Factual (9): `bbq-TFMS-english_palindromes-questions.txt`, `bbq-WOMC-protein_v_dna_gels-questions.txt`
+- Understand / Factual (8): `bbq-TFMS-english_palindromes-questions.txt`, `bbq-WOMC-protein_v_dna_gels-questions.txt`
 - Understand / Conceptual (52): `bbq-MATCH-biotech_vs_improved-questions.txt`, `bbq-MATCH-bond_types-questions.txt`
 - Understand / Procedural (1): `bbq-MATCH-selecting_statistical_tests-questions.txt`
 - Apply / Factual (5): `bbq-blood_type_agglutination_test-questions.txt`, `bbq-cytogenetic_notation-band_order-5_choices-questions.txt`
-- Apply / Conceptual (36): `bbq-MATCH-monohybrid_cross_genotype-questions.txt`, `bbq-WOMC-monohybrid_cross_genotype-questions.txt`
+- Apply / Conceptual (40): `bbq-MATCH-monohybrid_cross_genotype-questions.txt`, `bbq-WOMC-monohybrid_cross_genotype-questions.txt`
 - Apply / Procedural (127): `bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt`, `bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt`
-- Analyze / Conceptual (13): `bbq-MCORDER-glycolysis-11_items-questions.txt`, `bbq-ORDER-glycolysis-11_items-questions.txt`
-- Analyze / Procedural (21): `bbq-MCORDER-microbial_16s_survey-6_items-questions.txt`, `bbq-ORDER-microbial_16s_survey-6_items-questions.txt`
+- Analyze / Conceptual (13): `bbq-ORDER-glycolysis-11_items-questions.txt`, `bbq-SEQUENCEMC-glycolysis-11_items-questions.txt`
+- Analyze / Procedural (19): `bbq-ORDER-microbial_16s_survey-6_items-questions.txt`, `bbq-SEQUENCEMC-microbial_16s_survey-6_items-questions.txt`
 - Evaluate / Conceptual (1): `bbq-hypothesis_statement_errors-hypotheses_partner-questions.txt`
 - Evaluate / Procedural (2): `bbq-chi2-find_errors-questions.txt`, `bbq-chi2-test_hardy_weinberg-questions.txt`
 
 ## Changes from baseline
 
-100 banks changed their pair. This measures revision, not accuracy.
+98 banks changed their pair. This measures revision, not accuracy.
 
 - Understand / Conceptual -> Remember / Conceptual: 35
 - Understand / Factual -> Remember / Factual: 23
 - Apply / Procedural -> Apply / Conceptual: 10
 - Evaluate / Conceptual -> Remember / Conceptual: 6
 - Understand / Procedural -> Understand / Conceptual: 4
-- Analyze / Procedural -> Analyze / Conceptual: 4
+- Analyze / Procedural -> Analyze / Conceptual: 3
 - Understand / Conceptual -> Apply / Conceptual: 2
 - Apply / Factual -> Apply / Procedural: 2
+- Remember / Factual -> Remember / Procedural: 1
+- Remember / Conceptual -> Remember / Factual: 1
+- Apply / Conceptual -> Apply / Procedural: 1
 - Analyze / Factual -> Apply / Factual: 1
+- Apply / Procedural -> Analyze / Procedural: 1
 - Analyze / Factual -> Remember / Factual: 1
-- Understand / Procedural -> Analyze / Conceptual: 1
+- Remember / Factual -> Remember / Conceptual: 1
+- Understand / Conceptual -> Analyze / Conceptual: 1
+- Evaluate / Factual -> Remember / Procedural: 1
 - Understand / Procedural -> Apply / Procedural: 1
 - Apply / Procedural -> Understand / Procedural: 1
-- Evaluate / Factual -> Remember / Procedural: 1
-- Remember / Factual -> Remember / Conceptual: 1
 - Understand / Conceptual -> Remember / Procedural: 1
-- Remember / Factual -> Remember / Procedural: 1
 - Understand / Conceptual -> Apply / Factual: 1
-- Remember / Conceptual -> Remember / Factual: 1
-- Understand / Conceptual -> Analyze / Conceptual: 1
-- Apply / Procedural -> Analyze / Procedural: 1
-- Apply / Conceptual -> Apply / Procedural: 1

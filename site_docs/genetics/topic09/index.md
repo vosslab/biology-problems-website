@@ -134,9 +134,9 @@ Students interpret karyotypes and chromosome bands, classify chromosome alterati
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="chromosome-alteration-diagrams-from-abbreviations">
+<section class="problem-set" markdown="1" aria-labelledby="chromosome-alteration-diagrams-from-names">
 
-## 9.6 Chromosome Alteration Diagrams from Abbreviations {#chromosome-alteration-diagrams-from-abbreviations}
+## 9.6 Chromosome Alteration Diagrams from Names {#chromosome-alteration-diagrams-from-names}
 
 <div id="chromosome_alterations_visual-which_one-flipped-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chromosome_alterations_visual-which_one-flipped-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -158,9 +158,9 @@ Students interpret karyotypes and chromosome bands, classify chromosome alterati
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="chromosome-alteration-abbreviations-from-diagrams">
+<section class="problem-set" markdown="1" aria-labelledby="chromosome-alterations-from-diagrams_1">
 
-## 9.7 Chromosome Alteration Abbreviations from Diagrams {#chromosome-alteration-abbreviations-from-diagrams}
+## 9.7 Chromosome Alterations from Diagrams {#chromosome-alterations-from-diagrams_1}
 
 <div id="chromosome_alterations_visual-which_one-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chromosome_alterations_visual-which_one-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -182,9 +182,9 @@ Students interpret karyotypes and chromosome bands, classify chromosome alterati
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="chromosomal-abnormalities-from-karyotype-notation">
+<section class="problem-set" markdown="1" aria-labelledby="aneuploidy-from-cytogenetic-notation">
 
-## 9.8 Chromosomal Abnormalities from Karyotype Notation {#chromosomal-abnormalities-from-karyotype-notation}
+## 9.8 Aneuploidy from Cytogenetic Notation {#aneuploidy-from-cytogenetic-notation}
 
 <div id="cytogenetic_notation-aneuploidy-5_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -206,9 +206,9 @@ Students interpret karyotypes and chromosome bands, classify chromosome alterati
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="chromosome-band-proximity">
+<section class="problem-set" markdown="1" aria-labelledby="proximal-and-distal-chromosome-bands">
 
-## 9.9 Chromosome Band Proximity {#chromosome-band-proximity}
+## 9.9 Proximal and Distal Chromosome Bands {#proximal-and-distal-chromosome-bands}
 
 <div id="cytogenetic_notation-band_order-5_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-band_order-5_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -230,9 +230,9 @@ Students interpret karyotypes and chromosome bands, classify chromosome alterati
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="cytogenetic-notations-in-genetic-disorders">
+<section class="problem-set" markdown="1" aria-labelledby="cytogenetic-notation-from-disorder-descriptions">
 
-## 9.10 Cytogenetic Notations in Genetic Disorders {#cytogenetic-notations-in-genetic-disorders}
+## 9.10 Cytogenetic Notation from Disorder Descriptions {#cytogenetic-notation-from-disorder-descriptions}
 
 <div id="cytogenetic_notation-disorders-5_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-disorders-5_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -254,9 +254,9 @@ Students interpret karyotypes and chromosome bands, classify chromosome alterati
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="cytogenetic-notation-for-rearrangements">
+<section class="problem-set" markdown="1" aria-labelledby="chromosome-rearrangements-from-cytogenetic-notation">
 
-## 9.11 Cytogenetic Notation for Rearrangements {#cytogenetic-notation-for-rearrangements}
+## 9.11 Chromosome Rearrangements from Cytogenetic Notation {#chromosome-rearrangements-from-cytogenetic-notation}
 
 <div id="cytogenetic_notation-rearrangements-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-rearrangements-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -278,20 +278,20 @@ Students interpret karyotypes and chromosome bands, classify chromosome alterati
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="gene-order-from-deletion-mutants-medium-6-genes-random-labels">
+<section class="problem-set" markdown="1" aria-labelledby="gene-order-from-deletion-mutants-easy-4-genes-random-labels-deletion-list-with-hint">
 
-## 9.12 Gene Order from Deletion Mutants (Medium, 6 Genes, Random Labels) {#gene-order-from-deletion-mutants-medium-6-genes-random-labels}
+## 9.12 Gene Order from Deletion Mutants (Easy, 4 Genes, Random Labels, Deletion List, With Hint) {#gene-order-from-deletion-mutants-easy-4-genes-random-labels-deletion-list-with-hint}
 
-<div id="deletion_mutant_random-06_genes-MC-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-06_genes-MC-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-deletion_mutant_random-06_genes-MC-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-deletion_mutant_random-06_genes-MC.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
-<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-deletion_mutant_random-06_genes-MC-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-deletion_mutant_random-06_genes-MC.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-deletion_mutant_random-06_genes-MC-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_random-06_genes-MC.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<div id="deletion_mutant_random-04_genes-MC-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-04_genes-MC-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-deletion_mutant_random-04_genes-MC-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-deletion_mutant_random-04_genes-MC.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-deletion_mutant_random-04_genes-MC-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-deletion_mutant_random-04_genes-MC.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-deletion_mutant_random-04_genes-MC-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_random-04_genes-MC.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div>
 
-<div class="qpm-selftest" data-bbq="bbq-deletion_mutant_random-06_genes-MC-questions.txt">
+<div class="qpm-selftest" data-bbq="bbq-deletion_mutant_random-04_genes-MC-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
@@ -302,70 +302,70 @@ Students interpret karyotypes and chromosome bands, classify chromosome alterati
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="gene-order-from-deletion-mutants-hard-8-genes-random-labels">
+<section class="problem-set" markdown="1" aria-labelledby="gene-order-from-deletion-mutants-hard-8-genes-random-labels-deletion-table">
 
-## 9.13 Gene Order from Deletion Mutants (Hard, 8 Genes, Random Labels) {#gene-order-from-deletion-mutants-hard-8-genes-random-labels}
+## 9.13 Gene Order from Deletion Mutants (Hard, 8 Genes, Random Labels, Deletion Table) {#gene-order-from-deletion-mutants-hard-8-genes-random-labels-deletion-table}
 
-<div id="deletion_mutant_random-08_genes-FIB-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-08_genes-FIB-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-deletion_mutant_random-08_genes-FIB-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-deletion_mutant_random-08_genes-FIB.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
-<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-deletion_mutant_random-08_genes-FIB-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-deletion_mutant_random-08_genes-FIB.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-deletion_mutant_random-08_genes-FIB-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_random-08_genes-FIB.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<div id="deletion_mutant_random-08_genes-complementation-MC-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-08_genes-complementation-MC-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-deletion_mutant_random-08_genes-complementation-MC-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-deletion_mutant_random-08_genes-complementation-MC.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-deletion_mutant_random-08_genes-complementation-MC-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-deletion_mutant_random-08_genes-complementation-MC.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-deletion_mutant_random-08_genes-complementation-MC-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_random-08_genes-complementation-MC.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div>
 
-<div class="qpm-selftest" data-bbq="bbq-deletion_mutant_random-08_genes-FIB-questions.txt">
-<div class="selftest-question-header selftest-question-placeholder">
-<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
-<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
-</div>
-  <div class="selftest-reroll-content"></div>
-</div>
-
-
-</section>
-
-<section class="problem-set" markdown="1" aria-labelledby="gene-order-from-complementation-tests-bonus-12-genes">
-
-## 9.14 Gene Order from Complementation Tests (Bonus, 12 Genes) {#gene-order-from-complementation-tests-bonus-12-genes}
-
-<div id="deletion_mutant_random-12_genes-complementation-FIB-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-12_genes-complementation-FIB-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-deletion_mutant_random-12_genes-complementation-FIB-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-deletion_mutant_random-12_genes-complementation-FIB.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
-<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-deletion_mutant_random-12_genes-complementation-FIB-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-deletion_mutant_random-12_genes-complementation-FIB.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-deletion_mutant_random-12_genes-complementation-FIB-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_random-12_genes-complementation-FIB.html" aria-label="Generate Human-Readable">Human-Readable</button>
-<span class="qpm-package-status" role="status" aria-live="polite"></span>
-<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div>
-
-<div class="qpm-selftest" data-bbq="bbq-deletion_mutant_random-12_genes-complementation-FIB-questions.txt">
-<div class="selftest-question-header selftest-question-placeholder">
-<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
-<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
-</div>
-  <div class="selftest-reroll-content"></div>
-</div>
-
-
-</section>
-
-<section class="problem-set" markdown="1" aria-labelledby="gene-order-from-deletion-mutants-easy-4-genes-word-labels-with-hint">
-
-## 9.15 Gene Order from Deletion Mutants (Easy, 4 Genes, Word Labels, With Hint) {#gene-order-from-deletion-mutants-easy-4-genes-word-labels-with-hint}
-
-<div id="deletion_mutant_words-04_genes-MC-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_words-04_genes-MC-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-deletion_mutant_words-04_genes-MC-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-deletion_mutant_words-04_genes-MC.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
-<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-deletion_mutant_words-04_genes-MC-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-deletion_mutant_words-04_genes-MC.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-deletion_mutant_words-04_genes-MC-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_words-04_genes-MC.html" aria-label="Generate Human-Readable">Human-Readable</button>
-<span class="qpm-package-status" role="status" aria-live="polite"></span>
-<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div>
-
-<div class="qpm-selftest" data-bbq="bbq-deletion_mutant_words-04_genes-MC-questions.txt">
+<div class="qpm-selftest" data-bbq="bbq-deletion_mutant_random-08_genes-complementation-MC-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
+</div>
+  <div class="selftest-reroll-content"></div>
+</div>
+
+
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="gene-order-from-deletion-mutants-bonus-12-genes-random-labels-deletion-list">
+
+## 9.14 Gene Order from Deletion Mutants (Bonus, 12 Genes, Random Labels, Deletion List) {#gene-order-from-deletion-mutants-bonus-12-genes-random-labels-deletion-list}
+
+<div id="deletion_mutant_random-12_genes-FIB-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-12_genes-FIB-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-deletion_mutant_random-12_genes-FIB-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-deletion_mutant_random-12_genes-FIB.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-deletion_mutant_random-12_genes-FIB-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-deletion_mutant_random-12_genes-FIB.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-deletion_mutant_random-12_genes-FIB-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_random-12_genes-FIB.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<span class="qpm-package-status" role="status" aria-live="polite"></span>
+<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-deletion_mutant_random-12_genes-FIB-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
+<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
+</div>
+  <div class="selftest-reroll-content"></div>
+</div>
+
+
+</section>
+
+<section class="problem-set" markdown="1" aria-labelledby="gene-order-from-deletion-mutants-medium-5-6-genes-word-labels-deletion-table">
+
+## 9.15 Gene Order from Deletion Mutants (Medium, 5-6 Genes, Word Labels, Deletion Table) {#gene-order-from-deletion-mutants-medium-5-6-genes-word-labels-deletion-table}
+
+<div id="deletion_mutant_words-05-06_genes-complementation-FIB-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_words-05-06_genes-complementation-FIB-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-deletion_mutant_words-05-06_genes-complementation-FIB-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-deletion_mutant_words-05-06_genes-complementation-FIB.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-deletion_mutant_words-05-06_genes-complementation-FIB-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-deletion_mutant_words-05-06_genes-complementation-FIB.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-deletion_mutant_words-05-06_genes-complementation-FIB-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_words-05-06_genes-complementation-FIB.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<span class="qpm-package-status" role="status" aria-live="polite"></span>
+<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
+</div>
+
+<div class="qpm-selftest" data-bbq="bbq-deletion_mutant_words-05-06_genes-complementation-FIB-questions.txt">
+<div class="selftest-question-header selftest-question-placeholder">
+<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
 </div>
   <div class="selftest-reroll-content"></div>
@@ -494,9 +494,9 @@ Students interpret karyotypes and chromosome bands, classify chromosome alterati
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="balanced-translocation-segregation-outcomes">
+<section class="problem-set" markdown="1" aria-labelledby="gametes-from-balanced-translocation-segregation">
 
-## 9.21 Balanced Translocation Segregation Outcomes {#balanced-translocation-segregation-outcomes}
+## 9.21 Gametes from Balanced Translocation Segregation {#gametes-from-balanced-translocation-segregation}
 
 <div id="translocation_meiosis_table-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-translocation_meiosis_table-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>

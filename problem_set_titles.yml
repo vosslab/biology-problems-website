@@ -374,8 +374,8 @@ bbq-chi2-test_hardy_weinberg-questions.txt: Hardy-Weinberg Chi-Square Test Concl
 bbq-chromosome_alterations_visual-matching-questions.txt: Chromosome Alterations from
   Diagrams (Matching)
 bbq-chromosome_alterations_visual-which_one-flipped-questions.txt: Chromosome Alteration
-  Diagrams from Abbreviations (MC)
-bbq-chromosome_alterations_visual-which_one-questions.txt: Chromosome Alteration Abbreviations
+  Diagrams from Names (MC)
+bbq-chromosome_alterations_visual-which_one-questions.txt: Chromosome Alterations
   from Diagrams (MC)
 bbq-chymotrypsin_substrate-questions.txt: Cleavage Sites for Chymotrypsin Digestion
   of Peptides (MC)
@@ -410,22 +410,22 @@ bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt: Furan
   Fischer Projections from Haworth Projections (MC)
 bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt: Pyranose
   Fischer Projections from Haworth Projections (MC)
-bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt: Chromosomal Abnormalities
-  from Karyotype Notation (MC)
-bbq-cytogenetic_notation-band_order-5_choices-questions.txt: Chromosome Band Proximity
-  (MC)
-bbq-cytogenetic_notation-disorders-5_choices-questions.txt: Cytogenetic Notations
-  in Genetic Disorders (MC)
-bbq-cytogenetic_notation-rearrangements-questions.txt: Cytogenetic Notation for Rearrangements
-  (MC)
-bbq-deletion_mutant_random-06_genes-MC-questions.txt: Gene Order from Deletion Mutants
-  (Medium, 6 Genes, Random Labels, MC)
-bbq-deletion_mutant_random-08_genes-FIB-questions.txt: Gene Order from Deletion Mutants
-  (Hard, 8 Genes, Random Labels, FiB)
-bbq-deletion_mutant_random-12_genes-complementation-FIB-questions.txt: Gene Order
-  from Complementation Tests (Bonus, 12 Genes, FiB)
-bbq-deletion_mutant_words-04_genes-MC-questions.txt: Gene Order from Deletion Mutants
-  (Easy, 4 Genes, Word Labels, With Hint, MC)
+bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt: Aneuploidy from Cytogenetic
+  Notation (MC)
+bbq-cytogenetic_notation-band_order-5_choices-questions.txt: Proximal and Distal Chromosome
+  Bands (MC)
+bbq-cytogenetic_notation-disorders-5_choices-questions.txt: Cytogenetic Notation from
+  Disorder Descriptions (MC)
+bbq-cytogenetic_notation-rearrangements-questions.txt: Chromosome Rearrangements from
+  Cytogenetic Notation (MC)
+bbq-deletion_mutant_random-04_genes-MC-questions.txt: Gene Order from Deletion Mutants
+  (Easy, 4 Genes, Random Labels, Deletion List, With Hint, MC)
+bbq-deletion_mutant_random-08_genes-complementation-MC-questions.txt: Gene Order from
+  Deletion Mutants (Hard, 8 Genes, Random Labels, Deletion Table, MC)
+bbq-deletion_mutant_random-12_genes-FIB-questions.txt: Gene Order from Deletion Mutants
+  (Bonus, 12 Genes, Random Labels, Deletion List, FiB)
+bbq-deletion_mutant_words-05-06_genes-complementation-FIB-questions.txt: Gene Order from
+  Deletion Mutants (Medium, 5-6 Genes, Word Labels, Deletion Table, FiB)
 bbq-delta_g_prime_standard_state-questions.txt: Biochemical vs Chemical Standard Free
   Energy States (MC)
 bbq-descriptive_stats_google_sheet-questions.txt: Descriptive Statistics Using Google
@@ -686,8 +686,8 @@ bbq-translate_genetic_code-10_aa-questions.txt: Peptide Sequences from mRNA Usin
   the Genetic Code (10 Amino Acids, FiB)
 bbq-translate_genetic_code-MC-5_aa-5_choices-questions.txt: Genetic Code Translation
   of mRNA into Five-Amino-Acid Peptides (5 Choices, MC)
-bbq-translocation_meiosis_table-questions.txt: Balanced Translocation Segregation
-  Outcomes (MA)
+bbq-translocation_meiosis_table-questions.txt: Gametes from Balanced Translocation
+  Segregation (MA)
 bbq-two-point_test_cross-cis-trans-MC-questions.txt: Cis or Trans Allele Configuration
   from Two-Point Test Cross Data (MC)
 bbq-two-point_test_cross-distance-MC-6_choices-questions.txt: Genetic Distance from

@@ -4,11 +4,28 @@
 
 ### Genetics topic09 audit
 
+- Publish one Medium word bank mixing five- and six-gene questions through the generator's
+  existing `--medium` flag, using FiB responses and deletion tables. Keep the word filter
+  and show `5-6 Genes` in the shared title's parentheses.
+- Refresh all three visual chromosome-alteration banks with deletions and inversions spanning
+  at least three genes and tandem duplications spanning two genes.
+- Revise the four deletion tiers: Easy uses random 4-gene MC with deletion lists; Medium mixes
+  5- and 6-gene word FiB with deletion tables; Hard uses random 8-gene MC with a deletion table;
+  Bonus uses random 12-gene FiB with deletion lists. Keep evidence labels in the title
+  parentheses and use `Deletion Table` for the instructor-facing name. Rebuild these banks
+  and remove the superseded variants from the catalog.
+- Align topic09 titles around the assessed tasks: clarify cytogenetic notation directions
+  and proximal/distal bands, group Bonus with the other deletion-mapping tiers, and use
+  parallel gamete wording for balanced and Robertsonian translocations. Refresh indexes.
+- Remove retired topic09 banks from the Bloom label inventory and regenerate the instructor
+  coverage report and catalog from the current banks.
+- Use full alteration names in visual chromosome questions, with fixed emphasis colors and
+  readable gene-order descriptions in HTML and exported-image alternatives. Update both MC
+  direction titles to describe the biological task rather than abbreviation recall.
 - Move chromosomal-disorders tasks into `task_files/genetics_topic09.csv`. Use the existing
   explicit output-file field to distinguish variants from the same generator.
-- Replace six similar deletion MC banks with four representatives: Easy (4-gene word MC
-  with hints), Medium (6-gene random-letter MC), Hard (8-gene random-letter FiB), and Bonus
-  (12-gene complementation FiB). Preserve the generators' other CLI combinations.
+- Replace six similar deletion MC banks with four representative tiers that vary gene count,
+  labels, evidence, and response format. Preserve the generators' other CLI combinations.
 - Publish both Text and Chromosome Diagrams versions of Chromosomal Translocation Outcomes.
   Retain the visual notation formats and existing Matching/WOMC banks.
 - Retire the misleading sub-band bank from the catalog: its generator repeats aneuploidy

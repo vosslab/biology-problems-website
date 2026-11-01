@@ -69,13 +69,13 @@ bbq-MATCH-theranos_people-questions.txt,Biotechnology,Matching,Remember,Factual
 bbq-MATCH-transgenic_crop_regulators-questions.txt,Biotechnology,Matching,Remember,Factual
 bbq-MATCH-trophic_classes-questions.txt,Other,Matching,Remember,Conceptual
 bbq-MATCH-trophic_organisms-questions.txt,Other,Matching,Remember,Conceptual
-bbq-SEQUENCEMC-glycolysis-11_items-questions.txt,Biochemistry,MCORDER,Analyze,Conceptual
-bbq-SEQUENCEMC-microbial_16s_survey-6_items-questions.txt,Biotechnology,MCORDER,Analyze,Procedural
-bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt,Biotechnology,MCORDER,Understand,Conceptual
 bbq-ORDER-glycolysis-11_items-questions.txt,Biochemistry,ORD,Analyze,Conceptual
 bbq-ORDER-microbial_16s_survey-6_items-questions.txt,Biotechnology,ORD,Analyze,Procedural
 bbq-ORDER-model_organism_complexity-7_items-questions.txt,Biotechnology,ORD,Understand,Conceptual
 bbq-RT-qPCR-questions.txt,Laboratory; Molecular Biology,NUM,Apply,Procedural
+bbq-SEQUENCEMC-glycolysis-11_items-questions.txt,Biochemistry,MCORDER,Analyze,Conceptual
+bbq-SEQUENCEMC-microbial_16s_survey-6_items-questions.txt,Biotechnology,MCORDER,Analyze,Procedural
+bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt,Biotechnology,MCORDER,Understand,Conceptual
 bbq-TFMS-bloodless_glucose-questions.txt,Biotechnology,TFMS,Understand,Conceptual
 bbq-TFMS-catalytic_strategies-questions.txt,Biochemistry,TFMS,Remember,Conceptual
 bbq-TFMS-cell_theory-questions.txt,Other,TFMS,Remember,Conceptual
@@ -224,6 +224,9 @@ bbq-chi2-find_errors-questions.txt,Genetics,MC,Evaluate,Procedural
 bbq-chi2-select_hypothesis-alt-questions.txt,Genetics,MC,Understand,Conceptual
 bbq-chi2-select_hypothesis-null-questions.txt,Genetics,MC,Understand,Conceptual
 bbq-chi2-test_hardy_weinberg-questions.txt,Genetics,MC,Evaluate,Procedural
+bbq-chromosome_alterations_visual-matching-questions.txt,Genetics,Matching,Apply,Conceptual
+bbq-chromosome_alterations_visual-which_one-flipped-questions.txt,Genetics,MC,Apply,Conceptual
+bbq-chromosome_alterations_visual-which_one-questions.txt,Genetics,MC,Apply,Conceptual
 bbq-chymotrypsin_substrate-questions.txt,Biochemistry,MC,Apply,Procedural
 bbq-circular_digest-length_10-sites_2_selected-questions.txt,Genetics,MA,Apply,Procedural
 bbq-circular_digest-length_12-sites_3_selected-questions.txt,Genetics,MA,Apply,Procedural
@@ -245,13 +248,10 @@ bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt,Genetics,MC,Understa
 bbq-cytogenetic_notation-band_order-5_choices-questions.txt,Genetics,MC,Apply,Factual
 bbq-cytogenetic_notation-disorders-5_choices-questions.txt,Genetics,MC,Apply,Procedural
 bbq-cytogenetic_notation-rearrangements-questions.txt,Genetics,MC,Understand,Factual
-bbq-cytogenetic_notation-sub-band_notation-questions.txt,Genetics,MC,Understand,Factual
 bbq-deletion_mutant_random-04_genes-MC-questions.txt,Genetics,MC,Analyze,Procedural
-bbq-deletion_mutant_random-05_genes-MC-questions.txt,Genetics,MC,Analyze,Procedural
-bbq-deletion_mutant_random-06_genes-MC-questions.txt,Genetics,MC,Analyze,Procedural
-bbq-deletion_mutant_words-04_genes-MC-questions.txt,Genetics,MC,Analyze,Procedural
-bbq-deletion_mutant_words-05_genes-MC-questions.txt,Genetics,MC,Analyze,Procedural
-bbq-deletion_mutant_words-06_genes-MC-questions.txt,Genetics,MC,Analyze,Procedural
+bbq-deletion_mutant_random-08_genes-complementation-MC-questions.txt,Genetics,MC,Analyze,Procedural
+bbq-deletion_mutant_random-12_genes-FIB-questions.txt,Genetics,FiB,Analyze,Procedural
+bbq-deletion_mutant_words-05-06_genes-complementation-FIB-questions.txt,Genetics,FiB,Analyze,Procedural
 bbq-delta_g_prime_standard_state-questions.txt,Biochemistry,MC,Remember,Factual
 bbq-descriptive_stats_google_sheet-questions.txt,Biostatistics,MULTI_FIB,Apply,Procedural
 bbq-dihybrid_cross_epistatic_gene_interactions-4_choices-questions.txt,Genetics,MC,Understand,Conceptual
@@ -307,6 +307,7 @@ bbq-kaleidoscope_ladder_mapping-questions.txt,Laboratory,Matching,Remember,Factu
 bbq-kaleidoscope_ladder_unknown_band-questions.txt,Biochemistry; Biotechnology; Laboratory,MC,Apply,Procedural
 bbq-lethal_allele_survival-questions.txt,Genetics,MC,Apply,Procedural
 bbq-letter_translocation_problem_color-questions.txt,Genetics,MC,Apply,Conceptual
+bbq-letter_translocation_problem_visual-questions.txt,Genetics,MC,Apply,Conceptual
 bbq-linear_digest-len_10-sites_2-fragment-questions.txt,Genetics,MA,Apply,Procedural
 bbq-linear_digest-len_10-sites_3-strand-questions.txt,Genetics,MA,Apply,Procedural
 bbq-linear_digest-len_12-sites_3-fragment-questions.txt,Genetics; Laboratory; Molecular Biology,MA,Apply,Procedural
@@ -390,11 +391,11 @@ bbq-titration_pI-questions.txt,Biochemistry,MC,Apply,Procedural
 bbq-translate_genetic_code-10_aa-questions.txt,Biochemistry; Molecular Biology,FiB,Apply,Procedural
 bbq-translate_genetic_code-MC-5_aa-5_choices-questions.txt,Biotechnology,MC,Apply,Procedural
 bbq-translocation_meiosis_table-questions.txt,Genetics,MA,Apply,Conceptual
-bbq-two-point_test_cross-cis-trans-MC-with_hint-questions.txt,Genetics,MC,Analyze,Conceptual
-bbq-two-point_test_cross-distance-MC-with_hint-6_choices-questions.txt,Genetics,MC,Apply,Procedural
-bbq-two-point_test_cross-distance-NUM-with_hint-questions.txt,Genetics,NUM,Apply,Procedural
-bbq-two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL-questions.txt,Genetics,MA,Analyze,Conceptual
-bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt,Genetics,MA,Analyze,Conceptual
+bbq-two-point_test_cross-cis-trans-MC-questions.txt,Genetics,MC,Analyze,Conceptual
+bbq-two-point_test_cross-distance-MC-6_choices-questions.txt,Genetics,MC,Apply,Procedural
+bbq-two-point_test_cross-distance-NUM-questions.txt,Genetics,NUM,Apply,Procedural
+bbq-two-point_test_cross-which_genotypes-MA-PARENTAL-questions.txt,Genetics,MA,Analyze,Conceptual
+bbq-two-point_test_cross-which_genotypes-MA-RECOMBINANT-questions.txt,Genetics,MA,Analyze,Conceptual
 bbq-unique_cross_genotypes-genotypes-with_hint-4_genes-questions.txt,Genetics,MC,Apply,Procedural
 bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt,Genetics,MC,Apply,Procedural
 bbq-unique_cross_phenotypes-phenotypes-with_hint-4_genes-questions.txt,Genetics,MC,Apply,Procedural
