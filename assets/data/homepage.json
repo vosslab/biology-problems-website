@@ -3213,7 +3213,7 @@
       "name": "Gene Order from Deletion Mutants (4 Genes, Random Labels)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-10-31",
       "url": "genetics/topic09/#deletion_mutant_random-04_genes-MC-button-container"
     },
     {
@@ -3224,7 +3224,7 @@
       "name": "Gene Order from Deletion Mutants (5 Genes, Random Labels)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-10-31",
       "url": "genetics/topic09/#deletion_mutant_random-05_genes-MC-button-container"
     },
     {
@@ -3235,7 +3235,7 @@
       "name": "Gene Order from Deletion Mutants (6 Genes, Random Labels)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-10-31",
       "url": "genetics/topic09/#deletion_mutant_random-06_genes-MC-button-container"
     },
     {
@@ -3246,7 +3246,7 @@
       "name": "Gene Order from Deletion Mutants (4 Genes, Word Labels)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-10-31",
       "url": "genetics/topic09/#deletion_mutant_words-04_genes-MC-button-container"
     },
     {
@@ -3257,7 +3257,7 @@
       "name": "Gene Order from Deletion Mutants (5 Genes, Word Labels)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-10-31",
       "url": "genetics/topic09/#deletion_mutant_words-05_genes-MC-button-container"
     },
     {
@@ -3268,7 +3268,7 @@
       "name": "Gene Order from Deletion Mutants (6 Genes, Word Labels)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-10-31",
       "url": "genetics/topic09/#deletion_mutant_words-06_genes-MC-button-container"
     },
     {
@@ -3279,7 +3279,7 @@
       "name": "Chromosomal Translocation Outcomes (Color)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": "2026-01-17",
+      "updated": null,
       "url": "genetics/topic09/#letter_translocation_problem_color-button-container"
     },
     {
@@ -3312,7 +3312,7 @@
       "name": "Gametes from Robertsonian Translocation",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-10-31",
       "url": "genetics/topic09/#robertsonian-button-container"
     },
     {
@@ -3323,7 +3323,7 @@
       "name": "Balanced Translocation Segregation Outcomes",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": "2026-01-10",
+      "updated": "2026-10-31",
       "url": "genetics/topic09/#translocation_meiosis_table-button-container"
     },
     {
@@ -5783,10 +5783,31 @@
     },
     {
       "date": "2026-10-31",
+      "name": "Gene Order from Deletion Mutants (6 Genes, Word Labels)",
+      "subject": "Genetics",
+      "topic": "Chromosomal Disorders",
+      "url": "genetics/topic09/#deletion_mutant_words-06_genes-MC-button-container"
+    },
+    {
+      "date": "2026-10-31",
+      "name": "Gametes from Robertsonian Translocation",
+      "subject": "Genetics",
+      "topic": "Chromosomal Disorders",
+      "url": "genetics/topic09/#robertsonian-button-container"
+    },
+    {
+      "date": "2026-10-31",
       "name": "Cis or Trans Allele Configuration from Two-Point Test Cross Data",
       "subject": "Genetics",
       "topic": "Gene Mapping",
       "url": "genetics/topic08/#two-point_test_cross-cis-trans-MC-button-container"
+    },
+    {
+      "date": "2026-10-31",
+      "name": "Balanced Translocation Segregation Outcomes",
+      "subject": "Genetics",
+      "topic": "Chromosomal Disorders",
+      "url": "genetics/topic09/#translocation_meiosis_table-button-container"
     },
     {
       "date": "2026-10-25",
@@ -7077,13 +7098,6 @@
       "url": "molecular_biology/topic07/#enhancer_gene_expression-button-container"
     },
     {
-      "date": "2026-01-17",
-      "name": "Chromosomal Translocation Outcomes (Color)",
-      "subject": "Genetics",
-      "topic": "Chromosomal Disorders",
-      "url": "genetics/topic09/#letter_translocation_problem_color-button-container"
-    },
-    {
       "date": "2026-01-10",
       "name": "Two-Sample t-Test p-Values from Shannon Diversity Data (One-Tailed)",
       "subject": "Biostatistics",
@@ -7215,13 +7229,6 @@
       "subject": "Genetics",
       "topic": "DNA Profiling",
       "url": "genetics/topic03/#blood_type_agglutination_test-button-container"
-    },
-    {
-      "date": "2026-01-10",
-      "name": "Balanced Translocation Segregation Outcomes",
-      "subject": "Genetics",
-      "topic": "Chromosomal Disorders",
-      "url": "genetics/topic09/#translocation_meiosis_table-button-container"
     },
     {
       "date": "2026-01-10",
