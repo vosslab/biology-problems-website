@@ -371,6 +371,12 @@ bbq-chi2-select_hypothesis-null-questions.txt: Null Hypotheses for Mendelian Off
   Ratios (MC)
 bbq-chi2-test_hardy_weinberg-questions.txt: Hardy-Weinberg Chi-Square Test Conclusions
   (MC)
+bbq-chromosome_alterations_visual-matching-questions.txt: Chromosome Alterations from
+  Diagrams (Matching)
+bbq-chromosome_alterations_visual-which_one-flipped-questions.txt: Chromosome Alteration
+  Diagrams from Abbreviations (MC)
+bbq-chromosome_alterations_visual-which_one-questions.txt: Chromosome Alteration Abbreviations
+  from Diagrams (MC)
 bbq-chymotrypsin_substrate-questions.txt: Cleavage Sites for Chymotrypsin Digestion
   of Peptides (MC)
 bbq-circular_digest-length_10-sites_2_selected-questions.txt: Restriction Fragment
@@ -412,20 +418,14 @@ bbq-cytogenetic_notation-disorders-5_choices-questions.txt: Cytogenetic Notation
   in Genetic Disorders (MC)
 bbq-cytogenetic_notation-rearrangements-questions.txt: Cytogenetic Notation for Rearrangements
   (MC)
-bbq-cytogenetic_notation-sub-band_notation-questions.txt: Chromosome Sub-Band Positions
-  from Cytogenetic Notation (MC)
-bbq-deletion_mutant_random-04_genes-MC-questions.txt: Gene Order from Deletion Mutants
-  (4 Genes, Random Labels, MC)
-bbq-deletion_mutant_random-05_genes-MC-questions.txt: Gene Order from Deletion Mutants
-  (5 Genes, Random Labels, MC)
 bbq-deletion_mutant_random-06_genes-MC-questions.txt: Gene Order from Deletion Mutants
-  (6 Genes, Random Labels, MC)
+  (Medium, 6 Genes, Random Labels, MC)
+bbq-deletion_mutant_random-08_genes-FIB-questions.txt: Gene Order from Deletion Mutants
+  (Hard, 8 Genes, Random Labels, FiB)
+bbq-deletion_mutant_random-12_genes-complementation-FIB-questions.txt: Gene Order
+  from Complementation Tests (Bonus, 12 Genes, FiB)
 bbq-deletion_mutant_words-04_genes-MC-questions.txt: Gene Order from Deletion Mutants
-  (4 Genes, Word Labels, MC)
-bbq-deletion_mutant_words-05_genes-MC-questions.txt: Gene Order from Deletion Mutants
-  (5 Genes, Word Labels, MC)
-bbq-deletion_mutant_words-06_genes-MC-questions.txt: Gene Order from Deletion Mutants
-  (6 Genes, Word Labels, MC)
+  (Easy, 4 Genes, Word Labels, With Hint, MC)
 bbq-delta_g_prime_standard_state-questions.txt: Biochemical vs Chemical Standard Free
   Energy States (MC)
 bbq-descriptive_stats_google_sheet-questions.txt: Descriptive Statistics Using Google
@@ -530,7 +530,9 @@ bbq-kaleidoscope_ladder_unknown_band-questions.txt: Protein Molecular Weight fro
 bbq-lethal_allele_survival-questions.txt: Lethal Allele Cross Ratios and Survival
   Fractions (MC)
 bbq-letter_translocation_problem_color-questions.txt: Chromosomal Translocation Outcomes
-  (Color, MC)
+  (Text, MC)
+bbq-letter_translocation_problem_visual-questions.txt: Chromosomal Translocation Outcomes
+  (Chromosome Diagrams, MC)
 bbq-linear_digest-len_10-sites_2-fragment-questions.txt: Restriction Fragment Sizes
   from Linear DNA Maps (10 kb, 2 Sites, Isolated Fragment, MA)
 bbq-linear_digest-len_10-sites_3-strand-questions.txt: Restriction Fragment Sizes

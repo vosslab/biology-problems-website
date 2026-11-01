@@ -247,6 +247,9 @@ bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt: Apply
 bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt: Apply, Procedural
 bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt: Apply, Procedural
 bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt: Apply, Procedural
+bbq-chromosome_alterations_visual-matching-questions.txt: Apply, Conceptual
+bbq-chromosome_alterations_visual-which_one-questions.txt: Apply, Conceptual
+bbq-chromosome_alterations_visual-which_one-flipped-questions.txt: Apply, Conceptual
 bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt: Understand, Factual
 bbq-cytogenetic_notation-band_order-5_choices-questions.txt: Apply, Factual
 bbq-cytogenetic_notation-disorders-5_choices-questions.txt: Apply, Procedural
@@ -255,6 +258,8 @@ bbq-cytogenetic_notation-sub-band_notation-questions.txt: Understand, Factual
 bbq-deletion_mutant_random-04_genes-MC-questions.txt: Analyze, Procedural
 bbq-deletion_mutant_random-05_genes-MC-questions.txt: Analyze, Procedural
 bbq-deletion_mutant_random-06_genes-MC-questions.txt: Analyze, Procedural
+bbq-deletion_mutant_random-08_genes-FIB-questions.txt: Analyze, Procedural
+bbq-deletion_mutant_random-12_genes-complementation-FIB-questions.txt: Analyze, Procedural
 bbq-deletion_mutant_words-04_genes-MC-questions.txt: Analyze, Procedural
 bbq-deletion_mutant_words-05_genes-MC-questions.txt: Analyze, Procedural
 bbq-deletion_mutant_words-06_genes-MC-questions.txt: Analyze, Procedural
@@ -313,6 +318,7 @@ bbq-kaleidoscope_ladder_mapping-questions.txt: Remember, Factual
 bbq-kaleidoscope_ladder_unknown_band-questions.txt: Apply, Procedural
 bbq-lethal_allele_survival-questions.txt: Apply, Procedural
 bbq-letter_translocation_problem_color-questions.txt: Apply, Conceptual
+bbq-letter_translocation_problem_visual-questions.txt: Apply, Conceptual
 bbq-linear_digest-len_10-sites_2-fragment-questions.txt: Apply, Procedural
 bbq-linear_digest-len_10-sites_3-strand-questions.txt: Apply, Procedural
 bbq-linear_digest-len_12-sites_3-fragment-questions.txt: Apply, Procedural

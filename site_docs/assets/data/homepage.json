@@ -3152,6 +3152,39 @@
     },
     {
       "added": null,
+      "created": null,
+      "family": null,
+      "id": "genetics/topic09/bbq-chromosome_alterations_visual-matching-questions.txt",
+      "name": "Chromosome Alterations from Diagrams",
+      "subject": "Genetics",
+      "topic": "Chromosomal Disorders",
+      "updated": null,
+      "url": "genetics/topic09/#chromosome_alterations_visual-matching-button-container"
+    },
+    {
+      "added": null,
+      "created": null,
+      "family": null,
+      "id": "genetics/topic09/bbq-chromosome_alterations_visual-which_one-flipped-questions.txt",
+      "name": "Chromosome Alteration Diagrams from Abbreviations",
+      "subject": "Genetics",
+      "topic": "Chromosomal Disorders",
+      "updated": null,
+      "url": "genetics/topic09/#chromosome_alterations_visual-which_one-flipped-button-container"
+    },
+    {
+      "added": null,
+      "created": null,
+      "family": null,
+      "id": "genetics/topic09/bbq-chromosome_alterations_visual-which_one-questions.txt",
+      "name": "Chromosome Alteration Abbreviations from Diagrams",
+      "subject": "Genetics",
+      "topic": "Chromosomal Disorders",
+      "updated": null,
+      "url": "genetics/topic09/#chromosome_alterations_visual-which_one-button-container"
+    },
+    {
+      "added": null,
       "created": "2024-11-13",
       "family": "a3cf91041beb4fb25655558be0799f0bd2cbd2fd:inheritance-problems/cytogenetic_notation-aneuploidy.py",
       "id": "genetics/topic09/bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt",
@@ -3196,43 +3229,10 @@
     },
     {
       "added": null,
-      "created": "2024-11-02",
-      "family": "450cfb15cfb8ca1f37673129e9182b562d3ff0c9:TEMPLATE.py",
-      "id": "genetics/topic09/bbq-cytogenetic_notation-sub-band_notation-questions.txt",
-      "name": "Chromosome Sub-Band Positions from Cytogenetic Notation",
-      "subject": "Genetics",
-      "topic": "Chromosomal Disorders",
-      "updated": "2026-01-10",
-      "url": "genetics/topic09/#cytogenetic_notation-sub-band_notation-button-container"
-    },
-    {
-      "added": null,
-      "created": "2021-10-20",
-      "family": "6ab4a2f585bc363844f0aa4a1af953c18666ca0c:deletionMutants.py",
-      "id": "genetics/topic09/bbq-deletion_mutant_random-04_genes-MC-questions.txt",
-      "name": "Gene Order from Deletion Mutants (4 Genes, Random Labels)",
-      "subject": "Genetics",
-      "topic": "Chromosomal Disorders",
-      "updated": "2026-10-31",
-      "url": "genetics/topic09/#deletion_mutant_random-04_genes-MC-button-container"
-    },
-    {
-      "added": null,
-      "created": "2021-10-20",
-      "family": "6ab4a2f585bc363844f0aa4a1af953c18666ca0c:deletionMutants.py",
-      "id": "genetics/topic09/bbq-deletion_mutant_random-05_genes-MC-questions.txt",
-      "name": "Gene Order from Deletion Mutants (5 Genes, Random Labels)",
-      "subject": "Genetics",
-      "topic": "Chromosomal Disorders",
-      "updated": "2026-10-31",
-      "url": "genetics/topic09/#deletion_mutant_random-05_genes-MC-button-container"
-    },
-    {
-      "added": null,
       "created": "2021-10-20",
       "family": "6ab4a2f585bc363844f0aa4a1af953c18666ca0c:deletionMutants.py",
       "id": "genetics/topic09/bbq-deletion_mutant_random-06_genes-MC-questions.txt",
-      "name": "Gene Order from Deletion Mutants (6 Genes, Random Labels)",
+      "name": "Gene Order from Deletion Mutants (Medium, 6 Genes, Random Labels)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
       "updated": "2026-10-31",
@@ -3242,8 +3242,30 @@
       "added": null,
       "created": "2021-10-20",
       "family": "6ab4a2f585bc363844f0aa4a1af953c18666ca0c:deletionMutants.py",
+      "id": "genetics/topic09/bbq-deletion_mutant_random-08_genes-FIB-questions.txt",
+      "name": "Gene Order from Deletion Mutants (Hard, 8 Genes, Random Labels)",
+      "subject": "Genetics",
+      "topic": "Chromosomal Disorders",
+      "updated": "2026-10-31",
+      "url": "genetics/topic09/#deletion_mutant_random-08_genes-FIB-button-container"
+    },
+    {
+      "added": null,
+      "created": "2021-10-20",
+      "family": "6ab4a2f585bc363844f0aa4a1af953c18666ca0c:deletionMutants.py",
+      "id": "genetics/topic09/bbq-deletion_mutant_random-12_genes-complementation-FIB-questions.txt",
+      "name": "Gene Order from Complementation Tests (Bonus, 12 Genes)",
+      "subject": "Genetics",
+      "topic": "Chromosomal Disorders",
+      "updated": "2026-10-31",
+      "url": "genetics/topic09/#deletion_mutant_random-12_genes-complementation-FIB-button-container"
+    },
+    {
+      "added": null,
+      "created": "2021-10-20",
+      "family": "6ab4a2f585bc363844f0aa4a1af953c18666ca0c:deletionMutants.py",
       "id": "genetics/topic09/bbq-deletion_mutant_words-04_genes-MC-questions.txt",
-      "name": "Gene Order from Deletion Mutants (4 Genes, Word Labels)",
+      "name": "Gene Order from Deletion Mutants (Easy, 4 Genes, Word Labels, With Hint)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
       "updated": "2026-10-31",
@@ -3251,36 +3273,25 @@
     },
     {
       "added": null,
-      "created": "2021-10-20",
-      "family": "6ab4a2f585bc363844f0aa4a1af953c18666ca0c:deletionMutants.py",
-      "id": "genetics/topic09/bbq-deletion_mutant_words-05_genes-MC-questions.txt",
-      "name": "Gene Order from Deletion Mutants (5 Genes, Word Labels)",
-      "subject": "Genetics",
-      "topic": "Chromosomal Disorders",
-      "updated": "2026-10-31",
-      "url": "genetics/topic09/#deletion_mutant_words-05_genes-MC-button-container"
-    },
-    {
-      "added": null,
-      "created": "2021-10-20",
-      "family": "6ab4a2f585bc363844f0aa4a1af953c18666ca0c:deletionMutants.py",
-      "id": "genetics/topic09/bbq-deletion_mutant_words-06_genes-MC-questions.txt",
-      "name": "Gene Order from Deletion Mutants (6 Genes, Word Labels)",
-      "subject": "Genetics",
-      "topic": "Chromosomal Disorders",
-      "updated": "2026-10-31",
-      "url": "genetics/topic09/#deletion_mutant_words-06_genes-MC-button-container"
-    },
-    {
-      "added": null,
       "created": "2021-11-02",
       "family": "5a4e22f914f58a8ae11b47aedb08258108da0989:inheritance-problems/letter_translocation_problem_color.py",
       "id": "genetics/topic09/bbq-letter_translocation_problem_color-questions.txt",
-      "name": "Chromosomal Translocation Outcomes (Color)",
+      "name": "Chromosomal Translocation Outcomes (Text)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
       "updated": "2026-10-31",
       "url": "genetics/topic09/#letter_translocation_problem_color-button-container"
+    },
+    {
+      "added": null,
+      "created": "2026-10-31",
+      "family": "1c1408627f873914e8d5a42abd736c2860e1b3aa:problems/inheritance-problems/translocation/letter_translocation_problem_visual.py",
+      "id": "genetics/topic09/bbq-letter_translocation_problem_visual-questions.txt",
+      "name": "Chromosomal Translocation Outcomes (Chromosome Diagrams)",
+      "subject": "Genetics",
+      "topic": "Chromosomal Disorders",
+      "updated": "2026-10-31",
+      "url": "genetics/topic09/#letter_translocation_problem_visual-button-container"
     },
     {
       "added": null,
@@ -3301,7 +3312,7 @@
       "name": "Monoploid and Haploid Numbers from Chromosome Counts",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": "2025-12-26",
+      "updated": null,
       "url": "genetics/topic09/#polyploid-monoploid_v_haploid-button-container"
     },
     {
@@ -5715,7 +5726,7 @@
     {
       "icon": "\ud83e\udeb0",
       "key": "genetics",
-      "sets": 154,
+      "sets": 155,
       "title": "Genetics",
       "topics": 11,
       "url": "genetics/"
@@ -5762,7 +5773,7 @@
     }
   ],
   "totals": {
-    "sets": 500,
+    "sets": 501,
     "subjects": 7,
     "topics": 57
   },
@@ -5783,10 +5794,10 @@
     },
     {
       "date": "2026-10-31",
-      "name": "Gene Order from Deletion Mutants (6 Genes, Word Labels)",
+      "name": "Gene Order from Deletion Mutants (Medium, 6 Genes, Random Labels)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "url": "genetics/topic09/#deletion_mutant_words-06_genes-MC-button-container"
+      "url": "genetics/topic09/#deletion_mutant_random-06_genes-MC-button-container"
     },
     {
       "date": "2026-10-31",
@@ -5804,7 +5815,7 @@
     },
     {
       "date": "2026-10-31",
-      "name": "Chromosomal Translocation Outcomes (Color)",
+      "name": "Chromosomal Translocation Outcomes (Text)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
       "url": "genetics/topic09/#letter_translocation_problem_color-button-container"
@@ -7250,13 +7261,6 @@
       "subject": "Biochemistry",
       "topic": "Protein Purification",
       "url": "biochemistry/topic05/#isoelectric_two_proteins-button-container"
-    },
-    {
-      "date": "2025-12-26",
-      "name": "Monoploid and Haploid Numbers from Chromosome Counts",
-      "subject": "Genetics",
-      "topic": "Chromosomal Disorders",
-      "url": "genetics/topic09/#polyploid-monoploid_v_haploid-button-container"
     },
     {
       "date": "2025-12-26",

@@ -1,5 +1,33 @@
 # Changelog
 
+## 2026-11-01
+
+### Genetics topic09 audit
+
+- Move chromosomal-disorders tasks into `task_files/genetics_topic09.csv`. Use the existing
+  explicit output-file field to distinguish variants from the same generator.
+- Replace six similar deletion MC banks with four representatives: Easy (4-gene word MC
+  with hints), Medium (6-gene random-letter MC), Hard (8-gene random-letter FiB), and Bonus
+  (12-gene complementation FiB). Preserve the generators' other CLI combinations.
+- Publish both Text and Chromosome Diagrams versions of Chromosomal Translocation Outcomes.
+  Retain the visual notation formats and existing Matching/WOMC banks.
+- Retire the misleading sub-band bank from the catalog: its generator repeats aneuploidy
+  interpretation rather than assessing sub-band positions. Keep the dedicated aneuploidy bank.
+- Select polyploid scenarios randomly and refresh monoploid/haploid choices after removing
+  their extra paragraph spacing. Document the selection rationale in `docs/TOPIC09_CONTENT.md`.
+- Rebuild the selected banks, topic page, and catalogs. Keep larger deletion maps horizontally
+  scrollable on mobile instead of clipping the rightmost gene columns.
+- Record the four-sex sparrow inversion problem as a topic09 coverage gap: the two probability
+  questions exist in past exams, but no generator or question bank currently supplies them.
+
+## 2026-10-31
+
+### Additions and New Features
+
+- Register the Python visual chromosome-alterations generator under genetics topic09
+  for matching, picture-to-abbreviation MC, and flipped abbreviation-to-picture MC.
+  Preserve the existing text-based chromosome-alterations tasks and generated banks.
+
 ## 2026-10-30
 
 ### Behavior or Interface Changes

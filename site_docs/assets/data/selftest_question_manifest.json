@@ -2508,6 +2508,27 @@
     },
     {
       "pagePath": "genetics/topic09/index.md",
+      "questionId": "bbq-chromosome_alterations_visual-matching-questions.txt",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "pagePath": "genetics/topic09/index.md",
+      "questionId": "bbq-chromosome_alterations_visual-which_one-flipped-questions.txt",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "pagePath": "genetics/topic09/index.md",
+      "questionId": "bbq-chromosome_alterations_visual-which_one-questions.txt",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "pagePath": "genetics/topic09/index.md",
       "questionId": "bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic09",
@@ -2536,28 +2557,21 @@
     },
     {
       "pagePath": "genetics/topic09/index.md",
-      "questionId": "bbq-cytogenetic_notation-sub-band_notation-questions.txt",
-      "subjectKey": "genetics",
-      "topicKey": "topic09",
-      "topicTitle": "Chromosomal Disorders"
-    },
-    {
-      "pagePath": "genetics/topic09/index.md",
-      "questionId": "bbq-deletion_mutant_random-04_genes-MC-questions.txt",
-      "subjectKey": "genetics",
-      "topicKey": "topic09",
-      "topicTitle": "Chromosomal Disorders"
-    },
-    {
-      "pagePath": "genetics/topic09/index.md",
-      "questionId": "bbq-deletion_mutant_random-05_genes-MC-questions.txt",
-      "subjectKey": "genetics",
-      "topicKey": "topic09",
-      "topicTitle": "Chromosomal Disorders"
-    },
-    {
-      "pagePath": "genetics/topic09/index.md",
       "questionId": "bbq-deletion_mutant_random-06_genes-MC-questions.txt",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "pagePath": "genetics/topic09/index.md",
+      "questionId": "bbq-deletion_mutant_random-08_genes-FIB-questions.txt",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "pagePath": "genetics/topic09/index.md",
+      "questionId": "bbq-deletion_mutant_random-12_genes-complementation-FIB-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic09",
       "topicTitle": "Chromosomal Disorders"
@@ -2571,21 +2585,14 @@
     },
     {
       "pagePath": "genetics/topic09/index.md",
-      "questionId": "bbq-deletion_mutant_words-05_genes-MC-questions.txt",
-      "subjectKey": "genetics",
-      "topicKey": "topic09",
-      "topicTitle": "Chromosomal Disorders"
-    },
-    {
-      "pagePath": "genetics/topic09/index.md",
-      "questionId": "bbq-deletion_mutant_words-06_genes-MC-questions.txt",
-      "subjectKey": "genetics",
-      "topicKey": "topic09",
-      "topicTitle": "Chromosomal Disorders"
-    },
-    {
-      "pagePath": "genetics/topic09/index.md",
       "questionId": "bbq-letter_translocation_problem_color-questions.txt",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "pagePath": "genetics/topic09/index.md",
+      "questionId": "bbq-letter_translocation_problem_visual-questions.txt",
       "subjectKey": "genetics",
       "topicKey": "topic09",
       "topicTitle": "Chromosomal Disorders"
