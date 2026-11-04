@@ -338,14 +338,14 @@ bbq-boxplot_from_summary-MC-boxplot_from_summary-5_choices-questions.txt: Box Pl
   from Five-Number Summary (MC)
 bbq-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices-questions.txt: Box
   Plots from Unsorted Data (Even Sample Size, MC)
-bbq-busse_woods_anova-anova-5year-questions.txt: One-Way ANOVA p-Values from Shannon
-  Diversity Data (5 Years, NUM)
-bbq-busse_woods_one_sample_tests-ztest-questions.txt: One-Sample z-Test p-Values from
-  Shannon Diversity Data (NUM)
+bbq-busse_woods_anova-anova-5year-questions.txt: One-Way ANOVA p-Values from Microbial
+  Shannon Diversity (5 Years, NUM)
+bbq-busse_woods_one_sample_tests-ztest-questions.txt: One-Sample Z-Test p-Values from
+  Busse Woods Microbial Diversity Data (Two-Tailed, NUM)
 bbq-busse_woods_two_sample_f_test-tails1-questions.txt: Two-Sample F-Test p-Values
-  from Shannon Diversity Data (One-Tailed, NUM)
-bbq-busse_woods_two_sample_t_test-tails1-questions.txt: Two-Sample t-Test p-Values
-  from Shannon Diversity Data (One-Tailed, NUM)
+  from Busse Woods Shannon Index Data (One-Tailed, NUM)
+bbq-busse_woods_two_sample_t_test-tails1-questions.txt: Welch Two-Sample t-Test p-Values
+  from Busse Woods Shannon Diversity (One-Tailed, NUM)
 bbq-cell_surf-to-vol_ratio-questions.txt: Cell Efficiency from Surface-Area-to-Volume
   Ratio (MC)
 bbq-chargaff_dna_percent-5_choices-questions.txt: DNA Base Composition Using Chargaff's
@@ -424,8 +424,8 @@ bbq-deletion_mutant_random-08_genes-complementation-MC-questions.txt: Gene Order
   Deletion Mutants (Hard, 8 Genes, Random Labels, Deletion Table, MC)
 bbq-deletion_mutant_random-12_genes-FIB-questions.txt: Gene Order from Deletion Mutants
   (Bonus, 12 Genes, Random Labels, Deletion List, FiB)
-bbq-deletion_mutant_words-05-06_genes-complementation-FIB-questions.txt: Gene Order from
-  Deletion Mutants (Medium, 5-6 Genes, Word Labels, Deletion Table, FiB)
+bbq-deletion_mutant_words-05-06_genes-complementation-FIB-questions.txt: Gene Order
+  from Deletion Mutants (Medium, 5-6 Genes, Word Labels, Deletion Table, FiB)
 bbq-delta_g_prime_standard_state-questions.txt: Biochemical vs Chemical Standard Free
   Energy States (MC)
 bbq-descriptive_stats_google_sheet-questions.txt: Descriptive Statistics Using Google
@@ -760,4 +760,4 @@ bbq-x_linked_reciprocal_cross-questions.txt: X-Linked Eye Color Inheritance (MC)
 bbq-x_linked_tortoiseshell-questions.txt: X-Linked Coat Color Probability (MC)
 bbq-z_score_google_sheet-questions.txt: Z-Scores in Google Sheets (MC)
 bbq-z_score_table_interp-questions.txt: Biodiversity Comparisons Using Z-Scores (MC)
-last edit: Sat Oct 31 06:22:19 2026
+last edit: Wed Nov  4 09:59:27 2026

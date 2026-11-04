@@ -5,7 +5,7 @@
 ## DBsubject('Biostatistics')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-15')
+## Date('2026-11-04')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -32,8 +32,8 @@ our @ALPHABET = ('A' .. 'Z');
     'the cutoff used to compare against the observed <span style="color: #00775f; font-weight:700;">test statistic</span>',
   ],
   'test statistic' => [
-    'a function of the data computed to test the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
-    'a function of the data designed to measure agreement or disagreement with the null hypothesis',
+    'a number calculated from the data to test the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+    'a number calculated from the data to measure agreement or disagreement with the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
     'if this value is large in the direction favoring the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>, there is stronger evidence against the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
     'the more extreme this value is under the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span>, the smaller the <span style="color: #c80085; font-weight:700;">p-value</span>',
   ],
@@ -46,13 +46,13 @@ our @ALPHABET = ('A' .. 'Z');
   ],
   'p-value' => [
     'the probability, under the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span>, of obtaining a result at least as extreme as the one observed',
-    'smaller values give more support for the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+    'smaller values provide stronger evidence against the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
     'if this value is small, it suggests that the observed data are NOT consistent with the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
     'smaller values typically correspond to more extreme <span style="color: #00775f; font-weight:700;">test statistic</span> values',
   ],
   'null hypothesis, H<sub>0</sub>' => [
     'the hypothesis we attempt to find evidence against in a <span style="color: #935d00; font-weight:700;">statistical test</span>',
-    'the hypothesis we want to <span style="color: #d40000; font-weight:700;">reject</span> in a <span style="color: #935d00; font-weight:700;">statistical test</span>',
+    'the starting claim tested against the evidence in a <span style="color: #935d00; font-weight:700;">statistical test</span>',
     'this hypothesis defines the distribution used for comparison in the test',
     'defines the distribution used for comparison in the test',
     'defines the reference distribution used for comparison',
@@ -61,10 +61,7 @@ our @ALPHABET = ('A' .. 'Z');
     'the hypothesis we aim to support indirectly by <span style="color: #d40000; font-weight:700;">rejecting</span> another hypothesis',
     'this hypothesis can sometimes be <span style="color: #127663; font-weight:700;">TRUE</span> even when the test fails to detect it (later called a Type II error)',
     'can be <span style="color: #127663; font-weight:700;">TRUE</span> even if the test fails to detect it (later called a Type II error)',
-    'this hypothesis represents the possibility that the observed effect is real and NOT random',
-    'this hypothesis represents the possibility that the observed effect is NOT due to random chance',
-    'represents the possibility that an observed effect or relationship is real and NOT random',
-    'represents the possibility that an observed effect or relationship is NOT due to random chance',
+    'describes a population difference or relationship that conflicts with the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
   ],
   'degrees of freedom' => [
     'a parameter based on sample size and estimated parameters or constraints',

@@ -80,9 +80,9 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="one-way-anova-p-values-from-shannon-diversity-data-5-years">
+<section class="problem-set" markdown="1" aria-labelledby="one-way-anova-p-values-from-microbial-shannon-diversity-5-years">
 
-## 7.4 One-Way ANOVA p-Values from Shannon Diversity Data (5 Years) {#one-way-anova-p-values-from-shannon-diversity-data-5-years}
+## 7.4 One-Way ANOVA p-Values from Microbial Shannon Diversity (5 Years) {#one-way-anova-p-values-from-microbial-shannon-diversity-5-years}
 
 <div id="busse_woods_anova-anova-5year-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-busse_woods_anova-anova-5year-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -104,9 +104,9 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="one-sample-z-test-p-values-from-shannon-diversity-data">
+<section class="problem-set" markdown="1" aria-labelledby="one-sample-z-test-p-values-from-busse-woods-microbial-diversity-data-two-tailed">
 
-## 7.5 One-Sample z-Test p-Values from Shannon Diversity Data {#one-sample-z-test-p-values-from-shannon-diversity-data}
+## 7.5 One-Sample Z-Test p-Values from Busse Woods Microbial Diversity Data (Two-Tailed) {#one-sample-z-test-p-values-from-busse-woods-microbial-diversity-data-two-tailed}
 
 <div id="busse_woods_one_sample_tests-ztest-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-busse_woods_one_sample_tests-ztest-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -128,9 +128,9 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="two-sample-f-test-p-values-from-shannon-diversity-data-one-tailed">
+<section class="problem-set" markdown="1" aria-labelledby="two-sample-f-test-p-values-from-busse-woods-shannon-index-data-one-tailed">
 
-## 7.6 Two-Sample F-Test p-Values from Shannon Diversity Data (One-Tailed) {#two-sample-f-test-p-values-from-shannon-diversity-data-one-tailed}
+## 7.6 Two-Sample F-Test p-Values from Busse Woods Shannon Index Data (One-Tailed) {#two-sample-f-test-p-values-from-busse-woods-shannon-index-data-one-tailed}
 
 <div id="busse_woods_two_sample_f_test-tails1-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-busse_woods_two_sample_f_test-tails1-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -152,9 +152,9 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="two-sample-t-test-p-values-from-shannon-diversity-data-one-tailed">
+<section class="problem-set" markdown="1" aria-labelledby="welch-two-sample-t-test-p-values-from-busse-woods-shannon-diversity-one-tailed">
 
-## 7.7 Two-Sample t-Test p-Values from Shannon Diversity Data (One-Tailed) {#two-sample-t-test-p-values-from-shannon-diversity-data-one-tailed}
+## 7.7 Welch Two-Sample t-Test p-Values from Busse Woods Shannon Diversity (One-Tailed) {#welch-two-sample-t-test-p-values-from-busse-woods-shannon-diversity-one-tailed}
 
 <div id="busse_woods_two_sample_t_test-tails1-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-busse_woods_two_sample_t_test-tails1-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>

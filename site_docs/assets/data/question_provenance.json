@@ -1240,116 +1240,116 @@
     "source_updated": "2026-08-25"
   },
   "biostatistics/topic06/bbq-MATCH-hypothesis_testing_terms-questions.txt": {
-    "output_fingerprint": "d4fbfe6bbde7978d50ece934cd3e0c23abec21e001e3c0cbe561bc977fae58bd",
-    "source_commit": "8d51f431733699f632b9982f80b284e08261774e",
-    "source_fingerprint": "ffc57f05aaff20f3ac2fc53a8ab8341df2e115bdd229a0b1dbf2aa3aa1706d9b",
+    "output_fingerprint": "129ff21d06a2905695d94a6ef42f0ae974d4ae76fce79b214fd13dce9292aaa0",
+    "source_commit": "c96511f9e706b447340ad660884d2aaa5293cd49",
+    "source_fingerprint": "526b346003e2fb135d3d053b9bcca0134765cc60834995bf6704b5be02847177",
     "source_id": "a5aa0482469e3c335ac5973785ce28eddfd6bc6a:matching_sets/statistical_test_terms.yml",
     "source_path": "problems/matching_sets/biostatistics/hypothesis_testing_terms.yml",
-    "source_updated": "2026-10-07"
+    "source_updated": "2026-10-22"
   },
   "biostatistics/topic06/bbq-MATCH-selecting_statistical_tests-questions.txt": {
-    "output_fingerprint": "dc6deb4c78ad0e5163c397e6388afc0e280da2b38b56ea62e2ba95102f43d3c2",
-    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
-    "source_fingerprint": "08142f5c851a779b046b8e125360178e77f32678457661b40ecae67d92ee95e1",
+    "output_fingerprint": "b29d144133d4c2768de94523b03b4e745fd4817e710ff634104c59af91060b09",
+    "source_commit": "c96511f9e706b447340ad660884d2aaa5293cd49",
+    "source_fingerprint": "e16e12bd668ec60d042b5511c0efea58173e31f5b941763b73cb9bd56d6334e2",
     "source_id": "c916e9022cb68a2ebaf8d8d2ec5a4f922101c8d5:matching_sets/hypothesis_testing.yml",
     "source_path": "problems/matching_sets/biostatistics/selecting_statistical_tests.yml",
-    "source_updated": "2026-10-06"
+    "source_updated": "2026-10-22"
   },
   "biostatistics/topic06/bbq-TFMS-hypothesis_testing_decisions-questions.txt": {
-    "output_fingerprint": "956533fef9531684d57d28ea6562724b2018f17fece483ebe4939d6b87c11917",
-    "source_commit": "8d51f431733699f632b9982f80b284e08261774e",
-    "source_fingerprint": "9c04b977047cfe09d5a9c77f38f7c5639d5cb07ff2202ea66fa5d5e465381017",
+    "output_fingerprint": "f1ac54d9f5ac4752912e8c8a1df6cb670b6738d425ccf973bf1ae19f1a448b6a",
+    "source_commit": "c96511f9e706b447340ad660884d2aaa5293cd49",
+    "source_fingerprint": "79bc918a208e3e58f7ae78b640da11797dff594af26b0a46aa6855e39ad2f291",
     "source_id": "9101fa22694c9cb90b3489091fc2eb6ef325accb:multiple_choice_statements/statistical_tests.yml",
     "source_path": "problems/multiple_choice_statements/biostatistics/hypothesis_testing_decisions.yml",
-    "source_updated": "2026-10-07"
+    "source_updated": "2026-10-22"
   },
   "biostatistics/topic06/bbq-WOMC-hypothesis_testing_terms-questions.txt": {
-    "output_fingerprint": "b81a2a8739f25d082993f8a216a2739ac4fc5e9fef9ddbc3584ebb202809b201",
-    "source_commit": "8d51f431733699f632b9982f80b284e08261774e",
-    "source_fingerprint": "ffc57f05aaff20f3ac2fc53a8ab8341df2e115bdd229a0b1dbf2aa3aa1706d9b",
+    "output_fingerprint": "eb5553ede2bc21605227feed28043be36e707c38c35a8442beb1e6b20e2e8844",
+    "source_commit": "c96511f9e706b447340ad660884d2aaa5293cd49",
+    "source_fingerprint": "526b346003e2fb135d3d053b9bcca0134765cc60834995bf6704b5be02847177",
     "source_id": "a5aa0482469e3c335ac5973785ce28eddfd6bc6a:matching_sets/statistical_test_terms.yml",
     "source_path": "problems/matching_sets/biostatistics/hypothesis_testing_terms.yml",
-    "source_updated": "2026-10-07"
+    "source_updated": "2026-10-22"
   },
   "biostatistics/topic06/bbq-WOMC-selecting_statistical_tests-questions.txt": {
-    "output_fingerprint": "c2b9c301bf212ef00491c4dbcd9d22abaa035d6026b79e4dd84ef3a2eb006ce4",
-    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
-    "source_fingerprint": "08142f5c851a779b046b8e125360178e77f32678457661b40ecae67d92ee95e1",
+    "output_fingerprint": "595db4b2b0768a01e3a4cb195d68c2625a3b5a021a7f7c00519b7567a8c94825",
+    "source_commit": "c96511f9e706b447340ad660884d2aaa5293cd49",
+    "source_fingerprint": "e16e12bd668ec60d042b5511c0efea58173e31f5b941763b73cb9bd56d6334e2",
     "source_id": "c916e9022cb68a2ebaf8d8d2ec5a4f922101c8d5:matching_sets/hypothesis_testing.yml",
     "source_path": "problems/matching_sets/biostatistics/selecting_statistical_tests.yml",
-    "source_updated": "2026-10-06"
+    "source_updated": "2026-10-22"
   },
   "biostatistics/topic06/bbq-hypothesis_statement_errors-hypotheses_partner-questions.txt": {
-    "output_fingerprint": "9014befe27f86f3dee8f127441c444fd38a189ff5e5b1f788cab42097d5c0c00",
-    "source_commit": "63e2c8bb39634be0adb3b85d166f97d88d5c4b2e",
-    "source_fingerprint": "1582d6b842436cbae861b5848ffa7cde6849aaf2cd33506f62576642798478cb",
+    "output_fingerprint": "bb9f01750fec24d26b50f5584bc95dcc62235347c91e8cec5e02443f172eb732",
+    "source_commit": "074e9949de43fd7452912cc077030e04c5257277",
+    "source_fingerprint": "002b5b00d4a7b6860320b215a04a4bed55eb01de575539e377da91bb5e42bde7",
     "source_id": "566b69080e0aee48e64db813efd8b176b4541653:biostatistics-problems/hypothesis_lab_partner.py",
     "source_path": "problems/biostatistics-problems/hypothesis_statement_errors.py",
-    "source_updated": "2026-01-10"
+    "source_updated": "2026-10-22"
   },
   "biostatistics/topic06/bbq-null_and_alternative_hypotheses-pair-questions.txt": {
-    "output_fingerprint": "86f3cdf4701362b656a18554bf989a8d703ebd7694706ad5374ab716aa08d9cd",
-    "source_commit": "3ae8744372255edb25e2379549553d3b649ead68",
-    "source_fingerprint": "edc9a47abace7ba29cbb1881b522b880a4a0bf11b640a0361a35b40820187847",
+    "output_fingerprint": "d5d00df405bae01c79da2636de21203c21731557797b572d932c5256bf64adc0",
+    "source_commit": "074e9949de43fd7452912cc077030e04c5257277",
+    "source_fingerprint": "526b11f3f7471af78677e7e1d98ac46dbc1432d665028870adb6a6c5dde66ca1",
     "source_id": "566b69080e0aee48e64db813efd8b176b4541653:biostatistics-problems/hypothesis_statements.py",
     "source_path": "problems/biostatistics-problems/null_and_alternative_hypotheses.py",
-    "source_updated": "2026-07-12"
+    "source_updated": "2026-10-22"
   },
   "biostatistics/topic07/bbq-babies_one_sample_t_test-tails1-questions.txt": {
-    "output_fingerprint": "d8bef937ee4232d6989f94e6c84a762d69a2d171403fbfbd451287080d859f7a",
-    "source_commit": "0c8ff60b596cb9b11f1a3edc6adc35fd11e4ef22",
-    "source_fingerprint": "6b81f3303f982797c8c6239ac90b4b510b22416dc530bdae391b63cc4b8ce225",
+    "output_fingerprint": "15a5d4461fe7a40ae8e59fd50d119897bd8385c5a350ff4497ea2e8e3dd5f738",
+    "source_commit": "77a9b9189a9896e5928a9e94d13d0bcdf7e1bc6b",
+    "source_fingerprint": "fc610a3c5818ddd94ed74ab696bfcee8c2e22c47c48251f08d4875ec4d83916c",
     "source_id": "0c8ff60b596cb9b11f1a3edc6adc35fd11e4ef22:problems/biostatistics-problems/babies_one_sample_t_test.py",
     "source_path": "problems/biostatistics-problems/babies_one_sample_t_test.py",
-    "source_updated": "2026-10-01"
+    "source_updated": "2026-10-22"
   },
   "biostatistics/topic07/bbq-babies_one_sample_z_test-ztest-questions.txt": {
-    "output_fingerprint": "278940312a71ffe0cdd6f8b2be2465e9d6e9fc876a555ddbc39d04d6a67c34a8",
-    "source_commit": "01c4110c0d31ec2f7df7ddfa78e43e566633f182",
-    "source_fingerprint": "92728ca7695729edda3bef91db9c5725b0fb608b167ebde6a9b91767796a8cae",
+    "output_fingerprint": "383d02f422becdac6b299ca99ed47348e9fe51354ae76d986c377d13ba6390a9",
+    "source_commit": "77a9b9189a9896e5928a9e94d13d0bcdf7e1bc6b",
+    "source_fingerprint": "0d1bd5419e9a1dd2ee49863d10679233a24816c41a7828605656d9df839dc1da",
     "source_id": "450cfb15cfb8ca1f37673129e9182b562d3ff0c9:TEMPLATE.py",
     "source_path": "problems/biostatistics-problems/babies_one_sample_z_test.py",
-    "source_updated": "2026-10-01"
+    "source_updated": "2026-10-22"
   },
   "biostatistics/topic07/bbq-babies_two_sample_t_test-tails1-questions.txt": {
-    "output_fingerprint": "7f4e4ac7903e0710c6377bf406003a935e41c83c782705d70f963f73bff9f951",
-    "source_commit": "01c4110c0d31ec2f7df7ddfa78e43e566633f182",
-    "source_fingerprint": "9af7f8444dedd5d31d95105b2ebbefd69de1c28f48a4b147a690753c06f3fdfb",
+    "output_fingerprint": "ddbf2045a0ed01f2474a4aa41de51d7f7c5c77c75e55f82770704a4c8874a45b",
+    "source_commit": "77a9b9189a9896e5928a9e94d13d0bcdf7e1bc6b",
+    "source_fingerprint": "3aa84ab99b28525365f77f06fd997d10b39b767eb7e53e2c1c971bdaa095d9d4",
     "source_id": "450cfb15cfb8ca1f37673129e9182b562d3ff0c9:TEMPLATE.py",
     "source_path": "problems/biostatistics-problems/babies_two_sample_t_test.py",
-    "source_updated": "2026-10-01"
+    "source_updated": "2026-10-22"
   },
   "biostatistics/topic07/bbq-busse_woods_anova-anova-5year-questions.txt": {
-    "output_fingerprint": "ded265c699e0fe89136f8f53b66257b3b66df788ae79149fea108516308690e2",
-    "source_commit": "63e2c8bb39634be0adb3b85d166f97d88d5c4b2e",
-    "source_fingerprint": "7085f5b77c710d52b24af816056681f0b5ac467503c1e83ccbcd3152d15b1f94",
+    "output_fingerprint": "75b13bf1e28dacd3291dbaeb92c99a44d049c094aecfbfc32150f382f32a46d2",
+    "source_commit": "77a9b9189a9896e5928a9e94d13d0bcdf7e1bc6b",
+    "source_fingerprint": "dc9eba02c47292e617b4ed39d1a47a30326de74ef4eca68e9b8e7293e69de3f1",
     "source_id": "d484513fdb0628351b49a0671a882782f984a2e9:biostatistics-problems/busse_woods_anova.py",
     "source_path": "problems/biostatistics-problems/busse_woods_anova.py",
-    "source_updated": "2026-01-10"
+    "source_updated": "2026-10-22"
   },
   "biostatistics/topic07/bbq-busse_woods_one_sample_tests-ztest-questions.txt": {
-    "output_fingerprint": "390ec5d0696cd93597ff6efa285b2d559c772315a7554128627486a37e732a6e",
-    "source_commit": "63e2c8bb39634be0adb3b85d166f97d88d5c4b2e",
-    "source_fingerprint": "e1caf1f1fa772d0f5a00b2471f24fec168b23402adeab5e3aa361c9784d1b06f",
+    "output_fingerprint": "ff87d9d69d19510698b70de7f2c1168c00a6bede49300a86cc3fa8889b4d008f",
+    "source_commit": "77a9b9189a9896e5928a9e94d13d0bcdf7e1bc6b",
+    "source_fingerprint": "0f182599728e6da26642a243d93c863d60019094750fab4c6f173fe442761234",
     "source_id": "654cc1465be6236d6dadfddcef3becf7b13fb1d2:biostatistics-problems/busse_woods_one_sample_tests.py",
     "source_path": "problems/biostatistics-problems/busse_woods_one_sample_tests.py",
-    "source_updated": "2026-01-10"
+    "source_updated": "2026-10-22"
   },
   "biostatistics/topic07/bbq-busse_woods_two_sample_f_test-tails1-questions.txt": {
-    "output_fingerprint": "412713d2a6be8783d5e47b5f95fa937dff883e562e99eb23da2bd2d5920ae512",
-    "source_commit": "63e2c8bb39634be0adb3b85d166f97d88d5c4b2e",
-    "source_fingerprint": "69b5faf621302930fe5d174a3c596a131e158290c7911f1439f7511e1f998cff",
+    "output_fingerprint": "fdc73b2620a980b4ef428927aafa07b355baccf2538f4d8fd48bb31a96ae02fc",
+    "source_commit": "77a9b9189a9896e5928a9e94d13d0bcdf7e1bc6b",
+    "source_fingerprint": "1cd2e3540161fa542f7b1423979326ed9e7b9fd490bf3b1c1c98b07812bdad77",
     "source_id": "654cc1465be6236d6dadfddcef3becf7b13fb1d2:biostatistics-problems/busse_woods_two_sample_t_test.py",
     "source_path": "problems/biostatistics-problems/busse_woods_two_sample_f_test.py",
-    "source_updated": "2026-01-10"
+    "source_updated": "2026-10-22"
   },
   "biostatistics/topic07/bbq-busse_woods_two_sample_t_test-tails1-questions.txt": {
-    "output_fingerprint": "7f55fea5e77d4c627f7d87366d85362fcf7db69880d5f84a3135a4a42ed441f5",
-    "source_commit": "63e2c8bb39634be0adb3b85d166f97d88d5c4b2e",
-    "source_fingerprint": "d396a56cc1fade78414d2d50bd39421a3577dfdcb3dc5cffb57def995382eb3e",
+    "output_fingerprint": "0a885b39bb273a45f12a0835ead3516fc77662f9c1717ae4735fbc45ddd97580",
+    "source_commit": "77a9b9189a9896e5928a9e94d13d0bcdf7e1bc6b",
+    "source_fingerprint": "b7746fa6502399704a59b5db9ce34c2d702f00027003bc3fe6a867b9d6be76ff",
     "source_id": "654cc1465be6236d6dadfddcef3becf7b13fb1d2:biostatistics-problems/busse_woods_two_sample_t_test.py",
     "source_path": "problems/biostatistics-problems/busse_woods_two_sample_t_test.py",
-    "source_updated": "2026-01-10"
+    "source_updated": "2026-10-22"
   },
   "biostatistics/topic08/bbq-MATCH-chi-square_terms-questions.txt": {
     "output_fingerprint": "ee187161af8f124d19b08107d10b2db37a0d75d6b7d0b8b32afe223f715beb54",
