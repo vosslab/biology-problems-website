@@ -6,7 +6,7 @@
 ## DBsubject('Biostatistics')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-15')
+## Date('2026-11-04')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -29,12 +29,12 @@ $showPartialCorrectAnswers = 1;
 
 @true_groups = (
   [
-    'we <span style="color: #9c3b10; font-weight:700;">do not reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #00775f; font-weight:700;">test statistic</span> is NOT past the <span style="color: #003fff; font-weight:700;">critical value</span>',
+    'we <span style="color: #9c3b10; font-weight:700;">fail to reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #00775f; font-weight:700;">test statistic</span> is NOT past the <span style="color: #003fff; font-weight:700;">critical value</span>',
     'we <span style="color: #17365d; font-weight:700;">reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #00775f; font-weight:700;">test statistic</span> is more extreme than the <span style="color: #003fff; font-weight:700;">critical value</span>',
     'we <span style="color: #17365d; font-weight:700;">reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #00775f; font-weight:700;">test statistic</span> is past the <span style="color: #003fff; font-weight:700;">critical value</span>',
   ],
   [
-    'we <span style="color: #9c3b10; font-weight:700;">do not reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #c80085; font-weight:700;">p-value</span> is greater than the <span style="color: #a719db; font-weight:700;">significance level, &alpha;</span>',
+    'we <span style="color: #9c3b10; font-weight:700;">fail to reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #c80085; font-weight:700;">p-value</span> is greater than the <span style="color: #a719db; font-weight:700;">significance level, &alpha;</span>',
     'we <span style="color: #17365d; font-weight:700;">reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #c80085; font-weight:700;">p-value</span> is less than the <span style="color: #a719db; font-weight:700;">significance level, &alpha;</span>',
   ],
   [
@@ -50,12 +50,12 @@ $showPartialCorrectAnswers = 1;
 @false_groups = (
   [
     'we <span style="color: #17365d; font-weight:700;">reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #00775f; font-weight:700;">test statistic</span> is NOT past the <span style="color: #003fff; font-weight:700;">critical value</span>',
-    'we <span style="color: #9c3b10; font-weight:700;">do not reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #00775f; font-weight:700;">test statistic</span> is more extreme than the <span style="color: #003fff; font-weight:700;">critical value</span>',
-    'we <span style="color: #9c3b10; font-weight:700;">do not reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #00775f; font-weight:700;">test statistic</span> is past the <span style="color: #003fff; font-weight:700;">critical value</span>',
+    'we <span style="color: #9c3b10; font-weight:700;">fail to reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #00775f; font-weight:700;">test statistic</span> is more extreme than the <span style="color: #003fff; font-weight:700;">critical value</span>',
+    'we <span style="color: #9c3b10; font-weight:700;">fail to reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #00775f; font-weight:700;">test statistic</span> is past the <span style="color: #003fff; font-weight:700;">critical value</span>',
   ],
   [
     'we <span style="color: #17365d; font-weight:700;">reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #c80085; font-weight:700;">p-value</span> is greater than the <span style="color: #a719db; font-weight:700;">significance level, &alpha;</span>',
-    'we <span style="color: #9c3b10; font-weight:700;">do not reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #c80085; font-weight:700;">p-value</span> is less than the <span style="color: #a719db; font-weight:700;">significance level, &alpha;</span>',
+    'we <span style="color: #9c3b10; font-weight:700;">fail to reject</span> the <span style="color: #49358c; font-weight:700;">null hypothesis, H<sub>0</sub></span> when the <span style="color: #c80085; font-weight:700;">p-value</span> is less than the <span style="color: #a719db; font-weight:700;">significance level, &alpha;</span>',
   ],
   [
     'the evidence <span style="color: #17365d; font-weight:700;">supports</span> the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span> when the <span style="color: #00775f; font-weight:700;">test statistic</span> is NOT past the <span style="color: #003fff; font-weight:700;">critical value</span>',
