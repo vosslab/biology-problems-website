@@ -2913,14 +2913,157 @@
     },
     {
       "added": null,
-      "created": "2021-10-20",
-      "family": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
-      "id": "genetics/topic08/bbq-four_point_test-cross_gene_map-distances_plus-questions.txt",
-      "name": "Gene Order and Pairwise Recombination Distances from Four-Point Test Crosses",
+      "created": null,
+      "family": null,
+      "id": "genetics/topic08/bbq-flies-2_point_test_cross-cis-trans-MC-questions.txt",
+      "name": "Cis/Trans Allele Configuration from Fruit Fly Two-Point Test Crosses",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": "2026-10-27",
-      "url": "genetics/topic08/#four_point_test-cross_gene_map-distances_plus-button-container"
+      "updated": null,
+      "url": "genetics/topic08/#flies-2_point_test_cross-cis-trans-MC-button-container"
+    },
+    {
+      "added": null,
+      "created": null,
+      "family": null,
+      "id": "genetics/topic08/bbq-flies-2_point_test_cross-distance-MC-6_choices-questions.txt",
+      "name": "Genetic Distance from Fruit Fly Two-Point Test Crosses (6 Choices)",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "updated": null,
+      "url": "genetics/topic08/#flies-2_point_test_cross-distance-MC-6_choices-button-container"
+    },
+    {
+      "added": null,
+      "created": null,
+      "family": null,
+      "id": "genetics/topic08/bbq-flies-2_point_test_cross-distance-NUM-questions.txt",
+      "name": "Genetic Distance from Fruit Fly Two-Point Test Crosses",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "updated": null,
+      "url": "genetics/topic08/#flies-2_point_test_cross-distance-NUM-button-container"
+    },
+    {
+      "added": null,
+      "created": null,
+      "family": null,
+      "id": "genetics/topic08/bbq-flies-2_point_test_cross-which_genotypes-MA-PARENTAL-questions.txt",
+      "name": "Parental Genotypes from Fruit Fly Two-Point Test Cross Data",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "updated": null,
+      "url": "genetics/topic08/#flies-2_point_test_cross-which_genotypes-MA-PARENTAL-button-container"
+    },
+    {
+      "added": null,
+      "created": null,
+      "family": null,
+      "id": "genetics/topic08/bbq-flies-2_point_test_cross-which_genotypes-MA-RECOMBINANT-questions.txt",
+      "name": "Recombinant Genotypes from Fruit Fly Two-Point Test Crosses",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "updated": null,
+      "url": "genetics/topic08/#flies-2_point_test_cross-which_genotypes-MA-RECOMBINANT-button-container"
+    },
+    {
+      "added": null,
+      "created": null,
+      "family": null,
+      "id": "genetics/topic08/bbq-flies-3_point_test_cross-distances_plus-questions.txt",
+      "name": "Gene Order and Pairwise Map Distances from Fruit Fly Three-Point Test Crosses",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "updated": null,
+      "url": "genetics/topic08/#flies-3_point_test_cross-distances_plus-button-container"
+    },
+    {
+      "added": null,
+      "created": null,
+      "family": null,
+      "id": "genetics/topic08/bbq-flies-3_point_test_cross-find_interence-MC-6_choices-questions.txt",
+      "name": "Crossover Interference from Fruit Fly Three-Point Test Crosses (6 Choices)",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "updated": null,
+      "url": "genetics/topic08/#flies-3_point_test_cross-find_interence-MC-6_choices-button-container"
+    },
+    {
+      "added": null,
+      "created": null,
+      "family": null,
+      "id": "genetics/topic08/bbq-flies-3_point_test_cross-find_interence-NUM-questions.txt",
+      "name": "Percent Interference from Fruit Fly Three-Point Test Crosses",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "updated": null,
+      "url": "genetics/topic08/#flies-3_point_test_cross-find_interence-NUM-button-container"
+    },
+    {
+      "added": null,
+      "created": null,
+      "family": null,
+      "id": "genetics/topic08/bbq-flies-3_point_test_cross-one_gene_distance-MC-questions.txt",
+      "name": "Genetic Distance Between Two Genes from Drosophila Three-Point Test Crosses",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "updated": null,
+      "url": "genetics/topic08/#flies-3_point_test_cross-one_gene_distance-MC-button-container"
+    },
+    {
+      "added": null,
+      "created": null,
+      "family": null,
+      "id": "genetics/topic08/bbq-flies-3_point_test_cross-one_gene_distance-NUM-questions.txt",
+      "name": "Gene Pair Distance from Fruit Fly Three-Point Test Crosses",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "updated": null,
+      "url": "genetics/topic08/#flies-3_point_test_cross-one_gene_distance-NUM-button-container"
+    },
+    {
+      "added": null,
+      "created": null,
+      "family": null,
+      "id": "genetics/topic08/bbq-flies-3_point_test_cross-which_genotypes-DOUBLE-questions.txt",
+      "name": "Double Crossover Genotypes from Three-Point Test Cross Progeny Counts in Fruit Flies",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "updated": null,
+      "url": "genetics/topic08/#flies-3_point_test_cross-which_genotypes-DOUBLE-button-container"
+    },
+    {
+      "added": null,
+      "created": null,
+      "family": null,
+      "id": "genetics/topic08/bbq-flies-3_point_test_cross-which_genotypes-GENES-questions.txt",
+      "name": "Recombinant Genotypes in Drosophila Three-Point Test Crosses",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "updated": null,
+      "url": "genetics/topic08/#flies-3_point_test_cross-which_genotypes-GENES-button-container"
+    },
+    {
+      "added": null,
+      "created": null,
+      "family": null,
+      "id": "genetics/topic08/bbq-flies-3_point_test_cross-which_genotypes-PARENTAL-questions.txt",
+      "name": "Parental Genotypes from Fruit Fly Three-Point Test Cross Data",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "updated": null,
+      "url": "genetics/topic08/#flies-3_point_test_cross-which_genotypes-PARENTAL-button-container"
+    },
+    {
+      "added": null,
+      "created": null,
+      "family": null,
+      "id": "genetics/topic08/bbq-flies-4_point_test-cross_gene_map-distances_plus-questions.txt",
+      "name": "Fruit Fly Four-Point Test Cross Gene Order and Six Pairwise Distances",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "updated": null,
+      "url": "genetics/topic08/#flies-4_point_test-cross_gene_map-distances_plus-button-container"
     },
     {
       "added": null,
@@ -2930,195 +3073,85 @@
       "name": "Gene-to-Centromere Distance from Ordered Tetrads",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-10-31",
       "url": "genetics/topic08/#tetrad_ordered-centromere_distance-MC-button-container"
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
-      "id": "genetics/topic08/bbq-tetrad_unordered_three_gene-distances_plus-questions.txt",
-      "name": "Gene Order and Map Distances from Unordered Tetrads",
-      "subject": "Genetics",
-      "topic": "Gene Mapping",
-      "updated": null,
-      "url": "genetics/topic08/#tetrad_unordered_three_gene-distances_plus-button-container"
-    },
-    {
-      "added": null,
-      "created": null,
-      "family": null,
-      "id": "genetics/topic08/bbq-tetrad_unordered_three_gene-find_one_distance-MC-5_choices-questions.txt",
-      "name": "Single Genetic Distance from Unordered Three-Gene Tetrads (5 Choices)",
-      "subject": "Genetics",
-      "topic": "Gene Mapping",
-      "updated": null,
-      "url": "genetics/topic08/#tetrad_unordered_three_gene-find_one_distance-MC-5_choices-button-container"
-    },
-    {
-      "added": null,
-      "created": null,
-      "family": null,
-      "id": "genetics/topic08/bbq-tetrad_unordered_two_gene-find_distance-MC-6_choices-questions.txt",
-      "name": "Genetic Distance from Unordered Two-Gene Tetrads (6 Choices)",
-      "subject": "Genetics",
-      "topic": "Gene Mapping",
-      "updated": null,
-      "url": "genetics/topic08/#tetrad_unordered_two_gene-find_distance-MC-6_choices-button-container"
-    },
-    {
-      "added": null,
-      "created": null,
-      "family": null,
-      "id": "genetics/topic08/bbq-tetrad_unordered_two_gene-test_linkage-questions.txt",
-      "name": "Linkage Tests from Unordered Two-Gene Tetrads",
-      "subject": "Genetics",
-      "topic": "Gene Mapping",
-      "updated": null,
-      "url": "genetics/topic08/#tetrad_unordered_two_gene-test_linkage-button-container"
-    },
-    {
-      "added": null,
-      "created": "2021-10-20",
-      "family": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
-      "id": "genetics/topic08/bbq-three-point_test_cross-distances_plus-questions.txt",
-      "name": "Gene Order and Map Distances from Three-Point Test Crosses",
-      "subject": "Genetics",
-      "topic": "Gene Mapping",
-      "updated": "2026-01-11",
-      "url": "genetics/topic08/#three-point_test_cross-distances_plus-button-container"
-    },
-    {
-      "added": null,
-      "created": null,
-      "family": null,
-      "id": "genetics/topic08/bbq-three-point_test_cross-find_interence-MC-6_choices-questions.txt",
-      "name": "Crossover Interference from Three-Point Test Cross Data (6 Choices)",
-      "subject": "Genetics",
-      "topic": "Gene Mapping",
-      "updated": null,
-      "url": "genetics/topic08/#three-point_test_cross-find_interence-MC-6_choices-button-container"
-    },
-    {
-      "added": null,
-      "created": null,
-      "family": null,
-      "id": "genetics/topic08/bbq-three-point_test_cross-find_interence-NUM-questions.txt",
-      "name": "Crossover Interference from Three-Point Test Cross Data",
-      "subject": "Genetics",
-      "topic": "Gene Mapping",
-      "updated": null,
-      "url": "genetics/topic08/#three-point_test_cross-find_interence-NUM-button-container"
-    },
-    {
-      "added": null,
-      "created": "2021-10-20",
-      "family": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
-      "id": "genetics/topic08/bbq-three-point_test_cross-one_gene_distance-MC-questions.txt",
-      "name": "Genetic Distance for a Gene Pair from Three-Point Test Crosses",
+      "created": "2023-11-08",
+      "family": "d865b5bf1d9c787d57e133be98be9bf574114dbb:inheritance-problems/ordered_tetrad-centromere_distance.py",
+      "id": "genetics/topic08/bbq-tetrad_ordered-centromere_distance-NUM-questions.txt",
+      "name": "Gene-Centromere Distance from Ordered Tetrads",
       "subject": "Genetics",
       "topic": "Gene Mapping",
       "updated": "2026-10-31",
-      "url": "genetics/topic08/#three-point_test_cross-one_gene_distance-MC-button-container"
-    },
-    {
-      "added": null,
-      "created": "2021-10-20",
-      "family": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
-      "id": "genetics/topic08/bbq-three-point_test_cross-one_gene_distance-NUM-questions.txt",
-      "name": "Genetic Distance for a Gene Pair from Three-Point Test Crosses",
-      "subject": "Genetics",
-      "topic": "Gene Mapping",
-      "updated": "2026-10-31",
-      "url": "genetics/topic08/#three-point_test_cross-one_gene_distance-NUM-button-container"
-    },
-    {
-      "added": null,
-      "created": "2021-10-20",
-      "family": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
-      "id": "genetics/topic08/bbq-three-point_test_cross-which_genotypes-DOUBLE-questions.txt",
-      "name": "Double-Crossover Genotypes in Three-Point Test Crosses",
-      "subject": "Genetics",
-      "topic": "Gene Mapping",
-      "updated": "2026-04-19",
-      "url": "genetics/topic08/#three-point_test_cross-which_genotypes-DOUBLE-button-container"
-    },
-    {
-      "added": null,
-      "created": "2021-10-20",
-      "family": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
-      "id": "genetics/topic08/bbq-three-point_test_cross-which_genotypes-GENES-questions.txt",
-      "name": "Recombinant Genotypes for a Gene Pair from Three-Point Test Cross Data",
-      "subject": "Genetics",
-      "topic": "Gene Mapping",
-      "updated": "2026-04-19",
-      "url": "genetics/topic08/#three-point_test_cross-which_genotypes-GENES-button-container"
-    },
-    {
-      "added": null,
-      "created": "2021-10-20",
-      "family": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
-      "id": "genetics/topic08/bbq-three-point_test_cross-which_genotypes-PARENTAL-questions.txt",
-      "name": "Three-Point Test Cross: Parental Genotypes from Progeny Counts",
-      "subject": "Genetics",
-      "topic": "Gene Mapping",
-      "updated": "2026-04-19",
-      "url": "genetics/topic08/#three-point_test_cross-which_genotypes-PARENTAL-button-container"
-    },
-    {
-      "added": null,
-      "created": "2023-11-05",
-      "family": "4d0e14d53a1c9666cf74947fc8a17d203e893d56:inheritance-problems/two-point_test_cross-cis-trans.py",
-      "id": "genetics/topic08/bbq-two-point_test_cross-cis-trans-MC-questions.txt",
-      "name": "Cis or Trans Allele Configuration from Two-Point Test Cross Data",
-      "subject": "Genetics",
-      "topic": "Gene Mapping",
-      "updated": "2026-10-31",
-      "url": "genetics/topic08/#two-point_test_cross-cis-trans-MC-button-container"
+      "url": "genetics/topic08/#tetrad_ordered-centromere_distance-NUM-button-container"
     },
     {
       "added": null,
       "created": null,
       "family": null,
-      "id": "genetics/topic08/bbq-two-point_test_cross-distance-MC-6_choices-questions.txt",
-      "name": "Genetic Distance from Two-Point Test Cross Progeny Counts (6 Choices)",
+      "id": "genetics/topic08/bbq-tetrad_unordered_2_gene-find_distance-MC-6_choices-questions.txt",
+      "name": "Gene Map Distance from Unordered Tetrads (2 Genes, 6 Choices)",
       "subject": "Genetics",
       "topic": "Gene Mapping",
       "updated": null,
-      "url": "genetics/topic08/#two-point_test_cross-distance-MC-6_choices-button-container"
+      "url": "genetics/topic08/#tetrad_unordered_2_gene-find_distance-MC-6_choices-button-container"
     },
     {
       "added": null,
       "created": null,
       "family": null,
-      "id": "genetics/topic08/bbq-two-point_test_cross-distance-NUM-questions.txt",
-      "name": "Genetic Distance from Two-Point Test Cross Progeny",
+      "id": "genetics/topic08/bbq-tetrad_unordered_2_gene-find_distance-NUM-questions.txt",
+      "name": "Genetic Map Distance from Unordered Tetrads (2 Genes)",
       "subject": "Genetics",
       "topic": "Gene Mapping",
       "updated": null,
-      "url": "genetics/topic08/#two-point_test_cross-distance-NUM-button-container"
+      "url": "genetics/topic08/#tetrad_unordered_2_gene-find_distance-NUM-button-container"
     },
     {
       "added": null,
-      "created": "2023-11-05",
-      "family": "4d0e14d53a1c9666cf74947fc8a17d203e893d56:inheritance-problems/two-point_test_cross-which_genotypes.py",
-      "id": "genetics/topic08/bbq-two-point_test_cross-which_genotypes-MA-PARENTAL-questions.txt",
-      "name": "Parental Genotypes from Two-Point Test Cross Data",
+      "created": null,
+      "family": null,
+      "id": "genetics/topic08/bbq-tetrad_unordered_2_gene-test_linkage-questions.txt",
+      "name": "Two-Gene Linkage from Unordered Tetrad Data",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": "2026-10-31",
-      "url": "genetics/topic08/#two-point_test_cross-which_genotypes-MA-PARENTAL-button-container"
+      "updated": null,
+      "url": "genetics/topic08/#tetrad_unordered_2_gene-test_linkage-button-container"
     },
     {
       "added": null,
-      "created": "2023-11-05",
-      "family": "4d0e14d53a1c9666cf74947fc8a17d203e893d56:inheritance-problems/two-point_test_cross-which_genotypes.py",
-      "id": "genetics/topic08/bbq-two-point_test_cross-which_genotypes-MA-RECOMBINANT-questions.txt",
-      "name": "Recombinant Genotypes from Two-Point Test Cross Data",
+      "created": null,
+      "family": null,
+      "id": "genetics/topic08/bbq-tetrad_unordered_3_gene-distances_plus-questions.txt",
+      "name": "Gene Order and Map Distances from Unordered Tetrads (3 Genes)",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": "2026-10-31",
-      "url": "genetics/topic08/#two-point_test_cross-which_genotypes-MA-RECOMBINANT-button-container"
+      "updated": null,
+      "url": "genetics/topic08/#tetrad_unordered_3_gene-distances_plus-button-container"
+    },
+    {
+      "added": null,
+      "created": null,
+      "family": null,
+      "id": "genetics/topic08/bbq-tetrad_unordered_3_gene-find_one_distance-MC-5_choices-questions.txt",
+      "name": "Gene-Pair Map Distance from Three-Gene Unordered Tetrads (5 Choices)",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "updated": null,
+      "url": "genetics/topic08/#tetrad_unordered_3_gene-find_one_distance-MC-5_choices-button-container"
+    },
+    {
+      "added": null,
+      "created": null,
+      "family": null,
+      "id": "genetics/topic08/bbq-tetrad_unordered_3_gene-find_one_distance-NUM-questions.txt",
+      "name": "Gene-Pair Map Distance from Three-Gene Unordered Tetrads",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "updated": null,
+      "url": "genetics/topic08/#tetrad_unordered_3_gene-find_one_distance-NUM-button-container"
     },
     {
       "added": null,
@@ -5740,7 +5773,7 @@
     {
       "icon": "\ud83e\udeb0",
       "key": "genetics",
-      "sets": 155,
+      "sets": 158,
       "title": "Genetics",
       "topics": 11,
       "url": "genetics/"
@@ -5787,7 +5820,7 @@
     }
   ],
   "totals": {
-    "sets": 501,
+    "sets": 504,
     "subjects": 7,
     "topics": 57
   },
@@ -5808,17 +5841,10 @@
     },
     {
       "date": "2026-10-31",
-      "name": "Recombinant Genotypes from Two-Point Test Cross Data",
+      "name": "Gene-to-Centromere Distance from Ordered Tetrads",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "url": "genetics/topic08/#two-point_test_cross-which_genotypes-MA-RECOMBINANT-button-container"
-    },
-    {
-      "date": "2026-10-31",
-      "name": "Genetic Distance for a Gene Pair from Three-Point Test Crosses",
-      "subject": "Genetics",
-      "topic": "Gene Mapping",
-      "url": "genetics/topic08/#three-point_test_cross-one_gene_distance-MC-button-container"
+      "url": "genetics/topic08/#tetrad_ordered-centromere_distance-MC-button-container"
     },
     {
       "date": "2026-10-31",
@@ -5833,13 +5859,6 @@
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
       "url": "genetics/topic09/#translocation_meiosis_table-button-container"
-    },
-    {
-      "date": "2026-10-31",
-      "name": "Cis or Trans Allele Configuration from Two-Point Test Cross Data",
-      "subject": "Genetics",
-      "topic": "Gene Mapping",
-      "url": "genetics/topic08/#two-point_test_cross-cis-trans-MC-button-container"
     },
     {
       "date": "2026-10-31",

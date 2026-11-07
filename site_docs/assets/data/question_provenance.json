@@ -2800,12 +2800,20 @@
     "source_updated": "2026-10-27"
   },
   "genetics/topic08/bbq-tetrad_ordered-centromere_distance-MC-questions.txt": {
-    "output_fingerprint": "13439d593ece0463c54f4a8d6271d0786b6f22e37084c2561d74d8c2397150df",
-    "source_commit": null,
+    "output_fingerprint": "4a3c91e70da1d886d63e09b7498cd15f9a01528cf86dd13f3efe4a67d1fe0239",
+    "source_commit": "72e3aab70fa957d23d8f1877cb9efc5efbf49546",
     "source_fingerprint": "e5a07882fc10d2ad049534e4f6087368efce9786e07009b9cb34e318655aa822",
     "source_id": "d865b5bf1d9c787d57e133be98be9bf574114dbb:inheritance-problems/ordered_tetrad-centromere_distance.py",
     "source_path": "problems/inheritance-problems/gene_mapping/tetrad_ordered-centromere_distance.py",
-    "source_updated": null
+    "source_updated": "2026-10-31"
+  },
+  "genetics/topic08/bbq-tetrad_ordered-centromere_distance-NUM-questions.txt": {
+    "output_fingerprint": "227cb23b390e74306cf71a4dcc0ebf8e40a8d3e086be03f682c6732d548c06a2",
+    "source_commit": "72e3aab70fa957d23d8f1877cb9efc5efbf49546",
+    "source_fingerprint": "e5a07882fc10d2ad049534e4f6087368efce9786e07009b9cb34e318655aa822",
+    "source_id": "d865b5bf1d9c787d57e133be98be9bf574114dbb:inheritance-problems/ordered_tetrad-centromere_distance.py",
+    "source_path": "problems/inheritance-problems/gene_mapping/tetrad_ordered-centromere_distance.py",
+    "source_updated": "2026-10-31"
   },
   "genetics/topic08/bbq-three-point_test_cross-distances_plus-questions.txt": {
     "output_fingerprint": "0c6f3ab030faa3903863cab58c353ff9d50459ecb632701c156a3d564564c2a1",
