@@ -5,7 +5,7 @@
 ## DBsubject('Genetics')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-24')
+## Date('2026-11-09')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -28,7 +28,7 @@ our @ALPHABET = ('A' .. 'Z');
 %match_data = (
   'mutation' => [
     'unpredictable changes in the nucleotides that form a DNA sequence',
-    'only process that creates new <span style="color: #b74300; font-weight:700;">genetic</span> variations',
+    'only process that creates new <span style="color: #076dad; font-weight:700;">genetic</span> variations',
   ],
   'genetic drift' => [
     'a random change in the allele frequencies within a population',
@@ -45,7 +45,7 @@ our @ALPHABET = ('A' .. 'Z');
     'mating between individuals with similar phenotypes',
   ],
   'consanguineous mating' => [
-    'mating between <span style="color: #b74300; font-weight:700;">genetically</span> related individuals',
+    'mating between <span style="color: #076dad; font-weight:700;">genetic</span>ally related individuals',
     'mating between relatives, such as first cousins',
     'type of mating that reduces heterozygotes and increases homozygotes',
   ],
@@ -101,12 +101,12 @@ push(@answers, (map { $_->[1] } @q_and_a));
 # HTML-safe answer labels
 # -------------------------------
 %answer_html = (
-  'mutation' => 'mutation',
-  'genetic drift' => '<span style="color: #b74300; font-weight:700;">genetic</span> drift',
-  'gene flow' => 'gene flow',
-  'random mating' => 'random mating',
-  'assortative mating' => 'assortative mating',
-  'consanguineous mating' => 'consanguineous mating',
+  'mutation' => '<span style="color: #007576; font-weight:700;">mutation</span>',
+  'genetic drift' => '<span style="color: #076dad; font-weight:700;">genetic drift</span>',
+  'gene flow' => '<span style="color: #003fff; font-weight:700;">gene flow</span>',
+  'random mating' => '<span style="color: #0067cc; font-weight:700;">random mating</span>',
+  'assortative mating' => '<span style="color: #a719db; font-weight:700;">assortative mating</span>',
+  'consanguineous mating' => '<span style="color: #c80085; font-weight:700;">consanguineous mating</span>',
 );
 
 @answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;

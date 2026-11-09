@@ -706,16 +706,10 @@ bbq-translocation_meiosis_table-questions.txt: Gametes from Balanced Translocati
   Segregation (MA)
 bbq-unique_cross_genotypes-genotypes-with_hint-4_genes-questions.txt: Unique Offspring
   Genotype Counts from Parental Genotypes (4 Genes, With Hint, MC)
-bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt: Unique Offspring Genotypes
-  from Four-Gene Crosses (With Hint, MC)
 bbq-unique_cross_phenotypes-phenotypes-with_hint-4_genes-questions.txt: Offspring
   Phenotype Counts from Genetic Crosses (4 Genes, With Hint, MC)
-bbq-unique_cross_phenotypes-with_hint-4_genes-questions.txt: Unique Offspring Phenotypes
-  from Four-Gene Crosses (With Hint, MC)
 bbq-unique_gametes-gametes-with_hint-4_genes-parent_1-questions.txt: Unique Gamete
   Counts from a Parental Genotype (4 Genes, With Hint, MC)
-bbq-unique_gametes-with_hint-4_genes-questions.txt: Unique Gametes from Four-Gene
-  Genotypes (With Hint, MC)
 bbq-which_amino_acid-FIB-questions.txt: Amino Acids from Chemical Structures (FiB)
 bbq-which_amino_acid-MC-7_choices-questions.txt: Amino Acids from Chemical Structures
   (7 Choices, MC)

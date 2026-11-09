@@ -1904,23 +1904,23 @@
     "source_updated": "2026-01-23"
   },
   "genetics/topic01/bbq-MATCH-genetic_disorders-questions.txt": {
-    "output_fingerprint": "dae17568eafcd914fb5759439041be2a6646ef4cbd8d63a53fd24ea0eeb1fdea",
-    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
-    "source_fingerprint": "e9638abe7985947e47ac133eabaef270ebc3368529070bf8b4625229392c8cc3",
+    "output_fingerprint": "e3c638d70417bc6aa4d968ae601c4043778a04902596730163596e052fe8f28c",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "e87599a1cb03cdee13093599cc97c900530530fb882b7b7d0091b318fde1f7d5",
     "source_id": "1a246e7232a2d2dfcbf778c17fa32cfaea68ea1a:matching_sets/genetic_disorders.yml",
     "source_path": "problems/matching_sets/inheritance/genetic_disorders.yml",
-    "source_updated": "2026-10-06"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic01/bbq-WOMC-genetic_disorders-questions.txt": {
-    "output_fingerprint": "723afac30a9074f034a22e1ed2032df94b68f5a14e9aaa0ee7ab50e986587e16",
-    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
-    "source_fingerprint": "e9638abe7985947e47ac133eabaef270ebc3368529070bf8b4625229392c8cc3",
+    "output_fingerprint": "c2d97b1cdae96731b09c9a97ec936b55e2f452615fadbf5e39e238456b055b38",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "e87599a1cb03cdee13093599cc97c900530530fb882b7b7d0091b318fde1f7d5",
     "source_id": "1a246e7232a2d2dfcbf778c17fa32cfaea68ea1a:matching_sets/genetic_disorders.yml",
     "source_path": "problems/matching_sets/inheritance/genetic_disorders.yml",
-    "source_updated": "2026-10-06"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic01/bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt": {
-    "output_fingerprint": "f2e0655848a457e08e9d5686e7c3a3db9d986e091defc4d3bd7e9df7960effd4",
+    "output_fingerprint": "459926f3cc28fd4352f0981c797e79489df789bcfbf255d6db1494019ba75a94",
     "source_commit": "7916e807ef90d741d849d520515f131f6a811aa5",
     "source_fingerprint": "ae8bddb0c0c9cbfcb8c074b0cdb03bc1ae17f080bfc47e5e8dfcc86d4b7db66c",
     "source_id": "e66a6538b317fd9a0b74785fa9319f090b9f3363:molecular_biology-problems/metabolic_pathway.py",
@@ -1928,7 +1928,7 @@
     "source_updated": "2026-10-12"
   },
   "genetics/topic02/bbq-TFMS-dna_structure-biol_351-questions.txt": {
-    "output_fingerprint": "f73f1471fcb48ae943428fd99323339dacf96e68cd35a9f8b75575f965e176e4",
+    "output_fingerprint": "28995ed0abf01c3637f7688d300d43175ab60205bfbff2f66b79448079893678",
     "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
     "source_fingerprint": "4f5812c84e0860dadc007071e65fdacfe7cc5f0b6ae496f13ac0c96307729a68",
     "source_id": "fbeffe6d545441f82f4ff58474a22f7e6bb03b6e:multiple_choice_statements/dna_structure.yml",
@@ -1936,7 +1936,7 @@
     "source_updated": "2026-01-23"
   },
   "genetics/topic02/bbq-TFMS-english_palindromes-questions.txt": {
-    "output_fingerprint": "e10ad1849560895da4c0a70d839a5b7a11425d38532fea76880044be69b187f0",
+    "output_fingerprint": "a23c262e85a7d0d54556e55c01f9eafa0885ba8ff465dcb6037f52e191c36cfd",
     "source_commit": "b661440d82a389dc8c126a24e3adf0cc7435be5e",
     "source_fingerprint": "50d9c8d3317481c1dcdc9b469cbc42f6948aca2ed0b97e47b1e2f727e1cf2bbe",
     "source_id": "e3efafa56ca2aed57c9658673576466e23632110:multiple_choice_statements/english_palindromes.yml",
@@ -1944,7 +1944,7 @@
     "source_updated": "2026-08-19"
   },
   "genetics/topic02/bbq-TFMS-nucleotide_components-questions.txt": {
-    "output_fingerprint": "ccb0d51054024fde4893f7ec242d09e258f98d47ac1276d2c601787c10e0f720",
+    "output_fingerprint": "59ec2da7ab3ce75732317613928219c2a57a1f48478c82b2070192b877aaf7d9",
     "source_commit": "3dbf5745973d46b40629c35bd69f0587bddb45f6",
     "source_fingerprint": "790f345e9c258d22a7caed25a8e99cf456da41a43b8330f928222fa34dbdbbaa",
     "source_id": "32404819ca3d428f7d266605e1f82b309b4ff75d:multiple_choice_statements/nucleotide_components.yml",
@@ -1952,15 +1952,15 @@
     "source_updated": "2026-09-23"
   },
   "genetics/topic02/bbq-TFMS-rna_v_dna-questions.txt": {
-    "output_fingerprint": "09b1ba60a3833c40b22f52f068b291c2ff1e03ddfe8c369373a36452f0affe26",
-    "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
-    "source_fingerprint": "5d797d95f18ca050bcedec20417575d00017b7037b19320872b8563b8f970504",
+    "output_fingerprint": "600e7c41809c29f029539796a104e90113855dc2929d97f763b767258feb899f",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "4abdd826113d0999f9d9d33b2cc6a4b89dc70f33ae05d4928ad24dbdd7c37987",
     "source_id": "fbeffe6d545441f82f4ff58474a22f7e6bb03b6e:multiple_choice_statements/rna_v_dna.yml",
     "source_path": "problems/multiple_choice_statements/biochemistry/rna_v_dna.yml",
-    "source_updated": "2026-01-23"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic02/bbq-chargaff_dna_percent-5_choices-questions.txt": {
-    "output_fingerprint": "2a0a4729cbd43c8215433c14381db69b4da90dcc4470ad5761b2805058b0e7e0",
+    "output_fingerprint": "f1d5fb30eff050d4077d3928bf979f6bb2ed82005b2f0805a03ae718c319ef53",
     "source_commit": "6da6ad1467b194ed6a9f7439122530e2fc310290",
     "source_fingerprint": "7bbdbe59dd5c59b8d91a97c96e1e6b094e726721942c75169b5e7c52c181a5a4",
     "source_id": "1cb7860dfe344cdb19dffb9e52411d3a6ef1063c:dna_percent.py",
@@ -1968,7 +1968,7 @@
     "source_updated": "2026-09-22"
   },
   "genetics/topic02/bbq-circular_digest-length_10-sites_2_selected-questions.txt": {
-    "output_fingerprint": "1844010ecad854429a223b228c94efaaf2d778a660ddc7dde5dbe74b85f4052e",
+    "output_fingerprint": "63b366dc3b3b50a58291bdf1f633486db3fe6dbcac0730e684d399873d22e695",
     "source_commit": "2d33d2ce0d8b47e2ba3ec4b1a42e407e369ff29d",
     "source_fingerprint": "c49fb4d6c0d6447c694ed0aa1cee14562a44592e97ea21316bb5bf999fc3df07",
     "source_id": "479ccce7a3e823444ec96ea09e24cebf0858b3d7:problems/molecular_biology-problems/restriction_enzymes/circular_digest.py",
@@ -1976,7 +1976,7 @@
     "source_updated": "2026-10-12"
   },
   "genetics/topic02/bbq-circular_digest-length_12-sites_3_selected-questions.txt": {
-    "output_fingerprint": "9910cd1b0f4015c67879a6f4a9364619469bc65710e9cdb880e1eed475044838",
+    "output_fingerprint": "d1c8b20d4594e634e5b40fc58eeb2de20edbda56fc193a9b06671f775966e7ec",
     "source_commit": "2d33d2ce0d8b47e2ba3ec4b1a42e407e369ff29d",
     "source_fingerprint": "c49fb4d6c0d6447c694ed0aa1cee14562a44592e97ea21316bb5bf999fc3df07",
     "source_id": "479ccce7a3e823444ec96ea09e24cebf0858b3d7:problems/molecular_biology-problems/restriction_enzymes/circular_digest.py",
@@ -1984,7 +1984,7 @@
     "source_updated": "2026-10-12"
   },
   "genetics/topic02/bbq-circular_digest-length_16-sites_3_selected-questions.txt": {
-    "output_fingerprint": "e023493d26f4e2fa3cf944c235677a2d5dc6975ce95ab3c3b451885476450c59",
+    "output_fingerprint": "debe17d73a92738314abb2418f11e32dc4dc7650a828609c3a78d3fc639a1808",
     "source_commit": "2d33d2ce0d8b47e2ba3ec4b1a42e407e369ff29d",
     "source_fingerprint": "c49fb4d6c0d6447c694ed0aa1cee14562a44592e97ea21316bb5bf999fc3df07",
     "source_id": "479ccce7a3e823444ec96ea09e24cebf0858b3d7:problems/molecular_biology-problems/restriction_enzymes/circular_digest.py",
@@ -1992,7 +1992,7 @@
     "source_updated": "2026-10-12"
   },
   "genetics/topic02/bbq-complementary_sequences-mc-directionless-questions.txt": {
-    "output_fingerprint": "e6334dae20dc5c4aa3a4cebda10bfaaaa8564798a23fee3616da8ac5c4ff0941",
+    "output_fingerprint": "90acf2afc9580bef1621d37abfeff3a12666adeae7f78674da33d5c3b751fbb1",
     "source_commit": "730869d02807557257089a67b63394b1153ea42c",
     "source_fingerprint": "cd3d04f6d275a133035b355bed85a5f586b5d3a39e32e9f491d230acca083b42",
     "source_id": "198f957169e96c57c82dc847ec2e336464bdca61:molecular_biology-problems/complementary_sequences.py",
@@ -2000,7 +2000,7 @@
     "source_updated": "2026-09-22"
   },
   "genetics/topic02/bbq-complementary_sequences-mc-prime-questions.txt": {
-    "output_fingerprint": "44c565eefc9db417834c517a6ea30c0b01bff6683f3d3ef8b39841e23111f826",
+    "output_fingerprint": "8cb1a2e78d948f91c9e8a27f78c7c868b3aa81d72490818e8aa13ca8551309dd",
     "source_commit": "730869d02807557257089a67b63394b1153ea42c",
     "source_fingerprint": "cd3d04f6d275a133035b355bed85a5f586b5d3a39e32e9f491d230acca083b42",
     "source_id": "198f957169e96c57c82dc847ec2e336464bdca61:molecular_biology-problems/complementary_sequences.py",
@@ -2008,7 +2008,7 @@
     "source_updated": "2026-09-22"
   },
   "genetics/topic02/bbq-linear_digest-len_10-sites_2-fragment-questions.txt": {
-    "output_fingerprint": "0c99b9829aa2c94c05286d825113b9468d85826da0750e1bad03b0bc08149c8d",
+    "output_fingerprint": "95f3ca33f2be945365ebbeddbe3e183c2ef03aa3df0ffe771ba9780756a3932a",
     "source_commit": "3ff5579d7691d6fe9951d5ac1c822a1717f8242f",
     "source_fingerprint": "874c15e4c74b810bc48a79cc8238b4fd14988b0747965f05387cb4893999c3d4",
     "source_id": "08c17b9a7ffa765036f8c5b7e2e71c17330d9907:linear_digest.py",
@@ -2016,7 +2016,7 @@
     "source_updated": "2026-10-13"
   },
   "genetics/topic02/bbq-linear_digest-len_10-sites_3-strand-questions.txt": {
-    "output_fingerprint": "8a93c6247691274b40248c504f01e31164eb974e3a0d8f6f163292b948f20d0c",
+    "output_fingerprint": "41318ac336c2e5ebb4f9d5f5ce5777719cac6e622633e248fa7bb4d402937178",
     "source_commit": "3ff5579d7691d6fe9951d5ac1c822a1717f8242f",
     "source_fingerprint": "874c15e4c74b810bc48a79cc8238b4fd14988b0747965f05387cb4893999c3d4",
     "source_id": "08c17b9a7ffa765036f8c5b7e2e71c17330d9907:linear_digest.py",
@@ -2024,7 +2024,7 @@
     "source_updated": "2026-10-13"
   },
   "genetics/topic02/bbq-linear_digest-len_12-sites_3-fragment-questions.txt": {
-    "output_fingerprint": "c80e47c56d5cf8e2eae6ff87e44107484e7e3f2545bbb85171a8fcecb204acd4",
+    "output_fingerprint": "28d6c810a03ae04f8879339c7a4d598f410d00c44ed0345996850c8bdfdbfee2",
     "source_commit": "3ff5579d7691d6fe9951d5ac1c822a1717f8242f",
     "source_fingerprint": "874c15e4c74b810bc48a79cc8238b4fd14988b0747965f05387cb4893999c3d4",
     "source_id": "08c17b9a7ffa765036f8c5b7e2e71c17330d9907:linear_digest.py",
@@ -2032,7 +2032,7 @@
     "source_updated": "2026-10-13"
   },
   "genetics/topic02/bbq-linear_digest-len_12-sites_3-strand-questions.txt": {
-    "output_fingerprint": "c22ee1e07011016be95af3057818800315d4e23307b48944a01d1c54c0c63620",
+    "output_fingerprint": "55dcaf745f666f9bcce3a5356c767f9154a4dab22de22a8f2a448decfdcde049",
     "source_commit": "3ff5579d7691d6fe9951d5ac1c822a1717f8242f",
     "source_fingerprint": "874c15e4c74b810bc48a79cc8238b4fd14988b0747965f05387cb4893999c3d4",
     "source_id": "08c17b9a7ffa765036f8c5b7e2e71c17330d9907:linear_digest.py",
@@ -2040,7 +2040,7 @@
     "source_updated": "2026-10-13"
   },
   "genetics/topic02/bbq-linear_digest-len_16-sites_4-fragment-questions.txt": {
-    "output_fingerprint": "eec9042137e56358241ab5446b71e75b528dce5ac81835c0437a7a8921bab1e3",
+    "output_fingerprint": "714f54b43b1c006f8ffd560bfd34de77bac98b1cc6722bb2e4539f16d3c6882d",
     "source_commit": "3ff5579d7691d6fe9951d5ac1c822a1717f8242f",
     "source_fingerprint": "874c15e4c74b810bc48a79cc8238b4fd14988b0747965f05387cb4893999c3d4",
     "source_id": "08c17b9a7ffa765036f8c5b7e2e71c17330d9907:linear_digest.py",
@@ -2048,7 +2048,7 @@
     "source_updated": "2026-10-13"
   },
   "genetics/topic02/bbq-linear_digest-len_16-sites_4-strand-questions.txt": {
-    "output_fingerprint": "0094a5ff922b44e97f4db1659edee37d7dd8385167c62e1d4b3a6085087a6421",
+    "output_fingerprint": "7be7c07461368b6dedcb9393f2f65064d7a0f141c6392f722d6481a3e4c5d810",
     "source_commit": "3ff5579d7691d6fe9951d5ac1c822a1717f8242f",
     "source_fingerprint": "874c15e4c74b810bc48a79cc8238b4fd14988b0747965f05387cb4893999c3d4",
     "source_id": "08c17b9a7ffa765036f8c5b7e2e71c17330d9907:linear_digest.py",
@@ -2056,7 +2056,7 @@
     "source_updated": "2026-10-13"
   },
   "genetics/topic02/bbq-overhang_sequence-mc-questions.txt": {
-    "output_fingerprint": "6995f5c7411f7c6e01026442cfa678577228cfdf123d8678ff1dfa01f8b01bf7",
+    "output_fingerprint": "19d5c34ab906377ec85818b36a916c2bb05aed19c291dda28a280be709d788d7",
     "source_commit": "66d7ccf9ca42ada75afac9d36abb7fffa492b2d3",
     "source_fingerprint": "b4bee3d653f003cfe1f617f9e8a108c48ff2d16dcb7457e3bdf4be5a9b580295",
     "source_id": "7c5c1f653c0e2db9957e81add1f249e1812ad1ef:overhang_from_restriction.py",
@@ -2064,7 +2064,7 @@
     "source_updated": "2026-09-30"
   },
   "genetics/topic02/bbq-overhang_type-5_3_blunt-questions.txt": {
-    "output_fingerprint": "0b2a6a419aaf1a9e79ffbecf61830002999e234858b61b90b8fdec6003c41cf7",
+    "output_fingerprint": "15f6d858cab11e78c6377e2ec7f052f79e68130ab519794b2a58a2702e111d9b",
     "source_commit": "66d7ccf9ca42ada75afac9d36abb7fffa492b2d3",
     "source_fingerprint": "c878587b8e9fdbbc76c7f2a9100cdf2c6402610e5aaea725f85014ea7faa2d93",
     "source_id": "7c5c1f653c0e2db9957e81add1f249e1812ad1ef:overhang_type.py",
@@ -2072,7 +2072,7 @@
     "source_updated": "2026-09-30"
   },
   "genetics/topic02/bbq-overhang_type-blunt_v_sticky-questions.txt": {
-    "output_fingerprint": "f772efd1c258230a7d4da64b97101bb696f06ef941a00c6567c1ba7c96628bb2",
+    "output_fingerprint": "eaec672653158ea6a8d93d98e8b0f97a39bc80e59df76250cb4a750d4c21c710",
     "source_commit": "66d7ccf9ca42ada75afac9d36abb7fffa492b2d3",
     "source_fingerprint": "c878587b8e9fdbbc76c7f2a9100cdf2c6402610e5aaea725f85014ea7faa2d93",
     "source_id": "7c5c1f653c0e2db9957e81add1f249e1812ad1ef:overhang_type.py",
@@ -2080,7 +2080,7 @@
     "source_updated": "2026-09-30"
   },
   "genetics/topic02/bbq-palindrome_sequence_match-questions.txt": {
-    "output_fingerprint": "cab2dfcd4c5e69490ee796bf74dd9f27643868372a9e0505538a92765b5ed29b",
+    "output_fingerprint": "36d2fb1ee9d3c261d5a0ad9220a9f8df6647a1d3909852f569e2e9a6f8bb0082",
     "source_commit": "14228a34abddf89f967e018d51fad808ee55e8fa",
     "source_fingerprint": "b0c96a3dee81d0d20478bd377ca098a550d22543c57e0a159db6170cc1dc4320",
     "source_id": "e3bc01df2f37207e7f62eeba18de594123f49be2:palindrome.py",
@@ -2088,7 +2088,7 @@
     "source_updated": "2026-01-19"
   },
   "genetics/topic03/bbq-blood_type_agglutination_test-questions.txt": {
-    "output_fingerprint": "43a06670f814e743331d6ac28b491acb35d1e068e9b2ab56b526e1a2868d15a2",
+    "output_fingerprint": "5dc1d526136e707dbe80ac9ec1bdeba53389a1188d3a2c16ce20e269daf45f2a",
     "source_commit": "63e2c8bb39634be0adb3b85d166f97d88d5c4b2e",
     "source_fingerprint": "6b10148a7c8808bd5bb402f8fe40d49e92c55ee23097c392ebb48e5b8c15cb90",
     "source_id": "32e9dbb9ca252393c2e30899cad522c35a35110c:blood_types.py",
@@ -2096,7 +2096,7 @@
     "source_updated": "2026-01-10"
   },
   "genetics/topic03/bbq-hla_genotype-2_markers-black-questions.txt": {
-    "output_fingerprint": "0aa5b27c69060559485ed113157ca6f416ccb05919a2f0740bcf18c4fc338461",
+    "output_fingerprint": "c9696f185c56b3f727fca06f74250395c0102bd7d912675530d1dc7d64c73625",
     "source_commit": "74fb2db01d73217312f2daafe4ec5763e9c4942a",
     "source_fingerprint": "11728fd8f1fe81baff29b60922ef6c215466a8f85cc3b1f238013b2882328031",
     "source_id": "e3bc01df2f37207e7f62eeba18de594123f49be2:hla_genotype.py",
@@ -2104,7 +2104,7 @@
     "source_updated": "2026-10-13"
   },
   "genetics/topic03/bbq-hla_genotype-3_markers-color-questions.txt": {
-    "output_fingerprint": "eff60720e2c0efa356cacc685515895864bf38fb5361084033bc1228fb659066",
+    "output_fingerprint": "0438fae2523bf90688bb32499b4f70399a44db8fc6b19197d5f6141be6f625f2",
     "source_commit": "74fb2db01d73217312f2daafe4ec5763e9c4942a",
     "source_fingerprint": "11728fd8f1fe81baff29b60922ef6c215466a8f85cc3b1f238013b2882328031",
     "source_id": "e3bc01df2f37207e7f62eeba18de594123f49be2:hla_genotype.py",
@@ -2112,7 +2112,7 @@
     "source_updated": "2026-10-13"
   },
   "genetics/topic03/bbq-who_father_html-EASY-3_males-questions.txt": {
-    "output_fingerprint": "aabf3fc6e9aaf43e7f178bdb0065c8066e294eee586c5ec9d2211e0223df64ff",
+    "output_fingerprint": "63941fd8aa9227d72f01b8046ad220d5fcfde7aabf6ccb0f69dbed75d6e5a7e5",
     "source_commit": "1c1d6e7ec6739470031e1f7fabde529685a43e80",
     "source_fingerprint": "b72e7da93e7a8d0f0e3bda9697020bd07ce3e2f639a985336c97512578e325e9",
     "source_id": "eb3cfd7555359d92d94d839d1104be6c5fa6238f:suspects_gel.py",
@@ -2120,7 +2120,7 @@
     "source_updated": "2026-07-12"
   },
   "genetics/topic03/bbq-who_father_html-HARD-9_males-questions.txt": {
-    "output_fingerprint": "c59dac5c15205f9e9479b02ebd3d87b6dbfe8495b4b6edde6a904ed9ba9aeb1c",
+    "output_fingerprint": "58dd70d84f562e5c57805db767fb3efe3edff0eca341e934fd2e5043e9c9995a",
     "source_commit": "1c1d6e7ec6739470031e1f7fabde529685a43e80",
     "source_fingerprint": "b72e7da93e7a8d0f0e3bda9697020bd07ce3e2f639a985336c97512578e325e9",
     "source_id": "eb3cfd7555359d92d94d839d1104be6c5fa6238f:suspects_gel.py",
@@ -2128,7 +2128,7 @@
     "source_updated": "2026-07-12"
   },
   "genetics/topic03/bbq-who_father_html-MEDIUM-5_males-questions.txt": {
-    "output_fingerprint": "5a1c21532273aa7c90b380689d2a191f8d65e87e3538adf0c21be7668dd8a147",
+    "output_fingerprint": "9d9d9832982fa7e1e3e79b8b01659c2fced87bdb2d45d1f5b55b0aa4f2e64e71",
     "source_commit": "1c1d6e7ec6739470031e1f7fabde529685a43e80",
     "source_fingerprint": "b72e7da93e7a8d0f0e3bda9697020bd07ce3e2f639a985336c97512578e325e9",
     "source_id": "eb3cfd7555359d92d94d839d1104be6c5fa6238f:suspects_gel.py",
@@ -2136,7 +2136,7 @@
     "source_updated": "2026-07-12"
   },
   "genetics/topic03/bbq-who_killer_html-EASY-4_suspects-questions.txt": {
-    "output_fingerprint": "5a887953723197bfe281a649b51456e530ad270c19535c44c08791787e172614",
+    "output_fingerprint": "0e54a9537b5e9bf650c775b479216b444a3f714fc513b80352423fad0eb7ca74",
     "source_commit": "1c1d6e7ec6739470031e1f7fabde529685a43e80",
     "source_fingerprint": "5d1986b0ea9f13cae68db8c992e5d1112da8ffc3af0e5c0007ecde77c9ee6d6e",
     "source_id": "b6cd8c505ed94dbbac175da4be11e4652ddc637d:who_killer.py",
@@ -2144,7 +2144,7 @@
     "source_updated": "2026-07-12"
   },
   "genetics/topic03/bbq-who_killer_html-HARD-9_suspects-questions.txt": {
-    "output_fingerprint": "e36e82f073dfab46614743da519013a13e01df21719eea173dbf68b52f2d2dde",
+    "output_fingerprint": "0ab3e4e17c94e15803e21abf1bd8829596d90d1658c5b1eec79797cd2937f02d",
     "source_commit": "1c1d6e7ec6739470031e1f7fabde529685a43e80",
     "source_fingerprint": "5d1986b0ea9f13cae68db8c992e5d1112da8ffc3af0e5c0007ecde77c9ee6d6e",
     "source_id": "b6cd8c505ed94dbbac175da4be11e4652ddc637d:who_killer.py",
@@ -2152,7 +2152,7 @@
     "source_updated": "2026-07-12"
   },
   "genetics/topic03/bbq-who_killer_html-MEDIUM-5_suspects-questions.txt": {
-    "output_fingerprint": "bdbae37a2c64f0043c50580eae70b2fb39ede8b15ef67e8758b9d01a773cc324",
+    "output_fingerprint": "daf6857dbe588ea347b693e6b6d8a8d4336fb9cd7d735962e8a071a6b16431a4",
     "source_commit": "1c1d6e7ec6739470031e1f7fabde529685a43e80",
     "source_fingerprint": "5d1986b0ea9f13cae68db8c992e5d1112da8ffc3af0e5c0007ecde77c9ee6d6e",
     "source_id": "b6cd8c505ed94dbbac175da4be11e4652ddc637d:who_killer.py",
@@ -2160,39 +2160,39 @@
     "source_updated": "2026-07-12"
   },
   "genetics/topic04/bbq-MATCH-genetics_terminology-questions.txt": {
-    "output_fingerprint": "38e6eb48542f94894199826e6830a7a352f694388be7bff6f2eb030feac50fff",
-    "source_commit": null,
-    "source_fingerprint": "ed951fb429f8a3cd08824c670bad001ba4567380eeab32ea7d85d8a85103b0d1",
+    "output_fingerprint": "515b0f89f06ebc3f72131858cb5953619b399a6f103396de034f5281e86eda04",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "f8d02bead1e4d561a0e2202eca7f5d0d0180ceb8db82b4c799fe10e745a47c6b",
     "source_id": "9bd8caaef196f6dac3606b1d71a364edb17b586a:matching_sets/genetics_terminology.yml",
     "source_path": "problems/matching_sets/inheritance/genetics_terminology.yml",
-    "source_updated": null
+    "source_updated": "2026-11-09"
   },
   "genetics/topic04/bbq-MATCH-mendel_cross_terminology-questions.txt": {
-    "output_fingerprint": "4d05753c5ae55592cc6a8ec3b0a0c97dfdf8536709c423902b04e28892d162db",
-    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
-    "source_fingerprint": "342117199259fba831309037b124aa8afe7aeee812c1d59408eb4699039861ba",
+    "output_fingerprint": "4106220a37874cdb1c5c7eec29c79d52a0365c1ecabbcd457b9989ac6b80a03f",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "9e56964c4cc98d0dba07e6d159e3c70f4af397300d07f6a6ed880696357d3e51",
     "source_id": "9bd8caaef196f6dac3606b1d71a364edb17b586a:matching_sets/mendel_cross_terminology.yml",
     "source_path": "problems/matching_sets/inheritance/mendel_cross_terminology.yml",
-    "source_updated": "2026-10-06"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic04/bbq-MATCH-mendel_four_principles-questions.txt": {
-    "output_fingerprint": "b751fa2e88a1598ec36bed16a5d3b3dc9b665cc17a619134fc2d75f4ae12bb20",
-    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
-    "source_fingerprint": "324ab59b9429012e94f917ff924879e90fdec3b0b3e567c44bc22cccf55da067",
+    "output_fingerprint": "3a649aadfe8b8327ec24478442d1d3c46424875a7f75fc23162ee9b7e804dace",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "dc781d327e1fa1ea6920c84c7c2a67c3ec12a50db9cd440340fa3deba2cb8986",
     "source_id": "9bd8caaef196f6dac3606b1d71a364edb17b586a:matching_sets/mendel_four_principles.yml",
     "source_path": "problems/matching_sets/inheritance/mendel_four_principles.yml",
-    "source_updated": "2026-10-06"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic04/bbq-MATCH-mendelian_genetics_terms-questions.txt": {
-    "output_fingerprint": "0d6658b2786fb434e52d111c044035010d769f78af76e38f2374a415cfe3fc05",
-    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
-    "source_fingerprint": "0c80693ebb47c0ad12a9742117de5d4d44abc5a46e27207dd4fe03ce4c445076",
+    "output_fingerprint": "4c3fefefd48db6f78167aa80343dfb8c9406d1e5068caaf9201f5f61c174dc8d",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "f13b26ac3cfb826cd033a8d5cb1d2f9a9672a3de95fcf62701f226ec064d2f99",
     "source_id": "5d4bd83e1dd84744f3dc80d8f7f2377f4deeb6ea:matching_sets/mendelian_genetics_terms.yml",
     "source_path": "problems/matching_sets/inheritance/mendelian_genetics_terms.yml",
-    "source_updated": "2026-10-06"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic04/bbq-MATCH-monohybrid_cross_genotype-questions.txt": {
-    "output_fingerprint": "427d04b6ed6255cff997c94592f4078211147e32bb9da60b82b4dc5490f34120",
+    "output_fingerprint": "f46d9d5dd8b12b96d0b60240bf28e30d289f44c73e27679703873e53b0cfb3e1",
     "source_commit": "1c1d6e7ec6739470031e1f7fabde529685a43e80",
     "source_fingerprint": "afc4592fceba7a01ce9eb5a3ac655b2d2c25264db9b23d68ec8369b5f80c7713",
     "source_id": "682a2f13c93f988311bbca7ee4651d4130f7e373:matching_sets/monohybrid_cross_genotype.yml",
@@ -2200,39 +2200,39 @@
     "source_updated": "2026-07-12"
   },
   "genetics/topic04/bbq-WOMC-genetics_terminology-questions.txt": {
-    "output_fingerprint": "ef9dcaffc083e7f5fed78fb8537292687974a1635d567fc9c469fdafa9812cb4",
-    "source_commit": null,
-    "source_fingerprint": "ed951fb429f8a3cd08824c670bad001ba4567380eeab32ea7d85d8a85103b0d1",
+    "output_fingerprint": "0969aa26f1b24eef68cfdfe2ced8043b909bda6480e4ea12921c22941b78ccfb",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "f8d02bead1e4d561a0e2202eca7f5d0d0180ceb8db82b4c799fe10e745a47c6b",
     "source_id": "9bd8caaef196f6dac3606b1d71a364edb17b586a:matching_sets/genetics_terminology.yml",
     "source_path": "problems/matching_sets/inheritance/genetics_terminology.yml",
-    "source_updated": null
+    "source_updated": "2026-11-09"
   },
   "genetics/topic04/bbq-WOMC-mendel_cross_terminology-questions.txt": {
-    "output_fingerprint": "d00c7cdd042bb1062b3f209280c9d663a9fe8362b9008e41a7aab8d897151b03",
-    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
-    "source_fingerprint": "342117199259fba831309037b124aa8afe7aeee812c1d59408eb4699039861ba",
+    "output_fingerprint": "1104de8348fe5be0de86729fa9b4357cf8d1e696f6e94b910272e0c9975eb280",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "9e56964c4cc98d0dba07e6d159e3c70f4af397300d07f6a6ed880696357d3e51",
     "source_id": "9bd8caaef196f6dac3606b1d71a364edb17b586a:matching_sets/mendel_cross_terminology.yml",
     "source_path": "problems/matching_sets/inheritance/mendel_cross_terminology.yml",
-    "source_updated": "2026-10-06"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic04/bbq-WOMC-mendel_four_principles-questions.txt": {
-    "output_fingerprint": "4a9cacdc3b8b01437038b0acc4f973835b354e3b8745c20ea2e1fa45aec53917",
-    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
-    "source_fingerprint": "324ab59b9429012e94f917ff924879e90fdec3b0b3e567c44bc22cccf55da067",
+    "output_fingerprint": "9e44e7f8ee0860470fe753348c467633a0296ac52b12a7fad9b120826a51d5b4",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "dc781d327e1fa1ea6920c84c7c2a67c3ec12a50db9cd440340fa3deba2cb8986",
     "source_id": "9bd8caaef196f6dac3606b1d71a364edb17b586a:matching_sets/mendel_four_principles.yml",
     "source_path": "problems/matching_sets/inheritance/mendel_four_principles.yml",
-    "source_updated": "2026-10-06"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic04/bbq-WOMC-mendelian_genetics_terms-questions.txt": {
-    "output_fingerprint": "ad22d78becf142eda43bc4ddb219a54c9c29134f51f2a30cfeaf8b4108db7cd5",
-    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
-    "source_fingerprint": "0c80693ebb47c0ad12a9742117de5d4d44abc5a46e27207dd4fe03ce4c445076",
+    "output_fingerprint": "2f0d594523343d98227ad20a1bb4def34629388bf70307bae3468980036b646d",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "f13b26ac3cfb826cd033a8d5cb1d2f9a9672a3de95fcf62701f226ec064d2f99",
     "source_id": "5d4bd83e1dd84744f3dc80d8f7f2377f4deeb6ea:matching_sets/mendelian_genetics_terms.yml",
     "source_path": "problems/matching_sets/inheritance/mendelian_genetics_terms.yml",
-    "source_updated": "2026-10-06"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic04/bbq-WOMC-monohybrid_cross_genotype-questions.txt": {
-    "output_fingerprint": "b36b79da21f457816bd4d971ca522ade5586e061b08d21ddcc68649a7e4afe1b",
+    "output_fingerprint": "0d24d4e6cf3cdf364140b27a3d24d628d7cbf6e943f761f12abda9186b80d884",
     "source_commit": "1c1d6e7ec6739470031e1f7fabde529685a43e80",
     "source_fingerprint": "afc4592fceba7a01ce9eb5a3ac655b2d2c25264db9b23d68ec8369b5f80c7713",
     "source_id": "682a2f13c93f988311bbca7ee4651d4130f7e373:matching_sets/monohybrid_cross_genotype.yml",
@@ -2240,7 +2240,7 @@
     "source_updated": "2026-07-12"
   },
   "genetics/topic04/bbq-monohybrid_genotype_statements-questions.txt": {
-    "output_fingerprint": "558ff7c81b041333cff4d34ca239225e0d9fed18afe43e3fce3bd0c285db0098",
+    "output_fingerprint": "a03897b3eceb2d5e28acceb1a0f06e92b5fa5f603d0b0da5d1eee405bcee9e06",
     "source_commit": "66d7ccf9ca42ada75afac9d36abb7fffa492b2d3",
     "source_fingerprint": "53d7dec8ab5691c1a7f0b7876fe746e68b3f103455929a6d19e255a5128272da",
     "source_id": "450cfb15cfb8ca1f37673129e9182b562d3ff0c9:TEMPLATE.py",
@@ -2248,7 +2248,7 @@
     "source_updated": "2026-09-30"
   },
   "genetics/topic04/bbq-monohybrid_litter_inference-questions.txt": {
-    "output_fingerprint": "54f685edbf054f432d23488ea0d0c1fe39a3040fcc806c90594842cc47eed32e",
+    "output_fingerprint": "421b655ae74d9967be003f293f61fd6c01f28e8b58c57cc0e2610389936e2b13",
     "source_commit": "bd221d81a63406cf867b4cb1f9d4c2420b87f03c",
     "source_fingerprint": "159075d50f60bab3672480c37351c1e7609d3ecf9ee5406a47caa6741dca8828",
     "source_id": "566b69080e0aee48e64db813efd8b176b4541653:inheritance-problems/monohybrid_litter_inference.py",
@@ -2256,7 +2256,7 @@
     "source_updated": "2026-10-01"
   },
   "genetics/topic04/bbq-punnett_choice-questions.txt": {
-    "output_fingerprint": "790f246dbd8447587f562318953feced013efb299ad86c537df9dbfc3b94f269",
+    "output_fingerprint": "b6764b8fb365c01f0085bd85346bb1a5ca593cefd744f638fc186e3a3f938be2",
     "source_commit": "2d33d2ce0d8b47e2ba3ec4b1a42e407e369ff29d",
     "source_fingerprint": "e0ae9de0407d91b7d738c8cc2bc676a6970b5c3f7a96a91b2c4650f600583bf6",
     "source_id": "e981f49c30f572b5c950212718886ce94839b45d:inheritance-problems/punnett_choice.py",
@@ -2264,7 +2264,7 @@
     "source_updated": "2026-10-12"
   },
   "genetics/topic04/bbq-unique_cross_genotypes-genotypes-with_hint-4_genes-questions.txt": {
-    "output_fingerprint": "03785ebac42290c05e57920c7616935c99d73614284951e20349cd4da341edb3",
+    "output_fingerprint": "8449d7252ca7e22bd7443852ce9e18359746f9f2d96c9142c5a133a59b8cf07e",
     "source_commit": "74fb2db01d73217312f2daafe4ec5763e9c4942a",
     "source_fingerprint": "d5a33fe771a09e0d4b8baf34a38488042b990f0d76823b55bf9fa10f9fb77ae9",
     "source_id": "36c4a232a318a8c8e65eb4b5049f5e1cd46b24b3:gametes_unique_cross_genotype.py",
@@ -2280,7 +2280,7 @@
     "source_updated": "2026-09-28"
   },
   "genetics/topic04/bbq-unique_cross_phenotypes-phenotypes-with_hint-4_genes-questions.txt": {
-    "output_fingerprint": "172e5572188aca64f193a2e848629e4f2d0c2007ffd5272e37d188f73cfd322e",
+    "output_fingerprint": "14f53fdcefd108c51c822bcfe7158a269093acc7268981b5d38a35ee518a979a",
     "source_commit": "74fb2db01d73217312f2daafe4ec5763e9c4942a",
     "source_fingerprint": "a0b56037545466e4cf85520c64ff4446a0de51acd7caca0d438afe59e3cbc4b8",
     "source_id": "4f08846330fb91f717006b9f127def658de92d08:gametes_unique_cross_phenotype.py",
@@ -2296,7 +2296,7 @@
     "source_updated": "2026-09-28"
   },
   "genetics/topic04/bbq-unique_gametes-gametes-with_hint-4_genes-parent_1-questions.txt": {
-    "output_fingerprint": "9bdf7a0c951e0d5dccaf77f7dfaa9333a84f8c779bf368200a752103721c8084",
+    "output_fingerprint": "8bdba900263245359efc26707f6e56410704b497e3b6b9dd4ba4a63cb4194683",
     "source_commit": "74fb2db01d73217312f2daafe4ec5763e9c4942a",
     "source_fingerprint": "376e58ce336c1f67792c06cd23c7e969dc5bab695c7776168c4c517dac94dfae",
     "source_id": "0a883d1f93b504ee05ab39ed73d58cd7568165bc:inheritance-problems/unique_gametes.py",
@@ -2312,23 +2312,23 @@
     "source_updated": "2026-09-28"
   },
   "genetics/topic05/bbq-MATCH-degrees_of_dominance-questions.txt": {
-    "output_fingerprint": "fd3f2ccd692d78340b4824b32f1b7709f707217fb6c58a4fe5afb9c0bc086191",
-    "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
-    "source_fingerprint": "5448df6568680528673d3a5e6e369e358328d971ea44bfcda70aab2b74aacd12",
+    "output_fingerprint": "e8a7971b4c9cd3a7266d381c344ae39915ccaf1b22632134ffb94fa61ed26002",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "262ecf29aaab79f00f80ce6e9fb15f09794191e4c4da0114ea757d380c2338a4",
     "source_id": "c59e01a253ccee7cbabe4fe32f0b97c3a003783f:matching_sets/TEMPLATE.yml",
     "source_path": "problems/matching_sets/inheritance/degrees_of_dominance.yml",
-    "source_updated": "2026-01-23"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic05/bbq-WOMC-degrees_of_dominance-questions.txt": {
-    "output_fingerprint": "54f7316f6670c2ed81bcab7f20aa7dc7fb18368d064af9078820a750b3d94ae7",
-    "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
-    "source_fingerprint": "5448df6568680528673d3a5e6e369e358328d971ea44bfcda70aab2b74aacd12",
+    "output_fingerprint": "7dba69a8fd228c117a83a6fa22fbc29401962ef4fe42663adf0dc513432a4523",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "262ecf29aaab79f00f80ce6e9fb15f09794191e4c4da0114ea757d380c2338a4",
     "source_id": "c59e01a253ccee7cbabe4fe32f0b97c3a003783f:matching_sets/TEMPLATE.yml",
     "source_path": "problems/matching_sets/inheritance/degrees_of_dominance.yml",
-    "source_updated": "2026-01-23"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic05/bbq-blood_type_mother-questions.txt": {
-    "output_fingerprint": "cb359f03dd8cf6a3213ae2360d2126ff0b3964912e83835649789aaf9b4995bf",
+    "output_fingerprint": "0a74bce41fab3f96a5fe9ea94ebffacfe7852f70e6f0ce7d4fc4ec41e77521c1",
     "source_commit": "74fb2db01d73217312f2daafe4ec5763e9c4942a",
     "source_fingerprint": "2632fc78d95fe36d67dc687a406cc2fde64a779079da083380ed63df2d35fda5",
     "source_id": "6e9f213024f3f62bb73c63558f57b6bcdb5515a8:blood_type_mother.py",
@@ -2336,7 +2336,7 @@
     "source_updated": "2026-10-13"
   },
   "genetics/topic05/bbq-blood_type_offspring-questions.txt": {
-    "output_fingerprint": "990b60c319f7019f3f0d64bbfa6fd560628c78ce1057956c279557520df8f664",
+    "output_fingerprint": "a2867491d775b602940d1b30836b34ac55a573eb2036794ee2b756a7950d682c",
     "source_commit": "74fb2db01d73217312f2daafe4ec5763e9c4942a",
     "source_fingerprint": "c1e2a7364fedf15f762a8ab54550351312b8c564920399db4436714504f825a8",
     "source_id": "ef7ed68de49c38dbfec1fcf599a134c45b504aad:blood_type_offspring.py",
@@ -2344,7 +2344,7 @@
     "source_updated": "2026-10-13"
   },
   "genetics/topic05/bbq-dihybrid_cross_epistatic_gene_interactions-4_choices-questions.txt": {
-    "output_fingerprint": "ebe2a3b33b518b42b7729407c9a9f7bf78dfd94d7b7b5678c2abf5f5bb08dee4",
+    "output_fingerprint": "5cece65efc9250d20d7464138fafd845218b708a425dd94c248198a0002c5165",
     "source_commit": "74fb2db01d73217312f2daafe4ec5763e9c4942a",
     "source_fingerprint": "788893430b5d928f500b03e332f118e74968e8a53e571154fe39b4b721a87b1f",
     "source_id": "30f2e27da380727323fd6e8693b7c1b7bf3c178b:dihybrid_cross_gene_interactions.py",
@@ -2352,7 +2352,7 @@
     "source_updated": "2026-10-13"
   },
   "genetics/topic05/bbq-dihybrid_cross_epistatic_gene_metabolics-4_choices-questions.txt": {
-    "output_fingerprint": "c36783abbdbb8e9fcf5abe7d54be5aba807e9eb2561381d2ac71b203329a0b25",
+    "output_fingerprint": "e37a58114b86ee9f425d48d1d966c50c46dcc30cd46d9a622b098141c40d44d8",
     "source_commit": "52ece03b6bc3da0c5f4987d217df564ab0ed4025",
     "source_fingerprint": "21dc2ef02bc47f511024f182e2015c97cfbe7aa0e75587d6ab99226bff75d67e",
     "source_id": "e5cf95d33331898def2f9b9153da94887af723af:dihybrid_cross_gene_metabolics.py",
@@ -2360,7 +2360,7 @@
     "source_updated": "2026-10-12"
   },
   "genetics/topic05/bbq-epistasis_test_cross-forward_direction-6_choices-questions.txt": {
-    "output_fingerprint": "f044767a5c020a41a3046a297f227ec201b2498a4d862cd73eb24f15720e5367",
+    "output_fingerprint": "282dabc0a1f208d9dc6dbf8fdcc7dcfa2050fd73fe88df547019e608b0ad1ecc",
     "source_commit": "74fb2db01d73217312f2daafe4ec5763e9c4942a",
     "source_fingerprint": "3c37cec748ba521643dece10507db3626b7435ace76d4b1bd5b02551e1e23c48",
     "source_id": "dbb07d0e9a1bf2704976e6a196b95fb70f82a988:epistasis_test_cross.py",
@@ -2368,7 +2368,7 @@
     "source_updated": "2026-10-13"
   },
   "genetics/topic05/bbq-epistasis_test_cross-inverse_direction-6_choices-questions.txt": {
-    "output_fingerprint": "8a8927b8e53bc1ef8405987f25c353171016003b64a167b6ab86c336b49af4c8",
+    "output_fingerprint": "ddc72145e52416b8a283407aacf7c6d562c89293bcf03820ce256ea1b732cc51",
     "source_commit": "74fb2db01d73217312f2daafe4ec5763e9c4942a",
     "source_fingerprint": "3c37cec748ba521643dece10507db3626b7435ace76d4b1bd5b02551e1e23c48",
     "source_id": "dbb07d0e9a1bf2704976e6a196b95fb70f82a988:epistasis_test_cross.py",
@@ -2376,7 +2376,7 @@
     "source_updated": "2026-10-13"
   },
   "genetics/topic05/bbq-lethal_allele_survival-questions.txt": {
-    "output_fingerprint": "1a500c612e9f9b805d2a8cdf2983af8c717ea7f242a5e232db913b0d4553da9d",
+    "output_fingerprint": "9d9c36d112cd2e0e2db74db6b9396982070266666e42a02376373375cae31569",
     "source_commit": "bd221d81a63406cf867b4cb1f9d4c2420b87f03c",
     "source_fingerprint": "5662040e94410fdf27fc151b6450eb8900e21734eb14f9e9b2fa8866f3997dc1",
     "source_id": "566b69080e0aee48e64db813efd8b176b4541653:inheritance-problems/lethal_allele_survival.py",
@@ -2384,7 +2384,7 @@
     "source_updated": "2026-10-01"
   },
   "genetics/topic05/bbq-monohybrid_degrees_of_dominance-questions.txt": {
-    "output_fingerprint": "e42b2a304a92c45e7561335a62484e63623e7e0fa6f82c5ac581056ff2d7db0b",
+    "output_fingerprint": "ccf81f07bdf040869012aadcc26d9f36893ab8289533811ec1f6e12b3a92dfdf",
     "source_commit": "74fb2db01d73217312f2daafe4ec5763e9c4942a",
     "source_fingerprint": "21b675c9d5f4e592965057a642006865f57e92461d330376189a7feb68012e62",
     "source_id": "e981f49c30f572b5c950212718886ce94839b45d:inheritance-problems/monohybrid_degrees_of_dominance.py",
@@ -2392,7 +2392,7 @@
     "source_updated": "2026-10-13"
   },
   "genetics/topic05/bbq-write_pattern_to_pedigree-easy-autosomal-questions.txt": {
-    "output_fingerprint": "eb21db4b92c00ffcdc74c4443f4fde4bb94eb819bcaa51b08bdd2ad0e29ecf7a",
+    "output_fingerprint": "6a322abe505a76c4a145d220c197a2f43166c0e4c4cd1d0b486854086dc1f9f3",
     "source_commit": "b0cc5d52e0c80622457b5505980284e61be9041a",
     "source_fingerprint": "f04bce37fe940b13a7be0d10e73f33d50ec74fdf70272aa29e581442aa147f9f",
     "source_id": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pattern_to_pedigree.py",
@@ -2400,7 +2400,7 @@
     "source_updated": "2026-10-01"
   },
   "genetics/topic05/bbq-write_pedigree_pattern_matching-easy-autosomal-questions.txt": {
-    "output_fingerprint": "afb6054dfe022f70c305eb1d11e790f8c940a69acaad903484ff0fd10dbffa11",
+    "output_fingerprint": "0cba57c6f8b51b6c5241a68f974d0d51f4f2ffe127f18d215412ab5686c20ebb",
     "source_commit": "b0cc5d52e0c80622457b5505980284e61be9041a",
     "source_fingerprint": "8e3ed0dfa3f1258ff2d212f225864b846fa124a24e3d39337a915875017c155e",
     "source_id": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pedigree_pattern_matching.py",
@@ -2408,7 +2408,7 @@
     "source_updated": "2026-10-01"
   },
   "genetics/topic05/bbq-write_pedigree_to_pattern-bonus-autosomal-questions.txt": {
-    "output_fingerprint": "e15026214c9a754c4e0b7ad787b17753584be1b3a524f35ef8c42d7d72e08c57",
+    "output_fingerprint": "00fa91c88f3b7fe100978fc4560cafa61a5b4b07b2949171f7c6082f48863008",
     "source_commit": "b0cc5d52e0c80622457b5505980284e61be9041a",
     "source_fingerprint": "c5648e6acaa2ab809b8a73272eb480b3c2d18a900752de6d283c23bae25e5bdd",
     "source_id": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pedigree_to_pattern.py",
@@ -2416,7 +2416,7 @@
     "source_updated": "2026-10-01"
   },
   "genetics/topic05/bbq-write_pedigree_to_pattern-easy-autosomal-questions.txt": {
-    "output_fingerprint": "82a19a787d0f4d136583b8096a1e89db6d5c34787982298464898175858e921f",
+    "output_fingerprint": "a831e17ac6b451627205ab02d05893b36b1425cc42913f9e2e5172bfed25fe69",
     "source_commit": "b0cc5d52e0c80622457b5505980284e61be9041a",
     "source_fingerprint": "c5648e6acaa2ab809b8a73272eb480b3c2d18a900752de6d283c23bae25e5bdd",
     "source_id": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pedigree_to_pattern.py",
@@ -2424,7 +2424,7 @@
     "source_updated": "2026-10-01"
   },
   "genetics/topic05/bbq-write_pedigree_to_pattern-medium-autosomal-questions.txt": {
-    "output_fingerprint": "3046168fbab1616b59f6c52dbd1bb6eb292d9e5d9c958ba161e2776c463f9baa",
+    "output_fingerprint": "4c4b3de45454aea626bf0a85367fb69b279e414bcd12fffc06318d4a9b6ee9aa",
     "source_commit": "b0cc5d52e0c80622457b5505980284e61be9041a",
     "source_fingerprint": "c5648e6acaa2ab809b8a73272eb480b3c2d18a900752de6d283c23bae25e5bdd",
     "source_id": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pedigree_to_pattern.py",
@@ -2432,7 +2432,7 @@
     "source_updated": "2026-10-01"
   },
   "genetics/topic05/bbq-write_pedigree_to_pattern-rigorous-autosomal-questions.txt": {
-    "output_fingerprint": "9d15ecb9b40bd03f48fa26abceee764738021991bedb8d6cdb295cdd54a7a916",
+    "output_fingerprint": "a48c29c5601f6e4938220a2a480c73d412968e65998eb549f334fc4c428a2422",
     "source_commit": "b0cc5d52e0c80622457b5505980284e61be9041a",
     "source_fingerprint": "c5648e6acaa2ab809b8a73272eb480b3c2d18a900752de6d283c23bae25e5bdd",
     "source_id": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pedigree_to_pattern.py",
@@ -2440,63 +2440,63 @@
     "source_updated": "2026-10-01"
   },
   "genetics/topic06/bbq-MATCH-meiosis_prophase_1-questions.txt": {
-    "output_fingerprint": "a7bf79d616fec0dc8c9ee76ac87463e8a6da3f89922aca630486e54e488a22cd",
-    "source_commit": "1c1d6e7ec6739470031e1f7fabde529685a43e80",
-    "source_fingerprint": "5935807bac43118a5f2b4fd8057c97b83e3bd2f23926dbafbcbec8200b46c74c",
+    "output_fingerprint": "00541951d3b80953ec274a490315d17f2a570b546a3ec622631cb3e38c51fbc9",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "848d702b4986339b2051eea0615905dd8100fa8a6c34a30470846f1f7aad2a17",
     "source_id": "619ecb0958b26e007ad89abd6dc145b290f7984c:matching_sets/prophase_1.yml",
     "source_path": "problems/matching_sets/inheritance/meiosis_prophase_1.yml",
-    "source_updated": "2026-07-12"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic06/bbq-MATCH-meiosis_terms-questions.txt": {
-    "output_fingerprint": "e8cd83a10fde3ddb2dfd6d868200dcdd9988113ca3357ef12d1488e94938fdfe",
-    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
-    "source_fingerprint": "b43accc2d8a8a1dbe4e96e761ffbabb24bd0345325791fb2b2f769286285c2d4",
+    "output_fingerprint": "a2adc80c237eee0091a18ae7133d626f23d03ec0ec6b5d1508420e96790a89c2",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "c6deeddc21d76cfa9d4630a7272db5ce0f0309c698e1eb91850f4aadb5d19c98",
     "source_id": "619ecb0958b26e007ad89abd6dc145b290f7984c:matching_sets/meiosis_terms.yml",
     "source_path": "problems/matching_sets/inheritance/meiosis_terms.yml",
-    "source_updated": "2026-10-06"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic06/bbq-MATCH-sex_determination-questions.txt": {
-    "output_fingerprint": "df638ada4a977b247b9c201ffb0174f58ed8092c959125d346cb757ece0056c6",
-    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
-    "source_fingerprint": "34b681c51860424fcb96dee67acbfaebaf5548699584c7f6a7ee16dd03ec479d",
+    "output_fingerprint": "f8a7731dc79f6f2c864f0cfc16e31ee78bc23ab987648f428eff4f1b4ca5bda6",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "faee9f40f0a4e219206f8fde20d21e94cf70f14d7767d204d96ade2a33e2658d",
     "source_id": "6d76382247942cd13d7ae7dbc10f51ae323106cf:matching_sets/sex_determination.yml",
     "source_path": "problems/matching_sets/inheritance/sex_determination.yml",
-    "source_updated": "2026-10-06"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic06/bbq-TFMS-mitosis_and_meiosis-questions.txt": {
-    "output_fingerprint": "138a544c75596d60c78a48d66b42e41257c141be9e66a22e7e56618dfa11200a",
-    "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
-    "source_fingerprint": "2a12ad5014e295024aef176b3e3b0b5cf4eec97c86c0534a775d640acf9fbc54",
+    "output_fingerprint": "bdd436d76f59adc5ab74bdbad5971eb9a38b4c4fd10189ddc1fdd8d57307f07c",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "c2e1413f298a862e0f1f71c4bd0b021c59395e0d589ad288ee618c2f43bb7a05",
     "source_id": "8edd6dd8f2ccdc87e2613e08a82c0c44550d96ad:multiple_choice_statements/mitosis_and_meiosis.yml",
     "source_path": "problems/multiple_choice_statements/cell_biology/mitosis_and_meiosis.yml",
-    "source_updated": "2026-01-23"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic06/bbq-WOMC-meiosis_prophase_1-questions.txt": {
-    "output_fingerprint": "6f0d4bcb51ca8c765366c26539f053baef08440f5960a7beeaa609637f20391c",
-    "source_commit": "1c1d6e7ec6739470031e1f7fabde529685a43e80",
-    "source_fingerprint": "5935807bac43118a5f2b4fd8057c97b83e3bd2f23926dbafbcbec8200b46c74c",
+    "output_fingerprint": "9ec69a9d493b36e0357ad166516a626f31d30ac1ae5e455020ab0097881d59c3",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "848d702b4986339b2051eea0615905dd8100fa8a6c34a30470846f1f7aad2a17",
     "source_id": "619ecb0958b26e007ad89abd6dc145b290f7984c:matching_sets/prophase_1.yml",
     "source_path": "problems/matching_sets/inheritance/meiosis_prophase_1.yml",
-    "source_updated": "2026-07-12"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic06/bbq-WOMC-meiosis_terms-questions.txt": {
-    "output_fingerprint": "1aec21161a7a4c5b69ecb457d160326b96caa72270d949efeca7724a694431e8",
-    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
-    "source_fingerprint": "b43accc2d8a8a1dbe4e96e761ffbabb24bd0345325791fb2b2f769286285c2d4",
+    "output_fingerprint": "1faec7f6d5eef71ee1a55ae5758e3b89ff1acadb51e994c08c931a8ab2b81ce9",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "c6deeddc21d76cfa9d4630a7272db5ce0f0309c698e1eb91850f4aadb5d19c98",
     "source_id": "619ecb0958b26e007ad89abd6dc145b290f7984c:matching_sets/meiosis_terms.yml",
     "source_path": "problems/matching_sets/inheritance/meiosis_terms.yml",
-    "source_updated": "2026-10-06"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic06/bbq-WOMC-sex_determination-questions.txt": {
-    "output_fingerprint": "6deb67392ba40d111cb7e7a10dfde7f99c2de6e2efc428a08b6dbf0141e2b163",
-    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
-    "source_fingerprint": "34b681c51860424fcb96dee67acbfaebaf5548699584c7f6a7ee16dd03ec479d",
+    "output_fingerprint": "cc303bb30782c47b4945511ea02a7b2b31b4ba2806ea4f3435167034ac897d31",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "faee9f40f0a4e219206f8fde20d21e94cf70f14d7767d204d96ade2a33e2658d",
     "source_id": "6d76382247942cd13d7ae7dbc10f51ae323106cf:matching_sets/sex_determination.yml",
     "source_path": "problems/matching_sets/inheritance/sex_determination.yml",
-    "source_updated": "2026-10-06"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic06/bbq-dominant_and_X-linked_recessive-questions.txt": {
-    "output_fingerprint": "18fdd565344855f14ae8fdb818ea563709171f720ab03131f24b4188e825aea9",
+    "output_fingerprint": "51589167973fdb5cd9bc988faa4ac28e9fc59e607b53f8be9b92ef156bce3074",
     "source_commit": "63e2c8bb39634be0adb3b85d166f97d88d5c4b2e",
     "source_fingerprint": "3aab9b98c2ee351e25e9832d3f825d770299fa7e69a31bdc4ac1d8bb17da0036",
     "source_id": "b5e78e6caae3e869a2d681aeafff18addc693c3b:inheritance-problems/dominant_and_X-linked_recessive.py",
@@ -2504,7 +2504,7 @@
     "source_updated": "2026-01-10"
   },
   "genetics/topic06/bbq-dominant_and_X-linked_recessive_variations-questions.txt": {
-    "output_fingerprint": "0b7ebb6b2b3138fac638dfbae18aa0c1796671aaa89a637a9ea330de90512cac",
+    "output_fingerprint": "18086ef2eb173cfc59591709c73c0eb47f460605119adf21ff7f21349104fabe",
     "source_commit": "6da18aeb2afdd8e34225b1830e61d43d9dd3a8ba",
     "source_fingerprint": "4eb12fe284c99e1d1e8652bfa26dc3513127bf679a3b0e13fece627acd638c26",
     "source_id": "566b69080e0aee48e64db813efd8b176b4541653:inheritance-problems/dominant_and_X-linked_recessive_variations.py",
@@ -2512,7 +2512,7 @@
     "source_updated": "2026-10-11"
   },
   "genetics/topic06/bbq-poisson_flies-questions.txt": {
-    "output_fingerprint": "4e85efb147adff10e0e2c27a4402d274554c1769fdb4b2726ba66da94a4fbfc8",
+    "output_fingerprint": "3b18739143acf11696202a40ae3a3984b4679a75b365b7ae45d49ecfcd0332ac",
     "source_commit": "81ba24a01a88a4e63ef09698c6d1d52114805213",
     "source_fingerprint": "32020aa7a6fd23b3f875d2d825b4f63c94bf57b0e756d39a5f4f5a9f84d15a42",
     "source_id": "722c8c76146bf4ebeb479f9f9b2d9147849c9143:poisson_flies.py",
@@ -2528,7 +2528,7 @@
     "source_updated": "2026-10-12"
   },
   "genetics/topic06/bbq-write_pattern_to_pedigree-easy-questions.txt": {
-    "output_fingerprint": "11021508e050451a1aad2ccccdecd5738449a6d2d524327dc62e6ba4f6e57c3f",
+    "output_fingerprint": "9fc8f4c69697e5e4e9d0aaee2652f57fadd1bb3ede4e7644f32acb023efca650",
     "source_commit": "b0cc5d52e0c80622457b5505980284e61be9041a",
     "source_fingerprint": "f04bce37fe940b13a7be0d10e73f33d50ec74fdf70272aa29e581442aa147f9f",
     "source_id": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pattern_to_pedigree.py",
@@ -2536,7 +2536,7 @@
     "source_updated": "2026-10-01"
   },
   "genetics/topic06/bbq-write_pedigree_pattern_matching-easy-questions.txt": {
-    "output_fingerprint": "3eed5c8432bfcd4a6b1cc929e650e2c3f8bdd64cb238e2c9a7b08e768de85089",
+    "output_fingerprint": "3b1e14aed9d2556fe0832fb41cc7bbabe7e422eb2f7d1fd7629d3a6699d59ef1",
     "source_commit": "b0cc5d52e0c80622457b5505980284e61be9041a",
     "source_fingerprint": "8e3ed0dfa3f1258ff2d212f225864b846fa124a24e3d39337a915875017c155e",
     "source_id": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pedigree_pattern_matching.py",
@@ -2544,7 +2544,7 @@
     "source_updated": "2026-10-01"
   },
   "genetics/topic06/bbq-write_pedigree_to_pattern-bonus-questions.txt": {
-    "output_fingerprint": "b0ece0f7261ef1a338dfbd5a63c9a5b827e0c42a8e24943fda05eebd6e9a60ef",
+    "output_fingerprint": "d4537746b6e813d8a33ecbf0fcbab4b956e26c8d4ff5109b303584db8c770d14",
     "source_commit": "b0cc5d52e0c80622457b5505980284e61be9041a",
     "source_fingerprint": "c5648e6acaa2ab809b8a73272eb480b3c2d18a900752de6d283c23bae25e5bdd",
     "source_id": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pedigree_to_pattern.py",
@@ -2552,7 +2552,7 @@
     "source_updated": "2026-10-01"
   },
   "genetics/topic06/bbq-write_pedigree_to_pattern-easy-questions.txt": {
-    "output_fingerprint": "a76067b67894a69a77afa2929ccf09b836e275d3ccf0eadb788bc131ac03d7f3",
+    "output_fingerprint": "b983a66399626fc7ffaadcf3d81002eef4cee0d7cd8224f5c24fe32f0456e066",
     "source_commit": "b0cc5d52e0c80622457b5505980284e61be9041a",
     "source_fingerprint": "c5648e6acaa2ab809b8a73272eb480b3c2d18a900752de6d283c23bae25e5bdd",
     "source_id": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pedigree_to_pattern.py",
@@ -2560,7 +2560,7 @@
     "source_updated": "2026-10-01"
   },
   "genetics/topic06/bbq-write_pedigree_to_pattern-medium-questions.txt": {
-    "output_fingerprint": "9acfd55625ce13b5494d4d8406a22d8f58858e5bd72a8956416b20e6cc631507",
+    "output_fingerprint": "26db6ca532b9d3f639631eddf0be0490089ffa2fd6bd78e3321f5eea301594fd",
     "source_commit": "b0cc5d52e0c80622457b5505980284e61be9041a",
     "source_fingerprint": "c5648e6acaa2ab809b8a73272eb480b3c2d18a900752de6d283c23bae25e5bdd",
     "source_id": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pedigree_to_pattern.py",
@@ -2568,7 +2568,7 @@
     "source_updated": "2026-10-01"
   },
   "genetics/topic06/bbq-write_pedigree_to_pattern-rigorous-questions.txt": {
-    "output_fingerprint": "2773a7f5903035c421980055ac8101aea6e2f4a3702590542ea582268328523c",
+    "output_fingerprint": "a023d96d46d4822d772d83de36b348ab50c0b88e54b10a18fe9f4bd50f722c17",
     "source_commit": "b0cc5d52e0c80622457b5505980284e61be9041a",
     "source_fingerprint": "c5648e6acaa2ab809b8a73272eb480b3c2d18a900752de6d283c23bae25e5bdd",
     "source_id": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pedigree_to_pattern.py",
@@ -2576,7 +2576,7 @@
     "source_updated": "2026-10-01"
   },
   "genetics/topic06/bbq-x_linked_reciprocal_cross-questions.txt": {
-    "output_fingerprint": "e29ab338ed80ef473bec8d7ff45ed246dffda0065a6acdcbbcb9ff2b8e627144",
+    "output_fingerprint": "85e1f86b2e2b5ca211b1112627710ee5c60e99f1717e27637dd2c2f7268ab293",
     "source_commit": "6da18aeb2afdd8e34225b1830e61d43d9dd3a8ba",
     "source_fingerprint": "e3ecaeb5efd2ad365c4f945411296475ed46aee8a1c19173e37069d350c8de29",
     "source_id": "566b69080e0aee48e64db813efd8b176b4541653:inheritance-problems/x_linked_reciprocal_cross.py",
@@ -2584,7 +2584,7 @@
     "source_updated": "2026-10-11"
   },
   "genetics/topic06/bbq-x_linked_tortoiseshell-questions.txt": {
-    "output_fingerprint": "d5a1ecc083a76c21bf2fc8eb15a57de71f39fac6e9cbbf722c2807daf816b0eb",
+    "output_fingerprint": "7843c5c220586a74c412a1119321a677cfa0e9ac7492c1af8654b73b3fe07dc0",
     "source_commit": "6da18aeb2afdd8e34225b1830e61d43d9dd3a8ba",
     "source_fingerprint": "d7bbf3eddb0953f566c805064827975ad714144fedcbd1ea224e8606e1572d77",
     "source_id": "566b69080e0aee48e64db813efd8b176b4541653:inheritance-problems/x_linked_tortoiseshell.py",
@@ -2592,31 +2592,31 @@
     "source_updated": "2026-10-11"
   },
   "genetics/topic07/bbq-MATCH-chi-square_terms-questions.txt": {
-    "output_fingerprint": "1575fc1337d641a1b12a8d8b8558115ad4081f007841d0a2d511df7d242857d3",
-    "source_commit": "65b49327b3306b43e299711263d427a705531c31",
-    "source_fingerprint": "fd23997112fc0928af626dbde34b82a0b8461939873f7758f3f3f24b71397259",
+    "output_fingerprint": "e952aaf4d152cd7dbaaf89a6b69195d6d25f1be7019b5ca42cb67db09f7c2db1",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "34bb1075d7a92d3bcb2d37fca16b293e943818967f337e06172b243a24e3f3b5",
     "source_id": "7e3dd9473043bad9e6d8d2a1fd83c165525a153d:matching_sets/chi-square_terms.yml",
     "source_path": "problems/matching_sets/biostatistics/chi-square_terms.yml",
-    "source_updated": "2026-10-23"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic07/bbq-TFMS-chi-square-questions.txt": {
-    "output_fingerprint": "6efb4163dbaa566f68274908433b46fba6ef536713d8b441cac21b4193f2b051",
-    "source_commit": "65b49327b3306b43e299711263d427a705531c31",
-    "source_fingerprint": "93082b84468aded162c5ad73baa155e46b42032f24e3e43b942db5ad80d7b280",
+    "output_fingerprint": "4b2bcc89853e635b7fdd04534087ccf10a8ee181b9dbdb79432f54ec9ff0e540",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "8f01ce24be0a6d3ce21fc0e56d3a57cabcdde32227cb3b9dd538667f2026d39b",
     "source_id": "7800c46763679e90860aa9e93469646262e9c69f:multiple_choice_statements/chi-square.yml",
     "source_path": "problems/multiple_choice_statements/biostatistics/chi-square.yml",
-    "source_updated": "2026-10-23"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic07/bbq-WOMC-chi-square_terms-questions.txt": {
-    "output_fingerprint": "789c9820422be1bd8303b4969675bbfd76bdee475158fe4acff3bb935b8dc58f",
-    "source_commit": "65b49327b3306b43e299711263d427a705531c31",
-    "source_fingerprint": "fd23997112fc0928af626dbde34b82a0b8461939873f7758f3f3f24b71397259",
+    "output_fingerprint": "cb9303b258335b7901ab5ed3084cdd3a016499172db25b7b1930bfe23966689d",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "34bb1075d7a92d3bcb2d37fca16b293e943818967f337e06172b243a24e3f3b5",
     "source_id": "7e3dd9473043bad9e6d8d2a1fd83c165525a153d:matching_sets/chi-square_terms.yml",
     "source_path": "problems/matching_sets/biostatistics/chi-square_terms.yml",
-    "source_updated": "2026-10-23"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic07/bbq-chi2-analyze_dice-degrees-free-MC-questions.txt": {
-    "output_fingerprint": "b2b3d1bea7039c4033b38f85bf2adceed010cbd171af83962a896116411c2deb",
+    "output_fingerprint": "44e05a3412c9eda96b89565a5e35bd82b77f02fb5d90aa48b191067fdeabb64c",
     "source_commit": "d6095e2c93d7ff2c8e11560c85ad8d5ad5d795a6",
     "source_fingerprint": "854e522a4b1ea2bcbaf204cee4b0e0678e43e99bf7eac66becc6e9eb4f4c52ee",
     "source_id": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
@@ -2624,7 +2624,7 @@
     "source_updated": "2026-10-25"
   },
   "genetics/topic07/bbq-chi2-analyze_dice-expected-count-MC-questions.txt": {
-    "output_fingerprint": "b4a2de7691f3cc18921fb73a8f36bb2cb55ac56739789add388955405a5ec136",
+    "output_fingerprint": "830dbb070dc98f3657a4666f080136b53e3aa8a11655ecad61c7ed7f92b29d63",
     "source_commit": "d6095e2c93d7ff2c8e11560c85ad8d5ad5d795a6",
     "source_fingerprint": "854e522a4b1ea2bcbaf204cee4b0e0678e43e99bf7eac66becc6e9eb4f4c52ee",
     "source_id": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
@@ -2632,7 +2632,7 @@
     "source_updated": "2026-10-25"
   },
   "genetics/topic07/bbq-chi2-analyze_dice-row-calc-MC-questions.txt": {
-    "output_fingerprint": "2a2d732f7535771589a382205ac98fd8d8ba8a96a3e628b5d3bc951b9e22ac4a",
+    "output_fingerprint": "af5f260f5239657c5e2bc6147baaaf184c0e5dfb6d10c5abf6f007d4c1a8ed6c",
     "source_commit": "d6095e2c93d7ff2c8e11560c85ad8d5ad5d795a6",
     "source_fingerprint": "854e522a4b1ea2bcbaf204cee4b0e0678e43e99bf7eac66becc6e9eb4f4c52ee",
     "source_id": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/chi_square/chi_square_dice.py",
@@ -2640,7 +2640,7 @@
     "source_updated": "2026-10-25"
   },
   "genetics/topic07/bbq-chi2-calculate_statistic-REJECT-questions.txt": {
-    "output_fingerprint": "3d41f388d224c8591fc8f16005d598690b24351d0fbe1f991cb7a681202d423c",
+    "output_fingerprint": "44cf1133327068a756fe5a6659be9ac17eb4d321c66a15c0ad32ab5d322a0ec9",
     "source_commit": "65b49327b3306b43e299711263d427a705531c31",
     "source_fingerprint": "e70716ca37e29503434d45de1e5f8b091ee278df27fa519cb9fc0ad10e1fc05b",
     "source_id": "d89a2d6f6665c647e63bf13099e6b36c21e9d9fe:chi_square_calculated.py",
@@ -2648,7 +2648,7 @@
     "source_updated": "2026-10-23"
   },
   "genetics/topic07/bbq-chi2-calculate_statistic-SUPPORT-questions.txt": {
-    "output_fingerprint": "37f7ddb9e4dbe1162565c70aafb690a246e1ba90398f288f3d489d66c86c2ce9",
+    "output_fingerprint": "8a2fdf030b3fe85e7d30528d4a013f4aae092ebfc40a9fb28225d487c145b634",
     "source_commit": "65b49327b3306b43e299711263d427a705531c31",
     "source_fingerprint": "e70716ca37e29503434d45de1e5f8b091ee278df27fa519cb9fc0ad10e1fc05b",
     "source_id": "d89a2d6f6665c647e63bf13099e6b36c21e9d9fe:chi_square_calculated.py",
@@ -2656,7 +2656,7 @@
     "source_updated": "2026-10-23"
   },
   "genetics/topic07/bbq-chi2-choose_table-questions.txt": {
-    "output_fingerprint": "80b996973079f8aeb9511a3631452a9b12922747a24388401a414cdc7e98a014",
+    "output_fingerprint": "c544a5eca1935f775d29d545ecdef4499b5d16e1fa632611d19ce514926a9b51",
     "source_commit": "65b49327b3306b43e299711263d427a705531c31",
     "source_fingerprint": "578929a6e77f0a1222364b6f0f7c65edba857483c680d9b51afb64833722ea85",
     "source_id": "3c8b1d6991600c17a09edc95bcbbdb9b90e03d9c:chi_square_errors.py",
@@ -2664,7 +2664,7 @@
     "source_updated": "2026-10-23"
   },
   "genetics/topic07/bbq-chi2-find_errors-questions.txt": {
-    "output_fingerprint": "f79fc358da7d919c9b63f19edfb1200483d8380963ddc2d400cb2bc3b8178000",
+    "output_fingerprint": "11b88681f2dd4358302cfe90f7857f9034173b35587b4ea83c82a28ce75adf52",
     "source_commit": "65b49327b3306b43e299711263d427a705531c31",
     "source_fingerprint": "c3c17c254809f6be5e4678dba74ad8fc91565fe56038bf582d55e560b45a380a",
     "source_id": "3c8b1d6991600c17a09edc95bcbbdb9b90e03d9c:chi_square_errors.py",
@@ -2672,7 +2672,7 @@
     "source_updated": "2026-10-23"
   },
   "genetics/topic07/bbq-chi2-select_hypothesis-alt-questions.txt": {
-    "output_fingerprint": "0227d17955320b3682164e35693f0fc35590a4bc57329228a30898018739f022",
+    "output_fingerprint": "fc1faf9448d499569008c2a671c23eb4ad5d512e936293ea562050e61234c12b",
     "source_commit": "d6095e2c93d7ff2c8e11560c85ad8d5ad5d795a6",
     "source_fingerprint": "3532df4eaa5e741159fae3a6b41476cf5a92328007f02f8ee6b4d627075d6755",
     "source_id": "566b69080e0aee48e64db813efd8b176b4541653:inheritance-problems/chi_square/chi_square_hypotheses.py",
@@ -2680,7 +2680,7 @@
     "source_updated": "2026-10-25"
   },
   "genetics/topic07/bbq-chi2-select_hypothesis-null-questions.txt": {
-    "output_fingerprint": "50f1637ec42816bb15a93f0f754f931cc3845d8949b48f4dd76435c4d9d8fa5b",
+    "output_fingerprint": "8e02079c5f1743c30ba3b9b02d1778ed5662445672dd794299b2104601b1629e",
     "source_commit": "d6095e2c93d7ff2c8e11560c85ad8d5ad5d795a6",
     "source_fingerprint": "3532df4eaa5e741159fae3a6b41476cf5a92328007f02f8ee6b4d627075d6755",
     "source_id": "566b69080e0aee48e64db813efd8b176b4541653:inheritance-problems/chi_square/chi_square_hypotheses.py",
@@ -2768,28 +2768,108 @@
     "source_updated": null
   },
   "genetics/topic07/bbq-pascal_triangle-MC-questions.txt": {
-    "output_fingerprint": "884db99a28533db50471ef186040a6f76a5cf05a880fef8bc5a3e27d14424b1c",
-    "source_commit": "d7c339195bd5173bf13fd26720aede04a1f2168e",
+    "output_fingerprint": "5a30cb2adc5376a95282b2082107b4f11c86ffa8a18721e6cf50d4238c10a9d8",
+    "source_commit": "a3223b1d8e107e64827bfe91d3dbb217238157ef",
     "source_fingerprint": "04f72dc99dca72200239ae1a423859fe71ad3cb987108f35f3086edddf97bb60",
     "source_id": "38fc860080cc12ab22e3884be378d535492ccf1f:problems/inheritance-problems/pascal_triangle.py",
-    "source_path": "problems/inheritance-problems/pascal_triangle.py",
-    "source_updated": "2026-10-23"
+    "source_path": "problems/inheritance-problems/binomial/pascal_triangle.py",
+    "source_updated": "2026-10-25"
   },
   "genetics/topic07/bbq-probabiliy_of_progeny-questions.txt": {
-    "output_fingerprint": "3d80a4764e34d055c05a4603f61d0333d7ff492e7040b9143f0bbc4cc84c74f3",
+    "output_fingerprint": "ffb11494217b2af0260fccd30f989b9f6df1505f96b64b843dc4830d6d92e89c",
     "source_commit": "43a9d85bd19365f69dce316cd2d8fba92ad5396b",
     "source_fingerprint": "65686d08a1c4297eb82e50dc2fae80e27fad020db7277f3bab2ba14615833c0d",
     "source_id": "af21e74916ae104701d871e6eb48d785c19fad67:probabiliy_of_progeny.py",
-    "source_path": "problems/inheritance-problems/probabiliy_of_progeny.py",
+    "source_path": "problems/inheritance-problems/binomial/probabiliy_of_progeny.py",
     "source_updated": "2026-10-23"
   },
   "genetics/topic07/bbq-progeny_probability_practice-binomial-MC-questions.txt": {
-    "output_fingerprint": "59dd93af4665741aa4d6d9fcbdacde8b0f79261439493ed6e891c709d2b44d4f",
+    "output_fingerprint": "d148213c5018d28d40dd775bc81996deb01585dc58b3794459bb930aa8befd3a",
     "source_commit": "d7c339195bd5173bf13fd26720aede04a1f2168e",
     "source_fingerprint": "3f214e3e5510ea5404027b009883e3ae01e37848c750506060343edb833e1a8c",
     "source_id": "7c4dfeca25859487f61d3db55ea2b5c40f4d08e1:problems/inheritance-problems/progeny_probability_practice.py",
-    "source_path": "problems/inheritance-problems/progeny_probability_practice.py",
+    "source_path": "problems/inheritance-problems/binomial/progeny_probability_practice.py",
     "source_updated": "2026-10-23"
+  },
+  "genetics/topic08/bbq-flies-2_point_test_cross-cis-trans-MC-questions.txt": {
+    "output_fingerprint": "b5cc725ab7d57a228b357daf748f5fa6879287431e0c4890919ba63ad00e86c1",
+    "source_commit": "43ae0efeee0d39aeb78cfbe42116c9a9e0cc154f",
+    "source_fingerprint": "2b6aa5484ae7a2512c269c480c60c2c9075eceedce70d8348b297792e26db6af",
+    "source_id": "4d0e14d53a1c9666cf74947fc8a17d203e893d56:inheritance-problems/two-point_test_cross-cis-trans.py",
+    "source_path": "problems/inheritance-problems/gene_mapping/flies-2_point_test_cross-cis-trans.py",
+    "source_updated": "2026-10-31"
+  },
+  "genetics/topic08/bbq-flies-2_point_test_cross-which_genotypes-MA-PARENTAL-questions.txt": {
+    "output_fingerprint": "ad25475fc219aa74da0aff60fec907f29621fe5563bde37c6aa56bf7ad1eb629",
+    "source_commit": "43ae0efeee0d39aeb78cfbe42116c9a9e0cc154f",
+    "source_fingerprint": "e056fe48ce8f46bbe8c6444350f0469728746283d79cf1f7b9ddd2c637947352",
+    "source_id": "4d0e14d53a1c9666cf74947fc8a17d203e893d56:inheritance-problems/two-point_test_cross-which_genotypes.py",
+    "source_path": "problems/inheritance-problems/gene_mapping/flies-2_point_test_cross-which_genotypes.py",
+    "source_updated": "2026-10-31"
+  },
+  "genetics/topic08/bbq-flies-2_point_test_cross-which_genotypes-MA-RECOMBINANT-questions.txt": {
+    "output_fingerprint": "e6af1b112dde593a7fe320b8376de023ab9957736b5b6254f14c2f7baa88ce1f",
+    "source_commit": "43ae0efeee0d39aeb78cfbe42116c9a9e0cc154f",
+    "source_fingerprint": "e056fe48ce8f46bbe8c6444350f0469728746283d79cf1f7b9ddd2c637947352",
+    "source_id": "4d0e14d53a1c9666cf74947fc8a17d203e893d56:inheritance-problems/two-point_test_cross-which_genotypes.py",
+    "source_path": "problems/inheritance-problems/gene_mapping/flies-2_point_test_cross-which_genotypes.py",
+    "source_updated": "2026-10-31"
+  },
+  "genetics/topic08/bbq-flies-3_point_test_cross-distances_plus-questions.txt": {
+    "output_fingerprint": "a048070338ccad279fe890f024ba174d0be751b93abd06ac275e7b6f8432f950",
+    "source_commit": "d59c5f091003f6ee2b2ec1d17a324cf31f5f55c6",
+    "source_fingerprint": "4b3d4c5068a8684195a7c87f348093c1a2884e01a2678ed4c64084fc64e9ce82",
+    "source_id": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
+    "source_path": "problems/inheritance-problems/gene_mapping/flies-3_point_test_cross-distances_plus.py",
+    "source_updated": "2026-01-11"
+  },
+  "genetics/topic08/bbq-flies-3_point_test_cross-one_gene_distance-MC-questions.txt": {
+    "output_fingerprint": "a5396655997a6dd137b24157a8df61b52e721b4e8980c957af2b42d6cdf94bfa",
+    "source_commit": "b4807d5599769fc135f9ab109f037234bb1b2f3b",
+    "source_fingerprint": "99de4f1099c692e0686ac9e031dcf5fb3a8d797a8bcabecde31d463963e8dad1",
+    "source_id": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
+    "source_path": "problems/inheritance-problems/gene_mapping/flies-3_point_test_cross-one_gene_distance.py",
+    "source_updated": "2026-10-31"
+  },
+  "genetics/topic08/bbq-flies-3_point_test_cross-one_gene_distance-NUM-questions.txt": {
+    "output_fingerprint": "a1f5d21cd18437daaf87ec3d00355475cb49c3a4337da139f3cf3d14c1f0e045",
+    "source_commit": "b4807d5599769fc135f9ab109f037234bb1b2f3b",
+    "source_fingerprint": "99de4f1099c692e0686ac9e031dcf5fb3a8d797a8bcabecde31d463963e8dad1",
+    "source_id": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
+    "source_path": "problems/inheritance-problems/gene_mapping/flies-3_point_test_cross-one_gene_distance.py",
+    "source_updated": "2026-10-31"
+  },
+  "genetics/topic08/bbq-flies-3_point_test_cross-which_genotypes-DOUBLE-questions.txt": {
+    "output_fingerprint": "7c831b5c071251c72b9d70e9bae88ee046efcbf0d6a93965c39f9d1ace056b6d",
+    "source_commit": "d5b1eaf8be74fa9d48d04e626721c2e9a72da89c",
+    "source_fingerprint": "e0c58ccaa0c7e86fd491aa7da3e0a1f36a177f2b41f82a0cf895108dfb8e9ee3",
+    "source_id": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
+    "source_path": "problems/inheritance-problems/gene_mapping/flies-3_point_test_cross-which_genotypes.py",
+    "source_updated": "2026-04-19"
+  },
+  "genetics/topic08/bbq-flies-3_point_test_cross-which_genotypes-GENES-questions.txt": {
+    "output_fingerprint": "83dd38abfc2b25c77ef45b97a149d75cf497fa48c31d2bb480abcc9d33267b05",
+    "source_commit": "d5b1eaf8be74fa9d48d04e626721c2e9a72da89c",
+    "source_fingerprint": "e0c58ccaa0c7e86fd491aa7da3e0a1f36a177f2b41f82a0cf895108dfb8e9ee3",
+    "source_id": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
+    "source_path": "problems/inheritance-problems/gene_mapping/flies-3_point_test_cross-which_genotypes.py",
+    "source_updated": "2026-04-19"
+  },
+  "genetics/topic08/bbq-flies-3_point_test_cross-which_genotypes-PARENTAL-questions.txt": {
+    "output_fingerprint": "c93a62dc833e522b3f776508374758bc56b4f38ee3a43dc4662371fea457d2e0",
+    "source_commit": "d5b1eaf8be74fa9d48d04e626721c2e9a72da89c",
+    "source_fingerprint": "e0c58ccaa0c7e86fd491aa7da3e0a1f36a177f2b41f82a0cf895108dfb8e9ee3",
+    "source_id": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
+    "source_path": "problems/inheritance-problems/gene_mapping/flies-3_point_test_cross-which_genotypes.py",
+    "source_updated": "2026-04-19"
+  },
+  "genetics/topic08/bbq-flies-4_point_test-cross_gene_map-distances_plus-questions.txt": {
+    "output_fingerprint": "5a7c39db883bfe1ec83cb3de4ffa650f8e2bb581576a94ed30cbe258907b1c8b",
+    "source_commit": "cc465cad736e63b1b5f26109149686e4f669ec4e",
+    "source_fingerprint": "d9b6e77d0832efea30a1082ab7dabb89440884e1c9f35c3d426882cb5ca0f202",
+    "source_id": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
+    "source_path": "problems/inheritance-problems/gene_mapping/flies-4_point_test-cross_gene_map-distances_plus.py",
+    "source_updated": "2026-10-27"
   },
   "genetics/topic08/bbq-four_point_test-cross_gene_map-distances_plus-questions.txt": {
     "output_fingerprint": "befe91f1f35640b3bd7925b439307eb417fe33e1b70e3bafdbcb23c443fac117",
@@ -2800,7 +2880,7 @@
     "source_updated": "2026-10-27"
   },
   "genetics/topic08/bbq-tetrad_ordered-centromere_distance-MC-questions.txt": {
-    "output_fingerprint": "4a3c91e70da1d886d63e09b7498cd15f9a01528cf86dd13f3efe4a67d1fe0239",
+    "output_fingerprint": "ef79735358f70de8a0b1362fe3c350bc7fc4a9f9da2e1d268cf0005c74393718",
     "source_commit": "72e3aab70fa957d23d8f1877cb9efc5efbf49546",
     "source_fingerprint": "e5a07882fc10d2ad049534e4f6087368efce9786e07009b9cb34e318655aa822",
     "source_id": "d865b5bf1d9c787d57e133be98be9bf574114dbb:inheritance-problems/ordered_tetrad-centromere_distance.py",
@@ -2808,7 +2888,7 @@
     "source_updated": "2026-10-31"
   },
   "genetics/topic08/bbq-tetrad_ordered-centromere_distance-NUM-questions.txt": {
-    "output_fingerprint": "227cb23b390e74306cf71a4dcc0ebf8e40a8d3e086be03f682c6732d548c06a2",
+    "output_fingerprint": "995178124121de86b0f19c037e95fb759a167bbc50574fcc13562ea0c3f5a64d",
     "source_commit": "72e3aab70fa957d23d8f1877cb9efc5efbf49546",
     "source_fingerprint": "e5a07882fc10d2ad049534e4f6087368efce9786e07009b9cb34e318655aa822",
     "source_id": "d865b5bf1d9c787d57e133be98be9bf574114dbb:inheritance-problems/ordered_tetrad-centromere_distance.py",
@@ -2912,39 +2992,39 @@
     "source_updated": "2026-04-19"
   },
   "genetics/topic09/bbq-MATCH-chromosome_alterations-questions.txt": {
-    "output_fingerprint": "cbe0ba524ff3ce20fb937217c2ede9d74851fc35a6f9757b76e16cddcb800f2e",
-    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
-    "source_fingerprint": "55d06cc8c43dce3d6cc61d0861808c6502ee8257b58b622e8dad5e141cb527b0",
+    "output_fingerprint": "f6df648688db9699999f5d2ba6a4e54ef96370e833d925b5d3de8148d6e087d6",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "8bb966c64f2728b2ac62a213576d98b802b8d0c4ab656bd3410d298d364765e8",
     "source_id": "0bf36f22439a2c6bf7e6e786ec7a680c9457de71:matching_sets/chromosome_alterations.yml",
     "source_path": "problems/matching_sets/inheritance/chromosome_alterations.yml",
-    "source_updated": "2026-10-06"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic09/bbq-MATCH-chromosome_shapes-questions.txt": {
-    "output_fingerprint": "d6f6620fab508b1e970019fbcbfe64d8584e7c72d7e1563eb0648a6d4911f923",
-    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
-    "source_fingerprint": "42d1237e9d642be445d3b965071991c3c5cf4088b2aa087988a17c5a1ea72c2e",
+    "output_fingerprint": "ee433b226314c7a1405f46b73e72bedd993aa24e04f28e0987f39f3480fa6b7c",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "2f42ae89872401d3903dc36803b3602a7fd5c38420e8a28faee5f0eb4f26944e",
     "source_id": "d40f13f4434ba5784f819bf1406e3410321f35c3:matching_sets/chromosome_shapes.yml",
     "source_path": "problems/matching_sets/inheritance/chromosome_shapes.yml",
-    "source_updated": "2026-10-06"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic09/bbq-WOMC-chromosome_alterations-questions.txt": {
-    "output_fingerprint": "5e7de56b5aef6fb25f96aa5d89928c011b7a5d5ba79a8ccba970c61bd7c8fccb",
-    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
-    "source_fingerprint": "55d06cc8c43dce3d6cc61d0861808c6502ee8257b58b622e8dad5e141cb527b0",
+    "output_fingerprint": "a6f7ad3cce9b4bba82ac4911f93401257deffcc763d5a2bca53e5c0485e07f00",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "8bb966c64f2728b2ac62a213576d98b802b8d0c4ab656bd3410d298d364765e8",
     "source_id": "0bf36f22439a2c6bf7e6e786ec7a680c9457de71:matching_sets/chromosome_alterations.yml",
     "source_path": "problems/matching_sets/inheritance/chromosome_alterations.yml",
-    "source_updated": "2026-10-06"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic09/bbq-WOMC-chromosome_shapes-questions.txt": {
-    "output_fingerprint": "f91c83c937140b679b2f5efbf290d2af0b2a8a082a9362b294d9ba9a976a735d",
-    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
-    "source_fingerprint": "42d1237e9d642be445d3b965071991c3c5cf4088b2aa087988a17c5a1ea72c2e",
+    "output_fingerprint": "44fe5994e18819b2c445669dbaa133920ccd26d2adc8f75bdb405de6fef29d7e",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "2f42ae89872401d3903dc36803b3602a7fd5c38420e8a28faee5f0eb4f26944e",
     "source_id": "d40f13f4434ba5784f819bf1406e3410321f35c3:matching_sets/chromosome_shapes.yml",
     "source_path": "problems/matching_sets/inheritance/chromosome_shapes.yml",
-    "source_updated": "2026-10-06"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic09/bbq-chromosome_alterations_visual-matching-questions.txt": {
-    "output_fingerprint": "5ffdb2e0889226d349a6c52d27cfe1976bf8bf2b0d3dc91a36d0280bf1597728",
+    "output_fingerprint": "18a1997f5c9023d8bea0d4a357a6c356dbc6f2df5ea25d943db52be8f81c7a0d",
     "source_commit": "15ff39a0d3584557d346acb29d652fe50c9a5a58",
     "source_fingerprint": "c1aa26382bf5edaa801cecd55745b23d0348cd7170a35743d500b0af1a33fe20",
     "source_id": "15ff39a0d3584557d346acb29d652fe50c9a5a58:problems/inheritance-problems/translocation/chromosome_alterations_visual.py",
@@ -2952,7 +3032,7 @@
     "source_updated": "2026-11-01"
   },
   "genetics/topic09/bbq-chromosome_alterations_visual-which_one-flipped-questions.txt": {
-    "output_fingerprint": "59bb4e5d919b6f8ebf1babc99410effc6ef63c38b984221314b27681f06ce405",
+    "output_fingerprint": "2d5922b731f9a0cadf9b7d832cdb40beb5794491211e5fe0dc488759d68d5df1",
     "source_commit": "15ff39a0d3584557d346acb29d652fe50c9a5a58",
     "source_fingerprint": "c1aa26382bf5edaa801cecd55745b23d0348cd7170a35743d500b0af1a33fe20",
     "source_id": "15ff39a0d3584557d346acb29d652fe50c9a5a58:problems/inheritance-problems/translocation/chromosome_alterations_visual.py",
@@ -2960,7 +3040,7 @@
     "source_updated": "2026-11-01"
   },
   "genetics/topic09/bbq-chromosome_alterations_visual-which_one-questions.txt": {
-    "output_fingerprint": "1dccee63b94817910264baf8f4d4812c64f73caeb3a622628c74c5d6549902fc",
+    "output_fingerprint": "e7e2594d7872eaab43dd558385acf7f8b209745019f7064eaf723615ad66d632",
     "source_commit": "15ff39a0d3584557d346acb29d652fe50c9a5a58",
     "source_fingerprint": "c1aa26382bf5edaa801cecd55745b23d0348cd7170a35743d500b0af1a33fe20",
     "source_id": "15ff39a0d3584557d346acb29d652fe50c9a5a58:problems/inheritance-problems/translocation/chromosome_alterations_visual.py",
@@ -2968,7 +3048,7 @@
     "source_updated": "2026-11-01"
   },
   "genetics/topic09/bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt": {
-    "output_fingerprint": "2ede5e2ef3a63bfff1f22de12b4afe540b20b0d33dd41e530ff06a48f3d08d28",
+    "output_fingerprint": "46a527ea4072243d4bbaae815de15a08fe6b699cb8348dce8ba27030950d47cf",
     "source_commit": "017faf99cfc93142c7e3ed4e0cddface120ed57c",
     "source_fingerprint": "4beb14cec647a6dab3a8f6a279c8a5c5754b53e8e39b233e5f9a99e6e6619821",
     "source_id": "a3cf91041beb4fb25655558be0799f0bd2cbd2fd:inheritance-problems/cytogenetic_notation-aneuploidy.py",
@@ -2976,7 +3056,7 @@
     "source_updated": "2025-12-26"
   },
   "genetics/topic09/bbq-cytogenetic_notation-band_order-5_choices-questions.txt": {
-    "output_fingerprint": "b4bb7395281112367770c7beb3e4d584ef0a5c52ef98e7f7697fa17822280a67",
+    "output_fingerprint": "df4f823e09870a8d3f78acc6c0a614c7c2e75e5954950bc631f9a527d4eeb9a2",
     "source_commit": "a63736b8ef007761738cec0a713e7516ce6341f4",
     "source_fingerprint": "1a9cc4cd8cb5acada9663eec7e72eea73df36c7da679f49115f6f1fd3072d997",
     "source_id": "a63736b8ef007761738cec0a713e7516ce6341f4:inheritance-problems/cytogenetic_notation/cytogenetic_notation-band_order.py",
@@ -2984,7 +3064,7 @@
     "source_updated": "2026-01-04"
   },
   "genetics/topic09/bbq-cytogenetic_notation-disorders-5_choices-questions.txt": {
-    "output_fingerprint": "25268cea11bbb1df5830d9194352b9966bf0420574b4b5ddbcce313e66faa926",
+    "output_fingerprint": "8f6defe83e367a110fc07abf97756466bcb0280c60c6fc7f237b265487de4c85",
     "source_commit": "42a7ea1c8318033c2e9445c66ae046ede2d43aea",
     "source_fingerprint": "12a2142444b038b1b88622c432d5d916beb7c1df4945164cdb7fa2e17a7bdd5b",
     "source_id": "a63736b8ef007761738cec0a713e7516ce6341f4:inheritance-problems/cytogenetic_notation/cytogenetic_notation-disorders.py",
@@ -2992,7 +3072,7 @@
     "source_updated": "2026-04-27"
   },
   "genetics/topic09/bbq-cytogenetic_notation-rearrangements-questions.txt": {
-    "output_fingerprint": "fa67245a2d3d82f703a3451e3024f3081a2d180aea5c8c507b736b4f0ca6d554",
+    "output_fingerprint": "33662346c3a2635e4eefcea8b244730c4dfe639e0d2e4631a35bf5d57550520f",
     "source_commit": "63e2c8bb39634be0adb3b85d166f97d88d5c4b2e",
     "source_fingerprint": "53c022df9f1ce7cf9fd3d63928cd89a504d8f4db01a7152960e389311b6a66ed",
     "source_id": "6d485e4796c512baf5416d0838f71adbe8e833a3:inheritance-problems/cytogenetic_notation-rearrangements.py",
@@ -3000,7 +3080,7 @@
     "source_updated": "2026-01-10"
   },
   "genetics/topic09/bbq-deletion_mutant_random-04_genes-MC-questions.txt": {
-    "output_fingerprint": "968b6b765d726547dd4ed07efe0289355df3afc3ae9e2203c2cd18678f2e20fd",
+    "output_fingerprint": "f622cc3dc968fbbc81e0c8f9021e99521ca2456b34253231de8d358d1ac66efb",
     "source_commit": "72e3aab70fa957d23d8f1877cb9efc5efbf49546",
     "source_fingerprint": "73033059debdbf812bf2652a223bf7b2b90a0ed20529a21f76f5ba0980a6ec7d",
     "source_id": "6ab4a2f585bc363844f0aa4a1af953c18666ca0c:deletionMutants.py",
@@ -3008,7 +3088,7 @@
     "source_updated": "2026-10-31"
   },
   "genetics/topic09/bbq-deletion_mutant_random-08_genes-complementation-MC-questions.txt": {
-    "output_fingerprint": "a73990cecf8b11b9162b28dece5ed5dc1ad052cfb3b5983be5cf6f62cf6ee983",
+    "output_fingerprint": "676a714e6c99a76c497e3546cbb1a5ea63897b311a77ad7598932e826642c877",
     "source_commit": "72e3aab70fa957d23d8f1877cb9efc5efbf49546",
     "source_fingerprint": "73033059debdbf812bf2652a223bf7b2b90a0ed20529a21f76f5ba0980a6ec7d",
     "source_id": "6ab4a2f585bc363844f0aa4a1af953c18666ca0c:deletionMutants.py",
@@ -3016,7 +3096,7 @@
     "source_updated": "2026-10-31"
   },
   "genetics/topic09/bbq-deletion_mutant_random-12_genes-FIB-questions.txt": {
-    "output_fingerprint": "1488245cbd12a362c3e4f5fb3036eabf6ba273e3f9dbb6fef960d560f932f594",
+    "output_fingerprint": "462b2c35e11aa5aa5718cbe797fd77ebc8dfcf6d6463f6962743808f60621170",
     "source_commit": "72e3aab70fa957d23d8f1877cb9efc5efbf49546",
     "source_fingerprint": "73033059debdbf812bf2652a223bf7b2b90a0ed20529a21f76f5ba0980a6ec7d",
     "source_id": "6ab4a2f585bc363844f0aa4a1af953c18666ca0c:deletionMutants.py",
@@ -3024,7 +3104,7 @@
     "source_updated": "2026-10-31"
   },
   "genetics/topic09/bbq-deletion_mutant_words-05-06_genes-complementation-FIB-questions.txt": {
-    "output_fingerprint": "1be1a2b16c2d5efc3d41d4a801cc7b4a970f3e644102214c7231cd312bc731e2",
+    "output_fingerprint": "27f27798d0181ebd7fc8168aac974dfaf11f0dd9903c3efb211daf7067693785",
     "source_commit": "15ff39a0d3584557d346acb29d652fe50c9a5a58",
     "source_fingerprint": "fdfca28b0d94066633e21d9c5120ecdbd8e779196c6202b61074cb01fbd4fd40",
     "source_id": "6ab4a2f585bc363844f0aa4a1af953c18666ca0c:deletionMutants.py",
@@ -3032,7 +3112,7 @@
     "source_updated": "2026-11-01"
   },
   "genetics/topic09/bbq-letter_translocation_problem_color-questions.txt": {
-    "output_fingerprint": "fe04dd4ebd4603395fba3f56a51bb048c948c7c8c2ecccf266c625f200c042f0",
+    "output_fingerprint": "b6baaa0893d631fa9091e082d822b64ed5616ba7deef67780a40fe198c097d94",
     "source_commit": "1c1408627f873914e8d5a42abd736c2860e1b3aa",
     "source_fingerprint": "de97b4fdeae4b6d9d195336bd73af4e680a900a7ec0a6f5b0ea5eb358caf709c",
     "source_id": "5a4e22f914f58a8ae11b47aedb08258108da0989:inheritance-problems/letter_translocation_problem_color.py",
@@ -3040,7 +3120,7 @@
     "source_updated": "2026-10-31"
   },
   "genetics/topic09/bbq-letter_translocation_problem_visual-questions.txt": {
-    "output_fingerprint": "b039e2369ef8c40de9abc5dbd2b9b0ad249745569497e86a15bd529619d81a49",
+    "output_fingerprint": "a50a6d00716c153bc6d71e8b2e20b15bbc238e274da8e38efa6c5c0ac0d6a084",
     "source_commit": "1c1408627f873914e8d5a42abd736c2860e1b3aa",
     "source_fingerprint": "fc0f6a953fc9ad821eb6b65247721b92ee4b823ca488167120443d69813d2072",
     "source_id": "1c1408627f873914e8d5a42abd736c2860e1b3aa:problems/inheritance-problems/translocation/letter_translocation_problem_visual.py",
@@ -3048,7 +3128,7 @@
     "source_updated": "2026-10-31"
   },
   "genetics/topic09/bbq-polyploid-gametes-questions.txt": {
-    "output_fingerprint": "0477ebbb4f1945974e0716c38fdec9cb5febb6b4ff2435831102d56df0a7fb27",
+    "output_fingerprint": "1865144a94a8b838bcec894b117347f76b0d7eeac042f32171d59990c74e4c67",
     "source_commit": "63e2c8bb39634be0adb3b85d166f97d88d5c4b2e",
     "source_fingerprint": "3342bdd8bdda4b3e9c646423e44db29c5e087b7a2576a2c14d744ea70770dacc",
     "source_id": "d40f13f4434ba5784f819bf1406e3410321f35c3:inheritance-problems/polyploid-gametes.py",
@@ -3056,7 +3136,7 @@
     "source_updated": "2026-01-10"
   },
   "genetics/topic09/bbq-polyploid-monoploid_v_haploid-questions.txt": {
-    "output_fingerprint": "26b9dc5354603acaf470e1cd518b6283d19bbc467feee3ec624c8f67ce0c7201",
+    "output_fingerprint": "40b8a09cdaef776a899e5fa0d59fa7e9eff2e49a81a9b928c5fa45f25f97f8e2",
     "source_commit": "15ff39a0d3584557d346acb29d652fe50c9a5a58",
     "source_fingerprint": "b00ff3abb75b0d6463a726739420b39e15907a84063bb76f66a44b11ac521d2d",
     "source_id": "f02ddfe4fad3affb9d2982ab25a97341080a5777:polyploid.py",
@@ -3064,7 +3144,7 @@
     "source_updated": "2026-11-01"
   },
   "genetics/topic09/bbq-robertsonian-questions.txt": {
-    "output_fingerprint": "9030a78d7337223eff2ea2e29d7c94bbd0886464f080ae400a602fe10a81d7ae",
+    "output_fingerprint": "4b38abfd26dfe71a4f7b7c4ea2e1f0eaa8e49af20b7e68c5f995da35b39b5ee7",
     "source_commit": "c5efab1f0146e87ab165419dedfbaf3c0cbab820",
     "source_fingerprint": "ca231b20ef449f3682e6608adc4ae5838ddc27107fa2b3e7544b287efcb448ae",
     "source_id": "f02ddfe4fad3affb9d2982ab25a97341080a5777:robertsonian.py",
@@ -3072,7 +3152,7 @@
     "source_updated": "2026-10-31"
   },
   "genetics/topic09/bbq-translocation_meiosis_table-questions.txt": {
-    "output_fingerprint": "f2bbf53ee2b659e35e70dd7a27421a7aa8aeb3d70e01b1818d33d04378a4f0c3",
+    "output_fingerprint": "b92fc1488f54f1d76b3641df4e202e71bbab192e3976b2cba0e7923afcd95f6f",
     "source_commit": "c5efab1f0146e87ab165419dedfbaf3c0cbab820",
     "source_fingerprint": "ff13e04f8fd37953e87a837b7d94c50ef62b1d82da1f849e619981b509f519a8",
     "source_id": "f02ddfe4fad3affb9d2982ab25a97341080a5777:translocation_meiosis.py",
@@ -3080,15 +3160,15 @@
     "source_updated": "2026-10-31"
   },
   "genetics/topic10/bbq-MATCH-population_genetics_terms-questions.txt": {
-    "output_fingerprint": "0eafaa613a7986847f5f0db371584c99f62354bc932aa8aa6ec430c3e5b35cfe",
-    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
-    "source_fingerprint": "d90e64793baa6d01562cd4a4a00953f62473915c8abb7ed098cd1ca6c923dc93",
+    "output_fingerprint": "df9819ffc279a591ee93b79438cde1384431819b9f98504a59cab6a2c0703a5c",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "20aed8ed70189d40494b4d745c015e1c9d4cded47438ada72a8bf3bccbb57094",
     "source_id": "c2e5c4ce59376fd7925588f3a9b9c8ff2c933726:matching_sets/population_genetics_terms.yml",
     "source_path": "problems/matching_sets/inheritance/population_genetics_terms.yml",
-    "source_updated": "2026-10-06"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic10/bbq-TFMS-h-w_non-evolve_criteria-questions.txt": {
-    "output_fingerprint": "3ade9bdaeae6dffaf571016d81710032909d1114af297cff16c8352c1b17c7fd",
+    "output_fingerprint": "bc936c7d67a4a4ba76e244d5ace9271e13d00a2bde9ae7a7777cdd67b4c43769",
     "source_commit": "37b159a85e3857afc98bf085e1cf3f85b824e472",
     "source_fingerprint": "b9f3b29931738fca94d045bdcdcb68894edc922de7e7f4cde934b95380049740",
     "source_id": "b5d8882d231bfc07c5ece511617130eac7ccf3f1:multiple_choice_statements/h-w_non-evolve_criteria.yml",
@@ -3096,15 +3176,15 @@
     "source_updated": "2026-01-23"
   },
   "genetics/topic10/bbq-WOMC-population_genetics_terms-questions.txt": {
-    "output_fingerprint": "61d5cf83fa9ad901f7fdbf9d04856a945ccc065e077c3ebc02f2f381992ab4f8",
-    "source_commit": "cea153c7c63f6a0fe3f513b8c2fc64d19093dd85",
-    "source_fingerprint": "d90e64793baa6d01562cd4a4a00953f62473915c8abb7ed098cd1ca6c923dc93",
+    "output_fingerprint": "374a66b2f13f339c09bcc2b12dde53558553330bc677b7d02f821f49f34aee98",
+    "source_commit": "c239bb43c5ce59d412ca57250f4b73a6263564ad",
+    "source_fingerprint": "20aed8ed70189d40494b4d745c015e1c9d4cded47438ada72a8bf3bccbb57094",
     "source_id": "c2e5c4ce59376fd7925588f3a9b9c8ff2c933726:matching_sets/population_genetics_terms.yml",
     "source_path": "problems/matching_sets/inheritance/population_genetics_terms.yml",
-    "source_updated": "2026-10-06"
+    "source_updated": "2026-11-09"
   },
   "genetics/topic10/bbq-chi2-test_hardy_weinberg-questions.txt": {
-    "output_fingerprint": "ac0284c58578831c1e42af650a10c98cc218c7de3bdc4b97f30497266ebc50be",
+    "output_fingerprint": "aecc39cd25c8ebb7c99a0f44db74d33260ec90c509a9fb22504a67ecaa50fa3b",
     "source_commit": "65b49327b3306b43e299711263d427a705531c31",
     "source_fingerprint": "7b01c74c2ac01565fb49f112b890b5026d994a4193a6af1baa63bcf908ee9024",
     "source_id": "bae8f50e095fd7bdc14e36d6772e6d1c79fd9ef2:chi_square_hardy_weinberg.py",
@@ -3120,7 +3200,7 @@
     "source_updated": null
   },
   "genetics/topic10/bbq-hardy_weinberg_mc_type-questions.txt": {
-    "output_fingerprint": "6e8bbb19d7c963f5a04ab7e9b8a05bb125ca6ccdff2ac39dbe86a6b279328e5f",
+    "output_fingerprint": "6d7aabaa32a652278684f063f5e81b4363de1365f54c5e0df7b84c62c456468e",
     "source_commit": "63e2c8bb39634be0adb3b85d166f97d88d5c4b2e",
     "source_fingerprint": "77d20fc2c676990c03b9b40557fc504291e6b73bf5e5a1a0359cae5f4fa3fe11",
     "source_id": "e7ae9002d7e7e437f3a9278f415b787ff63ae975:inheritance-problems/hardy_weinberg_mc_type.py",
@@ -3128,7 +3208,7 @@
     "source_updated": "2026-01-10"
   },
   "genetics/topic10/bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt": {
-    "output_fingerprint": "11e4aae746931ca6394f145bb91e20a5d37ff47234ad1ca90fd307d69424c94f",
+    "output_fingerprint": "3f48e65faeaf3a4ebcb04aaf836110f7805c8d6bb3ad75a10f1948ff2a2ca804",
     "source_commit": "ee7317a468df809c77c826036fe4f01e41f22fb3",
     "source_fingerprint": "6bb65efd2522b5414a4932ece31fb1f4f6fdd1bfd04b051b5be6305b377907cf",
     "source_id": "4e17403d3b1b022886aac0ae8a40f6aefadc090a:hardy_weinberg.py",
@@ -3136,7 +3216,7 @@
     "source_updated": "2026-01-17"
   },
   "genetics/topic11/bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-questions.txt": {
-    "output_fingerprint": "a77f0e5f9fe9e4415dce3de8c80f7fa8105b3b9f8afea59b22236cee24e96a8f",
+    "output_fingerprint": "c71d578c29f5be4885e9552db4902f4fe8c2bdd62fcaf705e9c355b649a2ff5c",
     "source_commit": "71855f440105c9eef3ad58bfa77f11c4bca36b2a",
     "source_fingerprint": "86c1dce7a1327c6871c969066bd3851bf23a9f4852f63b4930b15751e5cf212f",
     "source_id": "b32382f761460e195fadf31604fa6809f888b906:inheritance-problems/gene_tree_choice_plus.py",
@@ -3144,7 +3224,7 @@
     "source_updated": "2026-10-12"
   },
   "genetics/topic11/bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-questions.txt": {
-    "output_fingerprint": "0711c0a7b64997818c0abae96cf2396395646ffbc8f3a39322401e11f267e43f",
+    "output_fingerprint": "2157db61bb5f88867eada233522902baacb1310f50a608e3831a7e1182f6b551",
     "source_commit": "71855f440105c9eef3ad58bfa77f11c4bca36b2a",
     "source_fingerprint": "86c1dce7a1327c6871c969066bd3851bf23a9f4852f63b4930b15751e5cf212f",
     "source_id": "b32382f761460e195fadf31604fa6809f888b906:inheritance-problems/gene_tree_choice_plus.py",
@@ -3152,7 +3232,7 @@
     "source_updated": "2026-10-12"
   },
   "genetics/topic11/bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-questions.txt": {
-    "output_fingerprint": "8ff4bcc06c9fcb9b9255bc8f9d4e20f3f5e589e4c5983b920f413b22162ef680",
+    "output_fingerprint": "a27300a66d534180c9bd9d09054d446058e0bfe03b2bcbca125c9ab333173601",
     "source_commit": "71855f440105c9eef3ad58bfa77f11c4bca36b2a",
     "source_fingerprint": "86c1dce7a1327c6871c969066bd3851bf23a9f4852f63b4930b15751e5cf212f",
     "source_id": "b32382f761460e195fadf31604fa6809f888b906:inheritance-problems/gene_tree_choice_plus.py",
@@ -3160,7 +3240,7 @@
     "source_updated": "2026-10-12"
   },
   "genetics/topic11/bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-questions.txt": {
-    "output_fingerprint": "5b0f49d055ce1a46b5fc41f7dfb4c3747c449488d6db3bed53020b9e2f303993",
+    "output_fingerprint": "cc6015411ddbc62cf29030fa993c5c1401f5660879d8c4b42bd31c5a992129d2",
     "source_commit": "71855f440105c9eef3ad58bfa77f11c4bca36b2a",
     "source_fingerprint": "86c1dce7a1327c6871c969066bd3851bf23a9f4852f63b4930b15751e5cf212f",
     "source_id": "b32382f761460e195fadf31604fa6809f888b906:inheritance-problems/gene_tree_choice_plus.py",
@@ -3168,7 +3248,7 @@
     "source_updated": "2026-10-12"
   },
   "genetics/topic11/bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-questions.txt": {
-    "output_fingerprint": "55f02a200bc8300e056dcff02b56fcd2c6738d0564d4f53f2590e654a789d1d1",
+    "output_fingerprint": "0a421047f4af79deba5f48103f4986e1b9557d01218b5e2d7121557498352f9f",
     "source_commit": "71855f440105c9eef3ad58bfa77f11c4bca36b2a",
     "source_fingerprint": "86c1dce7a1327c6871c969066bd3851bf23a9f4852f63b4930b15751e5cf212f",
     "source_id": "b32382f761460e195fadf31604fa6809f888b906:inheritance-problems/gene_tree_choice_plus.py",
@@ -3176,7 +3256,7 @@
     "source_updated": "2026-10-12"
   },
   "genetics/topic11/bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt": {
-    "output_fingerprint": "fc85c67c7f69ce4d5355c638403e8cb25f529c058a7c2da3f9bde41e0c502c40",
+    "output_fingerprint": "4a56ebb0a29cb58cb27a6737c1e5c77bdb4ea4f2fc3d19ab759b4e0de24e4082",
     "source_commit": "71855f440105c9eef3ad58bfa77f11c4bca36b2a",
     "source_fingerprint": "dd2f7543e778f7d26b0751d86e8aacd25adca6d6ffac345ad14fec615bfbad78",
     "source_id": "26236438dbbc3c37b779b64eb552a9ae5414424d:inheritance-problems/gene_tree_matches.py",
@@ -3184,7 +3264,7 @@
     "source_updated": "2026-10-12"
   },
   "genetics/topic11/bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt": {
-    "output_fingerprint": "07fcb3be5322c366a48432b355dbae1f28b73aea6e33ecd55ddc753ef61c724d",
+    "output_fingerprint": "5f5a58e3ee8793a7e195b1fd3f8016147a84fbfa67f073815b9b3c909ceddb8a",
     "source_commit": "71855f440105c9eef3ad58bfa77f11c4bca36b2a",
     "source_fingerprint": "dd2f7543e778f7d26b0751d86e8aacd25adca6d6ffac345ad14fec615bfbad78",
     "source_id": "26236438dbbc3c37b779b64eb552a9ae5414424d:inheritance-problems/gene_tree_matches.py",
@@ -3192,7 +3272,7 @@
     "source_updated": "2026-10-12"
   },
   "genetics/topic11/bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt": {
-    "output_fingerprint": "c586ef9ff3d0ecf11c6363cc3b07b7f1521dbe914f37b56a6bebbb9f2f45c587",
+    "output_fingerprint": "3ce478ba8d7344ae09a9d127a50e115f18457f8c54ceef287155591d424fe1ef",
     "source_commit": "71855f440105c9eef3ad58bfa77f11c4bca36b2a",
     "source_fingerprint": "dd2f7543e778f7d26b0751d86e8aacd25adca6d6ffac345ad14fec615bfbad78",
     "source_id": "26236438dbbc3c37b779b64eb552a9ae5414424d:inheritance-problems/gene_tree_matches.py",
@@ -3200,7 +3280,7 @@
     "source_updated": "2026-10-12"
   },
   "genetics/topic11/bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt": {
-    "output_fingerprint": "ecf8353ed51a2545856b2329074cbf4eacc3b58007729a349fcfa2c05427f550",
+    "output_fingerprint": "c3525c3d31ee40eed98d8d4ac91f701b572ce6ffe23a46e36576e1464e43ef3c",
     "source_commit": "71855f440105c9eef3ad58bfa77f11c4bca36b2a",
     "source_fingerprint": "dd2f7543e778f7d26b0751d86e8aacd25adca6d6ffac345ad14fec615bfbad78",
     "source_id": "26236438dbbc3c37b779b64eb552a9ae5414424d:inheritance-problems/gene_tree_matches.py",

@@ -356,33 +356,9 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="unique-offspring-genotypes-from-four-gene-crosses-with-hint">
-
-## 4.15 Unique Offspring Genotypes from Four-Gene Crosses (With Hint) {#unique-offspring-genotypes-from-four-gene-crosses-with-hint}
-
-<div id="unique_cross_genotypes-with_hint-4_genes-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-unique_cross_genotypes-with_hint-4_genes.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
-<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-unique_cross_genotypes-with_hint-4_genes.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt" data-format="human_readable" data-filename="human_readable-unique_cross_genotypes-with_hint-4_genes.html" aria-label="Generate Human-Readable">Human-Readable</button>
-<span class="qpm-package-status" role="status" aria-live="polite"></span>
-<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div>
-
-<div class="qpm-selftest" data-bbq="bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt">
-<div class="selftest-question-header selftest-question-placeholder">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
-</div>
-  <div class="selftest-reroll-content"></div>
-</div>
-
-
-</section>
-
 <section class="problem-set" markdown="1" aria-labelledby="offspring-phenotype-counts-from-genetic-crosses-4-genes-with-hint">
 
-## 4.16 Offspring Phenotype Counts from Genetic Crosses (4 Genes, With Hint) {#offspring-phenotype-counts-from-genetic-crosses-4-genes-with-hint}
+## 4.15 Offspring Phenotype Counts from Genetic Crosses (4 Genes, With Hint) {#offspring-phenotype-counts-from-genetic-crosses-4-genes-with-hint}
 
 <div id="unique_cross_phenotypes-phenotypes-with_hint-4_genes-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-unique_cross_phenotypes-phenotypes-with_hint-4_genes-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -404,33 +380,9 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 
 </section>
 
-<section class="problem-set" markdown="1" aria-labelledby="unique-offspring-phenotypes-from-four-gene-crosses-with-hint">
-
-## 4.17 Unique Offspring Phenotypes from Four-Gene Crosses (With Hint) {#unique-offspring-phenotypes-from-four-gene-crosses-with-hint}
-
-<div id="unique_cross_phenotypes-with_hint-4_genes-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-unique_cross_phenotypes-with_hint-4_genes-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-unique_cross_phenotypes-with_hint-4_genes-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-unique_cross_phenotypes-with_hint-4_genes.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
-<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-unique_cross_phenotypes-with_hint-4_genes-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-unique_cross_phenotypes-with_hint-4_genes.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-unique_cross_phenotypes-with_hint-4_genes-questions.txt" data-format="human_readable" data-filename="human_readable-unique_cross_phenotypes-with_hint-4_genes.html" aria-label="Generate Human-Readable">Human-Readable</button>
-<span class="qpm-package-status" role="status" aria-live="polite"></span>
-<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div>
-
-<div class="qpm-selftest" data-bbq="bbq-unique_cross_phenotypes-with_hint-4_genes-questions.txt">
-<div class="selftest-question-header selftest-question-placeholder">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
-</div>
-  <div class="selftest-reroll-content"></div>
-</div>
-
-
-</section>
-
 <section class="problem-set" markdown="1" aria-labelledby="unique-gamete-counts-from-a-parental-genotype-4-genes-with-hint">
 
-## 4.18 Unique Gamete Counts from a Parental Genotype (4 Genes, With Hint) {#unique-gamete-counts-from-a-parental-genotype-4-genes-with-hint}
+## 4.16 Unique Gamete Counts from a Parental Genotype (4 Genes, With Hint) {#unique-gamete-counts-from-a-parental-genotype-4-genes-with-hint}
 
 <div id="unique_gametes-gametes-with_hint-4_genes-parent_1-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-unique_gametes-gametes-with_hint-4_genes-parent_1-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
@@ -442,30 +394,6 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 </div>
 
 <div class="qpm-selftest" data-bbq="bbq-unique_gametes-gametes-with_hint-4_genes-parent_1-questions.txt">
-<div class="selftest-question-header selftest-question-placeholder">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
-</div>
-  <div class="selftest-reroll-content"></div>
-</div>
-
-
-</section>
-
-<section class="problem-set" markdown="1" aria-labelledby="unique-gametes-from-four-gene-genotypes-with-hint">
-
-## 4.19 Unique Gametes from Four-Gene Genotypes (With Hint) {#unique-gametes-from-four-gene-genotypes-with-hint}
-
-<div id="unique_gametes-with_hint-4_genes-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-unique_gametes-with_hint-4_genes-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-unique_gametes-with_hint-4_genes-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-unique_gametes-with_hint-4_genes.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
-<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-unique_gametes-with_hint-4_genes-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-unique_gametes-with_hint-4_genes.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-unique_gametes-with_hint-4_genes-questions.txt" data-format="human_readable" data-filename="human_readable-unique_gametes-with_hint-4_genes.html" aria-label="Generate Human-Readable">Human-Readable</button>
-<span class="qpm-package-status" role="status" aria-live="polite"></span>
-<progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div>
-
-<div class="qpm-selftest" data-bbq="bbq-unique_gametes-with_hint-4_genes-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Apply" title="Carry out or use a procedure in a given situation.">Apply <span class="bloom-level">&#10114;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>

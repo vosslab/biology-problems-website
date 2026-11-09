@@ -5,7 +5,7 @@
 ## DBsubject('Genetics')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-15')
+## Date('2026-11-09')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -29,7 +29,7 @@ $showPartialCorrectAnswers = 0;
 # All questions data
 @questions_data = (
   {
-    'item_name' => '<strong>Each organism has two <span style="color: #d40000; font-weight:700;">alleles</span> that make up the <span style="color: #935d00; font-weight:700;">genotype</span> for a given trait.</strong>',
+    'item_name' => '<strong>Each organism has two alleles that make up the genotype for a given trait.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -41,7 +41,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #cc0066; font-weight:700;">Principle of Paired&nbsp;Factors</span>',
   },
   {
-    'item_name' => '<strong>Each <span style="color: #00775f; font-weight:700;">character</span> is represented in an organism by two <span style="color: #d40000; font-weight:700;">alleles</span>.</strong>',
+    'item_name' => '<strong>Each character is represented in an organism by two alleles.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -53,7 +53,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #cc0066; font-weight:700;">Principle of Paired&nbsp;Factors</span>',
   },
   {
-    'item_name' => '<strong>For a given <span style="color: #00775f; font-weight:700;">characteristic</span>, each trait consists of two <span style="color: #d40000; font-weight:700;">alleles</span>.</strong>',
+    'item_name' => '<strong>For a given characteristic, each trait consists of two alleles.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -65,7 +65,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #cc0066; font-weight:700;">Principle of Paired&nbsp;Factors</span>',
   },
   {
-    'item_name' => '<strong>Each organism has two <span style="color: #d40000; font-weight:700;">alleles</span> for each gene.</strong>',
+    'item_name' => '<strong>Each organism has two alleles for each gene.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -77,7 +77,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #cc0066; font-weight:700;">Principle of Paired&nbsp;Factors</span>',
   },
   {
-    'item_name' => '<strong>Genotypes for specific traits are determined by two <span style="color: #d40000; font-weight:700;">alleles</span>.</strong>',
+    'item_name' => '<strong>Genotypes for specific traits are determined by two alleles.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -89,7 +89,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #cc0066; font-weight:700;">Principle of Paired&nbsp;Factors</span>',
   },
   {
-    'item_name' => q{<strong>Two <span style="color: #d40000; font-weight:700;">alleles</span> contribute to an organism's <span style="color: #00775f; font-weight:700;">characteristic</span>.</strong>},
+    'item_name' => q{<strong>Two alleles contribute to an organism's characteristic.</strong>},
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -101,7 +101,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #cc0066; font-weight:700;">Principle of Paired&nbsp;Factors</span>',
   },
   {
-    'item_name' => '<strong>An organism possesses two <span style="color: #d40000; font-weight:700;">alleles</span> for each specific trait.</strong>',
+    'item_name' => '<strong>An organism possesses two alleles for each specific trait.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -113,7 +113,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #cc0066; font-weight:700;">Principle of Paired&nbsp;Factors</span>',
   },
   {
-    'item_name' => '<strong>The genetic makeup for a particular <span style="color: #00775f; font-weight:700;">characteristic</span> in an organism involves two <span style="color: #d40000; font-weight:700;">alleles</span>.</strong>',
+    'item_name' => '<strong>The genetic makeup for a particular characteristic in an organism involves two alleles.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -125,7 +125,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #cc0066; font-weight:700;">Principle of Paired&nbsp;Factors</span>',
   },
   {
-    'item_name' => '<strong>A single trait in an organism is influenced by two <span style="color: #d40000; font-weight:700;">alleles</span>.</strong>',
+    'item_name' => '<strong>A single trait in an organism is influenced by two alleles.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -137,7 +137,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #cc0066; font-weight:700;">Principle of Paired&nbsp;Factors</span>',
   },
   {
-    'item_name' => '<strong>The presence of two <span style="color: #d40000; font-weight:700;">alleles</span> accounts for each trait in an organism.</strong>',
+    'item_name' => '<strong>The presence of two alleles accounts for each trait in an organism.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -149,7 +149,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #cc0066; font-weight:700;">Principle of Paired&nbsp;Factors</span>',
   },
   {
-    'item_name' => '<strong>An organism has two <span style="color: #d40000; font-weight:700;">alleles</span> that make up the <span style="color: #935d00; font-weight:700;">genotype</span> for a specific trait.</strong>',
+    'item_name' => '<strong>An organism has two alleles that make up the genotype for a specific trait.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -161,7 +161,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #cc0066; font-weight:700;">Principle of Paired&nbsp;Factors</span>',
   },
   {
-    'item_name' => '<strong>Each trait in an organism is determined by two <span style="color: #d40000; font-weight:700;">alleles</span>.</strong>',
+    'item_name' => '<strong>Each trait in an organism is determined by two alleles.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -173,7 +173,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #cc0066; font-weight:700;">Principle of Paired&nbsp;Factors</span>',
   },
   {
-    'item_name' => '<strong>Two <span style="color: #d40000; font-weight:700;">alleles</span> define each specific trait in an organism.</strong>',
+    'item_name' => '<strong>Two alleles define each specific trait in an organism.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -185,7 +185,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #cc0066; font-weight:700;">Principle of Paired&nbsp;Factors</span>',
   },
   {
-    'item_name' => '<strong>Two <span style="color: #d40000; font-weight:700;">alleles</span> determine a single trait in the offspring.</strong>',
+    'item_name' => '<strong>Two alleles determine a single trait in the offspring.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -197,7 +197,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #cc0066; font-weight:700;">Principle of Paired&nbsp;Factors</span>',
   },
   {
-    'item_name' => '<strong>Each organism has two <span style="color: #d40000; font-weight:700;">alleles</span> that influence a given <span style="color: #00775f; font-weight:700;">characteristic</span>.</strong>',
+    'item_name' => '<strong>Each organism has two alleles that influence a given characteristic.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -209,7 +209,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #cc0066; font-weight:700;">Principle of Paired&nbsp;Factors</span>',
   },
   {
-    'item_name' => '<strong>For every <span style="color: #00775f; font-weight:700;">characteristic</span>, an organism possesses two <span style="color: #d40000; font-weight:700;">alleles</span>.</strong>',
+    'item_name' => '<strong>For every characteristic, an organism possesses two alleles.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -221,7 +221,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #cc0066; font-weight:700;">Principle of Paired&nbsp;Factors</span>',
   },
   {
-    'item_name' => '<strong>The genetic makeup for each <span style="color: #00775f; font-weight:700;">character</span> involves two <span style="color: #d40000; font-weight:700;">alleles</span>.</strong>',
+    'item_name' => '<strong>The genetic makeup for each character involves two alleles.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -233,7 +233,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #cc0066; font-weight:700;">Principle of Paired&nbsp;Factors</span>',
   },
   {
-    'item_name' => '<strong>Out of the two <span style="color: #c80085; font-weight:700;">different</span> <span style="color: #d40000; font-weight:700;">alleles</span> for the same gene, only one is able to express its effect.</strong>',
+    'item_name' => '<strong>Out of the two different alleles for the same gene, only one is able to express its effect.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -245,7 +245,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #b74300; font-weight:700;">Principle of Dominance</span>',
   },
   {
-    'item_name' => '<strong>Recessive <span style="color: #d40000; font-weight:700;">alleles</span> are NOT expressed in the <span style="color: #007576; font-weight:700;">phenotype</span> of the hybrid organism.</strong>',
+    'item_name' => '<strong>Recessive alleles are NOT expressed in the phenotype of the hybrid organism.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -257,7 +257,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #b74300; font-weight:700;">Principle of Dominance</span>',
   },
   {
-    'item_name' => '<strong>Dominant <span style="color: #d40000; font-weight:700;">alleles</span> are the ones that determine the <span style="color: #007576; font-weight:700;">phenotype</span> of the hybrid organism.</strong>',
+    'item_name' => '<strong>Dominant alleles are the ones that determine the phenotype of the hybrid organism.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -269,7 +269,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #b74300; font-weight:700;">Principle of Dominance</span>',
   },
   {
-    'item_name' => '<strong>Some <span style="color: #d40000; font-weight:700;">alleles</span> are <span style="color: #6c6c00; font-weight:700;">dominant</span>, which means that their <span style="color: #007576; font-weight:700;">phenotype</span> will mask the <span style="color: #076dad; font-weight:700;">recessive</span> <span style="color: #007576; font-weight:700;">phenotype</span>.</strong>',
+    'item_name' => '<strong>Some alleles are dominant, which means that their phenotype will mask the recessive phenotype.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -281,7 +281,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #b74300; font-weight:700;">Principle of Dominance</span>',
   },
   {
-    'item_name' => '<strong>Dominant <span style="color: #d40000; font-weight:700;">alleles</span> mask the expression of their <span style="color: #076dad; font-weight:700;">recessive</span> counterparts.</strong>',
+    'item_name' => '<strong>Dominant alleles mask the expression of their recessive counterparts.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -293,7 +293,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #b74300; font-weight:700;">Principle of Dominance</span>',
   },
   {
-    'item_name' => '<strong>In cases where contrasting <span style="color: #d40000; font-weight:700;">alleles</span> are present, the <span style="color: #6c6c00; font-weight:700;">dominant</span> <span style="color: #d40000; font-weight:700;">allele</span> determines the <span style="color: #007576; font-weight:700;">phenotype</span>.</strong>',
+    'item_name' => '<strong>In cases where contrasting alleles are present, the dominant allele determines the phenotype.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -305,7 +305,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #b74300; font-weight:700;">Principle of Dominance</span>',
   },
   {
-    'item_name' => '<strong>Dominant <span style="color: #d40000; font-weight:700;">alleles</span> express their effects even when present in just a single copy.</strong>',
+    'item_name' => '<strong>Dominant alleles express their effects even when present in just a single copy.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -317,7 +317,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #b74300; font-weight:700;">Principle of Dominance</span>',
   },
   {
-    'item_name' => '<strong>If contrasting <span style="color: #d40000; font-weight:700;">alleles</span> are present, the <span style="color: #6c6c00; font-weight:700;">dominant</span> one determines the <span style="color: #007576; font-weight:700;">phenotype</span>.</strong>',
+    'item_name' => '<strong>If contrasting alleles are present, the dominant one determines the phenotype.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -329,7 +329,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #b74300; font-weight:700;">Principle of Dominance</span>',
   },
   {
-    'item_name' => '<strong>Presence of a <span style="color: #6c6c00; font-weight:700;">dominant</span> <span style="color: #d40000; font-weight:700;">allele</span> overrides the expression of the <span style="color: #076dad; font-weight:700;">recessive</span> <span style="color: #d40000; font-weight:700;">allele</span>.</strong>',
+    'item_name' => '<strong>Presence of a dominant allele overrides the expression of the recessive allele.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -341,7 +341,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #b74300; font-weight:700;">Principle of Dominance</span>',
   },
   {
-    'item_name' => q{<strong>When <span style="color: #c80085; font-weight:700;">different</span> <span style="color: #d40000; font-weight:700;">alleles</span> exist, the <span style="color: #6c6c00; font-weight:700;">dominant</span> <span style="color: #d40000; font-weight:700;">allele</span> determines the organism's traits.</strong>},
+    'item_name' => q{<strong>When different alleles exist, the dominant allele determines the organism's traits.</strong>},
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -353,7 +353,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #b74300; font-weight:700;">Principle of Dominance</span>',
   },
   {
-    'item_name' => '<strong>In a set of differing <span style="color: #d40000; font-weight:700;">alleles</span>, one will usually mask the effect of the other.</strong>',
+    'item_name' => '<strong>In a set of differing alleles, one will usually mask the effect of the other.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -365,7 +365,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #b74300; font-weight:700;">Principle of Dominance</span>',
   },
   {
-    'item_name' => '<strong>When two <span style="color: #c80085; font-weight:700;">different</span> <span style="color: #d40000; font-weight:700;">alleles</span> are present, one usually determines the observable traits.</strong>',
+    'item_name' => '<strong>When two different alleles are present, one usually determines the observable traits.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -377,7 +377,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #b74300; font-weight:700;">Principle of Dominance</span>',
   },
   {
-    'item_name' => q{<strong>One <span style="color: #d40000; font-weight:700;">allele</span>'s traits will often be expressed over another <span style="color: #d40000; font-weight:700;">allele</span>'s when both are present.</strong>},
+    'item_name' => q{<strong>One allele's traits will often be expressed over another allele's when both are present.</strong>},
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -389,7 +389,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #b74300; font-weight:700;">Principle of Dominance</span>',
   },
   {
-    'item_name' => '<strong>The observable traits with mixed <span style="color: #d40000; font-weight:700;">alleles</span> are usually determined by one <span style="color: #6c6c00; font-weight:700;">dominant</span> <span style="color: #d40000; font-weight:700;">allele</span>.</strong>',
+    'item_name' => '<strong>The observable traits with mixed alleles are usually determined by one dominant allele.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -401,7 +401,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #b74300; font-weight:700;">Principle of Dominance</span>',
   },
   {
-    'item_name' => '<strong>When <span style="color: #c80085; font-weight:700;">different</span> <span style="color: #d40000; font-weight:700;">alleles</span> are present, the effect of one will generally dominate.</strong>',
+    'item_name' => '<strong>When different alleles are present, the effect of one will generally dominate.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -413,7 +413,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #b74300; font-weight:700;">Principle of Dominance</span>',
   },
   {
-    'item_name' => '<strong>Each parent contributes just one of its two <span style="color: #d40000; font-weight:700;">alleles</span> to its offspring.</strong>',
+    'item_name' => '<strong>Each parent contributes just one of its two alleles to its offspring.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -425,7 +425,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #003fff; font-weight:700;">Law of Segregation</span>',
   },
   {
-    'item_name' => '<strong>Two <span style="color: #a719db; font-weight:700;">factors</span> of a <span style="color: #00775f; font-weight:700;">character</span> get randomly distributed to <span style="color: #c80085; font-weight:700;">different</span> <span style="color: #007a00; font-weight:700;">gametes</span>.</strong>',
+    'item_name' => '<strong>Two <span style="color: #cc0066; font-weight:700;">factors</span> of a character get randomly distributed to different gametes.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -437,7 +437,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #003fff; font-weight:700;">Law of Segregation</span>',
   },
   {
-    'item_name' => '<strong>When the <span style="color: #007a00; font-weight:700;">gametes</span> are formed, the <span style="color: #a719db; font-weight:700;">factors</span> <span style="color: #0067cc; font-weight:700;">separate</span> and are distributed as units to each <span style="color: #007a00; font-weight:700;">gamete</span>.</strong>',
+    'item_name' => '<strong>When the gametes are formed, the <span style="color: #cc0066; font-weight:700;">factors</span> separate and are distributed as units to each gamete.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -449,7 +449,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #003fff; font-weight:700;">Law of Segregation</span>',
   },
   {
-    'item_name' => '<strong>Allele pairs <span style="color: #0067cc; font-weight:700;">separate</span> during the formation of <span style="color: #007a00; font-weight:700;">gametes</span>.</strong>',
+    'item_name' => '<strong>Allele pairs separate during the formation of gametes.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -461,7 +461,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #003fff; font-weight:700;">Law of Segregation</span>',
   },
   {
-    'item_name' => '<strong>Two <span style="color: #d40000; font-weight:700;">alleles</span> for each trait <span style="color: #0067cc; font-weight:700;">separate</span> during the formation of <span style="color: #007a00; font-weight:700;">gametes</span>.</strong>',
+    'item_name' => '<strong>Two alleles for each trait separate during the formation of gametes.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -473,7 +473,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #003fff; font-weight:700;">Law of Segregation</span>',
   },
   {
-    'item_name' => '<strong>A <span style="color: #007a00; font-weight:700;">gamete</span> carries only one <span style="color: #d40000; font-weight:700;">allele</span> for a gene but NOT both <span style="color: #d40000; font-weight:700;">alleles</span>.</strong>',
+    'item_name' => '<strong>A gamete carries only one allele for a gene but NOT both alleles.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -485,7 +485,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #003fff; font-weight:700;">Law of Segregation</span>',
   },
   {
-    'item_name' => '<strong>Pairs of <span style="color: #d40000; font-weight:700;">alleles</span> <span style="color: #0067cc; font-weight:700;">separate</span> during <span style="color: #007a00; font-weight:700;">gamete</span> formation.</strong>',
+    'item_name' => '<strong>Pairs of alleles separate during gamete formation.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -497,7 +497,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #003fff; font-weight:700;">Law of Segregation</span>',
   },
   {
-    'item_name' => '<strong>During <span style="color: #007a00; font-weight:700;">gamete</span> formation, <span style="color: #d40000; font-weight:700;">allele</span> pairs are <span style="color: #0067cc; font-weight:700;">separated</span> into individual <span style="color: #007a00; font-weight:700;">gametes</span>.</strong>',
+    'item_name' => '<strong>During gamete formation, allele pairs are separated into individual gametes.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -509,7 +509,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #003fff; font-weight:700;">Law of Segregation</span>',
   },
   {
-    'item_name' => '<strong>Each parent passes a single <span style="color: #d40000; font-weight:700;">allele</span> for each trait to the offspring during sexual reproduction.</strong>',
+    'item_name' => '<strong>Each parent passes a single allele for each trait to the offspring during sexual reproduction.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -521,7 +521,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #003fff; font-weight:700;">Law of Segregation</span>',
   },
   {
-    'item_name' => '<strong>One <span style="color: #d40000; font-weight:700;">allele</span> from each gene pair is transmitted to an individual <span style="color: #007a00; font-weight:700;">gamete</span>.</strong>',
+    'item_name' => '<strong>One allele from each gene pair is transmitted to an individual gamete.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -533,7 +533,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #003fff; font-weight:700;">Law of Segregation</span>',
   },
   {
-    'item_name' => '<strong>During the creation of <span style="color: #007a00; font-weight:700;">gametes</span>, <span style="color: #d40000; font-weight:700;">alleles</span> are distributed individually.</strong>',
+    'item_name' => '<strong>During the creation of gametes, alleles are distributed individually.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -545,7 +545,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #003fff; font-weight:700;">Law of Segregation</span>',
   },
   {
-    'item_name' => '<strong>Alleles from each parent are <span style="color: #0067cc; font-weight:700;">separated</span> into individual <span style="color: #007a00; font-weight:700;">gametes</span>.</strong>',
+    'item_name' => '<strong>Alleles from each parent are separated into individual gametes.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -557,7 +557,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #003fff; font-weight:700;">Law of Segregation</span>',
   },
   {
-    'item_name' => '<strong>During the creation of <span style="color: #007a00; font-weight:700;">gametes</span>, each parent contributes a single <span style="color: #d40000; font-weight:700;">allele</span> for each <span style="color: #00775f; font-weight:700;">characteristic</span>.</strong>',
+    'item_name' => '<strong>During the creation of gametes, each parent contributes a single allele for each characteristic.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -569,7 +569,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #003fff; font-weight:700;">Law of Segregation</span>',
   },
   {
-    'item_name' => '<strong>A <span style="color: #007a00; font-weight:700;">gamete</span> carries just one of the two <span style="color: #d40000; font-weight:700;">alleles</span> for each <span style="color: #00775f; font-weight:700;">characteristic</span>.</strong>',
+    'item_name' => '<strong>A gamete carries just one of the two alleles for each characteristic.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -581,7 +581,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #003fff; font-weight:700;">Law of Segregation</span>',
   },
   {
-    'item_name' => '<strong>Two <span style="color: #d40000; font-weight:700;">alleles</span> for a <span style="color: #00775f; font-weight:700;">character</span> are randomly distributed into <span style="color: #c80085; font-weight:700;">different</span> <span style="color: #007a00; font-weight:700;">gametes</span>.</strong>',
+    'item_name' => '<strong>Two alleles for a character are randomly distributed into different gametes.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -593,7 +593,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #003fff; font-weight:700;">Law of Segregation</span>',
   },
   {
-    'item_name' => '<strong>Two <span style="color: #c80085; font-weight:700;">different</span> <span style="color: #00775f; font-weight:700;">characters</span> will be inherited <span style="color: #0067cc; font-weight:700;">separately</span> from each other.</strong>',
+    'item_name' => '<strong>Two different characters will be inherited separately from each other.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -641,7 +641,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #3b7600; font-weight:700;">Law of Independent&nbsp;Assortment</span>',
   },
   {
-    'item_name' => '<strong>The segregation of one pair of <span style="color: #d40000; font-weight:700;">alleles</span> is NOT influenced by another pair.</strong>',
+    'item_name' => '<strong>The segregation of one pair of alleles is NOT influenced by another pair.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -653,7 +653,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #3b7600; font-weight:700;">Law of Independent&nbsp;Assortment</span>',
   },
   {
-    'item_name' => '<strong>Traits from <span style="color: #c80085; font-weight:700;">different</span> genes are passed down <span style="color: #0067cc; font-weight:700;">separately</span> from one another.</strong>',
+    'item_name' => '<strong>Traits from different genes are passed down separately from one another.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -665,7 +665,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #3b7600; font-weight:700;">Law of Independent&nbsp;Assortment</span>',
   },
   {
-    'item_name' => '<strong>The inheritance of one gene has no bearing on the inheritance of another gene located at a <span style="color: #c80085; font-weight:700;">different</span> location.</strong>',
+    'item_name' => '<strong>The inheritance of one gene has no bearing on the inheritance of another gene located at a different location.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -677,7 +677,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #3b7600; font-weight:700;">Law of Independent&nbsp;Assortment</span>',
   },
   {
-    'item_name' => '<strong>Genes at one location have no impact on the inheritance of genes at a <span style="color: #0067cc; font-weight:700;">separate</span> location.</strong>',
+    'item_name' => '<strong>Genes at one location have no impact on the inheritance of genes at a separate location.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -689,7 +689,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #3b7600; font-weight:700;">Law of Independent&nbsp;Assortment</span>',
   },
   {
-    'item_name' => q{<strong>The <span style="color: #a719db; font-weight:700;">factors</span> affecting one <span style="color: #00775f; font-weight:700;">characteristic</span> don't alter the <span style="color: #a719db; font-weight:700;">factors</span> affecting another <span style="color: #00775f; font-weight:700;">characteristic</span> during <span style="color: #007a00; font-weight:700;">gamete</span> creation.</strong>},
+    'item_name' => q{<strong>The <span style="color: #cc0066; font-weight:700;">factors</span> affecting one characteristic don't alter the <span style="color: #cc0066; font-weight:700;">factors</span> affecting another characteristic during gamete creation.</strong>},
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -701,7 +701,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #3b7600; font-weight:700;">Law of Independent&nbsp;Assortment</span>',
   },
   {
-    'item_name' => '<strong>Traits inherited from <span style="color: #c80085; font-weight:700;">different</span> genes do NOT influence each other.</strong>',
+    'item_name' => '<strong>Traits inherited from different genes do NOT influence each other.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -713,7 +713,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #3b7600; font-weight:700;">Law of Independent&nbsp;Assortment</span>',
   },
   {
-    'item_name' => '<strong>Sorting one pair of <span style="color: #d40000; font-weight:700;">alleles</span> into <span style="color: #007a00; font-weight:700;">gametes</span> does NOT alter the sorting of another pair of <span style="color: #d40000; font-weight:700;">alleles</span>.</strong>',
+    'item_name' => '<strong>Sorting one pair of alleles into gametes does NOT alter the sorting of another pair of alleles.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -725,7 +725,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #3b7600; font-weight:700;">Law of Independent&nbsp;Assortment</span>',
   },
   {
-    'item_name' => '<strong>No connection exists between the inheritance patterns of one trait and those of a <span style="color: #c80085; font-weight:700;">different</span> trait.</strong>',
+    'item_name' => '<strong>No connection exists between the inheritance patterns of one trait and those of a different trait.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -737,7 +737,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #3b7600; font-weight:700;">Law of Independent&nbsp;Assortment</span>',
   },
   {
-    'item_name' => q{<strong>During the creation of <span style="color: #007a00; font-weight:700;">gametes</span>, the grouping of one set of <span style="color: #d40000; font-weight:700;">alleles</span> doesn't affect the grouping of another set.</strong>},
+    'item_name' => q{<strong>During the creation of gametes, the grouping of one set of alleles doesn't affect the grouping of another set.</strong>},
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -749,7 +749,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #3b7600; font-weight:700;">Law of Independent&nbsp;Assortment</span>',
   },
   {
-    'item_name' => '<strong>Each pair of traits is passed down without any impact on the passage of other pairs during the creation of <span style="color: #007a00; font-weight:700;">gametes</span>.</strong>',
+    'item_name' => '<strong>Each pair of traits is passed down without any impact on the passage of other pairs during the creation of gametes.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -761,7 +761,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #3b7600; font-weight:700;">Law of Independent&nbsp;Assortment</span>',
   },
   {
-    'item_name' => '<strong>The inheritance of one gene does NOT impact the inheritance of another <span style="color: #0067cc; font-weight:700;">separate</span> gene.</strong>',
+    'item_name' => '<strong>The inheritance of one gene does NOT impact the inheritance of another separate gene.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -785,7 +785,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #3b7600; font-weight:700;">Law of Independent&nbsp;Assortment</span>',
   },
   {
-    'item_name' => '<strong>Alleles for <span style="color: #c80085; font-weight:700;">different</span> traits are passed down without influencing each other.</strong>',
+    'item_name' => '<strong>Alleles for different traits are passed down without influencing each other.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -797,7 +797,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #3b7600; font-weight:700;">Law of Independent&nbsp;Assortment</span>',
   },
   {
-    'item_name' => '<strong>Traits from <span style="color: #0067cc; font-weight:700;">separate</span> genes do NOT affect each other during the reproductive process.</strong>',
+    'item_name' => '<strong>Traits from separate genes do NOT affect each other during the reproductive process.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -809,7 +809,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #3b7600; font-weight:700;">Law of Independent&nbsp;Assortment</span>',
   },
   {
-    'item_name' => '<strong>In the process of forming <span style="color: #007a00; font-weight:700;">gametes</span>, each set of <span style="color: #d40000; font-weight:700;">alleles</span> sorts without impacting another set.</strong>',
+    'item_name' => '<strong>In the process of forming gametes, each set of alleles sorts without impacting another set.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
@@ -821,7 +821,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #3b7600; font-weight:700;">Law of Independent&nbsp;Assortment</span>',
   },
   {
-    'item_name' => '<strong>The inheritance of one set of <span style="color: #d40000; font-weight:700;">alleles</span> has no impact on another set.</strong>',
+    'item_name' => '<strong>The inheritance of one set of alleles has no impact on another set.</strong>',
     'plural_choice' => q{Mendel's Foundational Principles of Genetics},
     'singular_item' => 'description',
     'choices' => [
