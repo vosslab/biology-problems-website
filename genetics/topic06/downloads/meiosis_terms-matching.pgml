@@ -5,7 +5,7 @@
 ## DBsubject('Genetics')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-20')
+## Date('2026-11-09')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -70,11 +70,11 @@ our @ALPHABET = ('A' .. 'Z');
     'a process by which parts of <span style="color: #d40000; font-weight:700;">homologous chromosomes</span> are interchanged',
   ],
   'chiasmata' => [
-    'the physical link between non-sister chromatids of <span style="color: #d40000; font-weight:700;">homologous chromosomes</span> that remain after crossing over',
+    'the physical link between non-<span style="color: #003fff; font-weight:700;">sister chromatids</span> of <span style="color: #d40000; font-weight:700;">homologous chromosomes</span> that remain after <span style="color: #b74300; font-weight:700;">crossing over</span>',
     'the point of contact between paired chromatids that marks a crossover site',
     'specialized chromatin structures that link <span style="color: #d40000; font-weight:700;">homologous chromosomes</span> together',
     'the visible link between two (non-sister) chromatids belonging to <span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
-    'the region where <span style="color: #d40000; font-weight:700;">homologous chromosomes</span> stay connected after crossing over',
+    'the region where <span style="color: #d40000; font-weight:700;">homologous chromosomes</span> stay connected after <span style="color: #b74300; font-weight:700;">crossing over</span>',
     'a point of overlap of paired chromatids at which exchange of genetic material has taken place',
   ],
 );
@@ -131,10 +131,10 @@ push(@answers, (map { $_->[1] } @q_and_a));
 %answer_html = (
   'homologous chromosomes' => '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
   'homologous' => '<span style="color: #007576; font-weight:700;">homologous</span>',
-  'synapsis' => 'synapsis',
-  'sister chromatids' => 'sister chromatids',
-  'crossing over' => 'crossing over',
-  'chiasmata' => 'chiasmata',
+  'synapsis' => '<span style="color: #cc0066; font-weight:700;">synapsis</span>',
+  'sister chromatids' => '<span style="color: #003fff; font-weight:700;">sister chromatids</span>',
+  'crossing over' => '<span style="color: #b74300; font-weight:700;">crossing over</span>',
+  'chiasmata' => '<span style="color: #935d00; font-weight:700;">chiasmata</span>',
 );
 
 @answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;

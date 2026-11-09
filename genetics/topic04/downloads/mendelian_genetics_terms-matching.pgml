@@ -5,7 +5,7 @@
 ## DBsubject('Genetics')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-15')
+## Date('2026-11-09')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -37,9 +37,9 @@ our @ALPHABET = ('A' .. 'Z');
     'a single feature that can be inherited and varies among organisms, like flower position',
     'a single feature that can be inherited and varies among organisms, like stem length',
     'a single feature that can be inherited and varies among organisms, like eye color',
-    'one <span style="color: #003fff; font-weight:700;">observable</span> feature category of a group of organisms, such as flower color',
-    'one <span style="color: #003fff; font-weight:700;">observable</span> feature category of a group of organisms, such as hair color',
-    'one <span style="color: #003fff; font-weight:700;">observable</span> feature category of a group of organisms, such as seed color',
+    'one observable feature category of a group of organisms, such as flower color',
+    'one observable feature category of a group of organisms, such as hair color',
+    'one observable feature category of a group of organisms, such as seed color',
     'a single feature, such as hair color, noticeable in a particular organismal group',
   ],
   'trait' => [
@@ -66,19 +66,19 @@ our @ALPHABET = ('A' .. 'Z');
     'DNA composition affecting a certain <span style="color: #007576; font-weight:700;">phenotype</span>',
   ],
   'phenotype' => [
-    'all the <span style="color: #003fff; font-weight:700;">observable</span> <span style="color: #b74300; font-weight:700;">traits</span> of an organism',
-    'all the <span style="color: #003fff; font-weight:700;">observable</span> <span style="color: #b74300; font-weight:700;">traits</span> of an individual, such as eye color and blood type',
-    'all the <span style="color: #003fff; font-weight:700;">observable</span> <span style="color: #b74300; font-weight:700;">traits</span> of an individual, such as height and blood type',
-    'all the <span style="color: #003fff; font-weight:700;">observable</span> <span style="color: #b74300; font-weight:700;">traits</span> of an individual, such as height and eye color',
-    'the <span style="color: #003fff; font-weight:700;">observable</span> expression of DNA in an organism',
+    'all the observable <span style="color: #b74300; font-weight:700;">traits</span> of an organism',
+    'all the observable <span style="color: #b74300; font-weight:700;">traits</span> of an individual, such as eye color and blood type',
+    'all the observable <span style="color: #b74300; font-weight:700;">traits</span> of an individual, such as height and blood type',
+    'all the observable <span style="color: #b74300; font-weight:700;">traits</span> of an individual, such as height and eye color',
+    'the observable expression of DNA in an organism',
     'all the physical <span style="color: #b74300; font-weight:700;">traits</span> of an organism',
-    'all <span style="color: #003fff; font-weight:700;">observable</span> <span style="color: #b74300; font-weight:700;">traits</span> due to how its <span style="color: #d40000; font-weight:700;">genes</span> interact with the environment',
-    'the complete set of <span style="color: #003fff; font-weight:700;">observable</span> <span style="color: #b74300; font-weight:700;">traits</span> of an organism',
+    'all observable <span style="color: #b74300; font-weight:700;">traits</span> due to how its <span style="color: #935d00; font-weight:700;">genes</span> interact with the environment',
+    'the complete set of observable <span style="color: #b74300; font-weight:700;">traits</span> of an organism',
     'Mendel referred to this as the "external resemblance" of an organism',
     'all <span style="color: #b74300; font-weight:700;">traits</span> that can be observed in an organism',
-    'all <span style="color: #003fff; font-weight:700;">observable</span> <span style="color: #b74300; font-weight:700;">traits</span>, like eye color or blood type',
-    'all <span style="color: #003fff; font-weight:700;">observable</span> <span style="color: #b74300; font-weight:700;">traits</span> such as height or blood type in an individual',
-    'the manifestation of DNA as all <span style="color: #003fff; font-weight:700;">observable</span> <span style="color: #b74300; font-weight:700;">traits</span>',
+    'all observable <span style="color: #b74300; font-weight:700;">traits</span>, like eye color or blood type',
+    'all observable <span style="color: #b74300; font-weight:700;">traits</span> such as height or blood type in an individual',
+    'the manifestation of DNA as all observable <span style="color: #b74300; font-weight:700;">traits</span>',
     q{the physical expression of an organism's entire genetic content},
     q{Mendel described this as an organism's "external appearance"},
   ],
@@ -108,7 +108,7 @@ our @ALPHABET = ('A' .. 'Z');
     'a reproductive cell with half the chromosome number',
     'either a male sperm or female egg cell that forms a zygote upon fusion',
     'haploid cells like sperm or egg that merge during fertilization',
-    'reproductive cells with a single set of non-<span style="color: #0067cc; font-weight:700;">identical</span> chromosomes',
+    'reproductive cells with a single set of non-identical chromosomes',
   ],
   'heterozygous' => [
     'when two copies of a gene are different',
@@ -121,16 +121,16 @@ our @ALPHABET = ('A' .. 'Z');
     'two different <span style="color: #6c6c00; font-weight:700;">alleles</span> for a gene',
   ],
   'homozygous' => [
-    'the two copies of a gene are <span style="color: #0067cc; font-weight:700;">identical</span>',
-    '<span style="color: #0067cc; font-weight:700;">identical</span> <span style="color: #6c6c00; font-weight:700;">alleles</span> at one or more corresponding chromosomal loci',
-    'two <span style="color: #0067cc; font-weight:700;">identical</span> <span style="color: #6c6c00; font-weight:700;">alleles</span> of a given gene',
-    '<span style="color: #0067cc; font-weight:700;">identical</span> inherited versions of a gene from each biological parent',
-    'possession of a pair of <span style="color: #0067cc; font-weight:700;">identical</span> <span style="color: #6c6c00; font-weight:700;">alleles</span>',
+    'the two copies of a gene are identical',
+    'identical <span style="color: #6c6c00; font-weight:700;">alleles</span> at one or more corresponding chromosomal loci',
+    'two identical <span style="color: #6c6c00; font-weight:700;">alleles</span> of a given gene',
+    'identical inherited versions of a gene from each biological parent',
+    'possession of a pair of identical <span style="color: #6c6c00; font-weight:700;">alleles</span>',
     'both gene copies are the same',
-    '<span style="color: #0067cc; font-weight:700;">identical</span> forms of a gene at corresponding chromosome locations',
+    'identical forms of a gene at corresponding chromosome locations',
     'two of the same <span style="color: #6c6c00; font-weight:700;">allele</span> for a specific gene',
     'same version of a gene inherited from each parent',
-    '<span style="color: #0067cc; font-weight:700;">identical</span> <span style="color: #6c6c00; font-weight:700;">alleles</span> for a gene',
+    'identical <span style="color: #6c6c00; font-weight:700;">alleles</span> for a gene',
   ],
   'dominant' => [
     'describes a <span style="color: #b74300; font-weight:700;">trait</span> that masks the expression of another <span style="color: #b74300; font-weight:700;">trait</span> when both versions of the gene are present',

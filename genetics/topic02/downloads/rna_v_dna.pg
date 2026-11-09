@@ -6,7 +6,7 @@
 ## DBsubject('Molecular Biology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-15')
+## Date('2026-11-09')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -29,99 +29,99 @@ $showPartialCorrectAnswers = 1;
 
 @true_groups = (
   [
-    '<span style="color: mediumblue; font-weight:700;">DNA</span> is usually double-stranded (duplex), whereas <span style="color: orangered; font-weight:700;">RNA</span> is usually single-stranded (simplex)',
-    '<span style="color: orangered; font-weight:700;">RNA</span> is usually single-stranded (simplex), whereas <span style="color: mediumblue; font-weight:700;">DNA</span> is usually double-stranded (duplex)',
+    '<span style="color: mediumblue; font-weight:700;">DNA</span> is usually double-stranded (duplex), whereas <span style="color: #c23500; font-weight:700;">RNA</span> is usually single-stranded (simplex)',
+    '<span style="color: #c23500; font-weight:700;">RNA</span> is usually single-stranded (simplex), whereas <span style="color: mediumblue; font-weight:700;">DNA</span> is usually double-stranded (duplex)',
   ],
   [
-    'uracil in <span style="color: orangered; font-weight:700;">RNA</span> takes the place of thymine in <span style="color: mediumblue; font-weight:700;">DNA</span>',
-    'thymine in <span style="color: mediumblue; font-weight:700;">DNA</span> takes the place of uracil in <span style="color: orangered; font-weight:700;">RNA</span>',
+    'uracil in <span style="color: #c23500; font-weight:700;">RNA</span> takes the place of thymine in <span style="color: mediumblue; font-weight:700;">DNA</span>',
+    'thymine in <span style="color: mediumblue; font-weight:700;">DNA</span> takes the place of uracil in <span style="color: #c23500; font-weight:700;">RNA</span>',
   ],
   [
-    'the <span style="color: mediumblue; font-weight:700;">DNA</span> sugar is dexoyribose, <span style="color: orangered; font-weight:700;">RNA</span> has a different sugar',
-    'the <span style="color: orangered; font-weight:700;">RNA</span> sugar is ribose, <span style="color: mediumblue; font-weight:700;">DNA</span> has a different sugar',
+    'the <span style="color: mediumblue; font-weight:700;">DNA</span> sugar is dexoyribose, <span style="color: #c23500; font-weight:700;">RNA</span> has a different sugar',
+    'the <span style="color: #c23500; font-weight:700;">RNA</span> sugar is ribose, <span style="color: mediumblue; font-weight:700;">DNA</span> has a different sugar',
   ],
   [
-    '<span style="color: orangered; font-weight:700;">RNA</span> nucleotides have a 2&prime; hydroxide (-OH) group, <span style="color: mediumblue; font-weight:700;">DNA</span> does not',
+    '<span style="color: #c23500; font-weight:700;">RNA</span> nucleotides have a 2&prime; hydroxide (-OH) group, <span style="color: mediumblue; font-weight:700;">DNA</span> does not',
     '<span style="color: mediumblue; font-weight:700;">DNA</span> nucleotides are missing the 2&prime; hydroxide (-OH) group',
-    '<span style="color: mediumblue; font-weight:700;">DNA</span> contains one less hydroxyl (-OH) group than <span style="color: orangered; font-weight:700;">RNA</span>',
+    '<span style="color: mediumblue; font-weight:700;">DNA</span> contains one less hydroxyl (-OH) group than <span style="color: #c23500; font-weight:700;">RNA</span>',
   ],
   [
-    'double-stranded <span style="color: orangered; font-weight:700;">RNA</span> is mostly in the A-form helix, whereas double-stranded <span style="color: mediumblue; font-weight:700;">DNA</span> is mostly in the B-form helix',
-    'double-stranded <span style="color: mediumblue; font-weight:700;">DNA</span> is mostly in the B-form helix, whereas double-stranded <span style="color: orangered; font-weight:700;">RNA</span> is mostly in the A-form helix',
+    'double-stranded <span style="color: #c23500; font-weight:700;">RNA</span> is mostly in the A-form helix, whereas double-stranded <span style="color: mediumblue; font-weight:700;">DNA</span> is mostly in the B-form helix',
+    'double-stranded <span style="color: mediumblue; font-weight:700;">DNA</span> is mostly in the B-form helix, whereas double-stranded <span style="color: #c23500; font-weight:700;">RNA</span> is mostly in the A-form helix',
   ],
   [
-    'Both <span style="color: mediumblue; font-weight:700;">DNA</span> and <span style="color: orangered; font-weight:700;">RNA</span> have a negative charge',
+    'Both <span style="color: mediumblue; font-weight:700;">DNA</span> and <span style="color: #c23500; font-weight:700;">RNA</span> have a negative charge',
   ],
   [
-    'Both double-stranded <span style="color: mediumblue; font-weight:700;">DNA</span> and double-stranded <span style="color: orangered; font-weight:700;">RNA</span> have major and minor grooves',
+    'Both double-stranded <span style="color: mediumblue; font-weight:700;">DNA</span> and double-stranded <span style="color: #c23500; font-weight:700;">RNA</span> have major and minor grooves',
   ],
   [
-    '<span style="color: mediumblue; font-weight:700;">DNA</span> has a regular consistent structure, whereas <span style="color: orangered; font-weight:700;">RNA</span> adopts a wide variety of tertiary structures',
-    '<span style="color: orangered; font-weight:700;">RNA</span> adopts a wide variety of tertiary structures',
+    '<span style="color: mediumblue; font-weight:700;">DNA</span> has a regular consistent structure, whereas <span style="color: #c23500; font-weight:700;">RNA</span> adopts a wide variety of tertiary structures',
+    '<span style="color: #c23500; font-weight:700;">RNA</span> adopts a wide variety of tertiary structures',
     '<span style="color: mediumblue; font-weight:700;">DNA</span> has a regular consistent structure',
   ],
   [
-    '<span style="color: orangered; font-weight:700;">RNA</span> can form a double-stranded helix',
-    'Both <span style="color: mediumblue; font-weight:700;">DNA</span> and <span style="color: orangered; font-weight:700;">RNA</span> can form a double-stranded helix',
+    '<span style="color: #c23500; font-weight:700;">RNA</span> can form a double-stranded helix',
+    'Both <span style="color: mediumblue; font-weight:700;">DNA</span> and <span style="color: #c23500; font-weight:700;">RNA</span> can form a double-stranded helix',
   ],
 );
 @false_groups = (
   [
-    '<span style="color: orangered; font-weight:700;">RNA</span> is usually double-stranded (duplex), whereas <span style="color: mediumblue; font-weight:700;">DNA</span> is usually single-stranded (simplex)',
-    '<span style="color: mediumblue; font-weight:700;">DNA</span> is usually single-stranded (simplex), whereas <span style="color: orangered; font-weight:700;">RNA</span> is usually double-stranded (duplex)',
+    '<span style="color: #c23500; font-weight:700;">RNA</span> is usually double-stranded (duplex), whereas <span style="color: mediumblue; font-weight:700;">DNA</span> is usually single-stranded (simplex)',
+    '<span style="color: mediumblue; font-weight:700;">DNA</span> is usually single-stranded (simplex), whereas <span style="color: #c23500; font-weight:700;">RNA</span> is usually double-stranded (duplex)',
   ],
   [
-    'uracil in <span style="color: mediumblue; font-weight:700;">DNA</span> takes the place of thymine in <span style="color: orangered; font-weight:700;">RNA</span>',
-    'thymine in <span style="color: orangered; font-weight:700;">RNA</span> takes the place of uracil in <span style="color: mediumblue; font-weight:700;">DNA</span>',
-    'uracil in <span style="color: orangered; font-weight:700;">RNA</span> takes the place of cytosine in <span style="color: mediumblue; font-weight:700;">DNA</span>',
-    'uracil in <span style="color: orangered; font-weight:700;">RNA</span> takes the place of guanine in <span style="color: mediumblue; font-weight:700;">DNA</span>',
-    'uracil in <span style="color: orangered; font-weight:700;">RNA</span> takes the place of adenine in <span style="color: mediumblue; font-weight:700;">DNA</span>',
-    'thymine in <span style="color: mediumblue; font-weight:700;">DNA</span> takes the place of cytosine in <span style="color: orangered; font-weight:700;">RNA</span>',
-    'thymine in <span style="color: mediumblue; font-weight:700;">DNA</span> takes the place of guanine in <span style="color: orangered; font-weight:700;">RNA</span>',
-    'thymine in <span style="color: mediumblue; font-weight:700;">DNA</span> takes the place of adenine in <span style="color: orangered; font-weight:700;">RNA</span>',
+    'uracil in <span style="color: mediumblue; font-weight:700;">DNA</span> takes the place of thymine in <span style="color: #c23500; font-weight:700;">RNA</span>',
+    'thymine in <span style="color: #c23500; font-weight:700;">RNA</span> takes the place of uracil in <span style="color: mediumblue; font-weight:700;">DNA</span>',
+    'uracil in <span style="color: #c23500; font-weight:700;">RNA</span> takes the place of cytosine in <span style="color: mediumblue; font-weight:700;">DNA</span>',
+    'uracil in <span style="color: #c23500; font-weight:700;">RNA</span> takes the place of guanine in <span style="color: mediumblue; font-weight:700;">DNA</span>',
+    'uracil in <span style="color: #c23500; font-weight:700;">RNA</span> takes the place of adenine in <span style="color: mediumblue; font-weight:700;">DNA</span>',
+    'thymine in <span style="color: mediumblue; font-weight:700;">DNA</span> takes the place of cytosine in <span style="color: #c23500; font-weight:700;">RNA</span>',
+    'thymine in <span style="color: mediumblue; font-weight:700;">DNA</span> takes the place of guanine in <span style="color: #c23500; font-weight:700;">RNA</span>',
+    'thymine in <span style="color: mediumblue; font-weight:700;">DNA</span> takes the place of adenine in <span style="color: #c23500; font-weight:700;">RNA</span>',
   ],
   [
-    'the <span style="color: mediumblue; font-weight:700;">DNA</span> sugar is ribose, <span style="color: orangered; font-weight:700;">RNA</span> has a different sugar',
-    'the <span style="color: orangered; font-weight:700;">RNA</span> sugar is deoxyribose, <span style="color: mediumblue; font-weight:700;">DNA</span> has a different sugar',
+    'the <span style="color: mediumblue; font-weight:700;">DNA</span> sugar is ribose, <span style="color: #c23500; font-weight:700;">RNA</span> has a different sugar',
+    'the <span style="color: #c23500; font-weight:700;">RNA</span> sugar is deoxyribose, <span style="color: mediumblue; font-weight:700;">DNA</span> has a different sugar',
   ],
   [
-    '<span style="color: mediumblue; font-weight:700;">DNA</span> nucleotides have a 2&prime; hydroxide (-OH) group, <span style="color: orangered; font-weight:700;">RNA</span> does not',
-    '<span style="color: orangered; font-weight:700;">RNA</span> nucleotides are missing the 2&prime; hydroxide (-OH) group compared to <span style="color: mediumblue; font-weight:700;">DNA</span>',
-    '<span style="color: orangered; font-weight:700;">RNA</span> nucleotides have an extra 4&prime; hydroxide (-OH) group, <span style="color: mediumblue; font-weight:700;">DNA</span> does not',
-    '<span style="color: mediumblue; font-weight:700;">DNA</span> nucleotides are missing the 4&prime; hydroxide (-OH) group compared to <span style="color: orangered; font-weight:700;">RNA</span>',
-    '<span style="color: orangered; font-weight:700;">RNA</span> contains one less hydroxyl (-OH) group than <span style="color: mediumblue; font-weight:700;">DNA</span>',
+    '<span style="color: mediumblue; font-weight:700;">DNA</span> nucleotides have a 2&prime; hydroxide (-OH) group, <span style="color: #c23500; font-weight:700;">RNA</span> does not',
+    '<span style="color: #c23500; font-weight:700;">RNA</span> nucleotides are missing the 2&prime; hydroxide (-OH) group compared to <span style="color: mediumblue; font-weight:700;">DNA</span>',
+    '<span style="color: #c23500; font-weight:700;">RNA</span> nucleotides have an extra 4&prime; hydroxide (-OH) group, <span style="color: mediumblue; font-weight:700;">DNA</span> does not',
+    '<span style="color: mediumblue; font-weight:700;">DNA</span> nucleotides are missing the 4&prime; hydroxide (-OH) group compared to <span style="color: #c23500; font-weight:700;">RNA</span>',
+    '<span style="color: #c23500; font-weight:700;">RNA</span> contains one less hydroxyl (-OH) group than <span style="color: mediumblue; font-weight:700;">DNA</span>',
   ],
   [
-    'double-stranded <span style="color: mediumblue; font-weight:700;">DNA</span> is mostly in the A-form helix, whereas double-stranded <span style="color: orangered; font-weight:700;">RNA</span> is mostly in the B-form helix',
-    'double-stranded <span style="color: orangered; font-weight:700;">RNA</span> is mostly in the B-form helix, whereas double-stranded <span style="color: mediumblue; font-weight:700;">DNA</span> is mostly in the A-form helix',
+    'double-stranded <span style="color: mediumblue; font-weight:700;">DNA</span> is mostly in the A-form helix, whereas double-stranded <span style="color: #c23500; font-weight:700;">RNA</span> is mostly in the B-form helix',
+    'double-stranded <span style="color: #c23500; font-weight:700;">RNA</span> is mostly in the B-form helix, whereas double-stranded <span style="color: mediumblue; font-weight:700;">DNA</span> is mostly in the A-form helix',
   ],
   [
-    '<span style="color: mediumblue; font-weight:700;">DNA</span> has a negative charge, <span style="color: orangered; font-weight:700;">RNA</span> has a positive charge',
-    '<span style="color: orangered; font-weight:700;">RNA</span> has a negative charge, <span style="color: mediumblue; font-weight:700;">DNA</span> has a positive charge',
-    '<span style="color: mediumblue; font-weight:700;">DNA</span> has a positive charge, <span style="color: orangered; font-weight:700;">RNA</span> has a negative charge',
-    '<span style="color: orangered; font-weight:700;">RNA</span> has a positive charge, <span style="color: mediumblue; font-weight:700;">DNA</span> has a negative charge',
-    'Both <span style="color: mediumblue; font-weight:700;">DNA</span> and <span style="color: orangered; font-weight:700;">RNA</span> have a positive charge',
+    '<span style="color: mediumblue; font-weight:700;">DNA</span> has a negative charge, <span style="color: #c23500; font-weight:700;">RNA</span> has a positive charge',
+    '<span style="color: #c23500; font-weight:700;">RNA</span> has a negative charge, <span style="color: mediumblue; font-weight:700;">DNA</span> has a positive charge',
+    '<span style="color: mediumblue; font-weight:700;">DNA</span> has a positive charge, <span style="color: #c23500; font-weight:700;">RNA</span> has a negative charge',
+    '<span style="color: #c23500; font-weight:700;">RNA</span> has a positive charge, <span style="color: mediumblue; font-weight:700;">DNA</span> has a negative charge',
+    'Both <span style="color: mediumblue; font-weight:700;">DNA</span> and <span style="color: #c23500; font-weight:700;">RNA</span> have a positive charge',
   ],
   [
-    '<span style="color: orangered; font-weight:700;">RNA</span> is made of nucleotides, <span style="color: mediumblue; font-weight:700;">DNA</span> is made of amino acids',
-    '<span style="color: mediumblue; font-weight:700;">DNA</span> is made of nucleotides, <span style="color: orangered; font-weight:700;">RNA</span> is made of amino acids',
+    '<span style="color: #c23500; font-weight:700;">RNA</span> is made of nucleotides, <span style="color: mediumblue; font-weight:700;">DNA</span> is made of amino acids',
+    '<span style="color: mediumblue; font-weight:700;">DNA</span> is made of nucleotides, <span style="color: #c23500; font-weight:700;">RNA</span> is made of amino acids',
   ],
   [
-    '<span style="color: mediumblue; font-weight:700;">DNA</span> has a sugar-phosphate backbone, <span style="color: orangered; font-weight:700;">RNA</span> does not',
-    '<span style="color: orangered; font-weight:700;">RNA</span> has a sugar-phosphate backbone, <span style="color: mediumblue; font-weight:700;">DNA</span> does not',
+    '<span style="color: mediumblue; font-weight:700;">DNA</span> has a sugar-phosphate backbone, <span style="color: #c23500; font-weight:700;">RNA</span> does not',
+    '<span style="color: #c23500; font-weight:700;">RNA</span> has a sugar-phosphate backbone, <span style="color: mediumblue; font-weight:700;">DNA</span> does not',
   ],
   [
-    'double-stranded <span style="color: mediumblue; font-weight:700;">DNA</span> has major and minor grooves, double-stranded <span style="color: orangered; font-weight:700;">RNA</span> does not',
-    'double-stranded <span style="color: orangered; font-weight:700;">RNA</span> has major and minor grooves, double-stranded <span style="color: mediumblue; font-weight:700;">DNA</span> does not',
+    'double-stranded <span style="color: mediumblue; font-weight:700;">DNA</span> has major and minor grooves, double-stranded <span style="color: #c23500; font-weight:700;">RNA</span> does not',
+    'double-stranded <span style="color: #c23500; font-weight:700;">RNA</span> has major and minor grooves, double-stranded <span style="color: mediumblue; font-weight:700;">DNA</span> does not',
   ],
   [
-    '<span style="color: orangered; font-weight:700;">RNA</span> has a regular consistent structure, whereas <span style="color: mediumblue; font-weight:700;">DNA</span> adopts a wide variety of tertiary structures',
+    '<span style="color: #c23500; font-weight:700;">RNA</span> has a regular consistent structure, whereas <span style="color: mediumblue; font-weight:700;">DNA</span> adopts a wide variety of tertiary structures',
     '<span style="color: mediumblue; font-weight:700;">DNA</span> adopts a wide variety of tertiary structures',
-    '<span style="color: orangered; font-weight:700;">RNA</span> has a regular consistent structure',
+    '<span style="color: #c23500; font-weight:700;">RNA</span> has a regular consistent structure',
   ],
   [
-    '<span style="color: orangered; font-weight:700;">RNA</span> cannot form a double-stranded helix',
-    '<span style="color: mediumblue; font-weight:700;">DNA</span> can form a double-stranded helix, but <span style="color: orangered; font-weight:700;">RNA</span> cannot',
+    '<span style="color: #c23500; font-weight:700;">RNA</span> cannot form a double-stranded helix',
+    '<span style="color: mediumblue; font-weight:700;">DNA</span> can form a double-stranded helix, but <span style="color: #c23500; font-weight:700;">RNA</span> cannot',
   ],
 );
 
@@ -129,7 +129,7 @@ $showPartialCorrectAnswers = 1;
 # GLOBAL SETTINGS
 #==========================================================
 
-$topic = 'differences between <span style="color: orangered; font-weight:700;">RNA</span> and <span style="color: mediumblue; font-weight:700;">DNA</span>';
+$topic = 'differences between <span style="color: #c23500; font-weight:700;">RNA</span> and <span style="color: mediumblue; font-weight:700;">DNA</span>';
 my $local_random = PGrandom->new();
 $local_random->srand($problemSeed);
 my @mode_choices = ("TRUE", "FALSE");

@@ -1819,7 +1819,7 @@
       "name": "Genetic Disorders",
       "subject": "Genetics",
       "topic": "Genetic Disorders",
-      "updated": "2026-10-06",
+      "updated": "2026-11-09",
       "url": "genetics/topic01/#MATCH-genetic_disorders-button-container"
     },
     {
@@ -1830,7 +1830,7 @@
       "name": "Genetic Disorders",
       "subject": "Genetics",
       "topic": "Genetic Disorders",
-      "updated": "2026-10-06",
+      "updated": "2026-11-09",
       "url": "genetics/topic01/#WOMC-genetic_disorders-button-container"
     },
     {
@@ -1885,7 +1885,7 @@
       "name": "RNA and DNA Differences (Helix Forms and Charge Included)",
       "subject": "Genetics",
       "topic": "DNA Structure",
-      "updated": "2026-01-23",
+      "updated": "2026-11-09",
       "url": "genetics/topic02/#TFMS-rna_v_dna-button-container"
     },
     {
@@ -2171,7 +2171,7 @@
       "name": "Genetics Terms from Definitions",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": null,
+      "updated": "2026-11-09",
       "url": "genetics/topic04/#MATCH-genetics_terminology-button-container"
     },
     {
@@ -2182,7 +2182,7 @@
       "name": "Mendelian Cross Terms from Descriptions",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": "2026-10-06",
+      "updated": "2026-11-09",
       "url": "genetics/topic04/#MATCH-mendel_cross_terminology-button-container"
     },
     {
@@ -2193,7 +2193,7 @@
       "name": "Mendel's Four Principles of Genetics from Descriptions",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": "2026-10-06",
+      "updated": "2026-11-09",
       "url": "genetics/topic04/#MATCH-mendel_four_principles-button-container"
     },
     {
@@ -2204,7 +2204,7 @@
       "name": "Mendelian Genetics Terms from Definitions",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": "2026-10-06",
+      "updated": "2026-11-09",
       "url": "genetics/topic04/#MATCH-mendelian_genetics_terms-button-container"
     },
     {
@@ -2226,7 +2226,7 @@
       "name": "Genetics Terms from Definitions",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": null,
+      "updated": "2026-11-09",
       "url": "genetics/topic04/#WOMC-genetics_terminology-button-container"
     },
     {
@@ -2237,7 +2237,7 @@
       "name": "Mendelian Cross Terms from Descriptions",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": "2026-10-06",
+      "updated": "2026-11-09",
       "url": "genetics/topic04/#WOMC-mendel_cross_terminology-button-container"
     },
     {
@@ -2248,7 +2248,7 @@
       "name": "Mendel's Four Principles of Genetics from Descriptions",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": "2026-10-06",
+      "updated": "2026-11-09",
       "url": "genetics/topic04/#WOMC-mendel_four_principles-button-container"
     },
     {
@@ -2259,7 +2259,7 @@
       "name": "Mendelian Genetics Terms from Definitions",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": "2026-10-06",
+      "updated": "2026-11-09",
       "url": "genetics/topic04/#WOMC-mendelian_genetics_terms-button-container"
     },
     {
@@ -2320,17 +2320,6 @@
     {
       "added": null,
       "created": "2021-10-20",
-      "family": "36c4a232a318a8c8e65eb4b5049f5e1cd46b24b3:gametes_unique_cross_genotype.py",
-      "id": "genetics/topic04/bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt",
-      "name": "Unique Offspring Genotypes from Four-Gene Crosses (With Hint)",
-      "subject": "Genetics",
-      "topic": "Mendelian Genetics",
-      "updated": "2026-09-28",
-      "url": "genetics/topic04/#unique_cross_genotypes-with_hint-4_genes-button-container"
-    },
-    {
-      "added": null,
-      "created": "2021-10-20",
       "family": "4f08846330fb91f717006b9f127def658de92d08:gametes_unique_cross_phenotype.py",
       "id": "genetics/topic04/bbq-unique_cross_phenotypes-phenotypes-with_hint-4_genes-questions.txt",
       "name": "Offspring Phenotype Counts from Genetic Crosses (4 Genes, With Hint)",
@@ -2338,17 +2327,6 @@
       "topic": "Mendelian Genetics",
       "updated": "2026-10-13",
       "url": "genetics/topic04/#unique_cross_phenotypes-phenotypes-with_hint-4_genes-button-container"
-    },
-    {
-      "added": null,
-      "created": "2021-10-20",
-      "family": "4f08846330fb91f717006b9f127def658de92d08:gametes_unique_cross_phenotype.py",
-      "id": "genetics/topic04/bbq-unique_cross_phenotypes-with_hint-4_genes-questions.txt",
-      "name": "Unique Offspring Phenotypes from Four-Gene Crosses (With Hint)",
-      "subject": "Genetics",
-      "topic": "Mendelian Genetics",
-      "updated": "2026-09-28",
-      "url": "genetics/topic04/#unique_cross_phenotypes-with_hint-4_genes-button-container"
     },
     {
       "added": null,
@@ -2363,24 +2341,13 @@
     },
     {
       "added": null,
-      "created": "2023-09-26",
-      "family": "0a883d1f93b504ee05ab39ed73d58cd7568165bc:inheritance-problems/unique_gametes.py",
-      "id": "genetics/topic04/bbq-unique_gametes-with_hint-4_genes-questions.txt",
-      "name": "Unique Gametes from Four-Gene Genotypes (With Hint)",
-      "subject": "Genetics",
-      "topic": "Mendelian Genetics",
-      "updated": "2026-09-28",
-      "url": "genetics/topic04/#unique_gametes-with_hint-4_genes-button-container"
-    },
-    {
-      "added": null,
       "created": "2022-10-06",
       "family": "c59e01a253ccee7cbabe4fe32f0b97c3a003783f:matching_sets/TEMPLATE.yml",
       "id": "genetics/topic05/bbq-MATCH-degrees_of_dominance-questions.txt",
       "name": "Degrees of Dominance and Gene Interactions from Definitions",
       "subject": "Genetics",
       "topic": "Gene Interactions",
-      "updated": "2026-01-23",
+      "updated": "2026-11-09",
       "url": "genetics/topic05/#MATCH-degrees_of_dominance-button-container"
     },
     {
@@ -2391,7 +2358,7 @@
       "name": "Degrees of Dominance and Gene Interactions from Definitions",
       "subject": "Genetics",
       "topic": "Gene Interactions",
-      "updated": "2026-01-23",
+      "updated": "2026-11-09",
       "url": "genetics/topic05/#WOMC-degrees_of_dominance-button-container"
     },
     {
@@ -2556,7 +2523,7 @@
       "name": "Meiosis Prophase I Stages from Descriptions",
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
-      "updated": "2026-07-12",
+      "updated": "2026-11-09",
       "url": "genetics/topic06/#MATCH-meiosis_prophase_1-button-container"
     },
     {
@@ -2567,7 +2534,7 @@
       "name": "Meiosis Terms from Definitions",
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
-      "updated": "2026-10-06",
+      "updated": "2026-11-09",
       "url": "genetics/topic06/#MATCH-meiosis_terms-button-container"
     },
     {
@@ -2578,7 +2545,7 @@
       "name": "Sex Determination Systems from Descriptions",
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
-      "updated": "2026-10-06",
+      "updated": "2026-11-09",
       "url": "genetics/topic06/#MATCH-sex_determination-button-container"
     },
     {
@@ -2589,7 +2556,7 @@
       "name": "Mitosis and Meiosis",
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
-      "updated": "2026-01-23",
+      "updated": "2026-11-09",
       "url": "genetics/topic06/#TFMS-mitosis_and_meiosis-button-container"
     },
     {
@@ -2600,7 +2567,7 @@
       "name": "Meiosis Prophase I Stages from Descriptions",
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
-      "updated": "2026-07-12",
+      "updated": "2026-11-09",
       "url": "genetics/topic06/#WOMC-meiosis_prophase_1-button-container"
     },
     {
@@ -2611,7 +2578,7 @@
       "name": "Meiosis Terms from Definitions",
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
-      "updated": "2026-10-06",
+      "updated": "2026-11-09",
       "url": "genetics/topic06/#WOMC-meiosis_terms-button-container"
     },
     {
@@ -2622,7 +2589,7 @@
       "name": "Sex Determination Systems from Descriptions",
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
-      "updated": "2026-10-06",
+      "updated": "2026-11-09",
       "url": "genetics/topic06/#WOMC-sex_determination-button-container"
     },
     {
@@ -2754,7 +2721,7 @@
       "name": "Chi-Square Terms from Definitions",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-23",
+      "updated": "2026-11-09",
       "url": "genetics/topic07/#MATCH-chi-square_terms-button-container"
     },
     {
@@ -2765,7 +2732,7 @@
       "name": "Null Hypothesis Rejection Criteria",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-23",
+      "updated": "2026-11-09",
       "url": "genetics/topic07/#TFMS-chi-square-button-container"
     },
     {
@@ -2776,7 +2743,7 @@
       "name": "Chi-Square Terms from Definitions",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-23",
+      "updated": "2026-11-09",
       "url": "genetics/topic07/#WOMC-chi-square_terms-button-container"
     },
     {
@@ -2886,7 +2853,7 @@
       "name": "Binomial Coefficients from Pascal's Triangle for Offspring Sex Counts",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": "2026-10-23",
+      "updated": "2026-10-25",
       "url": "genetics/topic07/#pascal_triangle-MC-button-container"
     },
     {
@@ -2913,13 +2880,13 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2023-11-05",
+      "family": "4d0e14d53a1c9666cf74947fc8a17d203e893d56:inheritance-problems/two-point_test_cross-cis-trans.py",
       "id": "genetics/topic08/bbq-flies-2_point_test_cross-cis-trans-MC-questions.txt",
       "name": "Cis/Trans Allele Configuration from Fruit Fly Two-Point Test Crosses",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-10-31",
       "url": "genetics/topic08/#flies-2_point_test_cross-cis-trans-MC-button-container"
     },
     {
@@ -2946,35 +2913,35 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2023-11-05",
+      "family": "4d0e14d53a1c9666cf74947fc8a17d203e893d56:inheritance-problems/two-point_test_cross-which_genotypes.py",
       "id": "genetics/topic08/bbq-flies-2_point_test_cross-which_genotypes-MA-PARENTAL-questions.txt",
       "name": "Parental Genotypes from Fruit Fly Two-Point Test Cross Data",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-10-31",
       "url": "genetics/topic08/#flies-2_point_test_cross-which_genotypes-MA-PARENTAL-button-container"
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2023-11-05",
+      "family": "4d0e14d53a1c9666cf74947fc8a17d203e893d56:inheritance-problems/two-point_test_cross-which_genotypes.py",
       "id": "genetics/topic08/bbq-flies-2_point_test_cross-which_genotypes-MA-RECOMBINANT-questions.txt",
       "name": "Recombinant Genotypes from Fruit Fly Two-Point Test Crosses",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-10-31",
       "url": "genetics/topic08/#flies-2_point_test_cross-which_genotypes-MA-RECOMBINANT-button-container"
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2021-10-20",
+      "family": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
       "id": "genetics/topic08/bbq-flies-3_point_test_cross-distances_plus-questions.txt",
       "name": "Gene Order and Pairwise Map Distances from Fruit Fly Three-Point Test Crosses",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-01-11",
       "url": "genetics/topic08/#flies-3_point_test_cross-distances_plus-button-container"
     },
     {
@@ -3001,68 +2968,68 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2021-10-20",
+      "family": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
       "id": "genetics/topic08/bbq-flies-3_point_test_cross-one_gene_distance-MC-questions.txt",
       "name": "Genetic Distance Between Two Genes from Drosophila Three-Point Test Crosses",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-10-31",
       "url": "genetics/topic08/#flies-3_point_test_cross-one_gene_distance-MC-button-container"
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2021-10-20",
+      "family": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
       "id": "genetics/topic08/bbq-flies-3_point_test_cross-one_gene_distance-NUM-questions.txt",
       "name": "Gene Pair Distance from Fruit Fly Three-Point Test Crosses",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-10-31",
       "url": "genetics/topic08/#flies-3_point_test_cross-one_gene_distance-NUM-button-container"
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2021-10-20",
+      "family": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
       "id": "genetics/topic08/bbq-flies-3_point_test_cross-which_genotypes-DOUBLE-questions.txt",
       "name": "Double Crossover Genotypes from Three-Point Test Cross Progeny Counts in Fruit Flies",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-04-19",
       "url": "genetics/topic08/#flies-3_point_test_cross-which_genotypes-DOUBLE-button-container"
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2021-10-20",
+      "family": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
       "id": "genetics/topic08/bbq-flies-3_point_test_cross-which_genotypes-GENES-questions.txt",
       "name": "Recombinant Genotypes in Drosophila Three-Point Test Crosses",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-04-19",
       "url": "genetics/topic08/#flies-3_point_test_cross-which_genotypes-GENES-button-container"
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2021-10-20",
+      "family": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
       "id": "genetics/topic08/bbq-flies-3_point_test_cross-which_genotypes-PARENTAL-questions.txt",
       "name": "Parental Genotypes from Fruit Fly Three-Point Test Cross Data",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-04-19",
       "url": "genetics/topic08/#flies-3_point_test_cross-which_genotypes-PARENTAL-button-container"
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2021-10-20",
+      "family": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
       "id": "genetics/topic08/bbq-flies-4_point_test-cross_gene_map-distances_plus-questions.txt",
       "name": "Fruit Fly Four-Point Test Cross Gene Order and Six Pairwise Distances",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-10-27",
       "url": "genetics/topic08/#flies-4_point_test-cross_gene_map-distances_plus-button-container"
     },
     {
@@ -3161,7 +3128,7 @@
       "name": "Chromosome Structure Alterations from Descriptions",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": "2026-10-06",
+      "updated": "2026-11-09",
       "url": "genetics/topic09/#MATCH-chromosome_alterations-button-container"
     },
     {
@@ -3172,7 +3139,7 @@
       "name": "Chromosome Shapes from Descriptions",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": "2026-10-06",
+      "updated": "2026-11-09",
       "url": "genetics/topic09/#MATCH-chromosome_shapes-button-container"
     },
     {
@@ -3183,7 +3150,7 @@
       "name": "Chromosome Structure Alterations from Descriptions",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": "2026-10-06",
+      "updated": "2026-11-09",
       "url": "genetics/topic09/#WOMC-chromosome_alterations-button-container"
     },
     {
@@ -3194,7 +3161,7 @@
       "name": "Chromosome Shapes from Descriptions",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": "2026-10-06",
+      "updated": "2026-11-09",
       "url": "genetics/topic09/#WOMC-chromosome_shapes-button-container"
     },
     {
@@ -3392,7 +3359,7 @@
       "name": "Population Genetics Terms from Definitions",
       "subject": "Genetics",
       "topic": "Population Genetics",
-      "updated": "2026-10-06",
+      "updated": "2026-11-09",
       "url": "genetics/topic10/#MATCH-population_genetics_terms-button-container"
     },
     {
@@ -3414,7 +3381,7 @@
       "name": "Population Genetics Terms from Definitions",
       "subject": "Genetics",
       "topic": "Population Genetics",
-      "updated": "2026-10-06",
+      "updated": "2026-11-09",
       "url": "genetics/topic10/#WOMC-population_genetics_terms-button-container"
     },
     {
@@ -5773,7 +5740,7 @@
     {
       "icon": "\ud83e\udeb0",
       "key": "genetics",
-      "sets": 158,
+      "sets": 155,
       "title": "Genetics",
       "topics": 11,
       "url": "genetics/"
@@ -5820,11 +5787,123 @@
     }
   ],
   "totals": {
-    "sets": 504,
+    "sets": 501,
     "subjects": 7,
     "topics": 57
   },
   "updated": [
+    {
+      "date": "2026-11-09",
+      "name": "Sex Determination Systems from Descriptions",
+      "subject": "Genetics",
+      "topic": "Chromosomal Inheritance",
+      "url": "genetics/topic06/#MATCH-sex_determination-button-container"
+    },
+    {
+      "date": "2026-11-09",
+      "name": "RNA and DNA Differences (Helix Forms and Charge Included)",
+      "subject": "Genetics",
+      "topic": "DNA Structure",
+      "url": "genetics/topic02/#TFMS-rna_v_dna-button-container"
+    },
+    {
+      "date": "2026-11-09",
+      "name": "Population Genetics Terms from Definitions",
+      "subject": "Genetics",
+      "topic": "Population Genetics",
+      "url": "genetics/topic10/#MATCH-population_genetics_terms-button-container"
+    },
+    {
+      "date": "2026-11-09",
+      "name": "Null Hypothesis Rejection Criteria",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#TFMS-chi-square-button-container"
+    },
+    {
+      "date": "2026-11-09",
+      "name": "Mitosis and Meiosis",
+      "subject": "Genetics",
+      "topic": "Chromosomal Inheritance",
+      "url": "genetics/topic06/#TFMS-mitosis_and_meiosis-button-container"
+    },
+    {
+      "date": "2026-11-09",
+      "name": "Mendelian Genetics Terms from Definitions",
+      "subject": "Genetics",
+      "topic": "Mendelian Genetics",
+      "url": "genetics/topic04/#MATCH-mendelian_genetics_terms-button-container"
+    },
+    {
+      "date": "2026-11-09",
+      "name": "Mendelian Cross Terms from Descriptions",
+      "subject": "Genetics",
+      "topic": "Mendelian Genetics",
+      "url": "genetics/topic04/#MATCH-mendel_cross_terminology-button-container"
+    },
+    {
+      "date": "2026-11-09",
+      "name": "Mendel's Four Principles of Genetics from Descriptions",
+      "subject": "Genetics",
+      "topic": "Mendelian Genetics",
+      "url": "genetics/topic04/#MATCH-mendel_four_principles-button-container"
+    },
+    {
+      "date": "2026-11-09",
+      "name": "Meiosis Terms from Definitions",
+      "subject": "Genetics",
+      "topic": "Chromosomal Inheritance",
+      "url": "genetics/topic06/#MATCH-meiosis_terms-button-container"
+    },
+    {
+      "date": "2026-11-09",
+      "name": "Meiosis Prophase I Stages from Descriptions",
+      "subject": "Genetics",
+      "topic": "Chromosomal Inheritance",
+      "url": "genetics/topic06/#MATCH-meiosis_prophase_1-button-container"
+    },
+    {
+      "date": "2026-11-09",
+      "name": "Genetics Terms from Definitions",
+      "subject": "Genetics",
+      "topic": "Mendelian Genetics",
+      "url": "genetics/topic04/#MATCH-genetics_terminology-button-container"
+    },
+    {
+      "date": "2026-11-09",
+      "name": "Genetic Disorders",
+      "subject": "Genetics",
+      "topic": "Genetic Disorders",
+      "url": "genetics/topic01/#MATCH-genetic_disorders-button-container"
+    },
+    {
+      "date": "2026-11-09",
+      "name": "Degrees of Dominance and Gene Interactions from Definitions",
+      "subject": "Genetics",
+      "topic": "Gene Interactions",
+      "url": "genetics/topic05/#MATCH-degrees_of_dominance-button-container"
+    },
+    {
+      "date": "2026-11-09",
+      "name": "Chromosome Structure Alterations from Descriptions",
+      "subject": "Genetics",
+      "topic": "Chromosomal Disorders",
+      "url": "genetics/topic09/#MATCH-chromosome_alterations-button-container"
+    },
+    {
+      "date": "2026-11-09",
+      "name": "Chromosome Shapes from Descriptions",
+      "subject": "Genetics",
+      "topic": "Chromosomal Disorders",
+      "url": "genetics/topic09/#MATCH-chromosome_shapes-button-container"
+    },
+    {
+      "date": "2026-11-09",
+      "name": "Chi-Square Terms from Definitions",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#MATCH-chi-square_terms-button-container"
+    },
     {
       "date": "2026-11-01",
       "name": "Monoploid and Haploid Numbers from Chromosome Counts",
@@ -5838,6 +5917,20 @@
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
       "url": "genetics/topic09/#deletion_mutant_words-05-06_genes-complementation-FIB-button-container"
+    },
+    {
+      "date": "2026-10-31",
+      "name": "Recombinant Genotypes from Fruit Fly Two-Point Test Crosses",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "url": "genetics/topic08/#flies-2_point_test_cross-which_genotypes-MA-RECOMBINANT-button-container"
+    },
+    {
+      "date": "2026-10-31",
+      "name": "Genetic Distance Between Two Genes from Drosophila Three-Point Test Crosses",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "url": "genetics/topic08/#flies-3_point_test_cross-one_gene_distance-MC-button-container"
     },
     {
       "date": "2026-10-31",
@@ -5859,6 +5952,13 @@
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
       "url": "genetics/topic09/#translocation_meiosis_table-button-container"
+    },
+    {
+      "date": "2026-10-31",
+      "name": "Cis/Trans Allele Configuration from Fruit Fly Two-Point Test Crosses",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "url": "genetics/topic08/#flies-2_point_test_cross-cis-trans-MC-button-container"
     },
     {
       "date": "2026-10-31",
@@ -5904,17 +6004,17 @@
     },
     {
       "date": "2026-10-25",
+      "name": "Binomial Coefficients from Pascal's Triangle for Offspring Sex Counts",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#pascal_triangle-MC-button-container"
+    },
+    {
+      "date": "2026-10-25",
       "name": "2026 Nobel Prize Topics",
       "subject": "Biotechnology",
       "topic": "Environmental and Synthetic Biology",
       "url": "biotechnology/topic04/#TFMS-nobel_prizes-button-container"
-    },
-    {
-      "date": "2026-10-23",
-      "name": "Null Hypothesis Rejection Criteria",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#TFMS-chi-square-button-container"
     },
     {
       "date": "2026-10-23",
@@ -5929,13 +6029,6 @@
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
       "url": "genetics/topic07/#chi2-choose_table-button-container"
-    },
-    {
-      "date": "2026-10-23",
-      "name": "Chi-Square Terms from Definitions",
-      "subject": "Genetics",
-      "topic": "Chi Square Analysis",
-      "url": "genetics/topic07/#MATCH-chi-square_terms-button-container"
     },
     {
       "date": "2026-10-23",
@@ -6191,24 +6284,10 @@
     },
     {
       "date": "2026-10-06",
-      "name": "Sex Determination Systems from Descriptions",
-      "subject": "Genetics",
-      "topic": "Chromosomal Inheritance",
-      "url": "genetics/topic06/#MATCH-sex_determination-button-container"
-    },
-    {
-      "date": "2026-10-06",
       "name": "Potential and Kinetic Energy Examples",
       "subject": "Biochemistry",
       "topic": "Thermodynamics",
       "url": "biochemistry/topic06/#TFMS-potential_v_kinetic_energy-button-container"
-    },
-    {
-      "date": "2026-10-06",
-      "name": "Population Genetics Terms from Definitions",
-      "subject": "Genetics",
-      "topic": "Population Genetics",
-      "url": "genetics/topic10/#MATCH-population_genetics_terms-button-container"
     },
     {
       "date": "2026-10-06",
@@ -6226,38 +6305,10 @@
     },
     {
       "date": "2026-10-06",
-      "name": "Mendelian Genetics Terms from Definitions",
-      "subject": "Genetics",
-      "topic": "Mendelian Genetics",
-      "url": "genetics/topic04/#MATCH-mendelian_genetics_terms-button-container"
-    },
-    {
-      "date": "2026-10-06",
-      "name": "Mendelian Cross Terms from Descriptions",
-      "subject": "Genetics",
-      "topic": "Mendelian Genetics",
-      "url": "genetics/topic04/#MATCH-mendel_cross_terminology-button-container"
-    },
-    {
-      "date": "2026-10-06",
-      "name": "Mendel's Four Principles of Genetics from Descriptions",
-      "subject": "Genetics",
-      "topic": "Mendelian Genetics",
-      "url": "genetics/topic04/#MATCH-mendel_four_principles-button-container"
-    },
-    {
-      "date": "2026-10-06",
       "name": "Membrane Protein Functions",
       "subject": "Biochemistry",
       "topic": "Membranes and Membrane Proteins",
       "url": "biochemistry/topic13/#TFMS-membrane_protein_functions-button-container"
-    },
-    {
-      "date": "2026-10-06",
-      "name": "Meiosis Terms from Definitions",
-      "subject": "Genetics",
-      "topic": "Chromosomal Inheritance",
-      "url": "genetics/topic06/#MATCH-meiosis_terms-button-container"
     },
     {
       "date": "2026-10-06",
@@ -6286,13 +6337,6 @@
       "subject": "Biochemistry",
       "topic": "Thermodynamics",
       "url": "biochemistry/topic06/#TFMS-gibbs_free_energy_equation-button-container"
-    },
-    {
-      "date": "2026-10-06",
-      "name": "Genetic Disorders",
-      "subject": "Genetics",
-      "topic": "Genetic Disorders",
-      "url": "genetics/topic01/#MATCH-genetic_disorders-button-container"
     },
     {
       "date": "2026-10-06",
@@ -6349,20 +6393,6 @@
       "subject": "Biochemistry",
       "topic": "Enzyme Inhibition",
       "url": "biochemistry/topic08/#TFMS-chymotrypsin-button-container"
-    },
-    {
-      "date": "2026-10-06",
-      "name": "Chromosome Structure Alterations from Descriptions",
-      "subject": "Genetics",
-      "topic": "Chromosomal Disorders",
-      "url": "genetics/topic09/#MATCH-chromosome_alterations-button-container"
-    },
-    {
-      "date": "2026-10-06",
-      "name": "Chromosome Shapes from Descriptions",
-      "subject": "Genetics",
-      "topic": "Chromosomal Disorders",
-      "url": "genetics/topic09/#MATCH-chromosome_shapes-button-container"
     },
     {
       "date": "2026-10-06",
@@ -6643,13 +6673,6 @@
       "subject": "Biochemistry",
       "topic": "Membranes and Membrane Proteins",
       "url": "biochemistry/topic13/#TFMS-membrane_diffusion-button-container"
-    },
-    {
-      "date": "2026-07-12",
-      "name": "Meiosis Prophase I Stages from Descriptions",
-      "subject": "Genetics",
-      "topic": "Chromosomal Inheritance",
-      "url": "genetics/topic06/#MATCH-meiosis_prophase_1-button-container"
     },
     {
       "date": "2026-07-12",
@@ -7073,20 +7096,6 @@
     },
     {
       "date": "2026-01-23",
-      "name": "RNA and DNA Differences (Helix Forms and Charge Included)",
-      "subject": "Biochemistry",
-      "topic": "Nucleic Acids",
-      "url": "biochemistry/topic11/#TFMS-rna_v_dna-button-container"
-    },
-    {
-      "date": "2026-01-23",
-      "name": "Mitosis and Meiosis",
-      "subject": "Genetics",
-      "topic": "Chromosomal Inheritance",
-      "url": "genetics/topic06/#TFMS-mitosis_and_meiosis-button-container"
-    },
-    {
-      "date": "2026-01-23",
       "name": "Long-Distance PCR",
       "subject": "Molecular Biology",
       "topic": "Cloning and Sequencing",
@@ -7112,13 +7121,6 @@
       "subject": "Genetics",
       "topic": "Population Genetics",
       "url": "genetics/topic10/#TFMS-h-w_non-evolve_criteria-button-container"
-    },
-    {
-      "date": "2026-01-23",
-      "name": "Degrees of Dominance and Gene Interactions from Definitions",
-      "subject": "Genetics",
-      "topic": "Gene Interactions",
-      "url": "genetics/topic05/#MATCH-degrees_of_dominance-button-container"
     },
     {
       "date": "2026-01-23",

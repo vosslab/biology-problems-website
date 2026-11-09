@@ -5,7 +5,7 @@
 ## DBsubject('Genetics')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-15')
+## Date('2026-11-09')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -33,48 +33,48 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'inheritance patterns',
     'singular_item' => 'definition',
     'choices' => [
-      'codominance',
-      'complete dominance',
-      'epistasis',
-      'incomplete dominance',
+      '<span style="color: #b74300; font-weight:700;">codominance</span>',
+      '<span style="color: #3b7600; font-weight:700;">complete dominance</span>',
+      '<span style="color: #007576; font-weight:700;">epistasis</span>',
+      '<span style="color: #0067cc; font-weight:700;">incomplete dominance</span>',
     ],
-    'correct' => 'codominance',
+    'correct' => '<span style="color: #b74300; font-weight:700;">codominance</span>',
   },
   {
     'item_name' => '<strong>one allele masks the effect of another allele</strong>',
     'plural_choice' => 'inheritance patterns',
     'singular_item' => 'definition',
     'choices' => [
-      'codominance',
-      'complete dominance',
-      'epistasis',
-      'incomplete dominance',
+      '<span style="color: #b74300; font-weight:700;">codominance</span>',
+      '<span style="color: #3b7600; font-weight:700;">complete dominance</span>',
+      '<span style="color: #007576; font-weight:700;">epistasis</span>',
+      '<span style="color: #0067cc; font-weight:700;">incomplete dominance</span>',
     ],
-    'correct' => 'complete dominance',
+    'correct' => '<span style="color: #3b7600; font-weight:700;">complete dominance</span>',
   },
   {
     'item_name' => '<strong>one gene suppresses the effect of another gene that is NOT its allele</strong>',
     'plural_choice' => 'inheritance patterns',
     'singular_item' => 'definition',
     'choices' => [
-      'codominance',
-      'complete dominance',
-      'epistasis',
-      'incomplete dominance',
+      '<span style="color: #b74300; font-weight:700;">codominance</span>',
+      '<span style="color: #3b7600; font-weight:700;">complete dominance</span>',
+      '<span style="color: #007576; font-weight:700;">epistasis</span>',
+      '<span style="color: #0067cc; font-weight:700;">incomplete dominance</span>',
     ],
-    'correct' => 'epistasis',
+    'correct' => '<span style="color: #007576; font-weight:700;">epistasis</span>',
   },
   {
     'item_name' => '<strong>heterozygote appearance is a blended phenotype of both homozygous phenotypes</strong>',
     'plural_choice' => 'inheritance patterns',
     'singular_item' => 'definition',
     'choices' => [
-      'codominance',
-      'complete dominance',
-      'epistasis',
-      'incomplete dominance',
+      '<span style="color: #b74300; font-weight:700;">codominance</span>',
+      '<span style="color: #3b7600; font-weight:700;">complete dominance</span>',
+      '<span style="color: #007576; font-weight:700;">epistasis</span>',
+      '<span style="color: #0067cc; font-weight:700;">incomplete dominance</span>',
     ],
-    'correct' => 'incomplete dominance',
+    'correct' => '<span style="color: #0067cc; font-weight:700;">incomplete dominance</span>',
   },
 );
 
