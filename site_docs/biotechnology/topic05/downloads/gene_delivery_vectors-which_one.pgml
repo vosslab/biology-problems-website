@@ -1,0 +1,357 @@
+## DESCRIPTION
+## Select the gene-delivery vector that corresponds to the given description.
+## ENDDESCRIPTION
+## KEYWORDS('gene-delivery vectors','gene-delivery vectors','descriptions','which one','multiple choice')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-11-18')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>delivers double-stranded DNA and can make cells produce a lot of protein for a short time</strong>',
+    'plural_choice' => 'gene-delivery vectors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+      '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+      '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+      '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+  },
+  {
+    'item_name' => '<strong>carries relatively large pieces of DNA, but an immune response can make repeat doses harder</strong>',
+    'plural_choice' => 'gene-delivery vectors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+      '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+      '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+      '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+  },
+  {
+    'item_name' => '<strong>has a protein coat that can carry a large piece of DNA for strong, short-term expression</strong>',
+    'plural_choice' => 'gene-delivery vectors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+      '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+      '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+      '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+  },
+  {
+    'item_name' => '<strong>can carry a large gene and its control sequences, but the immune response may shorten its effect</strong>',
+    'plural_choice' => 'gene-delivery vectors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+      '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+      '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+      '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+  },
+  {
+    'item_name' => '<strong>can deliver a large DNA payload when the goal is to make a lot of protein briefly</strong>',
+    'plural_choice' => 'gene-delivery vectors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+      '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+      '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+      '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+  },
+  {
+    'item_name' => '<strong>carries a small piece of DNA that can stay outside chromosomes in cells that do NOT divide</strong>',
+    'plural_choice' => 'gene-delivery vectors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+      '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+      '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+      '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+  },
+  {
+    'item_name' => '<strong>has room for about 4.7 kb of DNA, including the gene and its control sequences</strong>',
+    'plural_choice' => 'gene-delivery vectors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+      '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+      '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+      '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+  },
+  {
+    'item_name' => '<strong>holds so little DNA that both the gene and its promoter must fit in a small space</strong>',
+    'plural_choice' => 'gene-delivery vectors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+      '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+      '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+      '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+  },
+  {
+    'item_name' => '<strong>leaves much of its small DNA payload outside the chromosomes in cells that do NOT divide</strong>',
+    'plural_choice' => 'gene-delivery vectors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+      '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+      '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+      '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+  },
+  {
+    'item_name' => '<strong>can keep a small gene active for a long time in cells that rarely divide</strong>',
+    'plural_choice' => 'gene-delivery vectors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+      '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+      '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+      '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+  },
+  {
+    'item_name' => '<strong>can carry a small gene to cells in the retina, where the DNA can stay outside chromosomes</strong>',
+    'plural_choice' => 'gene-delivery vectors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+      '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+      '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+      '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+  },
+  {
+    'item_name' => '<strong>makes a DNA copy of the RNA it carries and inserts the copy into a chromosome</strong>',
+    'plural_choice' => 'gene-delivery vectors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+      '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+      '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+      '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+  },
+  {
+    'item_name' => '<strong>puts a gene into a chromosome so the cell can keep using it</strong>',
+    'plural_choice' => 'gene-delivery vectors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+      '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+      '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+      '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+  },
+  {
+    'item_name' => q{<strong>copies RNA into DNA, then joins that DNA to one of the cell's chromosomes</strong>},
+    'plural_choice' => 'gene-delivery vectors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+      '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+      '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+      '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+  },
+  {
+    'item_name' => '<strong>can pass an inserted gene to both daughter cells when a cell divides</strong>',
+    'plural_choice' => 'gene-delivery vectors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+      '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+      '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+      '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+  },
+  {
+    'item_name' => '<strong>can keep a gene active by inserting it into a chromosome, but the insertion can disrupt another gene</strong>',
+    'plural_choice' => 'gene-delivery vectors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+      '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+      '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+      '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+  },
+  {
+    'item_name' => '<strong>was used to add a working ADA gene to T cells in the early ADA-SCID trial</strong>',
+    'plural_choice' => 'gene-delivery vectors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+      '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+      '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+      '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+  },
+  {
+    'item_name' => '<strong>uses a small particle made of lipids to protect DNA or RNA</strong>',
+    'plural_choice' => 'gene-delivery vectors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+      '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+      '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+      '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+  },
+  {
+    'item_name' => '<strong>packages RNA in a small particle that helps it enter cells without using a virus</strong>',
+    'plural_choice' => 'gene-delivery vectors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+      '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+      '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+      '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+  },
+  {
+    'item_name' => '<strong>carries DNA or RNA in a particle made of lipids instead of a viral coat</strong>',
+    'plural_choice' => 'gene-delivery vectors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+      '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+      '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+      '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+  },
+  {
+    'item_name' => '<strong>protects RNA in a tiny particle made of lipids while it travels to cells</strong>',
+    'plural_choice' => 'gene-delivery vectors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+      '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+      '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+      '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+  },
+  {
+    'item_name' => '<strong>can carry RNA into a cell, but the RNA can get trapped in an endosome</strong>',
+    'plural_choice' => 'gene-delivery vectors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">adenoviral vector</span>',
+      '<span style="color: #0067cc; font-weight:700;">AAV vector</span>',
+      '<span style="color: #a719db; font-weight:700;">retroviral vector</span>',
+      '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">lipid nanoparticle</span>',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

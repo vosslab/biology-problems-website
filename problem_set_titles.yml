@@ -27,6 +27,7 @@ bbq-MATCH-biotech_vs_improved-questions.txt: Biotechnology and Related Industrie
 bbq-MATCH-biotechnology_periods_and_milestones-questions.txt: Historical Biotechnology
   Periods from Milestones (Matching)
 bbq-MATCH-bond_types-questions.txt: Chemical Bond Types from Characteristics (Matching)
+bbq-MATCH-cancer_treatment_mechanisms-questions.txt: Cancer Treatment Mechanisms (Matching)
 bbq-MATCH-catalytic_strategies-questions.txt: Enzyme Catalytic Strategies (Matching)
 bbq-MATCH-cell_disruption-questions.txt: Cell Disruption Techniques from Descriptions
   (Matching)
@@ -57,10 +58,18 @@ bbq-MATCH-energy_terms-questions.txt: Energy-Requiring and Energy-Releasing Proc
   (Matching)
 bbq-MATCH-enzyme_terminology-questions.txt: Enzyme Catalysis Terms from Definitions
   (Matching)
+bbq-MATCH-food_and_drug_law_milestones-questions.txt: Food and Drug Laws from Regulatory
+  Changes (Matching)
+bbq-MATCH-gene_delivery_vectors-questions.txt: Gene Delivery Vectors from Descriptions
+  (Matching)
+bbq-MATCH-gene_therapy_delivery_routes-questions.txt: Gene Therapy Delivery Routes
+  from Descriptions (Matching)
 bbq-MATCH-gene_therapy_v_edit-questions.txt: Genetic Disease Treatment Methods from
   Descriptions (Matching)
 bbq-MATCH-genetic_disorders-questions.txt: Genetic Disorders (Matching)
 bbq-MATCH-genetics_terminology-questions.txt: Genetics Terms from Definitions (Matching)
+bbq-MATCH-genome_editing_tools-questions.txt: Genome Editing Tools from Descriptions
+  (Matching)
 bbq-MATCH-hypothesis_testing_terms-questions.txt: Hypothesis Testing Terms from Definitions
   (Matching)
 bbq-MATCH-intellectual_property-questions.txt: Types of Intellectual Property from
@@ -101,7 +110,10 @@ bbq-MATCH-protein_v_dna_gels-questions.txt: Protein and Nucleic Acid Gel Electro
 bbq-MATCH-proteomics_v_metabolomics-questions.txt: Proteomics and Metabolomics Techniques
   from Descriptions (Matching)
 bbq-MATCH-remediation_sites-questions.txt: Remediation Categories from Sites (Matching)
+bbq-MATCH-research_agreement_terms-questions.txt: Research Agreements from Examples
+  (Matching)
 bbq-MATCH-respiration-questions.txt: Cellular Respiration Stages from Statements (Matching)
+bbq-MATCH-rna_medicines-questions.txt: Nucleic Acid Medicine Functions (Matching)
 bbq-MATCH-selecting_statistical_tests-questions.txt: Statistical Hypothesis Tests
   from Descriptions (Matching)
 bbq-MATCH-senses_receptor_types_by_modality-questions.txt: Sensory Modalities from
@@ -114,6 +126,7 @@ bbq-MATCH-sex_determination-questions.txt: Sex Determination Systems from Descri
   (Matching)
 bbq-MATCH-stem_cell_potency-questions.txt: Stem Cell Potency Levels from Definitions
   (Matching)
+bbq-MATCH-stem_cell_sources-questions.txt: Stem Cell Types and Sources (Matching)
 bbq-MATCH-theranos_people-questions.txt: 'Theranos Case Study: People and Roles (Matching)'
 bbq-MATCH-transgenic_crop_regulators-questions.txt: Federal Agencies from Transgenic
   Crop Regulatory Roles (Matching)
@@ -121,12 +134,16 @@ bbq-MATCH-trophic_classes-questions.txt: Trophic Categories from Metabolic Defin
   (Matching)
 bbq-MATCH-trophic_organisms-questions.txt: Trophic Classification from Energy and
   Carbon Sources (Matching)
+bbq-ORDER-animal_cloning-4_items-questions.txt: Animal Cloning by Somatic Cell Nuclear
+  Transfer (4 Steps, ORD)
 bbq-ORDER-glycolysis-11_items-questions.txt: Glycolysis Intermediate Ordering (ORD)
 bbq-ORDER-microbial_16s_survey-6_items-questions.txt: Environmental 16S rDNA Survey
   Workflow (6 Steps, ORD)
 bbq-ORDER-model_organism_complexity-7_items-questions.txt: Model Organisms by Complexity
   (7 Organisms, ORD)
 bbq-RT-qPCR-questions.txt: Gene Expression Fold Change from RT-qPCR Data (NUM)
+bbq-SEQUENCEMC-animal_cloning-4_items-questions.txt: Animal Cloning by Somatic Cell
+  Nuclear Transfer (4 Steps, MCORDER)
 bbq-SEQUENCEMC-glycolysis-11_items-questions.txt: Glycolysis Intermediate Ordering
   (MCORDER)
 bbq-SEQUENCEMC-microbial_16s_survey-6_items-questions.txt: Environmental 16S rDNA
@@ -176,16 +193,21 @@ bbq-TFMS-membrane_diffusion-questions.txt: Membrane Permeability to Ions and Mol
   (TFMS)
 bbq-TFMS-membrane_protein_functions-questions.txt: Membrane Protein Functions (TFMS)
 bbq-TFMS-mitosis_and_meiosis-questions.txt: Mitosis and Meiosis (TFMS)
+bbq-TFMS-mutagens_and_carcinogens-questions.txt: Mutagens, Carcinogens, and the Ames
+  Test (TFMS)
 bbq-TFMS-nobel_prizes-questions.txt: 2026 Nobel Prize Topics (TFMS)
 bbq-TFMS-nucleotide_components-questions.txt: Nucleotide Components (TFMS)
 bbq-TFMS-pcr_components-questions.txt: PCR Components (TFMS)
 bbq-TFMS-pcr_primers-questions.txt: Efficient PCR Primers (TFMS)
 bbq-TFMS-pcr_step_order-questions.txt: PCR Step Order (TFMS)
+bbq-TFMS-pfas_forever_chemicals-questions.txt: PFAS (Forever Chemicals) (TFMS)
 bbq-TFMS-plant_gene_methods-questions.txt: Agrobacterium, Gene Guns, and CRISPR (TFMS)
 bbq-TFMS-potential_v_kinetic_energy-questions.txt: Potential and Kinetic Energy Examples
   (TFMS)
 bbq-TFMS-proofreading-questions.txt: DNA Polymerase Proofreading (TFMS)
 bbq-TFMS-protein_stability-questions.txt: Protein Stability (TFMS)
+bbq-TFMS-recombinant_dna_biosafety-questions.txt: Asilomar and Recombinant DNA Biosafety
+  (TFMS)
 bbq-TFMS-rna_v_dna-biol_301-questions.txt: RNA and DNA Differences (Core Set, TFMS)
 bbq-TFMS-rna_v_dna-questions.txt: RNA and DNA Differences (Helix Forms and Charge
   Included, TFMS)
@@ -194,6 +216,8 @@ bbq-TFMS-senses_chemosensation_smell_taste-questions.txt: Chemosensation (Smell 
   Taste, TFMS)
 bbq-TFMS-senses_smell_vs_taste-questions.txt: Sensory Coding (Smell vs. Taste, TFMS)
 bbq-TFMS-senses_vision_hearing-questions.txt: Vision and Hearing Transduction (TFMS)
+bbq-TFMS-supplement_label_claims-questions.txt: Disease Claims on Supplement Labels
+  (TFMS)
 bbq-TFMS-thermodynamics-questions.txt: Thermodynamics and Kinetics (TFMS)
 bbq-TFMS-translation_accuracy-questions.txt: Translation Accuracy (TFMS)
 bbq-TFMS-which_enzyme-questions.txt: Enzyme Naming Patterns (TFMS)
@@ -209,6 +233,8 @@ bbq-WOMC-biotech_vs_improved-questions.txt: Biotechnology and Related Industries
 bbq-WOMC-biotechnology_periods_and_milestones-questions.txt: Historical Biotechnology
   Periods from Milestones (WOMC)
 bbq-WOMC-bond_types-questions.txt: Chemical Bond Types from Characteristics (WOMC)
+bbq-WOMC-cancer_treatment_mechanisms-questions.txt: Cancer Treatments from Mechanism
+  Descriptions (WOMC)
 bbq-WOMC-catalytic_strategies-questions.txt: Enzyme Catalytic Strategies (WOMC)
 bbq-WOMC-cell_disruption-questions.txt: Cell Disruption Techniques from Descriptions
   (WOMC)
@@ -239,10 +265,18 @@ bbq-WOMC-energy_terms-questions.txt: Energy-Requiring and Energy-Releasing Proce
   (WOMC)
 bbq-WOMC-enzyme_terminology-questions.txt: Enzyme Catalysis Terms from Definitions
   (WOMC)
+bbq-WOMC-food_and_drug_law_milestones-questions.txt: U.S. Food and Drug Laws from
+  Milestones and Applications (WOMC)
+bbq-WOMC-gene_delivery_vectors-questions.txt: Gene Delivery Vectors from Descriptions
+  (WOMC)
+bbq-WOMC-gene_therapy_delivery_routes-questions.txt: Gene Therapy Delivery Routes
+  from Descriptions (WOMC)
 bbq-WOMC-gene_therapy_v_edit-questions.txt: Genetic Disease Treatment Methods from
   Descriptions (WOMC)
 bbq-WOMC-genetic_disorders-questions.txt: Genetic Disorders (WOMC)
 bbq-WOMC-genetics_terminology-questions.txt: Genetics Terms from Definitions (WOMC)
+bbq-WOMC-genome_editing_tools-questions.txt: Genome Editing Tools from Descriptions
+  (WOMC)
 bbq-WOMC-hypothesis_testing_terms-questions.txt: Hypothesis Testing Terms from Definitions
   (WOMC)
 bbq-WOMC-intellectual_property-questions.txt: Types of Intellectual Property from
@@ -283,7 +317,11 @@ bbq-WOMC-protein_v_dna_gels-questions.txt: Protein and Nucleic Acid Gel Electrop
 bbq-WOMC-proteomics_v_metabolomics-questions.txt: Proteomics and Metabolomics Techniques
   from Descriptions (WOMC)
 bbq-WOMC-remediation_sites-questions.txt: Sites by Remediation Category (WOMC)
+bbq-WOMC-research_agreement_terms-questions.txt: Research Agreement Types from Confidentiality
+  and IP Scenarios (WOMC)
 bbq-WOMC-respiration-questions.txt: Cellular Respiration Stages from Statements (WOMC)
+bbq-WOMC-rna_medicines-questions.txt: Nucleic Acid Medicines from Mechanisms of Action
+  (WOMC)
 bbq-WOMC-selecting_statistical_tests-questions.txt: Statistical Hypothesis Tests from
   Descriptions (WOMC)
 bbq-WOMC-senses_receptor_types_by_modality-questions.txt: Sensory Modalities from
@@ -296,6 +334,7 @@ bbq-WOMC-sex_determination-questions.txt: Sex Determination Systems from Descrip
   (WOMC)
 bbq-WOMC-stem_cell_potency-questions.txt: Stem Cell Potency Levels from Definitions
   (WOMC)
+bbq-WOMC-stem_cell_sources-questions.txt: Stem Cell Sources from Descriptions (WOMC)
 bbq-WOMC-theranos_people-questions.txt: 'Theranos Case Study: People and Roles (WOMC)'
 bbq-WOMC-transgenic_crop_regulators-questions.txt: Federal Agencies from Transgenic
   Crop Regulatory Roles (WOMC)
@@ -526,6 +565,8 @@ bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt: Phyl
   Trees with Equivalent Evolutionary Relationships (Easy, 5 Taxa, With Hint, MC)
 bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt: Phylogenetic
   Trees with Equivalent Evolutionary Relationships (Medium, 6 Taxa, With Hint, MC)
+bbq-generic_drug_exposure_ranges-MC-questions.txt: Generic Drug Bioequivalence from
+  Exposure Confidence Intervals (MC)
 bbq-gibbs_free_energy_equation_symbols-questions.txt: Gibbs Free Energy Equation Symbols
   and Meanings (Matching)
 bbq-hardy_weinberg_mc_type-questions.txt: Hardy-Weinberg Variables from Population
@@ -628,6 +669,7 @@ bbq-pcr_design-9_bp-6_primer-questions.txt: PCR Primer Pair Selection from Doubl
   DNA (9 bp Template, 6-nt Primers, MC)
 bbq-percent_dilution_aliquot_numeric-questions.txt: Aliquot Volumes from Stock Solutions
   (NUM)
+bbq-pfas_filter_fate-MC-questions.txt: PFAS Fate from Water Filtration Data (MC)
 bbq-ph_h_concentration_ratio-questions.txt: pH Differences Between Solutions (MC)
 bbq-photosynthetic_light_pigments-questions.txt: Optimal Wavelengths for Pigment Absorption
   (MC)
@@ -760,4 +802,4 @@ bbq-x_linked_reciprocal_cross-questions.txt: X-Linked Eye Color Inheritance (MC)
 bbq-x_linked_tortoiseshell-questions.txt: X-Linked Coat Color Probability (MC)
 bbq-z_score_google_sheet-questions.txt: Z-Scores in Google Sheets (MC)
 bbq-z_score_table_interp-questions.txt: Biodiversity Comparisons Using Z-Scores (MC)
-last edit: Sat Nov  7 13:29:25 2026
+last edit: Wed Nov 18 13:10:32 2026

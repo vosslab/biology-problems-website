@@ -1,0 +1,216 @@
+## DESCRIPTION
+## Match each of the following food and drug laws with their corresponding examples.
+## ENDDESCRIPTION
+## KEYWORDS('food and drug laws','food and drug laws','examples')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-11-18')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserPopUp.pl',
+    'parserUtils.pl',
+    'PGgraders.pl',
+    'PGcourse.pl'
+);
+our @ALPHABET = ('A' .. 'Z');
+
+# ================================
+# Full matching data
+# ================================
+%match_data = (
+  'Biologics Control Act' => [
+    'introduced federal inspections for factories that made vaccines',
+    'gave inspectors the power to visit the factory where an antitoxin was made',
+    'a factory that makes diphtheria antitoxin has to pass an inspection',
+    'a factory needs a license to make vaccines for sale',
+    'vaccine and antitoxin makers face new checks after contaminated antitoxin kills children',
+  ],
+  'Pure Food and Drug Act' => [
+    'first barred companies from shipping mislabeled foods and drugs across state lines',
+    'in 1906, a seller could no longer ship corn syrup to another state and label it honey',
+    'in 1906, officials could stop a company from selling flour mixed with chalk across state lines',
+    'took aim at misleading labels years before companies had to show that new drugs were safe',
+    'first let officials stop a shipment of food sold under the wrong name in another state',
+  ],
+  'Food, Drug, and Cosmetic Act' => [
+    'first required drug makers to show that a new medicine was safe before selling it',
+    'after poison in Elixir Sulfanilamide killed people, drug makers had to show new medicines were safe',
+    'made safety testing a requirement for new drugs years before companies had to prove they worked',
+    'a company must show that a new drug is safe before people can buy it',
+    'a company checks for harmful side effects before it can sell a new medicine',
+  ],
+  'Kefauver-Harris Amendments' => [
+    'required proof that a new blood pressure pill actually lowers blood pressure',
+    'a team tests whether its new medicine helps stop migraine headaches',
+    'a study measures whether people who take a medicine recover sooner',
+    'a trial checks whether a new cream helps a rash heal faster',
+    'after the thalidomide tragedy, lawmakers required evidence that new drugs work',
+  ],
+  'Durham-Humphrey Amendment' => [
+    'a pharmacist asks for a prescription before handing over certain medicines',
+    'a patient needs a new prescription when the old one runs out',
+    'the pharmacy keeps some medicines for patients whose doctors have ordered them',
+    q{a shopper can buy one kind of pain medicine off the shelf but needs a doctor's order for another},
+    'a patient needs a prescription to buy amoxicillin tablets at a pharmacy',
+  ],
+);
+
+# -------------------------------
+# Select N random keys
+# -------------------------------
+my $n = 4;
+@all_keys = PGsort(sub { $_[0] lt $_[1] }, keys %match_data);
+my $local_seed = (defined($problemSeed) && $problemSeed ne '') ? $problemSeed : 1;
+my $local_random = new PGrandom($local_seed);
+
+my @indices = (0 .. $#all_keys);
+my @shuffled = ();
+while (@indices) {
+  my $pick = $local_random->random(0, $#indices, 1);
+  push @shuffled, splice(@indices, $pick, 1);
+}
+my @selected_keys = @all_keys[@shuffled[0..$n-1]];
+
+# -------------------------------
+# Build question/answer pairs
+# -------------------------------
+# Each entry: [prompt, choice]
+@q_and_a = ();
+foreach my $key (@selected_keys) {
+  my $values_ref = $match_data{$key};
+  my $i = $local_random->random(0, $#$values_ref, 1);
+  my $value = $values_ref->[$i];
+  push @q_and_a, [ $value, $key ];
+}
+
+# -------------------------------
+# Randomize the questions
+# -------------------------------
+my @q_indices = (0 .. $#q_and_a);
+my @q_shuffled = ();
+while (@q_indices) {
+  my $pick = $local_random->random(0, $#q_indices, 1);
+  push @q_shuffled, $q_and_a[splice(@q_indices, $pick, 1)];
+}
+@q_and_a = @q_shuffled;
+
+# -------------------------------
+# Sort the choices alphabetically
+# -------------------------------
+@answers = ();
+push(@answers, (map { $_->[1] } @q_and_a));
+@answers_sorted = PGsort(sub { $_[0] lt $_[1] }, @answers);
+
+# -------------------------------
+# HTML-safe answer labels
+# -------------------------------
+%answer_html = (
+  'Biologics Control Act' => '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+  'Pure Food and Drug Act' => '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+  'Food, Drug, and Cosmetic Act' => '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+  'Kefauver-Harris Amendments' => '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+  'Durham-Humphrey Amendment' => '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+);
+
+@answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
+
+# -------------------------------
+# Create answer index lookup
+# -------------------------------
+our %answer_index;
+for (my $i = 0; $i <= $#answers_sorted; $i++) {
+  $answer_index{$answers_sorted[$i]} = $i;
+}
+
+# -------------------------------
+# PopUp/DropDown compatibility
+# -------------------------------
+sub make_popup {
+  return defined &DropDown ? DropDown(@_) : PopUp(@_);
+}
+
+# -------------------------------
+# Create popup objects (blank default)
+# -------------------------------
+my @answer_letters = @ALPHABET[0 .. $#answers_sorted];
+my @answer_letters_with_blank = ('', @answer_letters);
+@answer_dropdowns =
+  map { make_popup([ @answer_letters_with_blank ], $answer_index{$q_and_a[$_][1]} + 1 ) }
+  0 .. $#q_and_a;
+
+# -------------------------------
+# Render the question
+# -------------------------------
+HEADER_TEXT(<<END_STYLE);
+<style>
+.pgml-bold { font-weight: 700; }
+.two-column {
+    display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	align-items: center;
+	justify-content: space-evenly;
+}
+</style>
+END_STYLE
+
+$question_text = 'Match each law with the change it introduced.';
+$note_text = 'Note: Each choice will be used exactly once.';
+
+BEGIN_PGML
+[$question_text]*
+[$note_text]*
+
+[@ MODES(HTML => '<div class="two-column"><div>') @]*
+[@ join(
+    "\n\n",
+    map {
+        '[_]{$answer_dropdowns[' . $_ . ']} '
+            . '*' . ($_ + 1) . '.* '
+            . '[$q_and_a[' . $_ . '][0]]*'
+    } 0 .. $#q_and_a
+) @]**
+[@ MODES(HTML => '</div><div class="right-col">') @]*
+[@ join(
+    "\n\n",
+    map {
+        chr(65 + $_) . '\\.' . ' ' . '[$answers_sorted_html[' . $_ . ']]*'
+    } 0 .. $#answers_sorted
+) @]**
+[@ MODES(HTML => '</div></div>') @]*
+END_PGML
+
+# -------------------------------
+# Dynamic Partial Credit Based on $n
+# -------------------------------
+$showPartialCorrectAnswers = 0;
+my @thresholds;
+my @scores;
+for (my $i = 1; $i <= $n; $i++) {
+  push @thresholds, $i;
+  push @scores, sprintf("%.2f", $i / $n);
+}
+
+install_problem_grader(~~&custom_problem_grader_fluid);
+$ENV{grader_numright} = [@thresholds];
+$ENV{grader_scores}   = [@scores];
+$ENV{grader_message} = 'You can earn partial credit.';
+
+# -------------------------------
+# Solution
+# -------------------------------
+$answer_list = join(', ', map { ($_ + 1) . '-' . $ALPHABET[$answer_index{$q_and_a[$_][1]}] } 0 .. $#q_and_a);
+BEGIN_PGML_SOLUTION
+The correct answers are: [$answer_list].
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

@@ -112,18 +112,16 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 
 ## 4.5 Environmental 16S rDNA Survey Workflow (6 Steps) {#environmental-16s-rdna-survey-workflow-6-steps}
 
-<div id="SEQUENCEMC-microbial_16s_survey-6_items-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-SEQUENCEMC-microbial_16s_survey-6_items-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-SEQUENCEMC-microbial_16s_survey-6_items-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-SEQUENCEMC-microbial_16s_survey-6_items.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
-<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-SEQUENCEMC-microbial_16s_survey-6_items-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-SEQUENCEMC-microbial_16s_survey-6_items.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-SEQUENCEMC-microbial_16s_survey-6_items-questions.txt" data-format="human_readable" data-filename="human_readable-SEQUENCEMC-microbial_16s_survey-6_items.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<div id="ORDER-microbial_16s_survey-6_items-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-ORDER-microbial_16s_survey-6_items-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-ORDER-microbial_16s_survey-6_items-questions.txt" data-format="human_readable" data-filename="human_readable-ORDER-microbial_16s_survey-6_items.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div>
 
-<div class="qpm-selftest" data-bbq="bbq-SEQUENCEMC-microbial_16s_survey-6_items-questions.txt">
+<div class="qpm-selftest" data-bbq="bbq-ORDER-microbial_16s_survey-6_items-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
-<span class="question-type-badges"><abbr class="question-type question-type-mcorder" title="Selection of the Correct Sorting Sequence Multiple Choice">Sequence MC</abbr></span>
+<span class="question-type-badges"><abbr class="question-type question-type-ord" title="Ordering">ORD</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
 </div>
   <div class="selftest-reroll-content"></div>
@@ -136,16 +134,18 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 
 ## 4.6 Environmental 16S rDNA Survey Workflow (6 Steps) {#environmental-16s-rdna-survey-workflow-6-steps_1}
 
-<div id="ORDER-microbial_16s_survey-6_items-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-ORDER-microbial_16s_survey-6_items-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-ORDER-microbial_16s_survey-6_items-questions.txt" data-format="human_readable" data-filename="human_readable-ORDER-microbial_16s_survey-6_items.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<div id="SEQUENCEMC-microbial_16s_survey-6_items-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-SEQUENCEMC-microbial_16s_survey-6_items-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-SEQUENCEMC-microbial_16s_survey-6_items-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-SEQUENCEMC-microbial_16s_survey-6_items.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-SEQUENCEMC-microbial_16s_survey-6_items-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-SEQUENCEMC-microbial_16s_survey-6_items.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-SEQUENCEMC-microbial_16s_survey-6_items-questions.txt" data-format="human_readable" data-filename="human_readable-SEQUENCEMC-microbial_16s_survey-6_items.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div>
 
-<div class="qpm-selftest" data-bbq="bbq-ORDER-microbial_16s_survey-6_items-questions.txt">
+<div class="qpm-selftest" data-bbq="bbq-SEQUENCEMC-microbial_16s_survey-6_items-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
-<span class="question-type-badges"><abbr class="question-type question-type-ord" title="Ordering">ORD</abbr></span>
+<span class="question-type-badges"><abbr class="question-type question-type-mcorder" title="Selection of the Correct Sorting Sequence Multiple Choice">Sequence MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Analyze" title="Separate material into parts and identify their relationships and overall structure.">Analyze <span class="bloom-level">&#10115;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Procedural" title="Knowledge of subject-specific skills, algorithms, techniques, methods, and when to use them.">Procedural <span class="bloom-level">&#10114;</span></span></span>
 </div>
   <div class="selftest-reroll-content"></div>

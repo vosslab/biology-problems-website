@@ -5,7 +5,7 @@
 ## DBsubject('Laboratory Techniques')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-15')
+## Date('2026-11-18')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -28,29 +28,29 @@ our @ALPHABET = ('A' .. 'Z');
 %match_data = (
   'Only proteins' => [
     'sodium dodecyl sulfate (SDS)',
-    '<span style="color: #6c6c00; font-weight:700;">dithiothreitol (DTT)</span>',
-    '<span style="color: #3b7600; font-weight:700;">&beta;-mercaptoethanol (&beta;ME)</span>',
-    '<span style="color: #003fff; font-weight:700;">Coomassie blue stain</span>',
-    '<span style="color: #00775f; font-weight:700;">isoelectric focusing</span>',
-    '<span style="color: #935d00; font-weight:700;">heating to almost boiling (95&deg;C)</span>',
-    '<span style="color: #0067cc; font-weight:700;">stain / destaining process</span>',
+    'dithiothreitol (DTT)',
+    '&beta;-mercaptoethanol (&beta;ME)',
+    'Coomassie blue stain',
+    'isoelectric focusing',
+    'heating to almost boiling (95&deg;C)',
+    'stain / destaining process',
     'native gels',
-    '<span style="color: #00775f; font-weight:700;">2D gels</span>',
-    '<span style="color: #00775f; font-weight:700;">two-dimensional gels</span>',
+    '2D gels',
+    'two-dimensional gels',
   ],
   'Only nucleotides' => [
     'agarose gels',
-    '<span style="color: #c80085; font-weight:700;">ultraviolet light (UV) visualization</span>',
-    '<span style="color: #cc0066; font-weight:700;">ethidium bromide (EtBr) stain</span>',
-    '<span style="color: #007a00; font-weight:700;">SYBR safe stain</span>',
-    '<span style="color: #d40000; font-weight:700;">gel red stain</span>',
+    'ultraviolet light (UV) visualization',
+    'ethidium bromide (EtBr) stain',
+    'SYBR safe stain',
+    'gel red stain',
     'horizontally run gel',
   ],
   'Both protein and nucleotide' => [
     'PAGE',
     'acrylamide',
     'polyacrylamide gel electrophoresis',
-    '<span style="color: #076dad; font-weight:700;">electrical fields</span>',
+    'electrical fields',
     'vertically run gel',
   ],
 );

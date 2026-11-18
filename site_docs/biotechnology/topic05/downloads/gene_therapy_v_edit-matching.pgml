@@ -1,11 +1,11 @@
 ## DESCRIPTION
-## Match each of the following genetic disease treatment methods with their corresponding descriptions.
+## Match each of the following genetic treatment strategies with their corresponding descriptions.
 ## ENDDESCRIPTION
-## KEYWORDS('genetic disease treatment methods','descriptions')
+## KEYWORDS('genetic treatment strategies','descriptions')
 ## DBsubject('Biotechnology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-15')
+## Date('2026-11-18')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -26,21 +26,19 @@ our @ALPHABET = ('A' .. 'Z');
 # Full matching data
 # ================================
 %match_data = (
-  'gene&nbsp;therapy' => [
-    'treating cystic fibrosis using adenovirus to introduce a functioning <span style="color: #3b7600; font-weight:700;">protein</span> channel',
-    'engineering virus for injection into a tumor to promote apoptosis',
-    'introducing a new gene on a plasmid into a patient to replace a faulty &beta;-thalassemia <span style="color: #935d00; font-weight:700;">enzyme</span>',
-    'culture and reprogram blood progenitor cells from bone marrow to kill HIV-infected cells',
-    'mRNA vaccines express the <span style="color: #007576; font-weight:700;">viral</span> spike <span style="color: #6c6c00; font-weight:700;">proteins</span> to train the immune system to recognize the virus',
+  'gene&nbsp;addition' => [
+    'giving airway cells a working copy of CFTR while leaving the old copy in place',
+    'giving tumor cells a gene for a protein that helps kill the cells',
+    'giving cells a working copy of the beta-globin gene for thalassemia while leaving the inherited copy in place',
+    q{giving a patient's cells a working ADA gene in the lab},
   ],
   'genome&nbsp;editing' => [
-    'using CRISPR to change a single nucleotide in sickle-cell allele',
-    'deleting the fragments of HIV DNA from the genome of an infected patient',
-    'correcting a mutation within the host genome that causes liver disease',
-    'using zinc finger nuclease (ZFN) mediated <span style="color: #076dad; font-weight:700;">treatment</span> to replace a nucleotide in the diseased &beta;-thalassemia allele',
-    'using transcriptor activator-like effector nuclease (TALENs) to correct inherited retinal dystrophy',
-    'CRISPR is used to insert a functional micro-dystrophin gene correcting Duchenne muscular dystrophy (DMD)',
-    'correct defective DNA elements within a gene',
+    'using CRISPR to change one DNA letter at a chosen spot',
+    q{removing HIV DNA that had become part of a cell's chromosome},
+    'fixing a change in a chromosome that causes disease',
+    'using a zinc-finger nuclease to change a chosen stretch of DNA',
+    'using a TALEN to fix a mutation at a chosen spot in a chromosome',
+    'using CRISPR to put a working gene at a chosen spot in a chromosome',
   ],
 );
 
@@ -94,7 +92,7 @@ push(@answers, (map { $_->[1] } @q_and_a));
 # HTML-safe answer labels
 # -------------------------------
 %answer_html = (
-  'gene&nbsp;therapy' => '<span style="color: #d40000; font-weight:700;">gene&nbsp;therapy</span>',
+  'gene&nbsp;addition' => '<span style="color: #d40000; font-weight:700;">gene&nbsp;addition</span>',
   'genome&nbsp;editing' => '<span style="color: #b74300; font-weight:700;">genome&nbsp;editing</span>',
 );
 
@@ -140,7 +138,7 @@ HEADER_TEXT(<<END_STYLE);
 </style>
 END_STYLE
 
-$question_text = 'Match each of the following genetic disease treatment methods with their corresponding descriptions.';
+$question_text = 'Match each treatment approach with what it does.';
 $note_text = 'Note: Each choice will be used exactly once.';
 
 BEGIN_PGML

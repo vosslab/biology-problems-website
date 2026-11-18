@@ -137,18 +137,16 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 
 ## 1.6 Model Organisms by Complexity (7 Organisms) {#model-organisms-by-complexity-7-organisms}
 
-<div id="SEQUENCEMC-model_organism_complexity-7_items-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-SEQUENCEMC-model_organism_complexity-7_items.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
-<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-SEQUENCEMC-model_organism_complexity-7_items.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt" data-format="human_readable" data-filename="human_readable-SEQUENCEMC-model_organism_complexity-7_items.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<div id="ORDER-model_organism_complexity-7_items-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-ORDER-model_organism_complexity-7_items-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-ORDER-model_organism_complexity-7_items-questions.txt" data-format="human_readable" data-filename="human_readable-ORDER-model_organism_complexity-7_items.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div>
 
-<div class="qpm-selftest" data-bbq="bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt">
+<div class="qpm-selftest" data-bbq="bbq-ORDER-model_organism_complexity-7_items-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
-<span class="question-type-badges"><abbr class="question-type question-type-mcorder" title="Selection of the Correct Sorting Sequence Multiple Choice">Sequence MC</abbr></span>
+<span class="question-type-badges"><abbr class="question-type question-type-ord" title="Ordering">ORD</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
 </div>
   <div class="selftest-reroll-content"></div>
@@ -161,16 +159,18 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 
 ## 1.7 Model Organisms by Complexity (7 Organisms) {#model-organisms-by-complexity-7-organisms_1}
 
-<div id="ORDER-model_organism_complexity-7_items-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-ORDER-model_organism_complexity-7_items-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
-<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-ORDER-model_organism_complexity-7_items-questions.txt" data-format="human_readable" data-filename="human_readable-ORDER-model_organism_complexity-7_items.html" aria-label="Generate Human-Readable">Human-Readable</button>
+<div id="SEQUENCEMC-model_organism_complexity-7_items-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qpm-package-download" data-bbq="bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-SEQUENCEMC-model_organism_complexity-7_items.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qpm-package-download" data-bbq="bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-SEQUENCEMC-model_organism_complexity-7_items.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qpm-package-download" data-bbq="bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt" data-format="human_readable" data-filename="human_readable-SEQUENCEMC-model_organism_complexity-7_items.html" aria-label="Generate Human-Readable">Human-Readable</button>
 <span class="qpm-package-status" role="status" aria-live="polite"></span>
 <progress class="qpm-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div>
 
-<div class="qpm-selftest" data-bbq="bbq-ORDER-model_organism_complexity-7_items-questions.txt">
+<div class="qpm-selftest" data-bbq="bbq-SEQUENCEMC-model_organism_complexity-7_items-questions.txt">
 <div class="selftest-question-header selftest-question-placeholder">
-<span class="question-type-badges"><abbr class="question-type question-type-ord" title="Ordering">ORD</abbr></span>
+<span class="question-type-badges"><abbr class="question-type question-type-mcorder" title="Selection of the Correct Sorting Sequence Multiple Choice">Sequence MC</abbr></span>
 <span class="bloom-classification bloom-ribbon" aria-label="Estimated Bloom labels for this bank"><span class="bloom-badge bloom-cognitive" data-bloom="Understand" title="Construct meaning by interpreting, classifying, summarizing, comparing, or explaining.">Understand <span class="bloom-level">&#10113;</span></span><span class="bloom-badge bloom-knowledge" data-bloom="Conceptual" title="Knowledge of categories, principles, theories, models, and how they relate.">Conceptual <span class="bloom-level">&#10113;</span></span></span>
 </div>
   <div class="selftest-reroll-content"></div>

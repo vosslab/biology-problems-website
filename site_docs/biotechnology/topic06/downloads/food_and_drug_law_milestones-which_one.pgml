@@ -1,0 +1,393 @@
+## DESCRIPTION
+## Select the food or drug law that corresponds to the given example.
+## ENDDESCRIPTION
+## KEYWORDS('food and drug laws','food and drug laws','examples','which one','multiple choice')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-11-18')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>introduced federal inspections for factories that made vaccines</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+      '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+      '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+      '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+  },
+  {
+    'item_name' => '<strong>gave inspectors the power to visit the factory where an antitoxin was made</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+      '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+      '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+      '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+  },
+  {
+    'item_name' => '<strong>a factory that makes diphtheria antitoxin has to pass an inspection</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+      '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+      '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+      '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+  },
+  {
+    'item_name' => '<strong>a factory needs a license to make vaccines for sale</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+      '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+      '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+      '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+  },
+  {
+    'item_name' => '<strong>vaccine and antitoxin makers face new checks after contaminated antitoxin kills children</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+      '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+      '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+      '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+  },
+  {
+    'item_name' => '<strong>first barred companies from shipping mislabeled foods and drugs across state lines</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+      '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+      '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+      '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+  },
+  {
+    'item_name' => '<strong>in 1906, a seller could no longer ship corn syrup to another state and label it honey</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+      '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+      '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+      '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+  },
+  {
+    'item_name' => '<strong>in 1906, officials could stop a company from selling flour mixed with chalk across state lines</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+      '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+      '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+      '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+  },
+  {
+    'item_name' => '<strong>took aim at misleading labels years before companies had to show that new drugs were safe</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+      '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+      '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+      '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+  },
+  {
+    'item_name' => '<strong>first let officials stop a shipment of food sold under the wrong name in another state</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+      '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+      '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+      '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+  },
+  {
+    'item_name' => '<strong>first required drug makers to show that a new medicine was safe before selling it</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+      '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+      '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+      '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+    ],
+    'correct' => '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+  },
+  {
+    'item_name' => '<strong>after poison in Elixir Sulfanilamide killed people, drug makers had to show new medicines were safe</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+      '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+      '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+      '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+    ],
+    'correct' => '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+  },
+  {
+    'item_name' => '<strong>made safety testing a requirement for new drugs years before companies had to prove they worked</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+      '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+      '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+      '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+    ],
+    'correct' => '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+  },
+  {
+    'item_name' => '<strong>a company must show that a new drug is safe before people can buy it</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+      '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+      '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+      '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+    ],
+    'correct' => '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+  },
+  {
+    'item_name' => '<strong>a company checks for harmful side effects before it can sell a new medicine</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+      '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+      '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+      '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+    ],
+    'correct' => '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+  },
+  {
+    'item_name' => '<strong>required proof that a new blood pressure pill actually lowers blood pressure</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+      '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+      '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+      '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+    ],
+    'correct' => '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+  },
+  {
+    'item_name' => '<strong>a team tests whether its new medicine helps stop migraine headaches</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+      '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+      '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+      '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+    ],
+    'correct' => '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+  },
+  {
+    'item_name' => '<strong>a study measures whether people who take a medicine recover sooner</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+      '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+      '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+      '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+    ],
+    'correct' => '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+  },
+  {
+    'item_name' => '<strong>a trial checks whether a new cream helps a rash heal faster</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+      '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+      '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+      '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+    ],
+    'correct' => '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+  },
+  {
+    'item_name' => '<strong>after the thalidomide tragedy, lawmakers required evidence that new drugs work</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+      '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+      '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+      '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+    ],
+    'correct' => '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+  },
+  {
+    'item_name' => '<strong>a pharmacist asks for a prescription before handing over certain medicines</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+      '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+      '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+      '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+  },
+  {
+    'item_name' => '<strong>a patient needs a new prescription when the old one runs out</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+      '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+      '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+      '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+  },
+  {
+    'item_name' => '<strong>the pharmacy keeps some medicines for patients whose doctors have ordered them</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+      '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+      '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+      '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+  },
+  {
+    'item_name' => q{<strong>a shopper can buy one kind of pain medicine off the shelf but needs a doctor's order for another</strong>},
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+      '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+      '<span style="color: #c80085; font-weight:700;">Kefauver-Harris Amendments</span>',
+      '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+  },
+  {
+    'item_name' => '<strong>a patient needs a prescription to buy amoxicillin tablets at a pharmacy</strong>',
+    'plural_choice' => 'food and drug laws',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Biologics Control Act</span>',
+      '<span style="color: #007a00; font-weight:700;">Pure Food and Drug Act</span>',
+      '<span style="color: #076dad; font-weight:700;">Food, Drug, and Cosmetic Act</span>',
+      '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">Durham-Humphrey Amendment</span>',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

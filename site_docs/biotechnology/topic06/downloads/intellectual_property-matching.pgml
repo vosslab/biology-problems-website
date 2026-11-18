@@ -1,11 +1,11 @@
 ## DESCRIPTION
-## Match each of the following types of intellectual property with their corresponding descriptions.
+## Match each of the following terms for intellectual property or licensing with their corresponding descriptions.
 ## ENDDESCRIPTION
-## KEYWORDS('types of intellectual property','types of intellectual property','descriptions')
+## KEYWORDS('intellectual property and licensing','terms for intellectual property or licensing','descriptions')
 ## DBsubject('Biotechnology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-15')
+## Date('2026-11-18')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -27,24 +27,24 @@ our @ALPHABET = ('A' .. 'Z');
 # ================================
 %match_data = (
   'Trademark' => [
-    'gives its owner the exclusive right to a recognizable insignia, phrase, word, or symbol',
+    'protects the brand name on a test kit so buyers can tell who made it',
     'protects a brand name or logo that identifies the source of a product',
-    'stops another company from using a confusingly similar name or symbol',
+    'can stop a rival from using a logo that makes buyers mix up the two brands',
   ],
   'Copyleft' => [
-    'an arrangement where creative work may be distributed freely and modified such that any derivatives are also free',
-    'lets people copy and change a work only if they share their changes under the same free terms',
-    'requires that modified versions of a free work stay free for others to use',
+    'lets a lab share its changes to a program if it gives others the same freedom to change it',
+    'lets people copy and change a work as long as they use the same free terms when they share it',
+    'keeps the same freedoms for others when someone shares a changed version of a work',
   ],
   'Copyright' => [
     'gives its owner the exclusive right to make copies of a creative work, usually for a limited time',
-    'protects a book, song, or software from being copied for a limited time',
-    'covers the expression of a creative work rather than the underlying idea',
+    'protects the words and music a songwriter wrote',
+    'protects the drawings in a lab manual while leaving others free to explain the same science',
   ],
   'Patent' => [
-    'gives its owner the exclusive right to exclude others from making an invention',
+    q{can keep a rival from using a company's new process for making insulin without permission},
     'protects a new and useful invention for a limited time',
-    'lets the inventor stop others from making, using, or selling the invention',
+    'lets the owner stop others from making, using, or selling the invention',
   ],
 );
 
@@ -98,10 +98,10 @@ push(@answers, (map { $_->[1] } @q_and_a));
 # HTML-safe answer labels
 # -------------------------------
 %answer_html = (
-  'Trademark' => 'Trademark',
-  'Copyleft' => 'Copyleft',
-  'Copyright' => 'Copyright',
-  'Patent' => 'Patent',
+  'Trademark' => '<span style="color: #00775f; font-weight:700;">Trademark</span>',
+  'Copyleft' => '<span style="color: #003fff; font-weight:700;">Copyleft</span>',
+  'Copyright' => '<span style="color: #a719db; font-weight:700;">Copyright</span>',
+  'Patent' => '<span style="color: #c80085; font-weight:700;">Patent</span>',
 );
 
 @answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
@@ -135,6 +135,7 @@ my @answer_letters_with_blank = ('', @answer_letters);
 # -------------------------------
 HEADER_TEXT(<<END_STYLE);
 <style>
+.pgml-bold { font-weight: 700; }
 .two-column {
     display: flex;
 	flex-wrap: wrap;
@@ -145,7 +146,7 @@ HEADER_TEXT(<<END_STYLE);
 </style>
 END_STYLE
 
-$question_text = 'Match each type of intellectual property to the correct description.';
+$question_text = 'Match each term with the right or rule it describes.';
 $note_text = 'Note: Each choice will be used exactly once.';
 
 BEGIN_PGML

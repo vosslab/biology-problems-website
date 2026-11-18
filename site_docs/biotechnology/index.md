@@ -20,10 +20,10 @@ Questions ask students to design cloning strategies with restriction enzymes and
 4. [Environmental and Synthetic Biology](topic04/index.md) <span class='topic-count' title='14 question sets'>14 question sets</span>
     - Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, biosensors, Agrobacterium, gene guns, transgenic organisms, and GMO applications.
 
-5. [Medicinal Biotechnology](topic05/index.md) <span class='topic-count' title='4 question sets'>4 question sets</span>
+5. [Medicinal Biotechnology](topic05/index.md) <span class='topic-count' title='19 question sets'>19 question sets</span>
     - Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISPR), stem cells, iPSC therapies, CAR-T therapy, cancer gene therapy, and prime editing.
 
-6. [Regulation in Biotechnology](topic06/index.md) <span class='topic-count' title='7 question sets'>7 question sets</span>
+6. [Regulation in Biotechnology](topic06/index.md) <span class='topic-count' title='16 question sets'>16 question sets</span>
     - Students review FDA history, clinical trial phases, the Asilomar Conference, the Coordinated Framework, biotech patents, CRISPR patent disputes, and drug regulation.
 
 7. [Bioethics in Biotechnology](topic07/index.md) <span class='topic-count' title='2 question sets'>2 question sets</span>

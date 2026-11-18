@@ -1,0 +1,217 @@
+## DESCRIPTION
+## Match each of the following nucleic-acid medicines with their corresponding descriptions.
+## ENDDESCRIPTION
+## KEYWORDS('nucleic-acid medicines','nucleic-acid medicines','descriptions')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-11-18')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserPopUp.pl',
+    'parserUtils.pl',
+    'PGgraders.pl',
+    'PGcourse.pl'
+);
+our @ALPHABET = ('A' .. 'Z');
+
+# ================================
+# Full matching data
+# ================================
+%match_data = (
+  'mRNA' => [
+    'gives cells a message they can read to make a protein',
+    'carries an instruction that cells can use for a short time to make a protein',
+    'gives ribosomes a template for making a useful protein',
+    'lets a cell make a missing protein for a short time without changing its DNA',
+    'is the RNA that the cell translates to make the protein it needs',
+  ],
+  'siRNA' => [
+    'can use one of its two short RNA strands to guide a protein to a matching message',
+    'uses RNA interference to help a cell break down one kind of messenger RNA',
+    'one strand of the RNA pair matches the message the cell will break down',
+    'can lower the amount of a harmful protein by using RNA interference to destroy its message',
+    'has two RNA strands at first, but only one guides the search for the matching message',
+  ],
+  'antisense oligonucleotide' => [
+    'can bind RNA and change which exons stay in the message',
+    'can stick to a matching part of RNA and change how the cell splices it',
+    'can bind RNA before splicing so the cell makes a different version of the message',
+    'can help a cell keep or skip an exon without changing its DNA',
+    'can cover up a splice site by pairing with part of the RNA message',
+  ],
+  'aptamer' => [
+    'is a piece of DNA or RNA that folds into a shape that binds a target molecule',
+    'uses the shape it folds into to stick to a protein or another target',
+    'is a short piece of DNA or RNA chosen because it binds a target',
+    'can guide a drug to a target by folding into a shape that binds it',
+    'uses its folded shape to bind a molecule without cutting it',
+    'can stick to a molecule on the surface of a cell using its folded shape',
+  ],
+  'ribozyme' => [
+    'is RNA that speeds up a chemical reaction',
+    'can bind another RNA and cut it without needing a protein to do the cutting',
+    'acts like an enzyme even though it is made of RNA',
+    'folds into a shape that helps a chemical reaction take place',
+    'is a piece of RNA that can act as a tool for cutting another RNA',
+  ],
+);
+
+# -------------------------------
+# Select N random keys
+# -------------------------------
+my $n = 5;
+@all_keys = PGsort(sub { $_[0] lt $_[1] }, keys %match_data);
+my $local_seed = (defined($problemSeed) && $problemSeed ne '') ? $problemSeed : 1;
+my $local_random = new PGrandom($local_seed);
+
+my @indices = (0 .. $#all_keys);
+my @shuffled = ();
+while (@indices) {
+  my $pick = $local_random->random(0, $#indices, 1);
+  push @shuffled, splice(@indices, $pick, 1);
+}
+my @selected_keys = @all_keys[@shuffled[0..$n-1]];
+
+# -------------------------------
+# Build question/answer pairs
+# -------------------------------
+# Each entry: [prompt, choice]
+@q_and_a = ();
+foreach my $key (@selected_keys) {
+  my $values_ref = $match_data{$key};
+  my $i = $local_random->random(0, $#$values_ref, 1);
+  my $value = $values_ref->[$i];
+  push @q_and_a, [ $value, $key ];
+}
+
+# -------------------------------
+# Randomize the questions
+# -------------------------------
+my @q_indices = (0 .. $#q_and_a);
+my @q_shuffled = ();
+while (@q_indices) {
+  my $pick = $local_random->random(0, $#q_indices, 1);
+  push @q_shuffled, $q_and_a[splice(@q_indices, $pick, 1)];
+}
+@q_and_a = @q_shuffled;
+
+# -------------------------------
+# Sort the choices alphabetically
+# -------------------------------
+@answers = ();
+push(@answers, (map { $_->[1] } @q_and_a));
+@answers_sorted = PGsort(sub { $_[0] lt $_[1] }, @answers);
+
+# -------------------------------
+# HTML-safe answer labels
+# -------------------------------
+%answer_html = (
+  'mRNA' => '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+  'siRNA' => '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+  'antisense oligonucleotide' => '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+  'aptamer' => '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+  'ribozyme' => '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+);
+
+@answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
+
+# -------------------------------
+# Create answer index lookup
+# -------------------------------
+our %answer_index;
+for (my $i = 0; $i <= $#answers_sorted; $i++) {
+  $answer_index{$answers_sorted[$i]} = $i;
+}
+
+# -------------------------------
+# PopUp/DropDown compatibility
+# -------------------------------
+sub make_popup {
+  return defined &DropDown ? DropDown(@_) : PopUp(@_);
+}
+
+# -------------------------------
+# Create popup objects (blank default)
+# -------------------------------
+my @answer_letters = @ALPHABET[0 .. $#answers_sorted];
+my @answer_letters_with_blank = ('', @answer_letters);
+@answer_dropdowns =
+  map { make_popup([ @answer_letters_with_blank ], $answer_index{$q_and_a[$_][1]} + 1 ) }
+  0 .. $#q_and_a;
+
+# -------------------------------
+# Render the question
+# -------------------------------
+HEADER_TEXT(<<END_STYLE);
+<style>
+.pgml-bold { font-weight: 700; }
+.two-column {
+    display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	align-items: center;
+	justify-content: space-evenly;
+}
+</style>
+END_STYLE
+
+$question_text = 'Match each nucleic acid medicine with what it does.';
+$note_text = 'Note: Each choice will be used exactly once.';
+
+BEGIN_PGML
+[$question_text]*
+[$note_text]*
+
+[@ MODES(HTML => '<div class="two-column"><div>') @]*
+[@ join(
+    "\n\n",
+    map {
+        '[_]{$answer_dropdowns[' . $_ . ']} '
+            . '*' . ($_ + 1) . '.* '
+            . '[$q_and_a[' . $_ . '][0]]*'
+    } 0 .. $#q_and_a
+) @]**
+[@ MODES(HTML => '</div><div class="right-col">') @]*
+[@ join(
+    "\n\n",
+    map {
+        chr(65 + $_) . '\\.' . ' ' . '[$answers_sorted_html[' . $_ . ']]*'
+    } 0 .. $#answers_sorted
+) @]**
+[@ MODES(HTML => '</div></div>') @]*
+END_PGML
+
+# -------------------------------
+# Dynamic Partial Credit Based on $n
+# -------------------------------
+$showPartialCorrectAnswers = 0;
+my @thresholds;
+my @scores;
+for (my $i = 1; $i <= $n; $i++) {
+  push @thresholds, $i;
+  push @scores, sprintf("%.2f", $i / $n);
+}
+
+install_problem_grader(~~&custom_problem_grader_fluid);
+$ENV{grader_numright} = [@thresholds];
+$ENV{grader_scores}   = [@scores];
+$ENV{grader_message} = 'You can earn partial credit.';
+
+# -------------------------------
+# Solution
+# -------------------------------
+$answer_list = join(', ', map { ($_ + 1) . '-' . $ALPHABET[$answer_index{$q_and_a[$_][1]}] } 0 .. $#q_and_a);
+BEGIN_PGML_SOLUTION
+The correct answers are: [$answer_list].
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

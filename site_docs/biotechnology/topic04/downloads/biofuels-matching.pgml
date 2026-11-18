@@ -5,7 +5,7 @@
 ## DBsubject('Biotechnology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-26')
+## Date('2026-11-18')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -110,10 +110,10 @@ push(@answers, (map { $_->[1] } @q_and_a));
 # HTML-safe answer labels
 # -------------------------------
 %answer_html = (
-  'Starch-based Biofuels' => 'Starch-based Biofuels',
-  'Cellulose-based Biofuels' => 'Cellulose-based Biofuels',
-  'Conventional Biodiesel' => 'Conventional Biodiesel',
-  'Algae-based Biodiesel' => 'Algae-based Biodiesel',
+  'Starch-based Biofuels' => '<span style="color: #b74300; font-weight:700;">Starch-based Biofuels</span>',
+  'Cellulose-based Biofuels' => '<span style="color: #3b7600; font-weight:700;">Cellulose-based Biofuels</span>',
+  'Conventional Biodiesel' => '<span style="color: #007576; font-weight:700;">Conventional Biodiesel</span>',
+  'Algae-based Biodiesel' => '<span style="color: #0067cc; font-weight:700;">Algae-based Biodiesel</span>',
 );
 
 @answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
@@ -147,6 +147,7 @@ my @answer_letters_with_blank = ('', @answer_letters);
 # -------------------------------
 HEADER_TEXT(<<END_STYLE);
 <style>
+.pgml-bold { font-weight: 700; }
 .two-column {
     display: flex;
 	flex-wrap: wrap;

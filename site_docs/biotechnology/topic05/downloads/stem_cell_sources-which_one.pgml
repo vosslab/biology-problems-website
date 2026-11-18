@@ -1,0 +1,280 @@
+## DESCRIPTION
+## Select the stem-cell source that corresponds to the given description.
+## ENDDESCRIPTION
+## KEYWORDS('stem-cell sources','stem-cell sources','descriptions','which one','multiple choice')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-11-18')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>come from the inner cell mass of an early embryo</strong>',
+    'plural_choice' => 'stem-cell sources',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">embryonic stem cells</span>',
+      '<span style="color: #3b7600; font-weight:700;">adult stem cells</span>',
+      '<span style="color: #c80085; font-weight:700;">induced pluripotent stem cells (iPSCs)</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">embryonic stem cells</span>',
+  },
+  {
+    'item_name' => '<strong>come from an early embryo and can form cell types from all three germ layers</strong>',
+    'plural_choice' => 'stem-cell sources',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">embryonic stem cells</span>',
+      '<span style="color: #3b7600; font-weight:700;">adult stem cells</span>',
+      '<span style="color: #c80085; font-weight:700;">induced pluripotent stem cells (iPSCs)</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">embryonic stem cells</span>',
+  },
+  {
+    'item_name' => '<strong>come from the inner group of cells in a blastocyst</strong>',
+    'plural_choice' => 'stem-cell sources',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">embryonic stem cells</span>',
+      '<span style="color: #3b7600; font-weight:700;">adult stem cells</span>',
+      '<span style="color: #c80085; font-weight:700;">induced pluripotent stem cells (iPSCs)</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">embryonic stem cells</span>',
+  },
+  {
+    'item_name' => '<strong>are grown in the lab from cells taken from an early embryo</strong>',
+    'plural_choice' => 'stem-cell sources',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">embryonic stem cells</span>',
+      '<span style="color: #3b7600; font-weight:700;">adult stem cells</span>',
+      '<span style="color: #c80085; font-weight:700;">induced pluripotent stem cells (iPSCs)</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">embryonic stem cells</span>',
+  },
+  {
+    'item_name' => '<strong>start as cells from an embryo at an early stage of development</strong>',
+    'plural_choice' => 'stem-cell sources',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">embryonic stem cells</span>',
+      '<span style="color: #3b7600; font-weight:700;">adult stem cells</span>',
+      '<span style="color: #c80085; font-weight:700;">induced pluripotent stem cells (iPSCs)</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">embryonic stem cells</span>',
+  },
+  {
+    'item_name' => '<strong>are found in tissues like bone marrow and help replace old cells</strong>',
+    'plural_choice' => 'stem-cell sources',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">embryonic stem cells</span>',
+      '<span style="color: #3b7600; font-weight:700;">adult stem cells</span>',
+      '<span style="color: #c80085; font-weight:700;">induced pluripotent stem cells (iPSCs)</span>',
+    ],
+    'correct' => '<span style="color: #3b7600; font-weight:700;">adult stem cells</span>',
+  },
+  {
+    'item_name' => '<strong>come from a tissue and usually make related cell types for that tissue</strong>',
+    'plural_choice' => 'stem-cell sources',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">embryonic stem cells</span>',
+      '<span style="color: #3b7600; font-weight:700;">adult stem cells</span>',
+      '<span style="color: #c80085; font-weight:700;">induced pluripotent stem cells (iPSCs)</span>',
+    ],
+    'correct' => '<span style="color: #3b7600; font-weight:700;">adult stem cells</span>',
+  },
+  {
+    'item_name' => '<strong>include cells in bone marrow that make new blood cells</strong>',
+    'plural_choice' => 'stem-cell sources',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">embryonic stem cells</span>',
+      '<span style="color: #3b7600; font-weight:700;">adult stem cells</span>',
+      '<span style="color: #c80085; font-weight:700;">induced pluripotent stem cells (iPSCs)</span>',
+    ],
+    'correct' => '<span style="color: #3b7600; font-weight:700;">adult stem cells</span>',
+  },
+  {
+    'item_name' => '<strong>are found in tissues like skin or intestine, where they help replace lost cells</strong>',
+    'plural_choice' => 'stem-cell sources',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">embryonic stem cells</span>',
+      '<span style="color: #3b7600; font-weight:700;">adult stem cells</span>',
+      '<span style="color: #c80085; font-weight:700;">induced pluripotent stem cells (iPSCs)</span>',
+    ],
+    'correct' => '<span style="color: #3b7600; font-weight:700;">adult stem cells</span>',
+  },
+  {
+    'item_name' => '<strong>live in a tissue and make new cells to help keep it working</strong>',
+    'plural_choice' => 'stem-cell sources',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">embryonic stem cells</span>',
+      '<span style="color: #3b7600; font-weight:700;">adult stem cells</span>',
+      '<span style="color: #c80085; font-weight:700;">induced pluripotent stem cells (iPSCs)</span>',
+    ],
+    'correct' => '<span style="color: #3b7600; font-weight:700;">adult stem cells</span>',
+  },
+  {
+    'item_name' => q{<strong>include stem cells that keep making new blood cells throughout a person's life</strong>},
+    'plural_choice' => 'stem-cell sources',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">embryonic stem cells</span>',
+      '<span style="color: #3b7600; font-weight:700;">adult stem cells</span>',
+      '<span style="color: #c80085; font-weight:700;">induced pluripotent stem cells (iPSCs)</span>',
+    ],
+    'correct' => '<span style="color: #3b7600; font-weight:700;">adult stem cells</span>',
+  },
+  {
+    'item_name' => '<strong>are made by resetting specialized cells so they can form cell types from all three germ layers</strong>',
+    'plural_choice' => 'stem-cell sources',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">embryonic stem cells</span>',
+      '<span style="color: #3b7600; font-weight:700;">adult stem cells</span>',
+      '<span style="color: #c80085; font-weight:700;">induced pluripotent stem cells (iPSCs)</span>',
+    ],
+    'correct' => '<span style="color: #c80085; font-weight:700;">induced pluripotent stem cells (iPSCs)</span>',
+  },
+  {
+    'item_name' => '<strong>come from specialized cells that are changed in the lab so they can make many cell types</strong>',
+    'plural_choice' => 'stem-cell sources',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">embryonic stem cells</span>',
+      '<span style="color: #3b7600; font-weight:700;">adult stem cells</span>',
+      '<span style="color: #c80085; font-weight:700;">induced pluripotent stem cells (iPSCs)</span>',
+    ],
+    'correct' => '<span style="color: #c80085; font-weight:700;">induced pluripotent stem cells (iPSCs)</span>',
+  },
+  {
+    'item_name' => '<strong>can start as skin cells that are reset so they can make many kinds of cells</strong>',
+    'plural_choice' => 'stem-cell sources',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">embryonic stem cells</span>',
+      '<span style="color: #3b7600; font-weight:700;">adult stem cells</span>',
+      '<span style="color: #c80085; font-weight:700;">induced pluripotent stem cells (iPSCs)</span>',
+    ],
+    'correct' => '<span style="color: #c80085; font-weight:700;">induced pluripotent stem cells (iPSCs)</span>',
+  },
+  {
+    'item_name' => '<strong>give researchers a way to make pluripotent cells without using an embryo</strong>',
+    'plural_choice' => 'stem-cell sources',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">embryonic stem cells</span>',
+      '<span style="color: #3b7600; font-weight:700;">adult stem cells</span>',
+      '<span style="color: #c80085; font-weight:700;">induced pluripotent stem cells (iPSCs)</span>',
+    ],
+    'correct' => '<span style="color: #c80085; font-weight:700;">induced pluripotent stem cells (iPSCs)</span>',
+  },
+  {
+    'item_name' => '<strong>start as specialized cells, then scientists change which genes are active to reset them</strong>',
+    'plural_choice' => 'stem-cell sources',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">embryonic stem cells</span>',
+      '<span style="color: #3b7600; font-weight:700;">adult stem cells</span>',
+      '<span style="color: #c80085; font-weight:700;">induced pluripotent stem cells (iPSCs)</span>',
+    ],
+    'correct' => '<span style="color: #c80085; font-weight:700;">induced pluripotent stem cells (iPSCs)</span>',
+  },
+  {
+    'item_name' => '<strong>can start as a skin cell and, after a reset in the lab, give rise to heart or nerve cells</strong>',
+    'plural_choice' => 'stem-cell sources',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">embryonic stem cells</span>',
+      '<span style="color: #3b7600; font-weight:700;">adult stem cells</span>',
+      '<span style="color: #c80085; font-weight:700;">induced pluripotent stem cells (iPSCs)</span>',
+    ],
+    'correct' => '<span style="color: #c80085; font-weight:700;">induced pluripotent stem cells (iPSCs)</span>',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

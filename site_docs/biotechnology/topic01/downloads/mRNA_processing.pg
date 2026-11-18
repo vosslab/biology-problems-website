@@ -6,7 +6,7 @@
 ## DBsubject('Molecular Biology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-15')
+## Date('2026-11-18')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -29,12 +29,12 @@ $showPartialCorrectAnswers = 1;
 
 @true_groups = (
   [
-    '<span style="color: #00802b; font-weight:700;">poly-adenine tail</span> is added on the <span style="color: #008080; font-weight:700;">3&prime; end</span>',
-    '<span style="color: #00802b; font-weight:700;">poly-adenylation</span> at the <span style="color: #008080; font-weight:700;">3&prime; end</span>',
-    'addition of a <span style="color: #008080; font-weight:700;">3&prime; end</span> <span style="color: #00802b; font-weight:700;">poly-adenylation</span>',
-    'addition of a <span style="color: #00802b; font-weight:700;">poly-adenylation</span> tail on the <span style="color: #008080; font-weight:700;">3&prime; end</span>',
-    'addition of about 250 <span style="color: #00802b; font-weight:700;">adenine residues</span> on the <span style="color: #008080; font-weight:700;">3&prime; end</span>',
-    'about 250 <span style="color: #00802b; font-weight:700;">adenine residues</span> are added on the <span style="color: #008080; font-weight:700;">3&prime; end</span>',
+    '<span style="color: #007a29; font-weight:700;">poly-adenine tail</span> is added on the <span style="color: #007576; font-weight:700;">3&prime; end</span>',
+    '<span style="color: #007a29; font-weight:700;">poly-adenylation</span> at the <span style="color: #007576; font-weight:700;">3&prime; end</span>',
+    'addition of a <span style="color: #007576; font-weight:700;">3&prime; end</span> <span style="color: #007a29; font-weight:700;">poly-adenylation</span>',
+    'addition of a <span style="color: #007a29; font-weight:700;">poly-adenylation</span> tail on the <span style="color: #007576; font-weight:700;">3&prime; end</span>',
+    'addition of about 250 <span style="color: #007a29; font-weight:700;">adenine residues</span> on the <span style="color: #007576; font-weight:700;">3&prime; end</span>',
+    'about 250 <span style="color: #007a29; font-weight:700;">adenine residues</span> are added on the <span style="color: #007576; font-weight:700;">3&prime; end</span>',
   ],
   [
     'capping of <span style="color: #86592d; font-weight:700;">5&prime; end</span>',
@@ -68,32 +68,32 @@ $showPartialCorrectAnswers = 1;
 );
 @false_groups = (
   [
-    '<span style="color: #4d4d00; font-weight:700;">poly-guanine tail</span> is added on the <span style="color: #008080; font-weight:700;">3&prime; end</span>',
-    '<span style="color: #4d4d00; font-weight:700;">poly-guanidinylation</span> at the <span style="color: #008080; font-weight:700;">3&prime; end</span>',
-    'addition of a <span style="color: #008080; font-weight:700;">3&prime; end</span> <span style="color: #4d4d00; font-weight:700;">poly-guanidinylation</span>',
-    'addition of a <span style="color: #4d4d00; font-weight:700;">poly-guanidinylation</span> tail on the <span style="color: #008080; font-weight:700;">3&prime; end</span>',
-    'addition of about 250 <span style="color: #4d4d00; font-weight:700;">guanine residues</span> on the <span style="color: #008080; font-weight:700;">3&prime; end</span>',
-    'about 250 <span style="color: #4d4d00; font-weight:700;">guanine residues</span> are added on the <span style="color: #008080; font-weight:700;">3&prime; end</span>',
-    '<span style="color: #00802b; font-weight:700;">poly-adenine tail</span> is added on the <span style="color: #86592d; font-weight:700;">5&prime; end</span>',
-    '<span style="color: #00802b; font-weight:700;">poly-adenylation</span> at the <span style="color: #86592d; font-weight:700;">5&prime; end</span>',
-    'addition of a <span style="color: #86592d; font-weight:700;">5&prime; end</span> <span style="color: #00802b; font-weight:700;">poly-adenylation</span>',
-    'addition of a <span style="color: #00802b; font-weight:700;">poly-adenylation</span> tail on the <span style="color: #86592d; font-weight:700;">5&prime; end</span>',
-    'addition of about 250 <span style="color: #00802b; font-weight:700;">adenine residues</span> on the <span style="color: #86592d; font-weight:700;">5&prime; end</span>',
-    'about 250 <span style="color: #00802b; font-weight:700;">adenine residues</span> are added on the <span style="color: #86592d; font-weight:700;">5&prime; end</span>',
+    '<span style="color: #4d4d00; font-weight:700;">poly-guanine tail</span> is added on the <span style="color: #007576; font-weight:700;">3&prime; end</span>',
+    '<span style="color: #4d4d00; font-weight:700;">poly-guanidinylation</span> at the <span style="color: #007576; font-weight:700;">3&prime; end</span>',
+    'addition of a <span style="color: #007576; font-weight:700;">3&prime; end</span> <span style="color: #4d4d00; font-weight:700;">poly-guanidinylation</span>',
+    'addition of a <span style="color: #4d4d00; font-weight:700;">poly-guanidinylation</span> tail on the <span style="color: #007576; font-weight:700;">3&prime; end</span>',
+    'addition of about 250 <span style="color: #4d4d00; font-weight:700;">guanine residues</span> on the <span style="color: #007576; font-weight:700;">3&prime; end</span>',
+    'about 250 <span style="color: #4d4d00; font-weight:700;">guanine residues</span> are added on the <span style="color: #007576; font-weight:700;">3&prime; end</span>',
+    '<span style="color: #007a29; font-weight:700;">poly-adenine tail</span> is added on the <span style="color: #86592d; font-weight:700;">5&prime; end</span>',
+    '<span style="color: #007a29; font-weight:700;">poly-adenylation</span> at the <span style="color: #86592d; font-weight:700;">5&prime; end</span>',
+    'addition of a <span style="color: #86592d; font-weight:700;">5&prime; end</span> <span style="color: #007a29; font-weight:700;">poly-adenylation</span>',
+    'addition of a <span style="color: #007a29; font-weight:700;">poly-adenylation</span> tail on the <span style="color: #86592d; font-weight:700;">5&prime; end</span>',
+    'addition of about 250 <span style="color: #007a29; font-weight:700;">adenine residues</span> on the <span style="color: #86592d; font-weight:700;">5&prime; end</span>',
+    'about 250 <span style="color: #007a29; font-weight:700;">adenine residues</span> are added on the <span style="color: #86592d; font-weight:700;">5&prime; end</span>',
   ],
   [
-    'capping of <span style="color: #008080; font-weight:700;">3&prime; end</span>',
-    '<span style="color: #008080; font-weight:700;">3&prime; end</span> capping',
-    'a cap is placed on the <span style="color: #008080; font-weight:700;">3&prime; end</span>',
-    'addition of a cap on the <span style="color: #008080; font-weight:700;">3&prime; end</span>',
-    'a <span style="color: #00802b; font-weight:700;">modified adenosine</span> is linked to the <span style="color: #86592d; font-weight:700;">first nucleotide</span>',
-    'a <span style="color: #00802b; font-weight:700;">modified adenosine</span> is linked to the <span style="color: #86592d; font-weight:700;">5&prime; end</span>',
-    'a <span style="color: #00802b; font-weight:700;">modified adenosine</span> is placed on the <span style="color: #86592d; font-weight:700;">5&prime; end</span>',
-    'a <span style="color: #00802b; font-weight:700;">modified adenosine</span> is added at the <span style="color: #86592d; font-weight:700;">5&prime; end</span>',
-    'a <span style="color: #4d4d00; font-weight:700;">modified guanosine</span> is linked to the <span style="color: #008080; font-weight:700;">last nucleotide</span>',
-    'a <span style="color: #4d4d00; font-weight:700;">modified guanosine</span> is linked to the <span style="color: #008080; font-weight:700;">3&prime; end</span>',
-    'a <span style="color: #4d4d00; font-weight:700;">modified guanosine</span> is placed on the <span style="color: #008080; font-weight:700;">3&prime; end</span>',
-    'a <span style="color: #4d4d00; font-weight:700;">modified guanosine</span> is added at the <span style="color: #008080; font-weight:700;">3&prime; end</span>',
+    'capping of <span style="color: #007576; font-weight:700;">3&prime; end</span>',
+    '<span style="color: #007576; font-weight:700;">3&prime; end</span> capping',
+    'a cap is placed on the <span style="color: #007576; font-weight:700;">3&prime; end</span>',
+    'addition of a cap on the <span style="color: #007576; font-weight:700;">3&prime; end</span>',
+    'a <span style="color: #007a29; font-weight:700;">modified adenosine</span> is linked to the <span style="color: #86592d; font-weight:700;">first nucleotide</span>',
+    'a <span style="color: #007a29; font-weight:700;">modified adenosine</span> is linked to the <span style="color: #86592d; font-weight:700;">5&prime; end</span>',
+    'a <span style="color: #007a29; font-weight:700;">modified adenosine</span> is placed on the <span style="color: #86592d; font-weight:700;">5&prime; end</span>',
+    'a <span style="color: #007a29; font-weight:700;">modified adenosine</span> is added at the <span style="color: #86592d; font-weight:700;">5&prime; end</span>',
+    'a <span style="color: #4d4d00; font-weight:700;">modified guanosine</span> is linked to the <span style="color: #007576; font-weight:700;">last nucleotide</span>',
+    'a <span style="color: #4d4d00; font-weight:700;">modified guanosine</span> is linked to the <span style="color: #007576; font-weight:700;">3&prime; end</span>',
+    'a <span style="color: #4d4d00; font-weight:700;">modified guanosine</span> is placed on the <span style="color: #007576; font-weight:700;">3&prime; end</span>',
+    'a <span style="color: #4d4d00; font-weight:700;">modified guanosine</span> is added at the <span style="color: #007576; font-weight:700;">3&prime; end</span>',
   ],
   [
     'removal the intervening, <span style="color: #0000b3; font-weight:700;">coding</span> sequences',

@@ -1556,7 +1556,42 @@
     },
     {
       "pagePath": "biotechnology/topic05/index.md",
+      "questionId": "bbq-MATCH-cancer_treatment_mechanisms-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic05",
+      "topicTitle": "Medicinal Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic05/index.md",
+      "questionId": "bbq-MATCH-gene_delivery_vectors-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic05",
+      "topicTitle": "Medicinal Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic05/index.md",
+      "questionId": "bbq-MATCH-gene_therapy_delivery_routes-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic05",
+      "topicTitle": "Medicinal Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic05/index.md",
       "questionId": "bbq-MATCH-gene_therapy_v_edit-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic05",
+      "topicTitle": "Medicinal Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic05/index.md",
+      "questionId": "bbq-MATCH-genome_editing_tools-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic05",
+      "topicTitle": "Medicinal Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic05/index.md",
+      "questionId": "bbq-MATCH-rna_medicines-questions.txt",
       "subjectKey": "biotechnology",
       "topicKey": "topic05",
       "topicTitle": "Medicinal Biotechnology"
@@ -1570,6 +1605,55 @@
     },
     {
       "pagePath": "biotechnology/topic05/index.md",
+      "questionId": "bbq-MATCH-stem_cell_sources-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic05",
+      "topicTitle": "Medicinal Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic05/index.md",
+      "questionId": "bbq-ORDER-animal_cloning-4_items-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic05",
+      "topicTitle": "Medicinal Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic05/index.md",
+      "questionId": "bbq-SEQUENCEMC-animal_cloning-4_items-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic05",
+      "topicTitle": "Medicinal Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic05/index.md",
+      "questionId": "bbq-TFMS-mutagens_and_carcinogens-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic05",
+      "topicTitle": "Medicinal Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic05/index.md",
+      "questionId": "bbq-WOMC-cancer_treatment_mechanisms-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic05",
+      "topicTitle": "Medicinal Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic05/index.md",
+      "questionId": "bbq-WOMC-gene_delivery_vectors-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic05",
+      "topicTitle": "Medicinal Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic05/index.md",
+      "questionId": "bbq-WOMC-gene_therapy_delivery_routes-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic05",
+      "topicTitle": "Medicinal Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic05/index.md",
       "questionId": "bbq-WOMC-gene_therapy_v_edit-questions.txt",
       "subjectKey": "biotechnology",
       "topicKey": "topic05",
@@ -1577,7 +1661,28 @@
     },
     {
       "pagePath": "biotechnology/topic05/index.md",
+      "questionId": "bbq-WOMC-genome_editing_tools-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic05",
+      "topicTitle": "Medicinal Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic05/index.md",
+      "questionId": "bbq-WOMC-rna_medicines-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic05",
+      "topicTitle": "Medicinal Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic05/index.md",
       "questionId": "bbq-WOMC-stem_cell_potency-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic05",
+      "topicTitle": "Medicinal Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic05/index.md",
+      "questionId": "bbq-WOMC-stem_cell_sources-questions.txt",
       "subjectKey": "biotechnology",
       "topicKey": "topic05",
       "topicTitle": "Medicinal Biotechnology"
@@ -1591,7 +1696,21 @@
     },
     {
       "pagePath": "biotechnology/topic06/index.md",
+      "questionId": "bbq-MATCH-food_and_drug_law_milestones-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic06",
+      "topicTitle": "Regulation in Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic06/index.md",
       "questionId": "bbq-MATCH-intellectual_property-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic06",
+      "topicTitle": "Regulation in Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic06/index.md",
+      "questionId": "bbq-MATCH-research_agreement_terms-questions.txt",
       "subjectKey": "biotechnology",
       "topicKey": "topic06",
       "topicTitle": "Regulation in Biotechnology"
@@ -1612,7 +1731,35 @@
     },
     {
       "pagePath": "biotechnology/topic06/index.md",
+      "questionId": "bbq-TFMS-pfas_forever_chemicals-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic06",
+      "topicTitle": "Regulation in Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic06/index.md",
+      "questionId": "bbq-TFMS-recombinant_dna_biosafety-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic06",
+      "topicTitle": "Regulation in Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic06/index.md",
+      "questionId": "bbq-TFMS-supplement_label_claims-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic06",
+      "topicTitle": "Regulation in Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic06/index.md",
       "questionId": "bbq-WOMC-clinical_trial_phases-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic06",
+      "topicTitle": "Regulation in Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic06/index.md",
+      "questionId": "bbq-WOMC-food_and_drug_law_milestones-questions.txt",
       "subjectKey": "biotechnology",
       "topicKey": "topic06",
       "topicTitle": "Regulation in Biotechnology"
@@ -1626,7 +1773,28 @@
     },
     {
       "pagePath": "biotechnology/topic06/index.md",
+      "questionId": "bbq-WOMC-research_agreement_terms-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic06",
+      "topicTitle": "Regulation in Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic06/index.md",
       "questionId": "bbq-WOMC-transgenic_crop_regulators-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic06",
+      "topicTitle": "Regulation in Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic06/index.md",
+      "questionId": "bbq-generic_drug_exposure_ranges-MC-questions.txt",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic06",
+      "topicTitle": "Regulation in Biotechnology"
+    },
+    {
+      "pagePath": "biotechnology/topic06/index.md",
+      "questionId": "bbq-pfas_filter_fate-MC-questions.txt",
       "subjectKey": "biotechnology",
       "topicKey": "topic06",
       "topicTitle": "Regulation in Biotechnology"

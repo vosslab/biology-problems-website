@@ -1,0 +1,243 @@
+## DESCRIPTION
+## Select the treatment route that corresponds to the given description.
+## ENDDESCRIPTION
+## KEYWORDS('treatment routes','treatment routes','descriptions','which one','multiple choice')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-11-18')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>cells are changed outside the body and then returned to the patient</strong>',
+    'plural_choice' => 'treatment routes',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
+      '<span style="color: #a719db; font-weight:700;">in vivo</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
+  },
+  {
+    'item_name' => '<strong>blood cells are taken from a patient, changed in the lab, and given back</strong>',
+    'plural_choice' => 'treatment routes',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
+      '<span style="color: #a719db; font-weight:700;">in vivo</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
+  },
+  {
+    'item_name' => '<strong>the team can test the changed cells before giving them back to the patient</strong>',
+    'plural_choice' => 'treatment routes',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
+      '<span style="color: #a719db; font-weight:700;">in vivo</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
+  },
+  {
+    'item_name' => '<strong>T cells get a new receptor gene in the lab before the patient receives them</strong>',
+    'plural_choice' => 'treatment routes',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
+      '<span style="color: #a719db; font-weight:700;">in vivo</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
+  },
+  {
+    'item_name' => '<strong>blood stem cells are taken out, changed, checked, and returned</strong>',
+    'plural_choice' => 'treatment routes',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
+      '<span style="color: #a719db; font-weight:700;">in vivo</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
+  },
+  {
+    'item_name' => '<strong>the patient receives cells whose DNA was changed in a lab</strong>',
+    'plural_choice' => 'treatment routes',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
+      '<span style="color: #a719db; font-weight:700;">in vivo</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
+  },
+  {
+    'item_name' => '<strong>in the early ADA-SCID trial, patients got their own T cells back after the cells received a working gene</strong>',
+    'plural_choice' => 'treatment routes',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
+      '<span style="color: #a719db; font-weight:700;">in vivo</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
+  },
+  {
+    'item_name' => q{<strong>a lab gives a patient's T cells a way to recognize a tumor, then sends the cells back for treatment</strong>},
+    'plural_choice' => 'treatment routes',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
+      '<span style="color: #a719db; font-weight:700;">in vivo</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
+  },
+  {
+    'item_name' => '<strong>the treatment delivers DNA or RNA to cells inside the patient</strong>',
+    'plural_choice' => 'treatment routes',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
+      '<span style="color: #a719db; font-weight:700;">in vivo</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">in vivo</span>',
+  },
+  {
+    'item_name' => '<strong>a carrier is injected into the eye to change cells while they are still there</strong>',
+    'plural_choice' => 'treatment routes',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
+      '<span style="color: #a719db; font-weight:700;">in vivo</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">in vivo</span>',
+  },
+  {
+    'item_name' => '<strong>a carrier travels through the blood to bring DNA or RNA to cells in an organ</strong>',
+    'plural_choice' => 'treatment routes',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
+      '<span style="color: #a719db; font-weight:700;">in vivo</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">in vivo</span>',
+  },
+  {
+    'item_name' => '<strong>an injection delivers a gene to liver cells while they are still in the body</strong>',
+    'plural_choice' => 'treatment routes',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
+      '<span style="color: #a719db; font-weight:700;">in vivo</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">in vivo</span>',
+  },
+  {
+    'item_name' => '<strong>airway cells get a working gene without being taken out of the patient</strong>',
+    'plural_choice' => 'treatment routes',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
+      '<span style="color: #a719db; font-weight:700;">in vivo</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">in vivo</span>',
+  },
+  {
+    'item_name' => '<strong>the treatment changes cells right where they are in the body</strong>',
+    'plural_choice' => 'treatment routes',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
+      '<span style="color: #a719db; font-weight:700;">in vivo</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">in vivo</span>',
+  },
+  {
+    'item_name' => '<strong>the treatment goes straight into the eye and reaches cells in the retina</strong>',
+    'plural_choice' => 'treatment routes',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
+      '<span style="color: #a719db; font-weight:700;">in vivo</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">in vivo</span>',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+
