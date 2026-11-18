@@ -5,7 +5,7 @@
 ## DBsubject('Biotechnology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-15')
+## Date('2026-11-18')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -110,14 +110,14 @@ push(@answers, (map { $_->[1] } @q_and_a));
 # HTML-safe answer labels
 # -------------------------------
 %answer_html = (
-  'in silico' => 'in silico',
-  'in situ' => 'in situ',
-  'in vivo' => 'in vivo',
-  'in vitro' => 'in vitro',
-  'in natura' => 'in natura',
-  'in ovo' => 'in ovo',
-  'in utero' => 'in utero',
-  'ex vivo' => 'ex vivo',
+  'in silico' => '<span style="color: #007576; font-weight:700;">in silico</span>',
+  'in situ' => '<span style="color: #003fff; font-weight:700;">in situ</span>',
+  'in vivo' => '<span style="color: #a719db; font-weight:700;">in vivo</span>',
+  'in vitro' => '<span style="color: #cc0066; font-weight:700;">in vitro</span>',
+  'in natura' => '<span style="color: #d40000; font-weight:700;">in natura</span>',
+  'in ovo' => '<span style="color: #b74300; font-weight:700;">in ovo</span>',
+  'in utero' => '<span style="color: #6c6c00; font-weight:700;">in utero</span>',
+  'ex vivo' => '<span style="color: #007a00; font-weight:700;">ex vivo</span>',
 );
 
 @answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
@@ -151,6 +151,7 @@ my @answer_letters_with_blank = ('', @answer_letters);
 # -------------------------------
 HEADER_TEXT(<<END_STYLE);
 <style>
+.pgml-bold { font-weight: 700; }
 .two-column {
     display: flex;
 	flex-wrap: wrap;

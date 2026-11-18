@@ -1,0 +1,269 @@
+## DESCRIPTION
+## Select the genome-editing tool that corresponds to the given description.
+## ENDDESCRIPTION
+## KEYWORDS('genome-editing tools','genome-editing tools','descriptions','which one','multiple choice')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-11-18')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>uses a group of small protein fingers to bind DNA and an enzyme to cut it</strong>',
+    'plural_choice' => 'genome-editing tools',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">zinc-finger nuclease (ZFN)</span>',
+      '<span style="color: #007a00; font-weight:700;">TALEN</span>',
+      '<span style="color: #0067cc; font-weight:700;">CRISPR-Cas9</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">zinc-finger nuclease (ZFN)</span>',
+  },
+  {
+    'item_name' => '<strong>binds DNA with protein fingers and cuts it with two FokI parts that work together</strong>',
+    'plural_choice' => 'genome-editing tools',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">zinc-finger nuclease (ZFN)</span>',
+      '<span style="color: #007a00; font-weight:700;">TALEN</span>',
+      '<span style="color: #0067cc; font-weight:700;">CRISPR-Cas9</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">zinc-finger nuclease (ZFN)</span>',
+  },
+  {
+    'item_name' => '<strong>links a group of DNA-binding fingers to the part of the protein that cuts DNA</strong>',
+    'plural_choice' => 'genome-editing tools',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">zinc-finger nuclease (ZFN)</span>',
+      '<span style="color: #007a00; font-weight:700;">TALEN</span>',
+      '<span style="color: #0067cc; font-weight:700;">CRISPR-Cas9</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">zinc-finger nuclease (ZFN)</span>',
+  },
+  {
+    'item_name' => '<strong>can bind a new DNA target if its set of protein fingers is changed</strong>',
+    'plural_choice' => 'genome-editing tools',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">zinc-finger nuclease (ZFN)</span>',
+      '<span style="color: #007a00; font-weight:700;">TALEN</span>',
+      '<span style="color: #0067cc; font-weight:700;">CRISPR-Cas9</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">zinc-finger nuclease (ZFN)</span>',
+  },
+  {
+    'item_name' => '<strong>uses several protein fingers together to find the right stretch of DNA</strong>',
+    'plural_choice' => 'genome-editing tools',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">zinc-finger nuclease (ZFN)</span>',
+      '<span style="color: #007a00; font-weight:700;">TALEN</span>',
+      '<span style="color: #0067cc; font-weight:700;">CRISPR-Cas9</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">zinc-finger nuclease (ZFN)</span>',
+  },
+  {
+    'item_name' => '<strong>uses a protein with repeating parts that each prefer one DNA base</strong>',
+    'plural_choice' => 'genome-editing tools',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">zinc-finger nuclease (ZFN)</span>',
+      '<span style="color: #007a00; font-weight:700;">TALEN</span>',
+      '<span style="color: #0067cc; font-weight:700;">CRISPR-Cas9</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">TALEN</span>',
+  },
+  {
+    'item_name' => '<strong>binds DNA with repeats from a bacterial protein and cuts it with paired FokI parts</strong>',
+    'plural_choice' => 'genome-editing tools',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">zinc-finger nuclease (ZFN)</span>',
+      '<span style="color: #007a00; font-weight:700;">TALEN</span>',
+      '<span style="color: #0067cc; font-weight:700;">CRISPR-Cas9</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">TALEN</span>',
+  },
+  {
+    'item_name' => '<strong>recognizes DNA one base at a time with a row of repeating protein parts</strong>',
+    'plural_choice' => 'genome-editing tools',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">zinc-finger nuclease (ZFN)</span>',
+      '<span style="color: #007a00; font-weight:700;">TALEN</span>',
+      '<span style="color: #0067cc; font-weight:700;">CRISPR-Cas9</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">TALEN</span>',
+  },
+  {
+    'item_name' => '<strong>can bind a new DNA target if the row of repeats is changed to match its bases</strong>',
+    'plural_choice' => 'genome-editing tools',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">zinc-finger nuclease (ZFN)</span>',
+      '<span style="color: #007a00; font-weight:700;">TALEN</span>',
+      '<span style="color: #0067cc; font-weight:700;">CRISPR-Cas9</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">TALEN</span>',
+  },
+  {
+    'item_name' => '<strong>uses two proteins, each with a row of repeats that bind DNA next to the cut</strong>',
+    'plural_choice' => 'genome-editing tools',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">zinc-finger nuclease (ZFN)</span>',
+      '<span style="color: #007a00; font-weight:700;">TALEN</span>',
+      '<span style="color: #0067cc; font-weight:700;">CRISPR-Cas9</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">TALEN</span>',
+  },
+  {
+    'item_name' => '<strong>uses repeating parts from bacterial proteins that bind plant DNA</strong>',
+    'plural_choice' => 'genome-editing tools',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">zinc-finger nuclease (ZFN)</span>',
+      '<span style="color: #007a00; font-weight:700;">TALEN</span>',
+      '<span style="color: #0067cc; font-weight:700;">CRISPR-Cas9</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">TALEN</span>',
+  },
+  {
+    'item_name' => '<strong>uses a guide RNA to bring a cutting protein to a matching DNA site</strong>',
+    'plural_choice' => 'genome-editing tools',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">zinc-finger nuclease (ZFN)</span>',
+      '<span style="color: #007a00; font-weight:700;">TALEN</span>',
+      '<span style="color: #0067cc; font-weight:700;">CRISPR-Cas9</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">CRISPR-Cas9</span>',
+  },
+  {
+    'item_name' => '<strong>can find a new DNA target when the sequence of its guide RNA changes</strong>',
+    'plural_choice' => 'genome-editing tools',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">zinc-finger nuclease (ZFN)</span>',
+      '<span style="color: #007a00; font-weight:700;">TALEN</span>',
+      '<span style="color: #0067cc; font-weight:700;">CRISPR-Cas9</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">CRISPR-Cas9</span>',
+  },
+  {
+    'item_name' => '<strong>needs a guide RNA that matches the target and a short DNA sequence called a PAM next to it</strong>',
+    'plural_choice' => 'genome-editing tools',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">zinc-finger nuclease (ZFN)</span>',
+      '<span style="color: #007a00; font-weight:700;">TALEN</span>',
+      '<span style="color: #0067cc; font-weight:700;">CRISPR-Cas9</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">CRISPR-Cas9</span>',
+  },
+  {
+    'item_name' => '<strong>uses an RNA guide to find the target while the same protein does the cutting</strong>',
+    'plural_choice' => 'genome-editing tools',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">zinc-finger nuclease (ZFN)</span>',
+      '<span style="color: #007a00; font-weight:700;">TALEN</span>',
+      '<span style="color: #0067cc; font-weight:700;">CRISPR-Cas9</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">CRISPR-Cas9</span>',
+  },
+  {
+    'item_name' => '<strong>pairs a DNA-cutting protein with an RNA that tells it where to go</strong>',
+    'plural_choice' => 'genome-editing tools',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">zinc-finger nuclease (ZFN)</span>',
+      '<span style="color: #007a00; font-weight:700;">TALEN</span>',
+      '<span style="color: #0067cc; font-weight:700;">CRISPR-Cas9</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">CRISPR-Cas9</span>',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

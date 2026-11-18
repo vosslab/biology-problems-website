@@ -1,0 +1,431 @@
+## DESCRIPTION
+## Select the nucleic-acid medicine that corresponds to the given description.
+## ENDDESCRIPTION
+## KEYWORDS('nucleic-acid medicines','nucleic-acid medicines','descriptions','which one','multiple choice')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-11-18')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>gives cells a message they can read to make a protein</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+  },
+  {
+    'item_name' => '<strong>carries an instruction that cells can use for a short time to make a protein</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+  },
+  {
+    'item_name' => '<strong>gives ribosomes a template for making a useful protein</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+  },
+  {
+    'item_name' => '<strong>lets a cell make a missing protein for a short time without changing its DNA</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+  },
+  {
+    'item_name' => '<strong>is the RNA that the cell translates to make the protein it needs</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+  },
+  {
+    'item_name' => '<strong>can use one of its two short RNA strands to guide a protein to a matching message</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+  },
+  {
+    'item_name' => '<strong>uses RNA interference to help a cell break down one kind of messenger RNA</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+  },
+  {
+    'item_name' => '<strong>one strand of the RNA pair matches the message the cell will break down</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+  },
+  {
+    'item_name' => '<strong>can lower the amount of a harmful protein by using RNA interference to destroy its message</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+  },
+  {
+    'item_name' => '<strong>has two RNA strands at first, but only one guides the search for the matching message</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+  },
+  {
+    'item_name' => '<strong>can bind RNA and change which exons stay in the message</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+  },
+  {
+    'item_name' => '<strong>can stick to a matching part of RNA and change how the cell splices it</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+  },
+  {
+    'item_name' => '<strong>can bind RNA before splicing so the cell makes a different version of the message</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+  },
+  {
+    'item_name' => '<strong>can help a cell keep or skip an exon without changing its DNA</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+  },
+  {
+    'item_name' => '<strong>can cover up a splice site by pairing with part of the RNA message</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+  },
+  {
+    'item_name' => '<strong>is a piece of DNA or RNA that folds into a shape that binds a target molecule</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+  },
+  {
+    'item_name' => '<strong>uses the shape it folds into to stick to a protein or another target</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+  },
+  {
+    'item_name' => '<strong>is a short piece of DNA or RNA chosen because it binds a target</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+  },
+  {
+    'item_name' => '<strong>can guide a drug to a target by folding into a shape that binds it</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+  },
+  {
+    'item_name' => '<strong>uses its folded shape to bind a molecule without cutting it</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+  },
+  {
+    'item_name' => '<strong>can stick to a molecule on the surface of a cell using its folded shape</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+  },
+  {
+    'item_name' => '<strong>is RNA that speeds up a chemical reaction</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+  },
+  {
+    'item_name' => '<strong>can bind another RNA and cut it without needing a protein to do the cutting</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+  },
+  {
+    'item_name' => '<strong>acts like an enzyme even though it is made of RNA</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+  },
+  {
+    'item_name' => '<strong>folds into a shape that helps a chemical reaction take place</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+  },
+  {
+    'item_name' => '<strong>is a piece of RNA that can act as a tool for cutting another RNA</strong>',
+    'plural_choice' => 'nucleic-acid medicines',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">mRNA</span>',
+      '<span style="color: #003fff; font-weight:700;">siRNA</span>',
+      '<span style="color: #935d00; font-weight:700;">antisense oligonucleotide</span>',
+      '<span style="color: #a719db; font-weight:700;">aptamer</span>',
+      '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">ribozyme</span>',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

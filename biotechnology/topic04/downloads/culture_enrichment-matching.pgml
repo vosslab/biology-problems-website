@@ -5,7 +5,7 @@
 ## DBsubject('Laboratory Techniques')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-26')
+## Date('2026-11-18')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -94,10 +94,10 @@ push(@answers, (map { $_->[1] } @q_and_a));
 # HTML-safe answer labels
 # -------------------------------
 %answer_html = (
-  'DNA stable isotope probing (DNA-SIP)' => 'DNA stable isotope probing (DNA-SIP)',
-  'RNA stable isotope probing (RNA-SIP)' => 'RNA stable isotope probing (RNA-SIP)',
-  'suppressive subtraction hybridization (SSH)' => 'suppressive subtraction hybridization (SSH)',
-  'BrdU' => 'BrdU',
+  'DNA stable isotope probing (DNA-SIP)' => '<span style="color: #00775f; font-weight:700;">DNA stable isotope probing (DNA-SIP)</span>',
+  'RNA stable isotope probing (RNA-SIP)' => '<span style="color: #003fff; font-weight:700;">RNA stable isotope probing (RNA-SIP)</span>',
+  'suppressive subtraction hybridization (SSH)' => '<span style="color: #a719db; font-weight:700;">suppressive subtraction hybridization (SSH)</span>',
+  'BrdU' => '<span style="color: #c80085; font-weight:700;">BrdU</span>',
 );
 
 @answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
@@ -131,6 +131,7 @@ my @answer_letters_with_blank = ('', @answer_letters);
 # -------------------------------
 HEADER_TEXT(<<END_STYLE);
 <style>
+.pgml-bold { font-weight: 700; }
 .two-column {
     display: flex;
 	flex-wrap: wrap;

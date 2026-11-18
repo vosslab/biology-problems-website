@@ -5,7 +5,7 @@
 ## DBsubject('Biotechnology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-15')
+## Date('2026-11-18')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -125,11 +125,11 @@ push(@answers, (map { $_->[1] } @q_and_a));
 # HTML-safe answer labels
 # -------------------------------
 %answer_html = (
-  'Escherichia coli' => 'Escherichia coli',
-  'Saccharomyces cerevisiae' => 'Saccharomyces cerevisiae',
-  'Caenorhabditis elegans' => 'Caenorhabditis elegans',
-  'Drosophila melanogaster' => 'Drosophila melanogaster',
-  'Mus musculus' => 'Mus musculus',
+  'Escherichia coli' => '<span style="color: #935d00; font-weight:700;">Escherichia coli</span>',
+  'Saccharomyces cerevisiae' => '<span style="color: #007a00; font-weight:700;">Saccharomyces cerevisiae</span>',
+  'Caenorhabditis elegans' => '<span style="color: #076dad; font-weight:700;">Caenorhabditis elegans</span>',
+  'Drosophila melanogaster' => '<span style="color: #a719db; font-weight:700;">Drosophila melanogaster</span>',
+  'Mus musculus' => '<span style="color: #c80085; font-weight:700;">Mus musculus</span>',
 );
 
 @answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
@@ -163,6 +163,7 @@ my @answer_letters_with_blank = ('', @answer_letters);
 # -------------------------------
 HEADER_TEXT(<<END_STYLE);
 <style>
+.pgml-bold { font-weight: 700; }
 .two-column {
     display: flex;
 	flex-wrap: wrap;

@@ -5,7 +5,7 @@
 ## DBsubject('Biotechnology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-15')
+## Date('2026-11-18')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -98,9 +98,9 @@ push(@answers, (map { $_->[1] } @q_and_a));
 # HTML-safe answer labels
 # -------------------------------
 %answer_html = (
-  'Ancient times (before 1800)' => 'Ancient times (before 1800)',
-  'Classical times (1800-1945)' => 'Classical times (1800-1945)',
-  'Modern times (1945-present)' => 'Modern times (1945-present)',
+  'Ancient times (before 1800)' => '<span style="color: #b74300; font-weight:700;">Ancient times (before 1800)</span>',
+  'Classical times (1800-1945)' => '<span style="color: #3b7600; font-weight:700;">Classical times (1800-1945)</span>',
+  'Modern times (1945-present)' => '<span style="color: #007576; font-weight:700;">Modern times (1945-present)</span>',
 );
 
 @answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
@@ -134,6 +134,7 @@ my @answer_letters_with_blank = ('', @answer_letters);
 # -------------------------------
 HEADER_TEXT(<<END_STYLE);
 <style>
+.pgml-bold { font-weight: 700; }
 .two-column {
     display: flex;
 	flex-wrap: wrap;

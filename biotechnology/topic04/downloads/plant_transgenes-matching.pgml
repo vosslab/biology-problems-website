@@ -5,7 +5,7 @@
 ## DBsubject('Biotechnology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-26')
+## Date('2026-11-18')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -133,17 +133,17 @@ push(@answers, (map { $_->[1] } @q_and_a));
 # HTML-safe answer labels
 # -------------------------------
 %answer_html = (
-  'DREB1A gene' => 'DREB1A gene',
-  'Cry/Bt genes' => 'Cry/Bt genes',
-  'AVP1 gene' => 'AVP1 gene',
-  'Modified aroA gene' => 'Modified aroA gene',
-  'Modified ALS gene' => 'Modified ALS gene',
-  'Modified QB protein gene' => 'Modified QB protein gene',
-  'TMV coat protein gene' => 'TMV coat protein gene',
-  'Golden Rice genes' => 'Golden Rice genes',
-  'gutD gene' => 'gutD gene',
-  'Human antibody genes' => 'Human antibody genes',
-  'Antisense PG construct' => 'Antisense PG construct',
+  'DREB1A gene' => '<span style="color: #00775f; font-weight:700;">DREB1A gene</span>',
+  'Cry/Bt genes' => '<span style="color: #007576; font-weight:700;">Cry/Bt genes</span>',
+  'AVP1 gene' => '<span style="color: #076dad; font-weight:700;">AVP1 gene</span>',
+  'Modified aroA gene' => '<span style="color: #003fff; font-weight:700;">Modified aroA gene</span>',
+  'Modified ALS gene' => '<span style="color: #0067cc; font-weight:700;">Modified ALS gene</span>',
+  'Modified QB protein gene' => '<span style="color: #a719db; font-weight:700;">Modified QB protein gene</span>',
+  'TMV coat protein gene' => '<span style="color: #c80085; font-weight:700;">TMV coat protein gene</span>',
+  'Golden Rice genes' => '<span style="color: #cc0066; font-weight:700;">Golden Rice genes</span>',
+  'gutD gene' => '<span style="color: #d40000; font-weight:700;">gutD gene</span>',
+  'Human antibody genes' => '<span style="color: #b74300; font-weight:700;">Human antibody genes</span>',
+  'Antisense PG construct' => '<span style="color: #935d00; font-weight:700;">Antisense PG construct</span>',
 );
 
 @answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
@@ -177,6 +177,7 @@ my @answer_letters_with_blank = ('', @answer_letters);
 # -------------------------------
 HEADER_TEXT(<<END_STYLE);
 <style>
+.pgml-bold { font-weight: 700; }
 .two-column {
     display: flex;
 	flex-wrap: wrap;

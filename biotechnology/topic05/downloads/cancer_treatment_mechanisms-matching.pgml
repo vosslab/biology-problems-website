@@ -1,0 +1,211 @@
+## DESCRIPTION
+## Match each of the following cancer treatments with their corresponding descriptions.
+## ENDDESCRIPTION
+## KEYWORDS('cancer treatments','cancer treatments','descriptions')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-11-18')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserPopUp.pl',
+    'parserUtils.pl',
+    'PGgraders.pl',
+    'PGcourse.pl'
+);
+our @ALPHABET = ('A' .. 'Z');
+
+# ================================
+# Full matching data
+# ================================
+%match_data = (
+  'CAR-T cells' => [
+    'are T cells given a new receptor that recognizes a marker on tumor cells',
+    'use an added receptor to find a chosen marker on the surface of a cell',
+    'are given a receptor in the lab so they can recognize tumor cells',
+    'use a new receptor to change which cells they recognize',
+    'can recognize CD19 through a receptor added in the lab',
+    'can be given a receptor that recognizes BCMA on myeloma cells',
+    'can target B cells by using an added receptor that binds to CD19',
+  ],
+  'checkpoint blockade' => [
+    'blocks signals that slow down T cells',
+    'blocks a stop signal so T cells that already respond can stay active',
+    'blocks signals such as PD-1 and PD-L1 that can slow down immune cells',
+    'helps T cells keep attacking a tumor even when it sends a stop signal',
+    'lets T cells stay active by blocking a signal from the tumor',
+    'can block the signal sent when PD-L1 binds PD-1 on a T cell',
+  ],
+  'oncolytic-virus therapy' => [
+    'uses a virus that makes more copies of itself in tumor cells and kills them',
+    'can break open infected tumor cells and release material the immune system can recognize',
+    'uses a virus that infects and kills cancer cells',
+    'can release tumor antigens when infected cancer cells break open',
+    'uses a virus that makes copies of itself more easily in cancer cells than in healthy cells',
+  ],
+  'enzyme/prodrug gene therapy' => [
+    'gives tumor cells a gene for an enzyme that turns a drug into a poison',
+    'makes treated cells produce an enzyme that turns on a drug given later',
+    'the cells make a new enzyme first, then the patient gets the drug it activates',
+    'uses a drug that becomes toxic where tumor cells make the new enzyme',
+    'lets a tumor cell turn an inactive drug into a form that kills the cell',
+  ],
+);
+
+# -------------------------------
+# Select N random keys
+# -------------------------------
+my $n = 4;
+@all_keys = PGsort(sub { $_[0] lt $_[1] }, keys %match_data);
+my $local_seed = (defined($problemSeed) && $problemSeed ne '') ? $problemSeed : 1;
+my $local_random = new PGrandom($local_seed);
+
+my @indices = (0 .. $#all_keys);
+my @shuffled = ();
+while (@indices) {
+  my $pick = $local_random->random(0, $#indices, 1);
+  push @shuffled, splice(@indices, $pick, 1);
+}
+my @selected_keys = @all_keys[@shuffled[0..$n-1]];
+
+# -------------------------------
+# Build question/answer pairs
+# -------------------------------
+# Each entry: [prompt, choice]
+@q_and_a = ();
+foreach my $key (@selected_keys) {
+  my $values_ref = $match_data{$key};
+  my $i = $local_random->random(0, $#$values_ref, 1);
+  my $value = $values_ref->[$i];
+  push @q_and_a, [ $value, $key ];
+}
+
+# -------------------------------
+# Randomize the questions
+# -------------------------------
+my @q_indices = (0 .. $#q_and_a);
+my @q_shuffled = ();
+while (@q_indices) {
+  my $pick = $local_random->random(0, $#q_indices, 1);
+  push @q_shuffled, $q_and_a[splice(@q_indices, $pick, 1)];
+}
+@q_and_a = @q_shuffled;
+
+# -------------------------------
+# Sort the choices alphabetically
+# -------------------------------
+@answers = ();
+push(@answers, (map { $_->[1] } @q_and_a));
+@answers_sorted = PGsort(sub { $_[0] lt $_[1] }, @answers);
+
+# -------------------------------
+# HTML-safe answer labels
+# -------------------------------
+%answer_html = (
+  'CAR-T cells' => '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+  'checkpoint blockade' => '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+  'oncolytic-virus therapy' => '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+  'enzyme/prodrug gene therapy' => '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+);
+
+@answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
+
+# -------------------------------
+# Create answer index lookup
+# -------------------------------
+our %answer_index;
+for (my $i = 0; $i <= $#answers_sorted; $i++) {
+  $answer_index{$answers_sorted[$i]} = $i;
+}
+
+# -------------------------------
+# PopUp/DropDown compatibility
+# -------------------------------
+sub make_popup {
+  return defined &DropDown ? DropDown(@_) : PopUp(@_);
+}
+
+# -------------------------------
+# Create popup objects (blank default)
+# -------------------------------
+my @answer_letters = @ALPHABET[0 .. $#answers_sorted];
+my @answer_letters_with_blank = ('', @answer_letters);
+@answer_dropdowns =
+  map { make_popup([ @answer_letters_with_blank ], $answer_index{$q_and_a[$_][1]} + 1 ) }
+  0 .. $#q_and_a;
+
+# -------------------------------
+# Render the question
+# -------------------------------
+HEADER_TEXT(<<END_STYLE);
+<style>
+.pgml-bold { font-weight: 700; }
+.two-column {
+    display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	align-items: center;
+	justify-content: space-evenly;
+}
+</style>
+END_STYLE
+
+$question_text = 'Match each cancer treatment with how it works.';
+$note_text = 'Note: Each choice will be used exactly once.';
+
+BEGIN_PGML
+[$question_text]*
+[$note_text]*
+
+[@ MODES(HTML => '<div class="two-column"><div>') @]*
+[@ join(
+    "\n\n",
+    map {
+        '[_]{$answer_dropdowns[' . $_ . ']} '
+            . '*' . ($_ + 1) . '.* '
+            . '[$q_and_a[' . $_ . '][0]]*'
+    } 0 .. $#q_and_a
+) @]**
+[@ MODES(HTML => '</div><div class="right-col">') @]*
+[@ join(
+    "\n\n",
+    map {
+        chr(65 + $_) . '\\.' . ' ' . '[$answers_sorted_html[' . $_ . ']]*'
+    } 0 .. $#answers_sorted
+) @]**
+[@ MODES(HTML => '</div></div>') @]*
+END_PGML
+
+# -------------------------------
+# Dynamic Partial Credit Based on $n
+# -------------------------------
+$showPartialCorrectAnswers = 0;
+my @thresholds;
+my @scores;
+for (my $i = 1; $i <= $n; $i++) {
+  push @thresholds, $i;
+  push @scores, sprintf("%.2f", $i / $n);
+}
+
+install_problem_grader(~~&custom_problem_grader_fluid);
+$ENV{grader_numright} = [@thresholds];
+$ENV{grader_scores}   = [@scores];
+$ENV{grader_message} = 'You can earn partial credit.';
+
+# -------------------------------
+# Solution
+# -------------------------------
+$answer_list = join(', ', map { ($_ + 1) . '-' . $ALPHABET[$answer_index{$q_and_a[$_][1]}] } 0 .. $#q_and_a);
+BEGIN_PGML_SOLUTION
+The correct answers are: [$answer_list].
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

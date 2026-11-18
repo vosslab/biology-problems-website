@@ -5,7 +5,7 @@
 ## DBsubject('Biotechnology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-15')
+## Date('2026-11-18')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -98,11 +98,11 @@ push(@answers, (map { $_->[1] } @q_and_a));
 # HTML-safe answer labels
 # -------------------------------
 %answer_html = (
-  'Core purpose' => 'Core purpose',
-  'Selection criteria' => 'Selection criteria',
-  'Advantages' => 'Advantages',
-  'Limitations' => 'Limitations',
-  'Industrial applications' => 'Industrial applications',
+  'Core purpose' => '<span style="color: #d40000; font-weight:700;">Core purpose</span>',
+  'Selection criteria' => '<span style="color: #6c6c00; font-weight:700;">Selection criteria</span>',
+  'Advantages' => '<span style="color: #00775f; font-weight:700;">Advantages</span>',
+  'Limitations' => '<span style="color: #003fff; font-weight:700;">Limitations</span>',
+  'Industrial applications' => '<span style="color: #c80085; font-weight:700;">Industrial applications</span>',
 );
 
 @answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
@@ -136,6 +136,7 @@ my @answer_letters_with_blank = ('', @answer_letters);
 # -------------------------------
 HEADER_TEXT(<<END_STYLE);
 <style>
+.pgml-bold { font-weight: 700; }
 .two-column {
     display: flex;
 	flex-wrap: wrap;

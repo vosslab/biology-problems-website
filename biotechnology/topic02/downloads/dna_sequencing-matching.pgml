@@ -5,7 +5,7 @@
 ## DBsubject('Biotechnology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-15')
+## Date('2026-11-18')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -102,14 +102,14 @@ push(@answers, (map { $_->[1] } @q_and_a));
 # HTML-safe answer labels
 # -------------------------------
 %answer_html = (
-  'Classical Sanger sequencing' => 'Classical Sanger sequencing',
-  'Terminal-dye Sanger sequencing' => 'Terminal-dye Sanger sequencing',
-  'Roche 454 pyrosequencing' => 'Roche 454 pyrosequencing',
-  'ABI solid sequencing' => 'ABI solid sequencing',
-  'Illumina sequencing by synthesis' => 'Illumina sequencing by synthesis',
-  'Ion Torrent semiconductor sequencing' => 'Ion Torrent semiconductor sequencing',
-  'PacBio single molecule real time (SMRT) sequencing' => 'PacBio single molecule real time (SMRT) sequencing',
-  'Oxford Nanopore sequencing' => 'Oxford Nanopore sequencing',
+  'Classical Sanger sequencing' => '<span style="color: #d40000; font-weight:700;">Classical Sanger sequencing</span>',
+  'Terminal-dye Sanger sequencing' => '<span style="color: #b74300; font-weight:700;">Terminal-dye Sanger sequencing</span>',
+  'Roche 454 pyrosequencing' => '<span style="color: #6c6c00; font-weight:700;">Roche 454 pyrosequencing</span>',
+  'ABI solid sequencing' => '<span style="color: #007a00; font-weight:700;">ABI solid sequencing</span>',
+  'Illumina sequencing by synthesis' => '<span style="color: #007576; font-weight:700;">Illumina sequencing by synthesis</span>',
+  'Ion Torrent semiconductor sequencing' => '<span style="color: #003fff; font-weight:700;">Ion Torrent semiconductor sequencing</span>',
+  'PacBio single molecule real time (SMRT) sequencing' => '<span style="color: #a719db; font-weight:700;">PacBio single molecule real time (SMRT) sequencing</span>',
+  'Oxford Nanopore sequencing' => '<span style="color: #cc0066; font-weight:700;">Oxford Nanopore sequencing</span>',
 );
 
 @answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
@@ -143,6 +143,7 @@ my @answer_letters_with_blank = ('', @answer_letters);
 # -------------------------------
 HEADER_TEXT(<<END_STYLE);
 <style>
+.pgml-bold { font-weight: 700; }
 .two-column {
     display: flex;
 	flex-wrap: wrap;

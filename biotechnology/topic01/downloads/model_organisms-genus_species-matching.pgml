@@ -5,7 +5,7 @@
 ## DBsubject('Biotechnology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-15')
+## Date('2026-11-18')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -150,24 +150,24 @@ push(@answers, (map { $_->[1] } @q_and_a));
 # HTML-safe answer labels
 # -------------------------------
 %answer_html = (
-  'Lambda phage' => 'Lambda phage',
-  'Tobacco mosaic virus' => 'Tobacco mosaic virus',
-  'Escherichia coli' => 'Escherichia coli',
-  'Photosynthetic cyanobacteria' => 'Photosynthetic cyanobacteria',
-  'Saccharomyces cerevisiae' => 'Saccharomyces cerevisiae',
-  'Tetrahymena thermophila' => 'Tetrahymena thermophila',
-  'Caenorhabditis elegans' => 'Caenorhabditis elegans',
-  'Arabidopsis thaliana' => 'Arabidopsis thaliana',
-  'Panicum virgatum' => 'Panicum virgatum',
-  'Chlamydomonas reinhardtii' => 'Chlamydomonas reinhardtii',
-  'Drosophila melanogaster' => 'Drosophila melanogaster',
-  'Danio rerio' => 'Danio rerio',
-  'Ambystoma mexicanum' => 'Ambystoma mexicanum',
-  'Xenopus laevis' => 'Xenopus laevis',
-  'Mus musculus' => 'Mus musculus',
-  'Rattus norvegicus' => 'Rattus norvegicus',
-  'Oryctolagus cuniculus domesticus' => 'Oryctolagus cuniculus domesticus',
-  'Rhesus macaque' => 'Rhesus macaque',
+  'Lambda phage' => '<span style="color: #9b3547; font-weight:700;">Lambda phage</span>',
+  'Tobacco mosaic virus' => '<span style="color: #983d27; font-weight:700;">Tobacco mosaic virus</span>',
+  'Escherichia coli' => '<span style="color: #935d00; font-weight:700;">Escherichia coli</span>',
+  'Photosynthetic cyanobacteria' => '<span style="color: #7e5413; font-weight:700;">Photosynthetic cyanobacteria</span>',
+  'Saccharomyces cerevisiae' => '<span style="color: #007a00; font-weight:700;">Saccharomyces cerevisiae</span>',
+  'Tetrahymena thermophila' => '<span style="color: #60621b; font-weight:700;">Tetrahymena thermophila</span>',
+  'Caenorhabditis elegans' => '<span style="color: #076dad; font-weight:700;">Caenorhabditis elegans</span>',
+  'Arabidopsis thaliana' => '<span style="color: #296d3d; font-weight:700;">Arabidopsis thaliana</span>',
+  'Panicum virgatum' => '<span style="color: #006e55; font-weight:700;">Panicum virgatum</span>',
+  'Chlamydomonas reinhardtii' => '<span style="color: #006c68; font-weight:700;">Chlamydomonas reinhardtii</span>',
+  'Drosophila melanogaster' => '<span style="color: #a719db; font-weight:700;">Drosophila melanogaster</span>',
+  'Danio rerio' => '<span style="color: #006789; font-weight:700;">Danio rerio</span>',
+  'Ambystoma mexicanum' => '<span style="color: #30618f; font-weight:700;">Ambystoma mexicanum</span>',
+  'Xenopus laevis' => '<span style="color: #3e5aa4; font-weight:700;">Xenopus laevis</span>',
+  'Mus musculus' => '<span style="color: #c80085; font-weight:700;">Mus musculus</span>',
+  'Rattus norvegicus' => '<span style="color: #7540a5; font-weight:700;">Rattus norvegicus</span>',
+  'Oryctolagus cuniculus domesticus' => '<span style="color: #8b348e; font-weight:700;">Oryctolagus cuniculus domesticus</span>',
+  'Rhesus macaque' => '<span style="color: #94356a; font-weight:700;">Rhesus macaque</span>',
 );
 
 @answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
@@ -201,6 +201,7 @@ my @answer_letters_with_blank = ('', @answer_letters);
 # -------------------------------
 HEADER_TEXT(<<END_STYLE);
 <style>
+.pgml-bold { font-weight: 700; }
 .two-column {
     display: flex;
 	flex-wrap: wrap;

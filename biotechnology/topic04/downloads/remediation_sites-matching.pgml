@@ -5,7 +5,7 @@
 ## DBsubject('Biotechnology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-26')
+## Date('2026-11-18')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -141,17 +141,17 @@ push(@answers, (map { $_->[1] } @q_and_a));
 # HTML-safe answer labels
 # -------------------------------
 %answer_html = (
-  'Exxon Valdez' => 'Exxon Valdez',
-  'Deepwater Horizon' => 'Deepwater Horizon',
-  'Hudson River' => 'Hudson River',
-  'Love Canal' => 'Love Canal',
-  'Kerala' => 'Kerala',
-  'Chernobyl' => 'Chernobyl',
-  'Fukushima' => 'Fukushima',
-  'Hinkley' => 'Hinkley',
-  'Berkeley Pit' => 'Berkeley Pit',
-  'East Metro Twin Cities (Minnesota)' => 'East Metro Twin Cities (Minnesota)',
-  'Parkersburg' => 'Parkersburg',
+  'Exxon Valdez' => '<span style="color: #00775f; font-weight:700;">Exxon Valdez</span>',
+  'Deepwater Horizon' => '<span style="color: #007576; font-weight:700;">Deepwater Horizon</span>',
+  'Hudson River' => '<span style="color: #076dad; font-weight:700;">Hudson River</span>',
+  'Love Canal' => '<span style="color: #003fff; font-weight:700;">Love Canal</span>',
+  'Kerala' => '<span style="color: #0067cc; font-weight:700;">Kerala</span>',
+  'Chernobyl' => '<span style="color: #a719db; font-weight:700;">Chernobyl</span>',
+  'Fukushima' => '<span style="color: #c80085; font-weight:700;">Fukushima</span>',
+  'Hinkley' => '<span style="color: #cc0066; font-weight:700;">Hinkley</span>',
+  'Berkeley Pit' => '<span style="color: #d40000; font-weight:700;">Berkeley Pit</span>',
+  'East Metro Twin Cities (Minnesota)' => '<span style="color: #b74300; font-weight:700;">East Metro Twin Cities (Minnesota)</span>',
+  'Parkersburg' => '<span style="color: #935d00; font-weight:700;">Parkersburg</span>',
 );
 
 @answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
@@ -185,6 +185,7 @@ my @answer_letters_with_blank = ('', @answer_letters);
 # -------------------------------
 HEADER_TEXT(<<END_STYLE);
 <style>
+.pgml-bold { font-weight: 700; }
 .two-column {
     display: flex;
 	flex-wrap: wrap;

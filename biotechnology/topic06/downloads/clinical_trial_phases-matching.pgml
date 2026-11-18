@@ -5,7 +5,7 @@
 ## DBsubject('Biotechnology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-15')
+## Date('2026-11-18')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -27,24 +27,29 @@ our @ALPHABET = ('A' .. 'Z');
 # ================================
 %match_data = (
   'Phase 0' => [
-    'Altruistic volunteers who accept an invasive study that offers no treatment benefit',
-    'Give a dose too small to treat disease, only to see what the drug does in the body',
+    'uses a very small dose to see how the body handles the drug before regular dose studies',
+    'is an optional early study that does NOT aim to treat the people taking part',
+    'may use a dose too small to treat disease in an early test of how the drug moves through the body',
   ],
   'Phase 1' => [
-    'Healthy volunteers, or terminally ill volunteers when healthy people should avoid the drug',
-    'Find the safe dosage range and the earliest side effects',
+    'checks early side effects and finds a range of doses people can tolerate',
+    'is an early safety study that can include healthy volunteers or patients, depending on the drug',
+    'asks how much of the drug people can take before side effects become a problem',
   ],
   'Phase 2' => [
-    'A few hundred randomized patients chosen with strict eligibility rules',
-    'Test whether the drug is effective against the disease and record its side effects',
+    'looks for early signs that a drug works in people with the condition',
+    'tests how well the drug seems to work and helps pick a dose for a larger study',
+    'looks for a useful dose and an early sign of benefit before a larger trial',
   ],
   'Phase 3' => [
-    'Thousands of patients who have the condition the drug is meant to treat',
-    'Compare the drug with other treatments while continuing to monitor side effects',
+    'uses larger trials to confirm benefits and collect more safety data before approval',
+    'tests whether an early sign of benefit holds up in a larger group before approval',
+    'can compare the drug with standard care in a large study to confirm how well it works',
   ],
   'Phase 4' => [
-    'Patients who are already taking the approved drug',
-    'Monitor long-term effects after the drug is already being prescribed',
+    'studies a medicine after it has been approved',
+    'can look for side effects that only show up after many people start taking the approved drug',
+    'may follow people over time to learn about a drug already on the market',
   ],
 );
 
@@ -98,11 +103,11 @@ push(@answers, (map { $_->[1] } @q_and_a));
 # HTML-safe answer labels
 # -------------------------------
 %answer_html = (
-  'Phase 0' => 'Phase 0',
-  'Phase 1' => 'Phase 1',
-  'Phase 2' => 'Phase 2',
-  'Phase 3' => 'Phase 3',
-  'Phase 4' => 'Phase 4',
+  'Phase 0' => '<span style="color: #b74300; font-weight:700;">Phase 0</span>',
+  'Phase 1' => '<span style="color: #3b7600; font-weight:700;">Phase 1</span>',
+  'Phase 2' => '<span style="color: #007576; font-weight:700;">Phase 2</span>',
+  'Phase 3' => '<span style="color: #0067cc; font-weight:700;">Phase 3</span>',
+  'Phase 4' => '<span style="color: #cc0066; font-weight:700;">Phase 4</span>',
 );
 
 @answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
@@ -136,6 +141,7 @@ my @answer_letters_with_blank = ('', @answer_letters);
 # -------------------------------
 HEADER_TEXT(<<END_STYLE);
 <style>
+.pgml-bold { font-weight: 700; }
 .two-column {
     display: flex;
 	flex-wrap: wrap;
@@ -146,7 +152,7 @@ HEADER_TEXT(<<END_STYLE);
 </style>
 END_STYLE
 
-$question_text = 'Match each clinical-trial phase to the correct description.';
+$question_text = 'Match each clinical trial phase with its main purpose.';
 $note_text = 'Note: Each choice will be used exactly once.';
 
 BEGIN_PGML

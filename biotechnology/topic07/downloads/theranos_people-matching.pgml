@@ -5,7 +5,7 @@
 ## DBsubject('Biotechnology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-15')
+## Date('2026-11-18')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -34,7 +34,7 @@ our @ALPHABET = ('A' .. 'Z');
   'Ramesh "Sunny" Balwani' => [
     'former president and chief operating officer (COO) of Theranos',
     q{joined Theranos in 2009 and ran the company's day-to- day operations as its president},
-    'was in a romantic relationship with Elizabeth Holmes during his tenure at Theranos',
+    'was in a romantic relationship with <span style="color: #935d00; font-weight:700;">Elizabeth Holmes</span> during his tenure at Theranos',
   ],
   'George Shultz' => [
     'former secretary of state and chairman of the Theranos board',
@@ -125,19 +125,19 @@ push(@answers, (map { $_->[1] } @q_and_a));
 # HTML-safe answer labels
 # -------------------------------
 %answer_html = (
-  'Elizabeth Holmes' => 'Elizabeth Holmes',
-  'Ramesh "Sunny" Balwani' => 'Ramesh "Sunny" Balwani',
-  'George Shultz' => 'George Shultz',
-  'Tyler Shultz' => 'Tyler Shultz',
-  'Erika Cheung' => 'Erika Cheung',
-  'David Boies' => 'David Boies',
-  'Channing Robertson' => 'Channing Robertson',
-  'Phyllis Gardner' => 'Phyllis Gardner',
-  'Rupert Murdoch' => 'Rupert Murdoch',
-  'Dr. Richard Fuisz, MD' => 'Dr. Richard Fuisz, MD',
-  'Avie Tevanian' => 'Avie Tevanian',
-  'John Carreyrou' => 'John Carreyrou',
-  'Amanda Seyfried' => 'Amanda Seyfried',
+  'Elizabeth Holmes' => '<span style="color: #935d00; font-weight:700;">Elizabeth Holmes</span>',
+  'Ramesh "Sunny" Balwani' => '<span style="color: #6c6c00; font-weight:700;">Ramesh "Sunny" Balwani</span>',
+  'George Shultz' => '<span style="color: #3b7600; font-weight:700;">George Shultz</span>',
+  'Tyler Shultz' => '<span style="color: #007a00; font-weight:700;">Tyler Shultz</span>',
+  'Erika Cheung' => '<span style="color: #00775f; font-weight:700;">Erika Cheung</span>',
+  'David Boies' => '<span style="color: #007576; font-weight:700;">David Boies</span>',
+  'Channing Robertson' => '<span style="color: #076dad; font-weight:700;">Channing Robertson</span>',
+  'Phyllis Gardner' => '<span style="color: #003fff; font-weight:700;">Phyllis Gardner</span>',
+  'Rupert Murdoch' => '<span style="color: #0067cc; font-weight:700;">Rupert Murdoch</span>',
+  'Dr. Richard Fuisz, MD' => '<span style="color: #a719db; font-weight:700;">Dr. Richard Fuisz, MD</span>',
+  'Avie Tevanian' => '<span style="color: #c80085; font-weight:700;">Avie Tevanian</span>',
+  'John Carreyrou' => '<span style="color: #cc0066; font-weight:700;">John Carreyrou</span>',
+  'Amanda Seyfried' => '<span style="color: #d40000; font-weight:700;">Amanda Seyfried</span>',
 );
 
 @answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
@@ -171,6 +171,7 @@ my @answer_letters_with_blank = ('', @answer_letters);
 # -------------------------------
 HEADER_TEXT(<<END_STYLE);
 <style>
+.pgml-bold { font-weight: 700; }
 .two-column {
     display: flex;
 	flex-wrap: wrap;

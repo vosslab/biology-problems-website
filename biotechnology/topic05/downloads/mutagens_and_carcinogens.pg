@@ -1,0 +1,190 @@
+## TITLE('Mutagens, Carcinogens, and the Ames Test')
+## DESCRIPTION
+## Select the statement that is TRUE or FALSE about mutagens, carcinogens, and the Ames test.
+## ENDDESCRIPTION
+## KEYWORDS('mutagens, carcinogens, and the Ames test','true/false','multiple choice')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-11-18')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "PGchoicemacros.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+#==========================================================
+# AUTO-GENERATED GROUPS FROM YAML
+#==========================================================
+
+@true_groups = (
+  [
+    'a mutagen makes changes in DNA more likely',
+    'more DNA mutations can occur after exposure to a mutagen',
+  ],
+  [
+    'a carcinogen can raise the chance of getting cancer',
+    'exposure to a carcinogen raises cancer risk',
+  ],
+  [
+    'a substance can be both a mutagen and a carcinogen',
+    'the same substance can cause DNA changes and raise cancer risk',
+    'some carcinogens change how cells respond to hormones without changing the DNA sequence',
+  ],
+  [
+    'the Ames test uses bacteria to check if a substance can cause DNA mutations',
+    'if more colonies grow on the treated plate than on the control plate, the substance may be a mutagen',
+  ],
+  [
+    'bacteria with a reverse mutation can grow without the nutrient they usually need',
+    'a change in DNA can let bacteria grow without the missing nutrient',
+  ],
+  [
+    'the Ames test alone cannot tell us how likely people are to get cancer',
+    'bacterial tests for mutations do NOT measure how many people get cancer',
+  ],
+);
+@false_groups = (
+  [
+    'a mutagen makes changes in DNA less likely',
+    'a mutagen is defined by how much protein it makes a cell produce',
+    'DNA mutations become less common when cells are exposed to a mutagen',
+    'a mutagen changes damaged genes back to their original DNA sequence',
+  ],
+  [
+    'a substance is called a carcinogen because it prevents cancer',
+    'if one exposed person stays healthy, the substance cannot be a carcinogen',
+    'everyone exposed to a carcinogen will get cancer',
+  ],
+  [
+    'a mutagen cannot also be a carcinogen',
+    'every carcinogen raises cancer risk by directly changing DNA',
+    'a substance that causes mutations cannot raise cancer risk',
+    'a substance can raise cancer risk only by directly changing the DNA sequence',
+    'carcinogens that act through hormones must also change the DNA sequence',
+    'a change in hormone signals cannot raise cancer risk unless the DNA sequence changes',
+  ],
+  [
+    'the Ames test uses human tumor cells to find out if a substance causes mutations',
+    'the Ames test uses bacteria to measure how fast a tumor grows',
+    'the Ames test looks for mutations that let human tissue grow again',
+    'the Ames test measures how many people get cancer',
+  ],
+  [
+    'bacteria with a reverse mutation in the Ames test still need the missing nutrient to grow',
+    'the colonies in the Ames test are counted to find out how many tumor cells grew',
+    'a reverse mutation in the Ames test makes the bacteria need the missing nutrient again',
+    'a colony in the Ames test shows that bacteria have turned into tumor cells',
+  ],
+  [
+    'the Ames test tells us the chance of cancer in people at each dose',
+    'a negative Ames test proves that a substance cannot cause cancer',
+    'more colonies in the Ames test prove that a person exposed to the substance will get cancer',
+    'no extra colonies in the Ames test show that a substance is safe at any dose',
+  ],
+);
+
+#==========================================================
+# GLOBAL SETTINGS
+#==========================================================
+
+$topic = 'mutagens, carcinogens, and the Ames test';
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+my @mode_choices = ("TRUE", "FALSE");
+$mode = $mode_choices[$local_random->random(0, $#mode_choices, 1)];
+$num_distractors = 4;
+# Question text with TRUE override
+$question_true = 'Which statement about mutagens, carcinogens, and the Ames test is TRUE?';
+# Question text with FALSE override
+$question_false = 'Which statement about mutagens, carcinogens, and the Ames test is FALSE?';
+#==========================================================
+# SELECT GROUP
+#==========================================================
+
+my (@selected_group, @opposite_groups);
+
+if ($mode eq "TRUE") {
+  $group_index      = $local_random->random(0, scalar(@true_groups)-1, 1);
+  @selected_group   = @{ $true_groups[$group_index] };
+  @opposite_groups  = @false_groups;
+} else {
+  $group_index      = $local_random->random(0, scalar(@false_groups)-1, 1);
+  @selected_group   = @{ $false_groups[$group_index] };
+  @opposite_groups  = @true_groups;
+}
+
+#==========================================================
+# PICK CORRECT + DISTRACTORS
+#==========================================================
+
+my $correct_index = $local_random->random(0, $#selected_group, 1);
+$correct = $selected_group[$correct_index];
+
+my @available_group_indices = (0 .. $#opposite_groups);
+my @selected_distractor_indices = ();
+
+while (@selected_distractor_indices < $num_distractors && @available_group_indices > 0) {
+  my $random_index = $local_random->random(0, scalar(@available_group_indices)-1, 1);
+  push @selected_distractor_indices, splice(@available_group_indices, $random_index, 1);
+}
+
+@distractors = ();
+foreach my $group_idx (@selected_distractor_indices) {
+  my @group = @{ $opposite_groups[$group_idx] };
+  my $distractor_index = $local_random->random(0, $#group, 1);
+  my $distractor = $group[$distractor_index];
+  push @distractors, $distractor;
+}
+
+@choices = ($correct, @distractors);
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# RADIO BUTTONS WITH A/B/C/D/E LABELS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => ['A','B','C','D','E'],
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+[@ $mode eq "TRUE" ? $question_true : $question_false @]*
+
+[_]{$rb}
+
+END_PGML
+
+ENDDOCUMENT();
+

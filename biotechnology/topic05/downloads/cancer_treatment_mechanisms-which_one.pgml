@@ -1,0 +1,369 @@
+## DESCRIPTION
+## Select the cancer treatment that corresponds to the given description.
+## ENDDESCRIPTION
+## KEYWORDS('cancer treatments','cancer treatments','descriptions','which one','multiple choice')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-11-18')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>are T cells given a new receptor that recognizes a marker on tumor cells</strong>',
+    'plural_choice' => 'cancer treatments',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+      '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+      '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+      '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+  },
+  {
+    'item_name' => '<strong>use an added receptor to find a chosen marker on the surface of a cell</strong>',
+    'plural_choice' => 'cancer treatments',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+      '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+      '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+      '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+  },
+  {
+    'item_name' => '<strong>are given a receptor in the lab so they can recognize tumor cells</strong>',
+    'plural_choice' => 'cancer treatments',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+      '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+      '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+      '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+  },
+  {
+    'item_name' => '<strong>use a new receptor to change which cells they recognize</strong>',
+    'plural_choice' => 'cancer treatments',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+      '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+      '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+      '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+  },
+  {
+    'item_name' => '<strong>can recognize CD19 through a receptor added in the lab</strong>',
+    'plural_choice' => 'cancer treatments',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+      '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+      '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+      '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+  },
+  {
+    'item_name' => '<strong>can be given a receptor that recognizes BCMA on myeloma cells</strong>',
+    'plural_choice' => 'cancer treatments',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+      '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+      '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+      '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+  },
+  {
+    'item_name' => '<strong>can target B cells by using an added receptor that binds to CD19</strong>',
+    'plural_choice' => 'cancer treatments',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+      '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+      '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+      '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+  },
+  {
+    'item_name' => '<strong>blocks signals that slow down T cells</strong>',
+    'plural_choice' => 'cancer treatments',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+      '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+      '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+      '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+    ],
+    'correct' => '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+  },
+  {
+    'item_name' => '<strong>blocks a stop signal so T cells that already respond can stay active</strong>',
+    'plural_choice' => 'cancer treatments',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+      '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+      '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+      '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+    ],
+    'correct' => '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+  },
+  {
+    'item_name' => '<strong>blocks signals such as PD-1 and PD-L1 that can slow down immune cells</strong>',
+    'plural_choice' => 'cancer treatments',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+      '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+      '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+      '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+    ],
+    'correct' => '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+  },
+  {
+    'item_name' => '<strong>helps T cells keep attacking a tumor even when it sends a stop signal</strong>',
+    'plural_choice' => 'cancer treatments',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+      '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+      '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+      '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+    ],
+    'correct' => '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+  },
+  {
+    'item_name' => '<strong>lets T cells stay active by blocking a signal from the tumor</strong>',
+    'plural_choice' => 'cancer treatments',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+      '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+      '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+      '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+    ],
+    'correct' => '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+  },
+  {
+    'item_name' => '<strong>can block the signal sent when PD-L1 binds PD-1 on a T cell</strong>',
+    'plural_choice' => 'cancer treatments',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+      '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+      '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+      '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+    ],
+    'correct' => '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+  },
+  {
+    'item_name' => '<strong>uses a virus that makes more copies of itself in tumor cells and kills them</strong>',
+    'plural_choice' => 'cancer treatments',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+      '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+      '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+      '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+  },
+  {
+    'item_name' => '<strong>can break open infected tumor cells and release material the immune system can recognize</strong>',
+    'plural_choice' => 'cancer treatments',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+      '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+      '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+      '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+  },
+  {
+    'item_name' => '<strong>uses a virus that infects and kills cancer cells</strong>',
+    'plural_choice' => 'cancer treatments',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+      '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+      '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+      '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+  },
+  {
+    'item_name' => '<strong>can release tumor antigens when infected cancer cells break open</strong>',
+    'plural_choice' => 'cancer treatments',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+      '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+      '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+      '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+  },
+  {
+    'item_name' => '<strong>uses a virus that makes copies of itself more easily in cancer cells than in healthy cells</strong>',
+    'plural_choice' => 'cancer treatments',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+      '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+      '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+      '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+  },
+  {
+    'item_name' => '<strong>gives tumor cells a gene for an enzyme that turns a drug into a poison</strong>',
+    'plural_choice' => 'cancer treatments',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+      '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+      '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+      '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+  },
+  {
+    'item_name' => '<strong>makes treated cells produce an enzyme that turns on a drug given later</strong>',
+    'plural_choice' => 'cancer treatments',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+      '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+      '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+      '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+  },
+  {
+    'item_name' => '<strong>the cells make a new enzyme first, then the patient gets the drug it activates</strong>',
+    'plural_choice' => 'cancer treatments',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+      '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+      '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+      '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+  },
+  {
+    'item_name' => '<strong>uses a drug that becomes toxic where tumor cells make the new enzyme</strong>',
+    'plural_choice' => 'cancer treatments',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+      '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+      '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+      '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+  },
+  {
+    'item_name' => '<strong>lets a tumor cell turn an inactive drug into a form that kills the cell</strong>',
+    'plural_choice' => 'cancer treatments',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">CAR-T cells</span>',
+      '<span style="color: #003fff; font-weight:700;">checkpoint blockade</span>',
+      '<span style="color: #a719db; font-weight:700;">oncolytic-virus therapy</span>',
+      '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">enzyme/prodrug gene therapy</span>',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+
