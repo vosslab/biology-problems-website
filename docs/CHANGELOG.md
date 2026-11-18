@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-11-18
+
+### Fixes and Maintenance
+
+- Synchronized shared style guides, tests, and repository support files from the starter template.
+
+## 2026-11-17
+
+- Add a bank on what PFAS are, how they are used, and how people come into contact
+  with them. Offer it alongside the PFAS filter diagram for eleven Set #6 tasks.
+- Register six Set #6 regulation banks, for ten task entries. Include visual questions on
+  generic drug study ranges and where PFAS goes after filtering water.
+- Dry-run selects all ten medicinal biotechnology task rows successfully. No site publication performed.
+- Register eight additional medicinal biotechnology tasks, bringing TP Set #5 to ten source banks. Reuse matching, ordering, and statement generators.
+
 ## 2026-11-01
 
 ### Genetics topic09 audit
